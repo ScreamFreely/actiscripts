@@ -2,17 +2,6 @@ import requests
 import lxml.html
 
 
-NS = {'wa': "http://WSLWebServices.leg.wa.gov/"}
-
-
-def xpath(elem, path):
-    """
-    A helper to run xpath with the proper namespaces for the Washington
-    Legislative API.
-    """
-    return elem.xpath(path, namespaces=NS)
-
-
 def url_xpath(url, path, verify=True):
     doc = lxml.html.fromstring(requests.get(url, verify=verify).text)
     return doc.xpath(path)

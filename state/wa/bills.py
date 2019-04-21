@@ -5,9 +5,9 @@ import pytz
 from collections import defaultdict
 
 from .actions import Categorizer
-from .utils import xpath
+from utils.lxmlize import xpath
 from pupa.scrape import Scraper, Bill, VoteEvent as Vote
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 import lxml.etree
 import lxml.html
