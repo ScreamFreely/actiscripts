@@ -1,6 +1,6 @@
 from pupa.scrape import Jurisdiction, Organization
 
-from openstates.utils import url_xpath
+from utils.lxmlize import url_xpath
 
 from .bills import NYBillScraper
 from .events import NYEventScraper

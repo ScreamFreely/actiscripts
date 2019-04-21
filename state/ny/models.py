@@ -1,7 +1,7 @@
 import re
 import inspect
 
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 from pupa.scrape import VoteEvent
 
 from .utils import Urls

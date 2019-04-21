@@ -4,7 +4,7 @@ import datetime as dt
 import pytz
 from pupa.scrape import Scraper, Event
 
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 url = "http://assembly.state.ny.us/leg/?sh=hear"
 

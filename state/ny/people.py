@@ -2,7 +2,7 @@ import re
 import datetime
 
 from pupa.scrape import Person, Scraper
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 
 class NYPersonScraper(Scraper, LXMLMixin):
