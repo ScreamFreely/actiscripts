@@ -1,5 +1,5 @@
 import re
-from openstates.utils import url_xpath
+from utils.lxmlize import url_xpath
 
 from pupa.scrape import Jurisdiction, Organization
 from .people import COLegislatorScraper

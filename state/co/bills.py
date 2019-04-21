@@ -7,7 +7,7 @@ import math
 import pytz
 from pupa.scrape import Scraper, Bill, VoteEvent
 
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 from .actions import Categorizer
 CO_URL_BASE = "http://leg.colorado.gov"
