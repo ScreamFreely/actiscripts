@@ -1,5 +1,5 @@
 # encoding=utf-8
-from openstates.utils import url_xpath
+from utils.lxmlize import url_xpath
 from pupa.scrape import Jurisdiction, Organization
 from .bills import IlBillScraper
 from .people import IlPersonScraper

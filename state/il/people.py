@@ -1,6 +1,6 @@
 from pupa.scrape import Scraper, Person
 import lxml.html
-from openstates.utils import validate_phone_number
+from utils import validate_phone_number
 
 
 CHAMBER_URLS = {
