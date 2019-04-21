@@ -1,6 +1,6 @@
 from pupa.scrape import Person, Scraper
 
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 from .util import get_client, get_url, backoff, SESSION_SITE_IDS
 
