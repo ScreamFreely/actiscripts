@@ -2,7 +2,7 @@ import re
 
 from pupa.scrape import Jurisdiction, Organization
 
-from openstates.utils import url_xpath
+from utils.lxmlize import url_xpath
 from .bills import CABillScraper
 # from .events import CAEventScraper
 from .people import CAPersonScraper
