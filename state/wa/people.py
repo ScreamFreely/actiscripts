@@ -1,6 +1,6 @@
 import re
 from pupa.scrape import Person, Scraper
-from openstates.utils import LXMLMixin
+from .osu import LXMLMixin
 
 
 class WAPersonScraper(Scraper, LXMLMixin):

@@ -1,4 +1,4 @@
-from openstates.utils import LXMLMixin
+from .osu import LXMLMixin
 from datetime import timedelta
 import datetime
 

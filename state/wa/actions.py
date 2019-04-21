@@ -1,5 +1,5 @@
 import re
-from utils.actions import Rule, BaseCategorizer
+from .osu.actions import Rule, BaseCategorizer
 
 
 # http://www.leg.wa.gov/legislature/pages/committeelisting.aspx#
