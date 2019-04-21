@@ -7,7 +7,7 @@ import xml.etree.cElementTree as etree
 
 from pupa.scrape import Scraper, Bill
 from pupa.scrape.base import ScrapeError
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 
 
 class TXBillScraper(Scraper, LXMLMixin):

@@ -5,7 +5,7 @@ import lxml.html.builder
 
 from pupa.scrape import Person, Scraper
 
-from openstates.utils import LXMLMixin
+from utils.lxmlize import LXMLMixin
 from .utils import extract_phone, extract_fax
 
 # ----------------------------------------------------------------------------
