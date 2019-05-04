@@ -3,8 +3,8 @@ import re
 from pupa.scrape import Jurisdiction, Organization
 
 from utils.lxmlize import url_xpath
-from .bills import CABillScraper
-# from .events import CAEventScraper
+# from .bills import CABillScraper
+from .events import CAEventScraper
 from .people import CAPersonScraper
 # from .committees import CACommitteeScraper
 
@@ -18,8 +18,8 @@ class California(Jurisdiction):
     name = "California"
     url = "http://www.legislature.ca.gov/"
     scrapers = {
-        'bills': CABillScraper,
-        # 'events': CAEventScraper,
+        # 'bills': CABillScraper,
+        'events': CAEventScraper,
         'people': CAPersonScraper,
         # 'committees': CACommitteeScraper,
     }
