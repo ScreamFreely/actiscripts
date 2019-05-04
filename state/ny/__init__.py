@@ -17,7 +17,7 @@ class NewYork(Jurisdiction):
     name = "New York"
     url = "http://public.leginfo.state.ny.us/"
     scrapers = {
-        'bills': NYBillScraper,
+        # 'bills': NYBillScraper,
         'events': NYEventScraper,
         'people': NYPersonScraper,
         # 'committees': NYCommitteeScraper,
