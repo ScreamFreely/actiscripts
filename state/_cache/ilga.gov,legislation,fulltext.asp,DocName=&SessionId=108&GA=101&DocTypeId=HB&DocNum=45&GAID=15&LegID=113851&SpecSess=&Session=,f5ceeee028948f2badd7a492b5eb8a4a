@@ -1,0 +1,911 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:14:36 GMT
+Content-Length: 122448
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0045</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0045&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0045&GA=101&SessionId=108&DocTypeId=HB&LegID=113851&DocNum=45&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0045.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0045lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0045&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0045lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0045lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0045&GAID=15&DocTypeID=HB&LegID=113851&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0045 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0045</pre></b></center><p>&nbsp;</p>Introduced , by Rep. La Shawn K. Ford<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code>
+</code><td class="synopsis"><code>10 ILCS 5/7-10</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 46, par. 7-10</code></td><code>
+</code></tr><tr><code>
+</code><td class="synopsis"><code>10 ILCS 5/8-8</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 46, par. 8-8</code></td><code>
+</code></tr><tr><code>
+</code><td class="synopsis"><code>10 ILCS 5/10-4</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 46, par. 10-4</code></td><code>
+</code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Election Code. Provides that a person must be 17 years of </code><code>age or older (currently, 18 years of age or older) to circulate petitions </code><code>for nomination.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning revenue.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Election Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Sections 7-10, 8-8, and 10-4 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/7-10)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 46, par. 7-10)</code><code>
+</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 7-10. </code><code>Form of petition for nomination. </code><code>The name of no </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>candidate for
+nomination, or State central committeeperson, or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>township committeeperson, or
+precinct committeeperson, or ward </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>committeeperson or candidate for delegate or
+alternate </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>delegate to national nominating conventions, shall be printed
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>upon the primary ballot unless a petition for nomination has </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>been filed in
+his behalf as provided in this Article in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>substantially the following form:</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>We, the undersigned, members of and affiliated with the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>.... party
+and qualified primary electors of the .... party, in </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the .... of ....,
+in the county of .... and State of Illinois, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>do hereby petition that
+the following named person or persons </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>shall be a candidate or candidates
+of the .... party for the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>nomination for (or in case of committeepersons for
+election to) </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the office or offices hereinafter specified, to be voted
+for at </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the primary election to be held on (insert date).</code><code>
+</code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"/><colgroup width="30%"/><colgroup width="30%"/><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><tr><code>
+</code></td></tr><tr><td class="number" valign="">23</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Name</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Office</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Address</code></td><code>
+</code></tr><code>
+</code><tr><code>
+</code></td></tr></table></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"/><colgroup width="30%"/><colgroup width="30%"/><tr><td class="number" valign="">1</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>John Jones</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Governor</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Belvidere, Ill.</code></td><code>
+</code></tr><code>
+</code><tr></td></tr><tr><td class="number" valign="">2</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>Jane James </code></td><td class="xsl" valign="" align="center" ><code>Lieutenant Governor </code></td><td class="xsl" valign="" align="center" ><code>Peoria, Ill. </code></td></tr><tr><code>
+</code></td></tr><tr><td class="number" valign="">3</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>Thomas Smith</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Attorney General</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Oakland, Ill.</code></td><code>
+</code></tr><code>
+</code><code>
+</code><code>
+</code></table></tr></td class="xsl"><code>
+</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Name..................</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Address.......................</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>State&nbsp;of&nbsp;Illinois)
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;ss.
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>County&nbsp;of........)</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I, ...., do hereby certify
+that I reside at No. .... </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>street, in the .... of ...., county of ....,
+and State of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>....., that I am </code><u><code>17</code></u><code> </code><strike><code>18</code></strike><code> years of age or older, that
+I am a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>citizen of the United States, and that the signatures on this </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>sheet
+were signed
+in my presence, and are genuine, and that to </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the best of my knowledge
+and belief the persons so signing were </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>at the time of signing the
+petitions qualified voters of the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>.... party, and that their respective
+residences are correctly </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>stated, as above set forth.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subscribed and sworn to before me on (insert date).</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Each sheet of the petition other than the statement of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>candidacy and
+candidate's statement shall be of uniform size </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>and shall contain above
+the space for signatures an appropriate </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>heading giving the information
+as to name of candidate or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>candidates, in whose behalf such petition is
+signed; the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>office, the political party represented and place of
+residence; </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>and the heading of each sheet shall be the same.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Such petition shall be signed by qualified primary electors </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>residing
+in the political division for which the nomination is </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>sought in their
+own proper persons only and opposite the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>signature of each signer, his
+residence address shall be </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>written or printed.  The residence address
+required to be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>written or printed opposite each qualified primary elector's
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>name shall include the street address or rural route number of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the signer,
+as the case may be, as well as the signer's county, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and city, village or
+town, and state.
+However the county or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>city, village or town, and state of residence of
+the electors </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>may be printed on the petition forms where all of the
+electors </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>signing the petition reside in the same county or city, village
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>or town, and state. Standard abbreviations may be used in </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>writing the
+residence address, including street number, if any.  </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>At the bottom of
+each sheet of such petition shall be added a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>circulator statement signed by
+a person </code><u><code>17</code></u><code> </code><strike><code>18</code></strike><code> years of age or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>older who is a citizen of the United States,
+stating the street </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>address or rural route number, as the case may be, as well
+as </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the county, city, village or town, and state;
+and certifying </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>that the signatures on that sheet of the petition were signed </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>in
+his or her presence and certifying that the signatures are </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>genuine; and
+either (1) indicating the dates on which that </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>sheet was circulated, or (2)
+indicating the first and last </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>dates on which the sheet was circulated, or (3)
+certifying that </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>none of the signatures on the sheet were signed more than 90
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>days preceding the last day for the filing of the petition and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>certifying that
+to the best of his or her knowledge  and belief </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the persons so signing were at
+the time of signing the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>petitions qualified voters of the political party for
+which a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>nomination is sought. Such statement shall be sworn to before </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>some
+officer authorized to administer oaths in this State.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>No petition sheet shall be circulated more than 90 days </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>preceding the
+last day provided in Section 7-12 for the filing </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>of such petition.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The person circulating the petition, or the candidate on </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>whose behalf the
+petition is circulated, may strike any </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>signature from the petition,
+provided that:</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) the person striking the signature shall initial the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>petition at
+the place where the signature is struck; and</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) the person striking the signature shall sign a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certification
+listing the page number and line number of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>each signature struck from
+the petition.  Such </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certification shall be filed as a part of the petition.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Such sheets before being filed shall be neatly fastened </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>together in
+book form, by placing the sheets in a pile and </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>fastening them together
+at one edge in a secure and suitable </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>manner, and the sheets shall then
+be numbered consecutively.  </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>The sheets shall not be fastened by pasting
+them together end </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>to end, so as to form a continuous strip or roll.  All
+petition </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>sheets which are filed with the proper local election </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>officials,
+election authorities or the State Board of Elections </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>shall be the original
+sheets which have been signed by the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>voters and by the circulator thereof,
+and not photocopies or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>duplicates of such sheets.  Each petition must include
+as a part </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>thereof, a statement of candidacy for each of the candidates </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>filing,
+or in whose behalf the petition is filed. This </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>statement shall set out the
+address of such candidate, the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>office for which he is a candidate, shall state
+that the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>candidate is a qualified primary voter of the party to which </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the
+petition relates and is qualified for the office specified </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>(in the case of a
+candidate for State's Attorney it shall state </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>that the candidate is at the time
+of filing such statement a </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>licensed attorney-at-law of this State), shall state
+that he </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>has filed (or will file before the close of the petition filing </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>period)
+a statement of economic interests as required by the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Illinois Governmental
+Ethics Act, shall request that the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>candidate's name be placed upon the official
+ballot, and shall </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>be subscribed and sworn to by such candidate before some
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>officer authorized to take acknowledgment of deeds in the State </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>and shall be in
+substantially the following form:</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><center><code>Statement of Candidacy</code></center><code>
+</code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="18%"/><colgroup width="18%"/><colgroup width="18%"/><colgroup width="18%"/><colgroup width="18%"/><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><code>
+</code><tr><code>
+</code></td></tr><tr><td class="number" valign="">23</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>Name</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Address</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Office</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>District</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Party</code></td><code>
+</code></tr><code>
+</code><tr><code>
+</code></td></tr><tr><td class="number" valign="">24</td><td class="junk"></td><td class="xsl" valign="" align="center" ><code>John Jones</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>102 Main St.</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Governor</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Statewide</code></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Republican</code></td><code>
+</code></tr><code>
+</code><tr><code>
+</code></td></tr><tr><td class="number" valign="">25</td><td class="junk"></td><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Belvidere,</code></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code></tr><code>
+</code><tr><code>
+</code></td></tr><tr><td class="number" valign="">26</td><td class="junk"></td><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ><code>Illinois</code></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code><td class="xsl" valign="" align="center" ></td><code>
+</code></tr><code>
+</code><code>
+</code><code>
+</code></table></tr></td class="xsl"><code>
+</code><br>&nbsp;<code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>State&nbsp;of&nbsp;Illinois)
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;ss.
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>County&nbsp;of&nbsp;.......)</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I, ...., being first duly sworn, say that I reside at .... </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Street in the city
+(or village) of ...., in the county of ...., </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>State of Illinois; that I
+am a qualified voter therein and am a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>qualified primary voter of the ....
+party; that I am a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>candidate for nomination (for election in the case of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>committeeperson
+ and delegates and alternate delegates) to the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>office of ....
+to be voted upon at the primary election to be </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>held on (insert date); that I am
+legally qualified (including
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>being the holder of any license that may be an eligibility </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>requirement
+for the office I seek the nomination for) to hold </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>such office and that I
+have filed (or I will file before the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>close of the petition filing period)
+a statement of economic </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>interests as required by the Illinois
+Governmental Ethics Act </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>and I hereby  request that my name be printed
+upon the official </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>primary ballot for nomination for (or election to in
+the case </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>of committeepersons and delegates and alternate delegates) </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>such
+office.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><div align="right"><code>Signed ......................</code></div><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subscribed and sworn to (or affirmed) before me by ...., </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>who is to me
+personally known, on (insert date).</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><div align="right"><code>Signed ....................</code></div><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><center><code>(Official Character)</code></center><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(Seal,&nbsp;if&nbsp;officer&nbsp;has&nbsp;one.)</code><code>
+</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The petitions, when filed, shall not be withdrawn or added </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>to, and no
+signatures shall be revoked except by revocation </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>filed in writing with
+the State Board of Elections, election </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>authority or local election
+official with whom the petition is </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>required to be filed, and before the
+filing of such petition.  </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Whoever forges the name of a signer upon any
+petition required </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>by this Article is deemed guilty of a forgery and on
+conviction </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>thereof shall be punished accordingly.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A candidate for the offices listed in this Section must </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>obtain the number
+of signatures specified in this Section on </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>his or her petition for nomination.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) Statewide office or delegate to a national nominating </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>convention. If a
+candidate seeks to run for statewide office or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>as a delegate or alternate
+delegate to a national nominating </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>convention elected from the State at-large,
+then the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for nomination must contain at least 5,000 </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>but
+not more than 10,000 signatures.</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Congressional office or congressional delegate to a </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>national nominating
+convention. If a candidate seeks to run for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>United States Congress or as a
+congressional delegate or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>alternate congressional delegate to a national
+nominating </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>convention elected from a congressional district, then the
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for nomination must contain at least the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>number of
+signatures equal to 0.5% of the qualified primary </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>electors of his or her party
+in his or her congressional </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>district. In the first primary election following a
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>redistricting of congressional districts, a candidate's </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>petition for nomination
+must contain at least 600 signatures of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>qualified primary electors of the
+candidate's political party </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>in his or her congressional district.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) County office. If a candidate seeks to run for any </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>countywide office,
+including but not limited to county board </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>chairperson or county board
+member, elected on an at-large </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>basis, in a county other than Cook County,
+then the candidate's </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>petition for nomination must contain at least the number
+of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>signatures equal to 0.5% of the qualified electors of his or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>her party who
+cast votes at the last preceding general election </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>in his or her county. If a
+candidate
+seeks to run for county </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>board member elected from a county board district, then
+the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for nomination must contain at least the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>number of
+signatures equal to 0.5% of the qualified primary </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>electors of his or her party
+in the
+county board district. In </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the first primary election following a redistricting
+of county </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>board districts or the initial establishment of county board
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>districts, a candidate's petition for nomination must contain </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>at least the
+number of signatures equal to 0.5% of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>qualified electors of his or her
+party
+in the entire county who </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>cast votes at the last preceding general election
+divided by </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the
+total number of county board districts comprising the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>county board; provided
+that
+in no event shall the number of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>signatures be less than 25.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) County office; Cook County only.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) If a candidate seeks to run for countywide office </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in Cook County,
+then the candidate's petition for </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nomination must contain at least the number
+of signatures </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equal to 0.5% of the qualified electors of his or her party </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>who
+cast votes at the last preceding general election in </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Cook County.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) If a candidate seeks to run for Cook County Board </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Commissioner,
+then the candidate's petition for nomination </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>must contain at least the number
+of signatures equal to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>0.5% of
+the qualified primary electors of his or her party </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in his or her county board
+district. In the first primary </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election following a redistricting of Cook
+County Board of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Commissioners districts, a candidate's petition for
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nomination must contain at least the number of signatures </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equal to 0.5% of
+the qualified electors of his or her party </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in the entire county who cast votes
+at the last
+preceding </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>general election divided by the total number of county </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>board
+districts comprising the county board; provided that </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in no event shall the
+number of signatures be less than 25.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) If a candidate seeks to run for Cook County Board </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Review
+Commissioner, which is elected from a district </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>pursuant to subsection (c)
+of Section 5-5 of the Property </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Tax Code, then the candidate's petition for
+nomination must </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>contain at least the number of signatures equal to 0.5% of
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the total number of registered voters in his or her board </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+review district in the last general election at which a </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>commissioner was
+regularly scheduled to be elected from </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>that board of review district. In no
+event shall the number </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of signatures required be greater than the requisite
+number </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for a candidate who seeks countywide office in Cook County
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under subsection (d)(1) of this Section. In the first </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>primary election
+following a redistricting of Cook County </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Board of Review districts, a
+candidate's petition for </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nomination must contain at least 4,000 signatures
+or at </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>least the number of signatures required for a countywide </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>candidate in
+Cook County, whichever is less,
+of the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>qualified electors of his or her party in the district.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) Municipal or township office. If a candidate seeks to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>run for municipal
+or township office, then the candidate's </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>petition for nomination must contain
+at least the number of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>signatures equal to 0.5% of the qualified primary
+electors of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>his or her party in the municipality or township. If a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>candidate
+seeks to run for alderman of a municipality, then the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for
+nomination must contain at least the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>number of signatures equal to 0.5% of the
+qualified primary </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>electors of his or her party of the ward. In the first
+primary </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>election following redistricting of aldermanic wards or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>trustee
+districts of a municipality or the initial </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>establishment of wards or districts,
+a candidate's petition for </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>nomination must contain the number of signatures
+equal to at </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>least 0.5% of the total number of votes cast for the candidate </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>of
+that political party who received the highest number of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>votes in the entire
+municipality at the last regular election </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>at which an officer was regularly
+scheduled to be elected from
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the entire municipality, divided by the number of wards or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>districts. In no
+event shall the number of signatures be less </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>than 25.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) State central committeeperson. If a candidate seeks to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>run for State
+central committeeperson, then the candidate's </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>petition for nomination must
+contain at least 100 signatures of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the primary electors of his or her party of
+his or
+her </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>congressional district.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Sanitary district trustee. If a candidate seeks to run </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>for trustee of a
+sanitary district in which trustees are not </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>elected from wards, then the
+candidate's petition for </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>nomination must contain at least the number of
+signatures equal </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>to 0.5% of the primary electors of his or her party from the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>sanitary district. If a candidate seeks to run for trustee
+of a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>sanitary district in which trustees are elected from wards, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>then the
+candidate's petition for
+nomination must contain at </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>least the number of signatures equal to 0.5% of the
+primary </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>electors of his or her party in the ward of that sanitary </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>district. In
+the
+first primary election following </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>redistricting of sanitary districts elected
+from wards, a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for nomination must contain at least the
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>signatures of 150 qualified primary electors of his or her ward </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>of that
+sanitary district.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) Judicial office. If a candidate seeks to run for </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>judicial office in a district, then the candidate's petition </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>for nomination must contain the number of signatures equal to </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>0.4% of the number of votes cast in that district for the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>candidate for his or her political party for the office of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Governor at the last general election at which a Governor was </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>elected, but in no event less than 500 signatures. If a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>candidate seeks to run for judicial office in a
+circuit or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>subcircuit, then the candidate's petition for nomination
+must </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>contain the number of signatures equal to 0.25% of the number </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>of votes
+cast for the judicial candidate of his or her </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>political party who received the
+highest number of votes
+at the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>last general election at which a judicial
+officer from the same  </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>circuit or subcircuit was regularly scheduled
+to be elected, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>but in no event less than 1,000 signatures in circuits and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>subcircuits located in the First Judicial District or 500 </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>signatures in every other Judicial District.</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) Precinct, ward, and township committeeperson. If a </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>candidate seeks to
+run for precinct committeeperson, then the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>candidate's petition for nomination
+must contain at least 10 </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>signatures of the primary electors of his or her
+party for the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>precinct. If a candidate seeks to run for ward committeeperson,
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>then the candidate's petition for nomination must contain no </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>less than the
+number of signatures equal to 10% of the primary </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>electors of his or her party
+of the ward, but no more than 16% </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>of those same electors; provided that the
+maximum number of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>signatures may be 50 more than the minimum number, whichever
+is </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>greater. If a candidate seeks to run for township </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>committeeperson, then the
+candidate's petition for nomination </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>must contain no less than the number of
+signatures equal to 5% </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>of the primary electors of his or her party of the
+township, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>but no more than 8% of those same electors;
+provided that the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>maximum number of signatures may be 50 more than the
+minimum </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>number, whichever is greater.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(j) State's attorney or regional superintendent of schools </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>for multiple
+counties. If
+a candidate seeks to run for State's </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>attorney or regional Superintendent of
+Schools who serves more </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>than one county, then the candidate's petition for
+nomination </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>must contain at least the number of signatures equal to 0.5% of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the
+primary electors of his or her party in the territory </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>comprising the counties.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(k) Any other office. If a candidate seeks any other </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>office, then the
+candidate's petition for nomination must </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>contain at least the number of
+signatures equal to 0.5% of the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>registered voters of the political subdivision,
+district, or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>division for which the nomination is made or 25 signatures,
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>whichever is greater.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For purposes of this Section the number of primary electors </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall be
+determined by taking the total vote cast, in the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>applicable district, for the
+candidate for that political party </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>who received the highest number of votes,
+statewide, at the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>last general election in the State at which electors for
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>President of the United States were elected. For political </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>subdivisions, the
+number of primary electors shall be </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>determined by taking the total vote
+cast for the candidate for </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>that political party who received the highest number
+of votes </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>in the political subdivision at the last regular election at </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>which an
+officer was regularly scheduled to be elected from </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>that subdivision. For wards
+or districts of political </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>subdivisions, the number of primary electors shall be
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>determined by taking the total vote cast for the candidate for </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>that political
+party who received the highest number of votes </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>in the ward or district at the
+last regular election at which </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>an officer was regularly scheduled to be elected
+from that ward </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>or district.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A "qualified primary elector" of a party may not
+sign </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>petitions for or be a candidate in the primary of more than
+one </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>party.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The changes made to this Section of this amendatory Act of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the 93rd General
+Assembly are declarative of existing law, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>except for item (3) of subsection
+(d).</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Petitions of candidates for nomination for offices herein </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>specified,
+to be filed with the same officer, may contain the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>names of 2 or more
+candidates of the same political party for </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the same or different
+offices. In the case of the offices of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Governor and Lieutenant Governor, a joint petition including </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>one candidate for each of those offices must be filed. </code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-1027, eff. 1-1-19.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/8-8)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 46, par. 8-8)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-8. </code><code>Form of petition for nomination. </code><code>The name of no </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>candidate for nomination shall be printed
+upon the primary </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ballot unless a petition for nomination shall have been
+filed </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>in his behalf as provided for in this Section.  Each such </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>petition
+shall include as a part thereof the oath required by </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Section 7-10.1 of
+this Act and a statement of candidacy by the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>candidate filing or in
+whose behalf the petition is filed.  This </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>statement shall set out the
+address of such candidate, the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>office for which he is a candidate, shall
+state that the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>candidate is a qualified primary voter of the party to
+which </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the petition relates, is qualified for the office specified and
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>has filed a statement of economic interests as required by the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Illinois
+Governmental Ethics Act, shall request that the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>candidate's name be
+placed upon the official ballot and shall </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>be subscribed and sworn by
+such candidate before some officer </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>authorized to take acknowledgment of
+deeds in this State and </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>may be in substantially the following form:</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>State&nbsp;of&nbsp;Illinois)
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;ss.
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>County&nbsp;..........)</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I, ...., being first duly sworn, say that I reside at .... </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>street in
+the city (or village of) .... in the county of .... </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>State of Illinois;
+that I am a qualified voter therein and am a </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>qualified primary voter of
+.... party; that I am a candidate </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>for nomination to the office of ....
+to be voted upon at the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>primary election to be held on (insert date);
+that I am legally </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>qualified to hold such office and
+that I have filed a statement </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>of economic interests as required by the
+Illinois Governmental </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Ethics Act and I hereby request that my name be
+printed upon </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the official primary ballot for nomination for such office.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><div align="right"><code>Signed ....................</code></div><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subscribed and sworn to (or affirmed) before me by ...., </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>who is to me
+personally known, on (insert date).</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><center><code>Signed .... (Official Character)</code></center><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><center><code>(Seal if officer has one.)</code></center><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The receipt issued by the Secretary of State indicating </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>that the candidate has filed the statement of economic </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>interests required by the Illinois Governmental Ethics Act must </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>be filed with the petitions for nomination as provided in </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>subsection (8) of Section 7-12 of this Code.
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All petitions for nomination for the office of State </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Senator shall be signed
+by at least 1,000 but not more than </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>3,000  of the qualified primary electors of
+the candidate's </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>party in his legislative district.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All petitions for nomination for the office of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Representative in the General
+Assembly shall be signed by at </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>least 500 but not more than 1,500  of
+the qualified primary </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>electors of the candidate's party in his or her
+representative </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>district.</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Opposite the signature of each qualified primary elector </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>who signs a
+petition for nomination for the office of State </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Representative or State
+Senator such elector's residence </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>address shall be written or printed.  The
+residence address </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>required to be written or printed opposite each qualified
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>primary elector's name shall include the street address or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>rural route
+number of the signer, as the case may be, as well </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>as the signer's county
+and city, village or town.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For the purposes of this Section, the number of primary </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>electors shall
+be determined by taking the total vote cast, in </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the applicable district,
+for the candidate for such political </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>party who received the highest number
+of votes, state-wide, at </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the last general election in the State at which
+electors for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>President of the United States were elected.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A "qualified primary elector" of a party may not sign </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>petitions for or be a
+candidate in the primary of more than one </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>party.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In the affidavit at the bottom of each sheet, the petition </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>circulator,
+who shall be a person </code><u><code>17</code></u><code> </code><strike><code>18</code></strike><code> years of age or older </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>who is a citizen of the United
+States, shall state his or her </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>street address or rural route
+number, as the
+case may be, as </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>well as his or her county, city, village or
+town, and state; </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>and
+shall certify that the signatures on that sheet of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>petition were signed in
+his or her presence; and shall certify </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>that the signatures are genuine; and
+shall certify
+that to the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>best of his or her knowledge and belief the persons so signing </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>were
+at the time of signing the petition qualified primary </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>voters for which the
+nomination is sought.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In the affidavit at the bottom of each petition sheet, the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>petition
+circulator shall either (1) indicate the dates on </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>which he or she
+circulated that sheet, or (2) indicate the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>first and last dates on which
+the sheet was circulated, or (3) </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>certify that none of the signatures on the
+sheet were signed </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>more than 90 days preceding the last day for the filing
+of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>petition.  No petition sheet shall be circulated more than 90 </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>days
+preceding the last day provided in Section 8-9 for the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>filing of such petition.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All petition sheets which are filed with the State Board of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Elections shall
+be the original sheets which have been signed </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>by the voters and by the
+circulator, and not photocopies or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>duplicates of such sheets.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The person circulating the petition, or the candidate on </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>whose behalf
+the petition is circulated, may strike any </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>signature from the petition,
+provided that:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) the person striking the signature shall initial the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>petition at
+the place where the signature is struck; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) the person striking the signature shall sign a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certification
+listing the page number and line number of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>each signature struck from
+the petition.  Such </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certification shall be filed as a part of the petition.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 97-81, eff. 7-5-11.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/10-4)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 46, par. 10-4)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 10-4. </code><code>Form of petition for nomination. </code><code>All petitions </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>for nomination
+under this Article 10 for
+candidates for public </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>office in this State, shall in addition to other
+requirements </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>provided by law, be as follows:  Such petitions shall
+consist of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>sheets of uniform size and each sheet shall contain, above
+the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>space for signature, an appropriate heading, giving the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>information
+as to name of candidate or candidates in whose </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>behalf such petition is
+signed; the office; the party; place of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>residence; and such other
+information or wording as required to </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>make same valid, and the heading
+of each sheet shall be the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>same.  Such petition shall be signed by the
+qualified voters in </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>their own proper persons only, and opposite the
+signature of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>each signer his residence address shall be written or
+printed.  </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>The residence address required to be written or printed
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>opposite each qualified primary elector's name shall include </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the street
+address or rural route number of the signer, as the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>case may be, as well as
+the signer's county, and city, village </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>or town, and state.  However,
+the county or city, village or
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>town, and state of residence of such electors may be printed on </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the
+petition forms where all of the electors signing the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>petition
+reside in the same county or city, village or town, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>and state.  Standard
+abbreviations may be used in writing the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>residence address, including
+street number, if any.  No </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>signature shall be valid or be counted in
+considering the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>validity or sufficiency of such petition unless the
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>requirements of this Section are complied with. At the bottom </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>of each
+sheet of such petition shall be added a circulator's </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>statement, signed by a
+person </code><u><code>17</code></u><code> </code><strike><code>18</code></strike><code>
+years of age or older who </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>is a citizen of the United States; stating the street address </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>or rural route
+number, as the case may be, as well as the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>county,
+city,
+village or town, and state; certifying that the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>signatures on that sheet of
+the petition
+were signed in his or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>her presence; certifying that the signatures are
+genuine;
+and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>either (1) indicating the dates on which that sheet was </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>circulated, or (2)
+indicating the first and last dates on which </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the sheet was circulated, or (3)
+certifying that none of the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>signatures on the sheet were signed more than 90
+days preceding </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the last day for the filing of the petition; and
+certifying
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>that to the best of his knowledge and belief the persons so </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>signing were at the
+time of signing the petition duly </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>registered voters under Articles 4, 5 or 6 of
+the Code of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>political subdivision or district for which the candidate or
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>candidates shall be nominated, and certifying that their </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>respective residences
+are correctly stated therein.  Such </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>statement shall be sworn to before some
+officer authorized to </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>administer oaths in this State.  No petition sheet shall
+be </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>circulated more than 90 days preceding the last day provided in </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Section 10-6
+for the filing of such petition. Such sheets, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>before being presented to the
+electoral board or filed with the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>proper officer of the electoral district or
+division of the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>state or municipality, as the case may be, shall be neatly
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 21 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>fastened together in book form, by placing the sheets in a pile </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>and fastening
+them together at one edge in a secure and </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>suitable manner, and the sheets shall
+then be numbered </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>consecutively.  The sheets shall not be fastened by pasting
+them </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>together end to end, so as to form a continuous strip or roll.  </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>All
+petition sheets which are filed with the proper local </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>election officials,
+election authorities or the State Board of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Elections shall be the original
+sheets which have been signed </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>by the voters and by the circulator, and not
+photocopies or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>duplicates of such sheets.  A petition, when presented or
+filed, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>shall not be withdrawn, altered, or added to, and no signature </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>shall be
+revoked except by revocation in writing presented or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>filed with the officers or
+officer with whom the petition is </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>required to be presented or filed, and before
+the presentment </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>or filing of such petition.  Whoever forges any name of a
+signer </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>upon any petition shall be deemed guilty of a forgery, and on </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>conviction
+thereof, shall be punished accordingly.  The word </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>"petition" or "petition for
+nomination", as used herein, shall </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>mean what is sometimes known as nomination
+papers, in </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>distinction to what is known as a certificate of nomination. </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>The
+words "political division for which the candidate is </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>nominated", or its
+equivalent, shall mean the largest political </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>division in which all qualified
+voters may vote upon such </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>candidate or candidates, as the state in the case of
+state </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>officers; the township in the case of township officers et </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>cetera.
+Provided, further, that no person shall circulate or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0045</td><td class="xsl" align="center">- 22 -</td><td class="xsl" align="right">LRB101 00267 HLH 45271 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>certify petitions for
+candidates of more than one political </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>party, or for an independent candidate or
+candidates in </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>addition to one political party, to be voted upon at the next
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>primary or general election, or for such candidates and parties </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>with respect to
+the same political subdivision at the next </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>consolidated election.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-756, eff. 7-16-14.)</code><code>
+</code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

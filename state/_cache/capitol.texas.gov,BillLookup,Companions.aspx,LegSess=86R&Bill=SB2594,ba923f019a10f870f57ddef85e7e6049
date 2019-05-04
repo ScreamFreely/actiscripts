@@ -1,0 +1,490 @@
+status: 200
+encoding: utf-8
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 2.0.50727
+X-UA-Compatible: IE=EmulateIE7
+Date: Sat, 04 May 2019 01:33:31 GMT
+Content-Length: 9263
+
+
+
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>TLO</title>
+		<meta name="author" content="State of Texas: Texas Legislative Council"/>
+		<meta name="keywords" content="legislature, legislation, house, senate, bill"/>
+		<meta name="description" content="Website for the Texas Legislature.  Provides information on legislation, committees, house, and senate."/>
+		<meta name="subject" content="Legislation, State governments, Legislative Branch of Government, Bills"/>
+		<link rel="Shortcut Icon" type="image/x-icon" href="images/favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="images/capitol_57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/capitol_72.png" />		
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/capitol_114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/capitol_144.png" />
+		<link href="stylesheets/style.css" type="text/css" rel="stylesheet"/>
+		<link href="stylesheets/home.css" type="text/css" rel="alternate stylesheet" title="small" disabled/>
+		<link href="stylesheets/homelarge.css" type="text/css" rel="stylesheet" title="large"/>
+		<script language="javascript" type="text/javascript">
+		
+		function initPage()
+		{
+			document.getElementById('Address1').value = "";
+			document.getElementById('City').value = "";
+			document.getElementById('Zipcode').value = "";
+		}
+		function SubmitSearch()
+		{
+			if (event.keyCode == 13)
+			{
+				event.returnValue = false;
+				event.cancel = true;			
+				btnSubmit = document.getElementById('btnSubmit');
+				btnSubmit.click();
+			}
+		}
+		function openPopWin(url) {
+		popWin = window.open(url,"popup","width=580,height=590,left=10,top=10,scrollbars=1");
+		if (!popWin.opener)
+			popWin.opener = self;
+		else
+			popWin.focus();
+		}
+		
+		</script>
+	</head>
+	<body class="home" onload="initPage()">
+			
+<div id="pageHeader">
+
+<a name="top"></a><a href="#startcontent" class="skipToContentLink" tabindex=1>Skip to main content.</a>
+
+<table id="hdrTable" cellspacing="0" cellpadding="0" width="100%" summary="Table contains page description and navigation."  border=0>
+  <tr>
+    <td>
+      <table id="Table2" height="100%" cellspacing="0" cellpadding="0"
+      summary="Table contains page description." border="0">
+        <tr>
+          <td class="noPrint">
+          <img id="usrHeader_imgHeader" Width="162" Height="60" src="Images/capitolLarge.jpg" alt="Texas Capitol" border="0" /></td>
+          <td align="left" width="100%">
+			<span class="applicationName"><span id="usrHeader_lblApplicationName" style="display:inline-block;">86th Legislature Regular Session</span></span><br/>
+			<span class="pageDescription"><span id="usrHeader_lblPageTitle" style="display:inline-block;">Texas Legislature Online</span></span>
+          </td>
+          <td valign="top" bgcolor="#2c4369">
+            <table class="noPrint" height="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="utilityLink" valign="top" nowrap align="right"><img
+                  alt="*" src="/images/headerroundededge.gif" /></td>
+
+                <td nowrap bgcolor="#8c1010" height="17">&nbsp; &nbsp; 
+                <a class="utilityLink" href="http://www.tlc.state.tx.us/mande_images/webhelp/tlo.htm" target=_new_><strong>Help</strong></a> | 
+                <a class="utilityLink" href="/Resources/FAQ.aspx"><strong>FAQ</strong></a> | 
+                <a class="utilityLink" href="/Resources/sitemap.aspx"><strong>Site Map</strong></a> |
+                <a class="utilityLink" href="/Resources/contactText.aspx"><strong>Contact</strong></a> |
+				
+                  <a class="utilityLink" href="/MyTLO/Login/Login.aspx?ReturnUrl=/home.aspx?LegSess=86R&Bill=SB2594"><strong>Login</strong></a> &nbsp;
+                                  
+                </td></tr>
+              <tr>
+                <td nowrap align="left" colSpan="2">
+			<br/><font style="font-weight: bold; font-size: 10px" color=white>House: <script src="/tlodocs/SessionTime/HouseSessTime.js?v=43588"></script></font><br/><font style="font-weight: bold; font-size: 10px" color=white>Senate: <script src="/tlodocs/SessionTime/SenateSessTime.js?v=43588"></script></font>
+            </td></tr>
+            </table>
+        </td></tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        
+		<a href="#startcontent" accesskey="0"></a>       
+        
+</div>
+
+
+<div id="navMenu">
+
+<table cellspacing=0 cellpadding=0 width="100%">
+  <tbody>
+  <tr>
+    <td class="divider"></td></tr>
+  </tbody>
+</table>
+
+
+
+<style>
+DIV.navMenu {width:100%;}
+TABLE.nav {margin:0;padding:0;width:100%;}
+TABLE.nav TD {white-space:nowrap;text-align:center; font-family:verdana;font-size:12px;color:#fff;padding:0 1px 0 1px;height:22px;}
+TABLE.nav TD A:link, TABLE.nav TD A:visited, TABLE.nav TD A:hover {color:#fff;text-decoration:none;font-weight:bold;}
+TABLE.nav TD.highlight {background-color:#8c1010;padding:0 8px 0 3px;}
+#home #nav-home {background-color:#8c1010;padding:0 8px 0 3px;}
+#mytlo #nav-mytlo {background-color:#8c1010;padding:0 8px 0 3px;}
+#house #nav-house {background-color:#8c1010;padding:0 8px 0 3px;}
+#senate #nav-senate {background-color:#8c1010;padding:0 8px 0 3px;}
+#billlookup #nav-billlookup {background-color:#8c1010;padding:0 8px 0 3px;}
+#search #nav-search {background-color:#8c1010;padding:0 8px 0 3px;}
+#committees #nav-committees {background-color:#8c1010;padding:0 8px 0 3px;}
+#calendars #nav-calendars {background-color:#8c1010;padding:0 8px 0 3px;}
+</style>
+
+<table cellspacing="0" cellpadding="0" border="0" id="navMenu" class="nav" bgcolor="#2B4369" width="100%">
+<tr valign="middle" height="22">
+<td width="7%" id="nav-home"><a href="/Home.aspx" accesskey="H"><u>H</u>ome</a></td>
+<td>|</td>
+<td width="7%" id="nav-mytlo" nowrap><a href="/MnuMyTLO.aspx"  accesskey="Y">M<u>y</u> TLO</a></td>
+<td>|</td>
+<td width="7%" id="nav-house"><a href="/MnuHouse.aspx" accesskey="O">H<u>o</u>use</a></td>
+<td>|</td>
+<td width="7%" id="nav-senate"><a href="/MnuSenate.aspx" accesskey="S"><u>S</u>enate</a></td>
+<td>|</td>
+<td width="10%" id="nav-billlookup"><a href="/MnuLegislation.aspx" accesskey="L"><u>L</u>egislation</a></td>
+<td>|</td>
+<td width="7%" id="nav-search"><a href="/MnuSearch.aspx" accesskey="R">Sea<u>r</u>ch</a></td>
+<td>|</td>
+<td width="10%" id="nav-committees"><a href="/MnuCommittees.aspx" accesskey="M">Co<u>m</u>mittees</a></td>
+<td>|</td>
+<td width="10%" align="left" id="nav-calendars"><a href="/MnuCalendars.aspx" accesskey="C"><u>C</u>alendars</a></td>
+<td width="20%"></td>
+<td width="30%" class="noPrint" align="right" nowrap>
+
+</td>		
+</tr></tbody></table>
+
+</div>
+
+<span style="POSITION:absolute"><a name="startcontent" id="startcontent">&nbsp;</a></span> <a accessKey="0" href="#startcontent"></a>
+			<span style="position:absolute;">
+				<a name="startcontent" id="startcontent">&nbsp;</a></span>
+			<!-- Start Content -->
+			<div id="content">
+		<form name="Form1" method="post" action="home.aspx?LegSess=86R&amp;Bill=SB2594" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<script language=JavaScript>function CSP_focus(id) {  var o = document.getElementById(id); if (o != null) o.focus(); }
+</script>
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="sfIPy9fcDrmG2C-4VVaw4sowMuuqcG4CiY53vQ4E4CNuHn2weRUWhD-uHJRtCUeN_Lxu03t_ObBMMLsADdzINU6JgNQ1" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLAKc67f6AgKI1ezSAgKNzvnzCAKI1ejSAgKI1eTSAgLDs7TFBAKo2dPYAgKNzvHzCAKI1eDSAgKNzs3zCAKI1fzSAgKNzsnzCAKI1fjSAgKI1fTSAgK0sOzGBAKZ2YvYAgL+zqnzCAL51djSAgLPisqzCQK0sOjGBAKZ2YfYAgL+zqXzCAL51dTSAgL51ZDRAgL51ezSAgL51ejSAgL51eTSAgL51eDSAgLPipKyCQK0sLDFBAKZ2a/YAgL+zs3zCAL51fzSAgKF/NKFBQLq5fCYAwLPiu6zCQK0sIzFBAKZ2avYAgL+zsnzCAL51fjSAgLDvcO/DwL7z/jlCwL55ICZBALCi9reA/ojBP3hEiRrUYFBU8sWBRC7Wt14" />			
+			<div id="validationSummary"><font color="Black">
+	<strong><font color=red>*</font></strong> <strong>The bill number does not exist for the selected legislative session.</strong><br />
+</font></div>
+				<div class="sidebar">
+					<div class="sidebar_bottom">
+						<div class="sidebar_content">
+							<h2>Texas House</h2>
+							<ul class="sidebar_links">
+								<li>
+									<a href="http://www.house.state.tx.us">Home</a></li>
+								<li>
+									<a href="http://www.house.state.tx.us/members/speaker/">Speaker of the House</a></li>
+								<li>
+									<a href="Members/Members.aspx?Chamber=H">Members</a></li>
+								<li>
+									<a href="Committees/CommitteesMbrs.aspx?Chamber=H">Committees</a></li>
+								<li>
+									<a href="Committees/MeetingsHouse.aspx">Committee Meetings</a></li>
+                                <li><a href="https://www.mytxlegis.legis.state.tx.us/hwrspublic/about.aspx">Committee Witnesses</a></li>
+								<li>
+									<a href="Calendars/CalendarsHouse.aspx">Calendars</a></li>
+								<li>
+									<a href="Search/CurrentHouseAmendment.aspx">Current Amendment</a></li>
+								<li>
+									<a href="http://www.journals.house.state.tx.us">Journals</a></li>
+								<li>
+									<a href="http://www.house.state.tx.us/news/">News</a></li>									
+								<li>
+									<a href="http://www.hro.house.state.tx.us">House Research Organization</a></li>
+								<li>
+									<a href="http://kids.house.state.tx.us/">Kids' House</a></li>
+							</ul>
+							<h2>Texas Senate</h2>
+							<ul class="sidebar_links">
+								<li>
+									<a href="http://www.senate.texas.gov">Home</a></li>
+								<li>
+									<a href="http://www.senate.texas.gov/ltgov.php">Lieutenant Governor</a></li>
+								<li>
+									<a href="Members/Members.aspx?Chamber=S">Members</a></li>
+								<li>
+									<a href="Committees/CommitteesMbrs.aspx?Chamber=S">Committees</a></li>
+								<li>
+									<a href="Committees/MeetingsSenate.aspx">Committee Meetings</a></li>
+								<li>
+									<a href="Calendars/CalendarsSenate.aspx">Calendars</a></li>
+								<li>
+									<a href="http://www.journals.senate.state.tx.us">Journals</a></li>
+								<li>
+									<a href="http://www.senate.texas.gov/newsroom.php">News</a></li>									
+								<li>
+									<a href="http://www.senate.texas.gov/src.php">Senate Research Center</a></li>
+								<li>
+									<a href="http://www.senate.texas.gov/kids">Senate Kids</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="header" style="MARGIN: 0px 2px 0px 0px; line-height: 1.5em">
+						<h2>Related Links</h2>
+						<a href="http://www.lrl.state.tx.us">Legislative Reference Library</a><br /><a href="Resources/LocalLinks.aspx">
+							County</a> | <a href="Resources/StateLinks.aspx">State</a> | <a href="Resources/FederalLinks.aspx">
+							Federal</a> | <a href="Resources/Awards.aspx">Awards</a>
+						<br/>
+						<br/>
+					</div>
+				</div>
+				<div id="main_menu">
+					<div id="main_left">
+						<h2><font color="#8c1010">Search Legislation</font></h2>
+						<div id="left_mid">&nbsp; &nbsp;<label class="title" for="cboLegSess">Legislat<u>u</u>re:</label>
+							<select name="cboLegSess" id="cboLegSess" accesskey="U">
+	<option selected="selected" value="86R">86(R) - 2019</option>
+	<option value="851">85(1) - 2017</option>
+	<option value="85R">85(R) - 2017</option>
+	<option value="84R">84(R) - 2015</option>
+	<option value="833">83(3) - 2013</option>
+	<option value="832">83(2) - 2013</option>
+	<option value="831">83(1) - 2013</option>
+	<option value="83R">83(R) - 2013</option>
+	<option value="821">82(1) - 2011</option>
+	<option value="82R">82(R) - 2011</option>
+	<option value="811">81(1) - 2009</option>
+	<option value="81R">81(R) - 2009</option>
+	<option value="80R">80(R) - 2007</option>
+	<option value="793">79(3) - 2006</option>
+	<option value="792">79(2) - 2005</option>
+	<option value="791">79(1) - 2005</option>
+	<option value="79R">79(R) - 2005</option>
+	<option value="784">78(4) - 2004</option>
+	<option value="783">78(3) - 2003</option>
+	<option value="782">78(2) - 2003</option>
+	<option value="781">78(1) - 2003</option>
+	<option value="78R">78(R) - 2003</option>
+	<option value="77R">77(R) - 2001</option>
+	<option value="76R">76(R) - 1999</option>
+	<option value="75R">75(R) - 1997</option>
+	<option value="74R">74(R) - 1995</option>
+	<option value="73R">73(R) - 1993</option>
+	<option value="724">72(4) - 1992</option>
+	<option value="723">72(3) - 1992</option>
+	<option value="722">72(2) - 1991</option>
+	<option value="721">72(1) - 1991</option>
+	<option value="72R">72(R) - 1991</option>
+	<option value="716">71(6) - 1990</option>
+	<option value="715">71(5) - 1990</option>
+	<option value="714">71(4) - 1990</option>
+	<option value="713">71(3) - 1990</option>
+	<option value="712">71(2) - 1989</option>
+	<option value="711">71(1) - 1989</option>
+	<option value="71R">71(R) - 1989</option>
+
+</select><br/>
+							&nbsp;
+							<input id="rbWordPhrase" type="radio" name="Search" value="rbWordPhrase" /><label for="rbWordPhrase">Word/Phrase</label> <input id="rbBillNumber" type="radio" name="Search" value="rbBillNumber" checked="checked" /><label for="rbBillNumber">Bill Number</label><br/>
+							<a href="JavaScript:openPopWin('Help/HomeTextBill.htm')"><img src="images/icon_help.gif" border="0" alt="View help on using word/phrase and bill number search"/></a>
+							<input name="txtBill" type="text" value="SB2594" maxlength="30" id="txtBill" accesskey="B" AutoComplete="Off" onkeydown="JavaScript:SubmitSearch()" /><span id="cvBill"><font color="Red">*</font></span><input type="submit" name="btnSubmit" value="Go" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;Home.aspx&quot;, false, false))" id="btnSubmit" class="button" />
+
+		
+<script language=JavaScript>CSP_focus('txtBill');</script></form>
+		<br/>
+		<h2><font color="#8c1010">Additional Searches</font></h2>
+		<div id="search">
+			<table cellspacing="0" cellpadding="0">
+				<tr>
+					<td nowrap>
+						<ul style="padding-bottom:0px">
+							<li>
+								<a href="Search/TextSearch.aspx">Text Search</a></li>
+							<li>
+								<a href="BillLookup/BillNumber.aspx">Bill Lookup</a></li>
+							<li>
+								<a href="Search/BillSearch.aspx">Bill Search</a></li>
+							<li>
+								<a href="Search/AmendSearch.aspx">Amendments</a></li>
+							<li>
+								<a href="http://www.lrl.state.tx.us/isaf/lrlhome.cfm">Sections Affected</a></li>
+						</ul>
+					</td>
+					<td valign="top" nowrap>
+						<ul style="padding-bottom:0px">
+							<li>
+								<a href="http://www.statutes.legis.state.tx.us">Statutes</a></li>
+							<li>
+								<a href="http://www.constitution.legis.state.tx.us">Constitution</a></li>
+							<li>
+								<a href="Reports/BillsBy.aspx">Reports</a></li>
+							<li>
+								<a href="BillLookup/VoteInfo.aspx">View Votes</a></li>
+							<li>
+								<a href="http://www.sos.state.tx.us/tac/index.shtml">Administrative Code</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+				<td nowrap colspan="2">
+					<ul style="margin-left:10px;padding-left: 0px; padding-bottom:5px"><li><a href="http://www.lrl.state.tx.us/legis/billsearch/lrlhome.cfm">Legislative Archive System</a></li></ul>
+				</td>
+				</tr>
+			</table>
+		</div>
+		<h2><font color="#8c1010">How Do I ...</font></h2>
+		<ul>
+            
+            <li><a href=Resources/FAQ.aspx#27>Find list of filed bills?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#5>Follow the status of a bill?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#2>Contact my legislator?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#11>Find how a legislator voted?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#4>Find when hearings are scheduled?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#6>View the text of a bill?</a></li>
+            
+            <li><a href=Resources/FAQ.aspx#28>Testify at a House committee hearing?</a></li>
+            
+
+			<table width="250px">
+				<tr>
+					<td align="right" nowrap>&nbsp; <a href="resources/FAQ.aspx">more&gt;&gt;</a></td>
+				</tr>
+			</table>
+		</ul>
+		<h2><font color="#8c1010">My TLO</font></h2>
+		<ul>
+			<li><a href="MyTLO/BillList/BillList.aspx">Track Legislation With Bill Lists</a></li>
+			<li><a href="MyTLO/Alerts/Bills.aspx">Receive Bill and Meeting Alerts</a></li>
+			<li><a href="MyTLO/RSS/rssFeeds.aspx">Subscribe to RSS Feeds <img alt="View available RSS feeds" src="images/icon_rss_xsmall.gif" border="0"/></a></li>
+			<li><a href="MyTLO/PDA/MobilePDA.aspx">View Content on Mobile Device</a></li>
+			<li><a href="MyTLO/Search/SavedSearches.aspx">Saved Bill, Text, Amendment Searches</a></li>
+		</ul>
+		</div></div>
+		<div id="main_right">
+		
+			<!-- begin dynamic panel content item -->
+			<div id="panel_Right_Top">
+	
+
+			<div id="right_mid"><h2>Access Mobile Version of TLO</h2><ul id="learn"><li>Access a <a href="http://www.legis.state.tx.us/mytlo/pda/mobilepda.aspx">mobile version</a> of TLO, Who Represents Me, and DistrictViewer on an iPhone, iPad, or other mobile device.  From the mobile device browser, enter <a href="http://www.txlegis.com">www.txlegis.com</a>.   NOTE:  Some applications or features within an application may not be accessible on all mobile devices.  </li></ul></div><div class="panelDivider"></div>
+</div>		
+			<!-- end dynamic panel content item -->
+		
+		    <div id="panel_activity">
+	
+			<div id="right_top">
+				<h2>Legislative Activity</h2>
+				<ul>
+					<li>
+                        Video Broadcasts: &nbsp;&nbsp;<a href="http://www.house.state.tx.us/video-audio/">House</a>
+						| <a href="http://www.senate.texas.gov/av-live.php">Senate</a></li>
+					<li>
+						Today's Calendars: <a href="Calendars/CalendarsByDate.aspx?Chbr=H">House</a> | <a href="Calendars/CalendarsByDate.aspx?Chbr=S">
+							Senate</a> | <a href="Calendars/CalendarsByDate.aspx">All</a></li>
+					<li>
+						Today's Meetings: &nbsp;&nbsp;<a href="Committees/MeetingsByDate.aspx?Chamber=H">House</a>
+						| <a href="Committees/MeetingsByDate.aspx?Chamber=S">Senate</a> | <a href="Committees/MeetingsByDate.aspx">
+							All</a></li>
+    				<li>
+						Today's Filed Bills: &nbsp;&nbsp;<a href="Reports/Report.aspx?id=todayhousefiled">House</a>
+						| <a href="Reports/Report.aspx?id=todaysenatefiled">Senate</a> | <a href="Reports/Report.aspx?id=todayfiled">All</a></li>							
+    				<li>
+						Today's Votes: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Reports/GeneralVotesByDateHouse.aspx">House</a>
+						| <a href="Reports/GeneralVotesByDateSenate.aspx">Senate</a></li>							
+				</ul>
+			</div>
+			<div class="panelDivider"></div>
+			
+</div>
+			<div id="panel_process">
+	
+			<div id="right_mid">
+				<h2>Legislative Process</h2>
+				<img style="FLOAT: left; MARGIN: 0px 2px 0px 10px" width="55" height="55"
+					src="images/circle_star.gif" alt="Star of Texas">
+				<ul id="learn">
+					<li>
+						<a href="https://tlc.texas.gov/docs/legref/legislativeprocess.pdf">How a Bill Becomes 
+							Law</a></li>
+					<li>
+						<a href="resources/FollowABill.aspx">How to Follow A Bill</a></li>
+					<li>
+						<a href="https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf">Dates of Interest</a> |
+                        <a href="https://tlc.texas.gov/docs/legref/Glossary.pdf">Glossary</a></li>
+                    <li><a href="http://www.legis.state.tx.us/tlodocs/DeadlineActionCalendar.pdf">End of Session Deadlines</a></li>
+				</ul>
+			</div>
+			<div class="panelDivider"></div>
+			
+</div>
+			<div id="panel_WRM">
+	
+			<div id="right_mid2">
+				<h2>Who Represents Me?</h2>
+				<div id="right_mid3">
+					Enter your address to find <a href="https://fyi.capitol.texas.gov">who represents you</a>
+					in the legislature.
+				</div>
+				<form name="wrm" action="https://fyi.capitol.texas.gov/address.aspx" method="get">
+					<input type="hidden" name="DistrictType" id="DistrictType" value="ALL">
+					<label class="title" for="Address1">
+						&nbsp; <u>A</u>ddress:</label>
+					<br/>
+					&nbsp; <input accesskey="A" id="Address1" size="38" maxLength="50" name="Address1">
+					<br/>
+					&nbsp;
+					<label class="title" for="City">C<u>i</u>ty:</label>
+					<br/>
+					&nbsp; <input id="City" size="38" maxLength="50" name="City" accesskey="I">
+					<br/>
+					&nbsp;
+					<label class="title" for="Zipcode"><u>Z</u>IP Code:</label>
+					<br/>
+					&nbsp; <input id="Zipcode" size="7" maxLength="5" name="Zipcode" accesskey="Z"> <input id="Search" type="submit" value="Submit" name="Search" class="button">
+					&nbsp; <a class="level2" href="http://www.tlc.state.tx.us/redist/redist.html">Redistricting</a> |
+					<a class="level2" href="resources/privacyPolicy.aspx">Privacy Policy</a>
+				</form>
+				<br/>
+				<br/>
+			</div>
+			<div class="panelDivider"></div>
+			
+</div>
+			<div id="panel_capitol">
+	
+			<div id="right_bottom">
+				<h2>Capitol Complex Information</h2>
+				<img src="images/goddess.gif" style="FLOAT: left; MARGIN: 0px 2px 0px 10px" width="30"
+					height="50" alt="Texas Capitol Goddess of Liberty">
+				<div id="Div1">
+					<a href="http://www.texasstatecapitol.com/">Events and Visitor Information</a><br/>
+					<a href="resources/wireless.aspx">Wireless Access</a> | <a href="Resources/Images.aspx">Images</a> |
+					<a href="Resources/StateSymbols.aspx">State Symbols</a>
+					<br />
+					<br />
+				</div>
+				<br/>
+			</div>
+			
+</div>
+		
+		</div>
+		
+<div id="clearfooter">
+</div>
+
+</div>
+		<br clear="all" />
+		<div id="homefooter">
+			<a href="resources/policies.aspx">Policies</a> | <a href="resources/accessibility.aspx" accesskey="1">
+				Accessibility</a> | <a href="http://www.texas.gov" title="External link: http://www.texas.gov" icon="external">Texas.gov</a> | <a href="http://www.texashomelandsecurity.com" title="External link: http://www.texashomelandsecurity.com" icon="external">
+				Homeland Security</a> | <a href="http://www.tsl.state.tx.us/search/" title="External link: http://www.tsl.state.tx.us/search/" icon="external">Statewide 
+				Search</a>
+		</div>
+		<br />
+		<br />
+	</body>
+
+</html>

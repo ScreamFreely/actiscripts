@@ -1,0 +1,524 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:14:24 GMT
+Content-Length: 103990
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0041</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0041&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0041&GA=101&SessionId=108&DocTypeId=HB&LegID=113846&DocNum=41&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0041.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0041lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0041&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0041lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0041lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0041&GAID=15&DocTypeID=HB&LegID=113846&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0041 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0041</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Mary E. Flowers<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code>
+</code><td class="synopsis"><code>305 ILCS 5/5-2</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 23, par. 5-2</code></td><code>
+</code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Medical Assistance Article of the Illinois Public Aid Code. </code><code>Extends medical assistance coverage to all women of childbearing age </code><code>regardless of income level.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td></td><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning public aid.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Public Aid Code is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Section 5-2 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(305 ILCS 5/5-2)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 23, par. 5-2)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 5-2. </code><code>Classes of Persons Eligible. </code><code> </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Medical assistance under this
+Article shall be available to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>any of the following classes of persons in
+respect to whom a </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>plan for coverage has been submitted to the Governor
+by the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Illinois Department and approved by him. If changes made in </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>this Section 5-2 require federal approval, they shall not take </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>effect until such approval has been received:</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>1. Recipients of basic maintenance grants under </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Articles III and IV.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>2. Beginning January 1, 2014, persons otherwise </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible for basic maintenance under Article
+III, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>excluding any eligibility requirements that are </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>inconsistent with any federal law or federal regulation, as </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>interpreted by the U.S. Department of Health and Human </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services, but who fail to qualify thereunder on the basis </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of need, and
+who have insufficient income and resources to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>meet the costs of
+necessary medical care, including but not </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>limited to the following:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) All persons otherwise eligible for basic </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>maintenance under Article
+III but who fail to qualify </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>under that Article on the basis of need and who
+meet </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>either of the following requirements:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) their income, as determined by the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois Department in
+accordance with any federal </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>requirements, is equal to or less than 100% of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>federal poverty level; or</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) their income, after the deduction of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>costs incurred for medical
+care and for other types </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>of remedial care, is equal to or less than 100% of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the federal poverty level.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) (Blank).</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>3. (Blank).</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>4. Persons not eligible under any of the preceding </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>paragraphs who fall
+sick, are injured, or die, not having </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>sufficient money, property or other
+resources to meet the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>costs of necessary medical care or funeral and burial
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expenses.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>5.(a) Women during pregnancy and during the
+60-day </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>period beginning on the last day of the pregnancy, together </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>with
+their infants,
+whose income is at or below 200% of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal poverty level. Until September 30, 2019, or sooner </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>if the maintenance of effort requirements under the Patient </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Protection and Affordable Care Act are eliminated or may be </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>waived before then, women during pregnancy and during the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>60-day period beginning on the last day of the pregnancy, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>whose countable monthly income, after the deduction of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>costs incurred for medical care and for other types of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>remedial care as specified in administrative rule, is equal </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to or less than the Medical Assistance-No Grant(C) </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(MANG(C)) Income Standard in effect on April 1, 2013 as set </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>forth in administrative rule.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The plan for coverage shall provide ambulatory </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>prenatal care to pregnant women during a
+presumptive </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligibility period and establish an income eligibility </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>standard
+that is equal to 200% of the federal poverty </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>level, provided that costs incurred
+for medical care are </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>not taken into account in determining such income
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligibility.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The Illinois Department may conduct a </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>demonstration in at least one
+county that will provide </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance to pregnant women, together
+with their </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>infants and children up to one year of age,
+where the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>income
+eligibility standard is set up to 185% of the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nonfarm income official
+poverty line, as defined by the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal Office of Management and Budget.
+The Illinois </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department shall seek and obtain necessary authorization
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provided under federal law to implement such a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>demonstration.  Such
+demonstration may establish resource </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>standards that are not more
+restrictive than those </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>established under Article IV of this Code.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>6. (a) Children younger than age 19 when countable </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>income is at or below 133% of the federal poverty level.  </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Until September 30, 2019, or sooner if the maintenance of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>effort requirements under the Patient Protection and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Affordable Care Act are eliminated or may be waived before </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>then, children younger than age 19 whose countable monthly </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>income, after the deduction of costs incurred for medical </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>care and for other types of remedial care as specified in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>administrative rule, is equal to or less than the Medical </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Assistance-No Grant(C) (MANG(C)) Income Standard in effect </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>on April 1, 2013 as set forth in administrative rule.</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b)  Children and youth who are under temporary custody </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or guardianship of the Department of Children and Family </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services or who receive financial assistance in support of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>an adoption or guardianship placement from the Department </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Children and Family Services. </code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>7. (Blank).</code><code>
+
+
+
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>8. As required under federal law, persons who are </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible for Transitional Medical Assistance as a result of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>an increase in earnings or child or spousal support </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>received.  The plan for coverage for this class of persons </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) extend the medical assistance coverage to the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>extent required by federal law; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) offer persons who have initially received 6 </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>months of the
+coverage provided in paragraph (a) above, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the option of receiving an
+additional 6 months of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage, subject to the following:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) such coverage shall be pursuant to </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>provisions of the federal
+Social Security Act;</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) such coverage shall include all services </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>covered under Illinois' State Medicaid Plan;</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(iii) no premium shall be charged for such </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(iv) such coverage shall be suspended in the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>event of a person's
+failure without good cause to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>file in a timely fashion reports required for
+this </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage under the Social Security Act and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage shall be reinstated
+upon the filing of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>such reports if the person remains otherwise </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>9. Persons with acquired immunodeficiency syndrome </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(AIDS) or with
+AIDS-related conditions with respect to whom </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>there has been a determination
+that but for home or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>community-based services such individuals would
+require </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the level of care provided in an inpatient hospital, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>skilled
+nursing facility or intermediate care facility the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>cost of which is
+reimbursed under this Article.  Assistance </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be provided to such
+persons to the maximum extent </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>permitted under Title
+XIX of the Federal Social Security </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act.</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>10. Participants in the long-term care insurance </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>partnership program
+established under the Illinois </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Long-Term Care Partnership Program Act who meet the
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>qualifications for protection of resources described in </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 15 of that
+Act.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>11. Persons with disabilities who are employed and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible for Medicaid,
+pursuant to Section </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1902(a)(10)(A)(ii)(xv) of the Social Security Act, and, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subject to federal approval, persons with a medically </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>improved disability who are employed and eligible for </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Medicaid pursuant to Section 1902(a)(10)(A)(ii)(xvi) of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Social Security Act, as
+provided by the Illinois </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department by rule. In establishing eligibility standards </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this paragraph 11, the Department shall, subject to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal approval:</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) set the income eligibility standard at not </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>lower than 350% of the federal poverty level;</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) exempt retirement accounts that the person </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>cannot access without penalty before the age
+        of 59 1/2, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>and medical savings accounts established pursuant to </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>26 U.S.C. 220;</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) allow non-exempt assets up to $25,000 as to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>those assets accumulated during periods of eligibility </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>under this paragraph 11; and</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) continue to apply subparagraphs (b) and (c) in </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>determining the eligibility of the person under this </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Article even if the person loses eligibility under this </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>paragraph 11.
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>12. Subject to federal approval, persons who are </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible for medical
+assistance coverage under applicable </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisions of the federal Social Security
+Act and the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal Breast and Cervical Cancer Prevention and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Treatment Act of
+2000.  Those eligible persons are defined </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to include, but not be limited to,
+the following persons:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) persons who have been screened for breast or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>cervical cancer under
+the U.S. Centers for Disease </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Control and Prevention Breast and Cervical Cancer
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Program established under Title XV of the federal </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Public Health Services Act in
+accordance with the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>requirements of Section 1504 of that Act as </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>administered by
+the Illinois Department of Public </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Health; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) persons whose screenings under the above </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>program were funded in whole
+or in part by funds </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>appropriated to the Illinois Department of Public </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Health
+for breast or cervical cancer screening.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Medical assistance" under this paragraph 12 shall be </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>identical to the benefits
+provided under the State's </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>approved plan under Title XIX of the Social Security
+Act.  </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>The Department must request federal approval of the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage under this
+paragraph 12 within 30 days after the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>effective date of this amendatory Act of
+the 92nd General </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Assembly.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In addition to the persons who are eligible for medical </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assistance pursuant to subparagraphs (1) and (2) of this </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>paragraph 12, and to be paid from funds appropriated to the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department for its medical programs, any uninsured person </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>as defined by the Department in rules residing in Illinois </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>who is younger than 65 years of age, who has been screened </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for breast and cervical cancer in accordance with standards </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and procedures adopted by the Department of Public Health </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for screening, and who is referred to the Department by the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department of Public Health as being in need of treatment </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for breast or cervical cancer is eligible for medical </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assistance benefits that are consistent with the benefits </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provided to those persons described in subparagraphs (1) </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and (2). Medical assistance coverage for the persons who </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>are eligible under the preceding sentence is not dependent </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>on federal approval, but  federal moneys may be used to pay </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for services provided under that coverage upon federal </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>approval. </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>13. Subject to appropriation and to federal approval, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>persons living with HIV/AIDS who are not otherwise eligible </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Article and who qualify for services covered </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under Section 5-5.04 as provided by the Illinois Department </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>by rule.
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>14.    Subject to the availability of funds for this </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>purpose, the Department may provide coverage under this </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Article to persons who reside in Illinois who are not </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible under any of the preceding paragraphs and who meet </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the income guidelines of paragraph 2(a) of this Section and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(i) have an application for asylum pending before the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal Department of Homeland Security or on appeal before </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>a court of competent jurisdiction and are represented </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>either by counsel or by an advocate accredited by the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal Department of Homeland Security and employed by a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>not-for-profit organization in regard to that application </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or appeal, or (ii) are receiving services through a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federally funded torture treatment center. Medical </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage under this paragraph 14 may be provided for up to </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>24 continuous months from the initial eligibility date so </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>long as an individual continues to satisfy the criteria of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this paragraph 14. If an individual has an appeal pending </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>regarding an application for asylum before the Department </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Homeland Security, eligibility under this paragraph 14 </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>may be extended until a final decision is rendered on the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>appeal. The Department may adopt rules governing the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>implementation of this paragraph 14.
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>15. Family Care Eligibility.</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) On and after July 1, 2012, a parent or other </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>caretaker relative who is 19 years of age or  older when </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>countable income is at or below 133% of the federal </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>poverty level. A person may not spend down to become </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible under this paragraph 15. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Eligibility shall be reviewed annually.</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) (Blank).</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) (Blank).</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) (Blank).</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) (Blank).</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) (Blank).</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) (Blank).</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) Following termination of an individual's  </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage under this paragraph 15, the individual must </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>be determined eligible before the person can be </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>re-enrolled.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>16. Subject to appropriation, uninsured persons who </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>are not otherwise eligible under this Section who have been </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certified and referred by the Department of Public Health </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>as having been screened and found to need diagnostic </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>evaluation or treatment, or both diagnostic evaluation and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>treatment, for prostate or testicular cancer.  For the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>purposes of this paragraph 16, uninsured persons are those </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>who do not have creditable coverage, as defined under the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Health Insurance Portability and Accountability Act, or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>have otherwise exhausted any insurance benefits they may </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>have had, for prostate or testicular cancer diagnostic </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>evaluation or treatment, or both diagnostic evaluation and </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>treatment.
+
+To be eligible, a person must furnish a Social </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Security number.
+
+A person's assets are exempt from </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>consideration in determining eligibility under this </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>paragraph 16.
+
+Such persons shall be eligible for medical </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assistance under this paragraph 16 for so long as they need </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>treatment for the cancer.  A person shall be considered to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>need treatment if, in the opinion of the person's treating </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>physician, the person requires therapy directed toward </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>cure or palliation of prostate or testicular cancer, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including recurrent metastatic cancer that is a known or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>presumed complication of prostate or testicular cancer and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>complications resulting from the treatment modalities </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>themselves.  Persons who require only routine monitoring </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>services are not considered to need treatment.
+
+"Medical </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assistance" under this paragraph 16 shall be identical to </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the benefits provided under the State's approved plan under </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Title XIX of the Social Security Act.
+
+Notwithstanding any </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other provision of law, the Department (i) does not have a </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>claim against the estate of a deceased recipient of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>services under this paragraph 16 and (ii) does not have a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>lien against any homestead property or other legal or </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equitable real property interest owned by a recipient of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>services under this paragraph 16.</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>17.  Persons who, pursuant to a waiver approved by the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Secretary of the U.S. Department of Health and Human </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services, are eligible for medical assistance under Title </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>XIX or XXI of the federal Social Security Act.  </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Notwithstanding any other provision of this Code and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>consistent with the terms of the approved waiver, the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois Department, may by rule: </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a)         Limit the geographic areas in which the waiver </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>program operates. </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Determine the scope, quantity, duration, and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>quality, and the rate and method of reimbursement, of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the medical services to be provided, which may differ </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>from those for other classes of persons eligible for </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assistance under this Article. </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c)         Restrict the persons' freedom in choice of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>providers. </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>18. Beginning  January 1, 2014, persons aged 19 or </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>older, but younger than 65, who are not otherwise eligible </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for medical assistance under this Section 5-2, who qualify </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for medical assistance pursuant to 42 U.S.C. </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1396a(a)(10)(A)(i)(VIII) and applicable federal </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>regulations, and who have income at or below 133% of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>federal poverty level plus 5% for the applicable family </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>size as determined pursuant to 42 U.S.C. 1396a(e)(14) and </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>applicable federal regulations.  Persons eligible for </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance under this paragraph 18 shall receive </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage for the Health Benefits Service Package as that </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>term is defined in subsection (m) of Section 5-1.1 of this </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Code. If Illinois' federal medical assistance percentage </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(FMAP) is reduced below 90% for persons eligible for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical
+assistance under this paragraph 18, eligibility </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this paragraph 18 shall cease no later than the end </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the third month following the month in which the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reduction in FMAP takes effect. </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>19. Beginning January 1, 2014, as required under 42 </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>U.S.C. 1396a(a)(10)(A)(i)(IX), persons older than age 18 </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and younger than age 26 who are not otherwise eligible for </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance under paragraphs (1) through (17) of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Section who (i) were in foster care under the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>responsibility of the State on the date of attaining age 18 </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or on the date of attaining age 21 when a court has </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>continued wardship for good cause as provided in Section </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>2-31 of the Juvenile Court Act of 1987 and (ii) received </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance under the Illinois Title XIX State Plan </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or waiver of such plan while in foster care. </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>20. Beginning January 1, 2018, persons who are </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>foreign-born victims of human trafficking, torture, or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other serious crimes as defined in Section 2-19 of this </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Code and their  derivative family members if such persons: </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(i)  reside in Illinois; (ii) are not eligible under any of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the preceding paragraphs;  (iii) meet the income guidelines </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of subparagraph (a) of paragraph 2; and (iv) meet the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nonfinancial eligibility requirements of Sections 16-2, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>16-3, and 16-5 of this Code. The Department may extend </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance for persons who are foreign-born </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>victims of human trafficking, torture, or other serious </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>crimes whose medical assistance would be terminated </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>pursuant to subsection (b) of Section 16-5 if the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department determines that the person, during the year of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>initial eligibility (1)  experienced a health crisis, (2) </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>has been unable, after reasonable attempts, to obtain </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>necessary information from a third party, or (3) has other </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>extenuating circumstances that prevented the person from </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>completing his or her application for status. The </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department may adopt any rules necessary to implement the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisions of this paragraph.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>21. All women of childbearing age, regardless of income </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>level.</code></u><code> </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In implementing the provisions of Public Act 96-20, the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Department is authorized to adopt only those rules necessary, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>including emergency rules. Nothing in Public Act 96-20 permits </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the Department to adopt rules or issue a decision that expands </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>eligibility for the FamilyCare Program to a person whose income </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>exceeds 185% of the Federal Poverty Level as determined from </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>time to time by the U.S. Department of Health and Human </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Services, unless the Department is provided with express </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>statutory authority. </code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The eligibility of any such person for medical assistance </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>under this
+Article is not affected by the payment of any grant </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>under the Senior
+Citizens and Persons with Disabilities </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Property Tax Relief Act or any distributions or items of income </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>described under
+subparagraph (X) of
+paragraph (2) of subsection </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>(a) of Section 203 of the Illinois Income Tax
+Act.</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department shall by rule establish the amounts of
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>assets to be disregarded in determining eligibility for medical </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>assistance,
+which shall at a minimum equal the amounts to be </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>disregarded under the
+Federal Supplemental Security Income </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Program.  The amount of assets of a
+single person to be </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>disregarded
+shall not be less than $2,000, and the amount of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>assets of a married couple
+to be disregarded shall not be less </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>than $3,000.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>To the extent permitted under federal law, any person found </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>guilty of a
+second violation of Article VIIIA
+shall be </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>ineligible for medical assistance under this Article, as </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>provided
+in Section 8A-8.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The eligibility of any person for medical assistance under </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>this Article
+shall not be affected by the receipt by the person </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of donations or benefits
+from fundraisers held for the person </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>in cases of serious illness,
+as long as neither the person nor </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>members of the person's family
+have actual control over the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>donations or benefits or the disbursement
+of the donations or </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>benefits.</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any other provision of this Code, if the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>United States Supreme Court holds Title II, Subtitle A, Section </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>2001(a) of Public Law 111-148 to be unconstitutional, or if a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>holding of Public Law 111-148 makes Medicaid eligibility </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>allowed under Section 2001(a) inoperable, the State or a unit </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>of local government shall be prohibited from enrolling </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>individuals in the Medical Assistance Program as the result of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>federal approval of a State Medicaid waiver on or after the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>effective date of this amendatory Act of the 97th General </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Assembly, and any individuals enrolled in the Medical </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Assistance Program pursuant to eligibility permitted as a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>result of such a State Medicaid waiver shall become immediately </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ineligible. </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any other provision of this Code, if an Act </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>of Congress that becomes a Public Law eliminates Section </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>2001(a) of Public Law 111-148, the State or a unit of local </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>government shall be prohibited from enrolling individuals in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the Medical Assistance Program as the result of federal </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>approval of a State Medicaid waiver on or after the effective </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>date of this amendatory Act of the 97th General Assembly, and </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>any individuals enrolled in the Medical Assistance Program </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>pursuant to eligibility permitted as a result of such a State </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Medicaid waiver shall become immediately ineligible. </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Effective October 1, 2013, the determination of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>eligibility of persons who qualify under paragraphs 5, 6, 8, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>15, 17, and 18 of this Section shall comply with the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>requirements of 42 U.S.C. 1396a(e)(14) and applicable federal </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>regulations. </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department of Healthcare and Family Services, the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Department of Human Services, and the Illinois health insurance </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>marketplace shall work cooperatively to assist persons who </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>would otherwise lose health benefits as a result of changes </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>made under this amendatory Act of the 98th General Assembly to </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>transition to other health insurance coverage. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0041</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 02844 KTG 47852 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-104, eff. 7-22-13; 98-463, eff. 8-16-13; </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>99-143, eff. 7-27-15; 99-870, eff. 8-22-16.)</code><code>
+</code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

@@ -1,0 +1,521 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:22:28 GMT
+Content-Length: 85217
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0158</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0158&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0158&GA=101&SessionId=108&DocTypeId=HB&LegID=113988&DocNum=158&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0158.htm'></a>&nbsp;&nbsp;<a href='fulltext.asp?DocName=10100HB0158eng&GA=101&SessionId=108&DocTypeId=HB&LegID=113988&DocNum=158&GAID=15&Session='>Engrossed</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0158eng.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0158lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0158&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0158lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0158lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0158&GAID=15&DocTypeID=HB&LegID=113988&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0158eng 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning revenue.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Income Tax Act is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Section 901 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 5/901)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 120, par. 9-901)</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 901. </code><code>Collection authority. </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) In general. The Department shall collect the taxes </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>imposed by this Act.  The Department
+shall collect certified </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>past due child support amounts under Section 2505-650
+of the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Department of Revenue Law of the
+Civil Administrative Code of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Illinois.  Except as
+provided in subsections (b), (c), (e), (f), </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>(g), and (h) of this Section, money collected
+pursuant to </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>subsections (a) and (b) of Section 201 of this Act shall be
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>paid into the General Revenue Fund in the State treasury; money
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>collected pursuant to subsections (c) and (d) of Section 201 of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>this Act
+shall be paid into the Personal Property Tax </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Replacement Fund, a special
+fund in the State Treasury; and </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>money collected under Section 2505-650 of the
+Department of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Revenue Law of the
+Civil Administrative Code of Illinois shall </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>be paid
+into the
+Child Support Enforcement Trust Fund, a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>special fund outside the State
+Treasury, or
+to the State
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Disbursement Unit established under Section 10-26 of the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Illinois Public Aid
+Code, as directed by the Department of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Healthcare and Family Services.</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Local Government Distributive Fund. Beginning August </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>1, 1969, and continuing through June 30, 1994, the Treasurer
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>shall transfer each month from the General Revenue Fund to a </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>special fund in
+the State treasury, to be known as the "Local </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Government Distributive Fund", an
+amount equal to 1/12 of the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>net revenue realized from the tax imposed by
+subsections (a) </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>and (b) of Section 201 of this Act during the preceding month.
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Beginning July 1, 1994, and continuing through June 30, 1995, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the Treasurer
+shall transfer each month from the General </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Revenue Fund to the Local Government
+Distributive Fund an </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>amount equal to 1/11 of the net revenue realized from the
+tax </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>imposed by subsections (a) and (b) of Section 201 of this Act </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>during the
+preceding month.  Beginning July 1, 1995 and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>continuing through January 31, 2011, the Treasurer shall </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>transfer each
+month from the General Revenue Fund to the Local </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Government Distributive Fund
+an amount equal to the net of (i) </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>1/10 of the net revenue realized from the
+tax imposed by
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>subsections (a) and (b) of Section 201 of the Illinois Income </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Tax Act during
+the preceding month
+(ii) minus, beginning July </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>1, 2003 and ending June 30, 2004, $6,666,666, and
+beginning </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>July 1,
+2004,
+zero. Beginning February 1, 2011, and continuing </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>through January 31, 2015, the Treasurer shall transfer each </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>month from the General Revenue Fund to the Local Government </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Distributive Fund an amount equal to the sum of (i) 6% (10% of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the ratio of the 3% individual income tax rate prior to 2011 to </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the 5% individual income tax rate after 2010) of the net </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>revenue realized from the tax imposed by subsections (a) and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>(b) of Section 201 of this Act upon individuals, trusts, and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>estates during the preceding month and (ii) 6.86% (10% of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>ratio of the 4.8% corporate income tax rate prior to 2011 to </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the 7% corporate income tax rate after 2010) of the net revenue </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>realized from the tax imposed by subsections (a) and (b) of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Section 201 of this Act upon corporations during the preceding </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>month.  Beginning February 1, 2015 and continuing through July </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>31, 2017, the Treasurer shall transfer each month from the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>General Revenue Fund to the Local Government Distributive Fund </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>an amount equal to the sum of (i) 8% (10% of the ratio of the 3% </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>individual income tax rate prior to 2011 to the 3.75% </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>individual income tax rate after 2014) of the net revenue </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>realized from the tax imposed by subsections (a) and (b) of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Section 201 of this Act upon individuals, trusts, and estates </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>during the preceding month and (ii) 9.14% (10% of the ratio of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the 4.8% corporate income tax rate prior to 2011 to the 5.25% </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>corporate income tax rate after 2014) of the net revenue </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>realized from the tax imposed by subsections (a) and (b) of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Section 201 of this Act upon corporations during the preceding </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>month. Beginning August 1, 2017 </code><u><code>and continuing through January </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>31, 2020</code></u><code>, the Treasurer shall transfer each month from the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>General Revenue Fund to the Local Government Distributive Fund </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>an amount equal to the sum of (i) 6.06% (10% of the ratio of the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>3% individual income tax rate prior to 2011 to the 4.95% </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>individual income tax rate after July 1, 2017) of the net </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>revenue realized from the tax imposed by subsections (a) and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>(b) of Section 201 of this Act upon individuals, trusts, and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>estates during the preceding month and (ii) 6.85% (10% of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>ratio of the 4.8% corporate income tax rate prior to 2011 to </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the 7% corporate income tax rate after July 1, 2017) of the net </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>revenue realized from the tax imposed by subsections (a) and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>(b) of Section 201 of this Act upon corporations during the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>preceding month. </code><u><code>Beginning February 1, 2020 and continuing </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>through January 31, 2021, the Treasurer shall transfer each </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>month from the General Revenue Fund to the Local Government </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>Distributive Fund an amount equal to the sum of (i) 8.5% of the </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon individuals, trusts, </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>and estates during the preceding month and (ii) 9.355% of the </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon corporations during the </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>preceding month. Beginning February 1, 2021 and continuing </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>through January 31, 2022, the Treasurer shall transfer each </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>month from the General Revenue Fund to the Local Government </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>Distributive Fund an amount equal to the sum of (i) 9% of the </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon individuals, trusts, </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>and estates during the preceding month and (ii) 9.57% of the </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon corporations during the </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>preceding month.  Beginning February 1, 2022 and continuing </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>through January 31, 2023, the Treasurer shall transfer each </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>month from the General Revenue Fund to the Local Government </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>Distributive Fund an amount equal to the sum of (i) 9.5% of the </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon individuals, trusts, </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>and estates during the preceding month and (ii) 9.785% of the </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>net revenue realized from the tax imposed by subsections (a) </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>and (b) of Section 201 of this Act upon corporations during the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>preceding month. Beginning on February 1, 2023, the Treasurer </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>shall transfer each month from the General Revenue Fund to the </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>Local Government Distributive Fund  an amount equal to 10% of </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>the net revenue realized from the
+tax imposed on individuals, </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>trusts, estates, and corporations by
+subsections (a) and (b) of </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>Section 201 of the Illinois Income Tax Act during
+the preceding </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>month.</code></u><code> Net revenue realized for a month shall be defined as the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>revenue from the tax imposed by subsections (a) and (b) of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Section 201 of this
+Act which is deposited in the General </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Revenue Fund, the Education Assistance
+Fund, the Income Tax </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Surcharge Local Government Distributive Fund, the Fund for the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Advancement of Education, and the Commitment to Human Services </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Fund during the
+month minus the amount paid out of the General </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Revenue Fund in State warrants
+during that same month as </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>refunds to taxpayers for overpayment of liability
+under the tax </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>imposed by subsections (a) and (b) of Section 201 of this Act.</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any provision of law to the contrary, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>beginning on July 6, 2017 (the effective date of Public Act </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>100-23), those amounts required under this subsection (b) to be </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>transferred by the Treasurer into the Local Government </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Distributive Fund from the General Revenue Fund shall be </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>directly deposited into the Local Government Distributive Fund </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>as the revenue is realized from the tax imposed by subsections </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(a) and (b) of Section 201 of this Act.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For State fiscal year 2018 only, notwithstanding any </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>provision of law to the contrary, the total amount of revenue </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>and deposits under this Section attributable to revenues </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>realized during State fiscal year 2018 shall be reduced by 10%.</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For State fiscal year 2019 only, notwithstanding any </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>provision of law to the contrary, the total amount of revenue </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>and deposits under this Section attributable to revenues </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>realized during State fiscal year 2019 shall be reduced by 5%. </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) Deposits Into Income Tax Refund Fund.</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Beginning on January 1, 1989 and thereafter, the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department shall
+deposit a percentage of the amounts </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collected pursuant to subsections (a)
+and (b)(1), (2), and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(3) of Section 201 of this Act into a fund in the State
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>treasury known as the Income Tax Refund Fund.  The </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department shall deposit 6%
+of such amounts during the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>period beginning January 1, 1989 and ending on June
+30, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1989.  Beginning with State fiscal year 1990 and for each </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fiscal year
+thereafter, the percentage deposited into the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Income Tax Refund Fund during a
+fiscal year shall be the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Annual Percentage.  For fiscal years 1999 through
+2001, the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Annual Percentage shall be 7.1%.
+For fiscal year 2003, the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Annual Percentage shall be 8%.
+For fiscal year 2004, the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Annual Percentage shall be 11.7%.  Upon the effective date </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Public Act 93-839 (July 30, 2004), the Annual Percentage </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be 10% for fiscal year 2005. For fiscal year 2006, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.75%. For fiscal
+year 2007, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.75%. For fiscal year 2008, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 7.75%. For fiscal year 2009, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.75%. For fiscal year 2010, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.75%. For fiscal year 2011, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 8.75%. For fiscal year 2012, </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 8.75%. For fiscal year 2013, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.75%. For fiscal year 2014, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.5%. For fiscal year 2015, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 10%. For fiscal year 2018, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.8%. For fiscal year 2019, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 9.7%. For all other
+fiscal </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>years, the
+Annual Percentage shall be calculated as a </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fraction, the numerator of which
+shall be the amount of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>refunds approved for payment by the Department during
+the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>preceding fiscal year as a result of overpayment of tax </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>liability under
+subsections (a) and (b)(1), (2), and (3) of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 201 of this Act plus the
+amount of such refunds </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>remaining approved but unpaid at the end of the
+preceding </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fiscal year, minus the amounts transferred into the Income </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Tax
+Refund Fund from the Tobacco Settlement Recovery Fund, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and
+the denominator of which shall be the amounts which </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>will be collected pursuant
+to subsections (a) and (b)(1), </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(2), and (3) of Section 201 of this Act during
+the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>preceding fiscal year; except that in State fiscal year </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>2002, the Annual
+Percentage shall in no event exceed 7.6%.  </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>The Director of Revenue shall
+certify the Annual Percentage </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to the Comptroller on the last business day of
+the fiscal </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>year immediately preceding the fiscal year for which it is </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to be
+effective.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Beginning on January 1, 1989 and thereafter, the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department shall
+deposit a percentage of the amounts </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collected pursuant to subsections (a)
+and (b)(6), (7), and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(8), (c) and (d) of Section 201
+of this Act into a fund in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the State treasury known as the Income Tax
+Refund Fund.  The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department shall deposit 18% of such amounts during the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>period beginning January 1, 1989 and ending on June 30, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1989.  Beginning
+with State fiscal year 1990 and for each </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fiscal year thereafter, the
+percentage deposited into the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Income Tax Refund Fund during a fiscal year
+shall be the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Annual Percentage.  For fiscal years 1999, 2000, and 2001, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the
+Annual Percentage shall be 19%.
+For fiscal year 2003, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 27%.  For fiscal year
+2004, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 32%.
+Upon the effective date </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Public Act 93-839 (July 30, 2004), the Annual Percentage </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be 24% for fiscal year 2005.
+For fiscal year 2006, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 20%. For fiscal
+year 2007, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%. For fiscal year 2008, </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 15.5%. For fiscal year 2009, </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%. For fiscal year 2010, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%. For fiscal year 2011, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%. For fiscal year 2012, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%. For fiscal year 2013, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 14%. For fiscal year 2014, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 13.4%. For fiscal year 2015, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 14%. For fiscal year 2018, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 17.5%.  For fiscal year 2019, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Annual Percentage shall be 15.5%. For all other fiscal </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>years, the Annual
+Percentage shall be calculated
+as a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fraction, the numerator of which shall be the amount of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>refunds
+approved for payment by the Department during the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>preceding fiscal year as
+a result of overpayment of tax </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>liability under subsections (a) and (b)(6),
+(7), and (8), </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(c) and (d) of Section 201 of this Act plus the
+amount of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>such refunds remaining approved but unpaid at the end of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the
+preceding fiscal year, and the denominator of
+which </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be the amounts which will be collected pursuant to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsections (a)
+and (b)(6), (7), and (8), (c) and (d) of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 201 of this Act during the
+preceding fiscal year; </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>except that in State fiscal year 2002, the Annual
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Percentage shall in no event exceed 23%.  The Director of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Revenue shall
+certify the Annual Percentage to the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Comptroller on the last business day of
+the fiscal year </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>immediately preceding the fiscal year for which it is to be
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>effective.</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The Comptroller shall order transferred and the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Treasurer shall
+transfer from the Tobacco Settlement </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Recovery Fund to the Income Tax Refund
+Fund (i) $35,000,000 </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in January, 2001, (ii) $35,000,000 in January, 2002, and
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(iii) $35,000,000 in January, 2003.</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) Expenditures from Income Tax Refund Fund.</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Beginning January 1, 1989, money in the Income Tax </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Refund Fund
+shall be expended exclusively for the purpose </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of paying refunds resulting
+from overpayment of tax </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>liability under Section 201 of this Act
+and for
+making </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>transfers pursuant to this subsection (d).</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The Director shall order payment of refunds </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>resulting from
+overpayment of tax liability under Section </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>201 of this Act from the
+Income Tax Refund Fund only to the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>extent that amounts collected pursuant
+to Section 201 of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Act and transfers pursuant to this subsection (d)
+and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>item (3) of subsection (c) have been deposited and retained </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in the
+Fund.</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) As soon as possible after the end of each fiscal </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>year, the Director
+shall
+order transferred and the State </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Treasurer and State Comptroller shall
+transfer from the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Income Tax Refund Fund to the Personal Property Tax
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Replacement Fund an amount, certified by the Director to </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Comptroller,
+equal to the excess of the amount </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collected pursuant to subsections (c) and
+(d) of Section </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>201 of this Act deposited into the Income Tax Refund Fund
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>during the fiscal year over the amount of refunds resulting </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>from
+overpayment of tax liability under subsections (c) and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(d) of Section 201
+of this Act paid from the Income Tax </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Refund Fund during the fiscal year.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) As soon as possible after the end of each fiscal </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>year, the Director shall
+order transferred and the State </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Treasurer and State Comptroller shall
+transfer from the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Personal Property Tax Replacement Fund to the Income Tax
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Refund Fund an amount, certified by the Director to the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Comptroller, equal
+to the excess of the amount of refunds </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>resulting from overpayment of tax
+liability under </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsections (c) and (d) of Section 201 of this Act paid
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>from the Income Tax Refund Fund during the fiscal year over </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the amount
+collected pursuant to subsections (c) and (d) of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 201 of this Act
+deposited into the Income Tax </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Refund Fund during the fiscal year.</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4.5) As soon as possible after the end of fiscal year </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1999 and of each
+fiscal year
+thereafter, the Director shall </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>order transferred and the State Treasurer and
+State </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Comptroller shall transfer from the Income Tax Refund Fund </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to the General
+Revenue Fund any surplus remaining in the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Income Tax Refund Fund as of the end
+of such fiscal year; </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>excluding for fiscal years 2000, 2001, and 2002
+amounts </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>attributable to transfers under item (3) of subsection (c) </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>less refunds
+resulting from the earned income tax credit.</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) This Act shall constitute an irrevocable and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>continuing
+appropriation from the Income Tax Refund Fund </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for the purpose of paying
+refunds upon the order of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Director in accordance with the provisions of
+this Section.</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) Deposits into the Education Assistance Fund and the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Income Tax
+Surcharge Local Government Distributive Fund. On </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>July 1, 1991, and thereafter, of the amounts collected pursuant </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>to
+subsections (a) and (b) of Section 201 of this Act, minus </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>deposits into the
+Income Tax Refund Fund, the Department shall </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>deposit 7.3% into the
+Education Assistance Fund in the State </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Treasury.  Beginning July 1, 1991,
+and continuing through </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>January 31, 1993, of the amounts collected pursuant to
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>subsections (a) and (b) of Section 201 of the Illinois Income </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Tax Act, minus
+deposits into the Income Tax Refund Fund, the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Department shall deposit 3.0%
+into the Income Tax Surcharge </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Local Government Distributive Fund in the State
+Treasury.  </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Beginning February 1, 1993 and continuing through June 30, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>1993, of
+the amounts collected pursuant to subsections (a) and </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>(b) of Section 201 of the
+Illinois Income Tax Act, minus </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>deposits into the Income Tax Refund Fund, the
+Department shall </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>deposit 4.4% into the Income Tax Surcharge Local Government
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Distributive Fund in the State Treasury.  Beginning July 1, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>1993, and
+continuing through June 30, 1994, of the amounts </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>collected under subsections
+(a) and (b) of Section 201 of this </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Act, minus deposits into the Income Tax
+Refund Fund, the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Department shall deposit 1.475% into the Income Tax Surcharge
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Local Government Distributive Fund in the State Treasury.</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Deposits into the Fund for the Advancement of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Education. Beginning February 1, 2015, the Department shall </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>deposit the following portions of the revenue realized from the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>tax imposed upon individuals, trusts, and estates by </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>subsections (a) and (b) of Section 201 of this Act during the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>preceding month, minus deposits into the Income Tax Refund </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Fund, into the Fund for the Advancement of Education: </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) beginning February 1, 2015, and prior to February </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1, 2025, 1/30; and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) beginning February 1, 2025, 1/26. </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If the rate of tax imposed by subsection (a) and (b) of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Section 201 is reduced pursuant to Section 201.5 of this Act, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the Department shall not make the deposits required by this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>subsection (f) on or after the effective date of the reduction. </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Deposits into the Commitment to Human Services Fund. </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Beginning February 1, 2015, the Department shall deposit the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>following portions of the revenue realized from the tax imposed </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>upon individuals, trusts, and estates by subsections (a) and </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>(b) of Section 201 of this Act during the preceding month, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>minus deposits into the Income Tax Refund Fund, into the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Commitment to Human Services Fund: </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) beginning February 1, 2015, and prior to February </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0158 Engrossed</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 03000 HLH 48008 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1, 2025, 1/30; and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) beginning February 1, 2025, 1/26. </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If the rate of tax imposed by subsection (a) and (b) of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Section 201 is reduced pursuant to Section 201.5 of this Act, </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the Department shall not make the deposits required by this </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>subsection (g) on or after the effective date of the reduction. </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) Deposits into the Tax Compliance and Administration </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Fund.  Beginning on the first day of the first calendar month to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>occur on or after August 26, 2014 (the effective date of Public </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Act 98-1098), each month the Department shall pay into the Tax </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Compliance and Administration Fund, to be used, subject to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>appropriation, to fund additional auditors and compliance </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>personnel at the Department, an amount equal to 1/12 of 5% of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the cash receipts collected during the preceding fiscal year by </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the Audit Bureau of the Department from the tax imposed by </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>subsections (a), (b), (c), and (d) of Section 201 of this Act, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>net of deposits into the Income Tax Refund Fund made from those </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>cash receipts. </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-78, eff. 7-20-15; 100-22, eff. 7-6-17; 100-23, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>eff. 7-6-17; 100-587, eff. 6-4-18; 100-621, eff. 7-20-18; </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>100-863, eff. 8-14-18; revised 10-12-18.)</code><br>&nbsp;<code>
+ </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

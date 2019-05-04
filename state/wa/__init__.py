@@ -2,7 +2,7 @@ from pupa.scrape import Jurisdiction, Organization
 from .people import WAPersonScraper
 from .events import WAEventScraper
 # from .committees import WACommitteeScraper
-from .bills import WABillScraper
+# from .bills import WABillScraper
 
 settings = dict(SCRAPELIB_TIMEOUT=300)
 
@@ -16,7 +16,7 @@ class Washington(Jurisdiction):
         'people': WAPersonScraper,
         'events': WAEventScraper,
         # 'committees': WACommitteeScraper,
-        'bills': WABillScraper,
+        # 'bills': WABillScraper,
     }
     legislative_sessions = [
         {

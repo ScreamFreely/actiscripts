@@ -1,0 +1,399 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:31:20 GMT
+Content-Length: 73096
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0315</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0315&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0315&GA=101&SessionId=108&DocTypeId=HB&LegID=114463&DocNum=315&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0315.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0315lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0315&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0315lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0315lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0315&GAID=15&DocTypeID=HB&LegID=114463&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0315 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0315</pre></b></center><p>&nbsp;</p>Introduced , by Rep. David McSweeney<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>305 ILCS 5/5-30.1</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Medical Assistance Article of the Illinois Public Aid Code. </code><code>Requires  the Department of Healthcare and Family Services to establish, by </code><code>rule,
+minimum quality standards for providers of medical supplies,
+</code><code>equipment, and related services applicable to contracted
+managed care </code><code>organizations for all services rendered to MCO
+enrollees. Requires the </code><code>minimum quality standards to be based upon
+recognized national standards </code><code>promulgated by national bodies
+and by the Centers for Medicare and Medicaid </code><code>Services. Requires the Department to set a rate of reimbursement payable by
+</code><code>contracted managed care organizations to contracted,
+in-network providers </code><code>of medical supplies, equipment, and related services at the default rate of </code><code>reimbursement paid
+under the Illinois Medicaid fee-for-service program
+</code><code>methodology for such medical
+supplies, equipment, and related services in </code><code>effect as of June
+30, 2017. Requires contracted managed care
+organizations </code><code>to offer a reimbursement rate to contracted,
+in-network providers of </code><code>medical supplies, equipment, and
+related services at not less than 90% of </code><code>the default rate of
+reimbursement paid under the Illinois Medicaid </code><code>fee-for-service
+program methodology, including all policy adjusters, for </code><code>such
+medical supplies, equipment, and related services of similar
+quality. </code><code>Provides that these provisions shall not be construed to
+allow the </code><code>Department or its contracted MCOs to enter into sole
+source contracts for </code><code>the provision of durable medical
+equipment, supplies, or related services </code><code>to Medicaid
+beneficiaries and Medicaid managed care enrollees. Effective </code><code>immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td></td><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning public aid.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Public Aid Code is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Section 5-30.1 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(305 ILCS 5/5-30.1)</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 5-30.1. </code><code>Managed care protections.</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) As used in this Section:</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Managed care organization" or "MCO" means any entity which </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>contracts with the Department to provide services where payment </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>for medical services is made on a capitated basis.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Emergency services" include:</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) emergency services, as defined by Section 10 of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Managed Care Reform and Patient Rights Act;</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) emergency medical screening examinations, as </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>defined by Section 10 of the Managed Care Reform and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Patient Rights Act;</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) post-stabilization medical services, as defined by </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 10 of the Managed Care Reform and Patient Rights </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act; and</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) emergency medical conditions, as defined by
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 10 of the Managed Care Reform and Patient Rights
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) As provided by Section 5-16.12, managed care </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>organizations are subject to the provisions of the Managed Care </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Reform and Patient Rights Act.</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) An MCO shall pay any provider of emergency services </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>that does not have in effect a contract with the contracted </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Medicaid MCO.  The default rate of reimbursement shall be the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>rate paid under Illinois Medicaid fee-for-service program </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>methodology, including all policy adjusters, including but not </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>limited to Medicaid High Volume Adjustments, Medicaid </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Percentage Adjustments, Outpatient High Volume Adjustments, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>and all outlier add-on adjustments to the extent such </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>adjustments are incorporated in the development of the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>applicable MCO capitated rates.</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) An MCO shall pay for all post-stabilization services as </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>a covered service in any of the following situations:</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) the MCO authorized such services;</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) such services were administered to maintain the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollee's stabilized condition within one hour after a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>request to the MCO for authorization of further </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>post-stabilization services;</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) the MCO did not respond to a request to authorize </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>such services within one hour;</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) the MCO could not be contacted; or</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) the MCO and the treating provider, if the treating </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provider is a non-affiliated provider, could not reach an </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>agreement concerning the enrollee's care and an affiliated </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provider was unavailable for a consultation, in which case </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the MCO
+must pay for such services rendered by the treating </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>non-affiliated provider until an affiliated provider was </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reached and either concurred with the treating </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>non-affiliated provider's plan of care or assumed </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>responsibility for the enrollee's care.  Such payment shall </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>be made at the default rate of reimbursement paid under </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois Medicaid fee-for-service program methodology, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including all policy adjusters, including but not limited </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to Medicaid High Volume Adjustments, Medicaid Percentage </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Adjustments, Outpatient High Volume Adjustments and all </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>outlier add-on adjustments to the extent that such </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>adjustments are incorporated in the development of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>applicable MCO capitated rates.</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) The following requirements apply to MCOs in determining </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>payment for all emergency services:</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) MCOs shall not impose any requirements for prior </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>approval of emergency services.</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The MCO shall cover emergency services provided to </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollees who are temporarily away from their residence and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>outside the contracting area to the extent that the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollees would be entitled to the emergency services if </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>they still were within the contracting area.</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The MCO shall have no obligation to cover medical </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>services provided on an emergency basis that are not </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>covered services under the contract.</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The MCO shall not condition coverage for emergency </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>services on the treating provider notifying the MCO of the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollee's screening and treatment within 10 days after </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>presentation for emergency services.</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) The determination of the attending emergency </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>physician, or the provider actually treating the enrollee, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of whether an enrollee is sufficiently stabilized for </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>discharge or transfer to another facility, shall be binding </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>on the MCO. The MCO shall cover emergency services for all </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollees whether the emergency services are provided by an </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>affiliated or non-affiliated provider.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) The MCO's financial responsibility for </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>post-stabilization care services it has not pre-approved </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ends when: </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) a plan physician with privileges at the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>treating hospital assumes responsibility for the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollee's care; </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) a plan physician assumes responsibility for </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the enrollee's care through transfer; </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) a contracting entity representative and the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>treating physician reach an agreement concerning the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>enrollee's care; or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(D) the enrollee is discharged. </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Network adequacy and transparency.</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) The Department shall:</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) ensure that an adequate  provider network is in </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>place, taking into consideration health professional </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>shortage areas and medically underserved areas;</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) publicly release an explanation of its process </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>for analyzing network adequacy;</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) periodically ensure that an MCO continues to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>have an adequate network in place; and</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(D) require MCOs, including Medicaid Managed Care </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Entities as defined in Section 5-30.2,  to meet provider </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>directory requirements under Section 5-30.3.</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Each MCO shall confirm its receipt of information </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>submitted specific to physician or dentist additions or </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>physician or dentist deletions from the MCO's provider </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>network within 3 days after receiving all required </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>information from contracted physicians or dentists, and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>electronic physician and dental directories must be </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>updated consistent with current rules as published by the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Centers for Medicare and Medicaid Services or its successor </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>agency.</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Timely payment of claims.</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) The MCO shall pay a claim within 30 days of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>receiving a claim that contains all the essential </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>information needed to adjudicate the claim.</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The MCO shall notify the billing party of its </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>inability to adjudicate a claim within 30 days of receiving </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>that claim.</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The MCO shall pay a penalty that is at least equal </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to the penalty imposed under the Illinois Insurance Code </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for any claims not timely paid.</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The Department may establish a process for MCOs to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expedite payments to providers based on criteria </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>established by the Department.</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g-5) Recognizing that the rapid transformation of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Illinois Medicaid program may have unintended operational </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>challenges for both payers and providers:</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) in no instance shall a medically necessary covered </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>service rendered in good faith, based upon eligibility </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>information documented by the provider, be denied coverage </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or diminished in payment amount if the eligibility or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage information available at the time the service was </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rendered is later found to be inaccurate; and</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) the Department shall, by December 31, 2016, adopt </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rules establishing policies that shall be included in the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Medicaid managed care policy and procedures manual </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>addressing payment resolutions in situations in which a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provider renders services based upon information obtained </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>after verifying a patient's eligibility and coverage plan </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>through either the Department's current enrollment system </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or a system operated by the coverage plan identified by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>patient presenting for services:</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) such medically necessary covered services </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be considered rendered in good faith;</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) such policies and procedures shall be </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>developed in consultation with industry </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>representatives of the Medicaid managed care health </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>plans and representatives of provider associations </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>representing the majority of providers within the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>identified provider industry; and</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) such rules shall be published for a review and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>comment period of no less than 30 days on the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Department's website with final rules remaining </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>available on the Department's website.</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The rules on payment resolutions shall include, but </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>not be limited to:</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) the extension of the timely filing period;</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) retroactive prior authorizations; and</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) guaranteed minimum payment rate of no less than </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the current, as of the date of service, fee-for-service </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>rate, plus all applicable add-ons, when the resulting </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>service relationship is out of network.</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The rules shall be applicable for both MCO coverage </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and fee-for-service coverage. </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g-6)  MCO Performance Metrics Report.</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) The Department shall publish, on at least a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>quarterly basis, each MCO's operational performance, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including, but not limited to, the following categories of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>metrics:</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) claims payment, including timeliness and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>accuracy;</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) prior authorizations;</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) grievance and appeals;</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(D) utilization statistics;</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(E) provider disputes;</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(F) provider credentialing; and</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(G) member and provider customer service. </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2)  The Department shall ensure that the metrics report </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>is accessible to providers online by January 1, 2017.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The metrics shall be developed in consultation with </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>industry representatives of the Medicaid managed care </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>health plans and representatives of associations </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>representing the majority of providers within the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>identified industry.</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) Metrics shall be defined and incorporated into the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>applicable Managed Care Policy Manual issued by the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department.</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g-7)  MCO claims processing and performance analysis. In </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>order to monitor MCO payments to hospital providers, pursuant </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>to this amendatory Act of the 100th General Assembly, the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Department shall post  an analysis of MCO claims processing and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>payment performance on its website every 6 months.  Such </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>analysis shall include a review and evaluation of a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>representative sample of hospital claims that are rejected and </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>denied for clean and unclean claims and the top 5 reasons for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>such actions and timeliness of claims adjudication, which </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>identifies the percentage of claims adjudicated within 30, 60, </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>90, and over 90 days, and the dollar amounts associated with </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>those claims. The Department shall post the contracted claims </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>report required by HealthChoice Illinois on its website every 3 </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>months. </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) The Department shall not expand mandatory MCO </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>enrollment into new counties beyond those counties already </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>designated by the Department as of June 1, 2014 for the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>individuals whose eligibility for medical assistance is not the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>seniors or people with disabilities population until the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Department provides an opportunity for accountable care </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>entities and MCOs to participate in such newly designated </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>counties.</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) The requirements of this Section apply to contracts </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>with accountable care entities and MCOs entered into, amended, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>or renewed after June 16, 2014 (the effective date of Public </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Act 98-651).</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(j) Notwithstanding any other Public Act or contract terms </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>and conditions, the Department shall establish, by rule, </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>minimum quality standards for providers of medical supplies, </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>equipment, and related services applicable to contracted </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>managed care organizations for all services rendered to MCO  </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>enrollees. The minimum quality standards shall be based upon </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>recognized national standards promulgated by national bodies </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>and by the Centers for Medicare and Medicaid Services.</code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>The Department shall set a rate of reimbursement payable by </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>contracted managed care organizations to contracted, </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>in-network providers of medical supplies, equipment, and </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>related services at the default rate of reimbursement paid </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>under the Illinois Medicaid fee-for-service program </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>methodology, including all policy adjusters, for such medical </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>supplies, equipment, and related services in effect as of June </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>30, 2017. Such rates shall be held in effect until the </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>Department adopts minimum quality standards as required in this </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>subsection.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>After the Department adopts minimum quality standards as </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>required in this subsection, contracted managed care </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>organizations shall offer a reimbursement rate to contracted, </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>in-network providers of medical supplies, equipment, and </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>related services at not less than 90% of the default rate of </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>reimbursement paid under the Illinois Medicaid fee-for-service </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>program methodology, including all policy adjusters, for such </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>medical supplies, equipment, and related services of similar </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>quality.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Notwithstanding any other Public Act or contract terms and </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>conditions, nothing in this subsection shall be construed to </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>allow the Department or its contracted MCOs to enter into sole </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>source contracts for the provision of durable medical </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>equipment, supplies, or related services to Medicaid </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>beneficiaries and Medicaid managed care enrollees.</code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-725, eff. 8-5-16; 99-751, eff. 8-5-16; </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>100-201, eff. 8-18-17; 100-580, eff. 3-12-18; 100-587, eff. </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>6-4-18.)</code><br>&nbsp;<code>
+ </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0315</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 04010 KTG 49018 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

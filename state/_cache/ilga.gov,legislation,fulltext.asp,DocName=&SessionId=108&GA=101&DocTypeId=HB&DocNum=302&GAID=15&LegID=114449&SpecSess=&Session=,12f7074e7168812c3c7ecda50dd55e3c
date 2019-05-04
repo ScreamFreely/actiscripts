@@ -1,0 +1,371 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:30:35 GMT
+Content-Length: 33054
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0302</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0302&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0302&GA=101&SessionId=108&DocTypeId=HB&LegID=114449&DocNum=302&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0302.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0302lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0302&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0302lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0302lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0302&GAID=15&DocTypeID=HB&LegID=114449&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0302 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0302</pre></b></center><p>&nbsp;</p>Introduced , by Rep. David McSweeney<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>110 ILCS 947/65.105 new</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Higher Education Student Assistance Act. Requires the </code><code>Illinois Student Assistance Commission to establish and administer an adult </code><code>vocational community college scholarship program. Provides that beginning </code><code>with the 2020-2021 academic year, the Commission shall, each year, receive </code><code>and consider applications for scholarships to community colleges for people </code><code>over the age of 30 who have been unemployed and are actively searching for </code><code>employment and who can identify the specific training certificate, </code><code>credential, or associate degree that he or she is seeking to obtain. Allows </code><code>applicants to re-apply for the scholarship if they can demonstrate </code><code>continual progress toward the desired certificate, credential, or degree. </code><code>Provides that scholarships shall not exceed $2,000 per recipient per </code><code>academic year. Allows the Commission to establish appropriate applications </code><code>and forms. Requires the Commission to adopt all necessary and proper rules </code><code>to implement the program.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04030 AXK 49038 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td></td><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0302</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04030 AXK 49038 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning education.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Higher Education Student Assistance Act is </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>amended  by adding Section 65.105 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(110 ILCS 947/65.105 new)</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 65.105. </code></u><u><code>Adult vocational community college </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>scholarship.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) The Commission shall, subject to appropriation, </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>establish and administer an adult vocational community college </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>scholarship program.</code></u><code> </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) Beginning with the 2020-2021 academic year, the </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>Commission shall, each year, receive and consider applications </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>for scholarships under this Section. An applicant is eligible </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>for a scholarship under this Section if the Commission finds </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>that the applicant meets all of the following qualifications:</code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) He or she is over the age of 30.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) He or she has been unemployed and is actively </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>searching for employment, including being enrolled on the </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>Department of Employment Security's job-search website for </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>at least 6 months prior to the date the application is </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>submitted by the applicant.</code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) He or she is enrolled or accepted for enrollment at </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0302</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04030 AXK 49038 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>his or her local community college organized under the </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>Public Community College Act.</code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) He or she can identify the specific training </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>certificate, credential, or associate degree that he or she </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>is seeking to obtain; the career that the certificate, </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>credential, or degree will help create; and how long it </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>will take the applicant to reach this goal.</code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Applicants may re-apply for the scholarship under this </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>Section if they can demonstrate continual progress, in terms of </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>grades and attendance, toward the desired certificate, </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>credential, or degree.</code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(c) The scholarship shall be sufficient to cover the cost </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>of tuition and fees to attend the community college, but in no </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>event shall the scholarship exceed $2,000 per scholarship </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>recipient per academic year.</code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>The total amount of a scholarship awarded by the Commission </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>under this Section to an individual in any given fiscal year, </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>when added to other financial assistance awarded to that </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>individual for that year, shall not exceed the cost of </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>attendance at the community college at which the student is </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>enrolled.</code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(d) All applications for scholarships to be awarded under </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>this Section shall be made to the Commission in a form as set </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>forth by the Commission. The form of application and the </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>information required to be set forth in the application shall </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>be determined by the Commission, and the Commission shall </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0302</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04030 AXK 49038 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>require eligible applicants to submit with their applications </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>such supporting documents as the Commission deems necessary.</code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(e) Subject to a separate appropriation made for such </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>purposes, payment of any scholarships awarded under this </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>Section shall be determined by the Commission. All scholarship </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>funds distributed in accordance with this Section shall be paid </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>to the community college on behalf of the recipients. </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>Scholarship funds are applicable toward 2 semesters of </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>enrollment within an academic year. Up to 2% of the </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>appropriation for this scholarship program may be used by the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>Commission for the costs of administering the scholarship </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>program.</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(f) The Commission shall adopt all necessary and proper </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>rules not inconsistent with this Section for its effective </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>implementation.</code></u><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

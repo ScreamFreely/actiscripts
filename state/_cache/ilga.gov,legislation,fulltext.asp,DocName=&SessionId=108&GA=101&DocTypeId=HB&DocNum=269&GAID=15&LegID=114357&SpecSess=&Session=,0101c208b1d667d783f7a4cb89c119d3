@@ -1,0 +1,718 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:28:49 GMT
+Content-Length: 127143
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0269</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0269&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0269&GA=101&SessionId=108&DocTypeId=HB&LegID=114357&DocNum=269&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0269.htm'></a>&nbsp;&nbsp;<a href='fulltext.asp?DocName=10100HB0269eng&GA=101&SessionId=108&DocTypeId=HB&LegID=114357&DocNum=269&GAID=15&Session='>Engrossed</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0269eng.htm'></a><br><a href='fulltext.asp?DocName=10100HB0269ham001&GA=101&SessionId=108&DocTypeId=HB&LegID=114357&DocNum=269&GAID=15&Session='>House Amendment 001</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0269ham001.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0269lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0269&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0269lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0269lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0269&GAID=15&DocTypeID=HB&LegID=114357&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0269eng 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning employment.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Workers' Compensation Act is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Sections 4 and 4a-5 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(820 ILCS 305/4)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 48, par. 138.4)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 4. </code><code>(a) Any employer, including but not limited to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>general contractors
+and their subcontractors, who shall come </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>within the provisions of
+Section 3 of this Act, and any other </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>employer who shall elect to provide
+and pay the compensation </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>provided for in this Act shall:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) File with the Commission annually an application </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for approval as a
+self-insurer which shall include a </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>current financial statement, and
+annually, thereafter, an </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>application for renewal of self-insurance, which
+shall </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>include a current financial statement.  Said
+application </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and financial statement shall be signed and sworn to by the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>president or vice president and secretary or assistant </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>secretary of the
+employer if it be a corporation, or by all </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the partners, if it be a
+copartnership, or by the owner </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>if it be neither a copartnership nor a
+corporation. All </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>initial applications and all applications for renewal of
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>self-insurance must be submitted at least 60 days prior to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the requested
+effective date of self-insurance.  An </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employer may elect to provide and pay
+compensation as </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provided
+for in this Act as a member of a group workers' </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>compensation pool under Article
+V 3/4 of the Illinois </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Insurance Code.  If an employer becomes a member of a
+group </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>workers' compensation pool, the employer shall not be </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>relieved of any
+obligations imposed by this Act.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If the sworn application and financial statement of any </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>such employer
+does not satisfy the Commission of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>financial ability of the employer
+who has filed it, the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Commission shall require such employer to,</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Furnish security, indemnity or a bond guaranteeing </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the payment
+by the employer of the compensation provided </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for in this Act, provided
+that any such employer whose </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>application and financial statement shall
+not have </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>satisfied the commission of his or her financial ability </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and
+who shall have secured his liability in part by excess </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>liability insurance
+shall be required to furnish to the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Commission security, indemnity or bond
+guaranteeing his or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>her payment up to the effective limits of the excess
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>coverage, or</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) Insure his entire liability to pay such </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>compensation in some
+insurance carrier authorized, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensed, or permitted to do such
+insurance business in </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this State.  Every policy of an insurance carrier,
+insuring </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the payment of compensation under this Act shall cover all </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the
+employees and the entire compensation liability of the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>insured:
+Provided, however, that any employer may insure </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>his or her compensation
+liability with 2 or more insurance </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>carriers or may insure a part and
+qualify under subsection </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1, 2, or 4 for the remainder of his or her
+liability to pay </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>such compensation, subject to the following two </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisions:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Firstly, the entire compensation liability of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>employer to
+employees working at or from one location </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>shall be insured in one such
+insurance carrier or shall </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>be self-insured, and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Secondly, the employer shall submit evidence </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>satisfactorily to the
+Commission that his or her entire </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>liability for the compensation provided
+for in this Act </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>will be secured.  Any provisions in any policy, or in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>any
+endorsement attached thereto, attempting to limit </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>or modify in any way,
+the liability of the insurance </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>carriers issuing the same except as
+otherwise provided </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>herein shall be wholly void.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Nothing herein contained shall apply to policies of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>excess liability
+carriage secured by employers who have </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>been approved by the Commission
+as self-insurers, or</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) Make some other provision, satisfactory to the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Commission, for
+the securing of the payment of compensation </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provided for in this Act,
+and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) Upon becoming subject to this Act and thereafter as </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>often as the
+Commission may in writing demand, file with </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Commission in form prescribed
+by it evidence of his or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>her compliance with the provision of this Section.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a-1) Regardless of its state of domicile or its principal </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>place of
+business, an employer shall make payments to its </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>insurance carrier or group
+self-insurance fund, where </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>applicable, based upon the premium rates of the
+situs where the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>work or project is located in Illinois if:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) the employer is engaged primarily in the building </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and
+construction industry; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) subdivision (a)(3) of this Section applies to the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employer or
+the employer is a member of a group </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>self-insurance plan as defined in
+subsection (1) of Section </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>4a.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Illinois Workers' Compensation Commission shall impose </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>a penalty upon an employer
+for violation of this subsection </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>(a-1) if:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) the employer is given an opportunity at a hearing </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to present
+evidence of its compliance with this subsection </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(a-1); and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) after the hearing, the Commission finds that the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employer
+failed to make payments upon the premium rates of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the situs where the work or
+project is located in Illinois.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The penalty shall not exceed $1,000 for each day of work </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>for which
+the employer failed to make payments upon the premium </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>rates of the situs where
+the
+work or project is located in </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Illinois, but the total penalty shall not exceed
+$50,000 for </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>each project or each contract under which the work was
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>performed.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Any penalty under this subsection (a-1) must be imposed not </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>later
+than one year after the expiration of the applicable </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>limitation period
+specified in subsection (d) of Section 6 of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>this Act.  Penalties imposed under
+this subsection (a-1) shall </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>be deposited into the Illinois Workers' Compensation </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Commission
+Operations Fund, a special fund that is created in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the State treasury.  Subject
+to appropriation, moneys in the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Fund shall be used solely for the operations
+of the Illinois </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Workers' Compensation Commission</code><u><code>, the salaries and benefits of </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>the Self-Insurers Advisory Board employees, the operating </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>costs of the Self-Insurers Advisory Board,</code></u><code> and by the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Department of Insurance for the purposes authorized in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>subsection (c) of Section 25.5 of this Act.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a-2) Every Employee Leasing Company (ELC), as defined in </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Section 15 of the Employee Leasing Company Act, shall at a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>minimum provide the following information to the Commission or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>any entity designated by the Commission regarding each workers' </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>compensation insurance policy issued to the ELC:</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Any client company of the ELC listed as an </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>additional named insured.</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Any informational schedule attached to the master </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>policy that identifies any individual client company's </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>name, FEIN, and job location.</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) Any certificate of insurance coverage document </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>issued to a client company specifying its rights and </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>obligations under the master policy that establishes both </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the identity and status of the client, as well as the dates </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of inception and termination of coverage, if applicable. </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The sworn application and financial statement, or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>security,
+indemnity or bond, or amount of insurance, or other </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>provisions, filed,
+furnished, carried, or made by the employer, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>as the case may be, shall
+be subject to the approval of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Commission.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Deposits under escrow agreements shall be cash, negotiable </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>United
+States government bonds or negotiable general </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>obligation bonds of the
+State of Illinois.  Such cash or bonds </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>shall be deposited in
+escrow with any State or National Bank or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Trust Company having trust
+authority in the State of Illinois.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Upon the approval of the sworn application and financial </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>statement,
+security, indemnity or bond or amount of insurance, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>filed, furnished or
+carried, as the case may be, the Commission </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>shall send to the employer
+written notice of its approval </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>thereof.  The certificate of compliance
+by the employer with the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provisions of subparagraphs (2) and (3) of
+paragraph (a) of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>this Section shall be delivered by the insurance
+carrier to the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Illinois Workers' Compensation Commission within five days </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>after the
+effective date of the policy so certified.  The </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>insurance so certified
+shall cover all compensation liability </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>occurring during the time that
+the insurance is in effect and </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>no further certificate need be filed in case
+such insurance is </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>renewed, extended or otherwise continued by such
+carrier.  The </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>insurance so certified shall not be cancelled or in the
+event </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>that such insurance is not renewed, extended or otherwise
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>continued, such insurance shall not be terminated until at </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>least 10
+days after receipt by the Illinois Workers' </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Compensation Commission of notice of the
+cancellation or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>termination of said insurance; provided, however, that
+if the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>employer has secured insurance from another insurance carrier, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>or
+has otherwise secured the payment of compensation in </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>accordance with
+this Section, and such insurance or other </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>security becomes effective
+prior to the expiration of the 10 </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>days, cancellation or termination may, at
+the option of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>insurance carrier indicated in such notice, be effective
+as of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the effective date of such other insurance or security.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) Whenever the Commission shall find that any </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>corporation,
+company, association, aggregation of individuals, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>reciprocal or
+interinsurers exchange, or other insurer </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>effecting workers' compensation
+insurance in this State shall </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>be insolvent, financially unsound, or
+unable to fully meet all </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>payments and liabilities assumed or to be
+assumed for </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>compensation insurance in this State, or shall practice a
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>policy of delay or unfairness toward employees in the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>adjustment,
+settlement, or payment of benefits due such </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>employees, the Commission
+may after reasonable notice and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>hearing order and direct that such
+corporation, company, </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>association, aggregation of individuals,
+reciprocal or </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>interinsurers exchange, or insurer, shall from and after a
+date </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>fixed in such order discontinue the writing of any such </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>workers'
+compensation insurance in this State.  Subject to such </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>modification of
+the order as the Commission may later make on </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>review of the order,
+as herein provided, it shall thereupon be </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>unlawful for any such
+corporation, company, association, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>aggregation of individuals,
+reciprocal or interinsurers </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>exchange, or insurer to effect any workers'
+compensation </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>insurance in this State.  A copy of the order shall be served
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>upon the Director of Insurance by registered mail.  Whenever the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Commission
+finds that any service or adjustment company used or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>employed
+by a self-insured employer or by an insurance carrier </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>to process,
+adjust, investigate, compromise or otherwise </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>handle claims under this
+Act, has practiced or is practicing a </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>policy of delay or unfairness
+toward employees in the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>adjustment, settlement or payment of benefits
+due such </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>employees, the Commission may after reasonable notice and
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>hearing order and direct that such service or adjustment </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>company shall
+from and after a date fixed in such order be </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>prohibited from processing,
+adjusting, investigating, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>compromising or otherwise handling claims
+under this Act.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Whenever the Commission finds that any self-insured </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>employer has
+practiced or is practicing delay or unfairness </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>toward employees in the
+adjustment, settlement or payment of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>benefits due such employees, the
+Commission may, after </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>reasonable notice and hearing, order and direct
+that after a </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>date fixed in the order such self-insured employer shall be
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>disqualified to operate as a self-insurer and shall be required </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>to
+insure his entire liability to pay compensation in some </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>insurance
+carrier authorized, licensed and permitted to do such </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>insurance business
+in this State, as provided in subparagraph 3 </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>of paragraph (a) of this
+Section.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All orders made by the Commission under this Section shall </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>be subject
+to review by the courts, said review to be taken in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the same manner and
+within the same time as provided by Section </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>19 of this Act for review of
+awards and decisions of the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Commission, upon the party seeking the
+review filing with the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>clerk of the court to which said review is taken
+a bond in an </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>amount to be fixed and approved by the court to which the
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>review is taken, conditioned upon the payment of all </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>compensation awarded
+against the person taking said review </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>pending a decision thereof and
+further conditioned upon such </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>other obligations as the court may impose.
+Upon the review the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Circuit Court shall have power to review all questions
+of fact </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>as well as of law.  The penalty hereinafter provided for in this
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>paragraph shall not attach and shall not begin to run until the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>final
+determination of the order of the Commission.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) </code><u><code>Whenever a Commissioner, with due process and after a </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>hearing, determines an employer has knowingly failed to provide </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>coverage as required by paragraph (a) of this Section, the </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>failure shall be deemed an immediate serious danger to public </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>health, safety, and welfare sufficient to justify service by </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>the Commission of a work-stop order on such employer, requiring </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>the cessation of all business operations of such employer at </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>the place of employment or job site. If a business is declared </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>to be extra hazardous, as defined in Section 3, a Commissioner </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>may issue an emergency work-stop order on such an employer ex </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>parte, prior to holding a hearing, requiring the cessation of </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>all business operations of such employer at the place of </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>employment or job site while awaiting the ruling of the </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>Commission. Whenever a Commissioner issues an emergency </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>work-stop order, the Commission shall issue a notice of </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>emergency work-stop hearing to be posted at the employer's </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>places of employment and job sites.</code></u><code> </code><strike><code>Whenever a panel of 3 </code></strike></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><strike><code>Commissioners comprised of one member of the employing class, </code></strike></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><strike><code>one member of the employee class, and one member not identified </code></strike></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><strike><code>with either the employing or employee class, with due process </code></strike></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><strike><code>and after a hearing, determines an employer has knowingly </code></strike></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><strike><code>failed to provide coverage as required by paragraph (a) of this </code></strike></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><strike><code>Section, the failure shall be deemed an immediate serious </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>danger to public health, safety, and welfare sufficient to </code></strike></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><strike><code>justify service by the Commission of a work-stop order on such </code></strike></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><strike><code>employer, requiring the cessation of all business operations of </code></strike></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><strike><code>such employer at the place of employment or job site.</code></strike><code> Any law </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>enforcement agency in the State shall, at the request of the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Commission, render any assistance necessary to carry out the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>provisions of this Section, including, but not limited to, </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>preventing any employee of such employer from remaining at a </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>place of employment or job site after a work-stop order has </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>taken effect.  Any work-stop order shall be lifted upon proof of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>insurance as required by this Act. Any orders under this </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Section are appealable under Section 19(f) to the Circuit </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Court.
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Any individual employer, corporate officer or director of a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>corporate employer, partner of an employer partnership, or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>member of an employer limited liability company who knowingly </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>fails to provide coverage as required by paragraph (a) of this </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Section is guilty of a Class 4 felony.  This provision shall not </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>apply to any corporate officer or director of any </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>publicly-owned corporation. Each day's violation constitutes a </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>separate offense.  The State's Attorney of the county in which </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the violation occurred, or the Attorney General, shall bring </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>such actions in the name of the People of the State of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Illinois, or may, in addition to other remedies provided in </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>this Section, bring an action for an injunction to restrain the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>violation or to enjoin the operation of any such employer.
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Any individual employer, corporate officer or director of a </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>corporate employer, partner of an employer partnership, or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>member of an employer limited liability company who negligently </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>fails to provide coverage as required by paragraph (a) of this </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Section is guilty of a Class A misdemeanor.  This provision </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>shall not apply to any corporate officer or director of any </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>publicly-owned corporation. Each day's violation constitutes a </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>separate offense.  The State's Attorney of the county in which </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the violation occurred, or the Attorney General, shall bring </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>such actions in the name of the People of the State of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Illinois.
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The criminal penalties in this subsection (d) shall not </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>apply where
+
+there exists a good faith dispute as to the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>existence of an
+employment relationship. Evidence of good faith </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>shall
+include, but not be limited to, compliance with the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>definition
+of employee as used by the Internal Revenue Service.
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>All investigative actions must be acted upon within 90 days </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>of the issuance of the complaint.</code></u><code> Employers who are subject to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and who knowingly fail to comply with this Section shall not be </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>entitled to the benefits of this Act during the period of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>noncompliance, but shall be liable in an action under any other </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>applicable law of this State.  In the action, such employer </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>shall not avail himself or herself of the defenses of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>assumption of risk or negligence or that the injury was due to </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>a co-employee.  In the action, proof of the injury shall </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>constitute prima facie evidence of negligence on the part of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>such employer and the burden shall be on such employer to show </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>freedom of negligence resulting in the injury.  The employer </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>shall not join any other defendant in any such civil action.  </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Nothing in this amendatory Act of the 94th General Assembly </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall affect the employee's rights under subdivision (a)3 of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Section 1 of this Act. Any employer or carrier who makes </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>payments under subdivision (a)3 of Section 1 of this Act shall </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>have a right of reimbursement from the proceeds of any recovery </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>under this Section.
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>An employee of an uninsured employer, or the employee's </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>dependents in case death ensued, may, instead of proceeding </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>against the employer in a civil action in court, file an </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>application for adjustment of claim with the Commission in </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>accordance with the provisions of this Act and the Commission </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>shall hear and determine the application for adjustment of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>claim in the manner in which other claims are heard and </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>determined before the Commission.
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All proceedings under this subsection (d) shall be reported </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>on an annual basis to the Workers' Compensation Advisory Board.
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>An investigator with the Illinois Workers' Compensation </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Commission Insurance Compliance Division may issue a citation </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>to any employer that is not in compliance with its obligation </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>to have workers' compensation insurance under this Act. The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>amount of the fine shall be based on the period of time the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>employer was in non-compliance, but shall be no less than $500, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>and shall not exceed </code><u><code>$10,000</code></u><code> </code><strike><code>$2,500</code></strike><code>. An employer that has been </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>issued a citation shall pay the fine to the Commission and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provide to the Commission proof that it obtained the required </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>workers' compensation insurance within 10 days after the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>citation was issued. This Section does not affect any other </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>obligations this Act imposes on employers. </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Upon a finding by the Commission, after reasonable notice </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>and
+hearing, of the knowing and </code><u><code>willful</code></u><code> </code><strike><code>wilful</code></strike><code> failure or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>refusal of an employer to
+comply with
+any of the provisions of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>paragraph (a) of this Section, the failure or
+refusal of an </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>employer, service or adjustment company, or an insurance
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>carrier to comply with any order of the Illinois Workers' </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Compensation Commission pursuant to
+paragraph (c) of this </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Section disqualifying him or her to operate as a self
+insurer </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>and requiring him or her to insure his or her liability, or the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>knowing and willful failure of an employer to comply with a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>citation issued by an investigator with the Illinois Workers' </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Compensation Commission Insurance Compliance Division, the
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Commission may assess a civil penalty of up to $500 per day for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>each day of
+such failure or refusal after the effective date of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>this amendatory Act of
+1989. The minimum penalty under this </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Section shall be the sum of $10,000.
+Each day of such failure </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>or refusal shall constitute a separate offense.
+The Commission </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>may assess the civil penalty personally and individually
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>against the corporate officers and directors of a corporate </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>employer, the
+partners of an employer partnership, and the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>members of an employer limited
+liability company, after a </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>finding of a knowing and willful refusal or failure
+of each </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>such named corporate officer, director, partner, or member to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>comply
+with this Section.  The liability for the assessed </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>penalty shall be
+against the named employer first, and
+if the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>named employer fails or refuses to pay the penalty to the
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Commission within 30 days after the final order of the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Commission, then the
+named
+corporate officers, directors, </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>partners, or members who have been found to have
+knowingly and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>willfully refused or failed to comply with this Section shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>be
+liable for the unpaid penalty or any unpaid portion of the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>penalty.  Upon investigation by the insurance non-compliance </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>unit of the Commission, the Attorney General shall have the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>authority to prosecute all proceedings to enforce the civil and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>administrative provisions of this Section before the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Commission.  The Commission shall promulgate procedural rules </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>for enforcing this Section.
+
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>If an employer is found to be in non-compliance with any </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>provisions of paragraph (a) of this Section more than once, all </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>minimum penalties will double. Therefore, upon the failure or </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>refusal of an employer, service or adjustment company, or </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>insurance carrier to comply with any order of the Commission </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>pursuant to paragraph (c) of this Section disqualifying him or </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>her to operate as a self-insurer and requiring him or her to </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>insure his or her liability, or the knowing and willful failure </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>of an employer to comply with a citation issued by an </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>investigator with the Illinois Workers' Compensation </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>Commission Insurance Compliance Division, the Commission may </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>assess a civil penalty of up to $1,000 per day for each day of </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>such failure or refusal after the effective date of this </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>amendatory Act of the 101st General Assembly. The minimum </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>penalty under this Section shall be the sum of $20,000. In </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>addition, employers with 2 or more violations of any provisions </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>of paragraph (a) of this Section may not self-insure for one </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>year or until all penalties are paid.</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Upon the failure or refusal of any employer, service or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>adjustment
+company or insurance carrier to comply with the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>provisions of this Section
+and with the orders of the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Commission under this Section, or the order of
+the court on </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>review after final adjudication, the Commission may bring a
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>civil action to recover the amount of the penalty in Cook </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>County or in
+Sangamon County in which litigation the Commission </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>shall be represented by
+the Attorney General.  The Commission </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>shall send notice of its finding of
+non-compliance and </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>assessment of the civil penalty to the Attorney General.
+It </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>shall be the duty of the Attorney General within 30 days after </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>receipt
+of the notice, to institute prosecutions and promptly </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>prosecute all
+reported violations of this Section.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Any individual employer, corporate officer or director of a </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>corporate employer, partner of an employer partnership, or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>member of an employer limited liability company who, with the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>intent to avoid payment of compensation under this Act to an </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>injured employee or the employee's dependents, knowingly </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>transfers, sells, encumbers, assigns, or in any manner disposes </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>of, conceals, secretes, or destroys any property belonging to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the employer, officer, director, partner, or member is guilty </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>of a Class 4 felony.
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Penalties and fines collected pursuant to this paragraph </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>(d) shall be deposited upon receipt into a special fund which </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>shall be designated the Injured Workers' Benefit Fund, of which </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the State Treasurer is ex-officio custodian, such special fund </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>to be held and disbursed in accordance with this paragraph (d) </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>for the purposes hereinafter stated in this paragraph (d), upon </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the final order of the Commission.  The Injured Workers' Benefit </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Fund shall be deposited the same as are State funds and any </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>interest accruing thereon shall be added thereto every 6 </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>months.  The Injured Workers' Benefit Fund is subject to audit </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the same as State funds and accounts and is protected by the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>general bond given by the State Treasurer.  The Injured Workers' </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Benefit Fund is considered always appropriated for the purposes </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>of disbursements as provided in this paragraph, and shall be </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>paid out and disbursed as herein provided and shall not at any </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>time be appropriated or diverted to any other use or purpose.  </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Moneys in the Injured Workers' Benefit Fund shall be used only </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>for payment of workers' compensation benefits for injured </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>employees when the employer has failed to provide coverage as </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>determined under this paragraph (d) and has failed to pay the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>benefits due to the injured employee.  The Commission shall have </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the right to obtain reimbursement from the employer for </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>compensation obligations paid by the Injured Workers' Benefit </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Fund.  Any such amounts obtained shall be deposited by the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Commission into the Injured Workers' Benefit Fund.  If an </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>injured employee or his or her personal representative receives </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>payment from the Injured Workers' Benefit Fund, the State of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Illinois has the same rights under paragraph (b) of Section 5 </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>that the employer who failed to pay the benefits due to the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>injured employee would have had if the employer had paid those </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>benefits, and any moneys recovered by the State as a result of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the State's exercise of its rights under paragraph (b) of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Section 5 shall be deposited into the Injured Workers' Benefit </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Fund.  The custodian of the Injured Workers' Benefit Fund shall </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>be joined with the employer as a party respondent in the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>application for adjustment of claim. After July 1, 2006, the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Commission shall make disbursements from the Fund once each </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>year to each eligible claimant.  An eligible claimant is an </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>injured worker who has within the previous fiscal year obtained </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>a final award for benefits from the Commission against the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>employer and the Injured Workers' Benefit Fund and has notified </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the Commission within 90 days of receipt of such award.  Within </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>a reasonable time after the end of each fiscal year, the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Commission shall make a disbursement to each eligible claimant.  </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>At the time of disbursement, if there are insufficient moneys </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>in the Fund to pay all claims, each eligible claimant shall </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>receive a pro-rata share, as determined by the Commission, of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the available moneys in the Fund for that year.  Payment from </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>the Injured Workers' Benefit Fund to an eligible claimant </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>pursuant to this provision shall discharge the obligations of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the Injured Workers' Benefit Fund regarding the award entered </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>by the Commission.
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) This Act shall not affect or disturb the continuance of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>any
+existing insurance, mutual aid, benefit, or relief </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>association or
+department, whether maintained in whole or in </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>part by the employer or
+whether maintained by the employees, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the payment of benefits of such
+association or department being </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>guaranteed by the employer or by some
+person, firm or </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>corporation for him or her: Provided, the employer contributes
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>to such association or department an amount not less than the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>full
+compensation herein provided, exclusive of the cost of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>maintenance
+of such association or department and without any </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>expense to the
+employee.  This Act shall not prevent the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>organization and maintaining
+under the insurance laws of this </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>State of any benefit or insurance
+company for the purpose of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>insuring against the compensation provided
+for in this Act, the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>expense of which is maintained by the employer.
+This Act shall </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>not prevent the organization or maintaining under the
+insurance </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>laws of this State of any voluntary mutual aid, benefit or
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>relief association among employees for the payment of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>additional
+accident or sick benefits.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) No existing insurance, mutual aid, benefit or relief </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>association
+or department shall, by reason of anything herein </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>contained, be
+authorized to discontinue its operation without </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>first discharging its
+obligations to any and all persons </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>carrying insurance in the same or
+entitled to relief or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>benefits therein.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Any contract, oral, written or implied, of employment </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>providing
+for relief benefit, or insurance or any other device </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>whereby the
+employee is required to pay any premium or premiums </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>for insurance
+against the compensation provided for in this Act </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>shall be null and
+void.  Any employer withholding from the wages </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>of any employee any
+amount for the purpose of paying any such </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>premium shall be guilty of a
+Class B misdemeanor.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In the event the employer does not pay the compensation for </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>which he or
+she is liable, then an insurance company, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>association or insurer which may
+have insured such employer </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>against such liability shall become primarily
+liable to pay to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the employee, his or her personal representative or
+beneficiary </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the compensation required by the provisions of this Act to
+be </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>paid by such employer.  The insurance carrier may be made a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>party to
+the proceedings in which the employer is a party and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>an award may be
+entered jointly against the employer and the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>insurance carrier.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) It shall be unlawful for any employer, insurance </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>company or
+service or adjustment company to interfere with, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>restrain or coerce an
+employee in any manner whatsoever in the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>exercise of the rights or
+remedies granted to him or her by </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>this Act or to discriminate, attempt to
+discriminate, or </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>threaten to discriminate against an employee in any way
+because </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>of his or her exercise of the rights or remedies granted to
+him </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>or her by this Act.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>It shall be unlawful for any employer, individually or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>through any
+insurance company or service or adjustment company, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>to discharge or to
+threaten to discharge, or to refuse to </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>rehire or recall to active
+service in a suitable capacity an </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>employee because of the exercise of
+his or her rights or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 21 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>remedies granted to him or her by this Act.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) If an employer elects to obtain a life insurance policy </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>on his
+employees, he may also elect to apply such benefits in </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>satisfaction of all
+or a portion of the death benefits payable </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>under this Act, in which case,
+the employer's compensation </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>premium shall be reduced accordingly.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(j) Within 45 days of receipt of an initial application or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>application
+to renew self-insurance privileges the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Self-Insurers Advisory Board shall
+review and submit for </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>approval by the Chairman of the Commission
+recommendations of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>disposition of all initial applications to self-insure
+and all </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>applications to renew self-insurance privileges filed by </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>private
+self-insurers pursuant to the provisions of this </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Section and Section 4a-9
+of this Act.  Each private self-insurer </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall submit with its initial and
+renewal applications the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>application fee required by Section 4a-4 of this Act.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Chairman of the Commission shall promptly act upon all </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>initial
+applications and applications for renewal in full </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>accordance with the
+recommendations of the Board or, should the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Chairman disagree with any
+recommendation of disposition of the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Self-Insurer's Advisory Board, he
+shall within 30 days of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>receipt of such recommendation provide to the Board
+in writing </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the reasons supporting his decision.  The Chairman shall also
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>promptly notify the employer of his decision within 15 days of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>receipt of
+the recommendation of the Board.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If an employer is denied a renewal of self-insurance </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 22 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>privileges pursuant
+to application it shall retain said </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>privilege for 120 days after receipt of
+a notice of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>cancellation of the privilege from the Chairman of the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Commission.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All orders made by the Chairman under this Section shall be </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>subject to
+review by the courts, such review to be taken in the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>same manner and within
+the same time as provided by subsection </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(f) of Section 19 of this Act for
+review of awards and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>decisions of the Commission, upon the party seeking
+the review </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>filing with the clerk of the court to which such review is </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>taken
+a bond in an amount to be fixed and approved by the court </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>to which the
+review is taken, conditioned upon the payment of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>all compensation awarded
+against the person taking such review </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>pending a decision thereof and
+further conditioned upon such </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>other obligations as the court may impose.
+Upon the review the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Circuit Court shall have power to review all questions
+of fact </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>as well as of law.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 97-18, eff. 6-28-11.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(820 ILCS 305/4a-5)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 48, par. 138.4a-5)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 4a-5. </code><code>There is hereby created a Self-Insurers Security </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Fund. </code><code>The State
+Treasurer shall be the ex-officio custodian of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the Self-Insurers Security
+Fund. </code><u><code>Moneys</code></u><code>  </code><strike><code>Monies</code></strike><code> in the Fund </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>shall be deposited in a separate account in the
+same manner as </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>are State Funds and any interest accruing thereon shall be
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>added thereto every 6 months.  It shall be subject to audit the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0269 Engrossed</td><td class="xsl" align="center">- 23 -</td><td class="xsl" align="right">LRB101 04059 TAE 49067 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>same as
+State funds and accounts and shall be protected by the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>general bond given
+by the State Treasurer.  The funds in the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Self-Insurers Security Fund shall
+not be subject to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>appropriation and shall be made available for the
+purposes of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>compensating employees who are eligible to receive benefits
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>from their employers pursuant to the provisions of the Workers'
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Compensation Act or Workers' Occupational Diseases Act, when, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>pursuant to
+this Section, the Board has determined that a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>private self-insurer has
+become an insolvent self-insurer and </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>is unable to pay compensation benefits
+due to financial </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>insolvency. </code><u><code>Moneys</code></u><code>  </code><strike><code>Monies</code></strike><code> in the Fund may be used to compensate
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>any type of injury or occupational disease which is compensable </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>under either
+Act, and all claims for related administrative </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>fees,
+operating costs of the Board, </code><u><code>attorney's</code></u><code> </code><strike><code>attorneys</code></strike><code> fees, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>and other costs reasonably
+incurred by the Board. </code><u><code>At the </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>discretion of the Chairman, moneys in the Self-Insurers </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>Security Fund may also be used for paying the salaries and </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>benefits of the Self-Insurers Advisory Board employees and the </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>operating costs of the Board.</code></u><code>  Payment from the Self-Insurers </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Security Fund shall
+be made by the Comptroller only upon the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>authorization of the Chairman as
+evidenced by properly </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>certified vouchers of the Commission, upon the
+direction of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Board.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 85-1385.)</code><code>
+</code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

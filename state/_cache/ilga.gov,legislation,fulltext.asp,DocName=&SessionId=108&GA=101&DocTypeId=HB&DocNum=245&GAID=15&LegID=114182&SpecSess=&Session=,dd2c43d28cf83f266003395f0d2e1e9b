@@ -1,0 +1,446 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:27:15 GMT
+Content-Length: 58799
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0245</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0245&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0245&GA=101&SessionId=108&DocTypeId=HB&LegID=114182&DocNum=245&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0245.htm'></a>&nbsp;&nbsp;<a href='fulltext.asp?DocName=10100HB0245eng&GA=101&SessionId=108&DocTypeId=HB&LegID=114182&DocNum=245&GAID=15&Session='>Engrossed</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0245eng.htm'></a><br><a href='fulltext.asp?DocName=10100HB0245ham001&GA=101&SessionId=108&DocTypeId=HB&LegID=114182&DocNum=245&GAID=15&Session='>House Amendment 001</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0245ham001.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0245lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0245&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0245lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0245lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0245&GAID=15&DocTypeID=HB&LegID=114182&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0245eng 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning transportation.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Vehicle Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Section 11-208 and  by adding Sections 1-144.01, 1-144.02, and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>11-1412.3 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(625 ILCS 5/1-144.01 new)</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 1-144.01. </code></u><u><code>Mobile carrying device.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) An electrically powered device that:</code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) is operated by a mobile carrying device operator on </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>sidewalks and crosswalks and intended primarily for </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>transporting personal property;</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) weighs less than 90 pounds, excluding cargo;</code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) has a maximum speed of 12.5 miles per hour;</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) is equipped with a technology to transport personal </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>property with the active monitoring of a property owner; </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>and</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(5) is primarily designed to remain within 10 feet of </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>the personal property owner.</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) A mobile carrying device is not considered a vehicle </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>unless expressly defined by law as a vehicle.</code></u><br>&nbsp;</td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(625 ILCS 5/1-144.02 new)</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 1-144.02. </code></u><u><code>Mobile carrying device operator. </code></u><u><code>A person </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>exercising control over the mobile carrying device.</code></u><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(625 ILCS 5/11-208)</code><code>
+</code><code>&nbsp;&nbsp;</code><code>(from Ch. 95 1/2, par. 11-208)</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 11-208. </code><code>Powers of local authorities. </code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The provisions of this Code shall not be deemed to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>prevent
+local authorities with respect to streets and highways </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>under their
+jurisdiction and within the reasonable exercise of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the police power from:</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>1. Regulating the standing or parking of vehicles, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>except as
+limited by Sections 11-1306 and 11-1307 of this </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act;</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>2. Regulating traffic by means of police officers or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>traffic control
+signals;</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>3. Regulating or prohibiting processions or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assemblages on the highways; and certifying persons to </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>control traffic for processions or assemblages;</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>4. Designating particular highways as one-way highways </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and requiring that
+all vehicles thereon be moved in one </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>specific direction;</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>5. Regulating the speed of vehicles in public parks </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subject to the
+limitations set forth in Section 11-604;</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>6. Designating any highway as a through highway, as </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authorized in Section
+11-302, and requiring that all </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>vehicles stop before entering or crossing
+the same or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>designating any intersection as a stop intersection or a </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>yield
+right-of-way intersection and requiring all vehicles </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to stop or yield the
+right-of-way at one or more entrances </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to such intersections;</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>7. Restricting the use of highways as authorized in </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Chapter 15;</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>8. Regulating the operation of </code><u><code>mobile carrying </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>devices,</code></u><code> bicycles, low-speed electric bicycles, and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>low-speed gas bicycles, and requiring the
+registration and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensing of same, including the requirement of a
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>registration fee;</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>9. Regulating or prohibiting the turning of vehicles or </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>specified
+types of vehicles at intersections;</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>10. Altering the speed limits as authorized in Section </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>11-604;</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>11. Prohibiting U-turns;</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>12. Prohibiting pedestrian crossings at other than </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>designated and marked
+crosswalks or at intersections;</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>13. Prohibiting parking during snow removal operation;</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>14. Imposing fines in accordance with Section </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>11-1301.3 as penalties
+for use of any parking place </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reserved for persons with disabilities, as defined
+by </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 1-159.1, or veterans with disabilities by any </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person using a motor
+vehicle not bearing registration </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>plates specified in Section 11-1301.1
+or a special decal or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>device as defined in Section 11-1301.2
+as evidence that the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>vehicle is operated by or for a person
+with disabilities or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>a veteran with a disability;</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>15. Adopting such other traffic regulations as are </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>specifically
+authorized by this Code; or</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>16. Enforcing the provisions of subsection (f) of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 3-413 of this
+Code or a similar local ordinance.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) No ordinance or regulation enacted under paragraph 1, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>4, 5, 6, 7,
+9, 10, 11 or 13 of subsection (a) shall be effective </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>until signs giving
+reasonable notice of such local traffic </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>regulations are posted.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The provisions of this Code shall not prevent any
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>municipality having a population of 500,000 or more inhabitants </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>from
+prohibiting any person from driving or operating any motor </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>vehicle upon
+the roadways of such municipality with headlamps </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>on high beam or bright.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) The provisions of this Code shall not be deemed to </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>prevent local
+authorities within the reasonable exercise of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>their police power from
+prohibiting, on private property, the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>unauthorized use of parking spaces
+reserved for persons with </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>disabilities.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) No unit of local government, including a home rule </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>unit, may enact or
+enforce an ordinance that applies only to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>motorcycles if the principal purpose
+for that ordinance is to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>restrict the access of motorcycles to any highway or
+portion of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>a highway for which federal or State funds have been used for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the
+planning, design, construction, or maintenance of that </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>highway.  No unit of
+local government, including a home rule </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>unit, may enact an ordinance requiring
+motorcycle users to wear </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>protective headgear.  Nothing in this subsection
+(e) shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>affect the authority of a unit of local government to regulate
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>motorcycles for traffic control purposes or in accordance with </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Section 12-602
+of this Code.  No unit of local government, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>including a home rule unit, may
+regulate motorcycles in a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>manner inconsistent with this Code.  This subsection
+(e) is a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>limitation under subsection (i) of Section 6 of Article VII of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the
+Illinois Constitution on the concurrent exercise by home </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>rule units of powers
+and functions exercised by the State.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e-5) The City of Chicago may enact an ordinance providing </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>for a noise monitoring system upon any portion of the roadway </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>known as Lake Shore Drive. Twelve months after the installation </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of the noise monitoring system, and any time after the first </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>report as the City deems necessary, the City of Chicago shall </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>prepare a noise monitoring report with the data collected from </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the system and shall, upon request, make the report available </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>to the public. For purposes of this subsection (e-5), "noise </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>monitoring system" means an automated noise monitor capable of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>recording noise levels 24 hours per day and 365 days per year </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>with computer equipment sufficient to process the data.</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e-10) A unit of local government, including a home rule </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>unit, may not enact an ordinance prohibiting the use of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Automated Driving System equipped vehicles on its roadways. </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Nothing in this subsection (e-10) shall affect the authority of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>a unit of local government to regulate Automated Driving System </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>equipped vehicles for traffic control purposes. No unit of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>local government, including a home rule unit, may regulate </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Automated Driving System equipped vehicles in a manner </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>inconsistent with this Code. For purposes of this subsection </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>(e-10), "Automated Driving System equipped vehicle" means any </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>vehicle equipped with an Automated Driving System of hardware </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>and software that are collectively capable of performing the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>entire dynamic driving task on a sustained basis, regardless of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>whether it is limited to a specific operational domain. This </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>subsection (e-10) is a limitation under subsection (i) of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Section 6 of Article VII of the Illinois Constitution on the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>concurrent exercise by home rule units of powers and functions </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>exercised by the State. </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) A municipality or county designated in Section 11-208.6 </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>may enact an ordinance providing for an
+automated traffic law </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>enforcement system to enforce violations of this Code or
+a </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>similar provision of a local ordinance and imposing liability </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>on a registered owner or lessee of a vehicle used in such a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>violation.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) A municipality or county, as provided in Section </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>11-1201.1, may enact an ordinance providing for an automated </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>traffic law enforcement system  to enforce violations of Section </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>11-1201 of this Code or a similar provision of a local </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>ordinance and imposing liability on a registered owner of a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>vehicle used in such a violation.
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) A municipality designated in Section 11-208.8 may enact </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>an ordinance providing for an
+automated speed enforcement </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>system to enforce violations of Article VI of Chapter 11  of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>this Code or a similar provision of a local ordinance.</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) A municipality or county designated in Section 11-208.9 </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>may enact an ordinance providing for an
+automated traffic law </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>enforcement system to enforce violations of Section 11-1414 of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>this Code or
+a similar provision of a local ordinance and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>imposing liability on a registered owner or lessee of a vehicle </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>used in such a violation. </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-143, eff. 7-27-15; 100-209, eff. 1-1-18; </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>100-257, eff. 8-22-17; 100-352, eff. 6-1-18; 100-863, eff. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>8-14-18.)</code><br>&nbsp;</td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(625 ILCS 5/11-1412.3 new)</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 11-1412.3. </code></u><u><code>Ownership and operation of a mobile </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>carrying device.</code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) A mobile carrying device may be operated on a sidewalk </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>or crosswalk so long as all of the following requirements are </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>met:</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) the mobile carrying device is operated in </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>accordance with the local ordinances, if any, established </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>by the local authority governing where the mobile carrying </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>device is operated;</code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) a personal property owner is actively monitoring </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>the operation and navigation of the mobile carrying device; </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>and</code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) the mobile carrying device is equipped with a </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>braking system that enables the mobile carrying device to </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>perform a controlled stop.</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) A mobile carrying device operator may not do any of
+the </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>following:</code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) fail to comply with traffic or pedestrian control </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>devices and signals;</code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) unreasonably interfere with pedestrians or </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>traffic;</code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) transport a person; or</code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) operate on a street or highway, except when </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>crossing the street or highway within a crosswalk.</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(c) A mobile carrying device operator has the rights and </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>obligations applicable to a pedestrian under the same </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>circumstances, and shall ensure that a mobile carrying device </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>shall yield the right-of-way to a pedestrian on a sidewalk or </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>within a crosswalk.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(d) A personal property owner may not utilize a mobile </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>carrying device to transport hazardous materials.</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(e) A personal property owner may not utilize a mobile
+</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>carrying device unless the person complies with this Section.</code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(f) A mobile carrying device operator who is not a natural </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>person shall register with the Secretary of State.</code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(g) No contract seeking to exempt a mobile carrying device </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>operator from liability for injury, loss, or death caused by a </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>mobile carrying device shall be valid, and contractual </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0245 Engrossed</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04047 TAE 49055 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>provisions limiting the choice of venue or forum, shortening </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>the statute of limitations, shifting the risk to the user, </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>limiting the availability of class actions, or obtaining </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>judicial remedies shall be invalid and unenforceable.</code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(h) A violation of this Section is a petty offense.</code></u><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

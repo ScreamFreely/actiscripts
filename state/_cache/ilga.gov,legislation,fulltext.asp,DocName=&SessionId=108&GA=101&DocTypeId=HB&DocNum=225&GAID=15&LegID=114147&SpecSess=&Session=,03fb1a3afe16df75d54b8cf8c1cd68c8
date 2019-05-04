@@ -1,0 +1,677 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:26:15 GMT
+Content-Length: 102412
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0225</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0225&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0225&GA=101&SessionId=108&DocTypeId=HB&LegID=114147&DocNum=225&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0225.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0225lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0225&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0225lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0225lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0225&GAID=15&DocTypeID=HB&LegID=114147&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0225 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0225</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Mary E. Flowers<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code> </code><td class="synopsis"><code>225 ILCS 60/22</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 111, par. 4400-22</code></td><code> </code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Medical Practice Act of 1987. Removes provisions </code><code>prohibiting the Department of Financial and Professional Regulation from </code><code>disciplining a physician for experimental treatments for Lyme disease or </code><code>other tick-borne diseases.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning regulation.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Medical Practice Act of 1987 is amended by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Section 22 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(225 ILCS 60/22)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 111, par. 4400-22)</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(Section scheduled to be repealed on December 31, 2019)</code><code>
+
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 22. </code><code>Disciplinary action. </code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) The Department may revoke, suspend, place on probation, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>reprimand, refuse to issue or renew, or take any other </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>disciplinary or non-disciplinary action as the Department may </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>deem proper
+with regard to the license or permit of any person </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>issued
+under this Act, including imposing fines not to exceed </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>$10,000 for each violation, upon any of the following grounds:</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Performance of an elective abortion in any place, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>locale,
+facility, or
+institution other than:</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) a facility licensed pursuant to the Ambulatory </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Surgical Treatment
+Center Act;</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) an institution licensed under the Hospital </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Licensing Act;</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) an ambulatory surgical treatment center or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>hospitalization or care
+facility maintained by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>State or any agency thereof, where such department
+or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>agency has authority under law to establish and enforce </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>standards for the
+ambulatory surgical treatment </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>centers, hospitalization, or care facilities
+under its </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>management and control;</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) ambulatory surgical treatment centers, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>hospitalization or care
+facilities maintained by the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Federal Government; or</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) ambulatory surgical treatment centers, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>hospitalization or care
+facilities maintained by any </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>university or college established under the laws
+of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>this State and supported principally by public funds </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>raised by
+taxation.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Performance of an abortion procedure in a willful </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and wanton
+manner on a
+woman who was not pregnant at the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>time the abortion procedure was
+performed.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) A plea of guilty or nolo contendere, finding of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>guilt, jury verdict, or entry of judgment or sentencing, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including, but not limited to, convictions, preceding </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>sentences of supervision, conditional discharge, or first </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>offender probation, under the laws of any jurisdiction of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the United States of any crime that is a felony.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) Gross negligence in practice under this Act.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) Engaging in dishonorable, unethical or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>unprofessional
+conduct of a
+character likely to deceive, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>defraud or harm the public.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) Obtaining any fee by fraud, deceit, or
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>misrepresentation.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(7) Habitual or excessive use or abuse of drugs defined </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in law
+as
+controlled substances, of alcohol, or of any </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other substances which results in
+the inability to practice </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>with reasonable judgment, skill or safety.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(8) Practicing under a false or, except as provided by </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>law, an
+assumed
+name.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(9) Fraud or misrepresentation in applying for, or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>procuring, a
+license
+under this Act or in connection with </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>applying for renewal of a license under
+this Act.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10) Making a false or misleading statement regarding </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>their
+skill or the
+efficacy or value of the medicine, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>treatment, or remedy prescribed by them at
+their direction </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in the treatment of any disease or other condition of the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>body
+or mind.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(11) Allowing another person or organization to use </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>their
+license, procured
+under this Act, to practice.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(12) Adverse action taken by another state or </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>jurisdiction
+against a license
+or other authorization to </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>practice as a medical doctor, doctor of osteopathy,
+doctor </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of osteopathic medicine or
+doctor of chiropractic, a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certified copy of the record of the action taken by
+the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other state or jurisdiction being prima facie evidence </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>thereof. This includes any adverse action taken by a State </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or federal agency that prohibits a medical doctor, doctor </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of osteopathy, doctor of osteopathic medicine, or doctor of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>chiropractic from providing services to the agency's </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>participants. </code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(13) Violation of any provision of this Act or of the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Medical
+Practice Act
+prior to the repeal of that Act, or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>violation of the rules, or a final
+administrative action of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Secretary, after consideration of the
+recommendation </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the Disciplinary Board.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(14) Violation of the prohibition against fee </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>splitting in Section 22.2 of this Act.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(15) A finding by the Disciplinary Board that the
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>registrant after
+having his or her license placed on </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>probationary status or subjected to
+conditions or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>restrictions violated the terms of the probation or failed </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to
+comply with such terms or conditions.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(16) Abandonment of a patient.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(17) Prescribing, selling, administering, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>distributing, giving
+or
+self-administering any drug </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>classified as a controlled substance (designated
+product) </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or narcotic for other than medically accepted therapeutic
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>purposes.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(18) Promotion of the sale of drugs, devices, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>appliances or
+goods provided
+for a patient in such manner </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>as to exploit the patient for financial gain of
+the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>physician.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(19) Offering, undertaking or agreeing to cure or treat
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>disease by a secret
+method, procedure, treatment or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medicine, or the treating, operating or
+prescribing for any </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>human condition by a method, means or procedure which the
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensee refuses to divulge upon demand of the Department.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(20) Immoral conduct in the commission of any act </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including,
+but not limited to, commission of an act of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>sexual misconduct related to the
+licensee's
+practice.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(21) Willfully making or filing false records or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reports in his
+or her
+practice as a physician, including, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>but not limited to, false records to
+support claims against </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the medical assistance program of the Department of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Healthcare and Family Services (formerly Department of
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Public Aid)
+under the Illinois Public Aid Code.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(22) Willful omission to file or record, or willfully </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>impeding
+the filing or
+recording, or inducing another </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person to omit to file or record, medical
+reports as </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required by law, or willfully failing to report an instance </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+suspected abuse or neglect as required by law.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(23) Being named as a perpetrator in an indicated </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>report by
+the Department
+of Children and Family Services </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under the Abused and Neglected Child Reporting
+Act, and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>upon proof by clear and convincing evidence that the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensee has
+caused a child to be an abused child or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>neglected child as defined in the
+Abused and Neglected </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Child Reporting Act.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(24) Solicitation of professional patronage by any
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>corporation, agents or
+persons, or profiting from those </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>representing themselves to be agents of the
+licensee.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(25) Gross and willful and continued overcharging for
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>professional services,
+including filing false statements </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for collection of fees for which services are
+not rendered, </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>including, but not limited to, filing such false statements </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for
+collection of monies for services not rendered from the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical assistance
+program of the Department of Healthcare </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and Family Services (formerly Department of Public Aid)
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under the Illinois Public Aid
+Code.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(26) A pattern of practice or other behavior which
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>demonstrates
+incapacity
+or incompetence to practice under </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Act.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(27) Mental illness or disability which results in the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>inability to
+practice under this Act with reasonable </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>judgment, skill or safety.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(28) Physical illness, including, but not limited to,
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>deterioration through
+the aging process, or loss of motor </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>skill which results in a physician's
+inability to practice </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Act with reasonable judgment, skill or
+safety.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(29) Cheating on or attempt to subvert the licensing
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>examinations
+administered under this Act.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(30) Willfully or negligently violating the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>confidentiality
+between
+physician and patient except as </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required by law.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(31) The use of any false, fraudulent, or deceptive </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>statement
+in any
+document connected with practice under </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Act.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(32) Aiding and abetting an individual not licensed </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this
+Act in the
+practice of a profession licensed </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Act.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(33) Violating state or federal laws or regulations </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>relating
+to controlled
+substances, legend
+drugs, or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ephedra as defined in  the Ephedra Prohibition Act.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(34) Failure to report to the Department any adverse </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>final
+action taken
+against them by another licensing </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>jurisdiction (any other state or any
+territory of the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>United States or any foreign state or country), by any peer
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>review body, by any health care institution, by any </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>professional society or
+association related to practice </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Act, by any governmental agency, by
+any law </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enforcement agency, or by any court for acts or conduct </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>similar to acts
+or conduct which would constitute grounds </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for action as defined in this
+Section.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35) Failure to report to the Department surrender of a
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>license or
+authorization to practice as a medical doctor, a </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>doctor of osteopathy, a
+doctor of osteopathic medicine, or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>doctor
+of chiropractic in another state or jurisdiction, or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>surrender of membership on
+any medical staff or in any </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>medical or professional association or society,
+while </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under disciplinary investigation by any of those </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authorities or bodies,
+for acts or conduct similar to acts </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or conduct which would constitute grounds
+for action as </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>defined in this Section.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(36) Failure to report to the Department any adverse </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>judgment,
+settlement,
+or award arising from a liability </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>claim related to acts or conduct similar to
+acts or conduct </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>which would constitute grounds for action as defined in </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this
+Section.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(37) Failure to provide copies of medical records as </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required
+by law.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(38) Failure to furnish the Department, its </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>investigators or
+representatives, relevant information, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>legally requested by the Department
+after consultation </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>with the Chief Medical Coordinator or the Deputy Medical
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Coordinator.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(39) Violating the Health Care Worker Self-Referral
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40) Willful failure to provide notice when notice is </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required
+under the
+Parental Notice of Abortion Act of 1995.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(41) Failure to establish and maintain records of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>patient care and
+treatment as required by this law.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(42) Entering into an excessive number of written </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborative
+agreements with licensed advanced practice </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>registered nurses resulting in an inability to
+adequately </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborate.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(43) Repeated failure to adequately collaborate with a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensed advanced practice registered nurse.</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(44) Violating the Compassionate Use of Medical </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Cannabis Pilot Program Act. </code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(45) Entering into an excessive number of written </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborative agreements with licensed prescribing </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>psychologists resulting in an inability to adequately </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborate.</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(46) Repeated failure to adequately collaborate with a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>licensed prescribing psychologist. </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(47)   Willfully failing to report an instance of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>suspected abuse, neglect, financial exploitation, or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>self-neglect of an eligible adult as defined in and </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required by the Adult Protective Services Act.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(48)   Being named as an abuser in a verified report by </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Department on Aging under the Adult Protective Services </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act, and upon proof by clear and convincing evidence that </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the licensee abused, neglected, or financially exploited </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>an eligible adult as defined in the Adult Protective </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services Act. </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(49)   Entering into an excessive number of written </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborative agreements with licensed physician </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assistants resulting in an inability to adequately </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>collaborate.</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(50)   Repeated failure to adequately collaborate with a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>physician assistant. </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Except
+for actions involving the ground numbered (26), all </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>proceedings to suspend,
+revoke, place on probationary status, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>or take any
+other disciplinary action as the Department may </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>deem proper, with regard to a
+license on any of the foregoing </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>grounds, must be commenced within 5 years next
+after receipt by </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the Department of a complaint alleging the commission of or
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>notice of the conviction order for any of the acts described </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>herein.  Except
+for the grounds numbered (8), (9), (26), and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>(29), no action shall be commenced more
+than 10 years after the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>date of the incident or act alleged to have violated
+this </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Section.  For actions involving the ground numbered (26), a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>pattern of practice or other behavior includes all incidents </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>alleged to be part of the pattern of practice or other behavior </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>that occurred, or a report pursuant to Section 23 of this Act </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>received, within the 10-year period preceding the filing of the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>complaint. In the event of the settlement of any claim or cause </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of action
+in favor of the claimant or the reduction to final </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>judgment of any civil action
+in favor of the plaintiff, such </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>claim, cause of action or civil action being
+grounded on the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>allegation that a person licensed under this Act was negligent
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>in providing care, the Department shall have an additional </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>period of 2 years
+
+from the date of notification to the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Department under Section 23 of this Act
+of such settlement or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>final judgment in which to investigate and
+commence formal </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>disciplinary proceedings under Section 36 of this Act, except
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>as otherwise provided by law.   The time during which the holder </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>of the license
+was outside the State of Illinois shall not be </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>included within any period of
+time limiting the commencement of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>disciplinary action by the Department.</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The entry of an order or judgment by any circuit court </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>establishing that any
+person holding a license under this Act </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>is a person in need of mental treatment
+operates as a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>suspension of that license.  That person may resume their
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>practice only upon the entry of a Departmental order based upon </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>a finding by
+the Disciplinary Board that they have been </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>determined to be recovered
+from mental illness by the court and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>upon the Disciplinary Board's
+recommendation that they be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>permitted to resume their practice.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department may refuse to issue or take disciplinary </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>action concerning the license of any person
+who fails to file a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>return, or to pay the tax, penalty or interest shown in a
+filed </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>return, or to pay any final assessment of tax, penalty or </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>interest, as
+required by any tax Act administered by the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Illinois Department of Revenue,
+until such time as the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>requirements of any such tax Act are satisfied as
+determined by </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the Illinois Department of Revenue.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department, upon the recommendation of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Disciplinary Board, shall
+adopt rules which set forth standards </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>to be used in determining:</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) when a person will be deemed sufficiently </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rehabilitated to warrant the
+public trust;</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) what constitutes dishonorable, unethical or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>unprofessional conduct of
+a character likely to deceive, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>defraud, or harm the public;</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) what constitutes immoral conduct in the commission </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of any act,
+including, but not limited to, commission of an </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>act of sexual misconduct
+related
+to the licensee's </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>practice; and</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) what constitutes gross negligence in the practice </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of medicine.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>However, no such rule shall be admissible into evidence in </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>any civil action
+except for review of a licensing or other </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>disciplinary action under this Act.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In enforcing this Section, the Disciplinary Board or the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Licensing Board,
+upon a showing of a possible violation, may </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>compel, in the case of the Disciplinary Board, any individual </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>who is licensed to
+practice under this Act or holds a permit to </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>practice under this Act, or, in the case of the Licensing </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Board, any individual who has applied for licensure or a permit
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>pursuant to this Act, to submit to a mental or physical </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>examination and evaluation, or both,
+which may include a </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>substance abuse or sexual offender evaluation, as required by </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the Licensing Board or Disciplinary Board and at the expense of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the Department.  The Disciplinary Board or Licensing Board shall </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>specifically designate the examining physician licensed to </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>practice medicine in all of  its branches or, if applicable, the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>multidisciplinary team involved in providing the mental or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>physical examination and evaluation, or both. The </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>multidisciplinary team shall be led by a physician licensed to </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>practice medicine in all of its branches and may consist of one </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>or more or a combination of physicians licensed to practice </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>medicine in all of its branches, licensed chiropractic </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>physicians, licensed clinical psychologists, licensed clinical </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>social workers, licensed clinical professional counselors, and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>other professional and administrative staff. Any examining </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>physician or member of the multidisciplinary team may require </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>any person ordered to submit to an examination and evaluation </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>pursuant to this Section to submit to any additional </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>supplemental testing deemed necessary to complete any </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>examination or evaluation process, including, but not limited </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>to, blood testing, urinalysis, psychological testing, or </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>neuropsychological testing.
+The Disciplinary Board, the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Licensing Board, or the Department may order the examining
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>physician or any member of the multidisciplinary team to </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>provide to the Department, the Disciplinary Board, or the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Licensing Board any and all records, including business </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>records, that relate to the examination and evaluation, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>including any supplemental testing performed. The Disciplinary </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Board, the Licensing Board, or the Department may order the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>examining physician or any member of the multidisciplinary team </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>to present testimony concerning this examination
+and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>evaluation of the licensee, permit holder, or applicant, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>including testimony concerning any supplemental testing or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>documents relating to the examination and evaluation.  No </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>information, report, record, or other documents in any way </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>related to the examination and evaluation shall be excluded by </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>reason of
+any common
+law or statutory privilege relating to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>communication between the licensee, permit holder, or
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>applicant and
+the examining physician or any member of the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>multidisciplinary team.
+No authorization is necessary from the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>licensee, permit holder, or applicant ordered to undergo an </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>evaluation and examination for the examining physician or any </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>member of the multidisciplinary team to provide information, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>reports, records, or other documents or to provide any </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>testimony regarding the examination and evaluation. The </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>individual to be examined may have, at his or her own expense, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>another
+physician of his or her choice present during all </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>aspects of the examination.
+Failure of any individual to submit </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>to mental or physical examination and evaluation, or both, when
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>directed, shall result in an automatic suspension, without </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>hearing, until such time
+as the individual submits to the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>examination.  If the Disciplinary Board or Licensing Board finds </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>a physician unable
+to practice following an examination and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>evaluation because of the reasons set forth in this Section, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the Disciplinary
+Board or Licensing Board shall require such </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>physician to submit to care, counseling, or treatment
+by </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>physicians, or other health care professionals, approved or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>designated by the Disciplinary Board, as a condition
+for </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>issued, continued, reinstated, or renewed licensure to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>practice.  Any physician,
+whose license was granted pursuant to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Sections 9, 17, or 19 of this Act, or,
+continued, reinstated, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>renewed, disciplined or supervised, subject to such
+terms, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>conditions or restrictions who shall fail to comply with such </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>terms,
+conditions or restrictions, or to complete a required </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>program of care,
+counseling, or treatment, as determined by the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Chief Medical Coordinator or
+Deputy Medical Coordinators, </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>shall be referred to the Secretary for a
+determination as to </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>whether the licensee shall have their license suspended
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>immediately, pending a hearing by the Disciplinary Board.  In </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>instances in
+which the Secretary immediately suspends a license </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>under this Section, a hearing
+upon such person's license must </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>be convened by the Disciplinary Board within 15
+days after such </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>suspension and completed without appreciable delay.  The
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Disciplinary Board shall have the authority to review the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>subject physician's
+record of treatment and counseling </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>regarding the impairment, to the extent
+permitted by applicable </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>federal statutes and regulations safeguarding the
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>confidentiality of medical records.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>An individual licensed under this Act, affected under this </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Section, shall be
+afforded an opportunity to demonstrate to the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Disciplinary Board that they can
+resume practice in compliance </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>with acceptable and prevailing standards under
+the provisions </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>of their license.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department may promulgate rules for the imposition of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>fines in
+disciplinary cases, not to exceed
+$10,000 for each </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>violation of this Act.  Fines
+may be imposed in conjunction with </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>other forms of disciplinary action, but
+shall not be the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>exclusive disposition of any disciplinary action arising out
+of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>conduct resulting in death or injury to a patient.  Any funds </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>collected from
+such fines shall be deposited in the Illinois </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>State Medical Disciplinary Fund.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All fines imposed under this Section shall be paid within </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>60 days after the effective date of the order imposing the fine </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>or in accordance with the terms set forth in the order imposing </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the fine. </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) The Department shall revoke the license or
+permit </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>issued under this Act to practice medicine or a chiropractic </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>physician who
+has been convicted a second time of committing </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>any felony under the
+Illinois Controlled Substances Act or the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Methamphetamine Control and Community Protection Act, or who </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>has been convicted a second time of
+committing a Class 1 felony </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>under Sections 8A-3 and 8A-6 of the Illinois Public
+Aid Code.  A </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>person whose license or permit is revoked
+under
+this subsection </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>B shall be prohibited from practicing
+medicine or treating </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>human ailments without the use of drugs and without
+operative </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>surgery.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) The Department shall not revoke, suspend, place on </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>probation, reprimand, refuse to issue or renew, or take any </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>other disciplinary or non-disciplinary action against the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>license or permit issued under this Act to practice medicine to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>a physician</code><strike><code>: (1)</code></strike><code> based solely upon the recommendation of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>physician to an eligible patient regarding, or prescription </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>for, or treatment with, an investigational drug, biological </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>product, or device</code><strike><code>; or (2) for experimental treatment for Lyme </code></strike></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><strike><code>disease or other tick-borne diseases, including, but not </code></strike></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0225</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 05986 JRG 51007 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><strike><code>limited to, the prescription of or treatment with long-term </code></strike></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><strike><code>antibiotics</code></strike><code>.</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(D) The Disciplinary Board shall recommend to the
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Department civil
+penalties and any other appropriate </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>discipline in disciplinary cases when the
+Board finds that a </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>physician willfully performed an abortion with actual
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>knowledge that the person upon whom the abortion has been </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>performed is a minor
+or an incompetent person without notice as </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>required under the Parental Notice
+of Abortion Act of 1995.  </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Upon the Board's recommendation, the Department shall
+impose, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>for the first violation, a civil penalty of $1,000 and for a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>second or
+subsequent violation, a civil penalty of $5,000.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-270, eff. 1-1-16; 99-933, eff. 1-27-17; </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>100-429, eff. 8-25-17; 100-513, eff. 1-1-18; 100-605, eff. </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>1-1-19; 100-863, eff. 8-14-18; 100-1137, eff. 1-1-19; revised </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>12-19-18.)</code><code>
+
+</code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

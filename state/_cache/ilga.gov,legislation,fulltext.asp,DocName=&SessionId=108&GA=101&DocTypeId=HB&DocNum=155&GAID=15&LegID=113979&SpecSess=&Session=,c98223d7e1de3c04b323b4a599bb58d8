@@ -1,0 +1,693 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:22:14 GMT
+Content-Length: 110761
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0155</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0155&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0155&GA=101&SessionId=108&DocTypeId=HB&LegID=113979&DocNum=155&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0155.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0155lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0155&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0155lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0155lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0155&GAID=15&DocTypeID=HB&LegID=113979&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0155 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0155</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Anthony DeLuca<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>65 ILCS 5/8-11-1.1</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 24, par. 8-11-1.1</code></td></tr><tr><code> </code><td class="synopsis"><code>65 ILCS 5/8-11-1.2</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 24, par. 8-11-1.2</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>65 ILCS 5/8-11-1.3</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 24, par. 8-11-1.3</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>65 ILCS 5/8-11-1.4</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 24, par. 8-11-1.4</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>65 ILCS 5/8-11-1.5</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 24, par. 8-11-1.5</code></td><code> </code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Illinois Municipal Code.  Provides that the rate of tax </code><code>under the Non-Home Rule
+Municipal Retailers' Occupation Tax Act, the </code><code>Non-Home Rule Municipal
+Service Occupation Tax Act, and the Non-Home Rule
+</code><code>Municipal Use Tax Act may not exceed 2% (currently, 1%).  Provides that the </code><code>rate of tax that may be imposed for municipal operations may not exceed 1%.  </code><code>With respect to the Non-Home Rule
+Municipal Retailers' Occupation Tax Act, </code><code>the Non-Home Rule Municipal
+Service Occupation Tax Act, and the Non-Home </code><code>Rule
+Municipal Use Tax Act, provides that the term "public infrastructure" </code><code>includes the acquisition, repair, and maintenance of public safety </code><code>equipment.  Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td></td><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning revenue.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Municipal Code is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Sections 8-11-1.1, 8-11-1.2, 8-11-1.3, 8-11-1.4, and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>8-11-1.5 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(65 ILCS 5/8-11-1.1)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 24, par. 8-11-1.1)</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-11-1.1. </code><code>Non-home rule municipalities; imposition of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>taxes. </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The corporate authorities of a non-home rule
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>municipality
+may, upon approval of the electors of the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>municipality pursuant to
+subsection (b) of this Section, impose </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>by ordinance or resolution the tax authorized in Sections </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>8-11-1.3, 8-11-1.4 and 8-11-1.5 of this Act.</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The corporate authorities of the municipality may by </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>ordinance or
+resolution call for the submission to the electors </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>of the municipality
+the question of whether the municipality </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>shall impose such tax </code><u><code>or increase the rate of such tax</code></u><code>.  Such
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>question shall be certified by the municipal clerk to the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>election
+authority in accordance with Section 28-5 of the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Election Code and shall be
+in a form in accordance with Section </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>16-7 of the Election Code.</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any provision of law to the contrary, if </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the proceeds of the tax may be used for municipal operations </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>pursuant to Section 8-11-1.3, 8-11-1.4, or 8-11-1.5, then the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>election authority must submit the question in substantially </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the following form: </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Shall the corporate authorities of the municipality be </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authorized to levy a tax at a rate of (rate)%  for </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expenditures on municipal operations, expenditures on </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>public infrastructure, or property tax relief? </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If a majority of the electors in the municipality voting </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>upon the
+question vote in the affirmative, such tax shall be </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>imposed.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Until January 1, 1992, an ordinance or resolution imposing </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the tax of not more than 1% hereunder or
+discontinuing the same </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>shall be adopted and a certified copy thereof,
+together with a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>certification that the ordinance or resolution received
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>referendum approval in the case of the imposition of such tax, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>filed with
+the Department of Revenue, on or before the first </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>day of June, whereupon
+the Department shall proceed to </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>administer and enforce
+the additional tax or to discontinue the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>tax, as the case may be, as of the
+first day of September next </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>following such adoption and filing.</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Beginning January 1, 1992 and through December 31, 1992, an </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution imposing
+or discontinuing the tax </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>hereunder shall be adopted and a certified copy
+thereof filed </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>with the Department on or before the first day of July,
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>whereupon the Department shall proceed to administer and </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>enforce this
+Section as of the first day of October next </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>following such adoption and filing.</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Beginning January 1, 1993, and through September 30, 2002, </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>an ordinance or resolution imposing or
+discontinuing the tax </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>hereunder shall be adopted and a certified copy
+thereof filed </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>with the Department on or before the first day of October,
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>whereupon the Department shall proceed to administer and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>enforce this
+Section as of the first day of January next </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>following such adoption and filing.</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Beginning October 1, 2002, and through December 31, 2013, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>an ordinance or resolution imposing or
+discontinuing the tax
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>under this Section or effecting a change in the rate of tax </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>must either (i) be
+adopted
+and a
+certified copy of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution filed with the Department on or
+before </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the first day
+of April,
+whereupon the Department shall proceed </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>to administer and enforce this Section
+as of the
+first day of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>July next following the adoption and filing; or (ii) be adopted
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>and a certified
+copy of the ordinance or resolution filed with </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the Department on or before the
+first day
+of October,
+whereupon </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>the Department shall proceed to administer and enforce this </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Section
+as of the
+first day of January next following the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>adoption and filing.</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Beginning January 1, 2014, if an ordinance or resolution </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>imposing the tax under this Section, discontinuing the tax </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>under this Section, or effecting a change in the rate of tax </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>under this Section is adopted, a certified copy thereof, </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>together with a certification that the ordinance or resolution </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>received referendum approval in the case of the imposition of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>or increase in the rate of such tax, shall be filed with the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Department of Revenue, either (i) on or before the first day of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>May, whereupon the Department shall proceed to administer and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>enforce this Section as of the first day of July next following </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the adoption and filing; or (ii) on or before the first day of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>October, whereupon the Department shall proceed to administer </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>and enforce this Section as of the first day of January next </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>following the adoption and filing. </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any provision in this Section to the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>contrary, if, in a non-home rule municipality with more than </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>150,000 but fewer than 200,000 inhabitants, as determined by </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the last preceding federal decennial census, an ordinance or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>resolution under this Section imposes or discontinues a tax or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>changes the tax rate as of July 1, 2007, then that ordinance or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>resolution, together with a certification that the
+ordinance or </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>resolution received referendum approval in the case of the
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>imposition of the tax, must be adopted and a certified copy of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>that ordinance or resolution must be filed with the Department </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>on or before May 15, 2007, whereupon the Department shall </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>proceed to administer and enforce this Section as of July 1, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>2007.
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any provision in this Section to the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>contrary, if, in a non-home rule municipality with more than </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>6,500 but fewer than 7,000 inhabitants, as determined by the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>last preceding federal decennial census, an ordinance or </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>resolution under this Section imposes or discontinues a tax or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>changes the tax rate on or before May  20, 2009, then that </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution, together with a certification that the
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution received referendum approval in the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>case of the
+imposition of the tax, must be adopted and a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>certified copy of that ordinance or resolution must be filed </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>with the Department on or before May 20, 2009, whereupon the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Department shall proceed to administer and enforce this Section </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>as of July 1, 2009. </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A non-home rule municipality may file
+a
+certified copy of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>an ordinance or resolution, with a certification that the
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution received referendum approval in the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>case of the
+imposition of the tax, with the
+Department of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Revenue, as required under this Section, only after October 2,
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>2000.</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The tax authorized by this Section may not be more than </code><u><code>2%</code></u><code> </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><strike><code>1%</code></strike><code> and
+may be imposed only in 1/4% increments. </code><u><code>It is the intent </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>of the General Assembly that the rate of tax that may be </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>imposed for municipal operations may not exceed 1%; therefore, </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>notwithstanding any other provision of law, if the tax under </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>this Section is imposed at a rate of more than 1%, then, </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>beginning with the first disbursement to occur on or after the </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>effective date of the increase,  the total amount that may be </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>used for municipal operations may not exceed the total amount </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>of the proceeds disbursed to the municipality under Sections </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>8-11-1.3, 8-11-1.4, and 8-11-1.5, multiplied by a fraction </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>having a numerator of 1 and a denominator of the rate of tax.</code></u><code> </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-584, eff. 8-27-13.)</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(65 ILCS 5/8-11-1.2)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 24, par. 8-11-1.2)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-11-1.2. </code><code>Definition. </code><code>As used in Sections 8-11-1.3,
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>8-11-1.4 and 8-11-1.5 of this Act:</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) "Public infrastructure" means
+municipal roads and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>streets, access roads, bridges, and sidewalks; waste
+disposal </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>systems; </code><u><code>the acquisition, repair, and maintenance of public </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>safety equipment;</code></u><code> and water and sewer line extensions, water </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>distribution
+and purification facilities, storm water drainage </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and retention facilities,
+and sewage treatment facilities.
+For </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>purposes of referenda authorizing the
+imposition of taxes by </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the City of DuQuoin under Sections 8-11-1.3, 8-11-1.4,
+and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>8-11-1.5 of this
+Act
+that are approved in November, 2002, or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>for purposes of referenda authorizing the
+imposition of taxes </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>by the Village of Forsyth under Sections 8-11-1.3, 8-11-1.4,
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>and 8-11-1.5 of this
+Act
+that are approved after the effective </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>date of this amendatory Act of the 94th General Assembly,
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>"public infrastructure" shall also
+include public schools.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a-5)  For the purposes of this Section, "public safety </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>equipment" means firefighting, police, rescue, transportation, </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>or communications equipment used by police departments, fire </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>departments, or other first responders, including, but not </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>limited to, police vehicles, fire trucks, surveillance </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>equipment, and body cameras.</code></u><code> </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) "Property tax relief" means the action of a </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>municipality to reduce the
+levy for real estate taxes or avoid </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>an increase in the levy for real estate
+taxes that would </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>otherwise have been required.  Property tax relief or the
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>avoidance of property tax must uniformly apply to all classes </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>of property.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 94-1078, eff. 1-9-07; 95-331, eff. 8-21-07.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(65 ILCS 5/8-11-1.3)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 24, par. 8-11-1.3)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-11-1.3. </code><code>Non-Home Rule Municipal Retailers' </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Occupation Tax Act. </code><code>The corporate authorities of a non-home </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>rule municipality may impose
+a tax upon all persons engaged in </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the business of selling tangible
+personal property, other than </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>on an item of tangible personal property
+which is titled and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>registered by an agency of this State's Government,
+at retail </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>in the municipality for expenditure on
+public infrastructure or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>for property tax relief or both as defined in
+Section 8-11-1.2 </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>if approved by
+referendum as provided in Section 8-11-1.1, of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the gross receipts from such
+sales made in the course of such </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>business.
+If the tax is approved by referendum on or after July </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>14, 2010 (the effective date of Public Act 96-1057), the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>corporate authorities of a non-home rule municipality may, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>until December 31, 2020, use the proceeds of the tax for </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>expenditure on municipal operations, in addition to or in lieu </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>of any expenditure on public infrastructure or for property tax </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>relief. The tax imposed may not be more than </code><u><code>2%</code></u><code> </code><strike><code>1%</code></strike><code> and may be </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>imposed only in
+1/4% increments. </code><u><code>It is the intent of the </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>General Assembly that the rate of tax that may be imposed for </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>municipal operations may not exceed 1%; therefore, </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>notwithstanding any other provision of law, if the tax under </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>this Section is imposed at a rate of more than 1%, then,  </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>beginning with the first disbursement to occur on or after the </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>effective date of the increase, the total amount that may be </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>used for municipal operations may not exceed the total amount </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>of the proceeds disbursed to the municipality under this </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>Section, Section 8-11-1.4,  and Section 8-11-1.5, multiplied by </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>a fraction having a numerator of 1 and a denominator of the </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>rate of tax.</code></u><code> The tax may not be imposed on the sale of food for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>human
+consumption that is
+to be consumed off the premises where </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>it is sold (other than alcoholic
+beverages, soft drinks, and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>food that has been prepared for immediate
+consumption) and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>prescription and nonprescription medicines, drugs, medical
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>appliances, and insulin, urine testing materials, syringes, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>and needles used by
+diabetics.
+The tax imposed by a
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>municipality pursuant to this Section and all civil penalties </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>that may be
+assessed as an incident thereof shall be collected </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>and enforced by the
+State Department of Revenue.  The </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>certificate of registration which is
+issued by the Department </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>to a retailer under the Retailers' Occupation Tax
+Act shall </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>permit such retailer to engage in a business which is taxable
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>under any ordinance or resolution enacted pursuant to
+this </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Section without registering separately with the Department </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>under
+such ordinance or resolution or under this Section.  The </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Department
+shall have full power to administer and enforce this </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Section; to collect
+all taxes and penalties due hereunder; to </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>dispose of taxes and penalties
+so collected in the manner </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>hereinafter provided, and to determine all
+rights to credit </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>memoranda, arising on account of the erroneous payment
+of tax </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>or penalty hereunder.  In the administration of, and compliance
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>with, this Section, the Department and persons who are subject </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>to this
+Section shall have the same rights, remedies, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>privileges, immunities,
+powers and duties, and be subject to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the same conditions, restrictions,
+limitations, penalties and </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>definitions of terms, and employ the same
+modes of procedure, </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>as are prescribed in Sections 1, 1a, 1a-1, 1d, 1e,
+1f, 1i, 1j, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>2 through 2-65 (in respect to all provisions therein other than
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the State rate of tax), 2c, 3 (except as to the disposition of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>taxes and
+penalties collected), 4, 5, 5a, 5b, 5c, 5d, 5e, 5f, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>5g, 5h, 5i, 5j, 5k, 5l,
+6, 6a, 6b, 6c, 6d, 7, 8, 9, 10, 11, 12 </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>and 13 of the Retailers'
+Occupation Tax Act and Section 3-7 of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>the Uniform Penalty and Interest
+Act as fully as if those </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provisions were set forth herein.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>No municipality may impose a tax under this Section unless </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the municipality
+also imposes a tax at the same rate under </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Section 8-11-1.4 of this Code.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Persons subject to any tax imposed pursuant to the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>authority granted
+in this Section may reimburse themselves for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>their seller's tax
+liability hereunder by separately stating </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>such tax as an additional
+charge, which charge may be stated in </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>combination, in a single amount,
+with State tax which sellers </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>are required to collect under the Use Tax
+Act, pursuant to such </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>bracket schedules as the Department may prescribe.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Whenever the Department determines that a refund should be </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>made under
+this Section to a claimant instead of issuing a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>credit memorandum, the
+Department shall notify the State </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Comptroller, who shall cause the
+order to be drawn for the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>amount specified, and to the person named,
+in such notification </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>from the Department.  Such refund shall be paid by
+the State </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Treasurer out of the non-home rule municipal retailers'
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>occupation tax fund.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department shall forthwith pay over to the State </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Treasurer, ex
+officio, as trustee, all taxes and penalties </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>collected hereunder.  </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>As soon as possible after the first day of each month, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>beginning January 1, 2011, upon certification of the Department </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>of Revenue, the Comptroller shall order transferred, and the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Treasurer shall transfer, to the STAR Bonds Revenue Fund the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>local sales tax increment, as defined in the Innovation </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Development and Economy Act, collected under this Section </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>during the second preceding calendar month for sales within a </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>STAR bond district.</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>After the monthly transfer to the STAR Bonds Revenue Fund, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>on or
+before the 25th day of each calendar month, the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Department shall
+prepare and certify to the Comptroller the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>disbursement of stated sums
+of money to named municipalities, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the municipalities to be those from
+which retailers have paid </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>taxes or penalties hereunder to the Department
+during the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>second preceding calendar month. The amount to be paid to each
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>municipality shall be the amount (not including credit </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>memoranda) collected
+hereunder during the second preceding </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>calendar month by the Department plus
+an amount the Department </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>determines is necessary to offset any amounts
+which were </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>erroneously paid to a different taxing body,  and not including
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>an amount equal to the amount of refunds made during the second </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>preceding
+calendar month by the Department on behalf of such </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>municipality, and not
+including any amount which the Department </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>determines is necessary to offset
+any amounts which were </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>payable to a different taxing body but were
+erroneously paid to </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the municipality, and not including any amounts that are </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>transferred to the STAR Bonds Revenue Fund, less 1.5% of the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>remainder, which the Department shall transfer into the Tax </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Compliance and Administration Fund. The Department, at the time </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>of each monthly disbursement to the municipalities, shall </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>prepare and certify to the State Comptroller the amount to be </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>transferred into the Tax Compliance and Administration Fund </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>under this Section. Within 10 days after receipt, by the
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Comptroller, of the disbursement certification to the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>municipalities and the Tax Compliance and Administration Fund
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>provided for in this Section to be given to the Comptroller by </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the
+Department, the Comptroller shall cause the orders to be </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>drawn for the
+respective amounts in accordance with the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>directions contained in such
+certification.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For the purpose of determining the local governmental unit </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>whose tax
+is applicable, a retail sale, by a producer of coal </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>or other mineral
+mined in Illinois, is a sale at retail at the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>place where the coal or
+other mineral mined in Illinois is </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>extracted from the earth.  This
+paragraph does not apply to coal </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>or other mineral when it is delivered
+or shipped by the seller </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>to the purchaser at a point outside Illinois so
+that the sale </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>is exempt under the Federal Constitution as a sale in
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>interstate or foreign commerce.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Nothing in this Section shall be construed to authorize a
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>municipality to impose a tax upon the privilege of engaging in </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>any
+business which under the constitution of the United States </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>may not be
+made the subject of taxation by this State.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>When certifying the amount of a monthly disbursement to a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>municipality
+under this Section, the Department shall increase </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>or decrease such amount
+by an amount necessary to offset any </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>misallocation of previous
+disbursements. The offset amount </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>shall be the amount erroneously disbursed
+within the previous 6 </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>months from the time a misallocation is discovered.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department of Revenue shall implement this amendatory </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Act of the 91st
+General Assembly so as to collect the tax on </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>and after January 1, 2002.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>As used in this Section, "municipal" and "municipality" </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>means a city,
+village or incorporated town, including an </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>incorporated town which has
+superseded a civil township.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section shall be known and may be cited as the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>"Non-Home Rule
+Municipal Retailers' Occupation Tax Act".</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-217, eff. 7-31-15; 100-23, eff. 7-6-17; </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>100-587, eff. 6-4-18.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(65 ILCS 5/8-11-1.4)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 24, par. 8-11-1.4)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-11-1.4. </code><code>Non-Home Rule Municipal Service Occupation </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Tax Act. </code><code>The
+corporate authorities of a non-home rule </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>municipality may impose a
+tax upon all persons engaged, in such </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>municipality, in the business of
+making sales of service for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>expenditure on
+public infrastructure or for property tax relief </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>or both as defined in
+Section 8-11-1.2 if approved by
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>referendum as provided in Section 8-11-1.1, of the selling </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>price of
+all tangible personal property transferred by such </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>servicemen either in
+the form of tangible personal property or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>in the form of real estate as
+an incident to a sale of service.
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>If the tax is approved by referendum on or after July 14, 2010 </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(the effective date of Public Act 96-1057), the corporate </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>authorities of a non-home rule municipality may, until December </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>31, 2020, use the proceeds of the tax for expenditure on </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>municipal operations, in addition to or in lieu of any </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>expenditure on public infrastructure or for property tax </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>relief. The tax imposed may not be more than </code><u><code>2%</code></u><code> </code><strike><code>1%</code></strike><code> and may be </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>imposed only in
+1/4% increments. </code><u><code>It is the intent of the </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>General Assembly that the rate of tax that may be imposed for </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>municipal operations may not exceed 1%; therefore, </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>notwithstanding any other provision of law, if the tax under </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>this Section is imposed at a rate of more than 1%, then, </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>beginning with the first disbursement to occur on or after the </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>effective date of the increase, the total amount that may be </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>used for municipal operations may not exceed the total amount </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>of the proceeds disbursed to the municipality under this </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>Section, Section 8-11-1.3,  and Section 8-11-1.5, multiplied by </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>a fraction having a numerator of 1 and a denominator of the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>rate of tax.</code></u><code> The tax may not be imposed on the sale of food for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>human
+consumption that is
+to be consumed off the premises where </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>it is sold (other than alcoholic
+beverages, soft drinks, and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>food that has been prepared for immediate
+consumption) and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>prescription and nonprescription medicines, drugs, medical
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>appliances, and insulin, urine testing materials, syringes, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>and needles used by
+diabetics.
+The tax imposed by a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>municipality
+pursuant to this Section and all civil penalties </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>that may be assessed as
+an incident thereof shall be collected </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>and enforced by the State
+Department of Revenue. The </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>certificate of registration which is issued
+by the Department </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>to a retailer under the Retailers' Occupation Tax
+Act or under </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the Service Occupation Tax Act shall permit
+such registrant to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>engage in a business which is taxable under any
+ordinance or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>resolution enacted pursuant to this Section without
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>registering separately with the Department under such </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>ordinance or
+resolution or under this Section. The Department </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>shall have full power
+to administer and enforce this Section; </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>to collect all taxes and
+penalties due hereunder; to dispose of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>taxes and penalties so collected
+in the manner hereinafter </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>provided, and to determine all rights to
+credit memoranda </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>arising on account of the erroneous payment of tax or
+penalty </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>hereunder. In the administration of, and compliance with, this
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Section the Department and persons who are subject to this </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Section
+shall have the same rights, remedies, privileges, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>immunities, powers and
+duties, and be subject to the same </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>conditions, restrictions, limitations,
+penalties and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>definitions of terms, and employ the same modes of procedure,
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>as are prescribed in Sections 1a-1, 2, 2a, 3 through 3-50 (in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>respect to
+all provisions therein other than the State rate of </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>tax), 4 (except that
+the reference to the State shall be to the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>taxing municipality), 5, 7, 8
+(except that the jurisdiction to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>which the tax shall be a debt to the
+extent indicated in that </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Section 8 shall be the taxing municipality), 9
+(except as to </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the disposition of taxes and penalties collected, and except
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>that the returned merchandise credit for this municipal tax may </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>not be
+taken against any State tax), 10, 11, 12 (except the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>reference therein to
+Section 2b of the Retailers' Occupation </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Tax Act), 13 (except that any
+reference to the State shall mean </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the taxing municipality), the first
+paragraph of Section 15, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>16, 17, 18, 19 and 20 of the Service Occupation
+Tax Act and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Section 3-7 of the Uniform Penalty and Interest Act, as fully
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>as if those provisions were set forth herein.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>No municipality may impose a tax under this Section unless </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the municipality
+also imposes a tax at the same rate under </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Section 8-11-1.3 of this Code.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Persons subject to any tax imposed pursuant to the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>authority granted
+in this Section may reimburse themselves for </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>their serviceman's tax
+liability hereunder by separately </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>stating such tax as an additional
+charge, which charge may be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>stated in combination, in a single amount,
+with State tax which </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>servicemen are authorized to collect under the
+Service Use Tax </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Act, pursuant to such bracket schedules as the
+Department may </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>prescribe.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Whenever the Department determines that a refund should be </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>made under
+this Section to a claimant instead of issuing credit </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>memorandum, the
+Department shall notify the State Comptroller, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>who shall cause the
+order to be drawn for the amount specified, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>and to the person named,
+in such notification from the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Department. Such refund shall be paid by
+the State Treasurer </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>out of the municipal retailers' occupation tax fund.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department shall forthwith pay over to the State </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Treasurer,
+ex officio, as trustee, all taxes and penalties </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>collected hereunder. </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>As soon as possible after the first day of each month, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>beginning January 1, 2011, upon certification of the Department </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>of Revenue, the Comptroller shall order transferred, and the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Treasurer shall transfer, to the STAR Bonds Revenue Fund the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>local sales tax increment, as defined in the Innovation </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Development and Economy Act, collected under this Section </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>during the second preceding calendar month for sales within a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>STAR bond district.</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>After the monthly transfer to the STAR Bonds Revenue Fund, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>on
+or before the 25th day of each calendar month, the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Department shall
+prepare and certify to the Comptroller the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>disbursement of stated sums
+of money to named municipalities, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the municipalities to be those from
+which suppliers and </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>servicemen have paid taxes or penalties hereunder to
+the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Department during the second preceding calendar month. The </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>amount
+to be paid to each municipality shall be the amount (not </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>including credit
+memoranda) collected hereunder during the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>second preceding calendar
+month by the Department, and not </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>including an amount equal to the amount
+of refunds made during </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the second preceding calendar month by the
+Department on behalf </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>of such municipality, and not including any amounts that are </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>transferred to the STAR Bonds Revenue Fund, less 1.5% of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>remainder, which the Department shall transfer into the Tax </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Compliance and Administration Fund. The Department, at the time </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>of each monthly disbursement to the municipalities, shall </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>prepare and certify to the State Comptroller the amount to be </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>transferred into the Tax Compliance and Administration Fund </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>under this Section. Within 10 days
+after receipt, by the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Comptroller, of the disbursement certification to
+the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>municipalities, the General Revenue Fund, and the Tax </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Compliance and Administration Fund provided for in this
+Section </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>to be given to the Comptroller by the Department, the
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Comptroller shall cause the orders to be drawn for the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>respective
+amounts in accordance with the directions contained </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>in such
+certification.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Department of Revenue shall implement this amendatory </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Act of the 91st
+General Assembly so as to collect the tax on </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>and after January 1, 2002.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Nothing in this Section shall be construed to authorize a
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>municipality to impose a tax upon the privilege of engaging in </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>any
+business which under the constitution of the United States </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>may not be
+made the subject of taxation by this State.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>As used in this Section, "municipal" or "municipality" </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>means or refers to
+a city, village or incorporated town, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>including an incorporated town which
+has superseded a civil </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>township.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section shall be known and may be cited as the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>"Non-Home Rule Municipal
+Service Occupation Tax Act".</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-23, eff. 7-6-17; 100-587, eff. 6-4-18.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(65 ILCS 5/8-11-1.5)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 24, par. 8-11-1.5)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8-11-1.5. </code><code>Non-Home Rule Municipal Use Tax Act. </code><code>The </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>corporate
+authorities of a non-home rule municipality may </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>impose a
+tax upon the privilege of using, in such municipality, </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>any item of tangible
+personal property which is purchased at </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>retail from a retailer, and which is
+titled or registered with </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>an agency of this State's government, based on the selling </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>price of such tangible personal
+property, as "selling price" is </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>defined in the Use Tax Act, for expenditure
+on public </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>infrastructure or for property tax relief or both as defined in
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Section 8-11-1.2, if approved by
+referendum as provided in </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Section 8-11-1.1. If the tax is approved by referendum on or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>after the effective date of this amendatory Act of the 96th </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>General Assembly, the corporate authorities of a non-home rule </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>municipality may, until December 31, 2020, use the proceeds of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the tax for expenditure on municipal operations, in addition to </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>or in lieu of any expenditure on public infrastructure or for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>property tax relief. The tax imposed may not be more
+than </code><u><code>2%</code></u><code> </code><strike><code>1%</code></strike><code> </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>and may be imposed only in 1/4% increments. </code><u><code>It is the intent of </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>the General Assembly that the rate of tax that may be imposed </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>for municipal operations may not exceed 1%; therefore, </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>notwithstanding any other provision of law, if the tax under </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>this Section is imposed at a rate of more than 1%, then, </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>beginning with the first disbursement to occur on or after the </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>effective date of the increase, the total amount that may be </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>used for municipal operations may not exceed the total amount </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>of the proceeds disbursed to the municipality under this </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>Section, Section 8-11-1.3,  and Section 8-11-1.4, multiplied by </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>a fraction having a numerator of 1 and a denominator of the </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>rate of tax.</code></u><code> Such tax shall
+be
+collected from persons whose </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Illinois address for title or registration
+purposes is given as </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>being in such municipality. Such tax shall be
+collected by the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0155</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 02997 AWJ 48005 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>municipality imposing such tax.
+A non-home rule municipality </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>may not
+impose and collect the tax prior to January 1, 2002.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section shall be known and may be cited as the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>"Non-Home Rule
+Municipal Use Tax Act".</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 96-1057, eff. 7-14-10; 97-837, eff. 7-20-12.)</code><code>
+</code><br>&nbsp;<code>
+ </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

@@ -1,0 +1,446 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:31:47 GMT
+Content-Length: 37196
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0324</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0324&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0324&GA=101&SessionId=108&DocTypeId=HB&LegID=114472&DocNum=324&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0324.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0324lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0324&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0324lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0324lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0324&GAID=15&DocTypeID=HB&LegID=114472&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0324 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0324</pre></b></center><p>&nbsp;</p>Introduced , by Rep. David McSweeney<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code>
+</code><td class="synopsis"><code>5 ILCS 20/2</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 1, par. 103</code></td><code>
+</code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Illinois Constitutional Amendment Act. Provides that when </code><code>the Secretary of State first publishes a constitutional amendment in a </code><code>newspaper or newspapers, he or she shall also cause the existing form of </code><code>the constitutional provision proposed to be amended, the proposed </code><code>amendment, the explanation of the amendment, the arguments for and against </code><code>the amendment, and the form in which the amendment will appear on the </code><code>separate ballot, to be published on a publicly accessible Internet website </code><code>controlled by the Office of the Secretary of State. Provides that the </code><code>newspaper or newspapers containing the published amendment shall also </code><code>provide a link to the amendment information published on the Secretary's </code><code>Internet website. Provides that the Secretary of State shall not publish, </code><code>mail, or maintain any pamphlets concerning a proposed constitutional </code><code>amendment to abolish the Office of the Lieutenant Governor, nor shall the </code><code>General Assembly be required to provide the language for such a pamphlet </code><code>explaining a proposed amendment for the abolition of the Office of the </code><code>Lieutenant Governor. Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 03986 RJF 48994 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0324</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 03986 RJF 48994 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning government.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Constitutional Amendment Act is </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>amended  by changing Section 2 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5 ILCS 20/2)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 1, par. 103)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 2. </code><code>
+</code><code>The General Assembly in submitting an amendment to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the
+Constitution to the electors, or the proponents of an </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>amendment to Article
+IV of the Constitution submitted by </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>petition, shall prepare a brief explanation of such
+amendment, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>a brief argument in favor of the same, and the form in which
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>such amendment will appear on the separate ballot as provided </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>by Section
+16-6 of the Election Code, as
+amended. The minority </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of the General Assembly, or if there is no minority,
+anyone </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>designated by the General Assembly shall prepare a brief </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>argument
+against such amendment. In the case of an
+amendment to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Article IV of the Constitution initiated pursuant to Section
+3 </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>of Article XIV of the Constitution, the proponents shall be </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>those persons
+so designated at the time of the filing of the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>petition as provided in Section
+10-8 of the Election Code, and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the opponents shall be those members of the
+General Assembly </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>opposing such amendment, or if there are none, anyone
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>designated by the General Assembly and such opponents shall </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0324</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 03986 RJF 48994 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>prepare a brief
+argument against such amendment.  The </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>proponent's explanation and
+argument in favor of and the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>opponents argument against an amendment
+to Article IV initiated </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>by petition must
+be submitted to the Attorney General, who may </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>rewrite them for accuracy
+and fairness.  The explanation,
+the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>arguments for and against each constitutional amendment, and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the form in which the
+amendment will appear on the separate </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>ballot shall be filed in the
+</code><u><code>Office</code></u><code> </code><strike><code>office</code></strike><code> of the Secretary of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>State with the proposed amendment. At least one
+month before </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the next election of members of the General Assembly,
+following </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the passage of the proposed amendment, the Secretary of State
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>shall publish the amendment, in full in 8 point type, or the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>equivalent
+thereto, in at least one secular newspaper of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>general circulation in
+every county in this State in which a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>newspaper is published. In
+counties in which 2 or more </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>newspapers are published, the Secretary of
+State shall cause </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>such amendment to be published in 2 newspapers. In
+counties </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>having a population of 500,000 or more, such amendment shall be
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>published in not less than 6 newspapers of general circulation. </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>When the Secretary first publishes the amendment in a newspaper
+</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>or newspapers under the provisions of this Section, he or she
+</code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>shall also cause the existing form of the constitutional
+</code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>provision proposed to be amended, the proposed amendment, the
+</code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>explanation of the amendment, the arguments for and against the
+</code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>amendment, and the form in which the amendment will appear on
+</code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>the separate ballot, to be published on a publicly accessible </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0324</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 03986 RJF 48994 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>Internet website controlled by the Office of the Secretary of
+</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>State. The newspaper or newspapers containing the published
+</code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>amendment shall also provide a link to the amendment
+</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>information published on the Secretary's Internet website.</code></u><code> </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>After
+the first publication, the publication of such amendment</code><u><code>,
+</code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>including a link to the Secretary's Internet website,</code></u><code> shall be
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>repeated once each week for 2 consecutive weeks. In selecting </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>newspapers
+in which to publish such amendment the Secretary of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>State shall have
+regard solely to the circulation of such </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>newspapers, selecting secular
+newspapers in every case having </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the largest circulation. The proposed
+amendment shall have a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>notice prefixed thereto in said publications,
+that at such </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>election the proposed amendment will be submitted to the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>electors for adoption or rejection, and at the end of the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>official
+publication, he shall also publish the form in which </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the proposed
+amendment will appear on the separate ballot. The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Secretary of State
+shall fix the publication fees to be paid </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>newspapers for making such
+publication, but in no case shall </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>such publication fee exceed the amount
+charged by such </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>newspapers to private individuals for a like
+publication. In </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>addition to the notice hereby required to be published,
+the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Secretary of State shall also cause the existing form of the
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>constitutional provision proposed to be amended, the proposed </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>amendment,
+the explanation of the same, the arguments for and </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>against the same, and
+the form in which such amendment will </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>appear on the separate ballot, to
+be published in pamphlet form </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0324</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 03986 RJF 48994 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>in 8 point type or the equivalent thereto;
+and the Secretary of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>State shall mail such pamphlet to every mailing
+address in the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>State, addressed to the attention of the Postal Patron.   He
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>shall also maintain a reasonable supply of such pamphlets so as </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>to make
+them available to any person requesting one. </code><u><code>The </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>Secretary of State shall not, however, publish, mail, or </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>maintain any pamphlets concerning a proposed constitutional </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>amendment to abolish the Office of the Lieutenant Governor, nor </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>shall the General Assembly be required to provide the language </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>for such a pamphlet explaining a proposed amendment for the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>abolition of the Office of the Lieutenant Governor.</code></u><code> </code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-463, eff. 8-16-13.)</code><code>
+</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

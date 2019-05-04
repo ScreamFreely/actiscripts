@@ -1,0 +1,539 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:28:16 GMT
+Content-Length: 97703
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0258</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0258&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0258&GA=101&SessionId=108&DocTypeId=HB&LegID=114346&DocNum=258&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0258.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0258lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0258&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0258lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0258lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0258&GAID=15&DocTypeID=HB&LegID=114346&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0258 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0258</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Jay Hoffman<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>See Index</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Charter Schools Law of the School Code. Removes provisions </code><code>allowing the State Charter School Commission to reverse a school board's </code><code>decision to deny, revoke, or not renew a charter; makes related changes. </code><code>Provides that if a charter school applicant submits a proposal to a school </code><code>board outside of the process adopted by that school board for receiving </code><code>charter school proposals on an annual basis, the applicant shall not have </code><code>any right to submit its proposal to the State Charter School Commission as </code><code>otherwise authorized. In a provision concerning a charter school proposed </code><code>to be jointly authorized by 2 or more school districts and the school </code><code>boards unanimously denying the charter school proposal with a statement </code><code>that the school boards are not opposed to the charter school but yield to </code><code>the Commission in light of the complexities of joint administration, allows </code><code>the charter applicant to submit the proposal to the Commission and requires </code><code>the Commission to follow the same process and be subject to the same </code><code>timelines for review as a school board. Allows the Commission to approve an </code><code>application for a charter if certain conditions are met. Provides that the </code><code>Commission may condition approval of an application on the acceptance of </code><code>funding in an amount less than requested. Provides that final decisions of </code><code>the Commission are subject to judicial review under the Administrative </code><code>Review Law. Provides that if the Commission approves an application for a </code><code>charter school, then the Commission shall act as the authorized chartering </code><code>entity. Provides that if the Commission is the authorized chartering </code><code>entity, then the Commission shall execute a charter agreement (instead of </code><code>approve the charter agreement). Makes other changes. Effective </code><code>immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td><td class="xsl"><center>STATE MANDATES ACT MAY REQUIRE REIMBURSEMENT</center></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning education.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+
+
+
+
+
+
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The School Code is amended  by changing Sections </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>27A-7.5, 27A-8, and 27A-9 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(105 ILCS 5/27A-7.5)</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 27A-7.5. </code><code>State Charter School Commission.</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) A State Charter School Commission is established as an </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>independent commission with statewide chartering jurisdiction </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and authority. The Commission shall be under the State Board </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>for administrative purposes only.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a-5) The State Board shall provide administrative support </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>to the Commission as needed. </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The Commission is responsible for authorizing </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>high-quality charter schools throughout this State, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>particularly schools designed to expand opportunities for </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>at-risk students, consistent with the purposes of this Article.</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The Commission shall consist of 9 members, appointed by </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the State Board.  The State Board shall make these appointments </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>from a slate of candidates proposed by the Governor, within 60 </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>days after the effective date of this amendatory Act of the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>97th General Assembly with respect to the initial Commission </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>members.  In making the appointments, the State Board shall </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>ensure statewide geographic diversity among Commission </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>members. The Governor shall propose a slate of candidates to </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the State Board within 60 days after the effective date of this </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>amendatory Act of the 97th General Assembly and 60 days prior </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>to the expiration of the term of a member thereafter.  If the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Governor fails to timely propose a slate of candidates </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>according to the provisions of this subsection (c), then the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>State Board may appoint the member or members of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Commission.</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) Members appointed to the Commission shall collectively </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>possess strong experience and expertise in public and nonprofit </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>governance, management and finance, public school leadership, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>higher education, assessments, curriculum and instruction, and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>public education law.  All members of the Commission shall have </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>demonstrated understanding of and a commitment to public </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>education, including without limitation charter schooling. At </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>least 3 members must have past experience with urban charter </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>schools.</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) To establish staggered terms of office, the initial </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>term of office for 3 Commission members shall be 4 years and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>thereafter shall be 4 years; the initial term of office for </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>another 3 members shall be 3 years and thereafter shall be 4 </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>years; and the initial term of office for the remaining 3 </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>members shall be 2 years and thereafter shall be 4 years. The </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>initial appointments must be made no later than October 1, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>2011.</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Whenever a vacancy on the Commission exists, the State </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Board shall appoint a member for the remaining portion of the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>term.</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Subject to the State Officials and Employees Ethics </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Act, the Commission is authorized to receive and expend gifts, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>grants, and donations of any kind from any public or private </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>entity to carry out the purposes of this Article, subject to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the terms and conditions under which they are given, provided </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>that all such terms and conditions are permissible under law. </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Funds received under this subsection (g) must be deposited into </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the State Charter School Commission Fund.</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The State Charter School Commission Fund is created as a </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>special fund in the State treasury.  All money in the Fund shall </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>be used, subject to appropriation, by the State Board, acting </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>on behalf and with the consent of the Commission, for </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>operational and administrative costs of the Commission. </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to appropriation, any funds appropriated for use by </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the State Board, acting on behalf and with the consent of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Commission, may be used for the following purposes, without </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>limitation: personal services, contractual services, and other </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>operational and administrative costs. The State Board is </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>further authorized to make expenditures with respect to any </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>other amounts deposited in accordance with law into the State </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Charter School Commission Fund. </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g-5) Funds or spending authority for the operation and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>administrative costs of the Commission shall be appropriated to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the State Board in a separate line item. The State </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Superintendent of Education may not reduce or modify the budget </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>of the Commission or use funds appropriated to the Commission </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>without the approval of the Commission. </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) The Commission shall operate with dedicated resources </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and staff qualified to execute the day-to-day responsibilities </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>of charter school authorizing in accordance with this Article. </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>The Commission may employ and fix the compensation of such </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>employees and technical assistants as it deems necessary to </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>carry out its powers and duties under this Article, without </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>regard to the requirements of any civil service or personnel </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>statute; and may establish and administer standards of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>classification of all such persons with respect to their </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>compensation, duties, performance, and tenure and enter into </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>contracts of employment with such persons for such periods and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>on such terms as the Commission deems desirable. </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) Every 2 years, the Commission shall provide to the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>State Board and local school boards a report on best practices </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>in charter school authorizing, including without limitation </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>evaluating applications, oversight of charters, and renewal of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>charter schools.</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(j) The Commission may charge a charter school that it </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>authorizes a fee, not to exceed 3% of the revenue provided to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the school, to cover the cost of undertaking the ongoing </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>administrative responsibilities of the eligible chartering </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>authority with respect to the school. This fee must be </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>deposited into the State Charter School Commission Fund.</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(k) Any charter school authorized by the State Board prior </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>to this amendatory Act of the 97th General Assembly shall have </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>its authorization transferred to the Commission upon a vote of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the State Board, which shall then become the school's </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>authorizer for all purposes under this Article.   However, in no </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>case shall such transfer take place later than July 1, 2012. At </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>this time, all of the powers, duties, assets, liabilities, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>contracts, property, records, and pending business of the State </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Board as the school's authorizer must be transferred to the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Commission. Any charter school authorized by a local school </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>board or boards may seek transfer of authorization to the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Commission during its current term only with the approval of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the local school board or boards.  At the end of its charter </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>term, a charter school authorized by a local school board or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>boards must reapply to the board or boards before it may apply </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>for authorization to the Commission under the terms of this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>amendatory Act of the 97th General Assembly.</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>On the effective date of this amendatory Act of the 97th </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>General Assembly, all rules of the State Board applicable to </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>matters falling within the responsibility of the Commission </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>shall be applicable to the actions of the Commission. The </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Commission shall thereafter have the authority to propose to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the State Board modifications to all rules applicable to </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>matters falling within the responsibility of the Commission.  </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>The State Board shall retain rulemaking authority for the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Commission, but shall work jointly with the Commission on any </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>proposed modifications. Upon recommendation of proposed rule </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>modifications by the Commission and pursuant to the Illinois </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Administrative Procedure Act, the State Board shall consider </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>such changes within the intent of this amendatory Act of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>97th General Assembly and grant any and all changes consistent </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>with that intent. </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(l) </code><u><code>(Blank).</code></u><code>  </code><strike><code>The Commission shall have the responsibility </code></strike></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>to consider appeals under this Article immediately upon </code></strike></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><strike><code>appointment of the initial members of the Commission under </code></strike></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><strike><code>subsection (c) of this Section.  Appeals pending at the time of  </code></strike></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><strike><code>initial appointment shall be determined by the Commission;  the </code></strike></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><strike><code>Commission may extend the time for review as necessary for </code></strike></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><strike><code>thorough review, but in no case shall the extension exceed the </code></strike></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><strike><code>time that would have been available had the appeal been </code></strike></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><strike><code>submitted to the Commission on the date of appointment of its </code></strike></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><strike><code>initial members.  In any appeal filed with the Commission under </code></strike></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><strike><code>this Article, both the applicant and the school district in </code></strike></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><strike><code>which the charter school plans to locate shall have the right </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>to request a hearing before the Commission.  If more than one </code></strike></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><strike><code>entity requests a hearing, then the Commission may hold only </code></strike></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><strike><code>one hearing, wherein the applicant and the school district </code></strike></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><strike><code>shall have an equal opportunity to present their respective </code></strike></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><strike><code>positions.</code></strike><code> </code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 97-152, eff. 7-20-11; 97-641, eff. 12-19-11; </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>97-1156, eff. 1-25-13.)</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(105 ILCS 5/27A-8)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 27A-8. </code><code>Evaluation of charter proposals. </code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) This Section does not apply to a charter school </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>established by
+referendum under
+Section 27A-6.5.
+In evaluating </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>any charter
+school proposal submitted to it, the local school </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>board and the Commission shall give preference
+to proposals </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>that:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) demonstrate a high level of local pupil, parental, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>community,
+business, and school personnel support;</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) set rigorous levels of expected pupil achievement </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and demonstrate
+feasible plans for attaining those levels </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of achievement; and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) are designed to enroll and serve a substantial </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>proportion of at-risk
+children; provided that nothing in </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Charter Schools Law shall be construed
+as intended to
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>limit the establishment of charter schools to those that </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>serve a substantial
+portion of at-risk children or to in </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>any manner restrict, limit, or discourage
+the
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>establishment of charter schools that enroll and serve </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other pupil populations
+under a nonexclusive, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>nondiscriminatory admissions policy.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) In the case of a proposal to establish a charter school </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>by converting an
+existing public school or attendance center to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>charter school status, evidence
+that the proposed formation of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the charter school has received majority support
+from certified </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>teachers and from parents and guardians in the school or
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>attendance center affected by the proposed charter, and, if </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>applicable, from a
+local school council, shall be demonstrated </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>by a petition in support of the
+charter school signed by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>certified teachers and a petition in support of the
+charter </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>school signed by parents and guardians and, if applicable, by a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>vote of
+the local school council held at a public meeting.  In </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the case of all other
+proposals to establish a charter school, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>evidence of sufficient support to fill
+the number of pupil </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>seats set forth in the proposal may be
+demonstrated by a
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>petition in support of the charter school signed by parents and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>guardians of
+students eligible to attend the charter school.
+In </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>all cases, the individuals, organizations, or entities who </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>initiate
+the proposal to establish a charter school may elect, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>in lieu of including any
+petition referred to in this </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>subsection as a part of the proposal submitted to
+the local </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>school board, to demonstrate that the charter school has
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>received the support referred to in this subsection by other </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>evidence and
+information presented at the public meeting that </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>the local school board is
+required to convene under this </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Section.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) Within 45 days of receipt of a charter school proposal, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the local school
+board shall convene a public meeting to obtain </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>information to assist the board
+in its decision to grant or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>deny the charter school proposal. A local school board may </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>develop its own process for receiving charter school proposals </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>on an annual basis that follows the same timeframes as set </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>forth in this Article. </code><u><code>Final decisions of a local school board </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>are subject to judicial review under the Administrative Review </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>Law. If a charter school applicant submits a proposal to a </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>local school board outside of the process adopted by that local </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>school board for receiving charter school proposals on an </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>annual basis, the applicant shall not have any right to submit </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>its proposal to the Commission as otherwise authorized in </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>subsections (d) and (e) of this Section.</code></u><code>  </code><strike><code>Only after the local </code></strike></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><strike><code>school board process is followed may a charter school applicant </code></strike></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><strike><code>appeal to the Commission.</code></strike><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) Notice of the public meeting required by this Section </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>shall be published
+in a community newspaper published in the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>school district in which the proposed
+charter is located and, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>if there is no such newspaper, then in a newspaper
+published in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the county and having circulation in the school district.  The
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>notices shall be published not more than 10 days nor less than </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>5 days before
+the meeting and shall state that information </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>regarding a charter school
+proposal will be heard at the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>meeting.  Copies of the notice shall also be
+posted at </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>appropriate locations in the school or attendance center </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>proposed to
+be established as a charter school, the public </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>schools in the school district,
+and the local school board </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>office. If 45 days pass without the local school board holding </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>a public meeting, then the charter applicant may submit the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>proposal to the Commission, where it must be addressed in </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>accordance with the provisions set forth in subsection (g) of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>this Section. </code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) Within 30 days of the public meeting, the local school </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>board shall vote,
+in a public meeting, to either grant or deny </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the charter school proposal. If the local school board has not </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>voted in a public meeting within 30 days after the public </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>meeting, then the charter applicant may submit the proposal to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the Commission, where it must be addressed in accordance with </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the provisions set forth in subsection (g) of this Section. </code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Within 7 days of the public meeting required under </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>subsection (e) of this Section, the
+local school board shall </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>file a report with the State Board
+granting or denying the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>proposal.
+If the local school board has approved the proposal, </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>within 30 days of receipt of the local school board's
+report, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the State Board shall determine whether the approved charter
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>proposal is consistent with the
+provisions of this Article and, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>if the approved proposal
+complies,
+certify the proposal </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>pursuant to Section 27A-6.</code><code>
+
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) If </code><u><code>the charter applicant submits the proposal to the </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>Commission as authorized</code></u><code> </code><strike><code>the local school board votes to deny </code></strike></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><strike><code>the proposal, then the charter school applicant has 30 days </code></strike></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><strike><code>from the date of that vote to submit an appeal to the </code></strike></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><strike><code>Commission. In such instances or in those instances referenced</code></strike><code> </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>in subsections (d)</code><u><code>,</code></u><code> </code><strike><code>and</code></strike><code> (e)</code><u><code>, and (i)</code></u><code> of this Section, the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Commission shall follow the same process and be subject to the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>same timelines for review as the local school board. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) </code><u><code>The Commission may approve a charter school proposal </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>submitted to it in accordance with subsection (d), (e), or (i) </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>of this Section</code></u><code>  </code><strike><code>The Commission may reverse a local school </code></strike></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><strike><code>board's decision to deny a charter school proposal</code></strike><code> if the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Commission finds that the proposal (i) is in compliance with </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>this Article and (ii) is in the best interests of the students </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the charter school is designed to serve.   Final decisions of the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Commission are subject to judicial review under the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Administrative Review Law. </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i)  In the case of a charter school proposed to be jointly </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>authorized by 2 or more school districts, the local school </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>boards may unanimously deny the charter school proposal with a </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>statement that the local school boards are not opposed to the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>charter school, but that they yield to the Commission in light </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>of the complexities of joint administration</code><u><code>, in which case the </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>charter applicant may submit the proposal to the Commission, </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>where it must be addressed in accordance with the provisions </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>set forth in subsection (g) of this Section</code></u><code>.  </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 96-105, eff. 7-30-09; 96-734, eff. 8-25-09; </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>96-1000, eff. 7-2-10; 97-152, eff. 7-20-11.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(105 ILCS 5/27A-9)</code><code>
+</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 27A-9. </code><code>Term of charter; renewal. </code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) For charters granted before January 1, 2017 (the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>effective date of Public Act 99-840), a charter may be granted </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>for a period not less than 5 and not
+more than
+10
+school years.  </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>For charters granted on or after January 1, 2017 (the effective </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>date of Public Act 99-840), a charter shall be granted for a </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>period of 5
+school years. For charters renewed before January </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>1, 2017 (the effective date of Public Act 99-840), a charter </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>may be renewed in incremental periods not to exceed
+5
+school </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>years. For charters renewed on or after January 1, 2017 (the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>effective date of Public Act 99-840), a charter may be renewed </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>in incremental periods not to exceed 10 school years; however, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the Commission may renew a charter only in incremental periods </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>not to exceed 5 years. Authorizers shall ensure that every </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>charter granted on or after January 1, 2017 (the effective date </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>of Public Act 99-840) includes standards and goals for </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>academic, organizational, and financial performance.  A charter </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>must meet all standards and goals for academic, organizational, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>and financial performance set forth by the authorizer in order </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>to be renewed for a term in excess of 5 years but not more than </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>10 years.  If an authorizer fails to establish standards and </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>goals, a charter shall not be renewed for a term in excess of 5 </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>years.  Nothing contained in this Section shall require an </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>authorizer to grant a full 10-year renewal term to any </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>particular charter school, but an authorizer may award a full </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>10-year renewal term to charter schools that have a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>demonstrated track record of improving student performance. </code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) A charter school renewal proposal submitted to the
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>local school board or the Commission, as the chartering entity,
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>shall contain:</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) A report on the progress of the charter school in </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>achieving the goals,
+objectives, pupil performance </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>standards, content standards, and other terms of
+the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>initial approved charter proposal; and</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) A financial statement that discloses the costs of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>administration,
+instruction, and other spending categories </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for the charter school that is
+understandable to the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>general public and that will allow comparison of those
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>costs to other schools or other comparable organizations, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in a format required
+by the State Board.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) A charter may be revoked
+or not renewed if the local </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>school board or the Commission, as the chartering
+entity,
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>clearly demonstrates that the
+charter school did any of the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>following, or otherwise failed to comply with the requirements </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>of this law:</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Committed a material violation of any of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>conditions, standards, or
+procedures set forth in the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>charter.</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Failed to meet or make reasonable progress toward </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>achievement of the
+content standards or pupil performance </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>standards identified in the charter.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) Failed to meet generally accepted standards of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fiscal management.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) Violated any provision of law from which the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>charter school was not
+exempted.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>In the case of revocation, the local school board or the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Commission, as the chartering entity, shall notify the charter </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>school in writing of the reason why the charter is subject to </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>revocation.  The charter school shall submit a written plan to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the local school board or the Commission, whichever is </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>applicable, to rectify the problem.  The plan shall include a </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>timeline for implementation, which shall not exceed 2 years or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the date of the charter's expiration, whichever is earlier.  If </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the local school board or the Commission, as the chartering </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>entity, finds that the charter school has failed to implement </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the plan of remediation and adhere to the timeline, then the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>chartering entity shall revoke the charter.  Except in </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>situations of an emergency where the health, safety, or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>education of the charter school's students is at risk, the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>revocation shall take place at the end of a school year.  </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Nothing in Public Act 96-105 shall be construed to prohibit an </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>implementation timetable that is less than 2 years in duration. </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) (Blank).</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) </code><u><code>The Commission may approve an application for a charter </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>submitted to it in accordance with this Article</code></u><code> </code><strike><code>Notice of a </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>local school board's decision to
+deny, revoke, or not
+renew a </code></strike></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><strike><code>charter shall be provided to the Commission and the State </code></strike></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><strike><code>Board.
+The Commission may reverse a local board's
+decision</code></strike><code>
+if </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the Commission finds
+that the charter school or charter school </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>proposal (i) is in compliance with
+this Article</code><strike><code>,</code></strike><code> and (ii) is in </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the best interests of the students it is designed
+to serve.
+ </code><u><code>The </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>Commission may condition approval of a charter school </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>application</code></u><code> </code><strike><code>The Commission may condition the granting of an </code></strike></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><strike><code>appeal</code></strike><code> on the acceptance by
+the charter school of funding in an </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>amount less than that requested in the
+proposal submitted to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the local school board.
+Final decisions of the Commission </code><u><code>are</code></u><code> </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><strike><code>shall be</code></strike><code> subject
+to judicial review under the Administrative </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Review Law.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Notwithstanding other provisions of this Article, if </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the Commission </code><u><code>approves an application for a charter school </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>submitted to it in accordance with this Article or</code></u><code>
+
+</code><strike><code>on appeal </code></strike></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><strike><code>reverses a local board's decision
+or</code></strike><code> if a charter school is
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>approved by referendum </code><u><code>under Section 27A-6.5 of this Code</code></u><code>,
+the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Commission
+ shall act as the
+authorized chartering entity for </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the charter school.
+ The Commission shall </code><u><code>execute a</code></u><code>
+</code><strike><code>approve the</code></strike><code> </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>charter </code><u><code>agreement</code></u><code> and shall perform all functions
+under this
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Article otherwise performed by the local school
+board.  The </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>State Board shall determine whether the charter proposal </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>approved by the Commission is consistent with the provisions of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>this Article and, if the approved proposal complies, certify </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the proposal pursuant to this Article. The State Board shall
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>report the aggregate number of charter school pupils resident </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>in a school
+district to that district
+and shall notify the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>district
+of the amount of
+funding to be paid by the State Board </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>to the charter school enrolling such
+students.
+The Commission </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall require the
+charter school to maintain accurate records </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>of daily attendance that shall be
+deemed sufficient to file </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>claims under Section 18-8.05 or 18-8.15 notwithstanding any
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>other requirements of that Section regarding hours of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>instruction and teacher
+certification.
+The State Board shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>withhold from funds otherwise due the district
+the funds </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>authorized by this Article to be paid to the charter school and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>shall
+pay such amounts to the charter school.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g)  For charter schools authorized by the Commission, the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Commission shall quarterly certify to the State Board the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>student enrollment for each of its charter schools.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h)  For charter schools authorized by the Commission, the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>State Board shall pay directly to a charter school any federal </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>or State aid attributable to a student with a disability </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>attending the school. </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(i) The Commission has no authority under subsection (e) of </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>this Section to approve a charter school proposal that has been </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>denied by the local school board.</code></u><code> </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-840, eff. 1-1-17; 100-201, eff. 8-18-17; </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>100-465, eff. 8-31-17.)</code><code>
+</code><code>
+
+</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code>
+</code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="45%"></colgroup><colgroup width="45%"></colgroup></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="4"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="4"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0258</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 05329 AXK 50343 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" colspan="4" align="center">
+									INDEX
+								</td></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" colspan="2" align="center">
+									Statutes amended in order of appearance
+								</td><tr><td class="xsl"></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>105 ILCS 5/27A-7.5</code></td><td class="xsl"></td></tr><tr><td class="xsl"></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>105 ILCS 5/27A-8</code></td><td class="xsl"></td><code> </code></tr><tr><code> </code><td class="xsl"></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>105 ILCS 5/27A-9</code></td><code> </code><td class="xsl"></td></tr></table></td ></tr><tr><td class="xsl"></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

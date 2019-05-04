@@ -1,0 +1,430 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:29:17 GMT
+Content-Length: 48784
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0276</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0276&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0276&GA=101&SessionId=108&DocTypeId=HB&LegID=114399&DocNum=276&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0276.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0276lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0276&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0276lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0276lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0276&GAID=15&DocTypeID=HB&LegID=114399&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0276 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0276</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Steven Reick<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code>
+</code><td class="synopsis"><code>40 ILCS 5/16-169.1</code></td><code>
+</code><td class="synopsis"></td></tr><tr><td class="synopsis"><code>40 ILCS 5/16-169.2 new</code></td><td class="synopsis"></td></tr><tr><code>
+</code><td class="synopsis"><code>40 ILCS 5/16-199</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 108 1/2, par. 16-199</code></td><code>
+</code></tr><tr><td class="synopsis"><code>40 ILCS 5/17-143.5</code></td><td class="synopsis"></td></tr><tr><td class="synopsis"><code>40 ILCS 5/17-143.6 new</code></td><td class="synopsis"></td></tr><tr><code>
+</code><td class="synopsis"><code>40 ILCS 5/17-149.1</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 108 1/2, par. 17-149.1</code></td><code>
+</code></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Downstate Teacher and Chicago Teacher Articles of the </code><code>Illinois Pension Code. Provides that none of the benefits provided for in </code><code>either Article shall be paid to a person if the person first becomes a </code><code>member after the effective date of the amendatory Act and  a board, after an </code><code>administrative hearing, determines that the person sexually abused a </code><code>student. Provides that an employer must notify a board if a retiring member </code><code>has been accused of sexually abusing a student. Provides that a board may, </code><code>through an administrative hearing, review the claim of sexual abuse and may </code><code>order that benefits be forfeited. Provides that the changes made by the </code><code>amendatory Act shall not operate to impair any contract or vested right </code><code>acquired before the effective date of the amendatory Act nor to preclude </code><code>the right to a refund. Provides that all teachers entering service after </code><code>the effective date of the amendatory Act shall be deemed to have consented </code><code>to the provisions of the amendatory Act as a condition of membership. Makes </code><code>conforming changes. Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td><td class="xsl"><center>PENSION IMPACT NOTE ACT MAY APPLY</center></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning public employee benefits.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Pension Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Sections 16-169.1, 16-199, 17-143.5, and 17-149.1 and  by adding </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Sections 16-169.2 and 17-143.6 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/16-169.1)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 16-169.1. </code><code>Testimony and the production of records. </code><code>The </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>secretary of
+the Board shall have the power to issue subpoenas </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>to compel the attendance of
+witnesses and the production of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>documents and records, including law
+enforcement records </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>maintained by law enforcement agencies, in conjunction with
+the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>determination of employer payments required under subsection </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>(f) of  Section 16-158, a disability claim, an administrative </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>review proceeding, an attempt to obtain information to assist </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>in the collection of sums due to the System, or a </code><strike><code>felony</code></strike><code> </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>forfeiture
+investigation </code><u><code>under Section 16-169.2 or 16-199</code></u><code>.  The
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>fees of witnesses for attendance and travel shall be the same </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>as the fees of
+witnesses before the circuit courts of this </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>State and shall be paid by the
+party seeking the subpoena.  The </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Board may apply to any circuit court in the
+State for an order </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>requiring compliance with a subpoena issued under this
+Section.  </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Subpoenas issued under this Section shall be subject to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>applicable
+provisions of the Code of Civil Procedure.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-450, eff. 8-24-15.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/16-169.2 new)</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 16-169.2. </code></u><u><code>Sexual abuse accusations. </code></u><u><code>An employer must </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>notify the Board if a retiring member has been accused of </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>sexually abusing a student. The Board may, through an </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>administrative hearing, review the claim of sexual abuse and </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>may order that the member's benefits be forfeited under Section </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>16-199.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/16-199)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 108 1/2, par. 16-199)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 16-199. </code><code>Felony conviction</code><u><code>; sexual abuse of a student</code></u><code>. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>None of the benefits provided for in this Article shall be paid </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>to any
+person who is convicted of any felony relating to or </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>arising out of or in
+connection with his or her service as a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>teacher.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>None of the benefits provided for in this Article shall be </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>paid to any person who otherwise would receive a survivor </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>benefit who is convicted of any felony relating to or arising </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>out of or in connection with the service of the teacher from </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>whom the benefit results.</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>None of the benefits provided for in this Article shall be </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>paid to any person who first becomes a member after the </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>effective date of this amendatory Act of the 101st General </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>Assembly and who the Board determines under Section 16-169.2 to </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>have sexually abused a student.</code></u><code> </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section shall not operate to impair any contract or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>vested right acquired
+prior to July 9, 1955 under any law or </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>laws
+continued in this Article, nor to
+preclude the right to a </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>refund, and for the changes under </code><u><code>Public Act 100-334</code></u><code> </code><strike><code>this </code></strike></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><strike><code>amendatory Act of the 100th General Assembly</code></strike><code>, shall not impair </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>any contract or vested right acquired by a survivor prior to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>August 25, 2017 (</code></u><code>the effective date of </code><u><code>Public Act 100-334)</code></u><code> </code><strike><code>this </code></strike></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>amendatory Act of the 100th General Assembly</code></strike><code>.  </code><u><code>The changes made </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>by this amendatory Act of the 101st General Assembly shall not </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>operate to impair any contract or vested right acquired before </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>the effective date of this amendatory Act of the 101st General </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>Assembly.</code></u><code> The System may sue any such person to
+collect all </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>moneys paid in excess of refundable contributions.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All teachers entering or re-entering service after July 9, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>1955 shall be
+deemed to have consented to the provisions of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>this Section as a condition
+of membership, and all participants </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>entering service subsequent to </code><u><code>August 25, 2017 (</code></u><code>the effective </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>date of </code><u><code>Public Act 100-334)</code></u><code> </code><strike><code>this amendatory Act of the 100th </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>General Assembly</code></strike><code> shall be deemed to have consented to the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provisions of </code><u><code>Public Act 100-334</code></u><code> </code><strike><code>this amendatory Act</code></strike><code> as a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>condition of participation. </code><u><code>All teachers entering service </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>after the effective date of this amendatory Act of the 101st </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>General Assembly shall be deemed to have consented to the </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>provisions of this amendatory Act of the 101st General Assembly </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>as a condition of membership.</code></u><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-334, eff. 8-25-17.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/17-143.5)</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 17-143.5. </code><code>Testimony and the production of records. </code><code>The </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Board shall have the power to issue subpoenas to compel the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>attendance of witnesses and the production of documents and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>records in conjunction with the determination of employer </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>payments required under subsection (c) of Section 17-116, a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>disability claim, an administrative review proceeding, an </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>attempt to obtain information to assist in the collection of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>sums due to the Fund, or a </code><strike><code>felony</code></strike><code> forfeiture investigation </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>under Section 17-143.6 or 17-149.1</code></u><code>. The fees of witnesses for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>attendance and travel shall be the same as the fees of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>witnesses before the circuit courts of this State and shall be </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>paid by the party seeking the subpoena. The Board may apply to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>any circuit court in the State for an order requiring </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>compliance with a subpoena issued under this Section. Subpoenas </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>issued under this Section shall be subject to applicable </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>provisions of the Code of Civil Procedure.</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-786, eff. 8-12-16.)</code><br>&nbsp;</td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/17-143.6 new)</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 17-143.6. </code></u><u><code>Sexual abuse accusations. </code></u><u><code>An Employer must </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>notify the Board if a retiring member has been accused of </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>sexually abusing a student. The Board may, through an </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>administrative hearing, review the claim of sexual abuse and </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>may order that the member's benefits be forfeited under Section </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>17-149.1.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/17-149.1)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 108 1/2, par. 17-149.1)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 17-149.1. </code><code>Felony conviction</code><u><code>; sexual abuse of a </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>student</code></u><code>. </code><code>None of the benefits provided for in this Article </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>shall be paid to any
+person who is convicted of any felony </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>relating to or arising out of or in
+connection with his or her </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>service as a teacher.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>None of the benefits provided for in this Article shall be </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>paid to any person who otherwise would receive a survivor </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>benefit who is convicted of any felony relating to or arising </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>out of or in connection with the service of the teacher from </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>whom the benefit results.</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>None of the benefits provided for in this Article shall be </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>paid to any person who first becomes a member after the </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>effective date of this amendatory Act of the 101st General </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>Assembly and who the Board determines under Section 17-143.6 to </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>have sexually abused a student.</code></u><code> </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section shall not operate to impair any contract or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>vested right
+acquired prior to January 1, 1988, nor to preclude </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the right to a refund, and for the changes under </code><u><code>Public Act </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>100-334</code></u><code> </code><strike><code>this amendatory Act of the 100th General Assembly</code></strike><code>, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>shall not impair any contract or vested right acquired by a </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>survivor prior to </code><u><code>August 25, 2017 (</code></u><code>the effective date of </code><u><code>Public </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>Act 100-334)</code></u><code> </code><strike><code>this amendatory Act of the 100th General Assembly</code></strike><code>. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0276</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04654 RPS 49663 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>The changes made by this amendatory Act of the 101st General </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>Assembly shall not operate to impair any contract or vested </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>right acquired before the effective date of this amendatory Act </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>of the 101st General Assembly.</code></u><code> </code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All teachers entering service after January 1, 1988 shall </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>be
+deemed to have consented to the provisions of this Section </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>as a condition
+of membership, and all participants entering </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>service subsequent to </code><u><code>August 25, 2017 (</code></u><code>the effective date of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>Public Act 100-334)</code></u><code> </code><strike><code>this amendatory Act of the 100th General </code></strike></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><strike><code>Assembly</code></strike><code> shall be deemed to have consented to the provisions of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>Public Act 100-334</code></u><code> </code><strike><code>this amendatory Act</code></strike><code> as a condition of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>participation. </code><u><code>All teachers entering service after the </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>effective date of this amendatory Act of the 101st General </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>Assembly shall be deemed to have consented to the provisions of </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>this amendatory Act of the 101st General Assembly as a </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>condition of membership.</code></u><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-334, eff. 8-25-17.)</code><code>
+</code><br>&nbsp;<code>
+ </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

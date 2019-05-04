@@ -1,0 +1,1983 @@
+status: 200
+encoding: UTF-8
+Content-Type: text/html;charset=UTF-8
+Server: Microsoft-IIS/7.5
+Set-Cookie: CFID=79864001; Expires=Sun, 25-Apr-2049 20:36:59 GMT; Path=/; HttpOnly, CFTOKEN=34991096; Expires=Sun, 25-Apr-2049 20:36:59 GMT; Path=/; HttpOnly, JSESSIONID=B68B588573548876B5CEB71CBBB078F1.cfusion; Path=/; HttpOnly
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:36:59 GMT
+Content-Length: 49414
+
+
+
+<link rel="stylesheet" href="/js/tablesorter/fork/theme.blue.css" type="text/css">
+        
+        <script type="text/javascript" src="/js/jquery-1.7.2.js"></script>
+       <script type="text/javascript" src="/js/tablesorter/fork/jquery.tablesorter.js"></script>
+        <script type="text/javascript" src="/js/tablesorter/fork/jquery.tablesorter.widgets.js"></script>
+        
+       	 <script>
+			$(document).ready(function() {
+			$("#tableToSort").tablesorter({
+			/*headers: {0: {sorter: false},1:{sorter: false}},*/
+			/*headers: {0: {sorter: false}},*/
+			theme: 'blue',
+			widthFixed: false,
+			widgets: ['zebra','filter']});
+			/*widgets: ['zebra']});*/
+			
+			$("#tableToSort").bind('filterEnd pagerComplete', function(e, data) {
+        $('span.filteredcount').text(data.filteredRows);
+    });
+	
+			});
+			</script>
+  
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="author" content="Texas Legislative Reference Library" />
+
+<meta name="Description" content="Texas Legislators: Past & Present" />
+<meta name="Keywords" content="Texas, legislators" />
+<meta name="viewport" content="width=1200" />
+
+
+
+
+  <title>Legislative Reference Library | Legislators and Leaders | Search results</title>
+  
+  <script type="text/javascript" src="../../dropdowntabs.js">
+  /***********************************************
+  * Drop Down Tabs Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+  * This notice MUST stay intact for legal use
+  * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+  ***********************************************/
+  </script>
+  
+  
+
+ <link rel="stylesheet" type="text/css" href="../../stylesheet.css" id="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="../../nav.css" />
+
+
+  <script type="text/javascript">
+  function changeStyle(style) {
+	  if (style == 'print')
+	  {
+document.getElementById('stylesheet').href = '../../print.css';
+	  }
+	  else 
+	  {
+		  document.getElementById('stylesheet').href = '../../stylesheet.css';
+		}
+  }
+
+  </script>
+
+</head>
+
+
+<body onLoad="document.getElementById('format').style.display='none'">
+
+
+
+
+<div id="headerAllLevels"><img src="/images/top_modified.jpg" width="660" height="140" border="0" usemap="#top" id="top" alt="" align="left" />
+	
+	
+	<img src="/images/nonlocal_links.gif" width="200" height="22" border="0" id="nonlocal" usemap="#nonlocal" alt="" align="right" />
+    
+<map name="top" id="topmap">
+<area shape="rect" coords="0,0,655,135" href="/index.cfm" alt="Legislative Reference Library of Texas" title="Legislative Reference Library of Texas" />
+</map>
+
+<map name="nonlocal" id="nonlocalmap">
+<area shape="rect" coords="0,0,114,18" href="/library/index.cfm" title="About the library" alt="About the library" />
+<area shape="rect" coords="118,0,193,18" href="/siteindex.cfm" title="Site Index" alt="Site Index" />
+</map>
+	
+</div>
+
+<div id="printHead">
+<p><span class="phead">Legislative Reference Library of Texas</span><br /><span class="printTag">your partner in legislative research</span></p>
+</div>
+
+
+
+
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="dropdownmenu" style="width:100%;"> <a style="padding-left:40px;" href="../../currentIssues/index.cfm" rel="dropMenu1"><img src="../../images/currentIssues.gif" width="123" height="23" border="0"  title="" alt="Current Issues"/></a><img src="../../images/navBG.gif" width="13" height="23" title="" alt=" "/><a href="../../legis/index.cfm" rel="dropMenu2"><img src="../../images/legislation.gif" width="93" height="23" border="0"  title="" alt="Legislation"/></a><img src="../../images/navBG.gif" width="13" height="23"  title="" alt=" "/><a href="../../legeLeaders/index.cfm" rel="dropMenu3"><img src="../../images/legeLeadersON.gif" width="167" height="23" border="0"  title="" alt="Legislators &amp; Leaders"/></a><img src="../../images/navBG.gif" width="12" height="23"  title="" alt=" " /><a href="../../sessions/index.cfm" rel="dropMenu4"><img src="../../images/sessions.gif" width="81" height="23" border="0"  title="" alt="Legislative Sessions"/></a><img src="../../images/navBG.gif" width="13" height="23"  title="" alt=" "/><a href="../../committees/index.cfm" rel="dropMenu5"><img src="../../images/committees.gif" width="102" height="23" border="0"  title="" alt="Committees"/></a><img src="../../images/navBG.gif" width="12" height="23"  title="" alt=" "/><a href="../../collections/index.cfm" rel="dropMenu6"><img src="../../images/collections.gif" width="95" height="23" border="0"  title="" alt="Collections"/></a><img src="../../images/navBG.gif" width="12" height="23"  title="" alt=" "/><a href="../../genInfo/index.cfm" rel="dropMenu7"><img src="../../images/genInfo.gif" width="164" height="23" border="0"  title="" alt="General Information"/></a></div>
+
+
+    
+    <div id="dropMenu1" class="dropMenuDiv1">
+    	<a href="/currentIssues/clips/lrlhome.cfm">Legislative clips</a>
+       	<a href="/currentIssues/clips/archiveSearch.cfm">Legislative clips archive</a>
+       	<a href="/currentIssues/newsMedia.cfm">Texas media links</a>
+        <a href="/currentIssues/ca/lrlhome.cfm">Current articles</a>
+        <a href="/currentIssues/journals.cfm">Texshare databases</a>
+        <a href="/currentIssues/newbooks.cfm">New books</a>
+       	<a href="/currentIssues/nn/lrlhome.cfm">New &amp; Noteworthy</a>
+    </div>
+    
+    <div id="dropMenu2" class="dropMenuDiv2">
+    	<a href="/legis/billSearch/index.cfm">Legislative Archive System</a>
+      	
+       	
+        <a href="/legis/isaf/lrlhome.cfm">Index to Sections Affected</a>
+      	<a href="/legis/conferencecommitteereports.cfm">Conference committee reports</a>
+       	<a href="/legis/ConstAmends/index.cfm">Constitutional amendments</a>
+        
+      	<a href="/legis/Vetoes/lrlhome.cfm">Vetoes</a>
+       	
+      
+      <a href="/legis/budget.cfm">State budget</a>
+      <a href="/legis/redistricting/lrlhome.cfm">Redistricting information</a>
+      <a href="/legis/signedCopies.cfm">Signed copies of bills</a>
+      <a href="/legis/revisorsNotes.cfm">Statutory revision</a>
+        <a href="/legis/TexasLawTimeLine.cfm">Texas law timeline</a>
+        <a href="/legis/waterTimeLine.cfm">Water law timeline</a>
+        <a href="/legis/statuteCurrentVersions.cfm">Statute publication dates</a>
+       	<a href="/legis/legIntent/legIntent.cfm">Legislative intent guide</a>
+    </div>
+ 
+    <div id="dropMenu3" class="dropMenuDiv3">
+       	<a href="/legeLeaders/members/lrlhome.cfm">Texas Legislators: Past &amp; Present</a>
+        <a href="/legeLeaders/governors/search.cfm">Governors of Texas</a>
+       	
+       	<a href="/legeLeaders/leadership/search.cfm">Lt. Governors and Speakers</a>
+        <a href="/legeLeaders/members/presprotem.cfm">Senate Presidents Pro Tempore</a>
+        <a href="/legeLeaders/members/seniority.cfm">Senate &amp; House seniority</a>
+        <a href="/legeLeaders/members/memberStatistics.cfm">Member statistics</a>
+       	<a href="/legeLeaders/ceo/index.cfm">Chief Elected Officials</a>
+        <a href="/legeLeaders/members/twitterDirectory.cfm">Texas legislators on Twitter</a>
+        
+    </div>
+ 
+	<div id="dropMenu4" class="dropMenuDiv4">
+    	<a href="/sessions/sessionYears.cfm">Sessions and years</a>
+       	<a href="/sessions/billStatistics.cfm">Bill statistics</a>
+       	<a href="/sessions/memberStatistics.cfm">Member statistics</a>
+        <a href="/sessions/effDates/billsEffective85.cfm">Bill effective dates</a>
+       	<a href="/sessions/sessionDeadlines.cfm">Legislative deadlines</a>
+        <a href="/sessions/sessionSummaries.cfm">Session summaries</a>
+       	<a href="/sessions/specialSessions/index.cfm">Special sessions</a>
+        <a href="/sessions/stafflists.cfm">Legislative staff lists</a>
+    </div>
+
+    <div id="dropMenu5" class="dropMenuDiv5">
+    	<a href="/committees/cmteCalendars/cmteMeetings.cfm?today=yes">Today's meetings</a>
+      	<a href="/committees/cmteCalendars/cmteMeetings.cfm">Meetings by date</a>
+        <a href="/committees/Standingcmtes.cfm">Standing committees</a>
+        <a href="/committees/cmtes.cfm?from=session">Committees by session</a>
+        <a href="/committees/cmteSearch.cfm">Committee search</a>
+        <a href="/committees/lrlhome.cfm">Legislative reports</a>
+        <a href="/committees/minutesSearch.cfm">Committee minutes</a>
+        <a href="/committees/cmteappt.cfm">Standing committee appointments</a>
+    </div>
+    
+    <div id="dropMenu6" class="dropMenuDiv6">
+    	<a href="https://lrlcatalog.lrl.texas.gov">Library catalog</a>
+
+        <a href="/collections/journals/journals.cfm">House &amp; Senate Journals</a>
+       	<a href="/collections/rulesandprecedents.cfm">House &amp; Senate Rules</a>
+        <a href="/collections/parliamentary_Resources.cfm">Parliamentary resources</a>
+       	<a href="/collections/sessionlaws.cfm">General and Special Laws of Texas</a>        
+        <a href="/collections/oldcodes.cfm">Codes of 1856</a>
+        <a href="/collections/Paschal.cfm">Paschal's Digest</a>       
+        <a href="/collections/PenalCodeIntro.cfm">Penal Code revision research guide</a>
+        <a href="/collections/CriminalProcedureIntro.cfm">Code of Criminal Procedure guide</a>
+        <a href="/collections/DTPA/lrlhome.cfm">Deceptive Trade Practices Act</a>
+        <a href="/collections/impeachment.cfm">Impeachment of O.P. Carrillo</a>
+        <a href="/collections/inaugural.cfm">Gubernatorial inauguration materials</a>
+        <a href="/collections/WaterResourcesResearchGuide_February2014.pdf">Water resources research guide</a>
+        <a href="/collections/schoolFinance/lrlhome.cfm">School finance litigation archive</a>
+    </div>
+    
+    <div id="dropMenu7" class="dropMenuDiv7">
+       	<a href="/genInfo/FAQ.cfm">Frequently Asked Questions</a>
+        <a href="/genInfo/ContactLeg.cfm">Contacting your legislator</a>
+        <a href="/genInfo/BillStatus.cfm">Texas bill status</a>
+        <a href="/genInfo/stateAgencies.cfm">State agency hotlines &amp; citizen &nbsp;&nbsp;assistance</a>
+        <a href="/genInfo/LegProcess.cfm">Texas legislative agencies &amp; &nbsp;&nbsp;process</a>
+        <a href="/genInfo/otherLibraries.cfm">Other libraries</a>
+        <a href="/genInfo/publicPolicy.cfm">Public policy resources</a>
+       	
+       
+        
+        
+    </div>
+    
+
+	<script type="text/javascript">
+		//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+		tabdropdown.init("dropdownmenu", [7])
+	</script>
+
+
+
+<div class="container2ndLevel">
+	<div class="container2ndLevelpart2">
+
+	<div class="leftSide">
+		<a href="#navSkip" title="Skip navigation links for Legislators &amp; Leaders"></a>
+<p class="leftNavHeader"><a href='/legeLeaders/index.cfm' class='noDeco16'>Legislators &amp; Leaders</a></p>
+
+
+
+
+   <div class="leftNavPageLabel">
+   		 
+    		<a href="/legeLeaders/members/lrlhome.cfm" class="navLinkItalmain">Texas Legislators: Past &amp; Present</a>
+        
+        <div class="leftNavPageLabel3">
+        	
+             	<a href="/legeLeaders/members/Women.cfm" class="navLinkHeresub">Women members</a>
+             
+        </div>
+          <div class="leftNavPageLabel3">
+        	
+             	<a href="/legeLeaders/members/partyList.cfm" class="navLinkHeresub">Party statistics</a>
+             
+        </div>
+         <div class="leftNavPageLabel3">
+        	
+             	<a href="/legeLeaders/members/freshmen.cfm" class="navLinkHeresub">Freshmen</a>
+             
+        </div>
+   </div>
+
+
+
+
+
+
+	<div class="leftNavPageLabel">
+    	
+    	
+        
+    		<a href="/legeLeaders/governors/search.cfm" class="navLinkmain">Governors of Texas</a>
+    	 
+    	<div class="leftNavPageLabel3">
+		
+        	<a href="/legeLeaders/governors/govBrowse.cfm" class="navLinksub">Browse Governors</a>
+        
+         	<a href="/legeLeaders/governors/search.cfm" class="navLinksub">Search documents</a>
+        
+        </div>
+    </div>
+   
+    <div class="leftNavPageLabel">
+    
+    	<a href="/legeleaders/leadership/search.cfm" class="navLinkmain">Lt. Governors and Speakers</a>
+    
+    <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/ltgovbrowse.cfm" class="navLinksub">Browse Lt. Governors</a>
+    
+    </div>
+    <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/speakerBrowse.cfm" class="navLinksub">Browse Speakers</a>
+    
+    </div>
+     <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/search.cfm" class="navLinksub">Search documents</a>
+    
+    </div>
+     <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/speakerElection.cfm" class="navLinksub">Speaker elections</a>
+    
+    </div>
+     <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/speakerArchival.cfm" class="navLinksub">Speaker archival &amp; oral history materials</a>
+    
+    </div>
+     <div class="leftNavPageLabel3">
+    
+    	<a href="/legeleaders/leadership/resources.cfm" class="navLinksub">Lt. Gov. biographies &amp; general resources</a>
+    
+    </div>
+    </div>
+     
+
+	
+
+
+
+
+
+
+	<div class="leftNavPageLabel">
+		
+    		<a href="/legeLeaders/members/presprotem.cfm" class="navLinkmain">Senate Presidents Pro Tempore</a>
+    	
+     </div> 
+
+
+	<div class="leftNavPageLabel">
+		
+    		<a href="/legeLeaders/members/seniority.cfm" class="navLinkmain">Senate &amp; House seniority</a>
+    	 
+    </div>
+
+
+	<div class="leftNavPageLabel">
+	
+    	<a href="/legeLeaders/members/memberStatistics.cfm" class="navLinkmain">Member statistics</a>
+     
+    </div>
+
+ 
+ 	<div class="leftNavPageLabel">
+		
+    		<a href="/legeLeaders/ceo/index.cfm" class="navLinkmain">Chief Elected Officials</a>
+    	
+    </div> 
+    
+    <div class="leftNavPageLabel">
+		
+    		<a href="/legeLeaders/members/twitterDirectory.cfm" class="navLinkmain">Texas legislators on Twitter</a>
+    	
+     </div> 
+
+
+
+  <a name="navSkip"></a> 
+	</div>
+	
+    <div class="body2ndLevel">
+    
+    	
+		<p class="breadTrail"><a href="/index.cfm" class="breadTrail">LRL Home</a> - <a href="/legeLeaders/index.cfm?directory=legeLeaders" class="breadTrail">Legislators and Leaders</a>  - <a href='lrlhome.cfm' class='breadTrail'>Texas Legislators: Past &amp; Present</a> - Search results<a href="#" onclick="changeStyle('print'); return false;" id="printOption"><img src="/images/print.png" border="0" style="vertical-align:middle;" alt="printer friendly version" /></a><a href="#" onclick="changeStyle('default'); return false;" id="screenOption"><img src="/images/comp.gray.gif" border="0" style="vertical-align:middle" alt="return to screen view"/></a></p> 
+        
+        
+
+
+<p class="resultsBorder">
+
+<span class="filter-rows"><span class="filteredcount">{data.filteredRows}</span> found</span>
+
+	[
+	
+	 Leg: <span class="match">86</span> 
+	
+	 Chamber: <span class="match">S</span> 
+		
+	 ]
+&nbsp;(<a href="lrlhome.cfm">Go back</a>)
+
+</p>
+
+
+
+
+ 
+
+<p style="text-align:center">
+
+		<a href="/scanned/members/seatingCharts/86House.pdf" class="nochange">House seating chart</a>&nbsp;&nbsp;
+        
+		<a href="/scanned/members/SeatingCharts/86Senate.pdf" class="nochange">Senate seating chart</a>
+        
+	</p>
+
+
+<p>
+<table width="100%" id="tableToSort" name="reddocs" class="tablesorter">
+
+
+	
+    <thead>
+	<tr>
+		<th>
+		Name
+		</th>
+        <th>
+		<A class="head">&nbsp;</a>
+		</th>
+		<th>
+		District&nbsp;&nbsp;</th>
+		<th>Chamber&nbsp;&nbsp;</th>
+		<th>Years</th>
+		<th>Legislatures&nbsp;&nbsp;</th> 
+		<th>Party&nbsp;&nbsp;</th>
+		<th>City</th>
+		<th>County</th>
+	</tr>
+    </thead>
+	
+
+	<tbody>
+	
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5670&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Carol Alvarado</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				6
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2018 - 2021<br>
+            2009 - 2018<br>
+            
+			</td>
+			<td nowrap class="results">
+            85th 
+           
+             - 86th 
+             <br>
+			81st 
+           
+             - 85th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Houston
+			</td>	
+			<td nowrap class="results" align="center">
+			Harris
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5764&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Paul Bettencourt</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				7
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2015 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            84th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Houston
+			</td>	
+			<td nowrap class="results" align="center">
+			Harris
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5678&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Brian Birdwell</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				22
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2010 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            81st 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Granbury
+			</td>	
+			<td nowrap class="results" align="center">
+			Hood
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5819&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Dawn Buckingham</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				24
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2017 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            85th 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Lakeway
+			</td>	
+			<td nowrap class="results" align="center">
+			Travis
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5720&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Donna Campbell</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				25
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2013 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			New Braunfels
+			</td>	
+			<td nowrap class="results" align="center">
+			Guadalupe
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5625&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Brandon Creighton</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				4
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2014 - 2021<br>
+            2007 - 2014<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 86th 
+             <br>
+			80th 
+           
+             - 83rd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Conroe
+			</td>	
+			<td nowrap class="results" align="center">
+			Montgomery
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5751&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Pat Fallon</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				30
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2019 - 2023<br>
+            2013 - 2019<br>
+            
+			</td>
+			<td nowrap class="results">
+            86th 
+           
+             - 87th 
+             <br>
+			83rd 
+           
+             - 85th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Frisco
+			</td>	
+			<td nowrap class="results" align="center">
+			Denton
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5822&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Pete Flores</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	<span class="match">
+F</span> 
+            </td>
+			
+			
+				<td class="results" align="center">
+				19
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2018 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            85th 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Pleasanton
+			</td>	
+			<td nowrap class="results" align="center">
+			Atascosa
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5763&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Bob Hall</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				2
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2015 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            84th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Edgewood
+			</td>	
+			<td nowrap class="results" align="center">
+			Van Zandt
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5645&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Kelly Hancock</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				9
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2013 - 2023<br>
+            2007 - 2013<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 87th 
+             <br>
+			80th 
+           
+             - 82nd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			North Richland Hills
+			</td>	
+			<td nowrap class="results" align="center">
+			Tarrant
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=179&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Juan 'Chuy' Hinojosa</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				20
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2003 - 2021<br>
+            1997 - 2003<br>
+            1981 - 1991<br>
+            
+			</td>
+			<td nowrap class="results">
+            78th 
+           
+             - 86th 
+             <br>
+			75th 
+           
+             - 77th 
+             <br>
+			67th 
+           
+             - 71st 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			McAllen
+			</td>	
+			<td nowrap class="results" align="center">
+			Hidalgo
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5673&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Joan Huffman</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				17
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2008 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            80th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Houston
+			</td>	
+			<td nowrap class="results" align="center">
+			Harris
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5544&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Bryan Hughes</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				1
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2017 - 2021<br>
+            2003 - 2017<br>
+            
+			</td>
+			<td nowrap class="results">
+            85th 
+           
+             - 86th 
+             <br>
+			78th 
+           
+             - 84th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Mineola
+			</td>	
+			<td nowrap class="results" align="center">
+			Wood
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5842&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Nathan Johnson</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	<span class="match">
+F</span> 
+            </td>
+			
+			
+				<td class="results" align="center">
+				16
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2019 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            86th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Dallas
+			</td>	
+			<td nowrap class="results" align="center">
+			Dallas
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=195&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Lois W. Kolkhorst</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				18
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2014 - 2021<br>
+            2001 - 2014<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 86th 
+             <br>
+			77th 
+           
+             - 83rd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Brenham
+			</td>	
+			<td nowrap class="results" align="center">
+			Washington
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=49&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Eddie Lucio</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				27
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            1991 - 2021<br>
+            1987 - 1991<br>
+            
+			</td>
+			<td nowrap class="results">
+            72nd 
+           
+             - 86th 
+             <br>
+			70th 
+           
+             - 71st 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			San Benito
+			</td>	
+			<td nowrap class="results" align="center">
+			Cameron
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=210&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">José Menéndez</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				26
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2015 - 2021<br>
+            2001 - 2015<br>
+            
+			</td>
+			<td nowrap class="results">
+            84th 
+           
+             - 86th 
+             <br>
+			77th 
+           
+             - 84th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			San Antonio
+			</td>	
+			<td nowrap class="results" align="center">
+			Bexar
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5632&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Borris Miles</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				13
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2017 - 2021<br>
+            2011 - 2017<br>
+            2007 - 2009<br>
+            
+			</td>
+			<td nowrap class="results">
+            85th 
+           
+             - 86th 
+             <br>
+			82nd 
+           
+             - 84th 
+             <br>
+			80th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Houston
+			</td>	
+			<td nowrap class="results" align="center">
+			Harris
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=33&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Jane Nelson</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+				<span style="font-size:smaller; font-style:italic">v</span>
+				
+            </td>
+			
+			
+				<td class="results" align="center">
+				12
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            1993 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            73rd 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Flower Mound
+			</td>	
+			<td nowrap class="results" align="center">
+			Denton
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5631&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Robert Nichols</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				3
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2007 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            80th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Jacksonville
+			</td>	
+			<td nowrap class="results" align="center">
+			Cherokee
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5847&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Angela Paxton</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	<span class="match">
+F</span> 
+            </td>
+			
+			
+				<td class="results" align="center">
+				8
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2019 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            86th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			McKinney
+			</td>	
+			<td nowrap class="results" align="center">
+			Collin
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5705&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Charles Perry</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				28
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2014 - 2021<br>
+            2011 - 2014<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 86th 
+             <br>
+			82nd 
+           
+             - 83rd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Lubbock
+			</td>	
+			<td nowrap class="results" align="center">
+			Lubbock
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5824&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Beverly Powell</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+				<span style="font-size:smaller; font-style:italic">v</span>
+				<span class="match">
+F</span> 
+            </td>
+			
+			
+				<td class="results" align="center">
+				10
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2019 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            86th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Burleson
+			</td>	
+			<td nowrap class="results" align="center">
+			Tarrant
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5687&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">José Rodríguez</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				29
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2011 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            82nd 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			El Paso
+			</td>	
+			<td nowrap class="results" align="center">
+			El Paso
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5685&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Charles Schwertner</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				5
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2013 - 2023<br>
+            2011 - 2013<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 87th 
+             <br>
+			82nd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Georgetown
+			</td>	
+			<td nowrap class="results" align="center">
+			Williamson
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5589&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Kel Seliger</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				31
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2004 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            78th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Amarillo
+			</td>	
+			<td nowrap class="results" align="center">
+			Randall
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5549&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Larry Taylor</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				11
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2013 - 2021<br>
+            2003 - 2013<br>
+            
+			</td>
+			<td nowrap class="results">
+            83rd 
+           
+             - 86th 
+             <br>
+			78th 
+           
+             - 82nd 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			R<br>
+                R<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Friendswood
+			</td>	
+			<td nowrap class="results" align="center">
+			Galveston
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=5626&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Kirk Watson</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				14
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            2007 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            80th 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Austin
+			</td>	
+			<td nowrap class="results" align="center">
+			Travis
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=45&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Royce West</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				23
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            1993 - 2023<br>
+            
+			</td>
+			<td nowrap class="results">
+            73rd 
+           
+             - 87th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Duncanville
+			</td>	
+			<td nowrap class="results" align="center">
+			Dallas
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=38&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">John Whitmire</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+            </td>
+			
+			
+				<td class="results" align="center">
+				15
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			H<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            1983 - 2023<br>
+            1973 - 1983<br>
+            
+			</td>
+			<td nowrap class="results">
+            68th 
+           
+             - 87th 
+             <br>
+			63rd 
+           
+             - 67th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Houston
+			</td>	
+			<td nowrap class="results" align="center">
+			Harris
+			</td>	
+		</tr>
+		
+			
+			<td class="results">	
+            <a href="memberDisplay.cfm?memberID=43&searchparams=chamber=S~city=~countyID=0~RcountyID=~district=~first=~gender=~last=~leaderNote=~leg=86~party=~roleDesc=~Committee=">Judith Zaffirini</a>
+				
+                
+				
+			</td>
+            <td class="results">
+            	
+				<span style="font-size:smaller; font-style:italic">v</span>
+				
+            </td>
+			
+			
+				<td class="results" align="center">
+				21
+				</td>
+			
+			<td nowrap class="results" align="center">
+			S<br>
+			
+			</td>
+			
+			
+			<td nowrap class="results" align="center">
+            1987 - 2021<br>
+            
+			</td>
+			<td nowrap class="results">
+            70th 
+           
+             - 86th 
+             <br>
+			 
+			</td>
+			<td nowrap class="results" align="center">
+			D<br>
+                
+			</td>		
+			<td nowrap class="results" align="center">
+			Laredo
+			</td>	
+			<td nowrap class="results" align="center">
+			Webb
+			</td>	
+		</tr>
+		
+</tbody>
+</table>
+
+
+<p class="sources">
+<span class="match">F</span> indicates this was the first time that the member served in either a regular or called session.
+</p>
+
+
+<p class="sources">
+<i>v</i> indicates that more than one last name is associated with an individual.
+</p>
+
+
+
+<p class="disclaimer">
+This website is a work in progress. Information on this website is provided as a public service by the Legislative Reference Library. The Legislative Reference Library makes no representation as to its completeness or accuracy and makes no warranty in regard to its use. Users assume all risk of reliance on the information included on this site.
+</p>
+<p class="disclaimer">
+Have a question, comment or contribution?  <a href="mailto:LRL.Service@lrl.state.tx.us?subject=Members Database Comments" class="disclaimerURL">Email the Library</a> or call 512-463-1252.
+</p>
+
+<p class="disclaimer">
+Many photos in <i>Texas Legislators: Past and Present</i> are used with permission of the Texas State Preservation Board. For permission to reproduce these photos, please contact the Texas State Preservation Board graphics coordinator at 512-475-3060.
+</p>
+        
+        
+        </div>
+    </div>
+</div>
+</body>
+</html>

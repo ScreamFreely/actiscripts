@@ -1,0 +1,604 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:29:32 GMT
+Content-Length: 101000
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0281</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0281&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0281&GA=101&SessionId=108&DocTypeId=HB&LegID=114404&DocNum=281&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0281.htm'></a><br><a href='fulltext.asp?DocName=10100HB0281ham001&GA=101&SessionId=108&DocTypeId=HB&LegID=114404&DocNum=281&GAID=15&Session='>House Amendment 001</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0281ham001.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0281lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0281&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0281lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0281lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0281&GAID=15&DocTypeID=HB&LegID=114404&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0281 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0281</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Will Guzzardi<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>735 ILCS 5/2-201.5 new</code></td><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/2-1303</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 2-1303</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/2-1602</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/12-108</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 12-108</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/12-109</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 12-109</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/12-803</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 12-803</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/12-901</code></td><code> </code><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 12-901</code></td><code> </code></tr><tr><code> </code><td class="synopsis"><code>735 ILCS 5/12-1001</code></td><code> </code><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 110, par. 12-1001</code></td><code> </code></tr><tr><td class="synopsis"><code>815 ILCS 205/4.06 new</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Code of Civil Procedure. Provides that a summons issued in </code><code>an action to collect a debt shall include a separate notice containing </code><code>specified language regarding debtor rights. Provides that the clerk of the </code><code>court shall cause the notice to be posted in courtrooms or in the hallway </code><code>in front of courtrooms and be available for distribution in all courtrooms </code><code>hearing cases involving debt collection matters. Provides that a judgment </code><code>may be revived by filing a petition to revive the judgment in the fifth </code><code>year after its entry (instead of the seventh year after its entry, or in </code><code>the seventh year after its last revival, or in the twentieth year after its </code><code>entry, or at any other time within 20 years after its entry if the judgment </code><code>becomes dormant).  Provides that a petition to revive the judgment may be </code><code>granted only if citation proceedings were initiated within one year of the </code><code>judgment being entered. Changes the limitations period for the enforcement </code><code>of certain judgments from 7 to 5 years. Makes changes in provisions </code><code>governing: wages subject to garnishment; the homestead exemption from </code><code>judgments; and personal property exempt from judgments. Amends the Interest </code><code>Act.  Provides that consumer debt judgments of $25,000 or less shall draw </code><code>interest at a rate of 2% per annum. Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning civil law.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Code of Civil Procedure is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Sections 2-1303, 2-1602, 12-108, 12-109, 12-803, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>12-901, and 12-1001, and  by adding Section 2-201.5 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/2-201.5 new)</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 2-201.5. </code></u><u><code>Debtor notice.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) A summons issued in an action to collect a debt shall </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>include a separate notice containing the following language </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>printed prominently in large font:</code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"IF YOU OWE A DEBT, YOU HAVE RIGHTS</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>You Can PROTECT:</code></u><code> </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Your Social Security</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Your SSI</code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Your Public Benefits</code></u><code> </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Your Veterans Benefits</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Your Retirement Benefits</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>$7,500 in Equity in a Motor Vehicle</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>$150,000 to $200,000 in Equity in your Home</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>$15,000 in your Bank Account</code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>You Can STOP:</code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Phone Calls from Debt Collectors</code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Verbal Abuse from Debt Collectors</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Threats from Debt Collectors</code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>You Have the RIGHT:</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>To Privacy</code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>To Have the Court Review Any Agreement to Settle </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>Your Case</code></u><code> </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>To Ask for a Reasonable Payment Plan".</code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) The clerk of the court, in consultation with civil </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>legal service providers who service the applicable judicial </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>circuit, shall compile a list of civil legal service providers, </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>including their addresses and telephone numbers, and make the </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>list available to the public. The notice in subsection (a) </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>shall include the list of civil legal service providers </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>complied by the clerk of the court.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(c) The clerk of the court shall cause the notice in </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>subsection (a) to be posted in courtrooms or in the hallway in </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>front of courtrooms and be available for distribution in all </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>courtrooms hearing cases involving debt collection matters.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/2-1303)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 2-1303)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 2-1303. </code><code>Interest on judgment. </code><u><code>Except as provided in </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>Section 4.06 of the Interest Act, judgments</code></u><code> </code><strike><code>Judgments</code></strike><code> recovered </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>in
+any court shall draw interest at the rate of 9% per annum </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>from the date
+of the judgment until satisfied or 6% per annum </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>when the judgment debtor is a unit
+of local government, as </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>defined in Section 1 of Article VII of the Constitution,
+a </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>school district, a community college district, or any other </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>governmental
+entity.  When judgment is entered upon any award, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>report or verdict, interest
+shall be computed at the above </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>rate, from the time when made or rendered
+to the time of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>entering judgment upon the same, and included in the judgment.
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Interest shall be computed and charged only on the unsatisfied </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>portion of
+the judgment as it exists from time to time.  The </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>judgment debtor may by
+tender of payment of judgment, costs and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>interest
+accrued to the date of tender, stop the further </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>accrual of interest on such
+judgment notwithstanding the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>prosecution of an appeal, or other steps to
+reverse, vacate or </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>modify the judgment.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 85-907.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/2-1602)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 2-1602. </code><code>Revival of judgment. </code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) A judgment may be revived by filing a petition to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>revive the judgment in the </code><u><code>fifth</code></u><code> </code><strike><code>seventh</code></strike><code> year after its
+entry</code><strike><code>, </code></strike></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><strike><code>or in the seventh year after its last revival, or in the </code></strike></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><strike><code>twentieth year after its entry, or at any other
+time within 20 </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>years after its entry if the judgment becomes dormant</code></strike><code> and by </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>serving the petition and entering a court order for revival as </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>provided in the following subsections. The provisions of </code><u><code>Public </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>Act 96-305</code></u><code> </code><strike><code>this amendatory Act of the 96th General Assembly</code></strike><code> are </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>declarative of existing law.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) A petition to revive a judgment shall be filed in the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>original
+case in which the judgment was entered. The petition </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>shall include a
+statement as to the original date and amount of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the judgment, court
+costs expended, accrued interest, and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>credits to the judgment, if any. </code><u><code>The petition to revive the </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>judgment may be granted only if citation proceedings under </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>Section 2-1402 were initiated within one year of the judgment </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>being entered.</code></u><code> </code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) Service of notice of the petition to revive a judgment </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>shall
+be made in accordance with Supreme Court Rule 106.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) An order reviving a judgment shall be for the original </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>amount
+of the judgment. The plaintiff may recover interest and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>court costs from
+the date of the original judgment. Credits to </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the judgment shall be
+reflected by the plaintiff in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>supplemental proceedings or execution.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) If a judgment debtor has filed for protection under the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>United
+States Bankruptcy Code and failed to successfully </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>adjudicate and remove
+a lien filed by a judgment creditor, then </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the judgment may be revived
+only as to the property to which a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>lien attached before the filing of
+the bankruptcy action.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) A judgment may be revived as to fewer than all judgment
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>debtors, and such order for revival of judgment shall be final,
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>appealable, and enforceable.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) This Section does not apply to a child support judgment </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>or to a judgment
+recovered in an action for damages for an </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>injury described in Section 13-214.1,
+which
+need not be revived </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>as provided in this Section and which may be enforced at
+any </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>time as
+provided in Section 12-108.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) If a judgment becomes dormant during the pendency of an </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>enforcement proceeding against wages under Part 14 of this </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Article or under Article XII, the enforcement may continue to </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>conclusion without revival of the underlying judgment so long </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>as the enforcement is done under court supervision and includes </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>a wage deduction order or turn over order and is against an </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>employer, garnishee, or other third party respondent. </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-557, eff. 1-1-14; 99-744, eff. 8-5-16.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/12-108)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 12-108)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12-108. </code><code>Limitation on enforcement. </code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) Except as herein provided,
+no judgment shall be </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>enforced after the expiration of </code><u><code>5</code></u><code> </code><strike><code>7</code></strike><code> years from the time
+the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>same is rendered, except upon the revival of the same by a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>proceeding
+provided by Section 2-1601 of this Act; but real </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>estate, levied upon within
+the </code><u><code>5</code></u><code> </code><strike><code>7</code></strike><code> years, may be sold to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>enforce the judgment at any time within one
+year after the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>expiration of the </code><u><code>5</code></u><code> </code><strike><code>7</code></strike><code> years.  A judgment recovered in an
+action </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>for damages for an injury described in Section 13-214.1 may be
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>enforced at any time.
+Child support judgments, including those </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>arising by operation of law, may be
+enforced at any time.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) No judgment shall be enforced against a police officer </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>employed by
+a municipality if the corporate authority of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>municipality files with the
+clerk of the court in which the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>judgment was entered a statement certifying:
+(1) such police </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>officer was employed by the municipality and was within
+the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>scope and course of his employment at the time of the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>occurrence giving
+rise to the action in which the judgment is </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>entered and (2) the municipality
+indemnifies the police officer </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>in the amount of the judgment and interest
+thereon.  In such </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>event, the judgment creditor may enforce the judgment
+against </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the municipality in the same manner and to the same extent as </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>if
+the municipality were the judgment debtor.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 90-18, eff. 7-1-97.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/12-109)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 12-109)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12-109. </code><code>Interest on judgments. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) </code><u><code>Except as provided in Section 4.06 of the Interest Act, </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>every</code></u><code> </code><strike><code>Every</code></strike><code> judgment except those
+arising by operation of law </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>from child support orders shall bear interest
+thereon as </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>provided in Section 2-1303.  </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Every judgment arising by
+operation of law from a child </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>support order shall bear interest as provided
+in this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>subsection. The interest  on judgments arising by operation of </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>law from child support orders shall be calculated by applying </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>one-twelfth of the current statutory interest rate as provided </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>in Section 2-1303 to the unpaid child support balance as of the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>end of each calendar month. The unpaid child support balance at </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the end of the month is the total amount of child support </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>ordered, excluding the child support that was due for that </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>month to the extent that it was not paid in that month and </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>including judgments for retroactive child support, less all </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>payments received and applied as set forth in this subsection.  </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>The accrued interest shall  not be included in the unpaid child </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>support balance when calculating interest at the end of the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>month. The unpaid child support balance as of the end of each </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>month shall be determined by calculating the current monthly </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>child support obligation and applying all payments received for </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>that month, except federal income tax refund intercepts, first </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>to the current monthly child support obligation and then </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>applying any payments in excess of the current monthly child </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>support obligation to the unpaid child support balance owed </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>from previous months.  The current monthly child support </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>obligation shall be determined from the document that </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>established the support obligation.  Federal income tax refund </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>intercepts and any payments in excess of the current monthly </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>child support obligation shall be applied to the unpaid child </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>support balance.  Any payments in excess of the current monthly </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>child support obligation and the unpaid child support balance </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>shall be applied to the accrued interest on the unpaid child </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>support balance.  Interest on child support obligations may be </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>collected by any means available under State law for the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>collection of child support judgments.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-563, eff. 8-27-13.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/12-803)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 12-803)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12-803. </code><code>Wages subject to collection. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a)</code></u><code> The wages,
+salary, commissions and bonuses </code><u><code>protected </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>from</code></u><code> </code><strike><code>subject to</code></strike><code> collection under a deduction
+order, for any </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>work week shall be the </code><u><code>greater of:</code></u><code> </code><strike><code>lesser of (1)  15%</code></strike></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) 90%</code></u><code> of such
+gross amount paid for that week</code><u><code>;</code></u><code>  or</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) the amount by which disposable
+earnings for a week </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>exceed </code><u><code>60</code></u><code> </code><strike><code>45</code></strike><code> times the Federal Minimum Hourly Wage
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>prescribed by Section 206(a)(1) of Title 29 of the United </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>States Code, as
+amended, or, under a wage deduction summons </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>served on or after January 1, 2006, the minimum hourly wage </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>prescribed by Section 4 of the Minimum Wage Law, whichever </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>is greater, in effect at the time the amounts are payable.  </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b)</code></u><code> This </code><u><code>Section</code></u><code> </code><strike><code>provision</code></strike><code>
+(and no other) applies </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>irrespective of the place where the compensation was
+earned or </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>payable and the State where the employee resides.   No amounts
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>required by law to be withheld may be taken from the amount </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>collected by
+the creditor. The term "disposable earnings" means </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>that part of the
+earnings of any individual remaining after the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>deduction from those
+earnings of any amounts required by law to </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>be withheld. </code><u><code>"Deduction from those earnings" includes, but is </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>not limited to, deductions for health insurance, deductions for </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>transportation, and pre-tax flexible spending deductions.</code></u><code> </code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 94-306, eff. 1-1-06; 95-661, eff. 1-1-08.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/12-901)</code><code>
+</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 12-901)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12-901. </code><code>Amount. </code><code>Every individual
+is entitled to an </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>estate of
+homestead to the extent in value of </code><u><code>$150,000</code></u><code> </code><strike><code>$15,000</code></strike><code> </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>of his or her
+interest in
+a farm or lot of land and
+buildings </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>thereon, a condominium, or personal property,
+owned or rightly </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>possessed by lease or otherwise
+and occupied by him or her as a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>residence, or in a cooperative that owns
+property that the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>individual uses as a residence.  That
+homestead and all
+right in </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and title to that homestead is exempt from
+attachment, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>judgment, levy,
+or judgment sale for the payment of his or her </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>debts or other purposes and
+from the laws of conveyance, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>descent, and legacy, except as provided in this
+Code or in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Section 20-6 of
+the Probate Act of
+1975. This
+Section is not
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>applicable
+between joint tenants or tenants in common but it is </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>applicable as to any
+creditors of those persons.
+If 2 or more </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>individuals own property that is exempt as a homestead, the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>value of the exemption of each individual may not exceed his or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>her
+proportionate share of </code><u><code>$200,000</code></u><code> </code><strike><code>$30,000</code></strike><code> based upon </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>percentage of
+ownership.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 94-293, eff. 1-1-06.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(735 ILCS 5/12-1001)</code><code>
+</code><code>&nbsp;&nbsp;</code><code>(from Ch. 110, par. 12-1001)</code><code>
+</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12-1001. </code><code>Personal property exempt. </code><code>The following </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>personal property,
+owned by the debtor, is exempt from </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>judgment, attachment, or distress for rent:</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The necessary wearing apparel, bible, school </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>books, and family
+pictures of the debtor and the debtor's </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>dependents;</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The debtor's equity interest, not to exceed </code><u><code>$15,000</code></u><code> </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>$4,000</code></strike><code> in
+value, in any
+other property;</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The debtor's </code><u><code>equity</code></u><code> interest, not to exceed </code><u><code>$7,500</code></u><code> </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>$2,400</code></strike><code>
+
+in value,
+in any one motor
+vehicle;</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) The debtor's equity interest, not to exceed </code><u><code>$3,000</code></u><code> </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>$1,500</code></strike><code> in
+value,
+in any
+implements, professional books, or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>tools of the trade of the debtor;</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) Professionally prescribed health aids for the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>debtor or a dependent of
+the debtor;</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) All proceeds payable because of the death of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>insured and the
+aggregate net cash value of any or all life </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>insurance and endowment
+policies and annuity contracts </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>payable to a wife or husband of the insured,
+or to a child, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>parent, or other person dependent upon the insured, or to a </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>revocable or irrevocable trust which names the wife or  </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>husband of the insured or which names a  child, parent, or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other person dependent upon the insured as the primary </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>beneficiary of the trust, whether
+the power to change the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>beneficiary is reserved to the insured or not and
+whether </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the insured or the insured's estate is a contingent </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>beneficiary or not;</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) The debtor's right to receive:</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) a social security benefit, unemployment </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>compensation, or public
+assistance benefit;</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) a veteran's benefit;</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) a disability, illness, or unemployment </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>benefit; and</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) alimony, support, or separate maintenance, to </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the extent reasonably
+necessary for the support of the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>debtor and any dependent of the debtor.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) The debtor's right to receive, or property that is </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>traceable to:</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) an award under a crime victim's reparation law;</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) a payment on account of the wrongful death of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>an individual of whom
+the debtor was a dependent, to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the extent reasonably necessary for the support
+of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>debtor;</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) a payment under a life insurance contract that </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>insured the life of
+an individual of whom the debtor </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>was a dependent, to the extent reasonably
+necessary for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the support of the debtor or a dependent of the debtor;</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) a payment, not to exceed $15,000 in value, on </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>account
+of personal
+bodily injury of the debtor or an </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>individual of whom the debtor was a
+dependent; and</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) any restitution payments made to persons </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>pursuant to the federal
+Civil Liberties Act of 1988 and </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the Aleutian and Pribilof Island
+Restitution Act, P.L. </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>100-383.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For purposes of this subsection (h), a debtor's right </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to receive an award
+or payment shall be exempt for a </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>maximum of 2 years after the debtor's right
+to receive the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>award or payment accrues; property traceable to an
+award or </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>payment shall be exempt for a maximum of 5 years after the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>award
+or payment accrues; and an award or payment and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>property traceable
+to an award or payment shall be exempt </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>only to the extent of the amount
+of the award or payment, </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>without interest or appreciation from the date
+of the award </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or payment.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) The debtor's right to receive an award under Part </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>20 of Article II of
+this Code relating to crime victims' </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>awards.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(j) Moneys held in an account invested in the Illinois </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>College Savings Pool of which the debtor is a participant </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or donor and funds invested in an ABLE Account as defined </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>by Section 529 of the Internal Revenue Code, except the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following non-exempt contributions:</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) any contribution to such account by the debtor </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>as participant or donor that is made with the actual </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>intent to hinder, delay, or defraud any creditor of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>debtor;</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) any contributions to such account by the debtor </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>as participant during the 365 day period prior to the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>date of filing of the debtor's petition for bankruptcy </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>that, in the aggregate during such period, exceed  the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>amount of the annual gift tax exclusion under Section </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>2503(b) of the Internal Revenue Code of 1986, as </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>amended, in effect at the time of contribution; or</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3)  any contributions to such account by the debtor </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>as participant during the period commencing 730 days </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>prior to and ending 366 days prior to the date of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>filing of the debtor's petition for bankruptcy that, in </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the aggregate during such period, exceed  the amount of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the annual gift tax exclusion under Section 2503(b) of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the Internal Revenue Code of 1986, as amended, in </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>effect at the time of contribution.</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For purposes of this subsection (j), "account" </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>includes all accounts for a particular designated </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>beneficiary, of which the debtor is a participant or donor.
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(k) In each checking or savings account held by the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>debtor, an amount not to exceed $4,000, until:</code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) a hearing has been held; and</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) the debtor has been given a reasonable </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>opportunity to indicate to which personal property he </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>or she seeks to apply the exemption in subsection (b), </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>at which time the debtor may protect up to $15,000 of </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>equity in any personal property, and the funds in a </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>checking or savings account will either remain </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><code>protected or be subject to garnishment.</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Upon receiving a citation to discover assets, a </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>financial institution shall not freeze the debtor's access </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>or turn over to the judgment creditor the amount in the </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>debtor's account that is $15,000 or less, but shall inform </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>the court and the judgment creditor of the exempt amount. </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>Any funds disbursed prior to the hearing that is not exempt </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>under this Section may be recovered if the disbursement was </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>a fraudulent transfer.</code></u><code> </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(l)</code></u><code> Money due the debtor from the sale of any personal </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>property that was
+exempt from judgment, attachment, or distress </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>for rent at the
+time of the sale is exempt from attachment and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>garnishment to the same
+extent that the property would be </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>exempt had the same not been sold by
+the debtor.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If a debtor owns property exempt under this Section and he </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>or she purchased
+that property with the intent of converting </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>nonexempt property into exempt
+property or in fraud of his or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>her creditors, that property shall not be
+exempt from judgment, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>attachment, or distress for rent.  Property acquired
+within 6 </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>months of the filing of the petition for bankruptcy shall be </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>presumed
+to have been acquired in contemplation of bankruptcy.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The personal property exemptions set forth in this Section </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall apply
+only to individuals and only to personal property </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>that is used for personal
+rather than business purposes. The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>personal property exemptions set forth
+in this Section shall </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>not apply to or be allowed
+against any money, salary, or wages </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>due or to become due to the debtor that
+are required to be </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>withheld in a wage
+deduction proceeding under Part 8 of this
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Article XII.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-922, eff. 1-1-19</code><code>.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 10. </code><code>The Interest Act is amended  by adding Section </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>4.06 as follows:</code><br>&nbsp;</td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(815 ILCS 205/4.06 new)</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 4.06. </code></u><u><code>Interest on judgments arising out of consumer </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>debt.</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) As used in this Section:</code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Consumer debt" means money or property, or the </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>equivalent, due or owing or alleged to be due or owing from </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>a natural person by reason of a transaction in which </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>property, service, or money is acquired by that natural </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>person primarily for personal, family, or household </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>purposes.</code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Consumer debt judgment" means a judgment recovered in </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>any court against one or more natural persons arising out </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>of consumer debt. "Consumer debt judgment" does not include </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>any compensation for bodily injury or death.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) Notwithstanding Sections 2-1303 and 12-109 of the Code </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>of Civil Procedure, consumer debt judgments of $25,000 or less </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>shall draw interest from the date of the judgment until </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>satisfied at the rate of 2% per annum.</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(c) When a consumer debt judgment is entered upon any </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>award, report, or verdict, interest shall be computed at the </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>applicable rate, from the time when made or rendered to the </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>time of entering judgment upon the same, and included in the </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>judgment. Interest shall be computed and charged only on the </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>unsatisfied portion of the consumer debt judgment as it exists </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>from time to time. The judgment debtor may, by tender of </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>payment of judgment, costs, and interest accrued to the date of </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0281</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 00385 LNS 45391 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>tender, stop the further accrual of interest on the consumer </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>debt judgment, notwithstanding the prosecution of an appeal, or </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>other steps to reverse, vacate, or modify the judgment.</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(d) This Section applies to all consumer debt judgments </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>entered after the effective date of this amendatory Act of the </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>101st General Assembly.</code></u><code> </code><br>&nbsp;<code>
+ </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

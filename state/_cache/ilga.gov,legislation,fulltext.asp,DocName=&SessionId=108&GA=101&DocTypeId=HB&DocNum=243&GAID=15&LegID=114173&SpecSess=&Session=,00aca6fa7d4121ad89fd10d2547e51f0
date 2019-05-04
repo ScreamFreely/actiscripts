@@ -1,0 +1,889 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:27:10 GMT
+Content-Length: 172906
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0243</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0243&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0243&GA=101&SessionId=108&DocTypeId=HB&LegID=114173&DocNum=243&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0243.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0243lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0243&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0243lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0243lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0243&GAID=15&DocTypeID=HB&LegID=114173&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0243 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0243</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Thomas M. Bennett<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>10 ILCS 5/1-14 new</code></td><td class="synopsis"></td></tr><tr><td class="synopsis"><code>10 ILCS 5/3-8 new</code></td><td class="synopsis"></td></tr><tr><td class="synopsis"><code>10 ILCS 5/17-9</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 46, par. 17-9</code></td></tr><tr><td class="synopsis"><code>10 ILCS 5/18-5</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 46, par. 18-5</code></td></tr><tr><code> </code><td class="synopsis"><code>10 ILCS 5/18A-5</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>10 ILCS 5/18A-15</code></td><code> </code><td class="synopsis"></td></tr><tr><td class="synopsis"><code>10 ILCS 5/19A-35</code></td><code> </code><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Election Code. Requires Voters Identification Cards for </code><code>those who do not have an acceptable photo ID. Sets forth requirements and </code><code>exemptions. Provides that any person desiring to vote shall present to the </code><code>judges of election for verification of the person's identity a </code><code>government-issued photo identification card or his or her Voter </code><code>Identification Card.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning elections.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Election Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Sections 17-9, 18-5, 18A-5, 18A-15, and 19A-35  and by adding </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Sections 1-14 and 3-8 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/1-14 new)</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 1-14. </code></u><u><code>Voter Identification Card.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(a) Issuance.  The Secretary of State shall issue a Voter </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>Identification Card to each registered voter who does not have </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>an acceptable form of photo identification card as defined in </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>Section 3-8. The Voter Identification Card shall include at </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>least: (i) the voter's name, signature, and photograph; (ii) </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>the State seal; and (iii) the voter's current residence </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>address. A Voter Identification Card is valid for as long as </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>the registered voter maintains the name and residence on the </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>Card. A Voter Identification Card may not be used for any </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>purpose other than to vote in Illinois.</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(b) Intent and purpose.  It is the intent of the General </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>Assembly to provide the Secretary of State with guidance on how </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>to issue the Voter Identification Card to those individuals who </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>do not have an acceptable form of photo identification as </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>defined in Section 3-8.</code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(c) Application for the Voter Identification Card. Within a </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>reasonable time after the effective date of this amendatory Act </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>of the 101st General Assembly, the Secretary of State shall </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>provide application forms for the Voter Identification Card. </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>Any registered voter who meets the criteria set forth in this </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>Section and who provides the proper documentation required </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>under subsection (d) shall receive a Voter Identification Card.</code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(d) Documentation required. The Secretary of State shall </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>require the presentation and verification of the following </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>information for issuance of a Voter Registration Card:</code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) A photo identity document, except that a non-photo </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>identity document, as defined in subsection (e), is </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>acceptable if it includes both the applicant's name and </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>date of birth.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) Documentation showing the applicant's date of </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>birth.</code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) Evidence of voter registration.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) Documentation, as defined in subsection (f), </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>showing the applicant's name and principal residence </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>address.</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(e) Non-photo identity document. A non-photo identity </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>document must include the applicant's name and date of birth.  </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>Any of the following shall constitute a non-photo identity </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>document in lieu of a photo identity document:</code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) An original birth certificate or certified copy of </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>a birth certificate.</code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) A voter registration card.</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) A copy of records filed in court by the applicant </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>or on behalf of the applicant by the applicant's counsel.</code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) A naturalization document.</code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(5) A copy of the applicant's marriage license.</code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(6) A copy of the State or federal tax return filed by </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>the applicant for the previous calendar year.</code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(7) An original of the annual Social Security statement </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>received by the applicant for the current or preceding </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>calendar year.</code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(8) An original of a Medicare or Medicaid statement </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>received by the applicant.</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(9) A certified school record or transcript for the </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>current or preceding calendar year.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(f) Documentation of name and address. Any of the following </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>documents shall be acceptable as documentation of the </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>applicant's name and current address:</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) A voter registration card.</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) A utility bill or cable bill.</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) A bank statement issued within the last 60 days.</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) A valid and current rental agreement.</code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(5) A copy of the State or federal tax return filed by </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>the applicant for the previous calendar year.</code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(6) A homeowner's insurance policy or bill for the </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>current or preceding year.</code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(7) A mortgage, deed, or property tax bill for the </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>current or preceding year.</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(8) A W-2 for the preceding calendar year.</code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(g) Exemptions.  Voters who are indigent and unable to </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>obtain a Voter Identification Card without a fee and voters who </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>have a religious objection to being photographed may vote a </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>provisional ballot and sign an affidavit that indicates one of </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>the exemptions  stated in this subsection. An indigent person is </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>defined as an individual whose income is 125% or less of </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>current federal poverty income guidelines.</code></u><br>&nbsp;</td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/3-8 new)</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 3-8. </code></u><u><code>Acceptable forms of photo identification for </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>voting purposes.  </code></u><u><code>As used in this Code, acceptable forms of </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>photo identification for voting purposes include:</code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(1) An Illinois Driver's License.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(2) A State Identification Card.</code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(3) An Illinois Disabled Person Identification Card.</code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(4) A Senior Citizen Identification Card.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(5) A FOID Card.</code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(6) A U.S. Passport with the voter's current address.</code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(7) Any other government-issued identification card </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>that includes the voter's name, current photograph, and </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>current address.</code></u><code> </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>All photo identification cards must be valid and current.</code></u><code> </code><br>&nbsp;</td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/17-9)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 46, par. 17-9)</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 17-9. </code><code>Any person desiring to vote shall </code><u><code>(i) present to </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>the judges of election for verification of the person's </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>identity a government-issued photo identification card, as </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>defined in Section 3-8, or his or her Voter Identification Card </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>and (ii)</code></u><code> give his name and, if
+required to do so, his residence </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>to the judges of election, one of whom
+shall thereupon announce </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the same in a loud and distinct tone of voice,
+clear, and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>audible; the judges of elections shall check each application
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>for ballot against the list of voters registered in that </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>precinct to
+whom grace period, vote by mail,
+or early
+ballots </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>have been issued for that election, which shall be
+provided by </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the election authority and which list shall be available for
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>inspection by pollwatchers.  A voter applying to vote in the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>precinct on election day whose name appears on the list as </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>having
+been issued a grace period, vote by mail,
+or early
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>ballot shall not be permitted to vote in the
+precinct, except </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>that a voter to whom a vote by mail ballot was issued may vote </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>in the precinct if the voter submits to the election judges </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>that vote by mail ballot for cancellation.  If the voter is </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>unable to submit the vote by mail ballot, it shall be </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>sufficient for the voter to submit to the election judges (i) a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>portion of the vote by mail ballot if the vote by mail ballot </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>was torn or mutilated or (ii) an affidavit executed before the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>election judges specifying that (A) the voter never received a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>vote by mail ballot or (B) the voter completed and returned a </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>vote by mail ballot and was informed that the election </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>authority did not receive that vote by mail ballot. All </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>applicable provisions of Articles
+4, 5 or 6 shall be complied </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>with and if such name is found on the register of
+voters by the
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>officer having charge thereof, he shall likewise repeat said </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>name, and
+the voter shall be allowed to enter within the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>proximity of the voting
+booths, as above provided.  One of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>judges shall give the voter one,
+and only one of each ballot to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>be voted at the election, on the back of
+which ballots such </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>judge shall indorse his initials in such manner that
+they may </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>be seen when each such ballot is properly folded, and the
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>voter's name shall be immediately checked on the register list. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>In those
+election jurisdictions where perforated ballot cards </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>are utilized of the
+type on which write-in votes can be cast </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>above the perforation, the election
+authority shall provide a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>space both above and below the perforation for
+the judge's </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>initials, and the judge shall endorse his or her initials in
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>both spaces.  Whenever
+a proposal for a constitutional amendment </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>or for the calling of a
+constitutional convention is to be </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>voted upon at the election, the
+separate blue ballot or ballots </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>pertaining thereto shall, when being
+handed to the voter, be </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>placed on top of the other ballots to be voted
+at the election </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>in such manner that the legend appearing on the back
+thereof, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>as prescribed in Section 16-6 of this Act, shall be plainly
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>visible to the voter.  At all elections, when a registry may be
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>required, if the name of any person so desiring to vote at such </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>election
+is not found on the register of voters, he or she </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>shall not receive a ballot
+until he or she shall have complied </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>with the law prescribing the manner and
+conditions of voting by </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>unregistered voters.  If any person desiring to
+vote at any </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>election shall be challenged, he or she shall not receive a </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ballot
+until he or she shall have established his right to vote </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>in the manner provided
+hereinafter; and if he or she shall be </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>challenged after he has received his
+ballot, he shall not be </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>permitted to vote until he or she has fully complied
+with such </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>requirements of the law upon being challenged.  Besides the
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>election officer, not more than 2 voters in excess of the whole </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>number
+of voting booths provided shall be allowed within the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>proximity of the voting
+booths at one
+time.  The provisions of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>this Act, so far as they require the
+registration of voters as </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>a condition to their being allowed to vote
+shall not apply to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>persons otherwise entitled to vote, who are, at the
+time of the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>election, or at any time within 60 days prior to such
+election </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>have been engaged in the military or naval service of the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>United States, and who appear personally at the polling place </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>on
+election day and produce to the judges of election </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>satisfactory evidence
+thereof, but such persons, if otherwise </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>qualified to vote, shall be
+permitted to vote at such election </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>without previous registration.
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All such persons shall also make an affidavit which shall </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>be in
+substantially the following form:
+</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>State&nbsp;of&nbsp;Illinois,)
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;ss.
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>County&nbsp;of&nbsp;........)
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>...............&nbsp;Precinct&nbsp;&nbsp;&nbsp;..........&nbsp;Ward</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I, ...., do solemnly swear (or affirm) that I am a citizen </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>of the
+United States, of the age of 18 years or over, and that </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>within the past
+60 days prior to the date of this election at </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>which I am applying to
+vote, I have been engaged in the .... </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>(military or naval) service of the
+United States; and I am </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>qualified to vote under and by virtue of the
+Constitution and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>laws of the State of Illinois, and that I am a legally
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>qualified voter of this precinct and ward except that I have, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>because of
+such service, been unable to register as a voter; </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>that I now reside at
+.... (insert street and number, if any) in </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>this precinct and ward; that I
+have maintained a legal </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>residence in this precinct and ward for 30 days
+and in this </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>State 30 days next preceding this election.
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subscribed and sworn to before me on (insert date).
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><div align="right"><code>Judge of Election.</code></div><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The affidavit of any such person shall be supported by the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>affidavit
+of a resident and qualified voter of any such </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>precinct and ward, which
+affidavit shall be in substantially </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the following form:
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>State&nbsp;of&nbsp;Illinois,)
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;ss.
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>County&nbsp;of&nbsp;........)
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>...........&nbsp;Precinct&nbsp;&nbsp;&nbsp;...........&nbsp;Ward</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I, ...., do solemnly swear (or affirm), that I am a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>resident of this
+precinct and ward and entitled to vote at this </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>election; that I am
+acquainted with .... (name of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>applicant); that I verily believe him
+to be an actual bona fide </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>resident of this precinct and ward and that I
+verily believe </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>that he or she has maintained a legal residence therein 30 days
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>and in this State 30 days next preceding this election.
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subscribed and sworn to before me on (insert date).
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><div align="right"><code>.........................</code></div><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><div align="right"><code>Judge of Election.</code></div><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>All affidavits made under the provisions of this Section </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall be
+enclosed in a separate envelope securely sealed, and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>shall be
+transmitted with the returns of the elections to the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>county clerk or to
+the board of election commissioners, who </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>shall preserve the said
+affidavits for the period of 6 months, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>during which period such
+affidavits shall be deemed public </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>records and shall be freely open to
+examination as such.
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-1171, eff. 6-1-15</code><code>.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/18-5)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 46, par. 18-5)</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-5. </code><code>Any person desiring to vote and whose name is </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>found upon
+the register of voters by the person having charge </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>thereof, </code><u><code>shall (i) present to the judges of election for </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>verification of the person's identity a government-issued </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>photo identification card, as defined in Section 3-8, or his or </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>her Voter Identification Card, (ii)</code></u><code> </code><strike><code>shall then</code></strike><code>
+be questioned by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>one of the judges as to his nativity, his term of
+residence at </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>present address, precinct, State and United States, his
+age, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>whether naturalized and if so the date of naturalization papers </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>and
+court from which secured, and </code><u><code>(iii)</code></u><code> </code><strike><code>he shall</code></strike><code> be asked to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>state his residence
+when last previously registered and the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>date of the election for which
+he then registered. The judges </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>of elections shall check each application
+for ballot against </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the list of voters registered in that precinct to whom
+grace </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>period, vote by mail, and early ballots have been issued for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>that election, which shall
+be provided
+by the election </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>authority and which list shall be available for inspection
+by </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>pollwatchers. A voter applying to vote in
+the precinct on
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>election day whose name appears on the list as having been </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>issued a grace period, vote by mail,
+or early ballot shall not </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>be permitted to vote in the precinct, except that a voter to </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>whom a vote by mail ballot was issued may vote in the precinct </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>if the voter submits to the election judges that vote by mail </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>ballot for cancellation.  If the voter is unable to submit the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>vote by mail ballot, it shall be sufficient for the voter to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>submit to the election judges (i) a portion of the vote by mail </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>ballot if the vote by mail ballot was torn or mutilated or (ii) </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>an affidavit executed before the election judges specifying </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>that (A) the voter never received a vote by mail ballot or (B) </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the voter completed and returned a vote by mail ballot and was </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>informed that the election authority did not receive that vote </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>by mail ballot.
+If such person
+so registered shall be </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>challenged as disqualified, the party challenging
+shall assign </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>his reasons therefor, and thereupon one of the judges shall
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>administer to him an oath to answer questions, and if he shall </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>take the
+oath he shall then be questioned by the judge or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>judges touching such cause
+of challenge, and touching any other </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>cause of disqualification. And he may
+also be questioned by the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>person challenging him in regard to his
+qualifications and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>identity. But if a majority of the judges are of the
+opinion </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>that he is the person so registered and a qualified voter, his </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>vote
+shall then be received accordingly. But if his vote be </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>rejected by such
+judges, such person may afterward produce and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>deliver an affidavit to such
+judges, subscribed and sworn to by </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>him before one of the judges, in which
+it shall be stated how </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>long he has resided in such precinct, and state;
+that he is a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>citizen of the United States, and is a duly qualified voter in
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>such precinct, and that he is the identical person so </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>registered.
+In addition to such an affidavit, the person so </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>challenged shall provide
+to the judges of election proof of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>residence by producing 2 forms of
+identification showing the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>person's current residence address, provided
+that such </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>identification may include a lease or contract for a residence </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>and not more than one piece of mail addressed to the person at </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>his current residence address and
+postmarked not earlier than </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>30 days prior to the date of the
+election, or the person shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>procure a witness personally known to the
+judges of election, </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>and resident in the precinct (or district), or who
+shall be </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>proved by some legal voter of such precinct or district, known </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>to
+the judges to be such, who shall take the oath following, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>viz:
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>I do solemnly swear (or affirm) that I am a resident of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>this election
+precinct (or district), and entitled to vote at </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>this election, and that I
+have been a resident of this State </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>for 30 days last past, and am well
+acquainted with the person </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>whose vote is now offered; that he is an actual
+and bona fide </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>resident of this election precinct (or district), and has
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>resided herein 30 days, and as I verily believe, in this State, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>30 days
+next preceding this election.
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The oath in each case may be administered by one of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>judges of
+election, or by any officer, resident in the precinct </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>or district,
+authorized by law to administer oaths. Also </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>supported by an affidavit by a
+registered voter residing in </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>such precinct, stating his own residence, and
+that he knows </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>such person; and that he does reside at the place mentioned
+and </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>has resided in such precinct and state for the length of time </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>as stated
+by such person, which shall be subscribed and sworn </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>to in the same way.
+For purposes of this Section, the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>submission of a photo identification issued by a college or </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>university, accompanied by either (i) a copy of the applicant's </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>contract or lease for a residence or (ii) one piece of mail </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>addressed to the person at his or her current residence address </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>and postmarked not earlier than 30 days prior to the date of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the election, shall be sufficient to establish proof of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>residence. Whereupon the vote of such person shall be received, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and entered as other
+votes. But such judges, having charge of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>such registers, shall state in
+their respective books the facts </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>in such case, and the affidavits, so
+delivered to the judges, </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>shall be preserved and returned to the office of
+the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>commissioners of election. Blank affidavits of the character </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>aforesaid
+shall be sent out to the judges of all the precincts, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and the judges of
+election shall furnish the same on demand and </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>administer the oaths without
+criticism. Such oaths, if </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>administered by any other officer than such judge
+of election, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall not be received. Whenever a proposal for a
+constitutional </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>amendment or for the calling of a constitutional convention
+is </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>to be voted upon at the election, the separate blue ballot or </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>ballots
+pertaining thereto shall be placed on top of the other </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>ballots to be voted
+at the election in such manner that the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>legend appearing on the back
+thereof, as prescribed in Section </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>16-6 of this Act, shall be plainly
+visible to the voter, and in </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>this fashion the ballots shall be handed to
+the voter by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>judge.
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Immediately after voting, the voter shall be instructed </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>whether the voting equipment, if used, accepted or rejected the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>ballot or identified the ballot as under-voted.  A voter whose </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>ballot is identified as under-voted for a statewide </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>constitutional office may return to the voting booth and </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>complete the voting of that ballot. A voter whose ballot is not </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>accepted by the voting equipment may, upon surrendering the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ballot, request and vote another ballot.  The voter's </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>surrendered ballot shall be initialed by the election judge and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>handled as provided in the appropriate Article governing that </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>voting equipment.</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The voter shall, upon quitting the voting booth, deliver to </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>one of
+the judges of election all of the ballots, properly </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>folded, which he
+received. The judge of election to whom the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>voter delivers his ballots
+shall not accept the same unless all </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>of the ballots given to the voter
+are returned by him. If a </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>voter delivers less than all of the ballots
+given to him, the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>judge to whom the same are offered shall advise him in
+a voice </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>clearly audible to the other judges of election that the voter
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>must return the remainder of the ballots. The statement of the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>judge to
+the voter shall clearly express the fact that the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>voter is not required
+to vote such remaining ballots but that </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>whether or not he votes them he
+must fold and deliver them to </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the judge. In making such statement the
+judge of election shall </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>not indicate by word, gesture or intonation of
+voice that the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>unreturned ballots shall be voted in any particular
+manner. No </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>new voter shall be permitted to enter the voting booth of a
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>voter who has failed to deliver the total number of ballots </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>received by
+him until such voter has returned to the voting </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>booth pursuant to the
+judge's request and again quit the booth </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>with all of the ballots
+required to be returned by him. Upon </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>receipt of all such ballots the
+judges of election shall enter </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the name of the voter, and his number, as
+above provided in </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>this Section, and the judge to whom the ballots are
+delivered </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>shall immediately put the ballots into the ballot box. If any
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>voter who has failed to deliver all the ballots received by him </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>refuses
+to return to the voting booth after being advised by </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the judge of
+election as herein provided, the judge shall </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>inform the other judges of
+such refusal, and thereupon the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>ballot or ballots returned to the judge
+shall be deposited in </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the ballot box, the voter shall be permitted to
+depart from the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>polling place, and a new voter shall be permitted to
+enter the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>voting booth.
+</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The judge of election who receives the ballot or ballots </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>from the
+voter shall announce the residence and name of such </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>voter in a loud
+voice. The judge shall put the ballot or </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>ballots received from the voter
+into the ballot box in the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>presence of the voter and the judges of
+election, and in plain </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>view of the public. The judges having charge of
+such registers </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>shall then, in a column prepared thereon, in the same
+line of, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the name of the voter, mark "Voted" or the letter "V".
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>No judge of election shall accept from any voter less than </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the full
+number of ballots received by such voter without first </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>advising the
+voter in the manner above provided of the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>necessity of returning all of
+the ballots, nor shall any such </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>judge advise such voter in a manner
+contrary to that which is </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>herein permitted, or in any other manner
+violate the provisions </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>of this Section; provided, that the acceptance by
+a judge of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>election of less than the full number of ballots delivered to
+a </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>voter who refuses to return to the voting booth after being </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>properly
+advised by such judge shall not be a violation of this </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Section.
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-1171, eff. 6-1-15</code><code>.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/18A-5)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18A-5. </code><code>Provisional voting; general provisions. </code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) A person who claims to be a registered voter is </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>entitled to cast a
+provisional ballot under the following </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>circumstances:</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) The person's name does not appear on the official </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>list of eligible
+voters for the precinct in which
+the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person seeks to vote and the person has refused an </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>opportunity to register at the polling location or another </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>grace period registration site. The official list is the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>centralized statewide voter registration list established </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and maintained in accordance with Section 1A-25;</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The person's voting status has been challenged by </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>an election judge, a
+pollwatcher, or any legal voter and </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>that challenge has been sustained by a
+majority of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election judges;</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) A federal or State court order extends the time for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>closing the polls
+beyond the time period established by </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>State law and the person votes during the
+extended time </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>period;</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The voter </code><strike><code>registered to vote by mail and</code></strike><code> is </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>required by law to
+present identification when voting </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>either</code></strike><code> in person</code><u><code>, in the case of a voter who registered by </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>mail, when voting</code></u><code> or by early voting ballot, but
+fails to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>provide an acceptable form of photo identification as </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>described in Section 3-8, or a Voter Identification Card </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>issued under Section 1-14</code></u><code> </code><strike><code>do so</code></strike><code>;
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5)  The voter's name appears on the list of voters who </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>voted during the early voting period, but the voter claims </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>not to have voted during the early voting period; </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) The voter received a vote by mail ballot but did </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>not return the vote by mail ballot to the election </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authority; or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(7) The voter attempted to register to vote on election </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>day, but failed to provide the necessary documentation. </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The procedure for obtaining and casting a provisional </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>ballot at the
+polling place
+shall be as follows:</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) After first verifying through an examination of the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>precinct register that the person's address is within the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>precinct boundaries, an election judge at the polling place </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall notify a person who is
+entitled to cast a provisional </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ballot pursuant to subsection (a)
+that he or she may cast a </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot in that election.
+An election judge
+must </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>accept any information provided by a person who casts a </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot
+that the person believes supports his or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>her claim that he or she is a duly
+registered voter and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>qualified to vote in the election. However, if the person's </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>residence address is outside the precinct boundaries, the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election judge shall inform the person of that fact, give </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the person the appropriate telephone number of the election </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authority in order to locate the polling place assigned to </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>serve that address, and instruct the person to go to the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>proper polling place to vote.
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The person shall execute a written form provided by </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the
+election judge that shall state or contain all of the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following that is available:</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>
+</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) an affidavit stating the following:</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>State of Illinois, County of ................, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Township
+.............,
+Precinct ........, Ward </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>........, I, ......................., do solemnly
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>swear (or affirm) that: I am a citizen of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>United States; I am 18 years of
+age or older; I </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>have resided in this State and in this precinct for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>30 days
+preceding this election; I have not voted </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>in this election; I am a duly
+registered voter in </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>every respect; and I am eligible to vote in this </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>election.
+Signature ...... Printed Name of Voter </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>....... Printed Residence
+Address of Voter ...... </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>City
+...... State .... Zip Code ..... Telephone </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Number ...... Date of Birth .......
+and Illinois </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Driver's License Number ....... or Last 4 digits of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Social
+Security
+Number ...... or State </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Identification Card
+Number issued to you by the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois Secretary of State ........</code><code>
+
+
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) A box for the election judge to check one of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>the reasons why the
+person was given a provisional </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>ballot under subsection (a) of this Section.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(iii) An area for the election judge to affix his </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>or her signature and to
+set forth any facts that </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>support or oppose the allegation that the person is
+not </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>qualified to vote in the precinct in which the person </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>is seeking to vote.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The written affidavit form described in this </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsection (b)(2) must be
+printed on a multi-part form </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>prescribed by the county clerk or board of
+election </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>commissioners, as the case may be.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) After the person executes the portion of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>written affidavit described
+in subsection (b)(2)(i) of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Section, the election judge shall complete the
+portion </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the written affidavit described in subsection </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(b)(2)(iii) and
+(b)(2)(iv).</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The election judge shall give a copy of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>completed written affidavit
+to the person. The election </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>judge shall place the original written affidavit in
+a </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>self-adhesive clear plastic packing list envelope that </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>must be attached to a
+separate envelope marked as a </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>"provisional ballot envelope". The election judge
+shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>also place any information provided by the person who casts </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>a provisional
+ballot in the clear plastic packing list </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>envelope. Each county clerk or board
+of election </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>commissioners, as the case may be,
+must design, obtain or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>procure self-adhesive clear plastic packing list
+envelopes </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and provisional ballot envelopes that are suitable for </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>implementing
+this subsection (b)(4) of this Section.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) The election judge shall provide the person with a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot,
+written instructions for casting a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot, and the provisional
+ballot envelope </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>with the clear plastic packing list envelope affixed to it,
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>which contains the person's original written affidavit </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and, if any, information
+provided by the provisional voter </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to support his or her claim that he or she is
+a duly </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>registered voter. An election judge must also give the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person written
+information that states that any person who </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>casts a provisional ballot shall be
+able to ascertain, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>pursuant to guidelines established by the State Board of
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Elections, whether the provisional vote was counted in the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>official canvass of
+votes for that election and, if the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional vote was not counted, the
+reason that the vote </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>was not counted.</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) After the person has completed marking his or her </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot, he
+or she shall place the marked ballot </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 21 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>inside of the provisional ballot envelope,
+close and seal </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the envelope, and return the envelope to an election judge, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>who
+shall then deposit the sealed provisional ballot </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>envelope into a securable
+container separately identified </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and utilized for containing sealed provisional
+ballot </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>envelopes. Ballots that are provisional because they are </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>cast after 7:00 p.m. by court
+order shall be kept separate </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>from other provisional ballots. Upon the closing of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>polls, the securable container shall
+be
+sealed with </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>filament tape provided for that purpose, which shall be </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>wrapped
+around the box lengthwise and crosswise, at least </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>twice each way, and each of
+the election judges shall sign </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the seal.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) Instead of the affidavit form described in subsection </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(b), the county
+clerk or board of election commissioners, as </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the case may be, may design and
+use a multi-part affidavit form </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>that is imprinted upon or attached to the
+provisional ballot </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>envelope described in subsection (b). If a county clerk or
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>board of election commissioners elects to design and use its </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>own multi-part
+affidavit form, then the county clerk or board </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>of election commissioners shall
+establish a mechanism for </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>accepting any information the provisional voter has
+supplied to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the election judge to support his or her claim that he or she </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>is a
+duly registered voter. In all other respects, a county </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>clerk or board of
+election commissioners shall establish </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>procedures consistent with subsection
+(b).</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 22 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) The county clerk or board of election commissioners, as </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the case may be,
+shall use the completed affidavit form </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>described in subsection (b) to update
+the person's voter </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>registration information in the State voter registration
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>database and voter registration database of the county clerk or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>board of
+election commissioners, as the case may be. If a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>person is later determined not
+to be a registered voter based </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>on Section 18A-15 of this Code, then the
+affidavit shall be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>processed by the county clerk or board of election
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>commissioners, as the case may be, as a voter registration </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>application.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-201, eff. 8-18-17.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/18A-15)</code><code>
+</code><code>
+
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18A-15. </code><code>Validating and counting provisional ballots. </code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The county clerk or board of election commissioners </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>shall complete the
+validation and counting of provisional </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>ballots within 14 calendar days of
+the day of the election. The </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>county clerk or board of election commissioners
+shall have 7 </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>calendar days from the completion of the validation and
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>counting of provisional ballots to conduct its final canvass. </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>The State Board
+of Elections shall complete within 31 calendar </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>days of the election or sooner
+if all the returns are received, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>its final canvass of the vote for all public
+offices.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) If a county clerk or board of election commissioners </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>determines that all
+of the following apply, then a provisional </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 23 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>ballot is valid and shall be counted
+as a vote:</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) the provisional voter cast the provisional ballot </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in the correct
+precinct based on the address provided by </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the provisional voter. The provisional voter's affidavit </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>shall serve as a change of address request by that voter </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for registration purposes for the next ensuing election if </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>it bears an address different from that in the records of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the election authority. Votes for federal and statewide </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>offices on a provisional ballot cast in the incorrect </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>precinct that meet the other requirements of this </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsection shall be valid and counted in accordance with </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Article.  As used in this item, "federal office" is </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>defined as provided in Section 20-1 and "statewide office" </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>means the Governor, Attorney General, Secretary of State, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Comptroller, and Treasurer.  Votes for General Assembly, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>countywide, citywide, or township office on a provisional </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ballot cast in the incorrect precinct but in the correct </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>legislative district, representative district, county, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>municipality, or township, as the case may be, shall be </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>valid and counted in accordance with this Article.  As used </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in this item, "citywide office" means an office elected by </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the electors of an entire municipality. As used in this </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>item, "township office" means an office elected by the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>electors of an entire township;</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) the affidavit executed by the provisional voter </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>pursuant to subsection
+(b)(2) of Section 18A-5 contains, at </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 24 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>a minimum, the provisional voter's first and last name, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>house number and street name, and signature  or mark;</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) except as permitted by item (5) of subsection (b) </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of this Section, the provisional voter is a registered </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>voter based on information
+available to the county clerk or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>board of election commissioners provided by or
+obtained </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>from any of the following:</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>i. the provisional voter;</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>ii. an election judge;</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>iii. the statewide voter registration database </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>maintained by the State
+Board of Elections;</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>iv. the records of the county clerk or board of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>election commissioners'
+database; or</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>v. the records of the Secretary of State; and</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) for a provisional ballot cast under item (6) of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsection (a) of Section 18A-5, the voter did not vote by </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>vote by mail ballot in the election at which the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>provisional ballot was cast; or </code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) for a provisional ballot cast under item (7) of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsection (a) of Section 18A-5, the voter provides the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election authority with the necessary documentation within </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>7 days of election day. </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) With respect to subsection (b)(3) of this Section, the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>county clerk or
+board of election commissioners shall </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>investigate and record whether or not the specified information </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>is available from each of the 5 identified sources. If the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 25 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>information is available from one or more of the identified </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>sources, then the
+county clerk or board of election </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>commissioners shall seek to obtain the
+
+information from each of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>those sources until satisfied, with information from at least </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>one of those sources, that the provisional voter is registered </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and entitled to vote. The county clerk
+or board of election </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>commissioners shall use any information it obtains as the
+basis </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>for determining the voter registration status of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>provisional voter.
+If a conflict exists among the information </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>available to the county clerk or
+board of election </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>commissioners as to the registration status of the
+provisional </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>voter, then the county clerk or board of election commissioners
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>shall make a
+determination based on the totality of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>circumstances. In a case where the
+above information equally </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>supports or opposes the registration status of the
+voter, the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>county clerk or board of election commissioners shall decide in
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>favor of the provisional voter as being duly registered to </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>vote. If the
+statewide voter registration database maintained </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>by the State Board of
+Elections indicates that the provisional </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>voter is registered to vote, but the
+county clerk's or board of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>election commissioners' voter registration database
+indicates </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>that the provisional voter is not registered to vote, then the
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>information found in the statewide voter registration database </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall control
+the matter and the provisional voter shall be </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>deemed to be registered to vote.
+If the records of the county </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>clerk or board of election commissioners indicates
+that the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 26 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>provisional
+voter is registered to vote, but the statewide </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>voter registration database
+maintained by the State Board of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Elections indicates that the provisional voter
+is not </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>registered to vote, then the information found in the records </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>of the
+county clerk or board of election commissioners shall </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>control the matter and
+the provisional voter shall be deemed to </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>be registered to vote. If the
+provisional voter's signature on </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>his or her provisional ballot request varies
+from the signature </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>on
+an otherwise valid registration application solely because </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>of the substitution
+of initials for the first or middle name, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the election authority may not reject
+the provisional ballot.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) In validating the registration status of a person </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>casting a provisional
+ballot, the county clerk or board of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>election commissioners shall not require a
+provisional voter to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>complete any form other than the affidavit executed by the
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>provisional voter under subsection (b)(2) of Section 18A-5. In </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>addition,
+the
+county clerk or board of election commissioners </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>shall not require all
+provisional voters or
+any particular </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>class or group of provisional voters to appear personally </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>before
+the county clerk or board of election commissioners or </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>as a matter of policy
+require provisional voters to submit </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>additional information to verify or
+otherwise support the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>information already submitted by the provisional voter.
+Within </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>2 calendar days after the election, the election authority </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>shall transmit by electronic means pursuant to a process </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>established by the State Board of Elections the name, street </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 27 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>address, e-mail address, and precinct, ward, township, and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>district numbers, as the case may be, of each person casting a </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>provisional ballot to the State Board of Elections, which shall </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>maintain those names and that information in an electronic </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>format on its website, arranged by county and accessible to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>State and local political committees. The provisional voter </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>may, within 7 calendar days after the election, submit
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>additional information to the county clerk or board of election </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>commissioners</code><u><code>, except that in the case of provisional voting </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>under paragraph (4) of subsection (a) of Section 18A-5, the </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>provisional voter has 10 days to provide the county clerk or </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>board of election commissioners with the required photo </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>identification card</code></u><code>.
+This information must be received by the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>county clerk or board of election
+commissioners within the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>applicable</code></u><code> 7-calendar-day </code><u><code>or 10-calendar-day</code></u><code> period.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) If the county clerk or board of election commissioners </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>determines that
+subsection (b)(1), (b)(2), or (b)(3) does not </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>apply, then the provisional
+ballot is not valid
+and may not be </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>counted. The provisional ballot envelope containing the ballot
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>cast by the provisional voter may not be opened. The county </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>clerk or board of
+election commissioners shall write on the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>provisional ballot envelope the
+following: "Provisional ballot </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>determined invalid.".</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) If the county clerk or board of election commissioners </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>determines that a
+provisional ballot is valid under this </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Section, then the provisional ballot
+envelope shall be opened. </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 28 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>The outside of each provisional ballot
+envelope shall
+also be
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>marked to identify the precinct and the date of the election.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Provisional ballots determined to be valid shall be </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>counted at the election authority's central ballot counting </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>location and shall not be counted in precincts. The provisional </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>ballots determined to be valid shall be added to the
+vote
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>totals for the precincts from which they were cast in the order </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>in which the
+ballots were opened.
+
+The validation and counting </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>of provisional ballots shall be subject to the
+provisions of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>this Code that apply to pollwatchers.
+If the provisional </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>ballots are a ballot of a punch card
+voting system, then the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>provisional ballot shall be counted in a manner
+consistent with </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Article 24A. If the provisional ballots
+are a ballot of optical </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>scan or other type of approved electronic voting
+system, then </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the provisional ballots shall be counted in a manner consistent
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>with Article 24B.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) As soon as the ballots have been counted, the election </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>judges or
+election officials shall, in
+the presence of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>county clerk or board of election commissioners, place each
+of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>the following items in a separate envelope or bag: (1) all </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provisional
+ballots, voted or spoiled; (2)
+all provisional </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>ballot envelopes of provisional ballots voted or spoiled; and
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>(3) all executed affidavits
+of the provisional ballots voted or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>spoiled.
+All provisional ballot envelopes for provisional </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>voters who have been
+determined
+not to be registered to vote </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>shall remain sealed.  The county clerk or board of
+election </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 29 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>commissioners shall treat the provisional ballot envelope </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>containing
+the written affidavit as a voter registration </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>application for that person for
+the next election and process </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>that application.
+The election judges or election officials </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>shall then
+securely
+seal each envelope or bag, initial the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>envelope or bag, and plainly mark on the
+outside of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>envelope or bag in ink the precinct in which the provisional
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>ballots were cast. The election judges or election officials </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>shall then place
+each sealed envelope or
+bag into a box, secure </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and seal it in the same manner as described in
+item (6) of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>subsection (b) of Section 18A-5.  Each election judge or </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>election
+official shall take and subscribe an oath
+before the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>county clerk or
+board of election commissioners that the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>election judge or election official
+securely kept the
+ballots </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>and papers in the box, did not permit any person to open the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>box or
+otherwise touch or tamper with the ballots and papers in </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>the box, and has no
+knowledge of any other person opening the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>box.
+For purposes of this Section, the term "election official" </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>means the county
+clerk, a member of the board of election </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>commissioners, as the case may be, and
+their respective </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>employees.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 97-766, eff. 7-6-12; 98-115, eff. 7-29-13; </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>98-691, eff. 7-1-14; 98-1171, eff. 6-1-15</code><code>.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10 ILCS 5/19A-35)</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 19A-35. </code><code>Procedure for voting.</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 30 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) Not more than 23 days before the start of the election, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>the county clerk
+shall make available to the election official </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>conducting early voting by
+personal
+appearance a sufficient </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>number of early ballots, envelopes, and printed voting
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>instruction slips for the use of early voters.  The election </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>official shall
+receipt for all ballots received and shall </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>return unused or spoiled ballots at
+the close of the early </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>voting period to the county clerk and must strictly
+account for </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>all ballots received.  The ballots delivered to the election
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>official must include early ballots for each precinct in the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>election
+authority's jurisdiction and must include separate </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>ballots for each political
+subdivision conducting an election </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>of officers or a referendum at that
+election.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) In conducting early voting under this Article, the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>election judge or official is
+ required to verify the signature </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>of the early voter by comparison with the
+signature on the
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>official registration card, and the judge or official must </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>verify (i) that the applicant is a registered voter, (ii) the
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>precinct in which the applicant is registered, </code><strike><code>and</code></strike><code> (iii) the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>proper ballots of
+the political subdivision in which the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>applicant resides and is entitled to
+vote</code><u><code>, and (iv) the </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>applicant's identity, which must be verified by the applicant's </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>presentation of a government-issued photo identification card, </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>as defined in Section 3-8, or his or her Voter Identification </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>Card,</code></u><code> before providing an early ballot to the applicant. The </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>election judge or official
+must verify the applicant's </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 31 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>registration from the most recent poll list
+provided by the
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>election authority, and if the applicant is not listed on that </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>poll list, by
+telephoning the office of the election authority.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b-5)  A person requesting an early voting ballot to whom a </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>vote by mail ballot was issued may vote early if the person </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>submits that vote by mail ballot to the judges of election or </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>official conducting early voting for cancellation.  If the voter </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>is unable to submit the vote by mail ballot, it shall be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>sufficient for the voter to submit to the judges or official </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>(i) a portion of the vote by mail ballot if the vote by mail </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>ballot was torn or mutilated or (ii) an affidavit executed </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>before the judges or official specifying that (A) the voter </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>never received a vote by mail ballot or (B) the voter completed </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>and returned a vote by mail ballot and was informed that the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>election authority did not receive that vote by mail ballot.</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b-10)  Within one day after a voter casts an early voting </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>ballot, the election authority shall transmit the voter's name, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>street address, and precinct, ward, township, and district </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>numbers, as the case may be, to the State Board of Elections, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>which shall maintain those names and that information in an </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>electronic format on its website, arranged by county and </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>accessible to State and local political committees.</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b-15)  Immediately after voting an early ballot, the voter </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall be instructed whether the voting equipment accepted or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>rejected the ballot or identified that ballot as under-voted </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>for a statewide constitutional office. A voter whose ballot is </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0243</td><td class="xsl" align="center">- 32 -</td><td class="xsl" align="right">LRB101 04628 SMS 49636 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>identified as under-voted may return to the voting booth and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>complete the voting of that ballot. A voter whose early voting </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>ballot is not accepted by the voting equipment may, upon </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>surrendering the ballot, request and vote another early voting </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>ballot.  The voter's surrendered ballot
+shall be initialed by </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the election judge or official conducting the early voting and </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>handled as provided in the appropriate
+Article governing the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>voting equipment used.
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The  sealed early ballots in their carrier envelope </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>shall be delivered by
+the election authority to the central </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>ballot counting location before the close of the
+polls on the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>day of the election.
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 98-691, eff. 7-1-14; 98-1171, eff. 6-1-15</code><code>.)</code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

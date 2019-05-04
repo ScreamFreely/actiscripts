@@ -1,0 +1,4148 @@
+status: 200
+encoding: utf-8
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNetMvc-Version: 5.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 04 May 2019 03:53:39 GMT
+Content-Length: 165104
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington State Legislature</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <link rel="shortcut icon" href="//app.leg.wa.gov/assets/images/favicon.ico" /> 
+    <link rel="apple-touch-icon" href="//app.leg.wa.gov/assets/images/icon_standard_57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="//app.leg.wa.gov/assets/images/icon_ipad_72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="//app.leg.wa.gov/assets/images/icon_retina_114.png" />
+    <link rel="apple-touch-icon-precomposed" href="//app.leg.wa.gov/Assets/images/icon_standard_57.png" />
+
+    
+    <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='//app.leg.wa.gov/assets/javascript/framework/jquery/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }</script>
+
+    
+    <script type="text/javascript" src="//app.leg.wa.gov/assets/Javascript/Framework/2.0/baseFramework.min.js"></script>
+
+    
+    <script type="text/javascript" src="//app.leg.wa.gov/assets/Javascript/Framework/libs/jquery.tablesorter.min.js"></script>
+
+    
+    <link rel="stylesheet" href="//app.leg.wa.gov/assets/css/framework/jquery/mobile/1.4.2/Wsl-Theme.min.css"/>
+
+    
+    <link rel="stylesheet" href="//app.leg.wa.gov/assets/css/publicSiteResponsive.min.css?v=" /> 
+    <link href="/MemberEmail/bundles/css?v=PnBQv8KWGuiI-1-QsBwDJttMG5F6ORsWth7OxgJvb-E1" rel="stylesheet"/>
+
+
+    
+    <script src="/MemberEmail/bundles/js?v=KOvA41LIA8xcSHgL13qtwRVDKDZIDdBayrItn-5PpVc1"></script>
+
+
+    
+    <script src="//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script>
+        if (typeof $.mobile == 'undefined') {
+            document.write(unescape("%3Cscript src='//app.leg.wa.gov/assets/javascript/framework/jquery/jquery.mobile-1.4.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }</script>
+  
+    
+    <!--[if lt IE 9]>
+     <script type="text/javascript" src="//app.leg.wa.gov/assets/Javascript/Framework/libs/respond.min.js"></script>
+     <script type="text/javascript" src="//app.leg.wa.gov/assets/Javascript/Framework/libs/selectivizr.min.js"></script>
+    <![endif]-->
+
+    
+    <script type="text/javascript">
+        WSL.Url.setRelativeRoot('/MemberEmail/');
+    </script>
+
+    
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-798075-3', 'pageview');ga('send', 'pageview');</script>
+
+    
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=/MemberEmail/NoScript" />
+    </noscript>
+</head>
+<body>
+    <div id="mediaquery"><!-- do not delete, used for js media queries--></div>
+    <div data-role="page" data-theme="b">
+        <div data-role="panel" data-position="left" data-display="push" id="navPanel">
+            <!-- this is where the navigation will be inserted by javascript -->
+        </div>
+        <div id="headerElements" class="ui-content">
+            <!--this is where the header will be inserted-->
+        </div>    
+        <div class="ui-content" role="main">
+            <div class="desktopSideNavParentContainer">
+                <div id="desktopNavigation">
+                </div>
+            </div>
+            <div class="contentContainer ">
+                <div id="pageContent" class="ui-content" role="main">
+                    <div class="container-fluid">
+                        
+
+
+<div class="row clearfix">
+
+    <div class="col-csm-12">
+        <h1>All Members E-mail List</h1>
+        <h2>Members of the 66th Legislature 2019-2020</h2>
+    </div>
+
+    <div class="col-csm-10">
+        <div class="col-csm-4 chamberitem hidden-print">
+            <fieldset id="member_fieldset" data-role="controlgroup" data-type="horizontal" data-mini="true">
+
+                <label for="rbMemberHouse">House</label>
+                <input id="rbMemberHouse" name="rbMembers" type="radio" value="House" />
+
+                <label for="rbMemberSenate">Senate</label>
+                <input id="rbMemberSenate" name="rbMembers" type="radio" value="Senate" />
+
+                <label for="rbMemberAll">All</label>
+                <input checked="checked" id="rbMemberAll" name="rbMembers" type="radio" value="All" />
+
+            </fieldset>
+        </div>
+
+        <div class="col-csm-5 filteritem hidden-print">
+            <table>
+                <tr>
+                    <td>Filter&nbsp;Item:&nbsp;</td>
+                    <td style="width:100%">
+                        <input type="text" value="" id="tablefilter" name="tablefilter" data-type="search" data-mini="true" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-csm-10">
+
+        <table id="membertable" class="ui-body-b ui-corner-all table-stripe sortable  memberemail-breakpoint" data-role="table" data-mode="reflow" data-filter="true" data-input="#tablefilter">
+            <thead>
+                <tr>
+                    <th class="header name_header">Name</th>
+                    <th class="header">Email</th>
+                    <th class="header">District</th>
+                        <th class="header">Position</th>
+                    <th class="header">Party</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">AppletonSherry</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/23/1">Rep. Sherry Appleton</a>
+                        </td>
+
+                        <td>
+                            Sherry.Appleton@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/23">
+                                23
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BaileyBarbara</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/10/0">Senator Barbara Bailey</a>
+                        </td>
+
+                        <td>
+                            Barbara.Bailey@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/10">
+                                10
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BarkisAndrew</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/2/1">Rep. Andrew Barkis</a>
+                        </td>
+
+                        <td>
+                            Andrew.Barkis@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/2">
+                                2
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BeckerRandi</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/2/0">Senator Randi Becker</a>
+                        </td>
+
+                        <td>
+                            Randi.Becker@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/2">
+                                2
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BergquistSteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/11/2">Rep. Steve Bergquist</a>
+                        </td>
+
+                        <td>
+                            Steve.Bergquist@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/11">
+                                11
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BilligAndy</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/3/0">Senator Andy Billig</a>
+                        </td>
+
+                        <td>
+                            Andy.Billig@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/3">
+                                3
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BlakeBrian</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/19/2">Rep. Brian Blake</a>
+                        </td>
+
+                        <td>
+                            Brian.Blake@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/19">
+                                19
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BoehnkeMatt</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/8/2">Rep. Matt Boehnke</a>
+                        </td>
+
+                        <td>
+                            Matt.Boehnke@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/8">
+                                8
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BraunJohn</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/20/0">Senator John Braun</a>
+                        </td>
+
+                        <td>
+                            John.Braun@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/20">
+                                20
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">BrownSharon</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/8/0">Senator Sharon Brown</a>
+                        </td>
+
+                        <td>
+                            Sharon.Brown@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/8">
+                                8
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">CaldierMichelle</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/26/2">Rep. Michelle Caldier</a>
+                        </td>
+
+                        <td>
+                            Michelle.Caldier@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/26">
+                                26
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">CallanLisa</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/5/2">Rep. Lisa Callan</a>
+                        </td>
+
+                        <td>
+                            Lisa.Callan@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/5">
+                                5
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">CarlyleReuven</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/36/0">Senator Reuven Carlyle</a>
+                        </td>
+
+                        <td>
+                            Reuven.Carlyle@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/36">
+                                36
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ChambersKelly</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/25/1">Rep. Kelly Chambers</a>
+                        </td>
+
+                        <td>
+                            Kelly.Chambers@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/25">
+                                25
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ChandlerBruce</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/15/1">Rep. Bruce Chandler</a>
+                        </td>
+
+                        <td>
+                            Bruce.Chandler@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/15">
+                                15
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ChapmanMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/24/1">Rep. Mike Chapman</a>
+                        </td>
+
+                        <td>
+                            Mike.Chapman@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/24">
+                                24
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ChoppFrank</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/43/2">Rep. Frank Chopp</a>
+                        </td>
+
+                        <td>
+                            Frank.Chopp@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/43">
+                                43
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ClevelandAnnette</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/49/0">Senator Annette Cleveland</a>
+                        </td>
+
+                        <td>
+                            Annette.Cleveland@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/49">
+                                49
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">CodyEileen</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/34/1">Rep. Eileen Cody</a>
+                        </td>
+
+                        <td>
+                            Eileen.Cody@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/34">
+                                34
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ConwaySteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/29/0">Senator Steve Conway</a>
+                        </td>
+
+                        <td>
+                            Steve.Conway@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/29">
+                                29
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">CorryChris</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/14/1">Rep. Chris Corry</a>
+                        </td>
+
+                        <td>
+                            Chris.Corry@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/14">
+                                14
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DarneilleJeannie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/27/0">Senator Jeannie Darneille</a>
+                        </td>
+
+                        <td>
+                            J.Darneille@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/27">
+                                27
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DasMona</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/47/0">Senator Mona Das</a>
+                        </td>
+
+                        <td>
+                            mona.das@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/47">
+                                47
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DavisLauren</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/32/2">Rep. Lauren Davis</a>
+                        </td>
+
+                        <td>
+                            Lauren.Davis@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/32">
+                                32
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DeBoltRichard</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/20/1">Rep. Richard DeBolt</a>
+                        </td>
+
+                        <td>
+                            Richard.DeBolt@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/20">
+                                20
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DentTom</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/13/1">Rep. Tom Dent</a>
+                        </td>
+
+                        <td>
+                            Tom.Dent@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/13">
+                                13
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DhingraManka</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/45/0">Senator Manka Dhingra</a>
+                        </td>
+
+                        <td>
+                            Manka.Dhingra@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/45">
+                                45
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DoglioBeth</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/22/2">Rep. Beth Doglio</a>
+                        </td>
+
+                        <td>
+                            Beth.Doglio@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/22">
+                                22
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DolanLaurie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/22/1">Rep. Laurie Dolan</a>
+                        </td>
+
+                        <td>
+                            Laurie.Dolan@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/22">
+                                22
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DufaultJeremie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/15/2">Rep. Jeremie Dufault</a>
+                        </td>
+
+                        <td>
+                            Jeremie.Dufault@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/15">
+                                15
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">DyeMary</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/9/1">Rep. Mary Dye</a>
+                        </td>
+
+                        <td>
+                            Mary.Dye@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/9">
+                                9
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">EntenmanDebra</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/47/1">Rep. Debra Entenman</a>
+                        </td>
+
+                        <td>
+                            Debra.Entenman@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/47">
+                                47
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">EricksenDoug</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/42/0">Senator Doug Ericksen</a>
+                        </td>
+
+                        <td>
+                            Doug.Ericksen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/42">
+                                42
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">EslickCarolyn</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/39/2">Rep. Carolyn Eslick</a>
+                        </td>
+
+                        <td>
+                            Carolyn.Eslick@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/39">
+                                39
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">FeyJake</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/27/2">Rep. Jake Fey</a>
+                        </td>
+
+                        <td>
+                            Jake.Fey@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/27">
+                                27
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">FitzgibbonJoe</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/34/2">Rep. Joe Fitzgibbon</a>
+                        </td>
+
+                        <td>
+                            Joe.Fitzgibbon@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/34">
+                                34
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">FortunatoPhil</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/31/0">Senator Phil Fortunato</a>
+                        </td>
+
+                        <td>
+                            phil.fortunato@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/31">
+                                31
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">FrameNoel</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/36/1">Rep. Noel Frame</a>
+                        </td>
+
+                        <td>
+                            Noel.Frame@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/36">
+                                36
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">FrocktDavid</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/46/0">Senator David Frockt</a>
+                        </td>
+
+                        <td>
+                            David.Frockt@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/46">
+                                46
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GildonChris</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/25/2">Rep. Chris Gildon</a>
+                        </td>
+
+                        <td>
+                            Chris.Gildon@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/25">
+                                25
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GoehnerKeith</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/12/1">Rep. Keith Goehner</a>
+                        </td>
+
+                        <td>
+                            Keith.Goehner@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/12">
+                                12
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GoodmanRoger</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/45/1">Rep. Roger Goodman</a>
+                        </td>
+
+                        <td>
+                            Roger.Goodman@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/45">
+                                45
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GrahamJenny</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/6/2">Rep. Jenny Graham</a>
+                        </td>
+
+                        <td>
+                            Jenny.Graham@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/6">
+                                6
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GregersonMia</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/33/2">Rep. Mia Gregerson</a>
+                        </td>
+
+                        <td>
+                            Mia.Gregerson@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/33">
+                                33
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">GriffeyDan</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/35/1">Rep. Dan Griffey</a>
+                        </td>
+
+                        <td>
+                            Dan.Griffey@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/35">
+                                35
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HansenDrew</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/23/2">Rep. Drew Hansen</a>
+                        </td>
+
+                        <td>
+                            Drew.Hansen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/23">
+                                23
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HarrisPaul</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/17/2">Rep. Paul Harris</a>
+                        </td>
+
+                        <td>
+                            Paul.Harris@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/17">
+                                17
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HasegawaBob</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/11/0">Senator Bob Hasegawa</a>
+                        </td>
+
+                        <td>
+                            Bob.Hasegawa@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/11">
+                                11
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HawkinsBrad</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/12/0">Senator Brad Hawkins</a>
+                        </td>
+
+                        <td>
+                            Brad.Hawkins@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/12">
+                                12
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HobbsSteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/44/0">Senator Steve Hobbs</a>
+                        </td>
+
+                        <td>
+                            Steve.Hobbs@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/44">
+                                44
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HoffLarry</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/18/2">Rep. Larry Hoff</a>
+                        </td>
+
+                        <td>
+                            Larry.Hoff@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/18">
+                                18
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HolyJeff</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/6/0">Senator Jeff Holy</a>
+                        </td>
+
+                        <td>
+                            Jeff.Holy@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/6">
+                                6
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HoneyfordJim</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/15/0">Senator Jim Honeyford</a>
+                        </td>
+
+                        <td>
+                            Jim.Honeyford@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/15">
+                                15
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HudginsZack</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/11/1">Rep. Zack Hudgins</a>
+                        </td>
+
+                        <td>
+                            Zack.Hudgins@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/11">
+                                11
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">HuntSam</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/22/0">Senator Sam Hunt</a>
+                        </td>
+
+                        <td>
+                            Sam.Hunt@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/22">
+                                22
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">IrwinMorgan</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/31/2">Rep. Morgan Irwin</a>
+                        </td>
+
+                        <td>
+                            Morgan.Irwin@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/31">
+                                31
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">JenkinBill</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/16/1">Rep. Bill Jenkin</a>
+                        </td>
+
+                        <td>
+                            Bill.Jenkin@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/16">
+                                16
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">JinkinsLaurie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/27/1">Rep. Laurie Jinkins</a>
+                        </td>
+
+                        <td>
+                            Laurie.Jinkins@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/27">
+                                27
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KeiserKaren</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/33/0">Senator Karen Keiser</a>
+                        </td>
+
+                        <td>
+                            Karen.Keiser@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/33">
+                                33
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KilduffChristine</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/28/2">Rep. Christine Kilduff</a>
+                        </td>
+
+                        <td>
+                            Christine.Kilduff@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/28">
+                                28
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KingCurtis</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/14/0">Senator Curtis King</a>
+                        </td>
+
+                        <td>
+                            Curtis.King@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/14">
+                                14
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KirbySteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/29/2">Rep. Steve Kirby</a>
+                        </td>
+
+                        <td>
+                            Steve.Kirby@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/29">
+                                29
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KlippertBrad</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/8/1">Rep. Brad Klippert</a>
+                        </td>
+
+                        <td>
+                            Brad.Klippert@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/8">
+                                8
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KlobaShelley</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/1/2">Rep. Shelley Kloba</a>
+                        </td>
+
+                        <td>
+                            Shelley.Kloba@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/1">
+                                1
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KraftVicki</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/17/1">Rep. Vicki Kraft</a>
+                        </td>
+
+                        <td>
+                            Vicki.Kraft@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/17">
+                                17
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KretzJoel</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/7/2">Rep. Joel Kretz</a>
+                        </td>
+
+                        <td>
+                            Joel.Kretz@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/7">
+                                7
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">KudererPatty</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/48/0">Senator Patty Kuderer</a>
+                        </td>
+
+                        <td>
+                            Patty.Kuderer@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/48">
+                                48
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">LeavittMari</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/28/1">Rep. Mari Leavitt</a>
+                        </td>
+
+                        <td>
+                            Mari.Leavitt@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/28">
+                                28
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">LekanoffDebra</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/40/1">Rep. Debra Lekanoff</a>
+                        </td>
+
+                        <td>
+                            Debra.Lekanoff@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/40">
+                                40
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">LiiasMarko</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/21/0">Senator Marko Liias</a>
+                        </td>
+
+                        <td>
+                            Marko.Liias@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/21">
+                                21
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">LovelettLiz</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/40/0">Senator Liz Lovelett</a>
+                        </td>
+
+                        <td>
+                            Liz.Lovelett@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/40">
+                                40
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">LovickJohn</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/44/1">Rep. John Lovick</a>
+                        </td>
+
+                        <td>
+                            John.Lovick@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/44">
+                                44
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MacEwenDrew</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/35/2">Rep. Drew MacEwen</a>
+                        </td>
+
+                        <td>
+                            Drew.MacEwen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/35">
+                                35
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MacriNicole</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/43/1">Rep. Nicole Macri</a>
+                        </td>
+
+                        <td>
+                            Nicole.Macri@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/43">
+                                43
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MaycumberJacquelin</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/7/1">Rep. Jacquelin Maycumber</a>
+                        </td>
+
+                        <td>
+                            Jacquelin.Maycumber@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/7">
+                                7
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">McCaslinBob</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/4/2">Rep. Bob McCaslin</a>
+                        </td>
+
+                        <td>
+                            Bob.McCaslin@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/4">
+                                4
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">McCoyJohn</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/38/0">Senator John McCoy</a>
+                        </td>
+
+                        <td>
+                            John.McCoy@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/38">
+                                38
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MeadJared</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/44/2">Rep. Jared Mead</a>
+                        </td>
+
+                        <td>
+                            Jared.Mead@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/44">
+                                44
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MorganMelanie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/29/1">Rep. Melanie Morgan</a>
+                        </td>
+
+                        <td>
+                            Melanie.Morgan@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/29">
+                                29
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MorrisJeff</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/40/2">Rep. Jeff Morris</a>
+                        </td>
+
+                        <td>
+                            Jeff.Morris@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/40">
+                                40
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MosbruckerGina</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/14/2">Rep. Gina Mosbrucker</a>
+                        </td>
+
+                        <td>
+                            Gina.Mosbrucker@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/14">
+                                14
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">MulletMark</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/5/0">Senator Mark Mullet</a>
+                        </td>
+
+                        <td>
+                            Mark.Mullet@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/5">
+                                5
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">NguyenJoe</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/34/0">Senator Joe Nguyen</a>
+                        </td>
+
+                        <td>
+                            Joe.Nguyen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/34">
+                                34
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">O'BanSteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/28/0">Senator Steve O'Ban</a>
+                        </td>
+
+                        <td>
+                            Steve.OBan@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/28">
+                                28
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">OrcuttEd</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/20/2">Rep. Ed Orcutt</a>
+                        </td>
+
+                        <td>
+                            Ed.Orcutt@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/20">
+                                20
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">OrmsbyTimm</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/3/2">Rep. Timm Ormsby</a>
+                        </td>
+
+                        <td>
+                            Timm.Ormsby@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/3">
+                                3
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">Ortiz-SelfLillian</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/21/2">Rep. Lillian Ortiz-Self</a>
+                        </td>
+
+                        <td>
+                            Lillian.Ortiz-Self@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/21">
+                                21
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">OrwallTina</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/33/1">Rep. Tina Orwall</a>
+                        </td>
+
+                        <td>
+                            Tina.Orwall@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/33">
+                                33
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PaddenMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/4/0">Senator Mike Padden</a>
+                        </td>
+
+                        <td>
+                            Mike.Padden@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/4">
+                                4
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PalumboGuy</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/1/0">Senator Guy Palumbo</a>
+                        </td>
+
+                        <td>
+                            Guy.Palumbo@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/1">
+                                1
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PaulDave</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/10/2">Rep. Dave Paul</a>
+                        </td>
+
+                        <td>
+                            Dave.Paul@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/10">
+                                10
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PedersenJamie</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/43/0">Senator Jamie Pedersen</a>
+                        </td>
+
+                        <td>
+                            Jamie.Pedersen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/43">
+                                43
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PellicciottiMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/30/1">Rep. Mike Pellicciotti</a>
+                        </td>
+
+                        <td>
+                            Mike.Pellicciotti@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/30">
+                                30
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PetersonStrom</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/21/1">Rep. Strom Peterson</a>
+                        </td>
+
+                        <td>
+                            Strom.Peterson@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/21">
+                                21
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PettigrewEric</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/37/2">Rep. Eric Pettigrew</a>
+                        </td>
+
+                        <td>
+                            Eric.Pettigrew@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/37">
+                                37
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">PolletGerry</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/46/1">Rep. Gerry Pollet</a>
+                        </td>
+
+                        <td>
+                            Gerry.Pollet@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/46">
+                                46
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RamosBill</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/5/1">Rep. Bill Ramos</a>
+                        </td>
+
+                        <td>
+                            Bill.Ramos@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/5">
+                                5
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RandallEmily</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/26/0">Senator Emily Randall</a>
+                        </td>
+
+                        <td>
+                            Emily.Randall@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/26">
+                                26
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ReevesKristine</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/30/2">Rep. Kristine Reeves</a>
+                        </td>
+
+                        <td>
+                            Kristine.Reeves@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/30">
+                                30
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RiccelliMarcus</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/3/1">Rep. Marcus Riccelli</a>
+                        </td>
+
+                        <td>
+                            Marcus.Riccelli@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/3">
+                                3
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RiversAnn</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/18/0">Senator Ann Rivers</a>
+                        </td>
+
+                        <td>
+                            Ann.Rivers@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/18">
+                                18
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RobinsonJune</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/38/1">Rep. June Robinson</a>
+                        </td>
+
+                        <td>
+                            June.Robinson@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/38">
+                                38
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RolfesChristine</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/23/0">Senator Christine Rolfes</a>
+                        </td>
+
+                        <td>
+                            Christine.Rolfes@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/23">
+                                23
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RudeSkyler</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/16/2">Rep. Skyler Rude</a>
+                        </td>
+
+                        <td>
+                            Skyler.Rude@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/16">
+                                16
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">RyuCindy</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/32/1">Rep. Cindy Ryu</a>
+                        </td>
+
+                        <td>
+                            Cindy.Ryu@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/32">
+                                32
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SaldañaRebecca</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/37/0">Senator Rebecca Saldaña</a>
+                        </td>
+
+                        <td>
+                            Rebecca.Saldana@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/37">
+                                37
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SalomonJesse</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/32/0">Senator Jesse Salomon</a>
+                        </td>
+
+                        <td>
+                            Jesse.Salomon@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/32">
+                                32
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SantosSharon Tomiko</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/37/1">Rep. Sharon Tomiko Santos</a>
+                        </td>
+
+                        <td>
+                            SharonTomiko.Santos@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/37">
+                                37
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SchmickJoe</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/9/2">Rep. Joe Schmick</a>
+                        </td>
+
+                        <td>
+                            Joe.Schmick@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/9">
+                                9
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SchoeslerMark</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/9/0">Senator Mark Schoesler</a>
+                        </td>
+
+                        <td>
+                            Mark.Schoesler@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/9">
+                                9
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SellsMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/38/2">Rep. Mike Sells</a>
+                        </td>
+
+                        <td>
+                            Mike.Sells@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/38">
+                                38
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SennTana</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/41/1">Rep. Tana Senn</a>
+                        </td>
+
+                        <td>
+                            Tana.Senn@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/41">
+                                41
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SheaMatt</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/4/1">Rep. Matt Shea</a>
+                        </td>
+
+                        <td>
+                            Matt.Shea@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/4">
+                                4
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SheldonTim</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/35/0">Senator Tim Sheldon</a>
+                        </td>
+
+                        <td>
+                            Timothy.Sheldon@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/35">
+                                35
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ShewmakeSharon</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/42/2">Rep. Sharon Shewmake</a>
+                        </td>
+
+                        <td>
+                            Sharon.Shewmake@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/42">
+                                42
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ShortShelly</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/7/0">Senator Shelly Short</a>
+                        </td>
+
+                        <td>
+                            Shelly.Short@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/7">
+                                7
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SlatterVandana</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/48/1">Rep. Vandana Slatter</a>
+                        </td>
+
+                        <td>
+                            Vandana.Slatter@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/48">
+                                48
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SmithNorma</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/10/1">Rep. Norma Smith</a>
+                        </td>
+
+                        <td>
+                            Norma.Smith@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/10">
+                                10
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SpringerLarry</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/45/2">Rep. Larry Springer</a>
+                        </td>
+
+                        <td>
+                            Larry.Springer@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/45">
+                                45
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">StanfordDerek</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/1/1">Rep. Derek Stanford</a>
+                        </td>
+
+                        <td>
+                            Derek.Stanford@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/1">
+                                1
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SteeleMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/12/2">Rep. Mike Steele</a>
+                        </td>
+
+                        <td>
+                            mike.steele@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/12">
+                                12
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">StokesbaryDrew</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/31/1">Rep. Drew Stokesbary</a>
+                        </td>
+
+                        <td>
+                            Drew.Stokesbary@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/31">
+                                31
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">StonierMonica Jurado</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/49/2">Rep. Monica Jurado Stonier</a>
+                        </td>
+
+                        <td>
+                            Monica.Stonier@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/49">
+                                49
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SullivanPat</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/47/2">Rep. Pat Sullivan</a>
+                        </td>
+
+                        <td>
+                            Pat.Sullivan@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/47">
+                                47
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">SutherlandRobert</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/39/1">Rep. Robert Sutherland</a>
+                        </td>
+
+                        <td>
+                            Robert.Sutherland@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/39">
+                                39
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">TakkoDean</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/19/0">Senator Dean Takko</a>
+                        </td>
+
+                        <td>
+                            Dean.Takko@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/19">
+                                19
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">TarletonGael</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/36/2">Rep. Gael Tarleton</a>
+                        </td>
+
+                        <td>
+                            Gael.Tarleton@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/36">
+                                36
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ThaiMy-Linh</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/41/2">Rep. My-Linh Thai</a>
+                        </td>
+
+                        <td>
+                            My-Linh.Thai@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/41">
+                                41
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">TharingerSteve</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/24/2">Rep. Steve Tharinger</a>
+                        </td>
+
+                        <td>
+                            Steve.Tharinger@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/24">
+                                24
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ValdezJavier</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/46/2">Rep. Javier Valdez</a>
+                        </td>
+
+                        <td>
+                            Javier.Valdez@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/46">
+                                46
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">Van De WegeKevin</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/24/0">Senator Kevin Van De Wege</a>
+                        </td>
+
+                        <td>
+                            Kevin.VanDeWege@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/24">
+                                24
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">Van WervenLuanne</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/42/1">Rep. Luanne Van Werven</a>
+                        </td>
+
+                        <td>
+                            Luanne.VanWerven@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/42">
+                                42
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">VickBrandon</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/18/1">Rep. Brandon Vick</a>
+                        </td>
+
+                        <td>
+                            Brandon.Vick@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/18">
+                                18
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">VolzMike</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/6/1">Rep. Mike Volz</a>
+                        </td>
+
+                        <td>
+                            Mike.Volz@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/6">
+                                6
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WagonerKeith</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/39/0">Senator Keith Wagoner</a>
+                        </td>
+
+                        <td>
+                            Keith.Wagoner@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/39">
+                                39
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WalenAmy</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/48/2">Rep. Amy Walen</a>
+                        </td>
+
+                        <td>
+                            Amy.Walen@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/48">
+                                48
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WalshJim</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/19/1">Rep. Jim Walsh</a>
+                        </td>
+
+                        <td>
+                            Jim.Walsh@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/19">
+                                19
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WalshMaureen</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/16/0">Senator Maureen Walsh</a>
+                        </td>
+
+                        <td>
+                            Maureen.Walsh@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/16">
+                                16
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WarnickJudy</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/13/0">Senator Judy Warnick</a>
+                        </td>
+
+                        <td>
+                            Judith.Warnick@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/13">
+                                13
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WellmanLisa</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/41/0">Senator Lisa Wellman</a>
+                        </td>
+
+                        <td>
+                            Lisa.Wellman@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/41">
+                                41
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WilcoxJ.T.</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/2/2">Rep. J.T. Wilcox</a>
+                        </td>
+
+                        <td>
+                            JT.Wilcox@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/2">
+                                2
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WilsonClaire</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/30/0">Senator Claire Wilson</a>
+                        </td>
+
+                        <td>
+                            Claire.Wilson@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/30">
+                                30
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WilsonLynda</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/17/0">Senator Lynda Wilson</a>
+                        </td>
+
+                        <td>
+                            Lynda.Wilson@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/17">
+                                17
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">WylieSharon</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/49/1">Rep. Sharon Wylie</a>
+                        </td>
+
+                        <td>
+                            Sharon.Wylie@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/49">
+                                49
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">D</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">YbarraAlex</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/13/2">Rep. Alex Ybarra</a>
+                        </td>
+
+                        <td>
+                            Alex.Ybarra@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/13">
+                                13
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>2</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">YoungJesse</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/26/1">Rep. Jesse Young</a>
+                        </td>
+
+                        <td>
+                            Jesse.Young@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/26">
+                                26
+                            </a>
+                        </td>
+
+                            <td>
+                                <span>1</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <span class="hidden_col_for_sort">ZeigerHans</span>
+                                <a href="https://app.leg.wa.gov/pbc/memberEmail/25/0">Senator Hans Zeiger</a>
+                        </td>
+
+                        <td>
+                            Hans.Zeiger@leg.wa.gov
+                        </td>
+
+                        <td>
+                            <a href="http://app.leg.wa.gov/districtfinder/displaydistrict/25">
+                                25
+                            </a>
+                        </td>
+
+                            <td>
+                                <span style='display: none'>0</span>
+                            </td>
+
+                        <td>
+                            <span class="party_padding">R</span>
+                        </td>
+                    </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+
+<!-- Control for radio button selection -->
+<script type="text/javascript">
+
+    // Navigate to another section of the rosters when the radio button is selected.
+    $("input[name='rbMembers']").click(function () {
+        var value = $('input:radio[name=rbMembers]:checked').val();
+        if (value == 'House') {
+            window.location.href = '/MemberEmail/House';
+        }
+        else if (value == 'Senate') {
+            window.location.href = '/MemberEmail/Senate';
+        }
+        else {
+            window.location.href = '/MemberEmail';
+        }
+    });
+
+</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerContainer">
+            <!--this is where the footer will be inserted-->
+        </div>
+        </div>
+        <div id="headerNavigationFooter">
+    <!--this is where the header nav footer will be inserted for use-->
+    
+    <!-- header-->
+    <div id="headerElements">
+        <div id="mobileHeader">
+            <div class="headerImg">
+                <a class="ui-link" href="http://leg.wa.gov/">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source media="(min-width: 600px)" srcset="/assets/images/PubSiteBanner2013Tablet.jpg, /assets/images/PubSiteBanner2013Tablet2x.jpg 2x"></source>
+                    <source srcset="/assets/images/PubSiteBanner2013PhoneTall.jpg, /assets/images/PubSiteBanner2013PhoneTall2x.jpg 2x"></source>
+                    <!--[if IE 9]></video><![endif]-->
+                    <img alt="Washington State Legislature" srcset="/assets/images/PubSiteBanner2013PhoneTall.jpg, /assets/images/PubSiteBanner2013PhoneTall2x.jpg 2x">
+                </picture>
+                </a>
+</div>
+            <a href="#navPanel" class="menuBtn ui-btn-left ui-btn ui-btn-c ui-corner-all ">
+                Menu
+
+            </a>
+            <a id="searchPanel" href="#" class="searchBtn ui-nodisc-icon ui-btn-right ui-btn ui-btn-c ui-icon-search ui-btn-icon-notext ui-shadow ui-corner-all">
+                Search
+
+            </a>
+        </div>
+        <div id="divMobileSearch">
+            <fieldset data-theme="e" class="row ui-body-b">
+                <div class="col-xs-8 col-xs-offset-1">
+                    <label for="mobileSearchInput" class="offScreenLabel">Enter search terms</label>
+                    <input id="mobileSearchInput" class="ui-mini" type="text" placeholder="Enter search terms" name="customSearchBox" size="15">
+                </div>
+                <div class="col-xs-3  col-xs-offset-0">
+                    <a id="mobileSubmitSearchBtn" href="" class="searchBtn ui-btn ui-btn-c ui-shadow ui-mini ui-corner-all ui-btn-inline">
+                        Go
+                    </a>
+                </div>
+            </fieldset>
+        </div>
+        <div id="largePageHeader">
+            <div id="banner">
+                <div id="bannerImg">
+                    <a class="ui-link" href="http://leg.wa.gov/">
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(min-width: 768px)" srcset="/assets/images/PubSiteBanner2013Full.jpg 1x, /assets/images/PubSiteBanner2013Full2x.jpg 2x"></source>
+                        <!--[if IE 9]></video><![endif]-->
+                        <img alt="Washington State Legislature" srcset="/assets/images/PubSiteBanner2013PhoneTall.jpg">
+                    </picture>
+                    </a>
+                </div>
+                <div id="bannerGraphicBackground">
+                    <!-- div to show green background -->
+                </div>
+                <div id="divSearch">
+                    <label for="bannerSearchInput" class="offScreenLabel">Enter search terms</label>
+                    <input id="bannerSearchInput" type="text" name="customSearchBox" size="15">
+                    <img id="bannerSubmitSearchBtn" alt="Search" src="/assets/images/searchicon.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- navigation Panel-->
+    <div id="navigationLinks">
+        <div id="navigationList">
+            <div class="sidebarNavigation">
+                <ul style="padding:0; margin:0;" class="ui-listview ui-group-theme-b ui-theme-b" data-role="listview" data-theme="b" id="navigationSubsiteHeader" data-inset="false">
+                    <li data-theme="b" role="heading" class="ui-li-divider ui-bar-b ui-first-child ui-last-child" data-role="list-divider" id="NavigationTitleBar" data-icon="false">
+                        <a href="http://leg.wa.gov" style="background-color: #2B674D; border-color: #2B674D; text-decoration:none; color:white"><span>Legislature Home</span></a>
+                    </li>
+                </ul>
+                <ul class="root ms-core-listMenu-root static ui-listview ui-group-theme-b ui-theme-b" id="zz2_RootAspMenu" data-theme="b" data-role="listview" data-inset="false">
+                    <li class="static ui-first-child" data-icon="false"><a href="http://leg.wa.gov/house/" title="House" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">House of Representatives</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/senate/" title="Senate" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Senate</span></span></a></li>
+                    <li class="static" data-icon="false">
+                        <a href="https://app.leg.wa.gov/districtfinder" title="Find Your District" tabindex="0" class="visible-md visible-lg static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Find Your District</span></span></a>
+                        <a href="https://app.leg.wa.gov/districtfinder/" title="Find Your District" tabindex="0" class="hidden-md hidden-lg static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Find Your District</span></span></a>
+                  </li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/LawsAndAgencyRules/" title="Laws and Agency Rules" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Laws &amp; Agency Rules</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="https://apps.leg.wa.gov/billinfo/" title="Bill Information" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Bill Information</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/legislature/Pages/Calendar.aspx" title="Agendas, Schedules, and Calendars" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Agendas, Schedules, and Calendars</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/legislature/Pages/CommitteeListing.aspx" title="Legislative Committees" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Legislative Committees</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/legislature/Pages/ComingToTheLegislature.aspx" title="Visiting the Legislature" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Coming to the Legislature</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/legislature/Pages/LegislativeAgencies.aspx" title="Legislative Agencies" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Legislative Agencies</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="http://leg.wa.gov/lic" title="Legislative Information Center" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Legislative Information Center</span></span></a></li>
+                    <li class="static" data-icon="false"><a href="https://public.govdelivery.com:443/accounts/WALEG/subscriber/new" title="E-mail Notifications" tabindex="0" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Email Updates (GovDelivery)</span></span></a></li>
+                    <li class="static ui-last-child"><a data-ajax="false" href="#footerAnchor" class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode navSectionContentLink ui-btn"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">View All Links</span></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <ul data-role="listview" id="permanentLinks" style="display: none;" data-theme="b" data-inset="false" class="ui-listview ui-group-theme-b ui-theme-b">
+            <li data-role="list-divider" data-icon="false" role="heading" class="ui-li-divider ui-bar-b ui-first-child">
+                Main Sections
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov">
+                    Legislature Home
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/house">
+                    House of Representatives
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/senate">
+                    Senate
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="visible-md visible-lg navSectionContentLink ui-btn" href="https://app.leg.wa.gov/DistrictFinder/">
+                    Find Your District
+                </a>
+                <a class="navSectionContentLink ui-btn hidden-md hidden-lg " href="https://app.leg.wa.gov/districtfinder/">
+                    Find Your District
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/LawsAndAgencyRules/LawsAndAgencyRules">
+                    Laws &amp; Agency Rules
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="https://app.leg.wa.gov/billinfo/">
+                    Bill Information
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/legislature/Pages/Calendar.aspx">
+                    Agendas, Schedules, &amp; Calendars
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/legislature/Pages/CommitteeListing.aspx">
+                    Legislative Committees
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/legislature/Pages/LegislativeAgencies.aspx">
+                    Legislative Agencies
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="http://leg.wa.gov/lic/">
+                    Legislative Information Center 
+                </a>
+            </li>
+            <li data-icon="false">
+                <a class="navSectionContentLink ui-btn" href="https://public.govdelivery.com/accounts/WALEG/subscriber/new">
+                    Email Updates (GovDelivery)
+                </a>
+            </li>
+            <li data-icon="false" class="ui-last-child">
+                <a data-ajax="false" class="navSectionContentLink ui-btn" href="#footerAnchor">
+                    View all links
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="publicSiteFooter ui-body-b" id="footerAnchor" name="footerAnchor">
+            <div style="text-align:center; margin-top:6px; margin-bottom:6px">
+                <span style="font-family:Open Sans,Helvetica, Arial, sans-serif; font-size:1.2em; font-weight:700">Site Contents</span><br>
+                Selected content listed in alphabetical order under each group
+            </div>
+            <div class="row">
+                <div class="col-csm-6 col-md-3">
+                    <ul>
+                        <li class="footerHead">
+                            Let Your Voice Be Heard
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/ComingToTheLegislature.aspx">
+                                Come to the Legislature
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://app.leg.wa.gov/pbc/">
+                                Comment on a Bill
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://app.leg.wa.gov/memberemail/">
+                                Contact Your Legislators
+                            </a>
+                        </li>
+                        <br>
+                        <li class="footerHead">
+                            Find
+                        </li>
+                        <li>
+                            <a href="https://app.leg.wa.gov/billinfo/">
+                                Bills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/Calendar.aspx">
+                                Committee Meeting Schedules &amp; Agendas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://app.leg.wa.gov/DistrictFinder/">
+                                District &amp; Legislators
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/LawsAndAgencyRules/">
+                                Laws &amp; Rules
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/MemberInformation.aspx">
+                                Member Information / Rosters
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.tvw.org/" target="_blank">
+                                Video &amp; Audio on TVW
+                            </a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-csm-6 col-md-3">
+                    <ul>
+                        <li class="footerHead">
+                            About the Legislature
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/CommitteeListing.aspx">
+                                Committees
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/House">
+                                House of Representatives
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/pages/legislativeagencies.aspx">
+                                Legislative Agencies
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/lic">
+                                Legislative Information Center
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/">
+                                Legislature Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/Senate">
+                                Senate
+                            </a>
+                        </li>
+                        <br>
+                        <li class="footerHead">
+                            Track Legislation
+                        </li>
+                        <li>
+                            <a href="http://app.leg.wa.gov/DLR/user/login.aspx?ReturnUrl=%2fdlr%2fbilltracking%2fdefault.aspx">
+                                Bills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://public.govdelivery.com/accounts/WALEG/subscriber/new">
+                                Email Updates (GovDelivery)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/AboutLegRSS.aspx">
+                                RSS Feeds
+                           </a>
+                        </li>
+                        <li>
+                            <a href="http://wslwebservices.leg.wa.gov/">
+                                Web Services
+                            </a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="clearfix visible-csm">
+                </div>
+                <div class="clearfix visible-sm">
+                </div>
+                <div class="col-csm-6 col-md-3">
+                    <ul>
+                        <li class="footerHead">
+                            Additional Information
+                       </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/pages/adainfo.aspx">
+                                Accessibility Information
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/civiced/Pages/default.aspx">
+                                Civic Education
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@leg.wa.gov">
+                                Comments about this site
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/pages/contactus.aspx">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/pages/disclaimer.aspx">
+                                Disclaimer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/Pages/WSLEmployment.aspx">
+                                Employment Opportunities
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/giftcenter">
+                                Gift Center
+                           </a>
+                        </li>
+                        <li>
+                            <a href="https://app.leg.wa.gov/billinfo/glossary.aspx">
+                                Glossary of Terms
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/help/Pages/default.aspx">
+                                Help
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/history">
+                                History of the State Legislature
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://leg.wa.gov/legislature/pages/PrivacyNotice.aspx">
+                                Privacy Notice
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://app.leg.wa.gov/reportstothelegislature/">
+                                Reports to the Legislature
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://search.leg.wa.gov/">
+                                Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-csm-6 col-md-3  pull-left">
+                    <ul>
+                        <li class="footerHead">
+                            Outside the Legislature
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://app.leg.wa.gov/DistrictFinder/?congress=1">
+                                Congress - the Other Washington
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.governor.wa.gov/">
+                                Governor's Website
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://fortress.wa.gov/ofm/fnspublic">
+                                OFM Fiscal Note Website
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.courts.wa.gov/">
+                                Washington Courts
+                            </a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="footerHead">
+                        Translate
+
+
+
+                    </div>
+                    <div id="google_translate_element">
+                    </div>
+                    <script type="text/javascript">
+                        //<![CDATA[
+
+                        function googleTranslateElementInit() {
+                            try {
+                                new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                            } catch (e) {
+
+                            }
+                        }
+                        //]]>
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                        //<![CDATA[
+
+                        //]]>
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+        
+        <script src="/MemberEmail/bundles/jqueryval?v=4GhqOoMIj7I9kdO-Ma-V0zR76H1kQvhrybltTVMLTQg1"></script>
+
+
+        
+</body>
+</html>

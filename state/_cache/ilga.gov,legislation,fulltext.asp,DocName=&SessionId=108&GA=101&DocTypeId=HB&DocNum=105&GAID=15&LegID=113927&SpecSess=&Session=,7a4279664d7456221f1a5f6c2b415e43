@@ -1,0 +1,687 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:18:39 GMT
+Content-Length: 105414
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0105</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0105&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0105&GA=101&SessionId=108&DocTypeId=HB&LegID=113927&DocNum=105&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0105.htm'></a>&nbsp;&nbsp;<a href='fulltext.asp?DocName=10100HB0105eng&GA=101&SessionId=108&DocTypeId=HB&LegID=113927&DocNum=105&GAID=15&Session='>Engrossed</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0105eng.htm'></a><br><a href='fulltext.asp?DocName=10100HB0105ham001&GA=101&SessionId=108&DocTypeId=HB&LegID=113927&DocNum=105&GAID=15&Session='>House Amendment 001</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0105ham001.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0105lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0105&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0105lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0105lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0105&GAID=15&DocTypeID=HB&LegID=113927&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0105eng 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning local government.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Fire Investigation Act is amended  by </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>changing Sections 6, 6.1, 7, 8, 9, 9a, 9b, 9e, 9f, 12, 13, and </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>13.1 and  by adding Sections 3, 8a, and 9g as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/3 new)</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 3. </code></u><u><code>Definitions. In this Act:</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Chief of the fire department" means the senior fire </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>officer of a municipal fire department, volunteer fire </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>department, or fire protection district.</code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Local authority having jurisdiction" means a unit of local </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>government or fire protection district located within the </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>State.</code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Local fire prevention and life safety standards" means the </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>fire prevention and life safety standards adopted by a local </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>authority having jurisdiction.</code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Local officers" means the officers responsible for fire </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>and building code enforcement within their unit of local </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>government or fire protection district.</code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Notice" means a notice of violation issued to an owner, </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>occupant, or other person interested in a premises that </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>identifies violations of the fire prevention and life safety </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>rules adopted by the Office.</code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Office" means the Office of the Illinois State Fire </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>Marshal and its officers, investigators, inspectors, and </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>administrative employees.</code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Order" means an administrative order issued to an owner, </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>occupant, or other person interested in a premises that directs </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>immediate compliance with the fire prevention and life safety </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>rules adopted by the Office.</code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Owner, occupant, or other person interested in the </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>premises" means the owner, occupant, or other person with a </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>legal interest in any building, structure, or the real property </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>upon which the building or structure is situated.</code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Premises" means any building or structure or the real </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>property upon which the building or structure is situated.</code></u><code> </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"State Fire Marshal" means the Illinois State Fire Marshal </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>or his or her designee.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/6)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 6)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 6. </code><code>Investigation and record of fires; Office of the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>State Fire Marshal. </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The chief of the fire department </code><strike><code>of every municipality </code></strike></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><strike><code>in
+which a fire department is established and the
+fire chief of </code></strike></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><strike><code>every legally organized fire protection district</code></strike><code> shall
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>investigate the cause, origin and circumstances of every fire </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>occurring
+in </code><u><code>a</code></u><code> </code><strike><code>such</code></strike><code> municipality or fire protection district, </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>or in any area or on
+any property which is furnished fire </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>protection by the fire department of
+such municipality or fire </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>protection district, by
+which property has been destroyed or </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>damaged, and shall especially make
+investigation as to whether </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>such fire was the result of carelessness or
+design. Such </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>investigation shall be begun within two days, not including
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Sunday, of the occurrence of such fire, and the Office </code><strike><code>of the </code></strike></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><strike><code>State Fire
+Marshal</code></strike><code> shall have the right to supervise and direct </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>such investigation
+whenever it deems it expedient or necessary. </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>The officer making
+investigation of fires occurring in cities, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>villages, towns, fire
+protection districts or townships shall </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>forthwith notify the Office </code><strike><code>of
+the State Fire Marshal</code></strike><code> and shall </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>by the 15th of the month following
+the occurrence of
+the fire, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>furnish to the Office a statement of all facts
+relating to the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>cause and origin of the fire, and such other information
+as may </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>be called for in a format approved or on forms
+provided by the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Office. </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) In every case in which a fire is determined to be
+a
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>contributing factor in a death, the coroner of the county where </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the death occurred shall report the death to the
+Office </code><strike><code>of the </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>State Fire Marshal</code></strike><code> as provided in Section 3-3013 of the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Counties Code. </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The Office </code><strike><code>of
+the State Fire Marshal</code></strike><code> shall keep a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>record of all fires occurring in the
+State, together with all </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>facts, statistics and circumstances, including
+the origin of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the fires, which may be determined by the investigations
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>provided by this act; such record shall at all times be open to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the
+public inspection, and such portions of it as the State </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Director of
+Insurance may deem necessary shall be transcribed </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>and forwarded to him
+within fifteen days from the first of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>January of each year. </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) In addition to the reporting of fires, the chief of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>fire department shall furnish to the Office such other </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>information as the State Fire Marshal deems of importance to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the fire services.
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 95-224, eff. 1-1-08; 96-1059, eff. 7-14-10.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/6.1)</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 6.1. </code><u><code>Fire and hazardous material incident reporting </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>rules</code></u><code>  </code><strike><code>Rules</code></strike><code>. </code><code>The State Fire Marshal may adopt necessary rules </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>for the administration of the reporting of fires, hazardous </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>material incidents, and other incidents or events that the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>State Fire Marshal deems of importance to the fire services. </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>The reporting of such information shall be based upon the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>nationally recognized standards of the United States Fire </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Administration's National </code><u><code>Fire</code></u><code> </code><strike><code>fire</code></strike><code> Incident Reporting System </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>(</code><u><code>NFIRS</code></u><code> </code><strike><code>NIFRS</code></strike><code>).</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 95-224, eff. 1-1-08.)</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/7)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 7)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 7. </code><u><code>Arson investigations; arrests; prosecution.</code></u><code> </code><code>The </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Office </code><strike><code>of the State Fire Marshal</code></strike><code> shall, when in its opinion
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>further investigation is necessary, take or cause to be taken </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the
+testimony on oath of all persons supposed to be cognizant </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>of any facts
+or to have means of knowledge in relation to the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>matter as to which an
+examination is herein required to be </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>made, and shall cause the same to
+be reduced to writing; and if </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>it shall be of the opinion that there is
+evidence sufficient to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>charge any person with the crime of arson, or
+with the attempt </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>to commit the crime of arson, or of conspiracy to
+defraud, or </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>criminal conduct in connection with such fire, it shall
+cause </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>such person to be arrested and charged with such offense or </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>either
+of them, and shall furnish to the proper prosecuting </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>attorney all such
+evidence, together with the names of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>witnesses and all of the
+information obtained by it, including </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>a copy of all pertinent and
+material testimony taken in the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>case.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 80-147.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/8)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 8)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 8. </code><u><code>Summons, oaths, and affirmations.</code></u><code> </code><code>The Office </code><strike><code>of the </code></strike></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><strike><code>State Fire Marshal</code></strike><code> shall have power in any
+county in the State </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>of Illinois to summon and compel the attendance of
+witnesses </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>before it to testify in relation to any matter which is by the
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provision of this Act a subject of inquiry and investigation, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>and may
+require the production of any book, paper or other </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>document it deems
+pertinent thereto, and it may require the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>prompt disclosure of the
+beneficiaries of any trust by the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>trustee, the disclosure by any named
+beneficiary of a trust of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>all persons who have any direct or indirect
+interest in the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>trust or who derive any direct or indirect benefit
+therefrom, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the disclosure of a principal by his nominee, and the
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>disclosure by a corporation of each person who holds 5% or more </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>of the
+shares of stock of the corporation. The Office is hereby </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>authorized
+and empowered to administer oaths and affirmations </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>to any persons
+appearing as witnesses before it, and false </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>swearing in any manner or
+proceeding aforesaid is perjury and </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>shall be punished as such.  Any
+witness who refuses to be sworn, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>or who refuses to testify, or disclose
+any information sought </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>by the Office to which it is entitled, or who
+disobeys any </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>lawful order of the Office, or who fails or refuses to
+produce </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>any book, paper or other document touching any matter under
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>examination, or who is guilty of any contemptuous conduct after </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>being
+summoned to appear before the Office to give testimony in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>relation
+to any matter or subject under investigation as </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>aforesaid, is guilty of
+a Class A misdemeanor and it shall be </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the duty of the State
+Fire Marshal to make
+complaint against </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the person or persons so refusing to comply with the
+summons or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>order of the State Fire Marshal, before the
+circuit court in </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the
+county in which the investigation is being had, and upon </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the filing of
+such complaint, such cause shall proceed in the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>same manner as other
+criminal cases.  </code><strike><code>The Office of the State </code></strike></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><strike><code>Fire Marshal  shall have the
+authority at all times of day or </code></strike></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><strike><code>night in the performance of the duties
+imposed by the </code></strike></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><strike><code>provisions of this Act, to enter upon and examine any
+building </code></strike></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><strike><code>or premises where any fire has occurred and other buildings and
+</code></strike></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><strike><code>premises adjoining or near the same.  All investigations held by </code></strike></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><strike><code>or
+under the direction of the Office of the State Fire Marshal  </code></strike></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><strike><code>may, in its
+discretion, be private, and persons other than </code></strike></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><strike><code>those required to be
+present by the provisions of this Act, may </code></strike></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><strike><code>be excluded from the place
+where such investigation is held, </code></strike></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><strike><code>and witnesses may be kept separate and
+apart from each other </code></strike></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><strike><code>and not allowed to communicate with each other
+until they have </code></strike></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>been examined.</code></strike><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 80-147</code><code>.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/8a new)</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 8a. </code></u><u><code>Right of entry; examination of witnesses. </code></u><u><code>The </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>Office shall have the authority at all times of day or night in </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>the performance of the duties imposed by the provisions of this </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>Act, to enter upon and examine any building or premises where </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>any fire has occurred and other buildings and premises </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>adjoining or near the same. All investigations held by or under </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>the direction of the Office may, in its discretion, be private, </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>and persons other than those required to be present by the </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>provisions of this Act, may be excluded from the place where </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>such investigation is held, and witnesses may be kept separate </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>and apart from each other and not allowed to communicate with </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>each other until they have been examined.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 9)</code><code>
+</code><code>
+</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 9. </code><u><code>Inspections, duties, rules, and enforcement.</code></u><code> </code><code>No </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>person, being the owner, occupant</code><u><code>,</code></u><code> or </code><u><code>other person interested </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>in the premises</code></u><code> </code><strike><code>lessee of any
+building or other structure</code></strike><code> which </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>is so occupied or so situated as to
+endanger persons or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>property, shall permit such building or structure by
+reason of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>faulty construction, age, lack of proper repair, or any other
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>cause to become especially liable to fire, or to become liable </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>to cause
+injury or damage by collapsing or otherwise.  No </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>person, being the
+owner, occupant</code><u><code>,</code></u><code> or </code><u><code>other person interested </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>in the premises</code></u><code> </code><strike><code>lessee of any building, or structure</code></strike><code>, shall </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>keep or
+maintain or allow to be kept or maintained on such </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>premises, combustible
+or explosive material or </code><u><code>flammable</code></u><code> </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><strike><code>inflammable </code></strike><code>conditions, which endanger the
+safety of said </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>buildings or premises.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The Office </code><strike><code>of the State Fire Marshal</code></strike><code> shall adopt and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>promulgate such
+reasonable </code><u><code>fire prevention and life safety</code></u><code> </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>rules as may be necessary to protect the public from the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>dangers specified in the preceding paragraph.  Such rules shall </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>require
+the installation, inspection or maintenance of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>necessary fire
+extinguishers, fire suppression systems, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>chemical fire suppression
+systems and fire alarm and protection
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>devices.  A copy of any rule </code><u><code>adopted by the Office under this </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>Act that is</code></u> <strike><code>,</code></strike><code> certified by the State Fire Marshal
+shall be </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>received in evidence in all courts of this State
+with the same </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>effect as the original.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Subject to Section 9g, all</code></u><code> </code><strike><code>All</code></strike><code> local officers charged with </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the duty of investigating fires </code><u><code>or conducting fire prevention </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>and life safety inspections</code></u><code> shall
+enforce such rules, under the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>direction of the Office </code><strike><code>of the State Fire
+Marshal</code></strike><code>, except in </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>those localities which have adopted fire
+prevention and </code><u><code>life</code></u><code> </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>safety standards </code><u><code>that have been determined by the Office to be</code></u><code> </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>equal to or higher than such rules
+adopted by the Office </code><strike><code>of the </code></strike></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><strike><code>State Fire Marshal</code></strike><code>.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Subject to Section 9g, the</code></u><code> </code><strike><code>The</code></strike><code> Office </code><strike><code>of the State Fire </code></strike></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>Marshal</code></strike><code>, and the officers of cities,
+villages, towns</code><u><code>, </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>townships, municipalities,</code></u><code> and fire protection districts </code><strike><code>by </code></strike></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><strike><code>this Act,</code></strike><code> charged with
+the duty of investigating </code><u><code>fires or </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>conducting fire prevention and life safety inspections under </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>this Act</code></u><code> </code><strike><code>fire</code></strike><code>, shall, under the direction of the
+Office </code><strike><code>of the </code></strike></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><strike><code>State Fire Marshal</code></strike><code>, inspect and examine at reasonable hours,
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>any premises, and the buildings and other structures thereon, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>and if,
+such dangerous condition or fire hazard is found to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>exist contrary to
+the rules herein referred to, or if a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>dangerous condition or fire hazard
+is found to exist as </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>specified in the first paragraph of this Section,
+and the rules </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>herein referred to are not applicable to such dangerous
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>condition or fire hazard, shall </code><u><code>identify</code></u><code> </code><strike><code>order</code></strike><code> the dangerous </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>condition </code><strike><code>removed or
+remedied</code></strike><code>, and shall so notify the owner, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>occupant</code><u><code>,</code></u><code> or other person
+interested in the premises.  Service </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>of the notice upon the owner,
+occupant</code><u><code>,</code></u><code> or other </code><u><code>person </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>interested in the premises</code></u><code> </code><strike><code>interested person</code></strike><code> shall be in </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>person</code><u><code>, by electric transmission,</code></u><code> or by registered
+or certified </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>mail. </code><u><code>If no corrective action is taken by the owner, occupant, </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>or other person interested in the premises to remove or remedy </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>the dangerous condition or fire hazard within a reasonable </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>time, as determined by the Office or the local authority having </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>jurisdiction, an order shall be served upon the owner, </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>occupant, or other person interested in the premises directing </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>that the dangerous condition be removed or remedied </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>immediately. Service of the order upon the owner, occupant, or </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>other person interested in the premises shall be in person, by </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>electronic transmission, or by registered or certified mail.</code></u><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The amendatory Act of 1975 is not a limit on any home rule </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>unit. </code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 85-1434</code><code>.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9a)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 10)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 9a. </code><u><code>Appeals and hearings.</code></u><code> </code><code>The owner</code><u><code>, occupant,</code></u><code> or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>other person interested in such </code><strike><code>building or</code></strike><code>
+premises, within 10 </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>days after receiving </code><u><code>an order from the Office</code></u><code> </code><strike><code>such notice</code></strike><code>, may </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>appeal </code><u><code>the order in writing</code></u><code> </code><strike><code>from
+orders of
+deputies of the </code></strike></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><strike><code>Office of the State Fire Marshal,</code></strike><code> to the Office </code><strike><code>of the
+State </code></strike></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><strike><code>Fire Marshal</code></strike><code>. The Office shall thereupon conduct a hearing </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>pursuant
+to the Illinois Administrative Procedure Act, as </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>amended, </code><u><code>and the administrative hearing rules adopted by the </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>Office,</code></u><code> and </code><u><code>the State Fire Marshal shall</code></u><code> either sustain,
+modify </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>or revoke the order. If the order is
+sustained or modified, or
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>if no appeal is made to the Office, it shall be the duty of the
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>owner</code><u><code>,</code></u><code> </code><strike><code>or</code></strike><code> occupant</code><u><code>, or other person interested in the premises</code></u><code> </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>to </code><u><code>immediately</code></u><code> comply with such order. </code><u><code>The process for appeals </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>of orders served upon an owner, occupant, or other person </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>interested in the premises by a local authority having </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>jurisdiction shall be according to local ordinance.</code></u><code> </code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 84-954.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9b)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 11)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 9b. </code><u><code>Administrative review.</code></u><code> </code><code>When an order to remove or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>remedy a
+dangerous condition or fire hazard has been modified </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>or sustained by the
+</code><strike><code>Office of the</code></strike><code> State Fire Marshal, the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>owner, occupant, or other person interested in the premises</code></u><code> </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><strike><code>person</code></strike><code> against whom the order has
+been entered  may seek review </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>in the circuit court of the county in which
+the property </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>affected by the order is located, pursuant to the
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Administrative Review Law, as amended.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 84-1308.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9e)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 14)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 9e. </code><code>
+</code><u><code>Penalties; concurrent jurisdiction. A willful</code></u><code> </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><strike><code>Wilful</code></strike><code> failure, neglect</code><u><code>,</code></u><code> or refusal to comply (1) with the
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>order of the Office </code><strike><code>of the State Fire Marshal</code></strike><code>
+or other officers </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>after it
+has become final by reason of failure to prosecute an </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>appeal as provided
+by this Act, or (2) with the judgment of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>circuit court sustaining or
+modifying the order of the Office </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>is a petty offense, and in the
+event of a continuance of such </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>willful</code></u><code> </code><strike><code>wilful</code></strike><code> failure, neglect</code><u><code>,</code></u><code> or refusal to
+comply with such </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>order, each day's continuance is a separate offense.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The provisions of Sections 9, 9a, 9b, </code><strike><code>9c, 9d</code></strike><code> and 9e shall </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>not be
+construed to affect or repeal any ordinances of any </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>local authority having jurisdiction</code></u><code> </code><strike><code>municipality</code></strike><code>
+relating to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>building inspection, fire limits, fire prevention, or safety
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>standards, but the jurisdiction of the Office of the State Fire </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Marshal shall,
+in such </code><u><code>local authorities having jurisdiction</code></u><code> </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>municipalities</code></strike><code>, be concurrent with that of the </code><u><code>local</code></u><code> </code><strike><code>municipal</code></strike><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>authorities </code><u><code>having jurisdiction</code></u><code>.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 80-147.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9f)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 9f. </code><u><code>Duties owed to fire fighters.</code></u><code> </code><code>The owner or </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>occupier of the premises and his or her agents owe
+fire </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>fighters who are on the premises in the performance of their </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>official
+duties conducting fire investigations or inspections </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>or responding to fire
+alarms or actual fires on the premises a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>duty of reasonable care in the
+maintenance of the premises </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>according to applicable fire safety codes,
+regulations, </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>ordinances, and generally applicable safety standards, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>including
+any decisions by the Illinois courts. The owner or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>occupier of the premises and
+his or her agents are not relieved </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>of the duty of reasonable care if the fire
+fighter is injured </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>due to the lack of maintenance of the premises in the course
+of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>responding to a fire, false alarm, or his or her inspection or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>investigation
+of the premises.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><strike><code>For purposes of this Section, the term "premises" means any </code></strike></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><strike><code>building or
+structure or the real property upon which the </code></strike></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><strike><code>building or structure is
+situated.</code></strike><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>This Section applies to all causes of action that have </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>accrued, will accrue,
+or are currently pending before a court </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>of competent jurisdiction, including
+courts of review.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 93-233, eff. 7-22-03.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/9g new)</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 9g. </code></u><u><code>Applicability within home rule units. </code></u><u><code>The </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>provisions of Sections 9, 9a, 9b, and 9e of this Act do not </code></u></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><u><code>apply within the geographical boundaries of home rule units </code></u></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><u><code>that have adopted fire prevention and life safety standards by </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>local ordinance, except with respect to State-owned buildings </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>or State licensed facilities. Nothing in this Act prohibits any </code></u></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><u><code>home rule unit from voluntarily adopting, in their entirety, </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>the fire prevention and life safety rules adopted by the Office </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>and enforcing those rules concurrently with the Office. Nothing </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>in this Act prohibits the Office from inspecting State-owned </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>buildings or State licensed facilities that are located within </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>the geographical boundaries of home rule units.</code></u><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/12)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 16)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 12. </code><u><code>Insurance assessment.</code></u><code> </code><code>Every fire insurance
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>company, whether upon the stock or mutual plan, and every other </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>personal
+or business entity doing
+any form of fire insurance </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>business in the State of Illinois, shall pay
+to the Department </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>of
+Insurance in the month of March, such amount as may be
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>assessed by the Department of Insurance, which may not exceed </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>1% of
+the gross fire, sprinkler leakage, riot, civil
+commotion, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>explosion and motor vehicle fire risk premium receipts of
+such </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>company or other entity from such
+business done in the State of </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Illinois during the preceding year, and
+shall make an annual </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>report or statement under oath to the Department
+specifying the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>amount of such premiums received during the preceding
+year. The </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Department of Insurance shall pay the money so received
+into </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the Fire Prevention Fund, to be used as specified
+in Section </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>13.1 of this Act.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 85-718.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/13)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 17)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 13. </code><u><code>Insurance assessment penalties.</code></u><code> </code><code>Every company, </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>firm, co-partnership, association or
+aggregation of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>individuals, or body of persons insuring each other, or
+their </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>agents, representatives, or attorneys in fact, who shall refuse </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>or
+neglect to comply with the requirements of Section 12 of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>this Act,
+is liable, in addition to the amount due, for such </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>penalty and
+interest charges as are provided for under Section </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>412 of the "Illinois
+Insurance Code". The Director through the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Attorney General,
+may institute an action in the name of the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>People of the State of Illinois,
+in any court of competent </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>jurisdiction for the recovery of the amount of
+such taxes and </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>penalties due, and prosecute the same to final judgment,
+and </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>take such steps as are necessary to collect the same. If such </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>violation
+is by a company, association, co-partnership or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>aggregation of individuals
+licensed to do business in the State </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>of Illinois, such license may be revoked
+by the Department of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Insurance.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 83-43.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/13.1)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 127 1/2, par. 17.1)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 13.1. </code><code>Fire Prevention Fund. </code><code> </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) There shall be a special fund in the State Treasury
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>known as the Fire Prevention Fund.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) The following moneys shall be deposited into the Fund:</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Moneys received by the Department of Insurance </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under Section 12 of this Act.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) All fees and reimbursements received by the Office </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>of the State Fire Marshal</code></strike><code>.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) All receipts from boiler and pressure vessel </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>certification, as
+provided in Section 13 of the Boiler and </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Pressure Vessel Safety Act.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) Such other moneys as may be provided by law.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The moneys in the Fire Prevention Fund shall be used, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>subject to
+appropriation, for the following purposes:</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Of the moneys deposited into the fund under Section </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>12 of this Act,
+12.5% shall be available for the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>maintenance of the Illinois Fire Service
+Institute and the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expenses, facilities, and structures incident thereto,
+and </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for making transfers into the General Obligation Bond </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Retirement and
+Interest Fund for debt service requirements </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>on bonds issued by the State of
+Illinois after January 1, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1986 for the purpose of constructing a training
+facility </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for use by the Institute. An additional 2.5% of the moneys </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>deposited into the Fire Prevention Fund shall be available </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to the Illinois Fire Service Institute for support of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Cornerstone Training Program. </code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Of the moneys deposited into the Fund under Section </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>12 of this Act,
+10% shall be available for the maintenance </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the Chicago Fire Department
+Training Program and the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expenses, facilities and structures incident
+thereto, in </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>addition to any moneys payable from the Fund to the City of
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Chicago pursuant to the Illinois Fire Protection Training </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) For making payments to local governmental agencies </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and individuals
+pursuant to Section 10 of the Illinois Fire </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Protection Training Act.</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) For the maintenance and operation of the Office of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the State Fire
+Marshal, and the expenses incident thereto.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4.5) For the maintenance, operation, and capital </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>expenses of the Mutual Aid Box Alarm System (MABAS). </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4.6) For grants awarded by the Small Fire-fighting and </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Ambulance Service Equipment Grant Program established by </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section 2.7 of the State Fire Marshal Act.</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) For any other purpose authorized by law.</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c-5)  As soon as possible after </code><u><code>April 8, 2008 (</code></u><code>the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>effective date of </code><u><code>Public Act 95-717)</code></u><code> </code><strike><code>this amendatory Act of the </code></strike></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><strike><code>95th General Assembly,</code></strike><code> the Comptroller shall order the transfer </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and the Treasurer shall transfer $2,000,000 from the Fire </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Prevention Fund to the Fire Service and Small Equipment Fund, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>$9,000,000 from the Fire Prevention Fund to the Fire Truck </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>Revolving Loan Fund, and $4,000,000 from the Fire Prevention </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Fund to the Ambulance Revolving Loan Fund. Beginning on July 1, </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>2008, each month, or as soon as practical thereafter, an amount </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>equal to $2 from each fine received shall be transferred from </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the Fire Prevention Fund to the Fire Service and Small </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Equipment Fund, an amount equal to $1.50 from each fine </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>received shall be transferred from the Fire Prevention Fund to </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the Fire Truck Revolving Loan Fund, and an amount equal to $4 </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>from each fine received shall be transferred from the Fire </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Prevention Fund to the Ambulance Revolving Loan Fund. These </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>moneys shall be transferred from the moneys deposited into the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Fire Prevention Fund pursuant to Public Act 95-154, together </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>with not more than 25% of any unspent appropriations from the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>prior fiscal year. These moneys may be allocated to the Fire </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Truck Revolving Loan Fund, Ambulance Revolving Loan Fund, and </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Fire Service and Small Equipment Fund at the discretion of the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Office </code><strike><code>of the State Fire Marshal</code></strike><code> for the purpose of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>implementation of this Act.
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0105 Engrossed</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 02931 AWJ 47939 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) Any portion of the Fire Prevention Fund remaining </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>unexpended at the
+end of any fiscal year which is not needed </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>for the maintenance and expenses of the
+Office </code><strike><code>of the State </code></strike></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><strike><code>Fire Marshal</code></strike><code> or the maintenance and expenses of the
+Illinois </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Fire Service Institute, shall remain in the Fire Prevention </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Fund for the exclusive and restricted uses provided in </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>subsections
+ (c) and (c-5) of this Section.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) The Office </code><strike><code>of the State Fire Marshal</code></strike><code> shall keep on file </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>an itemized
+statement of all expenses incurred which are </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>payable from the Fund, other
+than expenses incurred by the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Illinois Fire Service Institute, and shall
+approve all vouchers </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>issued therefor before they are submitted to the State
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Comptroller for payment.  Such vouchers shall be allowed and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>paid in the
+same manner as other claims against the State.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 96-286, eff. 8-11-09; 96-1176, eff. 7-22-10; </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>97-114, eff. 1-1-12; 97-901, eff. 1-1-13.)</code><code>
+</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(425 ILCS 25/10 rep.)</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 10. </code><code>The Fire Investigation Act is amended  by </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>repealing Section 10.</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 97. </code><code>Severability. </code><code>The provisions of this Act are </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>severable under Section 1.31 of the Statute on Statutes.</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

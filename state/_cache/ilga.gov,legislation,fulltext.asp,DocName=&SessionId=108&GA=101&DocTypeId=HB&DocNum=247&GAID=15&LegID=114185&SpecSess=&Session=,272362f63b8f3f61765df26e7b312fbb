@@ -1,0 +1,385 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:27:27 GMT
+Content-Length: 42460
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0247</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0247&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0247&GA=101&SessionId=108&DocTypeId=HB&LegID=114185&DocNum=247&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0247.htm'></a>&nbsp;&nbsp;<a href='fulltext.asp?DocName=10100HB0247eng&GA=101&SessionId=108&DocTypeId=HB&LegID=114185&DocNum=247&GAID=15&Session='>Engrossed</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0247eng.htm'></a><br><a href='fulltext.asp?DocName=10100HB0247ham001&GA=101&SessionId=108&DocTypeId=HB&LegID=114185&DocNum=247&GAID=15&Session='>House Amendment 001</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0247ham001.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0247lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0247&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0247lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0247lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0247&GAID=15&DocTypeID=HB&LegID=114185&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0247eng 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning education.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The School Code is amended  by changing Section </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>27-24.2 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(105 ILCS 5/27-24.2)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 122, par. 27-24.2)</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 27-24.2. </code><code>Safety education; driver education course. </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Instruction shall be given in safety education in each of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>grades one through 8, equivalent to one class period each week, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and any school district which maintains
+grades 9 through 12 </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>shall offer a driver education course in any such school
+which </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>it operates. Its curriculum shall include content dealing with </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Chapters 11, 12, 13, 15, and 16 of the Illinois Vehicle Code, </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the rules adopted pursuant to those Chapters insofar as they </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>pertain to the operation of motor vehicles, and the portions of </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the Litter Control Act relating to the operation of motor </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>vehicles.  The course of instruction given in grades 10 through </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>12 shall include an emphasis on the development of knowledge, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>attitudes, habits, and skills necessary for the safe operation </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>of motor vehicles, including motorcycles insofar as they can be </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>taught in the classroom, and instruction on distracted driving </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>as a major traffic safety issue.  In addition, the course shall </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>include instruction on special hazards existing at and required </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>safety and driving precautions that must be observed at </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>emergency situations, highway construction and maintenance </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>zones, and railroad crossings and the approaches thereto. </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Beginning with the 2017-2018 school year, the course shall also </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>include instruction concerning law enforcement procedures for </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>traffic stops, including a demonstration of the proper actions </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>to be taken during a traffic stop and appropriate interactions </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>with law enforcement.  The course of instruction required of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>each eligible student at the high school level shall consist of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>a minimum of 30 clock hours of classroom instruction and a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>minimum of 6 clock hours of individual behind-the-wheel </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>instruction in a dual control car on public roadways taught by </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>a driver education instructor endorsed by the State Board of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Education. Both the classroom instruction part and the practice </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>driving
+part of such driver education course shall be open to a </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>resident or
+non-resident student attending a non-public school </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>in the district wherein the
+course is offered. Each student </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>attending any public or non-public high school
+in the district </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>must receive a passing grade in at least 8 courses during the
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>previous 2 semesters prior to enrolling in a driver education </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>course, or the
+student shall not be permitted to enroll in the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>course; provided that the local
+superintendent of schools (with </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>respect to a student attending a public high
+school in the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>district) or chief school administrator (with respect to a
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>student attending a non-public high school in the district) may </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>waive the
+requirement if the superintendent or chief school </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>administrator, as the case
+may be, deems it to be in the best </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>interest of the student. A student may be allowed to commence </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the
+classroom instruction part of such driver education course </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>prior to reaching
+age 15 if such student then will be eligible </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>to complete the entire course
+within 12 months after being </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>allowed to commence such classroom instruction.</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A school district may offer a driver education course in a </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>school by contracting with a commercial driver training school </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>to provide both the classroom instruction part and the practice </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>driving part or either one without having to request a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>modification or waiver of administrative rules of the State </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Board of Education if the school district approves the action </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>during a public hearing on whether to enter into a contract </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>with a commercial driver training school. The public hearing </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall be held at a regular or special school board meeting </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>prior to entering into such a contract.  If a school district </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>chooses to approve a contract with a commercial driver training </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>school, then the district must provide evidence to the State </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Board of Education that the commercial driver training school </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>with which it will contract holds a license issued by the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Secretary of State under Article IV of Chapter 6 of the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Illinois Vehicle Code and that each instructor employed by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>commercial driver training school to provide instruction to </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>students served by the school district holds a valid teaching </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>license issued under the requirements of this Code and rules of </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>the State Board of Education.  Such evidence must include, but </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>need not be limited to, a list of each instructor assigned to </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>teach students served by the school district, which list shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>include the instructor's name, personal identification number </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>as required by the State Board of Education, birth date, and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>driver's license number. Once the contract is entered into, the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>school district shall notify the State Board of Education of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>any changes in the personnel providing instruction either (i) </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>within  15 calendar days after an instructor leaves the program </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>or (ii) before a new instructor is hired.  Such notification </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>shall include the instructor's name, personal identification </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>number as required by the State Board of Education, birth date, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and driver's license number.   If the school district maintains </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>an Internet website, then the district shall post a copy of the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>final contract between the district and the commercial driver </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>training school on the district's Internet website. If no </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Internet website exists, then the school district shall make </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>available the contract upon request. A record of all materials </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>in relation to the contract must be maintained by the school </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>district and made available to parents and guardians upon </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>request. The instructor's date of birth and driver's license </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>number and any other personally identifying information as </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>deemed by the federal Driver's Privacy Protection Act of 1994 </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>must be redacted from any public materials. </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Such a course may be commenced immediately after the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>completion of a prior
+course. Teachers of such courses shall </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>meet the licensure requirements of
+this Code and regulations of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the State Board as to qualifications. </code><u><code>A school district that </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>contracts with a third party to teach a driver education course </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>under this Section must ensure the teacher meets the educator </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>licensure and endorsement requirements under Article 21B and </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>must follow the same evaluation and observation requirements </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>that apply to non-tenured teachers under Article 24A. The </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>teacher evaluation must be conducted by a school administrator </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>employed by the school district and must be submitted annually </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>to the district superintendent and all school board members for </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>oversight purposes.</code></u><code> </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to rules of the State Board of Education, the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>school district may charge a reasonable fee, not to exceed $50, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>to students who participate in the course, unless a student is </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>unable to pay for such a course, in which event the fee for </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>such a student must be waived.  However, the district may </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>increase this fee to an amount not to exceed $250 by school </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>board resolution following a public hearing on the increase, </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>which increased fee must be waived for students who participate </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>in the course and are unable to pay for the course. The total </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>amount from driver education fees and reimbursement from the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>State for driver education must not exceed the total cost of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>the driver education program in any year and must be deposited </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>into the school district's driver education fund as a separate </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>line item budget entry.  All moneys deposited into the school </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>district's driver education fund must be used solely for the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>funding of a high school driver education program approved by </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0247 Engrossed</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04957 AXK 49966 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the State Board of Education that uses driver education </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>instructors endorsed by the State Board of Education. </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-642, eff. 7-28-16; 99-720, eff. 1-1-17; </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>100-465, eff. 8-31-17.)</code><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

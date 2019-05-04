@@ -1,0 +1,763 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:26:18 GMT
+Content-Length: 142072
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0226</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0226&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0226&GA=101&SessionId=108&DocTypeId=HB&LegID=114149&DocNum=226&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0226.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0226lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0226&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0226lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0226lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0226&GAID=15&DocTypeID=HB&LegID=114149&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0226 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0226</pre></b></center><p>&nbsp;</p>Introduced , by Rep. Robert Martwick<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><code> </code><td class="synopsis"><code>40 ILCS 5/14-110</code></td><td class="synopsis"><code>&nbsp;&nbsp;</code><code>from Ch. 108 1/2, par. 14-110</code></td><code> </code></tr><tr><td class="synopsis"><code>40 ILCS 5/14-152.1</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the State Employee Article of the Illinois Pension Code. </code><code>Authorizes a State policeman to elect to establish eligible creditable </code><code>service for up to 5 years of service as a full-time law enforcement officer </code><code>employed by the federal government or by a state or local government </code><code>located outside of Illinois for which credit is not held in any other </code><code>public employee pension fund or retirement system. Provides that to obtain </code><code>that credit, the applicant must file a written application with the Board </code><code>no later than 3 years after the effective date of the amendatory Act, </code><code>accompanied by evidence of eligibility acceptable to the Board and payment </code><code>of a specified amount to be determined by the Board. Excludes a benefit </code><code>increase resulting from the amendatory Act from the definition of "new </code><code>benefit increase". Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td><td class="xsl"><center>PENSION IMPACT NOTE ACT MAY APPLY</center></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning public employee benefits.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+
+
+ </code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Illinois Pension Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Sections 14-110 and 14-152.1 as follows:</code><br>&nbsp;<code>
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/14-110)</code><code>&nbsp;&nbsp;</code><code>(from Ch. 108 1/2, par. 14-110)</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 14-110. </code><code>Alternative retirement annuity. </code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) Any member who has withdrawn from service with not less </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>than 20
+years of eligible creditable service and has attained </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>age 55, and any
+member who has withdrawn from service with not </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>less than 25 years of
+eligible creditable service and has </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>attained age 50, regardless of whether
+the attainment of either </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>of the specified ages occurs while the member is
+still in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>service, shall be entitled to receive at the option of the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>member,
+in lieu of the regular or minimum retirement annuity, a </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>retirement  annuity
+computed as follows:</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) for periods of service as a noncovered employee:
+if </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>retirement occurs on or after January 1, 2001, 3% of final
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>average compensation for each year of creditable service; </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>if retirement occurs
+before January 1, 2001, 2 1/4% of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>final average compensation for each of the
+first 10 years </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of creditable service, 2 1/2% for each year above 10 years </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to
+and including 20 years of creditable service, and 2 3/4% </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>for each year of
+creditable service above 20 years; and</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) for periods of eligible creditable service as a </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>covered employee:
+if retirement occurs on or after January </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1, 2001, 2.5% of final average
+compensation for each year </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of creditable service; if retirement occurs before
+January </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1, 2001, 1.67% of final average compensation for each of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the first
+10 years of such service, 1.90% for each of the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>next 10 years of such service,
+2.10% for each year of such </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>service in excess of 20 but not exceeding 30, and
+2.30% for </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>each year in excess of 30.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Such annuity shall be subject to a maximum of 75% of final </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>average
+compensation if retirement occurs before January 1, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>2001 or to a maximum
+of 80% of final average compensation if </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>retirement occurs on or after January
+1, 2001.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>These rates shall not be applicable to any service </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>performed
+by a member as a covered employee which is not </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>eligible creditable service.
+ Service as a covered employee </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>which is not eligible creditable service
+shall be subject to </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the rates and provisions of Section 14-108.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) For the purpose of this Section, "eligible creditable </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>service" means
+creditable service resulting from service in one </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>or more of the following
+positions:</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) State policeman;</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) fire fighter in the fire protection service of a </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>department;</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) air pilot;</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) special agent;</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) investigator for the Secretary of State;</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) conservation police officer;</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(7) investigator for the Department of Revenue or the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois Gaming Board;</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(8) security employee of the Department of Human </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services;</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(9) Central Management Services security police </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>officer;</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10) security employee of the Department of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Corrections or the Department of Juvenile Justice;</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(11) dangerous drugs investigator;</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(12) investigator for the Department of State Police;</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(13) investigator for the Office of the Attorney </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>General;</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(14) controlled substance inspector;</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(15) investigator for the Office of the State's </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Attorneys Appellate
+Prosecutor;</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(16) Commerce Commission police officer;</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(17) arson investigator;</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(18) State highway maintenance worker;</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(19) security employee of the Department of Innovation </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and Technology; or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(20) transferred employee. </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A person employed in one of the positions specified in this </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>subsection is
+entitled to eligible creditable service for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>service credit earned under this
+Article while undergoing the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>basic police training course approved by the
+Illinois Law </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Enforcement Training
+Standards Board, if
+completion of that </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>training is required of persons serving in that position.
+For </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>the purposes of this Code, service during the required basic </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>police
+training course shall be deemed performance of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>duties of the specified
+position, even though the person is not </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>a sworn peace officer at the time of
+the training.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A person under paragraph (20) is entitled to eligible </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>creditable service for service credit earned under this Article </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>on and after his or her transfer by Executive Order No. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>2003-10, Executive Order No. 2004-2, or Executive Order No. </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>2016-1. </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) For the purposes of this Section:</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) The term "State policeman" includes any title or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>position
+in the Department of State Police that is held by </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>an individual employed
+under the State Police Act.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The term "fire fighter in the fire protection </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>service of a
+department" includes all officers in such fire </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>protection service
+including fire chiefs and assistant </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>fire chiefs.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) The term "air pilot" includes any employee whose </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>official job
+description on file in the Department of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Central Management Services, or
+in the department by which </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>he is employed if that department is not covered
+by the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Personnel Code, states that his principal duty is the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>operation of
+aircraft, and who possesses a pilot's license; </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>however, the change in this
+definition made by this </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>amendatory Act of 1983 shall not operate to exclude
+any </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>noncovered employee who was an "air pilot" for the purposes </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of this
+Section on January 1, 1984.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(4) The term "special agent" means any person who by </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reason of
+employment by the Division of Narcotic Control, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Bureau of Investigation
+or, after July 1, 1977, the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Division of Criminal Investigation, the
+Division of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Internal Investigation, the Division of Operations, or any
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>other Division or organizational
+entity in the Department </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of State Police is vested by law with duties to
+maintain </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>public order, investigate violations of the criminal law of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this
+State, enforce the laws of this State, make arrests </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and recover property.
+The term "special agent" includes any </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>title or position in the Department
+of State Police that is </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>held by an individual employed under the State
+Police Act.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(5) The term "investigator for the Secretary of State" </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>means any person
+employed by the Office of the Secretary of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>State and vested with such
+investigative duties as render </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>him ineligible for coverage under the Social
+Security Act </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>by reason of Sections 218(d)(5)(A), 218(d)(8)(D) and </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(l)(1)
+of that Act.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>A person who became employed as an investigator for the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Secretary of
+State between January 1, 1967 and December 31, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1975, and who has served as
+such until attainment of age </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>60, either continuously or with a single break
+in service </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of not more than 3 years duration, which break terminated </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>before
+January 1, 1976, shall be entitled to have his </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>retirement annuity
+calculated  in accordance with </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsection (a), notwithstanding
+that he has less than 20 </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>years of credit for such service.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(6) The term "Conservation Police Officer" means any </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person employed
+by the Division of Law Enforcement of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department of Natural Resources and
+vested with such law </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enforcement duties as render him ineligible for coverage
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under the Social Security Act by reason of Sections </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(5)(A), 218(d)(8)(D),
+and 218(l)(1) of that Act.  The </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>term "Conservation Police Officer" includes
+the positions </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Chief Conservation Police Administrator and Assistant
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Conservation Police Administrator.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(7) The term "investigator for the Department of </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Revenue" means any
+person employed by the Department of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Revenue and vested with such
+investigative duties as render </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>him ineligible for coverage under the Social
+Security Act </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>by reason of Sections 218(d)(5)(A), 218(d)(8)(D) and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(l)(1)
+of that Act.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The term "investigator for the Illinois Gaming Board" </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>means any
+person employed as such by the Illinois Gaming </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Board and vested with such
+peace officer duties as render </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the person ineligible for coverage under the Social
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Security Act by reason of Sections 218(d)(5)(A), </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(8)(D), and 218(l)(1)
+of that Act.
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(8) The term "security employee of the Department of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Human Services"
+means any person employed by the Department </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Human Services who (i) is
+employed at the Chester Mental </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Health Center and has daily contact with the
+residents </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>thereof, (ii) is employed within a security unit at a </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>facility
+operated by the Department and has daily contact </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>with the residents of the
+security unit, (iii) is employed </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>at a facility operated by the Department
+that includes a </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>security unit and is regularly scheduled to work at least
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>50% of his or her working hours within that security unit, </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or (iv) is a mental health police officer.
+"Mental health </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>police officer" means any person employed by the Department </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+Human Services in a position pertaining to the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department's mental health and
+developmental disabilities </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>functions who is vested with such law enforcement
+duties as </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>render the person ineligible for coverage under the Social </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Security
+Act by reason of Sections 218(d)(5)(A), </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(8)(D) and 218(l)(1) of that
+Act.  "Security unit" </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>means that portion of a facility that is devoted to
+the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>care, containment, and treatment of persons committed to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Department of
+Human Services as sexually violent </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>persons, persons unfit to stand trial, or
+persons not </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>guilty by reason of insanity.  With respect to past </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employment,
+references to the Department of Human Services </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>include its predecessor, the
+Department of Mental Health </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and Developmental Disabilities.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The changes made to this subdivision (c)(8) by Public </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Act 92-14 apply to persons who retire on or after January </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>1,
+2001, notwithstanding Section 1-103.1.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(9) "Central Management Services security police </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>officer" means any
+person employed by the Department of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Central Management Services who is
+vested with such law </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>enforcement duties as render him ineligible for
+coverage </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under the Social Security Act by reason of Sections </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(5)(A),
+218(d)(8)(D) and 218(l)(1) of that Act.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(10) For a member who first became an employee under </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Article before July 1, 2005, the term "security </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employee of the Department of Corrections or the Department </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Juvenile Justice"
+means any employee of the Department </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of Corrections or the Department of Juvenile Justice or the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>former
+Department of Personnel, and any member or employee </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the Prisoner
+Review Board, who has daily contact with </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>inmates or youth by working within a
+correctional facility </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or Juvenile facility operated by the Department of Juvenile </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Justice or who is a parole officer or an employee who has
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>direct contact with committed persons in the performance of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>his or her
+job duties. For a member who first becomes an </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employee under this Article on or after July 1, 2005, the  </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>term means  an employee of the Department of Corrections or </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Department of Juvenile Justice who is any of the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following: (i) officially headquartered at a correctional </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>facility or Juvenile facility operated by the Department of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Juvenile Justice, (ii) a parole officer, (iii) a member of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the apprehension unit, (iv) a member of the intelligence </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>unit, (v) a member of the sort team, or (vi) an </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>investigator.</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(11) The term "dangerous drugs investigator" means any </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person who is
+employed as such by the Department of Human </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(12) The term "investigator for the Department of State </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Police" means
+a person employed by the Department of State </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Police who is vested under
+Section 4 of the Narcotic </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Control Division Abolition Act with such
+law enforcement </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>powers as render him ineligible for coverage under the
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Social Security Act by reason of Sections 218(d)(5)(A), </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(8)(D) and
+218(l)(1) of that Act.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(13) "Investigator for the Office of the Attorney </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>General" means any
+person who is employed as such by the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Office of the Attorney General and
+is vested with such </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>investigative duties as render him ineligible for
+coverage </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under the Social Security Act by reason of Sections </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(5)(A),
+218(d)(8)(D) and 218(l)(1) of that Act.  For </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the period before January 1,
+1989, the term includes all </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>persons who were employed as investigators by the
+Office of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the Attorney General, without regard to social security </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>status.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(14) "Controlled substance inspector" means any person </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>who is employed
+as such by the Department of Professional </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Regulation and is vested with such
+law enforcement duties </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>as render him ineligible for coverage under the Social
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Security Act by reason of Sections 218(d)(5)(A), </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(8)(D) and 218(l)(1) of
+that Act.  The term </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>"controlled substance inspector" includes the Program
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Executive of Enforcement and the Assistant Program </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Executive of Enforcement.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(15) The term "investigator for the Office of the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>State's Attorneys
+Appellate Prosecutor" means a person </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employed in that capacity on a full
+time basis under the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>authority of Section 7.06 of the State's Attorneys
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Appellate Prosecutor's Act.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(16) "Commerce Commission police officer" means any </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>person employed
+by the Illinois Commerce Commission who is </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>vested with such law
+enforcement duties as render him </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ineligible for coverage under the Social
+Security Act by </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>reason of Sections 218(d)(5)(A), 218(d)(8)(D), and
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(l)(1) of that Act.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(17) "Arson investigator" means any person who is </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employed as such by
+the Office of the State Fire Marshal </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and is vested with such law enforcement
+duties as render </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the person ineligible for coverage under the Social </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Security
+Act by reason of Sections 218(d)(5)(A), </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>218(d)(8)(D), and 218(l)(1) of that
+Act.  A person who was </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employed as an arson
+investigator on January 1, 1995 and is </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>no longer in service but not yet
+receiving a retirement </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>annuity may convert his or her creditable service for
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>employment as an arson investigator into eligible </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service by paying
+to the System the difference </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>between the employee contributions actually paid
+for that </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>service and the amounts that would have been contributed if </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the
+applicant were contributing at the rate applicable to </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>persons with the same
+social security status earning </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>eligible creditable service on the date of
+application.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(18) The term "State highway maintenance worker" means </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>a person who is
+either of the following:</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) A person employed on a full-time basis by the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois
+Department of Transportation in the position </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+highway maintainer,
+highway maintenance lead </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>worker,
+highway maintenance lead/lead worker,
+heavy </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>construction equipment operator,
+power shovel </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>operator, or
+bridge mechanic; and
+whose principal </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>responsibility is to perform, on the roadway, the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>actual
+maintenance necessary to keep the highways that </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>form a part of the State
+highway system in serviceable </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>condition for vehicular traffic.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) A person employed on a full-time basis by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Illinois
+State Toll Highway Authority in the position </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+equipment operator/laborer H-4,
+equipment  </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>operator/laborer  H-6,
+welder  H-4,
+welder  H-6,
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>mechanical/electrical H-4,
+mechanical/electrical H-6,
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>water/sewer H-4,
+water/sewer H-6,
+sign maker/hanger </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>H-4,
+sign maker/hanger H-6,
+roadway lighting H-4,
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>roadway lighting H-6,
+structural H-4,
+structural H-6,
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>painter H-4, or
+painter H-6; and
+whose principal </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>responsibility is to perform, on the roadway, the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>actual
+maintenance necessary to keep the Authority's </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>tollways in serviceable condition
+for vehicular </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>traffic.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(19) The term "security employee of the Department of </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Innovation and Technology" means a person who was  a </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>security employee of the Department of Corrections or the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department of  Juvenile Justice,  was transferred to the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Department of Innovation and Technology pursuant to </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Executive Order 2016-01,  and continues to perform similar </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>job functions under that Department. </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(20) "Transferred employee" means an employee who was </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>transferred to the Department of Central Management </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Services by Executive Order No. 2003-10 or Executive Order </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>No. 2004-2 or transferred to the Department of Innovation </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>and Technology by Executive Order No. 2016-1, or both, and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>was entitled to eligible creditable service for services </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>immediately preceding the transfer. </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) A security employee of the Department of Corrections or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the Department of Juvenile Justice, a security
+employee of the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Department of Human Services who is not a mental health police
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>officer, and a security employee of the Department of </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Innovation and Technology shall not be eligible for the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>alternative retirement annuity provided
+by this Section unless </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>he or she meets the following minimum age and service
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>requirements at the time of retirement:</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) 25 years of eligible creditable service and age 55; </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(ii) beginning January 1, 1987, 25 years of eligible </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service
+and age 54, or 24 years of eligible </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service and age 55; or</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(iii) beginning January 1, 1988, 25 years of eligible </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service
+and age 53, or 23 years of eligible </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service and age 55; or</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(iv) beginning January 1, 1989, 25 years of eligible </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service
+and age 52, or 22 years of eligible </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service and age 55; or</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(v) beginning January 1, 1990, 25 years of eligible </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service
+and age 51, or 21 years of eligible </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service and age 55; or</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(vi) beginning January 1, 1991, 25 years of eligible </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service
+and age 50, or 20 years of eligible </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>creditable service and age 55.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Persons who have service credit under Article 16 of this </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Code for service
+as a security employee of the Department of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Corrections or the Department of Juvenile Justice, or the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>Department
+of Human Services in a position requiring </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>certification as a teacher may
+count such service toward </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>establishing their eligibility under the service
+requirements </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>of this Section; but such service may be used only for
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>establishing such eligibility, and not for the purpose of </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>increasing or
+calculating any benefit.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) If a member enters military service while working in a </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>position in
+which eligible creditable service may be earned, </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>and returns to State
+service in the same or another such </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>position, and fulfills in all other
+respects the conditions </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>prescribed in this Article for credit for military
+service, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>such military service shall be credited as eligible creditable
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>service for the purposes of the retirement annuity prescribed </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>in this Section.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) For purposes of calculating retirement annuities under </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>this
+Section, periods of service rendered after December 31, </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>1968 and before
+October 1, 1975 as a covered employee in the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>position of special agent,
+conservation police officer, mental </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>health police officer, or investigator
+for the Secretary of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>State, shall be deemed to have been service as a
+noncovered </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>employee, provided that the employee pays to the System prior </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>to
+retirement an amount equal to (1) the difference between the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>employee
+contributions that would have been required for such </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>service as a
+noncovered employee, and the amount of employee </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>contributions actually
+paid, plus (2) if payment is made after </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>July 31, 1987, regular interest
+on the amount specified in item </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>(1) from the date of service to the date
+of payment.</code><code>
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For purposes of calculating retirement annuities under </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>this Section,
+periods of service rendered after December 31, </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>1968 and before January 1,
+1982 as a covered employee in the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>position of investigator for the
+Department of Revenue shall be </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>deemed to have been service as a noncovered
+employee, provided </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>that the employee pays to the System prior to retirement
+an </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>amount equal to (1) the difference between the employee </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>contributions
+that would have been required for such service as </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>a noncovered employee,
+and the amount of employee contributions </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>actually paid, plus (2) if payment
+is made after January 1, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>1990, regular interest on the amount specified in
+item (1) from </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the date of service to the date of payment.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) A State policeman may elect, not later than January 1, </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>1990, to
+establish eligible creditable service for up to 10 </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>years of his service as
+a policeman under Article 3, by filing </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>a written election with the Board,
+accompanied by payment of an </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>amount to be determined by the Board, equal to
+(i) the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>difference between the amount of employee and employer
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>contributions transferred to the System under Section 3-110.5, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>and the
+amounts that would have been contributed had such </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>contributions been made
+at the rates applicable to State </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>policemen, plus (ii) interest thereon at
+the effective rate for </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>each year, compounded annually, from the date of
+service to the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>date of payment.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to the limitation in subsection (i), a State </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>policeman may elect,
+not later than July 1, 1993, to establish </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>eligible creditable service for
+up to 10 years of his service </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>as a member of the County Police Department
+under Article 9, by </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>filing a written election with the Board, accompanied
+by </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>payment of an amount to be determined by the Board, equal to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>(i) the
+difference between the amount of employee and employer </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>contributions
+transferred to the System under Section 9-121.10 </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and the amounts that would
+have been contributed had those </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>contributions been made at the rates
+applicable to State </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>policemen, plus (ii) interest thereon at the effective
+rate for </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>each year, compounded annually, from the date of service to the
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>date of payment.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) Subject to the limitation in subsection (i), a State </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>policeman or
+investigator for the Secretary of State may elect </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>to establish eligible
+creditable service for up to 12 years of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>his service as a policeman under
+Article 5, by filing a written </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>election with the Board on or before January
+31, 1992, and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>paying to the System by January 31, 1994 an amount to be
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>determined by the Board, equal to (i) the difference between </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the amount of
+employee and employer contributions transferred </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>to the System under Section
+5-236, and the amounts that would </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>have been contributed had such
+contributions been made at the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>rates applicable to State policemen, plus
+(ii) interest thereon </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>at the effective rate for each year, compounded
+annually, from </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the date of service to the date of payment.</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to the limitation in subsection (i), a State </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>policeman,
+conservation police officer, or investigator for </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>the Secretary of State may
+elect to establish eligible </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>creditable service for up to 10 years of
+service as a sheriff's </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>law enforcement employee under Article 7, by filing
+a written </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>election with the Board on or before January 31, 1993, and </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>paying
+to the System by January 31, 1994 an amount to be </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>determined by the Board,
+equal to (i) the difference between </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the amount of employee and
+employer contributions transferred </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>to the System under Section
+7-139.7, and the amounts that would </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>have been contributed had such
+contributions been made at the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>rates applicable to State policemen, plus
+(ii) interest thereon </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>at the effective rate for each year, compounded
+annually, from </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the date of service to the date of payment.</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to the limitation in subsection (i), a State </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>policeman,
+conservation police officer, or investigator for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the Secretary of State may
+elect to establish eligible </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>creditable service for up to 5 years of
+service as a police </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>officer under Article 3, a policeman under Article 5, a </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>sheriff's law enforcement employee under Article 7, a member of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the county police department under Article 9, or a police </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>officer under Article 15 by filing
+a written election with the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Board and paying
+to the System an amount to be determined by </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the Board,
+equal to (i) the difference between the amount of </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>employee and
+employer contributions transferred to the System </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>under Section
+3-110.6, 5-236, 7-139.8, 9-121.10, or 15-134.4 </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>and the amounts that would have been contributed had such
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>contributions been made at the rates applicable to State </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>policemen, plus
+(ii) interest thereon at the effective rate for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>each year, compounded
+annually, from the date of service to the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>date of payment.</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to the limitation in subsection (i), an </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>investigator for the Office of the Attorney General, or an </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>investigator for the Department of Revenue, may elect to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>establish eligible creditable service for up to 5 years of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>service as a police officer under Article 3, a policeman under </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Article 5, a sheriff's law enforcement employee under Article </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>7, or a member of the county police department under Article 9 </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>by filing a written election with the Board within 6 months  </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>after August 25, 2009 (the effective date of Public Act 96-745) </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>and paying to the System an amount to be determined by the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Board, equal to (i) the difference between the amount of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>employee and employer contributions transferred to the System </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>under Section 3-110.6, 5-236, 7-139.8, or 9-121.10 and the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>amounts that would have been contributed had such contributions </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>been made at the rates applicable to State policemen, plus (ii) </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>interest thereon at the actuarially assumed rate for each year, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>compounded annually, from the date of service to the date of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>payment.</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Subject to the limitation in subsection (i), a State </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>policeman, conservation police officer, investigator for the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Office of the Attorney General, an investigator for the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Department of Revenue, or investigator for the Secretary of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>State may elect to establish eligible creditable service for up </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>to 5 years of service as a person employed by a participating </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>municipality to perform police duties, or law enforcement </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>officer employed on a full-time basis by a forest preserve </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>district under Article 7, a county corrections officer, or a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>court services officer under Article 9, by filing a written </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>election with the Board within 6 months after August 25, 2009 </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>(the effective date of Public Act 96-745)  and paying to the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>System an amount to be determined by the Board, equal to (i) </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the difference between the amount of employee and employer </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>contributions transferred to the System under Sections 7-139.8 </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and 9-121.10 and the amounts that would have been contributed </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>had such contributions been made at the rates applicable to </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>State policemen, plus (ii) interest thereon at the actuarially </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>assumed rate for each year, compounded annually, from the date </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of service to the date of payment.</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(i) The total amount of eligible creditable service </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>established by any
+person under subsections (g), (h), (j), (k), </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><strike><code>and</code></strike><code> (l)</code><u><code>, and (l-5)</code></u><code> of this
+Section shall not exceed 12 years.</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(j) Subject to the limitation in subsection (i), an </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>investigator for
+the Office of the State's Attorneys Appellate </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Prosecutor or a controlled
+substance inspector may elect to
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>establish eligible creditable service for up to 10 years of his </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>service as
+a policeman under Article 3 or a sheriff's law </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>enforcement employee under
+Article 7, by filing a written </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>election with the Board, accompanied by
+payment of an amount to </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>be determined by the Board, equal to (1) the
+difference between </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>the amount of employee and employer contributions
+transferred </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>to the System under Section 3-110.6 or 7-139.8, and the amounts
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>that would have been contributed had such contributions been </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>made at the
+rates applicable to State policemen, plus (2) </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>interest thereon at the
+effective rate for each year, </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>compounded annually, from the date of service
+to the date of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>payment.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(k) Subject to the limitation in subsection (i) of this </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Section, an
+alternative formula employee may elect to establish </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>eligible creditable
+service for periods spent as a full-time </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>law enforcement officer or full-time
+corrections officer </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>employed by the federal government or by a state or local
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>government located outside of Illinois, for which credit is not </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>held in any
+other public employee pension fund or retirement </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>system.  To obtain this
+credit, the applicant must file a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>written application with the Board by March
+31, 1998, </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>accompanied by evidence of eligibility acceptable to the Board </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>and
+payment of an amount to be determined by the Board, equal </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>to (1) employee
+contributions for the credit being established, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>based upon the applicant's
+salary on the first day as an </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>alternative formula employee after the employment
+for which </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>credit is being established and the rates then applicable to
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>alternative formula employees, plus (2) an amount determined by </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the Board
+to be the employer's normal cost of the benefits </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>accrued for the credit being
+established, plus (3) regular </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>interest on the amounts in items (1) and (2) from
+the first day </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>as an alternative formula employee after the employment for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 21 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>which
+credit is being established to the date of payment.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(l) Subject to the limitation in subsection (i), a security </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>employee of
+the Department of Corrections may elect, not later </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>than July 1, 1998, to
+establish eligible creditable service for </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>up to 10 years of his or her service
+as a policeman under </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Article 3, by filing a written election with the Board,
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>accompanied by payment of an amount to be determined by the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Board, equal to
+(i) the difference between the amount of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>employee and employer contributions
+transferred to the System </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>under Section 3-110.5, and the amounts that would
+have been </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>contributed had such contributions been made at the rates </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>applicable
+to security employees of the Department of </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Corrections, plus (ii) interest
+thereon at the effective rate </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>for each year, compounded annually, from the date
+of service to </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>the date of payment.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(l-5) Subject to the limitation in subsection (i) of this </code></u></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><u><code>Section, a State policeman may elect to establish eligible </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>creditable service for up to 5 years of service as a full-time </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>law enforcement officer employed by the federal government or </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>by a state or local government located outside of Illinois for </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>which credit is not held in any other public employee pension </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>fund or retirement system. To obtain this credit, the applicant </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><u><code>must file a written application with the Board no later than 3 </code></u></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><u><code>years after the effective date of this amendatory Act of the </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>101st General Assembly, accompanied by evidence of eligibility </code></u></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><u><code>acceptable to the Board and payment of an amount to be </code></u></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 22 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><u><code>determined by the Board, equal to (1) employee contributions </code></u></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><u><code>for the credit being established, based upon the applicant's </code></u></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><u><code>salary on the first day as an alternative formula employee </code></u></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><u><code>after the employment for which credit is being established and </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>the rates then applicable to alternative formula employees, </code></u></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>plus (2) an amount determined by the Board to be the employer's </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>normal cost of the benefits accrued for the credit being </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>established, plus (3) regular interest on the amounts in items </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>(1) and (2) from the first day as an alternative formula </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>employee after the employment for which credit is being </code></u></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><u><code>established to the date of payment.</code></u><code> </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(m) The amendatory changes to this Section made by this </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>amendatory Act of the 94th General Assembly apply only to: (1) </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>security employees of the Department of Juvenile Justice </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>employed by the Department of Corrections before the effective </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>date of this amendatory Act of the 94th General Assembly and </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>transferred to the Department of Juvenile Justice by this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>amendatory Act of the 94th General Assembly; and (2) persons </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>employed by the Department of Juvenile Justice on or after the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>effective date of this amendatory Act of the 94th General </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Assembly who are required by subsection (b) of Section 3-2.5-15 </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>of the Unified Code of Corrections to have any bachelor's or </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>advanced degree from an accredited college or university or, in </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the case of persons who provide vocational training, who are </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>required to have adequate knowledge in the skill for which they </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>are providing the vocational training.
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 23 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(n) A person employed in a position under subsection (b) of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>this Section who has purchased service credit under subsection </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>(j) of Section 14-104 or subsection (b) of Section 14-105 in </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>any other capacity under this Article may convert up to 5 years </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>of that service credit into service credit covered under this </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Section by paying to the Fund an amount equal to (1) the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>additional employee contribution required under Section </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>14-133, plus (2) the additional employer contribution required </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>under Section 14-131, plus (3) interest on items (1) and (2) at </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>the actuarially assumed rate from the date of the service to </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>the date of payment. </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-19, eff. 1-1-18; 100-611, eff. 7-20-18.)</code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(40 ILCS 5/14-152.1)</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 14-152.1. </code><code>Application and expiration of new benefit </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>increases.</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) As used in this Section, "new benefit increase" means </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>an increase in the amount of any benefit provided under this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Article, or an expansion of the conditions of  eligibility for </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>any benefit under this Article, that results from an amendment </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>to this Code that takes effect after June 1, 2005 (the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>effective date of Public Act 94-4). "New benefit increase", </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>however, does not include any benefit increase resulting from </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the changes made to Article 1 or this Article by Public Act </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>96-37, Public Act 100-23, </code><u><code>Public Act 100-587, Public Act </code></u></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><u><code>100-611, or this amendatory Act of the 101st General Assembly</code></u><code> </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 24 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><strike><code>or this amendatory Act of the 100th General Assembly</code></strike><code>.
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) Notwithstanding any other provision of this Code or any </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>subsequent amendment to this Code, every  new benefit increase </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>is subject to this Section and shall be deemed to be granted </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>only in conformance with and contingent upon compliance with </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the provisions of this Section.
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The Public Act enacting a new benefit increase must </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>identify and provide for payment to the System of additional </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>funding at least sufficient to fund the resulting annual </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>increase in cost to  the System as it accrues.</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Every  new benefit increase is contingent upon the General </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Assembly providing the additional funding required under this </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>subsection.   The Commission on Government Forecasting and </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Accountability shall analyze whether adequate additional </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>funding has been provided for the new benefit increase and </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>shall report its analysis to the Public Pension Division of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Department of Insurance. A new benefit increase created by a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Public Act that does not include the additional funding </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>required under this subsection is null and void. If the Public </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Pension Division determines that the additional funding </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>provided for a new benefit increase under this subsection is or </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>has become inadequate, it may so certify to the Governor and </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the State Comptroller and, in the absence of corrective  action </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>by the General Assembly, the new benefit increase shall expire </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>at the end of the fiscal year in which the certification is </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>made.
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0226</td><td class="xsl" align="center">- 25 -</td><td class="xsl" align="right">LRB101 04092 RPS 49100 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) Every  new benefit increase shall expire 5 years after </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>its effective date or on such earlier date as may be specified </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>in the language enacting the new benefit increase or provided </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>under subsection (c).  This does  not prevent the General </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Assembly from extending or re-creating a new benefit increase </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>by law.</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) Except as otherwise provided in the language creating </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the new benefit increase,  a new benefit increase that expires </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>under this Section continues to apply to persons who applied </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and qualified for the affected benefit while the new benefit </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>increase  was in effect and to the affected beneficiaries and </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>alternate payees of such persons, but does not apply to any </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>other person, including without limitation a person  who </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>continues in service after the expiration date and did not </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>apply and qualify for the affected benefit while the new </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>benefit increase was in effect.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 100-23, eff. 7-6-17; 100-587, eff. 6-4-18; </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>100-611, eff. 7-20-18; revised 7-25-18.)</code><br>&nbsp;<code>
+ </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code> </code><code>
+  </code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->

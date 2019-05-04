@@ -1,0 +1,1036 @@
+status: 200
+encoding: ISO-8859-1
+Cache-Control: private
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 03 May 2019 20:31:26 GMT
+Content-Length: 177154
+
+<html lang="en"> 
+<!-- Trigger/Open The Modal -->
+<div style="position: fixed; z-index: 999; top: 5; left: 600; background-color: navy; display: block">
+<button id="myBtn" style="color: white; background-color: navy; display: block">Translate Website</button></div>
+<!-- The Modal -->
+<div id="myModal" class="modal" style="display: none">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header"><h3>
+    <span class="close">&times;</span></h3></div>    
+    <p>The Illinois General Assembly offers the Google Translate™ service for visitor convenience. In no way should it be considered accurate as to the translation of any content herein.</p>
+    <p>Visitors of the Illinois General Assembly website are encouraged to use other translation services available on the internet.</p>
+    <p>The English language version is always the official and authoritative version of this website.</p>
+    <p>NOTE: To return to the original English language version, select the "Show Original" button on the Google Translate™ menu bar at the top of the window.</p>  
+      <div style="text-align: center">Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img width="37" height="14" style="padding-right: 3px;" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
+             <div style="text-align: center" id="google_translate_element"></div><br /><br />             
+       <div class="modal-footer">
+          <h4></h4>
+      </div>
+  </div>
+</div>    
+
+<script type="text/javascript">
+    function googleTranslateWidgetInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateWidgetInit"></script> 
+<script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+<div id = "divBackground" style="position: fixed; z-index: 999; height: 100%; width: 100%; top: 0; left:0; background-color: Black; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.8;display:none">
+</div>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/style/lis.css">
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css">
+<link rel="GILS" href="http://info.er.usgs.gov/public/gils/gilsexec.html">
+<link rel="Shortcut Icon" HREF="/LISlogo1.ico">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+
+//-->
+</SCRIPT>
+  
+<!--
+    option explicit
+  -->
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.weburbia.com/safe/ratings.htm" l r (s 0))'>
+<meta name="classification" content="Government">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="contactState" content="IL">
+<meta name="siteTitle" content="Illinois General Assembly">
+<meta name="keywords" content="Illinois General Assembly, legislation, house bills, house resolutions, senate bills, senate resolutions, amendments">
+<meta name="description" content="Legislation listing for the Illinois General Assembly">
+<meta name="createDate" content="4/17/2002">
+<meta name="dateofLastModification" content="4/17/2002">
+<meta name="timePeriodTextual" content="2001-2002">
+<meta name="originalControlIdentifier" content="0000001">
+<meta name="medium" content="Web Site">
+<meta name="PermanentPublicAccess" content="yes">
+<meta name="agencyProgram" content="Illinois General Assembly">
+<meta name="linkage" content="">
+<meta name="language" content="EN">
+<meta name="govType" content="State">
+<meta name="contactName" content="Legislative Information System">
+<meta name="contactOrganization" content="LIS Staff Services">
+<meta name="contactStreetAddress1" content="705 Stratton Office Building">
+<meta name="contactStreetAddress2" content="">
+<meta name="contactCity" content="Springfield">
+<meta name="contactZipcode" content="62706">
+<meta name="contactNetworkAddress" content="webmaster@ilga.gov">
+<meta name="contactPhoneNumber" content="217-782-3944">
+<meta name="contactFaxNumber" content="217-524-6059">
+<meta name="originatorJurisdiction" content="State Of Illinois">
+<meta name="originatorOffice" content="Illinois General Assembly">
+<meta name="originatorDepartment" content="Legislative Information System">
+<meta name="originatorDivision" content="Web Staff">
+<meta name="originatorSection" content="">
+<meta name="Classification" content="Government--State Government--Illinois General Assembly">
+
+<title>Illinois General Assembly - Full Text of HB0317</title>
+</head>
+
+<!-- Begin Body Start -->
+
+
+<body ONLOAD="document.NumString.NumSearch.focus();"  bgcolor="#FFFFFF" text="#000000" link="#3366FF" vlink="#663366" alink="#9933FF" topmargin="0" leftmargin="0">
+<script LANGUAGE="JavaScript1.2" SRC="/include/script/HM_Loader.js" TYPE="text/javascript"></script>
+
+<table align="left" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr id="Legislation">
+    <td colspan="4"><a href="/default.asp"><img border="0" src="/images/logo_sm.gif" alt="Illinois General Assembly" width="462" height="49"></a>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="4" valign="top" align="left">
+        <table class="mainmenu" border="0" width="100%" cellspacing="0">
+<tr id="Legislation">
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/">Home</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu1',event)" onMouseOut="HM_f_PopDown('elMenu1')" onfocus="HM_f_PopUp('elMenu1',event)" onblur="HM_f_PopDown('elMenu1')" href="/legislation/">Legislation &amp; Laws</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu3',event)" onMouseOut="HM_f_PopDown('elMenu3')" onfocus="HM_f_PopUp('elMenu3',event)" onblur="HM_f_PopDown('elMenu3')" href="/senate/">Senate</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu2',event)" onMouseOut="HM_f_PopDown('elMenu2')" onfocus="HM_f_PopUp('elMenu2',event)" onblur="HM_f_PopDown('elMenu2')" href="/house/">House</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" onMouseOver="HM_f_PopUp('elMenu4',event)" onMouseOut="HM_f_PopDown('elMenu4')" onfocus="HM_f_PopUp('elMenu4',event)" onblur="HM_f_PopDown('elMenu4')" href="/mylegislation/">My Legislation</a>&nbsp;&nbsp;</td>
+            <td height="25" nowrap>&nbsp;&nbsp;<a class="mainmenu" href="/sitemap.asp">Site Map</a>&nbsp;&nbsp;</td>
+            <td align="right" height="25" width="99%">
+            &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top"><br>
+<table class="sidemenu" border="0" width="140" cellpadding="0" cellspacing="2" id="Legislation"><tr><td class="sidemenu" nowrap ><b><a href="/legislation/default.asp" class="sidemenu">&nbsp;&nbsp;Bills & Resolutions&nbsp;&nbsp;</a></b></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/ilcs/ilcs.asp" class="sidemenu">&nbsp;&nbsp;Compiled Statutes&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/publicacts/default.asp" class="sidemenu">&nbsp;&nbsp;Public Acts&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/reports/default.asp" class="sidemenu">&nbsp;&nbsp;Legislative Reports&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/commission/lrb/conmain.htm" class="sidemenu">&nbsp;&nbsp;IL Constitution&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/guide.asp" class="sidemenu">&nbsp;&nbsp;Legislative Guide&nbsp;&nbsp;</a></td></tr><tr><td class="sidemenu" nowrap ><a href="/legislation/glossary.asp" class="sidemenu">&nbsp;&nbsp;Legislative Glossary&nbsp;&nbsp;</a></td></tr><td class="sidemenu" nowrap width="90%"></td>
+          
+				
+				<tr>
+				<td class="black8ptbold"><br>&nbsp;Search By Number<br>&nbsp;(example: HB0001)</td>
+			</tr>
+			<tr>
+				<td class="home">
+				<form action="/numreslt.asp" method="post" id="NumString" name="NumString">
+				<input NAME="NumSearch" TYPE="text" SIZE="10">
+				<input NAME="cmdStatus" TYPE="submit" VALUE="Go">
+				<!-- <input NAME="cmdHelp" TYPE="button" VALUE="Help" onclick="window.open('/num_look_help.htm','test','width=600,height=300')"> -->
+				<a href="/num_look_help.htm" Target="SearchTips" title="Search Tips" onClick="window.open('/num_look_help.htm', 'SearchTips', 'width=600, height=300'); return false;">Search Tips</a><br><br>
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="black8ptbold">Search By Keyword</td>
+			</tr>
+			<tr>
+			<td class="home">
+			<!-- <form name="searchForm" action="/search/iga_results.asp"> -->
+			<script LANGUAGE="JAVASCRIPT">
+			<!--
+					
+
+			//-->
+			</script>
+			<form name="searchForm" action="/search/iga_results.asp">
+			<input type="text" name="q" size="10">
+			<input type="submit" name="submit1" value="Go">
+			<!-- <input type="button" name="cmdHelp1" value="Help" onclick="window.open('/search/searchhelp.htm','test','width=500,height=400,scrollbars')"> -->
+			<!-- Next line's VALUE needs to change with each new General Assembly -->
+			<input type="hidden" name="site" VALUE="leg101">
+			
+			<div>			
+			<a href="/search/searchhelp.pdf" Target="SearchTips" title="Search Tips" onClick="window.open('/search/searchhelp.pdf', 'SearchTips'); return false;">Search Tips</a><br><br>
+			<a href="/search/Advanced_Search.asp?site=leg101" title="Advanced Search">Advanced Search</a>
+			<br><br>
+			<!-- Amber alert and missing children --> 
+			<a	href="http://www.amberillinois.com" >
+				<img src="/images/amberillinois.jpg"
+					width="80" height="60" border="0" 
+					title="Illinois AMBER Alert" />
+			</a>
+			<br><br> 
+			<a href="http://www.missingkids.com/">
+				<img src="/images/missingexploited.jpg" 
+					WIDTH="80" HEIGHT="60" border="0" 
+					alt="Missing Kids" />
+			</a>
+			<!-- Amber alert and missing children --> 
+			</form>
+			</td>
+		</tr>
+          </tr></table></td><td width="1" class="verticalline"><img src="/images/1ptrans.gif" WIDTH="1" HEIGHT="1"></td><td valign="top" align="left" width="99%"><table align="left" border="0" width="490"><tr><td width="100%"><br>
+<!-- End Body Start -->
+
+<!--Begin Custom Page Content-->
+<div><span class="heading">Full Text of HB0317&nbsp;&nbsp;</span><span class="italics">101st General Assembly</span></div><hr><div id="toplinks"><a href='fulltext.asp?DocName=10100HB0317&GA=101&SessionId=108&DocTypeId=HB&LegID=114465&DocNum=317&GAID=15&Session='>Introduced</a><a style="visibility: hidden" href='/legislation/101/HB/10100HB0317.htm'></a><br><a href='/legislation/fulltext.asp?DocName=10100HB0317lv&SessionID=108&GA=101&DocTypeID=HB&DocNum=0317&print=true' target='_blank'>Printer-Friendly Version</a>&nbsp;&nbsp;<a style="visibility: hidden" href='/legislation/101/HB/10100HB0317lv.htm'></a><a href='/legislation/101/HB/PDF/10100HB0317lv.pdf'>PDF</a>&nbsp;&nbsp;<a href='/legislation/BillStatus.asp?DocNum=0317&GAID=15&DocTypeID=HB&LegID=114465&SessionID=108&SpecSess=&Session=&GA=101'>Bill Status</a></div><p><span class="notranslate"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><style type="text/css">
+								
+								
+								
+								table.xsl	{ 	border-collapse: collapse;
+												border: 0px solid black;
+												font-family: "courier New"; 
+												font-size: 10pt;}
+								
+								td.xsl		{ 	border-collapse: collapse;
+												border: 0px solid black;
+												padding-top: 3pt;
+												padding-bottom: 3pt;
+												padding-left: 0pt;
+												padding-right: 0pt;
+												font-family: "courier New"; 
+												font-size: 10pt; }
+												
+								td.junk		{ 	width: 5%; }
+								 
+							
+					
+					
+						body.xsl		{ 	text-align:center; }
+						
+					
+						td.lineNum 		{ 	vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "courier New"; 
+										  	font-size: 10pt; }
+							
+						td.number 		{	width: 5%;
+											vertical-align: top; 
+										  	text-align: right;
+										  	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt; }
+						
+						td.synopsis		{ 	border-collapse: collapse;
+											border: 0px solid black;
+											padding-top: 0pt;
+											padding-bottom: 0pt;
+											padding-left: 0pt;
+											padding-right: 0pt;
+											font-family: "courier New"; 
+											font-size: 10pt; }
+						
+						td.rowsep		{ 	border-bottom: 1px solid black; }
+											
+						td.colsep		{ 	border-right: 1px solid black; }
+											
+						td.bothsep		{ 	border-right: 1px solid black;
+										  	border-bottom: 1px solid black; }
+	
+						table.top		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black; }
+											
+						table.bottom	{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-bottom: 1px solid black; }
+											
+						table.sides		{ 	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black; }
+	
+						table.all		{ 	font-family: "Courier New", sans-serif;
+										  	font-size: 10pt;
+									  	  	border-left: 1px solid black;
+									  	  	border-right: 1px solid black;
+									  	  	border-bottom: 1px solid black;
+									  	  	border-top: 1px solid black; }				
+	
+						table.topbot	{ 	border-collapse: separate;
+									  	  	border: outset 0pt;
+										  	font-family: "Courier New", sans-serif;
+									  	  	font-size: 10pt;
+									  	  	border-top: 1px solid black;
+									  	  	border-bottom: 1px solid black; }
+					
+						.sigline		{ 	text-align: left;
+							 		 		vertical-align: bottom;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.siglinetext		{ 	text-align: left;
+							 		 		vertical-align: top;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+							 				
+						.sigtitle		{ 	text-align: left;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							 				  
+						.sigtitlenum		{ 	text-align: right;
+							 				vertical-align: top;
+							 				padding: 0pt; }
+							
+						.siglinenum		{ 	text-align: right;
+							 				vertical-align: center;
+							 				padding-top: 3pt;
+							 				padding: 0pt; }
+					</style><title>HB0317 101ST GENERAL ASSEMBLY</title></head><body class="xsl"><table class="xsl" width="578"><pre><tr><td class="xsl" colspan="3"><p>&nbsp;</p><br>&nbsp;</td></tr><code>
+  </code><code>
+  </code></td></tr><tr><td class="number"></td><td class="junk"></td><td class="xsl"><table class="xsl" width="100%"><tr><td class="xsl"><center><b><pre><font size="3" face="Courier New">101ST GENERAL ASSEMBLY
+State of Illinois
+2019 and 2020</font><br>HB0317</pre></b></center><p>&nbsp;</p>Introduced , by Rep. David McSweeney<p>&nbsp;</p><b>SYNOPSIS AS INTRODUCED:</b><br>&nbsp;</td></tr><tr><td class="xsl"><code>
+ </code></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="50%"></colgroup><colgroup width="50%"></colgroup><tr><td class="synopsis"><code>35 ILCS 200/18-185</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>35 ILCS 200/18-205</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>35 ILCS 200/18-212</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>35 ILCS 200/18-213</code></td><code> </code><td class="synopsis"></td></tr><tr><code> </code><td class="synopsis"><code>35 ILCS 200/18-214</code></td><code> </code><td class="synopsis"></td></tr><tr><td class="synopsis"><code>35 ILCS 200/18-242 new</code></td><td class="synopsis"></td></tr><tr><td class="synopsis"><code>30 ILCS 805/8.43 new</code></td><td class="synopsis"></td></tr></table><p></p></td></tr><tr><td class="xsl"><code>
+ </code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Amends the Property Tax Code.  Provides that, beginning with the 2019 </code><code>levy year, the Property Tax Extension Limitation Law applies to all taxing </code><code>districts, including home rule units.  Provides that, beginning with the </code><code>2019 levy year, the extension limitation under the Property Tax Extension </code><code>Limitation Law is 0% or the rate of increase approved by the voters.  </code><code>Preempts home rule.  Amends the State Mandates Act to require implementation </code><code>without reimbursement. Effective immediately.</code><code>
+  </code></td></tr><tr align="right" class="lineNum"><td class="xsl"><br><br></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left"></td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><table class="xsl" width="100%"><colgroup width="34%"></colgroup><colgroup width="33%"></colgroup><colgroup width="33%"></colgroup><tr><td class="xsl"><center>FISCAL NOTE ACT MAY APPLY</center></td><td></td><td class="xsl"><center>HOUSING AFFORDABILITY IMPACT NOTE ACT MAY APPLY</center></td></tr></table><p></p></td></tr><tr><td class="xsl"></td></tr><tr><td class="xsl"><p>&nbsp;</p><p>&nbsp;</p><center><b>A BILL FOR</b></center><p></p></td></tr></table><p>&nbsp;</p></td></tr><tr><td class="xsl"><code>
+  </code></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center"></td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br><code>
+  </code></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>AN ACT concerning revenue.</code><code>
+  </code><br>&nbsp;</td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><b><code>Be it enacted by the People of the State of Illinois,
+ </code></b></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><b><code>represented in the General Assembly:</code></b><code>
+  </code><code>
+
+</code><br>&nbsp;</td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 5. </code><code>The Property Tax Code is amended  by changing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Sections 18-185, 18-205, 18-212, 18-213, and 18-214 and by </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>adding Section 18-242 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-185)</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-185. </code><code>Short title; definitions. </code><code>  This Division 5 may </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>be cited as the
+Property Tax Extension Limitation Law.  As used </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>in this Division 5:
+</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Consumer Price Index" means the Consumer Price Index for </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>All Urban
+Consumers for all items published by the United </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>States Department of Labor.
+</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Extension limitation"</code><u><code>, for levy years prior to 2019,</code></u><code> means </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(a) the lesser of 5% or the percentage increase
+in the Consumer </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Price Index during the 12-month calendar year preceding the
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>levy year or (b) the rate of increase approved by voters under </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Section 18-205.
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>"Extension limitation", beginning in levy year 2019, means </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>0% or the rate of increase approved by the voters under Section </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>18-205.</code></u><code> </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Affected county" means a county of 3,000,000 or more </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>inhabitants or a
+county contiguous to a county of 3,000,000 or </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 2 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>more inhabitants.
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Taxing district" has the same meaning provided in Section </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>1-150, except as
+otherwise provided in this Section.  For the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>1991 through 1994 levy years only,
+"taxing district" includes </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>only each non-home rule taxing district having the
+majority of </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>its
+1990 equalized assessed value within any county or counties </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>contiguous to a
+county with 3,000,000 or more inhabitants.  </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Beginning with the 1995 levy
+year </code><u><code>and through the 2018 levy </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>year</code></u><code>, "taxing district" includes only each non-home rule taxing </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>district
+subject to this Law before the 1995 levy year and each </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>non-home rule
+taxing district not subject to this Law before </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the 1995 levy year having the
+majority of its 1994 equalized </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>assessed value in an affected county or
+counties.  Beginning </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>with the levy year in
+which this Law becomes applicable to a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>taxing district as
+provided in Section 18-213, "taxing </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>district" also includes those taxing
+districts made subject to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>this Law as provided in Section 18-213.
+</code><u><code>Beginning with the 2019 </code></u></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><u><code>levy year, "taxing district" has the same meaning provided in </code></u></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><u><code>Section 1-150 and includes home rule units.</code></u><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Aggregate extension" for taxing districts to which this </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Law applied before
+the 1995 levy year means the annual </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>corporate extension for the taxing
+district and those special </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>purpose extensions that are made annually for
+the taxing </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>district, excluding special purpose extensions: (a) made for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the
+taxing district to pay interest or principal on general </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>obligation bonds
+that were approved by referendum; (b) made for </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 3 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>any taxing district to pay
+interest or principal on general </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>obligation bonds issued before October 1,
+1991; (c) made for </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>any taxing district to pay interest or principal on bonds
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>issued to refund or continue to refund those bonds issued </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>before October 1,
+1991; (d)
+made for any taxing district to pay </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>interest or principal on bonds
+issued to refund or continue to </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>refund bonds issued after October 1, 1991 that
+were approved by </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>referendum; (e)
+made for any taxing district to pay interest
+or </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>principal on revenue bonds issued before October 1, 1991 for </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>payment of
+which a property tax levy or the full faith and </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>credit of the unit of local
+government is pledged; however, a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>tax for the payment of interest or principal
+on those bonds </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>shall be made only after the governing body of the unit of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>local
+government finds that all other sources for payment are </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>insufficient to make
+those payments; (f) made for payments </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>under a building commission lease when
+the lease payments are </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>for the retirement of bonds issued by the commission
+before </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>October 1, 1991, to pay for the building project; (g) made for </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>payments
+due under installment contracts entered into before </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>October 1, 1991;
+(h) made for payments of principal and </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>interest on bonds issued under the
+Metropolitan Water </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Reclamation District Act to finance construction projects
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>initiated before October 1, 1991; (i) made for payments of </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>principal and
+interest on limited bonds, as defined in Section </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>3 of the Local Government Debt
+Reform Act, in an amount not to </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>exceed the debt service extension base less
+the amount in items </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 4 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(b), (c), (e), and (h) of this definition for
+non-referendum </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>obligations, except obligations initially issued pursuant to
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>referendum; (j) made for payments of principal and interest on </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>bonds
+issued under Section 15 of the Local Government Debt </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Reform Act; (k)
+made
+by a school district that participates in </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the Special Education District of
+Lake County, created by </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>special education joint agreement under Section
+10-22.31 of the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>School Code, for payment of the school district's share of the
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>amounts required to be contributed by the Special Education </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>District of Lake
+County to the Illinois Municipal Retirement </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Fund under Article 7 of the
+Illinois Pension Code; the amount </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>of any extension under this item (k) shall be
+certified by the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>school district to the county clerk; (l) made to fund
+expenses </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of providing joint recreational programs for persons with </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>disabilities under
+Section 5-8 of
+the
+Park District Code or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Section 11-95-14 of the Illinois Municipal Code; (m) made for </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>temporary relocation loan repayment purposes pursuant to </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Sections 2-3.77 and 17-2.2d of the School Code;  (n) made for </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>payment of principal and interest on any bonds issued under the </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>authority of Section 17-2.2d of the School Code; (o) made for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>contributions to a firefighter's pension fund created under </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Article 4 of the Illinois Pension Code, to the extent of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>amount certified under item (5) of Section 4-134 of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Illinois Pension Code; and (p) made for road purposes in the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>first year after a township assumes the rights, powers, duties, </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>assets, property, liabilities, obligations, and
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 5 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>responsibilities of a road district abolished under the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>provisions of Section 6-133 of  the Illinois Highway Code.
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Aggregate extension" for the taxing districts to which </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>this Law did not
+apply before the 1995 levy year (except taxing </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>districts subject to this Law
+in
+accordance with Section 18-213 </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><u><code>or this amendatory Act of the 101st General Assembly</code></u><code>) means the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>annual corporate extension for the
+taxing district and those </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>special purpose extensions that are made annually for
+the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>taxing district, excluding special purpose extensions: (a) </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>made for the
+taxing district to pay interest or principal on </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>general obligation bonds that
+were approved by referendum; (b) </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>made for any taxing district to pay interest
+or principal on </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>general obligation bonds issued before March 1, 1995; (c) made
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>for any taxing district to pay interest or principal on bonds </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>issued to refund
+or continue to refund those bonds issued </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>before March 1, 1995; (d) made for any
+taxing district to pay </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>interest or principal on bonds issued to refund or
+continue to </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>refund bonds issued after March 1, 1995 that were approved by
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>referendum; (e) made for any taxing district to pay interest or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>principal on
+revenue bonds issued before March 1, 1995 for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>payment of which a property tax
+levy or the full faith and </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>credit of the unit of local government is pledged;
+however, a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>tax for the payment of interest or principal on those bonds </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>shall be
+made only after the governing body of the unit of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>local government finds that
+all other sources for payment are </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>insufficient to make those payments; (f) made
+for payments </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 6 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>under a building commission lease when the lease payments are </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>for
+the retirement of bonds issued by the commission before </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>March 1, 1995 to
+pay for the building project; (g) made for </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>payments due under installment
+contracts entered into before </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>March 1, 1995; (h) made for payments of
+principal and interest </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>on bonds issued under the Metropolitan Water Reclamation
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>District Act to finance construction projects initiated before </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>October 1,
+1991; (h-4) made for stormwater management purposes </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>by the Metropolitan Water Reclamation District of Greater </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Chicago under Section 12 of the Metropolitan Water Reclamation </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>District Act; (i) made for payments of principal and interest </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>on limited bonds,
+as defined in Section 3 of the Local </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Government Debt Reform Act, in an amount
+not to exceed the debt </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>service extension base less the amount in items (b),
+(c), and </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(e) of this definition for non-referendum obligations, except
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>obligations initially issued pursuant to referendum and bonds </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>described in
+subsection (h) of this definition; (j) made for </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>payments of
+principal and interest on bonds issued under </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Section 15 of the Local Government
+Debt Reform Act; (k) made </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>for payments of principal and interest on bonds
+authorized by </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Public Act 88-503 and issued under Section 20a of the Chicago
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Park District Act for aquarium or
+museum projects; (l) made for </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>payments of principal and interest on
+bonds
+authorized by </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Public Act 87-1191 or 93-601 and (i) issued pursuant to Section </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>21.2 of the Cook County Forest
+Preserve District Act, (ii) </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>issued under Section 42 of the Cook County
+Forest Preserve </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 7 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>District Act for zoological park projects, or (iii) issued
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>under Section 44.1 of the Cook County Forest Preserve District </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Act for
+botanical gardens projects; (m) made
+pursuant
+to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>Section 34-53.5 of the School Code, whether levied annually or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>not;
+(n) made to fund expenses of providing joint recreational </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>programs for persons with disabilities under Section 5-8 of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>Park
+District Code or Section 11-95-14 of the Illinois </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Municipal Code;
+ (o) made by the
+Chicago Park
+District for </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>recreational programs for persons with disabilities under </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>subsection (c) of
+Section
+7.06 of the Chicago Park District </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Act; (p) made for contributions to a firefighter's pension fund </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>created under Article 4 of the Illinois Pension Code, to the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>extent of the amount certified under item (5) of Section 4-134 </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>of the Illinois Pension Code; (q) made by Ford Heights School </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>District 169 under Section 17-9.02 of the School Code; and (r) </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>made for the purpose of making employer contributions to the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Public School Teachers' Pension and Retirement Fund of Chicago </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>under Section 34-53 of the School Code.
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Aggregate extension" for all taxing districts to which </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>this Law applies in
+accordance with Section 18-213, except for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>those taxing districts subject to
+paragraph (2) of subsection </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>(e) of Section 18-213, means the annual corporate
+extension for </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>the
+taxing district and those special purpose extensions that </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>are made annually for
+the taxing district, excluding special </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>purpose extensions: (a) made for the
+taxing district to pay </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>interest or principal on general obligation bonds that
+were </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 8 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>approved by referendum; (b) made for any taxing district to pay </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>interest
+or principal on general obligation bonds issued before </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the date on which the
+referendum making this
+Law applicable to </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>the taxing district is held; (c) made
+for any taxing district </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>to pay interest or principal on bonds issued to refund
+or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>continue to refund those bonds issued before the date on which </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>the
+referendum making this Law
+applicable to the taxing </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>district is held;
+(d) made for any
+taxing district to pay </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>interest or principal on bonds issued to refund or
+continue to </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>refund bonds issued after the date on which the referendum </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>making
+this Law
+applicable to the taxing district is held if </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the bonds were approved by
+referendum after the date on which </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>the referendum making this Law
+applicable to the taxing </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>district is held; (e) made for any
+taxing district to pay </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>interest or principal on
+revenue bonds issued before the date </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>on which the referendum making this Law
+applicable to the
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>taxing district is held for payment of which a property tax
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>levy or the full faith and credit of the unit of local </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>government is pledged;
+however, a tax for the payment of </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>interest or principal on those bonds shall be
+made only after </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the governing body of the unit of local government finds that
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>all other sources for payment are insufficient to make those </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>payments; (f) made
+for payments under a building commission </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>lease when the lease payments are for
+the retirement of bonds </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>issued by the commission before the date on which the
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>referendum making this
+Law applicable to the taxing district is </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 9 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>held to
+pay for the building project; (g) made for payments due </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>under installment
+contracts entered into before the date on </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>which the referendum making this Law
+applicable to
+the taxing </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>district is held;
+(h) made for payments
+of principal and </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>interest on limited bonds,
+as defined in Section 3 of the Local </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>Government Debt Reform Act, in an amount
+not to exceed the debt </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>service extension base less the amount in items (b),
+(c), and </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(e) of this definition for non-referendum obligations, except
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>obligations initially issued pursuant to referendum; (i) made </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>for payments
+of
+principal and interest on bonds issued under </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Section 15 of the Local Government
+Debt Reform Act;
+(j)
+made </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>for a qualified airport authority to pay interest or principal </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>on
+general obligation bonds issued for the purpose of paying </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>obligations due
+under, or financing airport facilities </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>required to be acquired, constructed,
+installed or equipped </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>pursuant to, contracts entered into before March
+1, 1996 (but </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>not including any amendments to such a contract taking effect </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>on
+or after that date); (k) made to fund expenses of providing </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>joint
+recreational programs for persons with disabilities </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>under Section 5-8 of
+the
+Park District Code or Section 11-95-14 </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>of the Illinois Municipal Code; (l) made for contributions to a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>firefighter's pension fund created under Article 4 of the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Illinois Pension Code, to the extent of the amount certified </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>under item (5) of Section 4-134 of the Illinois Pension Code; </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>and (m) made for the taxing district to pay interest or </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>principal on general obligation bonds issued pursuant to </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 10 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Section 19-3.10 of the School Code.
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Aggregate extension" for all taxing districts to which </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>this Law applies in
+accordance with paragraph (2) of subsection </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>(e) of Section 18-213 </code><u><code>or this amendatory Act of the 101st </code></u></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>General Assembly</code></u><code> means the
+annual corporate extension for the
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>taxing district and those special purpose extensions that are </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>made annually for
+the taxing district, excluding special </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>purpose extensions: (a) made for the
+taxing district to pay </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>interest or principal on general obligation bonds that
+were </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>approved by referendum; (b) made for any taxing district to pay </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>interest
+or principal on general obligation bonds issued before </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the effective date of
+this amendatory Act of 1997;
+(c) made
+for </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>any taxing district to pay interest or principal on bonds </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>issued to refund
+or continue to refund those bonds issued </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>before the effective date
+of this amendatory Act of 1997;
+(d) </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>made for any
+taxing district to pay interest or principal on </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>bonds issued to refund or
+continue to refund bonds issued after </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>the effective date of this amendatory Act
+of 1997 if the bonds </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>were approved by referendum after the effective date of
+this </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>amendatory Act of 1997;
+(e) made for any
+taxing district to pay </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>interest or principal on
+revenue bonds issued before the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>effective date of this amendatory Act of 1997
+for payment of </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>which a property tax
+levy or the full faith and credit of the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>unit of local government is pledged;
+however, a tax for the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>payment of interest or principal on those bonds shall be
+made </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>only after the governing body of the unit of local government </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 11 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>finds that
+all other sources for payment are insufficient to </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>make those payments; (f) made
+for payments under a building </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>commission lease when the lease payments are for
+the retirement </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>of bonds issued by the commission before the effective date
+of </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>this amendatory Act of 1997
+to
+pay for the building project; </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>(g) made for payments due under installment
+contracts entered </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>into before the effective date of this amendatory Act of
+1997;
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>(h) made for payments
+of principal and interest on limited </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>bonds,
+as defined in Section 3 of the Local Government Debt </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>Reform Act, in an amount
+not to exceed the debt service </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>extension base less the amount in items (b),
+(c), and (e) of </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>this definition for non-referendum obligations, except
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>obligations initially issued pursuant to referendum; (i) made </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>for payments
+of
+principal and interest on bonds issued under </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Section 15 of the Local Government
+Debt Reform Act;
+(j)
+made </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>for a qualified airport authority to pay interest or principal </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>on
+general obligation bonds issued for the purpose of paying </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>obligations due
+under, or financing airport facilities </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>required to be acquired, constructed,
+installed or equipped </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>pursuant to, contracts entered into before March
+1, 1996 (but </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>not including any amendments to such a contract taking effect </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>on
+or after that date); (k) made to fund expenses of providing </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>joint
+recreational programs for persons with disabilities </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>under Section 5-8 of
+the
+Park District Code or Section 11-95-14 </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>of the Illinois Municipal Code; and (l) made for contributions </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>to a firefighter's pension fund created under Article 4 of the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 12 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Illinois Pension Code, to the extent of the amount certified </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>under item (5) of Section 4-134 of the Illinois Pension Code.
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Debt service extension base" means an amount equal to that </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>portion of the
+extension for a taxing district </code><strike><code>for the 1994 </code></strike></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><strike><code>levy year, or for those taxing
+districts subject to this Law in </code></strike></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><strike><code>accordance with Section 18-213, except for
+those subject to </code></strike></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><strike><code>paragraph (2) of subsection (e) of Section 18-213, for the
+levy
+</code></strike></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><strike><code>year in which the referendum making this Law applicable to the </code></strike></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><strike><code>taxing district
+is held, or for those taxing districts subject </code></strike></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><strike><code>to this Law in accordance with
+paragraph (2) of subsection (e) </code></strike></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><strike><code>of Section 18-213 for the 1996 levy year,</code></strike><code>
+constituting an
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>extension for payment of principal and interest on bonds issued </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>by the taxing
+district without referendum,  but not including </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>excluded non-referendum bonds.  For park districts (i) that were </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>first
+subject to this Law in 1991 or 1995 and (ii) whose </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>extension for the 1994 levy
+year for the payment of principal </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>and interest on bonds issued by the park
+district without </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>referendum (but not including excluded non-referendum bonds)
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>was less than 51% of the amount for the 1991 levy year </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>constituting an
+extension for payment of principal and interest </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>on bonds issued by the park
+district without referendum (but </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>not including excluded non-referendum bonds),
+"debt service </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>extension base" means an amount equal to that portion of the
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>extension for the 1991 levy year constituting an extension for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>payment of
+principal and interest on bonds issued by the park </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>district without referendum
+(but not including excluded </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 13 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>non-referendum bonds).  A debt service extension base </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>established or increased at any time pursuant to any provision </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>of this Law, except Section 18-212, shall be increased each </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>year commencing with the later of (i) the 2009 levy year or </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>(ii) the first levy year in which this Law becomes applicable </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>to the taxing district, by </code><u><code>(A) for levy years prior to the 2019 </code></u></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><u><code>levy year,</code></u><code> the lesser of 5% or the percentage increase in the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Consumer Price Index during the 12-month calendar year </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>preceding the levy year </code><u><code>or (B) beginning with the 2019 levy </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>year, 0%</code></u><code>. The debt service extension
+base may be established or </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>increased as provided under Section 18-212.
+"Excluded </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>non-referendum bonds" means (i) bonds authorized by Public
+Act </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>88-503 and issued under Section 20a of the Chicago Park </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>District Act for
+aquarium and museum projects; (ii) bonds </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>issued under Section 15 of the
+Local Government Debt Reform </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Act; or (iii) refunding obligations issued
+to refund or to </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>continue to refund obligations initially issued pursuant to
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>referendum.
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Special purpose extensions" include, but are not limited </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>to, extensions
+for levies made on an annual basis for </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>unemployment and workers'
+compensation, self-insurance, </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>contributions to pension plans, and extensions
+made pursuant to </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>Section 6-601 of the Illinois Highway Code for a road
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>district's permanent road fund whether levied annually or not.  </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>The
+extension for a special service area is not included in the
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>aggregate extension.
+</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 14 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Aggregate extension base" means the taxing district's </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>last preceding
+aggregate extension as adjusted under Sections </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>18-135, 18-215,
+ 18-230, and 18-206.
+ An adjustment under Section </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>18-135 shall be made for the 2007 levy year and all subsequent </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>levy years whenever one or more counties within which a taxing </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>district is located (i) used estimated valuations or rates when </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>extending taxes in the taxing district for the last preceding </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>levy year that resulted in the over or under extension of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>taxes, or (ii) increased or decreased the tax extension for the </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>last preceding levy year as required by Section 18-135(c). </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Whenever an adjustment is required under Section 18-135, the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>aggregate extension base of the taxing district shall be equal </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>to the amount that the aggregate extension of the taxing </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>district would have been for the last preceding levy year if </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>either or both (i) actual, rather than estimated, valuations or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>rates had been used to calculate the extension of taxes for the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>last levy year, or (ii) the tax extension for the last </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>preceding levy year had not been adjusted as required by </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>subsection (c) of Section 18-135.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Notwithstanding any other provision of law, for levy year </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>2012, the aggregate extension base for West Northfield School </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>District No. 31 in Cook County shall be $12,654,592. </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Levy year" has the same meaning as "year" under Section
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>1-155.
+</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"New property" means (i) the assessed value, after final </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>board of review or
+board of appeals action, of new improvements </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 15 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>or additions to existing
+improvements on any parcel of real </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>property that increase the assessed value of
+that real property </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>during the levy year multiplied by the equalization factor
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>issued by the Department under Section 17-30, (ii) the assessed </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>value, after
+final board of review or board of appeals action, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>of real property not exempt
+from real estate taxation, which </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>real property was exempt from real estate
+taxation for any </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>portion of the immediately preceding levy year, multiplied by
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>the equalization factor issued by the Department under Section </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>17-30, including the assessed value, upon final stabilization </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>of occupancy after new construction is complete, of any real </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>property located within the boundaries of an otherwise or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>previously exempt military reservation that is intended for </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>residential use and owned by or leased to a private corporation </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>or other entity,
+(iii) in counties that classify in accordance </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>with Section 4 of Article
+IX of the
+Illinois Constitution, an </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>incentive property's additional assessed value
+resulting from </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>a
+scheduled increase in the level of assessment as applied to </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the first year
+final board of
+review market value, and (iv) any </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>increase in assessed value due to oil or gas production from an </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>oil or gas well required to be permitted under the Hydraulic </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>Fracturing Regulatory Act that was not produced in or accounted </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>for during the previous levy year.
+In addition, the county </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>clerk in a county containing a population of
+3,000,000 or more </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>shall include in the 1997
+recovered tax increment value for any </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>school district, any recovered tax
+increment value that was </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 16 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>applicable to the 1995 tax year calculations.
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Qualified airport authority" means an airport authority </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>organized under
+the Airport Authorities Act and located in a </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>county bordering on the State of
+Wisconsin and having a </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>population in excess of 200,000 and not greater than
+500,000.
+</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Recovered tax increment value" means, except as otherwise </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>provided in this
+paragraph, the amount of the current year's </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>equalized assessed value, in the
+first year after a </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>municipality terminates
+the designation of an area as a </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>redevelopment project area previously
+established under the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>Tax Increment Allocation Development Act in the Illinois
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>Municipal Code, previously established under the Industrial </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Jobs Recovery Law
+in the Illinois Municipal Code, previously </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>established under the Economic Development Project Area Tax </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Increment Act of 1995, or previously established under the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>Economic
+Development Area Tax Increment Allocation Act, of each </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>taxable lot, block,
+tract, or parcel of real property in the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>redevelopment project area over and
+above the initial equalized </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>assessed value of each property in the
+redevelopment project </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>area.
+For the taxes which are extended for the 1997 levy year, </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the recovered tax
+increment value for a non-home rule taxing </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>district that first became subject
+to this Law for the 1995 </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>levy year because a majority of its 1994 equalized
+assessed </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>value was in an affected county or counties shall be increased </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>if a
+municipality terminated the designation of an area in 1993 </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>as a redevelopment
+project area previously established under </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 17 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>the Tax Increment Allocation
+Development Act in the Illinois </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>Municipal Code, previously established under
+the Industrial </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>Jobs Recovery Law in the Illinois Municipal Code, or previously
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>established under the Economic Development Area Tax Increment </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>Allocation Act,
+by an amount equal to the 1994 equalized </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>assessed value of each taxable lot,
+block, tract, or parcel of </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>real property in the redevelopment project area over
+and above </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>the initial equalized assessed value of each property in the
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>redevelopment project area.
+In the first year after a </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>municipality
+removes a taxable lot, block, tract, or parcel of </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>real property from a
+redevelopment project area established </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>under the Tax Increment Allocation
+Development Act in the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>Illinois
+Municipal Code, the Industrial Jobs Recovery Law
+in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the Illinois Municipal Code, or the Economic
+Development Area </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Tax Increment Allocation Act, "recovered tax increment value"
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>means the amount of the current year's equalized assessed value </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>of each taxable
+lot, block, tract, or parcel of real property </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>removed from the redevelopment
+project area over and above the </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>initial equalized assessed value of that real
+property before </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>removal from the redevelopment project area.
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Except as otherwise provided in this Section, "limiting </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>rate" means a
+fraction the numerator of which is the last
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>preceding aggregate extension base times an amount equal to one </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>plus the
+extension limitation defined in this Section and the </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>denominator of which
+is the current year's equalized assessed </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>value of all real property in the
+territory under the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 18 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>jurisdiction of the taxing district during the prior
+levy year.  </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>For those taxing districts that reduced their aggregate
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>extension for the last preceding levy year, except for school </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>districts that reduced their extension for educational </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>purposes pursuant to Section 18-206, the highest aggregate </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>extension
+in any of the last 3 preceding levy years shall be </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>used for the purpose of
+computing the limiting rate.  The </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>denominator shall not include new
+property or the recovered tax </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>increment
+value.
+If a new rate, a rate decrease, or a limiting </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>rate increase has been approved at an election held after March </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>21, 2006, then (i) the otherwise applicable limiting rate shall </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>be increased by the amount of the new rate or shall be reduced </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>by the amount of the rate decrease, as the case may be, or (ii) </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>in the case of a limiting rate increase, the limiting rate </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>shall be equal to the rate set forth
+in the proposition </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>approved by the voters for each of the years specified in the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>proposition, after
+which the limiting rate of the taxing </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>district shall be calculated as otherwise provided. In the case </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>of a taxing district that obtained referendum approval for an </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>increased limiting rate on March 20, 2012, the limiting rate </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>for tax year 2012 shall be the rate that generates the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>approximate total amount of taxes extendable for that tax year, </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>as set forth in the proposition approved by the voters; this </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>rate shall be the final rate applied by the county clerk for </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>the aggregate of all capped funds of the district for tax year </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>2012.</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 19 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 99-143, eff. 7-27-15; 99-521, eff. 6-1-17; </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>100-465, eff. 8-31-17.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-205)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-205. </code><code>Referendum to increase the extension </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>limitation. </code><code>A taxing
+district is limited to an extension </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>limitation </code><u><code>as defined in Section 18-185</code></u><code> </code><strike><code>of 5% or the percentage </code></strike></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><strike><code>increase
+in the Consumer Price Index during the 12-month </code></strike></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><strike><code>calendar year preceding the
+levy year, whichever is less</code></strike><code>. A </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>taxing district may increase its extension
+limitation for one </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>or more levy years if that taxing district holds a referendum
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>before the levy date for the first levy year at which a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>majority of voters voting on the issue approves
+adoption of a </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>higher extension limitation.  Referenda shall be conducted at a
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>regularly scheduled election in accordance with the Election </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Code.  The question shall be presented in
+substantially the </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>following manner for all elections held after March 21, 2006:</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Shall the extension limitation under the Property Tax </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Extension Limitation Law for (insert the legal name, </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>number, if any, and county or counties of the taxing </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>district and geographic or other common name by which a </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>school or community college district is known and referred </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to), Illinois, be increased from </code><u><code>(extension limitation </code></u></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<u><code>under Section 18-185)</code></u><code> </code><strike><code>the lesser of 5% or the percentage </code></strike></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>increase in the Consumer Price Index over the prior levy </code></strike></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<strike><code>year</code></strike><code> to (insert the percentage of the proposed increase)% </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 20 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>per year for (insert each levy year for which the increased </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>extension limitation will apply)?</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>The votes must be recorded as "Yes" or "No".
+</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>If a majority of voters voting on the issue approves the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>adoption of
+the increase, the increase shall be applicable for </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>each
+ levy year specified.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The ballot for any question submitted pursuant to this </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>Section shall have printed thereon, but not as a part of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>question submitted, only the following supplemental </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>information (which shall be supplied to the election authority </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>by the taxing district) in substantially the following form:</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) For the (insert the first levy year for which the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>increased extension
+limitation will be applicable) levy </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>year the approximate amount of the additional tax
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>extendable against property containing a single family </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>residence and having a fair market
+value at the time of the </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>referendum of $100,000 is estimated to be $....</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) Based upon an average annual percentage increase </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(or decrease) in the
+market value of such property of ...% </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>(insert percentage equal to the average
+annual percentage </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>increase or decrease for the prior 3 levy years, at the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>time the
+submission of the question is initiated by the </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>taxing district, in the amount of (A) the
+equalized </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed value of the taxable property in the taxing </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>district less (B) the new
+property included in the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equalized assessed value), the approximate amount of the
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 21 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>additional tax extendable against such property for the ... </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>levy year is estimated to be
+$... and for the ... levy year </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>is estimated to be $....</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Paragraph (2) shall be included only if the increased </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>extension limitation will be applicable for more than one year </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>and shall list each levy year for which the increased extension </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>limitation will be applicable. The additional tax shown for </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>each levy year shall be the approximate dollar amount of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>increase over the amount of the most recently completed </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>extension at the time the submission of the question is </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>initiated by the taxing district. The approximate amount of the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>additional tax extendable shown in paragraphs (1) and (2) shall </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>be calculated by multiplying $100,000 (the fair market value of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the property without regard to any property tax exemptions) by </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>(i) the percentage level of assessment prescribed for that </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>property by statute, or by ordinance of the county board in </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>counties that classify property for purposes of taxation in </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>accordance with Section 4 of Article IX of the Illinois </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>Constitution; (ii) the most recent final equalization factor </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>certified to the county clerk by the Department of Revenue at </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>the time the taxing district initiates the submission of the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>proposition to the electors; (iii) the last known aggregate </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>extension base of the taxing district at the time the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>submission of the question is initiated by the taxing district; </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>and (iv) the difference between the percentage increase </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>proposed in the question and </code><u><code>(A)</code></u><code> the lesser of 5% or the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 22 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>percentage increase in the Consumer Price Index for the prior </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>levy year (or an estimate of the percentage increase for the </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>prior levy year if the increase is unavailable at the time the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>submission of the question is initiated by the taxing district) </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><u><code>or (B) 0%, as applicable</code></u><code>; and dividing the result by the last </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>known equalized assessed value of the taxing district at the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>time the submission of the question is initiated by the taxing </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>district.  This amendatory Act of the 97th General Assembly is </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>intended to clarify the existing requirements of this Section, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>and shall not be construed to validate any prior non-compliant </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>referendum language. Any notice required to be published in </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>connection with the submission of the question shall also </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>contain this supplemental information and shall not contain any </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>other supplemental information. Any error, miscalculation, or </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>inaccuracy in computing any amount set forth on the ballot or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>in the notice that is not deliberate shall not invalidate or </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>affect the validity of any proposition approved. Notice of the </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>referendum shall be published and posted as otherwise required </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>by law, and the submission of the question shall be initiated </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>as provided by law.
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 97-1087, eff. 8-24-12.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-212)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-212. </code><code>Referendum on debt service extension base. </code><code>A </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>taxing district
+may establish or increase its debt service </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>extension base if
+(i) that taxing district holds a referendum </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 23 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>before the date on which the levy
+must
+be filed with the county </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>clerk of the county or counties in which the taxing
+district is </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>situated and (ii) a majority of voters voting on the issue </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>approves
+the establishment of or increase in the debt service </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>extension base. A debt service extension base established or </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>increased by a referendum held pursuant to this Section after </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>February 2, 2010 </code><u><code>and prior to the effective date of this </code></u></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><u><code>amendatory Act of the 101st General Assembly</code></u><code>, shall be </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>increased each year, commencing with the first levy year </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>beginning after the date of the referendum, by the lesser of 5% </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>or the percentage increase in the Consumer Price Index during </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>the 12-month calendar year preceding the levy year if the </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>optional language concerning the annual increase is included in </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the question submitted to the electors of the taxing district. </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Referenda
+under
+this
+Section shall be conducted at a regularly </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>scheduled election in accordance with
+the Election Code. The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>governing body of the taxing district shall certify the
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>question to the proper election authorities who shall submit </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>the question to
+the electors of the taxing district in </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>substantially the following form:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Shall the debt service extension base under the Property </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Tax Extension
+Limitation Law for ... (taxing district name) </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>...
+for payment of principal and interest on limited bonds </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>be .... ((established at
+$ ....) . (or) (increased
+from $ </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>.... to $ ....)) .. for the ..... levy year and all </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>subsequent levy
+years (optional language: , such debt </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 24 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>service extension base to be increased each year by the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>lesser of 5% or the percentage increase in the Consumer </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Price Index during the 12-month calendar year preceding the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>levy year)?"</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Votes on the question shall be recorded as "Yes" or "No".</code><code>
+</code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>If a majority of voters voting on the issue approves the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>establishment of or
+increase
+in the debt service extension </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>base, the establishment of or increase in the
+debt
+service </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>extension base shall be applicable for the levy years </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>specified.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 96-1202, eff. 7-22-10.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-213)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-213. </code><code>
+</code><code>Referenda on applicability of the Property Tax </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>Extension
+Limitation Law.</code><code>
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The provisions of this Section do not apply to a taxing </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>district
+subject
+to this Law because a majority of its 1990 </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>equalized assessed value is in a
+county or counties contiguous </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>to a county of 3,000,000 or more inhabitants, or
+because a </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>majority of its 1994 equalized assessed value is in an affected
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>county and the taxing district was not subject to this Law </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>before the 1995 levy
+year.</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) </code><u><code>Prior to taxable year 2019, the</code></u><code> </code><strike><code>The</code></strike><code> county board of a </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>county that is not subject to this Law
+may, by ordinance or </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>resolution, submit to the voters of the
+county the question of </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>whether to
+make all non-home rule taxing districts
+that
+have </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 25 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>all or a portion of their equalized assessed valuation
+situated </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>in the county subject to this Law in the manner set forth in </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>this
+Section.</code><code>
+</code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>For purposes of this Section only:</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Taxing district" has the same meaning provided in Section </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>1-150.</code><code>
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Equalized
+assessed valuation" means the equalized </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>assessed valuation for a taxing
+district for the immediately </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>preceding levy year.</code><code>
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The ordinance or resolution shall request the </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>submission of
+the
+proposition at any election, except a </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>consolidated primary election, for the
+purpose of voting for or </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>against making the Property
+Tax Extension Limitation Law </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>applicable to all non-home rule taxing districts
+that have all
+</code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>or a
+portion of their equalized assessed valuation situated in </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>the county.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The question shall be placed on a separate
+ballot and shall </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>be in substantially the following form:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Shall the Property Tax Extension Limitation Law (35 </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ILCS 200/18-185 through
+18-245), which
+limits annual </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>property tax extension increases, apply to non-home
+rule </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>taxing
+districts with all or a portion of their equalized </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation located
+in
+(name of county)?</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Votes on the question shall be recorded as "yes" or "no".</code><code>
+</code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) The county clerk
+shall order the proposition submitted </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>to the electors of the county
+at the election specified in the </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 26 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution.
+If part of the county is under the </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>jurisdiction of
+a board or boards of election commissioners, </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>the county clerk
+shall submit a certified copy of
+the ordinance </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>or resolution to each board of election commissioners,
+which </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>shall order the
+proposition submitted to the electors of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>taxing district within its
+jurisdiction at the election </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>specified in the ordinance or resolution.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) (1) With respect to taxing districts having all of </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>their equalized
+assessed
+valuation located in the county, </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>if a majority of the votes cast on the
+proposition are in </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>favor of the proposition, then this Law becomes applicable
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>to the taxing district beginning on January 1 of the year </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following the date of
+the referendum.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) With respect to taxing districts that meet all the </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following
+conditions this Law shall become applicable to </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the taxing district beginning
+on January 1, 1997.  The </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>districts to which this paragraph (2) is applicable</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(A) do not have all of their equalized assessed </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>valuation located in a
+single county,</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(B) have equalized assessed valuation in an </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>affected county,</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(C) meet the condition that each county, other than </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>an affected county,
+in which any of the equalized </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation of the taxing district is
+located </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>has held a referendum under this Section at any </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>election, except a
+consolidated primary election, held </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 27 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>prior to the effective date of this
+amendatory Act of </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>1997, and</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(D) have a majority of the district's equalized </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation
+located in one or more counties in </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>each of which the voters have approved a
+referendum </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Section prior to the effective date of this </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>amendatory
+Act of 1997.
+For purposes of this Section, </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>in determining whether a majority of the
+equalized </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation of the taxing district is located in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>one or more
+counties in which the voters have approved </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>a referendum under this Section, the
+equalized </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation of the taxing district in any </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>affected county
+shall be included with the equalized </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed value of the taxing district in
+counties in </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>which the voters have approved the referendum.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(3) With respect to taxing districts that do not have </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>all of
+their equalized
+assessed valuation located in a </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>single county and to which paragraph (2) of
+subsection (e) </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>is not applicable, if each county other than an
+affected </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>county in which any of
+the equalized assessed valuation of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the taxing
+district is located has held a referendum under </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>this Section at any election,
+except a consolidated primary </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election, held in any year and if a majority of
+the </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equalized
+assessed valuation of the taxing district is </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>located in one or more counties
+that have each approved a </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>referendum under this Section,
+then this Law shall become </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 28 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>applicable to the taxing district on
+January 1 of the year </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>following the year in which the last referendum in a
+county </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in which the taxing district has any equalized assessed </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>valuation is
+held.
+For the purposes of this Law, the last </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>referendum shall be deemed to be the
+referendum making this </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Law applicable to the taxing district.  For purposes
+of this </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section, in determining whether a majority of the equalized </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed
+valuation of the taxing district is located in one </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>or more counties that have
+approved a referendum under this </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>Section, the equalized assessed valuation of
+the taxing </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>district in any affected county shall be included with the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equalized
+assessed value of the taxing district in counties </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>that have approved the
+referendum.</code><code>
+</code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) Immediately after a referendum is held under this </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>Section, the county
+clerk of the
+county holding the referendum </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>shall give notice of the referendum having been
+held and its </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>results to all taxing districts that have all
+or a portion of </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>their equalized assessed valuation located in the county, the
+</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>county clerk of any other county in which any of the equalized </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>assessed
+valuation of any taxing district is located, and the </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>Department of Revenue.
+After the last referendum affecting a </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>multi-county taxing district is held, the
+Department of Revenue
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>shall determine whether the taxing district is subject to this </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>Law
+and, if so, shall notify the taxing district and the county </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>clerks of all of
+the
+counties in which a portion of the </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>equalized assessed valuation of the
+taxing district is located </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 29 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>that, beginning the following January 1, the
+taxing
+district is </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>subject to this Law.
+For each taxing district subject to </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>paragraph (2) of subsection (e) of this
+Section, the Department </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>of Revenue shall notify the taxing district and the
+county </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>clerks of all of the counties in which a portion of the </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>equalized
+assessed valuation of the taxing district is located </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>that, beginning January 1,
+1997, the taxing district is subject </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>to this Law.</code><code>
+</code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) Referenda held under this Section shall be conducted in </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>accordance with
+the Election Code.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 89-510, eff. 7-11-96; 89-718, eff. 3-7-97.)</code><code>
+</code><br>&nbsp;<code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-214)</code><code>
+</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Sec. 18-214. </code><code>
+</code><code>Referenda on removal of the applicability of </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>the Property Tax
+Extension Limitation Law to non-home rule </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>taxing districts.</code><code>
+</code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(a) The provisions of this Section do not apply to a taxing </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>district that is
+subject to this Law because a majority of its </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>1990 equalized assessed value is
+in a county or counties </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>contiguous to a county of 3,000,000 or more
+inhabitants, or </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>because a majority of its 1994 equalized assessed value is in
+</code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>an
+affected county and the taxing district was not subject to </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>this Law before the
+1995 levy year.</code><code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(b) For purposes of this Section only:</code><code>
+</code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Taxing district" means any non-home rule taxing district </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>that became subject
+to this Law under Section 18-213 of this </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 30 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Law.</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>"Equalized assessed valuation" means the equalized </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>assessed valuation for a
+taxing district for the immediately </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>preceding levy year.</code><code>
+</code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(c) The county board of a county that became subject to </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>this Law by a
+referendum approved by the voters of the county </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>under Section 18-213 may, by
+ordinance or resolution, in the </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>manner set forth in this Section, submit to the
+voters of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>county the question of whether this Law applies to all non-home
+</code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>rule taxing
+districts that have all or a portion of their </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>equalized assessed valuation
+situated in the county in the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>manner set forth in this Section.</code><code>
+</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(d) The ordinance or resolution shall request the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>submission of the
+proposition at any election, except a </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>consolidated primary election, for the
+purpose of voting for or </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>against the continued application of the Property Tax
+Extension </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Limitation Law to all non-home rule taxing districts that have </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>all or
+a portion of their equalized assessed valuation situated </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>in the county.</code><code>
+</code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>The question shall be placed on a separate ballot and shall </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>be in
+substantially the following form:</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Shall
+the Property Tax
+Extension Limitation Law (35 </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>ILCS 200/18-185 through 35 ILCS 200/18-245), which
+limits </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>annual property tax extension increases, apply to non-home </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rule taxing
+districts with all or a portion of their </code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equalized assessed valuation located
+in (name of county)?</code><code>
+</code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 31 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>Votes on the question shall be recorded as "yes" or "no".</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(e) The county clerk shall order the proposition submitted </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>to the electors
+of the county at the election specified in the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>ordinance or resolution.  If
+part of the county is under the </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>jurisdiction of a board or boards of election
+commissioners, </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>the county clerk shall submit a certified copy of the ordinance
+</code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>or resolution to each board of election commissioners, which </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>shall order the
+proposition submitted to the electors of the </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><code>taxing district within its
+jurisdiction at the election </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><code>specified in the ordinance or resolution.</code><code>
+</code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(f) With respect to taxing districts having all of their </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>equalized assessed
+valuation located in one county, if a </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>majority of the votes cast on the
+proposition are against the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><code>proposition, then this Law shall not apply to the
+taxing </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><code>district beginning on January 1 of the year following the date </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>of
+the referendum.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(g) With respect to taxing districts that do not have all </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>of their
+equalized assessed valuation located in a single </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>county, if both of the
+following conditions are met, then this </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>Law shall no longer apply to the taxing
+district beginning on </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>January 1 of the year following the date of the
+referendum.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(1) Each county in which the district has any equalized </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed valuation
+must either, (i) have held a referendum </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>under this Section, (ii) be an affected
+county, or (iii) </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>have held a referendum under Section 18-213 at which the
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>voters rejected the proposition at the most recent election </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 32 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>at which the
+question was on the ballot in the county.</code><code>
+</code><code>
+</code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(2) The majority of the equalized assessed valuation of </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>the taxing
+district,
+other than any equalized assessed </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>valuation in an affected county, is in one or
+more counties </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>in which the voters rejected the proposition.  For purposes </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of
+this
+Section, in determining whether a majority of the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>equalized assessed valuation
+of the taxing district is </code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>located in one or more counties in which the voters
+have </code></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rejected the proposition under this Section, the equalized </code></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>assessed
+valuation of any taxing district in a county which </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>has held a referendum under
+Section 18-213 at which the </code></td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>voters rejected that proposition, at the most
+recent </code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>election at which the question was on the ballot in the </code></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>county, will be
+included with the equalized assessed value </code></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>of the taxing district in counties
+in
+which the voters have </code></td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" >&nbsp;&nbsp;&nbsp;&nbsp;<code>rejected the referendum held under this Section.</code><code>
+</code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(h) Immediately after a referendum is held under this </code></td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>Section, the county
+clerk of the county holding the referendum </code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>shall give notice of the referendum
+having been held and its </code></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><code>results to all taxing districts that have all or a
+portion of </code></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><code>their equalized assessed valuation located in the county, the </code></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><code>county
+clerk of any other county in which any of the equalized </code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>assessed valuation of
+any such taxing district is located, and </code></td></tr><tr><td class="number">24</td><td class="junk"></td><td class="xsl" ><code>the Department of Revenue.  After the
+last
+referendum affecting </code></td></tr><tr><td class="number">25</td><td class="junk"></td><td class="xsl" ><code>a multi-county taxing district is held, the Department of
+</code></td></tr><tr><td class="number">26</td><td class="junk"></td><td class="xsl" ><code>Revenue shall determine whether the taxing district is no </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 33 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>longer subject to
+this Law and, if the taxing district is no </code></td></tr><tr><td class="number">2</td><td class="junk"></td><td class="xsl" ><code>longer subject to this Law, the
+Department of Revenue shall </code></td></tr><tr><td class="number">3</td><td class="junk"></td><td class="xsl" ><code>notify the taxing district and the county clerks of
+all of the </code></td></tr><tr><td class="number">4</td><td class="junk"></td><td class="xsl" ><code>counties in which a portion of the equalized assessed valuation </code></td></tr><tr><td class="number">5</td><td class="junk"></td><td class="xsl" ><code>of
+the taxing district is located that, beginning on January 1 </code></td></tr><tr><td class="number">6</td><td class="junk"></td><td class="xsl" ><code>of the
+year following the date of the last
+referendum, the </code></td></tr><tr><td class="number">7</td><td class="junk"></td><td class="xsl" ><code>taxing district is no longer subject to this Law.</code><code>
+</code></td></tr><tr><td class="number">8</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>(i)  Notwithstanding any other provision of law, no </code></u></td></tr><tr><td class="number">9</td><td class="junk"></td><td class="xsl" ><u><code>referendum may be submitted under this Section for taxable year </code></u></td></tr><tr><td class="number">10</td><td class="junk"></td><td class="xsl" ><u><code>2019 or thereafter.</code></u><code> </code></td></tr><tr><td class="number">11</td><td class="junk"></td><td class="xsl" ><code>(Source: P.A. 89-718, eff. 3-7-97.)</code><code>
+</code><br>&nbsp;</td></tr><tr><td class="number">12</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(35 ILCS 200/18-242 new)</code></td></tr><tr><td class="number">13</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 18-242. </code></u><u><code>Home rule.  </code></u><u><code>This Division 5 is a limitation, </code></u></td></tr><tr><td class="number">14</td><td class="junk"></td><td class="xsl" ><u><code>under
+subsection
+(g) of Section 6 of Article VII of the </code></u></td></tr><tr><td class="number">15</td><td class="junk"></td><td class="xsl" ><u><code>Illinois Constitution, on the power of
+home rule units to tax.</code></u><br>&nbsp;</td></tr><tr><td class="number">16</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 90. </code><code>The State Mandates Act is amended by adding </code></td></tr><tr><td class="number">17</td><td class="junk"></td><td class="xsl" ><code>Section 8.43 as follows:</code><br>&nbsp;</td></tr><tr><td class="number">18</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>(30 ILCS 805/8.43 new)</code></td></tr><tr><td class="number">19</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><u><code>Sec. 8.43. </code></u><u><code>Exempt mandate. </code></u><u><code>Notwithstanding Sections 6 and 8 </code></u></td></tr><tr><td class="number">20</td><td class="junk"></td><td class="xsl" ><u><code>of this Act, no reimbursement by the State is required for the </code></u></td></tr><tr><td class="number">21</td><td class="junk"></td><td class="xsl" ><u><code>implementation of any mandate created by this amendatory Act of </code></u></td></tr><tr><td class="number">22</td><td class="junk"></td><td class="xsl" ><u><code>the 101st General Assembly.</code></u><br>&nbsp;<code>
+</code></td></tr><tr><td class="number">23</td><td class="junk"></td><td class="xsl" ><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>Section 99. </code><code>Effective date. </code><code>This Act takes effect upon </code></td></tr></table><table class="xsl" width="578"><tr><td class="lineNum" colspan="3"><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td class="xsl" colspan="3"><table class="xsl" width="100%"><colgroup width="5%"></colgroup><colgroup width="5%"></colgroup><colgroup width="30%"></colgroup><colgroup width="20%"></colgroup><colgroup width="40%"></colgroup><tr><td class="number"></td><td class="junk"></td><td class="xsl" align="left">HB0317</td><td class="xsl" align="center">- 34 -</td><td class="xsl" align="right">LRB101 04005 HLH 49013 b</td></tr></table></td></tr><tr><td class="xsl"><br></td></tr><tr><td class="number">1</td><td class="junk"></td><td class="xsl" ><code>becoming law.</code><code>
+</code></pre></table></body></html></span>
+<!--End Custom Page Content-->
+
+<!--Begin Page End-->
+
+
+</td></tr>
+<tr id="Legislation">
+<td>
+  <table border="0" class="footer" cellspacing="0" cellpadding="0" align="center" width="100%">
+    <tr>
+      <td align="center" colspan="2"><hr noShade="True" color="navy">
+      <a class="footer" href="/" title="View the General Assembly web site home page">Home</a> | 
+      <a class="footer" href="/legislation/" title="View Legislation and Laws">Legislation &amp; Laws</a> | 
+      <a class="footer" href="/house/default.asp" title="View information regarding House of Representatives">House</a> | 
+      <a class="footer" href="/senate/default.asp" title="View information regarding Senate">Senate</a> |
+      <a class="footer" href="/mylegislation/default.asp" title="Set up customized queries, create reports for tracking, etc.">My Legislation</a> |
+      <a class="footer" href="/disclaimer.asp" title="Disclaimers regarding the Illinois General Assembly web site">Disclaimers</a> |
+      <a class="footer" href="/contact.asp" title="Contact the Illinois General Assembly Web Support Staff">Email</a>
+      </td>
+    </tr>
+    <tr>
+		<td align="center" colspan="2"><hr noShade="True" color="navy"><br></td>
+    </tr>
+    <tr>
+		<td align="left" class="footer" width="107">&nbsp;&nbsp;<img src="/images/lislogo.jpg" alt="Legislative Information System logo" width="100" height="45"></td>
+		<td align+"left" valign="top" class="footer" width="100%">This site is maintained for the Illinois General Assembly 
+by the<br>Legislative Information System, 705 Stratton Building, Springfield, Illinois 62706<br> 
+217-782-3944&nbsp;&nbsp;&nbsp;217-782-2050&nbsp;(TTY) 
+<br>
+		</td>
+	</tr>
+  </table>
+    
+</td>
+</tr>
+</table>
+<p>&nbsp;</p><br>
+</td>
+</tr>
+</table>
+</body>  
+</html>
+
+<!--End Page End-->
