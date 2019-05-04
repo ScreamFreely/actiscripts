@@ -16,9 +16,9 @@ class Texas(Jurisdiction):
     scrapers = {
         'people': TXPersonScraper,
         # 'committees': TXCommitteeScraper,
-        'bills': TXBillScraper,
+        # 'bills': TXBillScraper,
         # Re-enable vote scraper when adding next regular session
-        'votes': TXVoteScraper,
+        # 'votes': TXVoteScraper,
         'events': TXEventScraper
     }
     legislative_sessions = [
