@@ -1,0 +1,3128 @@
+status: 200
+encoding: utf-8
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Sat, 04 May 2019 04:09:47 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Link: <http://leg.colorado.gov/committees/health-human-services/2019-regular-session>; rel="canonical",<http://leg.colorado.gov/node/1474836>; rel="shortlink"
+Server: nginx
+Vary: Accept-Encoding
+Via: varnish
+X-AH-Environment: prod
+X-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-ID: v-719f2346-6e22-11e9-bf60-22000a2b052d
+X-UA-Compatible: IE=edge,chrome=1
+transfer-encoding: chunked
+Connection: keep-alive
+
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7 no-js"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 no-js"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 no-js"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="ie9 lt-ie10 no-js"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html class="no-js"  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://leg.colorado.gov/sites/all/themes/themekit/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="The Senate Health and Human Services Committee considers matters concerning state health and welfare programs, health insurance, social services, and environmental health. The committee also has legislative oversight responsibility for the Department of Health Care Policy and Financing, the Department of Human Services, and the Department of Public Health and Environment." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://leg.colorado.gov/committees/health-human-services/2019-regular-session" />
+<link rel="shortlink" href="http://leg.colorado.gov/node/1474836" />
+  <title>Health & Human Services | Colorado General Assembly</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+  <link rel="" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <meta name="application-name" content="Colorado General Assembly"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="http://leg.colorado.gov/sites/all/themes/themekit/images/favicons/mstile-144x144.png" />
+
+  <link type="text/css" rel="stylesheet" href="http://leg.colorado.gov/sites/default/files/css/css_ywqYrtSodM0qVMzAkOSnqZ_iBnAVpkSeD_yPtUN9tBk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://leg.colorado.gov/sites/default/files/css/css_lkvHUqwuaMnlSkPLjR6wgdcvM88sr5Mi-fDRQ-vdqKU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://leg.colorado.gov/sites/default/files/css/css_WdXuRxU05AB2dXsuqw0393UM8ritmLXNd9RyvoMrZqQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://leg.colorado.gov/sites/default/files/css/css_rQ3fgIrx1znT5dIJRJOuYEjkvBpvVt7d-qXsYhxEIdw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://leg.colorado.gov/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+  <script src="http://leg.colorado.gov/sites/default/files/js/js_t-3EVchQ4odHqhYiRcqkNii5ZnuKVvpsKik3y25Ezz4.js"></script>
+<script src="http://leg.colorado.gov/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+<script src="http://leg.colorado.gov/sites/default/files/js/js_RWNSGzohFTmXCNuv0z6X76PcVrTxIUmQKFYEUEM9b08.js"></script>
+<script src="//use.typekit.net/ylw4wfz.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<script src="http://leg.colorado.gov/sites/default/files/js/js_DzD04PZATtGOFjfR8HJgfcaO3-pPZpWFXEvuMvQz2gA.js"></script>
+<script src="http://leg.colorado.gov/sites/default/files/js/js_uiF75tUtWsZIPud4DMk7FvzKr_zA8oqdtm3l-SnQKJ0.js"></script>
+<script src="http://leg.colorado.gov/sites/default/files/js/js_Tli_4S0RwkIvSB54hnqyMU51NsjrQblSaC4BnhSG20k.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-84496800-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"themekit","theme_token":"OCXlXue6MM1e1lJL0q6EmsBRem7eRmYqP-335yVzY00","js":{"sites\/all\/themes\/themekit\/js\/dist\/theme.js":1,"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/themekit\/js\/lib\/modernizr.custom-new.js":1,"\/\/use.typekit.net\/ylw4wfz.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/all\/modules\/custom\/cga_committees\/theme\/js\/committee_session_switcher.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/relation_add\/relation_add.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/themekit\/css\/src\/style.css":1,"sites\/all\/themes\/themekit\/system.menus.css":1,"sites\/all\/themes\/themekit\/system.messages.css":1}},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(apps\\.leg\\.co\\.gov)|([a-z.]@state\\.co\\.us)|(www\\.leg\\.state\\.co\\.us)|(tornado\\.state\\.co\\.us)|(.+acquia\\-sites\\.com*)|(.+amazonaws.+)","extInclude":"^((www.)?(leg|coga|gadev)).*","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"Note: You are now leaving the Colorado General Assembly website.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/sitewide-search":true}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1474836 node-type-committee section-committees f-not-processed" >
+  <div id="skip-to-content">
+    <a href="#main-content" class="skip-to-content-link">Skip to main content</a>
+  </div>
+    <div class="region region-page-top">
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVR2Z4F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  </div>
+  
+<div class="page-wrapper">
+
+  <div class="scroll-menu-wrapper">
+  <div class="scroll-menus"></div>
+</div>
+
+<div class="mobile-menu-bar mobile-main-menu-bar"><a href="/" class="site-title">Colorado General Assembly</a><a href="#" class="mobile-main-menu-toggle" data-toggle-target="main">Toggle Main Menu<span class="animated-toggle"><span class="lines"></span></span></a></div>
+<div class="mobile-menu-bar mobile-agency-menu-bar"><span class="agency-title">Agency Name</span><a href="#" class="mobile-agency-menu-toggle" data-toggle-target="agency">Toggle Agency Menu</a></div>
+
+<div class="mobile-menu-wrapper mobile-menu-wrapper-main">
+  <div class="mobile-menu-main"></div>
+</div>
+
+<div class="mobile-menu-wrapper mobile-menu-wrapper-agency">
+  <div class="mobile-menu-agency"></div>
+</div>
+
+  <div id="page">
+
+    <div class="header-wrapper">
+      
+<header id="header" role="banner">
+  <div class="header-top">
+    <div class="brand">
+      <div class="site-title-area">
+        <div class="site-logo">
+          <img src="/sites/all/themes/themekit/images/cga-logo-med.png" alt="Colorado General Assembly Logo">
+        </div>
+        <div class="site-title">
+          <!--            <p class="session-info">2014-2015 First Regular Session | 70th General Assembly</p>-->
+            <p class="session-info">First Regular Session | 72nd General Assembly</p>
+                                <span id="site-name">
+            <a href="/" title="Home"
+               rel="home"><span>Colorado General Assembly</span></a>
+          </span>
+                  </div>
+      </div>
+      <a href="#" class="mobile-main-menu-toggle" data-toggle-target="main">Toggle Main Menu<span class="animated-toggle"><span class="lines"></span></span></a>
+    </div>
+    <div class="utility">
+      <nav class="top-bar" role="navigation">
+  <div id="responsive-secondary-menu">
+      <div class="region region-navigation-secondary">
+    <nav id="block-menu-block-2" class="block block-menu-block first last odd" role="navigation">
+
+      
+  <ul class="menu-block-wrapper menu-block-2 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1 menu" >
+  <li class="menu__item is-leaf first leaf menu-mlid-493"><a href="http://leg.colorado.gov/visit-learn" title="" class="menu__link">Visit &amp; Learn</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-494"><a href="/findmylegislator" title="" class="menu__link">Find My Legislator</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-496"><a href="/watch-listen" title="" class="menu__link">Watch &amp; Listen</a></li>
+</ul>
+
+</nav><!-- /.block -->
+  </div>
+  </div>
+</nav>
+
+
+
+      <div class="header-search">
+        <form action="/sitewide-search" method="get" id="views-exposed-form-sitewide-search-2-simple" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-fulltext">
+ <input type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-sitewide-search-2" name="" value="Apply" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>      </div>
+    </div>
+  </div>
+
+  
+    <nav id="main-menu" role="navigation">
+      <div class="region region-navigation">
+    <nav id="block-menu-block-1" class="block block-menu-block first last odd" role="navigation">
+
+      
+  <ul class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1 menu" >
+  <li class="menu__item is-expanded first expanded menu-mlid-175 has-dropdown"><a href="/session-schedule" class="menu__link">Session Schedule</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-2661"><a href="/session-schedule" title="" class="menu__link">Full Schedule</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2666"><a href="/session-schedule?type=house" title="" class="menu__link">House Schedule</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2671"><a href="/session-schedule?type=senate" title="" class="menu__link">Senate Schedule</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-417 has-dropdown"><a href="/bills" class="menu__link">Bills</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-2686"><a href="/bills" title="" class="menu__link">Find A Bill</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2676"><a href="/bill-search?field_sessions=57701&amp;sort_bef_combine=field_bill_number%20ASC" title="" class="menu__link">All Bills</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8201"><a href="/bills-by-bill-number" title="" class="menu__link">All Bills - Condensed</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3451"><a href="/digest-of-bills" title="" class="menu__link">Bill Digest</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-7946"><a href="https://leg.colorado.gov/prior-session-information" title="" class="menu__link">Prior Sessions</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-2521 has-dropdown"><a href="/laws" class="menu__link">Laws</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-3146"><a href="/laws" title="" class="menu__link">Colorado Laws</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8151"><a href="https://leg.colorado.gov/united-states-constitution" title="" class="menu__link">U.S. Constitution</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3151"><a href="/colorado-constitution" class="menu__link">Colorado Constitution</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2886"><a href="/colorado-revised-statutes" title="A link and short description of the Colorado C.R.S." class="menu__link">Colorado Revised Statutes</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3536"><a href="/session-laws?field_sessions_target_id=57701&amp;sort_bef_combine=field_page_value%20ASC" title="" class="menu__link">Session Laws</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3541"><a href="/committees/colorado-commission-uniform-state-laws/2017-regular-session" title="" class="menu__link">Uniform State Laws</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3546"><a href="http://www.sos.state.co.us/CCR/Welcome.do" title="" class="menu__link">Executive Agency Rules &amp; Regulations</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-469"><a href="/legislators" class="menu__link">Legislators</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-532 has-dropdown"><a href="/content/committees" class="menu__link">Committees</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-3961"><a href="/content/committees" title="" class="menu__link">Committees</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-10066"><a href="/node/1222211/" title="" class="menu__link">Committee Information</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-10421"><a href="http://leg.colorado.gov/sites/default/files/committee_public_policy.pdf" title="" class="menu__link">Committee Room Policy</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8091"><a href="/node/970931/" title="" class="menu__link">Year Round &amp; Interim Committee Archives</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3066"><a href="/remote-testimony" title="" class="menu__link">Remote Testimony Sign-up</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-536 has-dropdown"><a href="/content/initiatives/initiatives-blue-book-overview" class="menu__link">Initiatives</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-3956"><a href="/content/initiatives/initiatives-blue-book-overview" title="" class="menu__link">Overview</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3211"><a href="/content/initiatives/initiatives-blue-book-overview/initiatives-filed" class="menu__link">Initiatives Filed</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3886"><a href="/BallotAnalysis" class="menu__link">Draft Ballot Analysis</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3881"><a href="/content/initiatives/initiatives-blue-book-overview/ballot-information-booklet-blue-book" class="menu__link">Blue Book</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-8066"><a href="/node/966016/" title="" class="menu__link">History of Election Results for Ballot Issues</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-564 has-dropdown"><a href="/content/budget" class="menu__link">Budget</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-9696"><a href="/content/budget" title="" class="menu__link">Budget</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8356"><a href="/content/budget/budget-documents" class="menu__link">JBC Documents</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8436"><a href="/agencies/joint-budget-committee" title="" class="menu__link">Joint Budget Committee Staff</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8431"><a href="/committees/joint-technology-committee/2019-regular-session" title="" class="menu__link">Joint Technology Committee (JTC)</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-8426"><a href="/committees/capital-development-committee/2019-regular-session" title="" class="menu__link">Capital Development Committee (CDC)</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1786 has-dropdown"><a href="/content/audits" class="menu__link">Audits</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-3966"><a href="/content/audits" title="" class="menu__link">Find An Audit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3136"><a href="/audit-search" title="" class="menu__link">All Audits</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-8071"><a href="/audits-by-report-number" title="" class="menu__link">Audits by Report Number</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-573 has-dropdown"><a href="/content/publications" class="menu__link">Publications</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-2716"><a href="/content/publications" title="" class="menu__link">Find A Publication</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2721"><a href="/publication-search" title="" class="menu__link">All Publications</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded menu-mlid-565 has-dropdown"><a href="/agencies" class="menu__link">Agencies</a><ul class="expanded-child dropdown"><li class="menu__item is-leaf first leaf menu-mlid-3971"><a href="/agencies" title="" class="menu__link">Agencies</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-703"><a href="/agencies/house-of-representatives" class="menu__link">House of Representatives</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-704"><a href="/agencies/senate" class="menu__link">Senate</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-694"><a href="/agencies/joint-budget-committee" class="menu__link">Joint Budget Committee Staff</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-645"><a href="/agencies/legislative-council-staff" class="menu__link">Legislative Council Staff</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-705"><a href="/agencies/office-of-legislative-legal-services" class="menu__link">Office of Legislative Legal Services</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-681"><a href="/agencies/office-of-the-state-auditor" class="menu__link">Office of the State Auditor</a></li>
+</ul></li>
+</ul>
+
+</nav><!-- /.block -->
+  </div>
+  </nav>
+
+</header>
+    </div>
+
+    
+  <div id="content-btth">
+      
+           
+<!--      <a id="main-content"></a> -->
+      
+                      
+      
+                      
+                      
+      
+                      
+      
+    </div><!--/#content-btth-->
+
+
+
+
+    
+    <noscript>
+  <div class="no-js-message">
+    <p>
+      <strong>This website requires javascript to run optimally on computers, mobile devices, and screen readers. Please enable javascript for the best experience!</strong>
+    </p>
+  </div>
+</noscript>
+
+
+    
+        <div class="main-content-section-container">
+      <div class="main-content-section">
+        <main id="main-content" class="main-content" role="main">
+          
+
+
+
+
+<article class="node-1474836 node node-committee view-mode-full clearfix" about="/committees/health-human-services/2019-regular-session" typeof="sioc:Item foaf:Document">
+
+  <header>
+          <span class="committee-title page-qualifying-title">Senate Committee of Reference</span>
+              <h1 class="node__title node-title">Health &amp; Human Services</h1>
+    <span property="dc:title" content="Health &amp; Human Services" class="rdf-meta element-hidden"></span>        <label class='switcher-label'>View By Session</label><select class="session-switcher">
+            <option value="committees/health-human-services/2016-regular-session">2016 Regular Session</option>
+                <option value="committees/health-human-services/2017-regular-session">2017 Regular Session</option>
+                <option value="committees/health-human-services/2017-extraordinary-session">2017 Extraordinary Session</option>
+                <option value="committees/health-human-services/2018-regular-session">2018 Regular Session</option>
+                <option selected value="committees/health-human-services/2019-regular-session">2019 Regular Session</option>
+      </select>
+          <div class="committee-subjects">
+        <span class="committee-subjects-label">Subjects: </span>
+        <div class="field field-name-field-subjects field-type-entityreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Health Care &amp; Health Insurance</div>
+          <div class="field-item odd">Human Services</div>
+          <div class="field-item even">Public Health</div>
+      </div>
+</div>
+      </div>
+      </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" property="content:encoded"><p>The Senate Health and Human Services Committee considers matters concerning state health and welfare programs, health insurance, social services, and environmental health.  The committee also has legislative oversight responsibility for the Department of Health Care Policy and Financing, the Department of Human Services, and the Department of Public Health and Environment.</p>
+</div>
+      </div>
+</div>
+<div class="field field-name-field-committee-detail-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://leg.colorado.gov/node/1475321/">Committee Documents</a></div>
+          <div class="field-item odd"><a href="http://leg.colorado.gov/node/1475326/">SMART Government Act Hearings</a></div>
+      </div>
+</div>
+
+</article>
+                  </main>
+                  <aside class="aside">
+              <div class="region region-aside">
+    <div id="block-cga-blocks-actions" class="block block-cga-blocks first odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                      </div>
+    <div class="block-content">
+      <div class="action-item share-link-block">
+  <div class="simple-dropdown-container">
+    <a class="share-icon-link dropdown-toggle" href="#">Share</a>
+    <div class="dropdown">
+      <ul class="share-links">
+        <li><a class="share-link share-link-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://leg.colorado.gov/committees/health-human-services/2019-regular-session" target="_blank">Facebook</a></li>
+        <li><a class="share-link share-link-twitter" href="https://twitter.com/intent/tweet?text=&url=http%3A%2F%2Fleg.colorado.gov%2Fcommittees%2Fhealth-human-services%2F2019-regular-session" target="_blank">Twitter</a></li>
+        <li><a class="share-link share-link-email" href="mailto:?body=http://leg.colorado.gov/committees/health-human-services/2019-regular-session" target="_blank">Email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="action-item testify-link-block">
+    <a class="testify-icon-link" href="/committee/granicus/1474836">Committee Audio</a>
+  </div>
+    </div>
+  </div>
+
+</div>
+<div id="block-cga-committees-committee-meetings" class="block block-cga-committees last even">
+  <div class="block-container">
+    <div class="block-title-container">
+                    <h2 class="block__title block-title">Committee Information</h2>
+                </div>
+    <div class="block-content">
+          <div class="meeting-wrapper">
+        <h3>Meeting Days</h3>
+                <div class="meeting-day-time-wrapper">
+              <span class="meeting-day">Wednesday</span>
+              <span class="divider"> | </span>
+              <span class="meeting-time">Upon Adjournment</span>
+          </div>
+          <div class="meeting-location-wrapper">
+              <span class="meeting-location">LSB-B</span>
+          </div>
+                <div class="meeting-day-time-wrapper">
+              <span class="meeting-day">Thursday</span>
+              <span class="divider"> | </span>
+              <span class="meeting-time">1:30 PM</span>
+          </div>
+          <div class="meeting-location-wrapper">
+              <span class="meeting-location">LSB-B</span>
+          </div>
+          </div>
+
+<div class="contact-wrapper">
+      <h3>Staff Contacts</h3>
+          <div class="staff-name">
+          <span>Elizabeth Haskell</span>
+      </div>
+      <div class="staff-phone">
+          <a href="tel:303-866-6264">303-866-6264</a>
+      </div>
+      <div class="staff-email">
+        <a href="mailto:Elizabeth.Haskell@state.co.us">Email</a>
+    </div>
+</div>    </div>
+  </div>
+
+</div>
+  </div>
+          </aside>
+              </div>
+    </div>
+
+      <div class="region region-bottom">
+    <div id="block-cga-committees-committee-members" class="block block-cga-committees first odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                    <h2 class="block__title block-title">Committee Members</h2>
+                </div>
+    <div class="block-content">
+      <div class="members">
+    <div class="roster-item">
+    <div class="member">
+      <div class="member-image">
+        <a href="/legislators/rhonda-fields"><img src="http://leg.colorado.gov/sites/default/files/styles/profile_picture_teaser/public/2019a_fields%2C%20rhonda.jpg?itok=xQmku83a" alt="Rhonda Fields"></img></a>      </div>
+      <div class="member-details">
+        <span class="member-title">Senator</span>
+        <h4><a href="/legislators/rhonda-fields">Rhonda Fields</a></h4>
+                  <span class="member-role">Chair</span>
+              </div>
+    </div>
+  </div>
+    <div class="roster-item">
+    <div class="member">
+      <div class="member-image">
+        <a href="/legislators/brittany-pettersen"><img src="http://leg.colorado.gov/sites/default/files/styles/profile_picture_teaser/public/2019a_pettersen%2C%20britteny.jpg?itok=tGHMyJYo" alt="Brittany Pettersen"></img></a>      </div>
+      <div class="member-details">
+        <span class="member-title">Senator</span>
+        <h4><a href="/legislators/brittany-pettersen">Brittany Pettersen</a></h4>
+                  <span class="member-role">Vice Chair</span>
+              </div>
+    </div>
+  </div>
+    <div class="roster-item">
+    <div class="member">
+      <div class="member-image">
+        <a href="/legislators/larry-w-crowder"><img src="http://leg.colorado.gov/sites/default/files/styles/profile_picture_teaser/public/2019a_crowder%2C%20larry.jpg?itok=nreWppIi" alt="Larry W. Crowder"></img></a>      </div>
+      <div class="member-details">
+        <span class="member-title">Senator</span>
+        <h4><a href="/legislators/larry-w-crowder">Larry W. Crowder</a></h4>
+              </div>
+    </div>
+  </div>
+    <div class="roster-item">
+    <div class="member">
+      <div class="member-image">
+        <a href="/legislators/jim-smallwood"><img src="http://leg.colorado.gov/sites/default/files/styles/profile_picture_teaser/public/2019a_smallwood%2C%20jim.jpg?itok=4CYEqFN-" alt="Jim Smallwood"></img></a>      </div>
+      <div class="member-details">
+        <span class="member-title">Senator</span>
+        <h4><a href="/legislators/jim-smallwood">Jim Smallwood</a></h4>
+              </div>
+    </div>
+  </div>
+    <div class="roster-item">
+    <div class="member">
+      <div class="member-image">
+        <a href="/legislators/faith-winter"><img src="http://leg.colorado.gov/sites/default/files/styles/profile_picture_teaser/public/2019a_winter%2C%20faith.jpg?itok=dqorjONS" alt="Faith Winter"></img></a>      </div>
+      <div class="member-details">
+        <span class="member-title">Senator</span>
+        <h4><a href="/legislators/faith-winter">Faith Winter</a></h4>
+              </div>
+    </div>
+  </div>
+  </div>
+    </div>
+  </div>
+
+</div>
+<div id="block-cga-blocks-field-bottom" class="block block-cga-blocks even">
+  <div class="block-container">
+    <div class="block-title-container">
+                      </div>
+    <div class="block-content">
+      
+<div class="paragraphs-items paragraphs-items-field-bottom paragraphs-items-field-bottom-full paragraphs-items-full">
+  <div class="field field-name-field-bottom field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-component-block-bar col-number-3" about="" typeof="">
+  <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-p-block-bar-items paragraphs-items-field-p-block-bar-items-full paragraphs-items-full">
+  
+<div class="field field-name-field-p-block-bar-items field-type-paragraphs field-label-hidden">
+    <div class="component-block-bar field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-reference-block" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-block field-type-blockreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div id="block-cga-publications-related-publications" class="block block-cga-publications first odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                    <h2 class="block__title block-title">Related Publications</h2>
+                </div>
+    <div class="block-content">
+        <div class="related-publication">
+    <div class="publication-type">
+      Other    </div>
+    <div class="publication-link">
+      <a href="/publications/colorado-results-first-initiative-2016-smart-act-materials-office-state-planning-and">Colorado Results First Initiative, 2016 SMART Act Materials, Office of State Planning and Budgeting</a>    </div>
+  </div>
+  <div class="related-publication">
+    <div class="publication-type">
+      Other    </div>
+    <div class="publication-link">
+      <a href="/publications/department-health-care-policy-finance-presentation-opioid-interim-committee">Department of Health Care Policy &amp; Finance Presentation to the Opioid Interim Committee</a>    </div>
+  </div>
+  <div class="related-publication">
+    <div class="publication-type">
+      Other    </div>
+    <div class="publication-link">
+      <a href="/publications/screening-brief-intervention-and-referral-treatment-peer-assistance-services-kognito">Screening Brief Intervention and Referral to Treatment, Peer Assistance Services,  Kognito Solutions, LLC</a>    </div>
+  </div>
+    </div>
+  </div>
+
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-simple-related-links" about="" typeof="">
+  <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-p-8-dynamic-links paragraphs-items-field-p-8-dynamic-links-full paragraphs-items-full">
+  <div class="field field-name-field-p-8-dynamic-links field-type-paragraphs field-label-above">
+      <div class="field-label">Related Links</div>
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-simple-link" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://leg.colorado.gov/agencies/legislative-council-staff/committee-staff">Committee Staff &amp; Services</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-simple-link" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://leg.colorado.gov/node/1514786">Committee Information and Procedures</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-simple-link" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://www.leg.state.co.us/inethsr.nsf/Rule.xsp?id=HSERULES.25&amp;catg=House&amp;pg=3.0">Committee Rules - House Rule 25 (a)</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-simple-link" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://www.leg.state.co.us/inethsr.nsf/Rule.xsp?id=SENRULES.22&amp;catg=Senate&amp;pg=2.0">Senate Rule 22</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-simple-link" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://leg.colorado.gov/agencies/house-representatives/deadline-schedule">Deadline Schedule</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-reference-block" about="" typeof="">
+  <div class="content">
+    <div class="field field-name-field-block field-type-blockreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div id="block-twitter-block-91" class="block block-twitter-block even">
+  <div class="block-container">
+    <div class="block-title-container">
+                      </div>
+    <div class="block-content">
+      <a href="https://twitter.com/@COHealthComm" class="twitter-timeline" data-widget-id="393406581070520320" data-height="500" data-aria-polite="polite">Tweets by @COHealthComm</a>    </div>
+  </div>
+
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+    </div>
+  </div>
+
+</div>
+<div id="block-cga-committees-committee-activity" class="block block-cga-committees last odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                    <h2 class="block__title block-title">Committee Activity</h2>
+                </div>
+    <div class="block-content">
+      
+  <ul class="accordion">
+            
+      <li
+        class="accordion-item is-active"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190425_134128" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-25T13:41:28-06:00">04/25/2019</span></div>
+      </div>
+</div>
+              <span class="count">(9)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+                          </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="E067F721888C9E91872583E7006C3402">
+                    <td data-label="Hearing Item">Conf 19-Health — State Board Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="FA1842D504D21042872583E7006D6324">
+                    <td data-label="Hearing Item">Conf 19-Medical Services Board</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="555224AD9D87C26B872583E7006E84CA">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1076">HB19-1076</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="B9DFDBF62272F6B6872583E7007171F6">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1168">HB19-1168</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1168_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="06020372ED206D11872583E7007CC9CF">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1076">HB19-1076</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1076_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="5BCD26063EE97FDB872583E7007D05E9">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1301">HB19-1301</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1301_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="3E63AF3864038441872583E7007EE8C5">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1279">HB19-1279</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1279_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="F9FAEE27335F5086872583E7008261D8">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1203">HB19-1203</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1203_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="25150CA19CAFCE4B872583E8000149FE">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-134">SB19-134</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb134_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190419_093911" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-19T09:39:11-06:00">04/19/2019</span></div>
+      </div>
+</div>
+              <span class="count">(5)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+                          </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="19C3379BBC9497AA872583E10055FF3B">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1133">HB19-1133</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1133_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="202380D1891458E9872583E10056FB8B">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1233">HB19-1233</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1233_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="A5483233CB93FF76872583E1005C78F0">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1269">HB19-1269</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1269_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="5981EDA8DC265DA4872583E10062FA87">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1288">HB19-1288</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1288_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="9EC40FF802633244872583E100657B2D">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1216">HB19-1216</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1216_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190418_155103" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-18T15:51:03-06:00">04/18/2019</span></div>
+      </div>
+</div>
+              <span class="count">(2)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+                          </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="E89B93E4B7E9E66B872583E00078118B">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-238">SB19-238</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb238_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="20EBABBA21B8FF8F872583E1000458DD">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-242">SB19-242</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb242_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190418_133407" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-18T13:34:07-06:00">04/18/2019</span></div>
+      </div>
+</div>
+              <span class="count">(9)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+                          </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="21C81A866AC5DC9F872583E0006B96BD">
+                    <td data-label="Hearing Item">Conf 19-Traumatic Brain Injury Trust Fund Board — Colorado</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="DC05DCBA40183A9F872583E0006C4A47">
+                    <td data-label="Hearing Item">Conf 19-University Of Colorado Hospital Authority — Board Of Directors</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="C5E7F37E5A8259EA872583E0006C7F35">
+                    <td data-label="Hearing Item">Conf 19-Children's Trust Fund Board — Colorado</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="911A06DE716672B0872583E0006CE670">
+                    <td data-label="Hearing Item">Conf 19-Healthcare Affordability And Sustainability Enterprise- Colorado</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="2849B0ECBA0D2892872583E0006D50F7">
+                    <td data-label="Hearing Item">Conf 19-Medical Officer — Chief</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="3949B62C3E4E1E16872583E0006DB9BF">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-242">SB19-242</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="CCFCBFBB4BDADEF8872583E0006DE838">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1267">HB19-1267</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1267_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="1056F4198C0993D4872583E00070D005">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-245">SB19-245</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb245_s_hhs_001.pdf">Committee Report</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="AB9B5B32AB033BC5872583E00070F28D">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-245">SB19-245</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"></div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190417_115039" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-17T11:50:39-06:00">04/17/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-04172019-115039-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="B36531F3474EEB7C872583DF00620950">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1253">HB19-1253</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1253_s_hhs_001.pdf">Committee Report</a> | <a href="/content/b36531f3474eeb7c872583df00620950-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="36936F0398311289872583DF00635627">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1268">HB19-1268</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1268_s_hhs_001.pdf">Committee Report</a> | <a href="/content/36936f0398311289872583df00635627-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="839D5B2582DA1A45872583DF0063E866">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-134">SB19-134</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Laid Over</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/839d5b2582da1a45872583df0063e866-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190411_133739" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-11T13:37:39-06:00">04/11/2019</span></div>
+      </div>
+</div>
+              <span class="count">(6)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-04112019-013739-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="9E6846D781A90EAF872583D9006BDF7F">
+                    <td data-label="Hearing Item">Conf 19-Human Services — State Board Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/9e6846d781a90eaf872583d9006bdf7f-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="B7A354493C6D55E9872583D9006C361A">
+                    <td data-label="Hearing Item">Conf 19-Health — State Board Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/b7a354493c6d55e9872583d9006c361a-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="E63EED998A1CC1CE872583D9006E3CC8">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-217">SB19-217</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb217_s_hhs_001.pdf">Committee Report</a> | <a href="/content/e63eed998a1cc1ce872583d9006e3cc8-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="98133F406CD0EDED872583D90073D90A">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1211">HB19-1211</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1211_s_hhs_001.pdf">Committee Report</a> | <a href="/content/98133f406cd0eded872583d90073d90a-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="4D7B8723544281F7872583D900776B57">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-227">SB19-227</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb227_s_hhs_001.pdf">Committee Report</a> | <a href="/content/4d7b8723544281f7872583d900776b57-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="2C6C3175672C9BC8872583D900808C6A">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-228">SB19-228</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb228_s_hhs_001.pdf">Committee Report</a> | <a href="/content/2c6c3175672c9bc8872583d900808c6a-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190410_101122" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-10T10:11:22-06:00">04/10/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-04102019-101122-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="622E0B1E3A5BE494872583D80058F194">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1147">HB19-1147</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1147_s_hhs_001.pdf">Committee Report</a> | <a href="/content/622e0b1e3a5be494872583d80058f194-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="F46AF3CECF391474872583D8005CF0ED">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-217">SB19-217</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Laid Over</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/f46af3cecf391474872583d8005cf0ed-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="61057710EF534A09872583D8005D4089">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1183">HB19-1183</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1183_s_hhs_001.pdf">Committee Report</a> | <a href="/content/61057710ef534a09872583d8005d4089-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190404_133218" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-04T13:32:18-06:00">04/04/2019</span></div>
+      </div>
+</div>
+              <span class="count">(6)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-04042019-013218-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="5946394A89295C1D872583D2006B66F9">
+                    <td data-label="Hearing Item">Conf 19-Human Services — State Board Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/5946394a89295c1d872583d2006b66f9-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="A52065859C5B0B40872583D2006CD71B">
+                    <td data-label="Hearing Item">Conf 19-Healthcare Affordability And Sustainability Enterprise- Colorado</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/a52065859c5b0b40872583d2006cd71b-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="FE945448FA474571872583D2006D6B4D">
+                    <td data-label="Hearing Item">Required Presentation – Connect for Health Colorado - Annual Report</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/fe945448fa474571872583d2006d6b4d-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="44D03CC309E182B2872583D20070300E">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-134">SB19-134</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion and Laid Over for Action</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/44d03cc309e182b2872583d20070300e-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="7808D11F29E73641872583D2007DF5F0">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-217">SB19-217</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion and Laid Over for Action</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/7808d11f29e73641872583d2007df5f0-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="AB8DFB94E9F56BEE872583D300023441">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-219">SB19-219</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb219_s_hhs_001.pdf">Committee Report</a> | <a href="/content/ab8dfb94e9f56bee872583d300023441-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190403_105438" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-04-03T10:54:38-06:00">04/03/2019</span></div>
+      </div>
+</div>
+              <span class="count">(4)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-04032019-105438-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="A95AD26BA4228413872583D1005CEC9B">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-172">SB19-172</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb172_s_hhs_001.pdf">Committee Report</a> | <a href="/content/a95ad26ba4228413872583d1005cec9b-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="857208CB380F5050872583D100658349">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1208">HB19-1208</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1208_s_hhs_001.pdf">Committee Report</a> | <a href="/content/857208cb380f5050872583d100658349-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="FADB1019733592C9872583D10067C8FB">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-195">SB19-195</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/fadb1019733592c9872583d10067c8fb-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="9015C130384BD86D872583D100684CE7">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1095">HB19-1095</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1095_s_hhs_001.pdf">Committee Report</a> | <a href="/content/9015c130384bd86d872583d100684ce7-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190321_133531" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-21T13:35:31-06:00">03/21/2019</span></div>
+      </div>
+</div>
+              <span class="count">(4)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03212019-013531-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="2E90B2082186A1CC872583C4006BAAE0">
+                    <td data-label="Hearing Item">Required Presentation – Office of the Child Protection Ombudsman</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/2e90b2082186a1cc872583c4006baae0-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="CB92903B25334390872583C4006CEA6A">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-195">SB19-195</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb195_s_hhs_001.pdf">Committee Report</a> | <a href="/content/cb92903b25334390872583c4006cea6a-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="5360D1EDE373E428872583C40073713C">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1065">HB19-1065</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1065_s_hhs_001.pdf">Committee Report</a> | <a href="/content/5360d1ede373e428872583c40073713c-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="DE062935FB8F5413872583C40074A1C2">
+                    <td data-label="Hearing Item">Sunset Hearing - Controlled Substances Act</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Refer Draft Bill for Introduction </div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/de062935fb8f5413872583c40074a1c2-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190320_103559" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-20T10:35:59-06:00">03/20/2019</span></div>
+      </div>
+</div>
+              <span class="count">(2)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03202019-103559-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="B391263BEC25803D872583C3005B3277">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-153">SB19-153</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb153_s_hhs_001.pdf">Committee Report</a> | <a href="/content/b391263bec25803d872583c3005b3277-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="34557AEDF91235BB872583C3005CC9FE">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1131">HB19-1131</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1131_s_hhs_001.pdf">Committee Report</a> | <a href="/content/34557aedf91235bb872583c3005cc9fe-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190314_133709" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-14T13:37:09-06:00">03/14/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03142019-013709-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="279BD4164ECCF20A872583BD006BC82D">
+                    <td data-label="Hearing Item">Conf 19-Human Services — Executive Director — Department Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/279bd4164eccf20a872583bd006bc82d-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="1C41E40D80666470872583BD006D0CDB">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1031">HB19-1031</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1031_s_hhs_001.pdf">Committee Report</a> | <a href="/content/1c41e40d80666470872583bd006d0cdb-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="F12DCAEE15732541872583BD006F0484">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1028">HB19-1028</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1028_s_hhs_001.pdf">Committee Report</a> | <a href="/content/f12dcaee15732541872583bd006f0484-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190313_110632" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-13T11:06:32-06:00">03/13/2019</span></div>
+      </div>
+</div>
+              <span class="count">(5)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03132019-110632-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="0781D0CAB22CC73D872583BC005DFE6E">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1038">HB19-1038</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1038_s_hhs_001.pdf">Committee Report</a> | <a href="/content/0781d0cab22cc73d872583bc005dfe6e-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="6E0642AFB25EF6D5872583BC006097FD">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1150">HB19-1150</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1150_s_hhs_001.pdf">Committee Report</a> | <a href="/content/6e0642afb25ef6d5872583bc006097fd-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="44AA22969FC79507872583BC00626724">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1069">HB19-1069</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1069_s_hhs_001.pdf">Committee Report</a> | <a href="/content/44aa22969fc79507872583bc00626724-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="CA7137564A0651E1872583BC006355A0">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-004">SB19-004</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb004_s_hhs_001.pdf">Committee Report</a> | <a href="/content/ca7137564a0651e1872583bc006355a0-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="B9530C9C0A232E9A872583BC00650D22">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1004">HB19-1004</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1004_s_hhs_001.pdf">Committee Report</a> | <a href="/content/b9530c9c0a232e9a872583bc00650d22-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190307_133209" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-07T13:32:09-07:00">03/07/2019</span></div>
+      </div>
+</div>
+              <span class="count">(5)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03072019-013209-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="EAC229C1F4485553872583B600710181">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-052">SB19-052</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb052_s_hhs_001.pdf">Committee Report</a> | <a href="/content/eac229c1f4485553872583b600710181-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="9E9029A90C2C7095872583B6007329E6">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1010">HB19-1010</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1010_s_hhs_001.pdf">Committee Report</a> | <a href="/content/9e9029a90c2c7095872583b6007329e6-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="E894DF3DFE3BF0BA872583B60077DDEE">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1041">HB19-1041</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1041_s_hhs_001.pdf">Committee Report</a> | <a href="/content/e894df3dfe3bf0ba872583b60077ddee-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="3123F17109CE7FE4872583B6007BC211">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1068">HB19-1068</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1068_s_hhs_001.pdf">Committee Report</a> | <a href="/content/3123f17109ce7fe4872583b6007bc211-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="3C5EBFC187B84A4E872583B6007BE91E">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1001">HB19-1001</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1001_s_hhs_001.pdf">Committee Report</a> | <a href="/content/3c5ebfc187b84a4e872583b6007be91e-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190306_100351" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-06T10:03:51-07:00">03/06/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-03062019-100351-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="30FAE3E4BC165DA6872583B5005E1376">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-146">SB19-146</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb146_s_hhs_001.pdf">Committee Report</a> | <a href="/content/30fae3e4bc165da6872583b5005e1376-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="E07C1652B3321C57872583B5005E6059">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-164">SB19-164</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb164_s_hhs_001.pdf">Committee Report</a> | <a href="/content/e07c1652b3321c57872583b5005e6059-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="79725033F121CF28872583B5006028B4">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-145">SB19-145</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb145_s_hhs_001.pdf">Committee Report</a> | <a href="/content/79725033f121cf28872583b5006028b4-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190228_134030" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-28T13:40:30-07:00">02/28/2019</span></div>
+      </div>
+</div>
+              <span class="count">(1)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02282019-014030-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="226817C23B1E85DD872583AF00720F58">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1032">HB19-1032</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1032_s_hhs_001.pdf">Committee Report</a> | <a href="/content/226817c23b1e85dd872583af00720f58-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190227_101900" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-27T10:19:00-07:00">02/27/2019</span></div>
+      </div>
+</div>
+              <span class="count">(1)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02272019-101900-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="55E88FBD6C81DA7A872583AE005F2304">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1105">HB19-1105</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1105_s_hhs_001.pdf">Committee Report</a> | <a href="/content/55e88fbd6c81da7a872583ae005f2304-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190221_140858" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-21T14:08:58-07:00">02/21/2019</span></div>
+      </div>
+</div>
+              <span class="count">(2)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02212019-020858-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="7CE3045C34B2C04D872583A80074381F">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1044">HB19-1044</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1044_s_hhs_001.pdf">Committee Report</a> | <a href="/content/7ce3045c34b2c04d872583a80074381f-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="65239B0B10B7B51B872583A8007AD1CB">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-133">SB19-133</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb133_s_hhs_001.pdf">Committee Report</a> | <a href="/content/65239b0b10b7b51b872583a8007ad1cb-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190220_094810" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-20T09:48:10-07:00">02/20/2019</span></div>
+      </div>
+</div>
+              <span class="count">(4)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02202019-094810-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="F50E55E159AD0ACD872583A7005C5DD8">
+                    <td data-label="Hearing Item">Sunset Review - Home Care Agencies</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/f50e55e159ad0acd872583a7005c5dd8-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="6A8AEB0D9E8FE260872583A7005E40BD">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1070">HB19-1070</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1070_s_hhs_001.pdf">Committee Report</a> | <a href="/content/6a8aeb0d9e8fe260872583a7005e40bd-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="D32C56BC978D3C9E872583A7005E77D8">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1077">HB19-1077</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1077_s_hhs_001.pdf">Committee Report</a> | <a href="/content/d32c56bc978d3c9e872583a7005e77d8-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="869566C9C724FB90872583A700603E47">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1109">HB19-1109</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1109_s_hhs_001.pdf">Committee Report</a> | <a href="/content/869566c9c724fb90872583a700603e47-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190214_133518" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-14T13:35:18-07:00">02/14/2019</span></div>
+      </div>
+</div>
+              <span class="count">(4)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02142019-013518-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="EE28497365F6F473872583A100712DDC">
+                    <td data-label="Hearing Item">Sunset Review - Podiatry Board</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/ee28497365f6f473872583a100712ddc-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="869F4BC60FFDA891872583A10073C612">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-041">SB19-041</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb041_s_hhs_001.pdf">Committee Report</a> | <a href="/content/869f4bc60ffda891872583a10073c612-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="C72DAF1D7CFC4A1A872583A100743E52">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-053">SB19-053</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Postponed Indefinitely</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb053_s_hhs_001.pdf">Committee Report</a> | <a href="/content/c72daf1d7cfc4a1a872583a100743e52-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="AB38C787B92398BA872583A1007452B0">
+                    <td data-label="Hearing Item"><a href="/bills/hb19-1033">HB19-1033</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_hb1033_s_hhs_001.pdf">Committee Report</a> | <a href="/content/ab38c787b92398ba872583a1007452b0-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190213_094110" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-13T09:41:10-07:00">02/13/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02132019-094110-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="3854FA4E25E35396872583A0005C1F22">
+                    <td data-label="Hearing Item">Sunset Review - Hemodialysis Techs</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Senate for Introduction, as amended.</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/3854fa4e25e35396872583a0005c1f22-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="4BA1D8E6D6A1AD33872583A0005E28D2">
+                    <td data-label="Hearing Item">Sunset Review – In-home Support Services</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Senate for Introduction</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/4ba1d8e6d6a1ad33872583a0005e28d2-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="B4F70328F83E6831872583A000612CCA">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-053">SB19-053</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/b4f70328f83e6831872583a000612cca-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190207_133349" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-07T13:33:49-07:00">02/07/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02072019-013349-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="4EE49136BD3BC34D8725839A00710256">
+                    <td data-label="Hearing Item">Conf 19-Public Health & Environment — Executive Director — Department Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/4ee49136bd3bc34d8725839a00710256-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="4DBA9679CF3808A88725839A0074F9B5">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-001">SB19-001</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb001_s_hhs_001.pdf">Committee Report</a> | <a href="/content/4dba9679cf3808a88725839a0074f9b5-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="30AE871EB989B9B18725839A007C12CD">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-065">SB19-065</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Finance</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb065_s_hhs_001.pdf">Committee Report</a> | <a href="/content/30ae871eb989b9b18725839a007c12cd-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190206_114828" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-06T11:48:28-07:00">02/06/2019</span></div>
+      </div>
+</div>
+              <span class="count">(3)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-02062019-114828-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="1E1183395C6C6BFE8725839900675317">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-073">SB19-073</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb073_s_hhs_001.pdf">Committee Report</a> | <a href="/content/1e1183395c6c6bfe8725839900675317-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="7D706150A85FB40B87258399006BC203">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-061">SB19-061</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb061_s_hhs_001.pdf">Committee Report</a> | <a href="/content/7d706150a85fb40b87258399006bc203-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="2371208360169BA787258399006CA7DA">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-013">SB19-013</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb013_s_hhs_001.pdf">Committee Report</a> | <a href="/content/2371208360169ba787258399006ca7da-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190131_133542" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-31T13:35:42-07:00">01/31/2019</span></div>
+      </div>
+</div>
+              <span class="count">(2)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01312019-013542-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="7CBDEF0E6217DAB08725839300714051">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-013">SB19-013</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/7cbdef0e6217dab08725839300714051-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="E44CC2372B7A703F87258393007F267F">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-005">SB19-005</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb005_s_hhs_001.pdf">Committee Report</a> | <a href="/content/e44cc2372b7a703f87258393007f267f-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="H_HI_2019A_20190130_111147" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-30T11:11:47-07:00">01/30/2019</span></div>
+      </div>
+</div>
+              <span class="count">(2)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01302019-111147-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="58BCD1FF606BFAA587258392006407BC">
+                    <td data-label="Hearing Item">Briefing from the Joint Budget Committee</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/58bcd1ff606bfaa587258392006407bc-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="F7E7A399FE452D458725839200684A01">
+                    <td data-label="Hearing Item">Presentation on the IDD Waitlist</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/f7e7a399fe452d458725839200684a01-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190124_133133" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-24T13:31:33-07:00">01/24/2019</span></div>
+      </div>
+</div>
+              <span class="count">(1)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01242019-013133-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="677DC4E32F3D66BB8725838C0070C5E1">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-063">SB19-063</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb063_s_hhs_001.pdf">Committee Report</a> | <a href="/content/677dc4e32f3d66bb8725838c0070c5e1-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190123_135553" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-23T13:55:53-07:00">01/23/2019</span></div>
+      </div>
+</div>
+              <span class="count">(4)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01232019-015553-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="AA3B6FF7718722B08725838B00730C39">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-080">SB19-080</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb080_s_hhs_001.pdf">Committee Report</a> | <a href="/content/aa3b6ff7718722b08725838b00730c39-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="2E348F375B28F3798725838B0073A2CB">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-081">SB19-081</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb081_s_hhs_001.pdf">Committee Report</a> | <a href="/content/2e348f375b28f3798725838b0073a2cb-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="4B02ABBDE990ABE08725838B0074004E">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-083">SB19-083</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb083_s_hhs_001.pdf">Committee Report</a> | <a href="/content/4b02abbde990abe08725838b0074004e-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="819FE9FE7FED95438725838B00744029">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-082">SB19-082</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb082_s_hhs_001.pdf">Committee Report</a> | <a href="/content/819fe9fe7fed95438725838b00744029-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190117_133415" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-17T13:34:15-07:00">01/17/2019</span></div>
+      </div>
+</div>
+              <span class="count">(6)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01172019-013415-pm-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="5FCF6F2608B9BF988725838500710AA0">
+                    <td data-label="Hearing Item">Conf 19-Health Care Policy And Financing — Executive Director — Department Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/5fcf6f2608b9bf988725838500710aa0-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="8E7D20860C28210C872583850072DEC3">
+                    <td data-label="Hearing Item">Conf 19-Insurance — Commissioner Of</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Favorably Refer to Full Senate - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/8e7d20860c28210c872583850072dec3-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="CE07FED39D6A482A8725838500757C41">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-031">SB19-031</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb031_s_hhs_001.pdf">Committee Report</a> | <a href="/content/ce07fed39d6a482a8725838500757c41-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="F58E8C80DFB31C7887258385007770B7">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-015">SB19-015</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/f58e8c80dfb31c7887258385007770b7-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="E0D1B8A6DA808C5487258385007A445D">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-010">SB19-010</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Amended, referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb010_s_hhs_001.pdf">Committee Report</a> | <a href="/content/e0d1b8a6da808c5487258385007a445d-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="0BF074BA056C46F8872583860003B5A4">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-015">SB19-015</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to Senate Appropriations</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb015_s_hhs_001.pdf">Committee Report</a> | <a href="/content/0bf074ba056c46f8872583860003b5a4-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+                  
+      <li
+        class="accordion-item"
+        data-accordion-item
+        data-meeting-uuid="S_HHS_2019A_20190116_092819" >
+
+        <a class="accordion-title" tabindex="0">
+          <h5>
+            <div class="date-wrapper">
+              <div class="field field-name-field-date field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-01-16T09:28:19-07:00">01/16/2019</span></div>
+      </div>
+</div>
+              <span class="count">(5)</span>
+            </div>
+          </h5>
+        </a>
+        <div class="accordion-content" data-tab-content>
+          <div class="activity-meta">
+            <div class="description-wrapper">
+                          </div>
+            <div class="documents-wrapper">
+              <a href="/content/shhs2019a-01162019-092819-am-committee-summary">Committee Summary</a>            </div>
+          </div>
+          <div class="hearing-items">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>Hearing Item</th>
+                  <th>Actions</th>
+                  <th>Documents/Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                                  <tr data-hearing-item-uuid="99245E69F74A753387258384005A8388">
+                    <td data-label="Hearing Item">Introduction</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/99245e69f74a753387258384005a8388-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="409C0015E72E770187258384005ABD76">
+                    <td data-label="Hearing Item">Presentation - Fiscal Note Staff and Office of Legislative Legal Services Staff</td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Committee Discussion Only</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="/content/409c0015e72e770187258384005abd76-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="30E39011DE5202A087258384005B1262">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-021">SB19-021</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb021_s_hhs_001.pdf">Committee Report</a> | <a href="/content/30e39011de5202a087258384005b1262-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="32D189F5517A50CD87258384005B7A2C">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-044">SB19-044</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb044_s_hhs_001.pdf">Committee Report</a> | <a href="/content/32d189f5517a50cd87258384005b7a2c-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                                  <tr data-hearing-item-uuid="732C4008CADB2F5087258384005BC49B">
+                    <td data-label="Hearing Item"><a href="/bills/sb19-045">SB19-045</a></td>
+                    <td data-label="Actions"><div class="field field-name-field-committee-actions field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Referred to the Committee of the Whole - Consent Calendar</div>
+      </div>
+</div>
+</td>
+                    <td data-label="Documents/Links" class="committee-activity-documents"><a href="http://leg.colorado.gov/sites/default/files/2019a_sb045_s_hhs_001.pdf">Committee Report</a> | <a href="/content/732c4008cadb2f5087258384005bc49b-hearing-summary">Hearing Summary Document</a></td>
+                  </tr>
+                              </tbody>
+            </table>
+          </div>
+        </div>
+      </li>
+            </ul>
+      <div class="item-list">
+     <ul class="pager">
+          <li class="pager-current">1</li>
+          </ul>
+    </div>
+
+  
+    </div>
+  </div>
+
+</div>
+  </div>
+
+    <div class="footer">
+        <footer id="footer" class="region region-footer">
+    <div id="block-cga-cta-defaults-custom-ctas" class="block block-cga-cta-defaults first last odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                      </div>
+    <div class="block-content">
+      <div class="entity entity-bean bean-cta-block clearfix" about="/block/committee-related-ctas-0" typeof="">
+
+  <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-p-cta-bar paragraphs-items-field-p-cta-bar-full paragraphs-items-full">
+  <div class="field field-name-field-p-cta-bar field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-component-cta-bar col-number-2" about="" typeof="">
+  <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-p-ctas paragraphs-items-field-p-ctas-full paragraphs-items-full">
+  
+<div class="field field-name-field-p-ctas field-type-paragraphs field-label-hidden">
+    <div class="component-cta-bar field-items">
+          <div class="field-item even">
+
+<div class="entity entity-paragraphs-item paragraphs-item-simple-cta" about="" typeof="">
+  <div class="content">
+        <a href="/findmylegislator"
+       title="Find My Legislator"
+       target="_self">
+            <div class="field field-name-field-cta-icon field-type-entityreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">
+
+<div class="entity entity-icon icon-cta-icon clearfix" about="/icon/cta_icon/56" typeof="">
+  <div class="content">
+    <div class="snap-icon-container">
+      <div class="snap-icon snap-cta-icon icon-capitol" data-url="http://leg.colorado.gov/sites/default/files/cta-man-woman.svg"></div>    </div>
+          </div>
+</div>
+</div>
+      </div>
+</div>
+<div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Find My Legislator</div>
+      </div>
+</div>
+    </a>
+  </div>
+</div>
+</div>
+          <div class="field-item odd">
+
+<div class="entity entity-paragraphs-item paragraphs-item-simple-cta" about="" typeof="">
+  <div class="content">
+        <a href="/bills"
+       title="Find a Bill"
+       target="_self">
+            <div class="field field-name-field-cta-icon field-type-entityreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">
+
+<div class="entity entity-icon icon-cta-icon clearfix" about="/icon/cta_icon/51" typeof="">
+  <div class="content">
+    <div class="snap-icon-container">
+      <div class="snap-icon snap-cta-icon icon-capitol" data-url="http://leg.colorado.gov/sites/default/files/cta-magnifying-glass.svg"></div>    </div>
+          </div>
+</div>
+</div>
+      </div>
+</div>
+<div class="field field-name-field-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Find a Bill</div>
+      </div>
+</div>
+    </a>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
+  </footer>
+<div class="footer-bottom">
+  <div class="footer-content-wrapper">
+    <div class="footer-content">
+        <div class="region region-footer-1">
+    <div id="block-bean-footer-copy" class="block block-bean first last odd">
+  <div class="block-container">
+    <div class="block-title-container">
+                    <h2 class="block__title block-title">Colorado General Assembly</h2>
+                </div>
+    <div class="block-content">
+      <div class="entity entity-bean bean-basic-block clearfix" about="/block/footer-copy" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-body field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div>Colorado General Assembly</div>
+<div>200 E Colfax Avenue</div>
+<div>Denver, CO 80203</div>
+<p><a href="mailto:comments.ga@state.co.us">comments.ga@state.co.us</a></p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
+  </div>
+        <div class="region region-footer-2">
+    <nav id="block-menu-block-9" class="block block-menu-block first last odd" role="navigation">
+
+        <h2 class="block__title block-title">Resources &amp; Information</h2>
+    
+  <ul class="menu-block-wrapper menu-block-9 menu-name-menu-footer-menu-1 parent-mlid-0 menu-level-1 menu" >
+  <li class="menu__item is-leaf first leaf menu-mlid-780"><a href="/executive-agency-rules-regulations" title="" class="menu__link">Rules &amp; Regulations of Executive Agencies</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-782"><a href="http://www.colorado.gov/" title="" class="menu__link">State Home</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3911"><a href="https://www.colorado.gov/apps/oit/transparency/index.html" title="" class="menu__link">Transparency Online Project</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4506"><a href="/publications/legislative-workplace-study" title="" class="menu__link">Legislative Workplace Study</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4516"><a href="/legislative-resources-requirements" title="" class="menu__link">Legislative Resources &amp; Requirements</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-10046"><a href="https://leg.colorado.gov/agencies/legislative-council-staff/salaries-legislators-and-county-officers" title="" class="menu__link">Salaries for Legislators, Statewide Elected Officials, and County Officers</a></li>
+</ul>
+
+</nav><!-- /.block -->
+  </div>
+        <div class="region region-footer-3">
+    <nav id="block-menu-block-10" class="block block-menu-block first last odd" role="navigation">
+
+        <h2 class="block__title block-title">Policies</h2>
+    
+  <ul class="menu-block-wrapper menu-block-10 menu-name-menu-footer-menu-2 parent-mlid-0 menu-level-1 menu" >
+  <li class="menu__item is-leaf first leaf menu-mlid-3921"><a href="/node/580141/" title="" class="menu__link">Capitol Security Protocol</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-785"><a href="/open-records-requests" title="" class="menu__link">Open Records Requests &amp; Policy</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-786"><a href="http://leg.colorado.gov/sites/default/files/privacypolicy.pdf" title="" class="menu__link">Privacy Policy</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3916"><a href="http://leg.colorado.gov/sites/default/files/publicwifi.pdf" title="" class="menu__link">Public Wi-Fi</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4836"><a href="http://leg.colorado.gov/publications/legislative-branch-policy-services-persons-disabilities-provide-access-official" title="" class="menu__link">Services for Persons with Disabilities</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-784"><a href="https://leg.colorado.gov/workplace-harassment-policy" title="" class="menu__link">Workplace Harassment Policy</a></li>
+</ul>
+
+</nav><!-- /.block -->
+  </div>
+        <div class="region region-footer-4">
+    <nav id="block-menu-block-11" class="block block-menu-block first last odd" role="navigation">
+
+        <h2 class="block__title block-title">For Legislators &amp; Staff</h2>
+    
+  <ul class="menu-block-wrapper menu-block-11 menu-name-menu-footer-menu-3 parent-mlid-0 menu-level-1 menu" >
+  <li class="menu__item is-leaf first leaf menu-mlid-789"><a href="https://sites.google.com/view/coga-ethics-tutorial/" title="" class="menu__link">Ethics Tutorial</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-790"><a href="https://leg.colorado.gov/user/login" title="" class="menu__link">IT Login</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-5506"><a href="/new-member-orientation" title="" class="menu__link">New Member Orientation</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-7611"><a href="/social-calendar" title="" class="menu__link">Social Calendar</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-8056"><a href="/house-senate-rules" title="" class="menu__link">House and Senate Rules</a></li>
+</ul>
+
+</nav><!-- /.block -->
+  </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg"></div>
+
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+
+    <!-- Container that holds slides.
+        PhotoSwipe keeps only 3 of them in the DOM to save memory.
+        Don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+
+      <div class="pswp__top-bar">
+
+        <!--  Controls are self-explanatory. Order can be changed. -->
+
+        <div class="pswp__counter"></div>
+
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp preloader active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>  <script src="http://leg.colorado.gov/sites/default/files/js/js_GKetG7AIhRLJDAjb_zVYXisUkbXrV1L9Qv_yrQTHSsY.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"48ca2afd60","applicationID":"65781041","transactionName":"NFxVNxBUD0pSU0FbCw0WdgAWXA5XHF5aVgE8SVYEB2oXUFZH","queueTime":0,"applicationTime":5295,"atts":"GBtWQVhOHEQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -2,7 +2,7 @@ import datetime as dt
 import pytz
 
 from pupa.scrape import Scraper, Event
-from openstates.utils import LXMLMixin
+from utils import LXMLMixin
 
 
 class COEventScraper(Scraper, LXMLMixin):
