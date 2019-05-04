@@ -12,7 +12,7 @@ class Georgia(Jurisdiction):
     name = "Georgia"
     url = "http://www.legis.ga.gov/"
     scrapers = {
-        'bills': GABillScraper,
+        # 'bills': GABillScraper,
         'people': GAPersonScraper,
         # 'committee': GACommitteeScraper,
     }
