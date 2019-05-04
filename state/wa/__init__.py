@@ -14,7 +14,7 @@ class Washington(Jurisdiction):
     url = "http://www.leg.wa.gov"
     scrapers = {
         'people': WAPersonScraper,
-        'events': WAEventScraper,
+        # 'events': WAEventScraper,
         # 'committees': WACommitteeScraper,
         # 'bills': WABillScraper,
     }
@@ -69,6 +69,11 @@ class Washington(Jurisdiction):
     ]
 
     def get_organizations(self):
+        dfl = Organization('Republican', classification='party')
+        repub = Organization('Democratic', classification='party')
+        yield dfl
+        yield repub
+
         legislature_name = "Washington State Legislature"
 
         legislature = Organization(name=legislature_name,
