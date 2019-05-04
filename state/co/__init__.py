@@ -122,6 +122,11 @@ class Colorado(Jurisdiction):
     ]
 
     def get_organizations(self):
+        dfl = Organization('Republican', classification='party')
+        repub = Organization('Democratic', classification='party')
+        yield dfl
+        yield repub
+
         legislature_name = "Colorado General Assembly"
 
         legislature = Organization(name=legislature_name,
