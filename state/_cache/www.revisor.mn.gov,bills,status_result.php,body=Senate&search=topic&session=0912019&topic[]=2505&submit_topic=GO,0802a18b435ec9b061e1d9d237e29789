@@ -1,0 +1,1237 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 20:39:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Set-Cookie: CN_STATUSRESULTS=%2Fbills%2Fstatus_result.php%3Fbody%3DSenate%26search%3Dtopic%26session%3D0912019%26topic%5B%5D%3D2505%26submit_topic%3DGO, CN_DOCLIST=0%5E2019%2CSSF2798%2CSHF2796%2CSSF2770%2CSSF2659%2CSSF2523%2CSSF2451%2CSSF2433%2CSSF2364%2CSSF2312%2CSSF2285%2CSSF2280%2CSSF2256%2CSSF2215%2CSSF2135%2CSSF2111%2CSSF1933%2CSSF1924%2CSSF1877%2CSSF1876%2CSSF1816%2CSSF1706%2CSSF1701%2CSSF1651%2CSSF1601%2CSSF1597%2CSSF1561%2CSSF1526%2CSSF1453%2CSSF1333%2CSSF1332%2CSSF1244%2CSSF1117%2CSSF1075%2CSSF0880%2CSSF0864%2CSSF0780%2CSSF0626%2CSSF0622%2CSSF0274%2CSSF0161%2CSSF0132
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>Minnesota Legislature - Office of the Revisor of Statutes</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+<div class="bill_result">
+
+<div id="header" class="row mb-2">
+    <div class="col-auto mr-auto">
+	<h2> <!--style="margin-bottom:10px"-->Search Results</h2>
+
+    </div>
+    <div class="col-auto pr-0">
+		<ul id="help">
+		<!--<p class="help">--><li><a href="http://www.leg.state.mn.us/leg/help/example.asp">Help</a></li>
+		<!--<p class="top_right">--><li><a href="status_search.php?search=basic&amp;body=Senate&amp;session=0912019">Basic Search</a></li><!--</p>-->
+		<!--<p class="top_right">--><li><a href="status_search.php?search=basic&amp;body=Senate&amp;session=0912019">New Search</a></li>
+		<li><a href="status_search.php?search=topic&amp;body=House&amp;session=0912019">House Search</a></li>
+		</ul>
+    </div>
+</div>
+
+<h3> <!--style="text-align:center;line-height:24px;"-->41 Documents Found in Legislative Session 91 (2019-2020) <br/><span style="font-size:75%">for Topics of "Wages and Salaries"</span></h3>
+
+
+
+<div class="pagination top"><p></p></div>
+<table class="table table-sm table-responsive">
+<thead>
+<tr>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"-->Body</th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"--><a title="Sort by Bill Status" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=1" class="asc">Bill<br/>Status</a></th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"--><a title="Sort by Official Actions" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=14">Official<br/>Actions</a></th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"--><a title="Sort by Last Action" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=15">Last<br/>Action</a></th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"--><a title="Sort by Law" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=4">Law</a></th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"-->Bill<br/>Text</th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:center;text-width:01%"--><a title="Sort by Chief Author" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=16">Chief<br/>Author</a></th>
+	<th class="border-top-0"> <!--style="vertical-align:bottom;text-align:left;text-width:93%"--><a title="Sort by Description" href="status_result.php?body=Senate&amp;session=0912019&amp;location=Senate&amp;search=topic&amp;topic%5B%5D=2505&amp;submit_topic=GO&amp;sort2=13">Short Description</a></th>
+</tr>
+</thead>
+	<tbody>
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2798&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2798&amp;ssn=0&amp;y=2019" style="color:#064780">SF2798</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2798&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2798&amp;ssn=0&amp;y=2019" style="color:#064780">04/08/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2798&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10403" style="color:#064780">Marty</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Paid family, pregnancy, bonding, and serious medical condition benefits provisions; employment leaves; data classification; rulemaking; appropriation</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=HF2796&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=HF2796&amp;ssn=0&amp;y=2019" style="color:#064780">HF2796</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=HF2796&amp;ssn=0&amp;y=2019" style="color:#064780">3</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=HF2796&amp;ssn=0&amp;y=2019" style="color:#064780">05/20/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=HF2796&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15487" style="color:#064780">Koran</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minnesota law enforcement association labor agreement and Minnesota state board of investment salary administration compensation plan ratification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2770&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2770&amp;ssn=0&amp;y=2019" style="color:#064780">SF2770</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2770&amp;ssn=0&amp;y=2019" style="color:#064780">7</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2770&amp;ssn=0&amp;y=2019" style="color:#064780">05/18/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2770&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15487" style="color:#064780">Koran</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minnesota law enforcement association labor agreement and Minnesota state board of investment salary administration compensation plan ratification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2659&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2659&amp;ssn=0&amp;y=2019" style="color:#064780">SF2659</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2659&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2659&amp;ssn=0&amp;y=2019" style="color:#064780">03/25/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2659&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15484" style="color:#064780">Jensen</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Two-tiered minimum wage for tipped employees establishment</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2523&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2523&amp;ssn=0&amp;y=2019" style="color:#064780">SF2523</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2523&amp;ssn=0&amp;y=2019" style="color:#064780">4</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2523&amp;ssn=0&amp;y=2019" style="color:#064780">03/25/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2523&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15239" style="color:#064780">Ingebrigtsen</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Statutory open appropriation for legislator salaries creation</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2451&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2451&amp;ssn=0&amp;y=2019" style="color:#064780">SF2451</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2451&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2451&amp;ssn=0&amp;y=2019" style="color:#064780">03/14/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2451&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15239" style="color:#064780">Ingebrigtsen</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Soil and water conservation district supervisor and watershed district manager compensation increase</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2433&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2433&amp;ssn=0&amp;y=2019" style="color:#064780">SF2433</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2433&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2433&amp;ssn=0&amp;y=2019" style="color:#064780">03/13/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2433&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15382" style="color:#064780">Housley</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Short-term disability insurance availability outreach requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2364&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2364&amp;ssn=0&amp;y=2019" style="color:#064780">SF2364</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2364&amp;ssn=0&amp;y=2019" style="color:#064780">3</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2364&amp;ssn=0&amp;y=2019" style="color:#064780">03/14/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2364&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15479" style="color:#064780">Draheim</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Grants to nonprofits with highly paid officers or employees prohibition</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2312&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2312&amp;ssn=0&amp;y=2019" style="color:#064780">SF2312</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2312&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2312&amp;ssn=0&amp;y=2019" style="color:#064780">03/11/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2312&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15491" style="color:#064780">Mathews</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Small business definition modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2285&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2285&amp;ssn=0&amp;y=2019" style="color:#064780">SF2285</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2285&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2285&amp;ssn=0&amp;y=2019" style="color:#064780">03/11/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2285&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10002" style="color:#064780">Abeler</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Direct support services providers workforce negotiations rate modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2280&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2280&amp;ssn=0&amp;y=2019" style="color:#064780">SF2280</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2280&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2280&amp;ssn=0&amp;y=2019" style="color:#064780">03/11/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2280&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10503" style="color:#064780">Pappas</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Contractors to obtain workforce and equal pay certificates requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2256&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2256&amp;ssn=0&amp;y=2019" style="color:#064780">SF2256</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2256&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2256&amp;ssn=0&amp;y=2019" style="color:#064780">03/11/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2256&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15482" style="color:#064780">Goggin</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Seasonal agricultural workers overtime requirements exemption</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2215&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2215&amp;ssn=0&amp;y=2019" style="color:#064780">SF2215</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2215&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2215&amp;ssn=0&amp;y=2019" style="color:#064780">03/07/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2215&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15402" style="color:#064780">Isaacson</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minnesota investment fund and Minnesota job creation fund projects required wage levels modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2135&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2135&amp;ssn=0&amp;y=2019" style="color:#064780">SF2135</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2135&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2135&amp;ssn=0&amp;y=2019" style="color:#064780">03/07/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2135&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15481" style="color:#064780">Frentz</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Personal care assistant services providers minimum hourly wage and appropriation</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF2111&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2111&amp;ssn=0&amp;y=2019" style="color:#064780">SF2111</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2111&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF2111&amp;ssn=0&amp;y=2019" style="color:#064780">03/07/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF2111&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15487" style="color:#064780">Koran</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Affirmative approval before interim implementation of state employee collective bargaining agreements requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1933&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1933&amp;ssn=0&amp;y=2019" style="color:#064780">SF1933</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1933&amp;ssn=0&amp;y=2019" style="color:#064780">4</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1933&amp;ssn=0&amp;y=2019" style="color:#064780">03/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1933&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15317" style="color:#064780">Champion</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Wage theft prohibition; wage payment modification; civil and criminal penalties increase; administrative review; appropriation</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1924&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1924&amp;ssn=0&amp;y=2019" style="color:#064780">SF1924</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1924&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1924&amp;ssn=0&amp;y=2019" style="color:#064780">02/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1924&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10503" style="color:#064780">Pappas</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Past employment wages disclosure requirement employer prohibition; penalties imposition</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1877&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1877&amp;ssn=0&amp;y=2019" style="color:#064780">SF1877</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1877&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1877&amp;ssn=0&amp;y=2019" style="color:#064780">02/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1877&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15302" style="color:#064780">Kiffmeyer</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State employers authorization to contract to pay employees based on the biennial appropriation to the agency restriction</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1876&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1876&amp;ssn=0&amp;y=2019" style="color:#064780">SF1876</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1876&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1876&amp;ssn=0&amp;y=2019" style="color:#064780">02/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1876&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15487" style="color:#064780">Koran</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Collective bargaining agreements and compensation plan information submission to the Legislative Coordinating Commission (LCC) requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1816&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1816&amp;ssn=0&amp;y=2019" style="color:#064780">SF1816</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1816&amp;ssn=0&amp;y=2019" style="color:#064780">4</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1816&amp;ssn=0&amp;y=2019" style="color:#064780">03/18/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1816&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15386" style="color:#064780">Pratt</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Wage theft prohibition; labor trafficking and wage theft free workplace recognition program establishment; written demand for payment to employer requirement; labor trafficking grant appropriation</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1706&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1706&amp;ssn=0&amp;y=2019" style="color:#064780">SF1706</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1706&amp;ssn=0&amp;y=2019" style="color:#064780">6</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1706&amp;ssn=0&amp;y=2019" style="color:#064780">05/09/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1706&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15382" style="color:#064780">Housley</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Garnishment of earnings provisions modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1701&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1701&amp;ssn=0&amp;y=2019" style="color:#064780">SF1701</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1701&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1701&amp;ssn=0&amp;y=2019" style="color:#064780">02/25/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1701&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15325" style="color:#064780">Chamberlain</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minnesota State Patrol troopers salary setting requirements establishment; compensation survey conducted by state auditor requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1651&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1651&amp;ssn=0&amp;y=2019" style="color:#064780">SF1651</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1651&amp;ssn=0&amp;y=2019" style="color:#064780">4</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1651&amp;ssn=0&amp;y=2019" style="color:#064780">03/26/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1651&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15329" style="color:#064780">Hall</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Political subdivision compensation limit modification and conformance</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1601&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1601&amp;ssn=0&amp;y=2019" style="color:#064780">SF1601</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1601&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1601&amp;ssn=0&amp;y=2019" style="color:#064780">02/21/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1601&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15402" style="color:#064780">Isaacson</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Wage deductions for credit card charges modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1597&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1597&amp;ssn=0&amp;y=2019" style="color:#064780">SF1597</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1597&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1597&amp;ssn=0&amp;y=2019" style="color:#064780">02/21/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1597&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10503" style="color:#064780">Pappas</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Earned sick and safe time provision, enforcement, civil penalties, and rulemaking</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1561&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1561&amp;ssn=0&amp;y=2019" style="color:#064780">SF1561</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1561&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1561&amp;ssn=0&amp;y=2019" style="color:#064780">02/21/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1561&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15318" style="color:#064780">Hayden</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Cultural and ethnic communities leadership council compensation modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1526&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1526&amp;ssn=0&amp;y=2019" style="color:#064780">SF1526</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1526&amp;ssn=0&amp;y=2019" style="color:#064780">4</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1526&amp;ssn=0&amp;y=2019" style="color:#064780">03/26/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1526&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15482" style="color:#064780">Goggin</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minor league baseball players exemption from minimum wage and overtime requirements authorization</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1453&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1453&amp;ssn=0&amp;y=2019" style="color:#064780">SF1453</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1453&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1453&amp;ssn=0&amp;y=2019" style="color:#064780">02/18/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1453&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15445" style="color:#064780">Rarick</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State patrol troopers salaries set schedule requirements establishment; state auditor annual compensation survey requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1333&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1333&amp;ssn=0&amp;y=2019" style="color:#064780">SF1333</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1333&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1333&amp;ssn=0&amp;y=2019" style="color:#064780">02/18/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1333&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10804" style="color:#064780">Ruud</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State patrol troopers salary setting requirements establishment; state auditor to conduct annual compensation survey </span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1332&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1332&amp;ssn=0&amp;y=2019" style="color:#064780">SF1332</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1332&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1332&amp;ssn=0&amp;y=2019" style="color:#064780">02/18/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1332&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15322" style="color:#064780">Benson</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State patrol troopers salary setting requirements establishment; state auditor to conduct annual compensation survey</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1244&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1244&amp;ssn=0&amp;y=2019" style="color:#064780">SF1244</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1244&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1244&amp;ssn=0&amp;y=2019" style="color:#064780">02/14/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1244&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15486" style="color:#064780">Klein</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Constitutional amendment authorizing collective bargaining rights</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1117&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1117&amp;ssn=0&amp;y=2019" style="color:#064780">SF1117</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1117&amp;ssn=0&amp;y=2019" style="color:#064780">3</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1117&amp;ssn=0&amp;y=2019" style="color:#064780">02/14/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1117&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10376" style="color:#064780">Limmer</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Property tax refunds income definition modification</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF1075&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1075&amp;ssn=0&amp;y=2019" style="color:#064780">SF1075</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1075&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF1075&amp;ssn=0&amp;y=2019" style="color:#064780">02/11/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF1075&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15490" style="color:#064780">Little</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Legislative employees to bargain collectively authorization</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0880&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0880&amp;ssn=0&amp;y=2019" style="color:#064780">SF0880</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0880&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0880&amp;ssn=0&amp;y=2019" style="color:#064780">02/07/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0880&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15317" style="color:#064780">Champion</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Wage disclosure requirements by employers prohibition and civil penalties imposition</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0864&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0864&amp;ssn=0&amp;y=2019" style="color:#064780">SF0864</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0864&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0864&amp;ssn=0&amp;y=2019" style="color:#064780">02/07/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0864&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15380" style="color:#064780">Hawj</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State procurement executive salary preference provision</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0780&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0780&amp;ssn=0&amp;y=2019" style="color:#064780">SF0780</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0780&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0780&amp;ssn=0&amp;y=2019" style="color:#064780">02/04/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0780&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15401" style="color:#064780">Howe</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->State Patrol troopers salary set requirements establishment; annual compensation survey conducted by state auditor requirement</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0626&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0626&amp;ssn=0&amp;y=2019" style="color:#064780">SF0626</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0626&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0626&amp;ssn=0&amp;y=2019" style="color:#064780">01/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0626&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10403" style="color:#064780">Marty</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minimum wage phased-in increase</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0622&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0622&amp;ssn=0&amp;y=2019" style="color:#064780">SF0622</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0622&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0622&amp;ssn=0&amp;y=2019" style="color:#064780">01/28/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0622&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10403" style="color:#064780">Marty</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Minimum wage phased-in increase; federal social security tax loophole closure; child care assistance expansion; Minnesota family investment program (MFIP) cash grant increase; working family tax credit program increase; basic sliding fee child care assistance program forecasting</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0274&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0274&amp;ssn=0&amp;y=2019" style="color:#064780">SF0274</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0274&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0274&amp;ssn=0&amp;y=2019" style="color:#064780">01/17/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0274&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15489" style="color:#064780">Lang</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->County employees mobilized in the United States military reserve component pay differential award authorization</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0161&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0161&amp;ssn=0&amp;y=2019" style="color:#064780">SF0161</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0161&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0161&amp;ssn=0&amp;y=2019" style="color:#064780">01/17/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0161&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=15378" style="color:#064780">Clausen</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Professional educator licensing and standards board members compensation reduction by public employers prohibition</span></td>
+</tr> 
+<tr> <!--style="text-align:left;vertical-align:text-top;"-->
+<td> <!--style="text-align:center;text-width:01%"--><a href="http://www.senate.leg.state.mn.us/bills/billinf.php?billnum=SF0132&amp;ls=91&amp;special_session=20190" style="color:#064780"><b>Senate</b></a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0132&amp;ssn=0&amp;y=2019" style="color:#064780">SF0132</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0132&amp;ssn=0&amp;y=2019" style="color:#064780">2</a></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/bill.php?b=Senate&amp;f=SF0132&amp;ssn=0&amp;y=2019" style="color:#064780">01/14/2019</a></td>
+<td> <!--style="text-align:center;text-width:01%"--></td>
+<td> <!--style="text-align:center;text-width:01%"--><a href="/bills/text.php?number=SF0132&amp;session=ls91&amp;version=latest&amp;session_number=0&amp;session_year=2019" style="color:#064780"><img src="/images/text.gif" alt="Text icon"/></a></td>
+<td> <!--style="text-align:left;text-width:01%;white-space:nowrap"--><a href="http://www.senate.leg.state.mn.us/members/member_bio.php?leg_id=10403" style="color:#064780">Marty</a></td>
+<td> <!--style="text-align:left;text-width:85%"--><span><!-- style="font-size:1.0em">-->Legislature per diem payments preclusion</span></td>
+</tr> 
+	</tbody>
+</table>
+
+</div>
+
+<div class="pagination top"><p></p></div>
+
+<script type = "text/javascript">
+
+	$(document).ready(function () {
+
+		function init(){
+			var results = $('div.bill_result table tr td:nth-child(2) a');
+			var returnString =[];
+
+			if (typeof(Storage) !== "undefined") {
+				if (results.length != 0){
+					//console.log("setting local storage");
+
+					//sets the results into local storage
+					$.each(results, function(key, value){
+						returnString.push(value);
+					});
+
+					sessionStorage.setItem("result", returnString);
+					sessionStorage.getItem("result");
+					console.log(sessionStorage.result);
+				}
+			}
+			else{
+				console.log ("Sorry! No Web Storage support")
+			}
+		}
+		init();
+
+	});
+
+</script>
+
+
+
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		
+

@@ -1,0 +1,1481 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 22:36:47 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 457 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 457</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 01/31/2019 04:05pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF0457&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF0457&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF0457&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF457&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF457&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/28/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF0457&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF0457&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <br/>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <br/>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <br/>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <br/>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <br/>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <br/>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <br/>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <br/>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <br/>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">4.33</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <br/>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <br/>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <br/>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <br/>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <br/>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <br/>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <br/>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <br/>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <br/>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to transportation; requiring light rail transit operators to comply with <br/><span id="pl.1.3" class="pl"> </span>certain traffic regulations; establishing alcohol concentration limits for light rail <br/><span id="pl.1.4" class="pl"> </span>transit operators; amending Minnesota Statutes 2018, sections 169.035, by adding <br/><span id="pl.1.5" class="pl"> </span>a subdivision; 169A.20, subdivision 1; 169A.52, subdivisions 2, 4; 169A.53, <br/><span id="pl.1.6" class="pl"> </span>subdivision 3; 171.177, subdivisions 3, 5, 8, 12.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.7" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section add_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.8" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 169.035, is amended by adding a subdivision <br/><span id="pl.1.9" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.10" class="pl"> </span>Subd. 5.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Light rail transit.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Except for those provisions which by their nature cannot <br/><span id="pl.1.11" class="pl"> </span>reasonably apply to light rail transit vehicles, every person operating a light rail transit <br/><span id="pl.1.12" class="pl"> </span>vehicle has the rights and duties applicable to the driver of any other vehicle pursuant to <br/><span id="pl.1.13" class="pl"> </span>sections 169.06; 169.09; 169.13; 169.14; 169.15; 169.20; 169.202, subdivision 2; 169.21, <br/><span id="pl.1.14" class="pl"> </span>subdivision 2; 169.41; 169.444; and 169.475.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.15" class="pl"> </span>(b) Notwithstanding section 171.08, a light rail transit operator is not required to display <br/><span id="pl.1.16" class="pl"> </span>or furnish a driver's license to a peace officer in connection with the operation of a light rail <br/><span id="pl.1.17" class="pl"> </span>transit vehicle while being operated upon rails.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.18" class="pl"> </span>(c) Notwithstanding any provision of this subdivision, a person operating a light rail <br/><span id="pl.1.19" class="pl"> </span>transit vehicle that is subject to regulation by the United States Department of Transportation, <br/><span id="pl.1.20" class="pl"> </span>Federal Railroad Administration, or both shall comply with the more stringent or additional <br/><span id="pl.1.21" class="pl"> </span>requirement imposed by federal regulation.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.22" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.1.23" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.2.1" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 169A.20, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.2.2" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Driving while impaired crime; motor vehicle.</h3>
+        <p>It is a crime for any <br/><span id="pl.2.3" class="pl"> </span>person to drive, operate, or be in physical control of any motor vehicle, as defined in section <br/><a href="/statutes/cite/169A.03#stat.169A.03.15"><span id="pl.2.4" class="pl"> </span>169A.03, subdivision 15</a>, except for motorboats in operation and off-road recreational <br/><span id="pl.2.5" class="pl"> </span>vehicles, within this state or on any boundary water of this state when:<br/></p>
+        <p><span id="pl.2.6" class="pl"> </span>(1) the person is under the influence of alcohol;<br/></p>
+        <p><span id="pl.2.7" class="pl"> </span>(2) the person is under the influence of a controlled substance;<br/></p>
+        <p><span id="pl.2.8" class="pl"> </span>(3) the person is under the influence of an intoxicating substance and the person knows <br/><span id="pl.2.9" class="pl"> </span>or has reason to know that the substance has the capacity to cause impairment;<br/></p>
+        <p><span id="pl.2.10" class="pl"> </span>(4) the person is under the influence of a combination of any two or more of the elements <br/><span id="pl.2.11" class="pl"> </span>named in clauses (1) to (3);<br/></p>
+        <p><span id="pl.2.12" class="pl"> </span>(5) the person's alcohol concentration at the time, or as measured within two hours of <br/><span id="pl.2.13" class="pl"> </span>the time, of driving, operating, or being in physical control of the motor vehicle is 0.08 or <br/><span id="pl.2.14" class="pl"> </span>more;<br/></p>
+        <p><span id="pl.2.15" class="pl"> </span>(6) the vehicle is a commercial motor vehicle <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a light rail transit vehicle </ins><span class="sr-only">new text end</span>and the person's <br/><span id="pl.2.16" class="pl"> </span>alcohol concentration at the time, or as measured within two hours of the time, of driving, <br/><span id="pl.2.17" class="pl"> </span>operating, or being in physical control of the commercial motor vehicle is 0.04 or more; or<br/></p>
+        <p><span id="pl.2.18" class="pl"> </span>(7) the person's body contains any amount of a controlled substance listed in Schedule <br/><span id="pl.2.19" class="pl"> </span>I or II, or its metabolite, other than marijuana or tetrahydrocannabinols.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.20" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.2.21" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.22" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 169A.52, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.23" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Reporting test failure.</h3>
+        <p>(a) If a person submits to a test, the results of that test <br/><span id="pl.2.24" class="pl"> </span>must be reported to the commissioner and to the authority having responsibility for <br/><span id="pl.2.25" class="pl"> </span>prosecution of impaired driving offenses for the jurisdiction in which the acts occurred, if <br/><span id="pl.2.26" class="pl"> </span>the test results indicate:<br/></p>
+        <p><span id="pl.2.27" class="pl"> </span>(1) an alcohol concentration of 0.08 or more;<br/></p>
+        <p><span id="pl.2.28" class="pl"> </span>(2) an alcohol concentration of 0.04 or more, if the person was driving, operating, or in <br/><span id="pl.2.29" class="pl"> </span>physical control of a commercial motor vehicle <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a light rail transit vehicle </ins><span class="sr-only">new text end</span>at the time of <br/><span id="pl.2.30" class="pl"> </span>the violation; or<br/></p>
+        <p><span id="pl.3.1" class="pl"> </span>(3) the presence of a controlled substance listed in Schedule I or II or its metabolite, <br/><span id="pl.3.2" class="pl"> </span>other than marijuana or tetrahydrocannabinols.<br/></p>
+        <p><span id="pl.3.3" class="pl"> </span>(b) If a person submits to a test and the test results indicate the presence of an intoxicating <br/><span id="pl.3.4" class="pl"> </span>substance, the results of that test must be reported to the authority having responsibility for <br/><span id="pl.3.5" class="pl"> </span>prosecution of impaired driving offenses for the jurisdiction in which the acts occurred.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.6" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.3.7" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.8" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 169A.52, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.3.9" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Test failure; license revocation.</h3>
+        <p>(a) Upon certification by the peace officer <br/><span id="pl.3.10" class="pl"> </span>that there existed probable cause to believe the person had been driving, operating, or in <br/><span id="pl.3.11" class="pl"> </span>physical control of a motor vehicle in violation of section <a href="/statutes/cite/169A.20">169A.20</a> (driving while impaired) <br/><span id="pl.3.12" class="pl"> </span>and that the person submitted to a test and the test results indicate an alcohol concentration <br/><span id="pl.3.13" class="pl"> </span>of 0.08 or more or the presence of a controlled substance listed in Schedule I or II or its <br/><span id="pl.3.14" class="pl"> </span>metabolite, other than marijuana or tetrahydrocannabinols, then the commissioner shall <br/><span id="pl.3.15" class="pl"> </span>revoke the person's license or permit to drive, or nonresident operating privilege:<br/></p>
+        <p><span id="pl.3.16" class="pl"> </span>(1) for a period of 90 days, or, if the test results indicate an alcohol concentration of <br/><span id="pl.3.17" class="pl"> </span>twice the legal limit or more, not less than one year;<br/></p>
+        <p><span id="pl.3.18" class="pl"> </span>(2) if the person is under the age of 21 years, for a period of not less than 180 days or, <br/><span id="pl.3.19" class="pl"> </span>if the test results indicate an alcohol concentration of twice the legal limit or more, not less <br/><span id="pl.3.20" class="pl"> </span>than one year;<br/></p>
+        <p><span id="pl.3.21" class="pl"> </span>(3) for a person with one qualified prior impaired driving incident within the past ten <br/><span id="pl.3.22" class="pl"> </span>years, or two qualified prior impaired driving incidents, for a period of not less than one <br/><span id="pl.3.23" class="pl"> </span>year, or if the test results indicate an alcohol concentration of twice the legal limit or more, <br/><span id="pl.3.24" class="pl"> </span>not less than two years;<br/></p>
+        <p><span id="pl.3.25" class="pl"> </span>(4) for a person with two qualified prior impaired driving incidents within the past ten <br/><span id="pl.3.26" class="pl"> </span>years, or three qualified prior impaired driving incidents, for a period of not less than three <br/><span id="pl.3.27" class="pl"> </span>years;<br/></p>
+        <p><span id="pl.3.28" class="pl"> </span>(5) for a person with three qualified prior impaired driving incidents within the past ten <br/><span id="pl.3.29" class="pl"> </span>years, for a period of not less than four years; or<br/></p>
+        <p><span id="pl.3.30" class="pl"> </span>(6) for a person with four or more qualified prior impaired driving incidents, for a period <br/><span id="pl.3.31" class="pl"> </span>of not less than six years.<br/></p>
+        <p><span id="pl.4.1" class="pl"> </span>(b) On certification by the peace officer that there existed probable cause to believe the <br/><span id="pl.4.2" class="pl"> </span>person had been driving, operating, or in physical control of a commercial motor vehicle <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.4.3" class="pl"> </span>or a light rail transit vehicle </ins><span class="sr-only">new text end</span>with any presence of alcohol and that the person submitted to <br/><span id="pl.4.4" class="pl"> </span>a test and the test results indicated an alcohol concentration of 0.04 or more, the commissioner <br/><span id="pl.4.5" class="pl"> </span>shall disqualify the person from operating a commercial motor vehicle under section <a href="/statutes/cite/171.165 ">171.165 <br/></a><span id="pl.4.6" class="pl"> </span>(commercial driver's license disqualification).<br/></p>
+        <p><span id="pl.4.7" class="pl"> </span>(c) If the test is of a person's blood or urine by a laboratory operated by the Bureau of <br/><span id="pl.4.8" class="pl"> </span>Criminal Apprehension, or authorized by the bureau to conduct the analysis of a blood or <br/><span id="pl.4.9" class="pl"> </span>urine sample, the laboratory may directly certify to the commissioner the test results, and <br/><span id="pl.4.10" class="pl"> </span>the peace officer shall certify to the commissioner that there existed probable cause to <br/><span id="pl.4.11" class="pl"> </span>believe the person had been driving, operating, or in physical control of a motor vehicle in <br/><span id="pl.4.12" class="pl"> </span>violation of section <a href="/statutes/cite/169A.20">169A.20</a> and that the person submitted to a test. Upon receipt of both <br/><span id="pl.4.13" class="pl"> </span>certifications, the commissioner shall undertake the license actions described in paragraphs <br/><span id="pl.4.14" class="pl"> </span>(a) and (b).<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.15" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.4.16" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.4.17" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 169A.53, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.4.18" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Judicial hearing; issues, order, appeal.</h3>
+        <p>(a) A judicial review hearing under <br/><span id="pl.4.19" class="pl"> </span>this section must be before a district judge in any county in the judicial district where the <br/><span id="pl.4.20" class="pl"> </span>alleged offense occurred. The hearing is to the court and may be conducted at the same time <br/><span id="pl.4.21" class="pl"> </span>and in the same manner as hearings upon pretrial motions in the criminal prosecution under <br/><span id="pl.4.22" class="pl"> </span>section <a href="/statutes/cite/169A.20">169A.20</a> (driving while impaired), if any. The hearing must be recorded. The <br/><span id="pl.4.23" class="pl"> </span>commissioner shall appear and be represented by the attorney general or through the <br/><span id="pl.4.24" class="pl"> </span>prosecuting authority for the jurisdiction involved. The hearing must be held at the earliest <br/><span id="pl.4.25" class="pl"> </span>practicable date, and in any event no later than 60 days following the filing of the petition <br/><span id="pl.4.26" class="pl"> </span>for review. The judicial district administrator shall establish procedures to ensure efficient <br/><span id="pl.4.27" class="pl"> </span>compliance with this subdivision. To accomplish this, the administrator may, whenever <br/><span id="pl.4.28" class="pl"> </span>possible, consolidate and transfer review hearings among the locations within the judicial <br/><span id="pl.4.29" class="pl"> </span>district where terms of district court are held.<br/></p>
+        <p><span id="pl.4.30" class="pl"> </span>(b) The scope of the hearing is limited to the issues in clauses (1) to (12):<br/></p>
+        <p><span id="pl.4.31" class="pl"> </span>(1) Did the peace officer have probable cause to believe the person was driving, operating, <br/><span id="pl.4.32" class="pl"> </span>or in physical control of a motor vehicle or commercial motor vehicle in violation of section <br/><a href="/statutes/cite/169A.20"><span id="pl.4.33" class="pl"> </span>169A.20</a> (driving while impaired)?<br/></p>
+        <p><span id="pl.5.1" class="pl"> </span>(2) Was the person lawfully placed under arrest for violation of section <a href="/statutes/cite/169A.20">169A.20</a>?<br/></p>
+        <p><span id="pl.5.2" class="pl"> </span>(3) Was the person involved in a motor vehicle accident or collision resulting in property <br/><span id="pl.5.3" class="pl"> </span>damage, personal injury, or death?<br/></p>
+        <p><span id="pl.5.4" class="pl"> </span>(4) Did the person refuse to take a screening test provided for by section <a href="/statutes/cite/169A.41 ">169A.41 <br/></a><span id="pl.5.5" class="pl"> </span>(preliminary screening test)?<br/></p>
+        <p><span id="pl.5.6" class="pl"> </span>(5) If the screening test was administered, did the test indicate an alcohol concentration <br/><span id="pl.5.7" class="pl"> </span>of 0.08 or more?<br/></p>
+        <p><span id="pl.5.8" class="pl"> </span>(6) At the time of the request for the test, did the peace officer inform the person of the <br/><span id="pl.5.9" class="pl"> </span>person's rights and the consequences of taking or refusing the test as required by section <br/><a href="/statutes/cite/169A.51#stat.169A.51.2"><span id="pl.5.10" class="pl"> </span>169A.51, subdivision 2</a>?<br/></p>
+        <p><span id="pl.5.11" class="pl"> </span>(7) Did the person refuse to permit the test?<br/></p>
+        <p><span id="pl.5.12" class="pl"> </span>(8) If a test was taken by a person driving, operating, or in physical control of a motor <br/><span id="pl.5.13" class="pl"> </span>vehicle, did the test results indicate at the time of testing:<br/></p>
+        <p><span id="pl.5.14" class="pl"> </span>(i) an alcohol concentration of 0.08 or more; or<br/></p>
+        <p><span id="pl.5.15" class="pl"> </span>(ii) the presence of a controlled substance listed in Schedule I or II or its metabolite, <br/><span id="pl.5.16" class="pl"> </span>other than marijuana or tetrahydrocannabinols?<br/></p>
+        <p><span id="pl.5.17" class="pl"> </span>(9) If a test was taken by a person driving, operating, or in physical control of a <br/><span id="pl.5.18" class="pl"> </span>commercial motor vehicle<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a light rail transit vehicle</ins><span class="sr-only">new text end</span>, did the test results indicate an alcohol <br/><span id="pl.5.19" class="pl"> </span>concentration of 0.04 or more at the time of testing?<br/></p>
+        <p><span id="pl.5.20" class="pl"> </span>(10) Was the testing method used valid and reliable and were the test results accurately <br/><span id="pl.5.21" class="pl"> </span>evaluated?<br/></p>
+        <p><span id="pl.5.22" class="pl"> </span>(11) Did the person prove the defense of necessity?<br/></p>
+        <p><span id="pl.5.23" class="pl"> </span>(12) Did the person prove the defense of controlled substance use in accordance with a <br/><span id="pl.5.24" class="pl"> </span>prescription?<br/></p>
+        <p><span id="pl.5.25" class="pl"> </span>(c) It is an affirmative defense for the petitioner to prove that, at the time of the refusal, <br/><span id="pl.5.26" class="pl"> </span>the petitioner's refusal to permit the test was based upon reasonable grounds.<br/></p>
+        <p><span id="pl.5.27" class="pl"> </span>(d) Certified or otherwise authenticated copies of laboratory or medical personnel reports, <br/><span id="pl.5.28" class="pl"> </span>records, documents, licenses, and certificates are admissible as substantive evidence.<br/></p>
+        <p><span id="pl.5.29" class="pl"> </span>(e) The court shall order that the revocation or disqualification be either rescinded or <br/><span id="pl.5.30" class="pl"> </span>sustained and forward the order to the commissioner. The court shall file its order within <br/><span id="pl.5.31" class="pl"> </span>14 days following the hearing. If the revocation or disqualification is sustained, the court <br/><span id="pl.6.1" class="pl"> </span>shall also forward the person's driver's license or permit to the commissioner for further <br/><span id="pl.6.2" class="pl"> </span>action by the commissioner if the license or permit is not already in the commissioner's <br/><span id="pl.6.3" class="pl"> </span>possession.<br/></p>
+        <p><span id="pl.6.4" class="pl"> </span>(f) Any party aggrieved by the decision of the reviewing court may appeal the decision <br/><span id="pl.6.5" class="pl"> </span>as provided in the Rules of Appellate Procedure.<br/></p>
+        <p><span id="pl.6.6" class="pl"> </span>(g) The civil hearing under this section shall not give rise to an estoppel on any issues <br/><span id="pl.6.7" class="pl"> </span>arising from the same set of circumstances in any criminal prosecution.<br/></p>
+        <p><span id="pl.6.8" class="pl"> </span>(h) It is an affirmative defense for the petitioner to prove a necessity.<br/></p>
+        <p><span id="pl.6.9" class="pl"> </span>(i) It is an affirmative defense to the presence of a Schedule I or II controlled substance <br/><span id="pl.6.10" class="pl"> </span>that the person used the controlled substance according to the terms of a prescription issued <br/><span id="pl.6.11" class="pl"> </span>for the person according to sections <a href="/statutes/cite/152.11">152.11</a> and <a href="/statutes/cite/152.12">152.12</a>, unless the court finds by a <br/><span id="pl.6.12" class="pl"> </span>preponderance of the evidence that the use of the controlled substance impaired the person's <br/><span id="pl.6.13" class="pl"> </span>ability to operate a motor vehicle.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.14" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.6.15" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.6.16" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 171.177, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.6.17" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">License revocation pursuant to search warrant.</h3>
+        <p>After executing a search <br/><span id="pl.6.18" class="pl"> </span>warrant under sections <a href="/statutes/cite/626.04">626.04</a> to <a href="/statutes/cite/626.18">626.18</a> for the collection of a blood or urine sample based <br/><span id="pl.6.19" class="pl"> </span>upon probable cause of a violation of section <a href="/statutes/cite/169A.20">169A.20</a>, the peace officer acting under sections <br/><a href="/statutes/cite/626.13"><span id="pl.6.20" class="pl"> </span>626.13</a> to <a href="/statutes/cite/626.17">626.17</a> shall certify to the commissioner of public safety:<br/></p>
+        <p><span id="pl.6.21" class="pl"> </span>(1) when a person refuses to comply with the execution of the search warrant; or<br/></p>
+        <p><span id="pl.6.22" class="pl"> </span>(2) if a person submits to the test and the test results indicate:<br/></p>
+        <p><span id="pl.6.23" class="pl"> </span>(i) an alcohol concentration of 0.08 or more;<br/></p>
+        <p><span id="pl.6.24" class="pl"> </span>(ii) an alcohol concentration of 0.04 or more, if the person was driving, operating, or in <br/><span id="pl.6.25" class="pl"> </span>physical control of a commercial motor vehicle <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a light rail transit vehicle </ins><span class="sr-only">new text end</span>at the time of <br/><span id="pl.6.26" class="pl"> </span>the violation; or<br/></p>
+        <p><span id="pl.6.27" class="pl"> </span>(iii) the presence of a controlled substance listed in Schedule I or II or its metabolite, <br/><span id="pl.6.28" class="pl"> </span>other than marijuana or tetrahydrocannabinols.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.29" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.6.30" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.7.1" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 171.177, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.7.2" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Test failure; license revocation.</h3>
+        <p>(a) Upon certification under subdivision 3, <br/><span id="pl.7.3" class="pl"> </span>pursuant to a search warrant under sections <a href="/statutes/cite/626.04">626.04</a> to <a href="/statutes/cite/626.18">626.18</a>, that there existed probable <br/><span id="pl.7.4" class="pl"> </span>cause to believe the person had been driving, operating, or in physical control of a motor <br/><span id="pl.7.5" class="pl"> </span>vehicle in violation of section <a href="/statutes/cite/169A.20">169A.20</a>, and that the person submitted to a test and the test <br/><span id="pl.7.6" class="pl"> </span>results indicate an alcohol concentration of 0.08 or more or the presence of a controlled <br/><span id="pl.7.7" class="pl"> </span>substance listed in Schedule I or II or its metabolite, other than marijuana or <br/><span id="pl.7.8" class="pl"> </span>tetrahydrocannabinols, the commissioner shall revoke the person's license or permit to drive <br/><span id="pl.7.9" class="pl"> </span>or nonresident operating privilege:<br/></p>
+        <p><span id="pl.7.10" class="pl"> </span>(1) for a period of 90 days or, if the test results indicate an alcohol concentration of twice <br/><span id="pl.7.11" class="pl"> </span>the legal limit or more, not less than one year;<br/></p>
+        <p><span id="pl.7.12" class="pl"> </span>(2) if the person is under the age of 21 years, for a period of not less than 180 days or, <br/><span id="pl.7.13" class="pl"> </span>if the test results indicate an alcohol concentration of twice the legal limit or more, not less <br/><span id="pl.7.14" class="pl"> </span>than one year;<br/></p>
+        <p><span id="pl.7.15" class="pl"> </span>(3) for a person with one qualified prior impaired driving incident within the past ten <br/><span id="pl.7.16" class="pl"> </span>years or two qualified prior impaired driving incidents, for a period of not less than one <br/><span id="pl.7.17" class="pl"> </span>year or, if the test results indicate an alcohol concentration of twice the legal limit or more, <br/><span id="pl.7.18" class="pl"> </span>not less than two years;<br/></p>
+        <p><span id="pl.7.19" class="pl"> </span>(4) for a person with two qualified prior impaired driving incidents within the past ten <br/><span id="pl.7.20" class="pl"> </span>years or three qualified prior impaired driving incidents, for a period of not less than three <br/><span id="pl.7.21" class="pl"> </span>years;<br/></p>
+        <p><span id="pl.7.22" class="pl"> </span>(5) for a person with three qualified prior impaired driving incidents within the past ten <br/><span id="pl.7.23" class="pl"> </span>years, for a period of not less than four years; or<br/></p>
+        <p><span id="pl.7.24" class="pl"> </span>(6) for a person with four or more qualified prior impaired driving incidents, for a period <br/><span id="pl.7.25" class="pl"> </span>of not less than six years.<br/></p>
+        <p><span id="pl.7.26" class="pl"> </span>(b) On certification by the peace officer that there existed probable cause to believe the <br/><span id="pl.7.27" class="pl"> </span>person had been driving, operating, or in physical control of a commercial motor vehicle <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.7.28" class="pl"> </span>or a light rail transit vehicle </ins><span class="sr-only">new text end</span>with any presence of alcohol and that the person submitted to <br/><span id="pl.7.29" class="pl"> </span>a test and the test results indicated an alcohol concentration of 0.04 or more, the commissioner <br/><span id="pl.7.30" class="pl"> </span>shall disqualify the person from operating a commercial motor vehicle under section <a href="/statutes/cite/171.165">171.165</a>.<br/></p>
+        <p><span id="pl.7.31" class="pl"> </span>(c) If the test is of a person's blood or urine by a laboratory operated by the Bureau of <br/><span id="pl.7.32" class="pl"> </span>Criminal Apprehension or authorized by the bureau to conduct the analysis of a blood or <br/><span id="pl.7.33" class="pl"> </span>urine sample, the laboratory may directly certify to the commissioner the test results, and <br/><span id="pl.8.1" class="pl"> </span>the peace officer shall certify to the commissioner that there existed probable cause to <br/><span id="pl.8.2" class="pl"> </span>believe the person had been driving, operating, or in physical control of a motor vehicle in <br/><span id="pl.8.3" class="pl"> </span>violation of section <a href="/statutes/cite/169A.20">169A.20</a>, and that the person submitted to a test. Upon receipt of both <br/><span id="pl.8.4" class="pl"> </span>certifications, the commissioner shall undertake the license actions described in paragraphs <br/><span id="pl.8.5" class="pl"> </span>(a) and (b).<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.6" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.8.7" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.8.8" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 171.177, subdivision 8, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.8.9" class="pl"> </span>Subd. 8.</h2>
+        <h3 class="headnote">Test refusal; driving privilege lost.</h3>
+        <p>(a) On behalf of the commissioner, a peace <br/><span id="pl.8.10" class="pl"> </span>officer requiring a test or directing the administration of a chemical test pursuant to a search <br/><span id="pl.8.11" class="pl"> </span>warrant under sections <a href="/statutes/cite/626.04">626.04</a> to <a href="/statutes/cite/626.18">626.18</a> shall serve immediate notice of intention to revoke <br/><span id="pl.8.12" class="pl"> </span>and of revocation on a person who refuses to permit a test or on a person who submits to a <br/><span id="pl.8.13" class="pl"> </span>test, the results of which indicate an alcohol concentration of 0.08 or more.<br/></p>
+        <p><span id="pl.8.14" class="pl"> </span>(b) On behalf of the commissioner, a peace officer requiring a test or directing the <br/><span id="pl.8.15" class="pl"> </span>administration of a chemical test of a person driving, operating, or in physical control of a <br/><span id="pl.8.16" class="pl"> </span>commercial motor vehicle <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a light rail transit vehicle </ins><span class="sr-only">new text end</span>pursuant to a search warrant under <br/><span id="pl.8.17" class="pl"> </span>sections <a href="/statutes/cite/626.04">626.04</a> to <a href="/statutes/cite/626.18 ">626.18 </a>shall serve immediate notice of intention to disqualify and of <br/><span id="pl.8.18" class="pl"> </span>disqualification on a person who refuses to permit a test or on a person who submits to a <br/><span id="pl.8.19" class="pl"> </span>test, the results of which indicate an alcohol concentration of 0.04 or more.<br/></p>
+        <p><span id="pl.8.20" class="pl"> </span>(c) The officer shall:<br/></p>
+        <p><span id="pl.8.21" class="pl"> </span>(1) invalidate the person's driver's license or permit card by clipping the upper corner <br/><span id="pl.8.22" class="pl"> </span>of the card in such a way that no identifying information including the photo is destroyed, <br/><span id="pl.8.23" class="pl"> </span>and immediately return the card to the person;<br/></p>
+        <p><span id="pl.8.24" class="pl"> </span>(2) issue the person a temporary license effective for only seven days; and<br/></p>
+        <p><span id="pl.8.25" class="pl"> </span>(3) send the notification of this action to the commissioner along with the certificate <br/><span id="pl.8.26" class="pl"> </span>required by subdivision 5 or 6.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.27" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.8.28" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.8.29" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 171.177, subdivision 12, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.8.30" class="pl"> </span>Subd. 12.</h2>
+        <h3 class="headnote">Judicial hearing; issues, order, appeal.</h3>
+        <p>(a) A judicial review hearing under <br/><span id="pl.8.31" class="pl"> </span>this section must be before a district judge in any county in the judicial district where the <br/><span id="pl.9.1" class="pl"> </span>alleged offense occurred. The hearing is to the court and may be conducted at the same time <br/><span id="pl.9.2" class="pl"> </span>and in the same manner as hearings upon pretrial motions in the criminal prosecution under <br/><span id="pl.9.3" class="pl"> </span>section <a href="/statutes/cite/169A.20">169A.20</a>, if any. The hearing must be recorded. The commissioner shall appear and <br/><span id="pl.9.4" class="pl"> </span>be represented by the attorney general or through the prosecuting authority for the jurisdiction <br/><span id="pl.9.5" class="pl"> </span>involved. The hearing must be held at the earliest practicable date, and in any event no later <br/><span id="pl.9.6" class="pl"> </span>than 60 days following the filing of the petition for review. The judicial district administrator <br/><span id="pl.9.7" class="pl"> </span>shall establish procedures to ensure efficient compliance with this subdivision. To accomplish <br/><span id="pl.9.8" class="pl"> </span>this, the administrator may, whenever possible, consolidate and transfer review hearings <br/><span id="pl.9.9" class="pl"> </span>among the locations within the judicial district where terms of district court are held.<br/></p>
+        <p><span id="pl.9.10" class="pl"> </span>(b) The scope of the hearing is limited to the issues in clauses (1) to (13):<br/></p>
+        <p><span id="pl.9.11" class="pl"> </span>(1) Did the peace officer have probable cause to believe the person was driving, operating, <br/><span id="pl.9.12" class="pl"> </span>or in physical control of a motor vehicle or commercial motor vehicle in violation of section <br/><a href="/statutes/cite/169A.20"><span id="pl.9.13" class="pl"> </span>169A.20</a>?<br/></p>
+        <p><span id="pl.9.14" class="pl"> </span>(2) Was the person lawfully placed under arrest for violation of section <a href="/statutes/cite/169A.20">169A.20</a>?<br/></p>
+        <p><span id="pl.9.15" class="pl"> </span>(3) Was the person involved in a motor vehicle accident or collision resulting in property <br/><span id="pl.9.16" class="pl"> </span>damage, personal injury, or death?<br/></p>
+        <p><span id="pl.9.17" class="pl"> </span>(4) Did a licensed peace officer apply for a search warrant in accordance with the <br/><span id="pl.9.18" class="pl"> </span>requirements set forth in sections <a href="/statutes/cite/626.04">626.04</a> to <a href="/statutes/cite/626.18">626.18</a>?<br/></p>
+        <p><span id="pl.9.19" class="pl"> </span>(5) Did a neutral magistrate review the application for a search warrant and determine <br/><span id="pl.9.20" class="pl"> </span>there was probable cause to believe that the person was driving, operating, or in physical <br/><span id="pl.9.21" class="pl"> </span>control of a motor vehicle or commercial motor vehicle in violation of section <a href="/statutes/cite/169A.20">169A.20</a>?<br/></p>
+        <p><span id="pl.9.22" class="pl"> </span>(6) Was the search warrant and the process by which it was obtained valid?<br/></p>
+        <p><span id="pl.9.23" class="pl"> </span>(7) At the time of directing the person to take the test, did the peace officer inform the <br/><span id="pl.9.24" class="pl"> </span>person that refusing the test was a crime as required by subdivision 1?<br/></p>
+        <p><span id="pl.9.25" class="pl"> </span>(8) Did the person refuse to permit the test?<br/></p>
+        <p><span id="pl.9.26" class="pl"> </span>(9) If a test was taken by a person driving, operating, or in physical control of a motor <br/><span id="pl.9.27" class="pl"> </span>vehicle, did the test results indicate at the time of testing:<br/></p>
+        <p><span id="pl.9.28" class="pl"> </span>(i) an alcohol concentration of 0.08 or more; or<br/></p>
+        <p><span id="pl.9.29" class="pl"> </span>(ii) the presence of a controlled substance listed in Schedule I or II or its metabolite, <br/><span id="pl.9.30" class="pl"> </span>other than marijuana or tetrahydrocannabinols?<br/></p>
+        <p><span id="pl.10.1" class="pl"> </span>(10) If a test was taken by a person driving, operating, or in physical control of a <br/><span id="pl.10.2" class="pl"> </span>commercial motor vehicle<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a light rail transit vehicle</ins><span class="sr-only">new text end</span>, did the test results indicate an alcohol <br/><span id="pl.10.3" class="pl"> </span>concentration of 0.04 or more at the time of testing?<br/></p>
+        <p><span id="pl.10.4" class="pl"> </span>(11) Was the testing method used valid and reliable and were the test results accurately <br/><span id="pl.10.5" class="pl"> </span>evaluated?<br/></p>
+        <p><span id="pl.10.6" class="pl"> </span>(12) Did the person prove the defense of necessity?<br/></p>
+        <p><span id="pl.10.7" class="pl"> </span>(13) Did the person prove the defense of controlled substance use in accordance with a <br/><span id="pl.10.8" class="pl"> </span>prescription?<br/></p>
+        <p><span id="pl.10.9" class="pl"> </span>(c) Certified or otherwise authenticated copies of laboratory or medical personnel reports, <br/><span id="pl.10.10" class="pl"> </span>records, documents, licenses, and certificates are admissible as substantive evidence.<br/></p>
+        <p><span id="pl.10.11" class="pl"> </span>(d) The court shall order that the revocation or disqualification be either rescinded or <br/><span id="pl.10.12" class="pl"> </span>sustained and forward the order to the commissioner. The court shall file its order within <br/><span id="pl.10.13" class="pl"> </span>14 days following the hearing. If the revocation or disqualification is sustained, the court <br/><span id="pl.10.14" class="pl"> </span>shall also forward the person's driver's license or permit to the commissioner for further <br/><span id="pl.10.15" class="pl"> </span>action by the commissioner if the license or permit is not already in the commissioner's <br/><span id="pl.10.16" class="pl"> </span>possession.<br/></p>
+        <p><span id="pl.10.17" class="pl"> </span>(e) Any party aggrieved by the decision of the reviewing court may appeal the decision <br/><span id="pl.10.18" class="pl"> </span>as provided in the Rules of Appellate Procedure.<br/></p>
+        <p><span id="pl.10.19" class="pl"> </span>(f) The civil hearing under this section shall not give rise to an estoppel on any issues <br/><span id="pl.10.20" class="pl"> </span>arising from the same set of circumstances in any criminal prosecution.<br/></p>
+        <p><span id="pl.10.21" class="pl"> </span>(g) It is an affirmative defense for the petitioner to prove a necessity.<br/></p>
+        <p><span id="pl.10.22" class="pl"> </span>(h) It is an affirmative defense to the presence of a Schedule I or II controlled substance <br/><span id="pl.10.23" class="pl"> </span>that the person used the controlled substance according to the terms of a prescription issued <br/><span id="pl.10.24" class="pl"> </span>for the person according to sections <a href="/statutes/cite/152.11">152.11</a> and <a href="/statutes/cite/152.12">152.12</a>, unless the court finds by a <br/><span id="pl.10.25" class="pl"> </span>preponderance of the evidence that the use of the controlled substance impaired the person's <br/><span id="pl.10.26" class="pl"> </span>ability to operate a motor vehicle.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.27" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective August 1, 2019, and applies to violations <br/><span id="pl.10.28" class="pl"> </span>committed on or after that date.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

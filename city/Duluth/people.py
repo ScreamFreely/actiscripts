@@ -21,5 +21,5 @@ class DuluthPersonScraper(Scraper):
             i['name'] = text.split('-')[1].strip()
             member = Person(name=i['name'], role='Council Member')
             member.add_source(link)
-            member.add_term('Councilmember', 'legislature', org_name='Minneapolis City Council', district=i['ward'])
+            member.add_term('Councilmember', 'legislature', org_name='Duluth City Council', district=i['ward'])
             yield member

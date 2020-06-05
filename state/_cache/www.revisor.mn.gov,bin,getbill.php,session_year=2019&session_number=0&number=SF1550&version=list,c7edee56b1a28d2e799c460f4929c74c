@@ -1,0 +1,1642 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:47:50 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 1550 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 1550</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 02/25/2019 03:37pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF1550&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF1550&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF1550&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF1550&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF1550&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 02/19/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF1550&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF1550&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <br/>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <br/>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <br/>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <br/>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <br/>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <br/>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <br/>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <br/>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <br/>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <br/>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <br/>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <br/>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <br/>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <br/>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <br/>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <br/>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <br/>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <br/>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <br/>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <br/>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <br/>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <br/>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <br/>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <var class="ln">12.28</var>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <var class="ln">12.31</var>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to education; making technical changes related to teacher licensure and <br/><span id="pl.1.3" class="pl"> </span>board composition; amending Minnesota Statutes 2018, sections 122A.06, <br/><span id="pl.1.4" class="pl"> </span>subdivisions 2, 5, 7, 8; 122A.07, subdivisions 1, 2, 2a, 4a, by adding a subdivision; <br/><span id="pl.1.5" class="pl"> </span>122A.09, subdivision 9; 122A.091, subdivision 1; 122A.092, subdivisions 5, 6; <br/><span id="pl.1.6" class="pl"> </span>122A.17; 122A.175, subdivision 2; 122A.18, subdivisions 7c, 8, 10; 122A.182, <br/><span id="pl.1.7" class="pl"> </span>subdivision 1; 122A.185, subdivision 1; 122A.187, subdivision 3, by adding a <br/><span id="pl.1.8" class="pl"> </span>subdivision; 122A.19, subdivision 4; 122A.21, by adding a subdivision.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.9" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.10" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.06, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.11" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Teacher.</h3>
+        <p>"Teacher" means a classroom teacher or other similar professional <br/><span id="pl.1.12" class="pl"> </span>employee required to hold a license <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or permission </ins><span class="sr-only">new text end</span>from the Professional Educator Licensing <br/><span id="pl.1.13" class="pl"> </span>and Standards Board.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.14" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.06, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.15" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Field.</h3>
+        <p>A "field<span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span>" <span class="sr-only">new text begin</span><ins style="text-decoration: underline">"licensure area," </ins><span class="sr-only">new text end</span>or "subject area" means the content area in <br/><span id="pl.1.16" class="pl"> </span>which a teacher may become licensed to teach.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.1.17" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.06, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.1.18" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Teacher preparation program.</h3>
+        <p>"Teacher preparation program" means a <br/><span id="pl.1.19" class="pl"> </span>program approved by the Professional Educator Licensing and Standards Board for the <br/><span id="pl.1.20" class="pl"> </span>purpose of preparing individuals for a specific teacher licensure field in Minnesota. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Teacher <br/><span id="pl.1.21" class="pl"> </span>preparation programs include traditional programs delivered by postsecondary institutions, <br/><span id="pl.1.22" class="pl"> </span>alternative teacher preparation programs, and nonconventional teacher preparation programs.<br/></span><span class="sr-only">deleted text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.2.1" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.06, subdivision 8, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.2.2" class="pl"> </span>Subd. 8.</h2>
+        <h3 class="headnote">Teacher preparation program provider.</h3>
+        <p>"Teacher preparation program <br/><span id="pl.2.3" class="pl"> </span>provider" or "unit" means an entity that has primary responsibility for overseeing and <br/><span id="pl.2.4" class="pl"> </span>delivering a teacher preparation program.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Teacher preparation program providers include <br/><span id="pl.2.5" class="pl"> </span>postsecondary institutions and alternative teacher preparation providers aligned to section <br/><span id="pl.2.6" class="pl"> </span>122A.2451.<br/></ins><span class="sr-only">new text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.2.7" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.07, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.2.8" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Appointment of members.</h3>
+        <p>The Professional Educator Licensing and <br/><span id="pl.2.9" class="pl"> </span>Standards Board consists of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">11</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 14</ins><span class="sr-only">new text end</span> members appointed by the governor, with the advice and <br/><span id="pl.2.10" class="pl"> </span>consent of the senate. Membership terms, compensation of members, removal of members, <br/><span id="pl.2.11" class="pl"> </span>the filling of membership vacancies, and fiscal year and reporting requirements are as <br/><span id="pl.2.12" class="pl"> </span>provided in sections <a href="/statutes/cite/214.07">214.07</a> to <a href="/statutes/cite/214.09">214.09</a>. No member may be reappointed for more than one <br/><span id="pl.2.13" class="pl"> </span>additional term.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.2.14" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.07, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.2.15" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Eligibility; board composition.</h3>
+        <p> Each nominee, other than a public nominee, <br/><span id="pl.2.16" class="pl"> </span>must be selected on the basis of professional experience and knowledge of teacher education, <br/><span id="pl.2.17" class="pl"> </span>accreditation, and licensure. The board must be composed of:<br/></p>
+        <p><span id="pl.2.18" class="pl"> </span>(1) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">six</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">eight </ins><span class="sr-only">new text end</span>teachers who are currently teaching in a Minnesota school or who were <br/><span id="pl.2.19" class="pl"> </span>teaching at the time of the appointment, have at least five years of teaching experience, and <br/><span id="pl.2.20" class="pl"> </span>were not serving in an administrative function at a school district or school when appointed. <br/><span id="pl.2.21" class="pl"> </span>The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">six</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> eight</ins><span class="sr-only">new text end</span> teachers must include the following:<br/></p>
+        <p><span id="pl.2.22" class="pl"> </span>(i) one teacher in a charter school;<br/></p>
+        <p><span id="pl.2.23" class="pl"> </span>(ii) one teacher from the seven-county metropolitan area, as defined in section <a href="/statutes/cite/473.121">473.121</a>, <br/><span id="pl.2.24" class="pl"> </span>subdivision 2;<br/></p>
+        <p><span id="pl.2.25" class="pl"> </span>(iii) one teacher from outside the seven-county metropolitan area;<br/></p>
+        <p><span id="pl.2.26" class="pl"> </span>(iv) one teacher from a related service category licensed by the board;<br/></p>
+        <p><span id="pl.2.27" class="pl"> </span>(v) one special education teacher; and<br/></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.28" class="pl"> </span>(vi) three teachers that represent current or emergency trends in education;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.2.29" class="pl"> </span>(vi)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (2)</ins><span class="sr-only">new text end</span> one teacher <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">from</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">educator currently teaching in </ins><span class="sr-only">new text end</span>a <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Minnesota-approved </ins><span class="sr-only">new text end</span>teacher <br/><span id="pl.2.30" class="pl"> </span>preparation program<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">;</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> who has previously taught for at least five years in a birth through <br/><span id="pl.2.31" class="pl"> </span>grade 12 setting;<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.1" class="pl"> </span>(2)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (3)</ins><span class="sr-only">new text end</span> one superintendent that alternates each term between a superintendent from the <br/><span id="pl.3.2" class="pl"> </span>seven-county metropolitan area, as defined in section <a href="/statutes/cite/473.121#stat.473.121.2">473.121, subdivision 2</a>, and a <br/><span id="pl.3.3" class="pl"> </span>superintendent from outside the metropolitan area;<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.4" class="pl"> </span>(3)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (4)</ins><span class="sr-only">new text end</span> one school district human resources director;<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.5" class="pl"> </span>(4)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (5)</ins><span class="sr-only">new text end</span> one administrator of a cooperative unit under section <a href="/statutes/cite/123A.24#stat.123A.24.">123A.24, subdivision </a>2, <br/><span id="pl.3.6" class="pl"> </span>who oversees a special education program<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and who has previously taught for at least five <br/><span id="pl.3.7" class="pl"> </span>years in a birth through grade 12 setting</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.8" class="pl"> </span>(5)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (6)</ins><span class="sr-only">new text end</span> one principal that alternates each term between an elementary and a secondary <br/><span id="pl.3.9" class="pl"> </span>school principal; and<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.10" class="pl"> </span>(6)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (7)</ins><span class="sr-only">new text end</span> one member of the public that may be a current or former school board member.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.3.11" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.07, subdivision 2a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.3.12" class="pl"> </span>Subd. 2a.</h2>
+        <h3 class="headnote">First appointments.</h3>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(a)</span><span class="sr-only">deleted text end</span> The governor shall nominate all members to the <br/><span id="pl.3.13" class="pl"> </span>Professional Educator Licensing and Standards Board. The terms of the initial board members <br/><span id="pl.3.14" class="pl"> </span>must be as follows:<br/></p>
+        <p><span id="pl.3.15" class="pl"> </span>(1) two members must be appointed for terms that expire January 1, 2019;<br/></p>
+        <p><span id="pl.3.16" class="pl"> </span>(2) three members must be appointed for terms that expire January 1, 2020;<br/></p>
+        <p><span id="pl.3.17" class="pl"> </span>(3) three members must be appointed for terms that expire January 1, 2021; and<br/></p>
+        <p><span id="pl.3.18" class="pl"> </span>(4) three members must be appointed for terms that expire January 1, 2022.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.3.19" class="pl"> </span>(b) Members of the Board of Teaching as of January 1, 2017, are ineligible for first <br/><span id="pl.3.20" class="pl"> </span>appointments to the Professional Educator Licensing and Standards Board for four years <br/><span id="pl.3.21" class="pl"> </span>from September 1, 2017, except that two members of the Board of Teaching as of January <br/><span id="pl.3.22" class="pl"> </span>1, 2017, are eligible for appointment under paragraph (a), clause (1).<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.3.23" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.07, subdivision 4a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.3.24" class="pl"> </span>Subd. 4a.</h2>
+        <h3 class="headnote">Administration.</h3>
+        <p>(a) The executive director of the board shall be the chief <br/><span id="pl.3.25" class="pl"> </span>administrative officer for the board but shall not be a member of the board. The executive <br/><span id="pl.3.26" class="pl"> </span>director shall maintain the records of the board, account for all fees received by the board, <br/><span id="pl.3.27" class="pl"> </span>supervise and direct employees servicing the board, and perform other services as directed <br/><span id="pl.3.28" class="pl"> </span>by the board.<br/></p>
+        <p><span id="pl.4.1" class="pl"> </span>(b) The Department of Administration must provide administrative support in accordance <br/><span id="pl.4.2" class="pl"> </span>with section <a href="/statutes/cite/16B.371">16B.371</a>. The commissioner of administration must assess the board for services <br/><span id="pl.4.3" class="pl"> </span>it provides under this section.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.4.4" class="pl"> </span>(c) The Department of Education must provide suitable offices and other space to the <br/><span id="pl.4.5" class="pl"> </span>board at reasonable cost until January 1, 2020. Thereafter, the board may contract with <br/><span id="pl.4.6" class="pl"> </span>either the Department of Education or the Department of Administration for the provision <br/><span id="pl.4.7" class="pl"> </span>of suitable offices and other space, joint conference and hearing facilities, and examination <br/><span id="pl.4.8" class="pl"> </span>rooms.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.4.9" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.07, is amended by adding a subdivision to <br/><span id="pl.4.10" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.11" class="pl"> </span>Subd. 6.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Public employer compensation reduction prohibited.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The public employer <br/><span id="pl.4.12" class="pl"> </span>of a member shall not reduce the member's compensation or benefits for the member's <br/><span id="pl.4.13" class="pl"> </span>absence from employment when engaging in the business of the board.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.4.14" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.09, subdivision 9, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.4.15" class="pl"> </span>Subd. 9.</h2>
+        <h3 class="headnote">Professional Educator Licensing and Standards Board must adopt rules.</h3>
+        <p>(a) <br/><span id="pl.4.16" class="pl"> </span>The Professional Educator Licensing and Standards Board must adopt rules subject to the <br/><span id="pl.4.17" class="pl"> </span>provisions of chapter <a href="/statutes/cite/14">14</a> to implement sections <a href="/statutes/cite/120B.363">120B.363</a>, <a href="/statutes/cite/122A.05 ">122A.05 </a>to <a href="/statutes/cite/122A.09">122A.09</a>, <a href="/statutes/cite/122A.092">122A.092</a>, <br/><a href="/statutes/cite/122A.16"><span id="pl.4.18" class="pl"> </span>122A.16</a>, <a href="/statutes/cite/122A.17">122A.17</a>, <a href="/statutes/cite/122A.18">122A.18</a>, <a href="/statutes/cite/122A.181">122A.181</a>, <a href="/statutes/cite/122A.182">122A.182</a>, <a href="/statutes/cite/122A.183">122A.183</a>, <a href="/statutes/cite/122A.184">122A.184</a>, <a href="/statutes/cite/122A.185">122A.185</a>, <br/><a href="/statutes/cite/122A.187"><span id="pl.4.19" class="pl"> </span>122A.187</a>, <a href="/statutes/cite/122A.188">122A.188</a>, <a href="/statutes/cite/122A.20">122A.20</a>, <a href="/statutes/cite/122A.21">122A.21</a>, <a href="/statutes/cite/122A.23">122A.23</a>,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 122A.2451,</ins><span class="sr-only">new text end</span> <a href="/statutes/cite/122A.26">122A.26</a>, <a href="/statutes/cite/122A.28">122A.28</a>, and <br/><a href="/statutes/cite/122A.29"><span id="pl.4.20" class="pl"> </span>122A.29</a>.<br/></p>
+        <p><span id="pl.4.21" class="pl"> </span>(b) The board must adopt rules relating to fields of licensure, including a process for <br/><span id="pl.4.22" class="pl"> </span>granting permission to a licensed teacher to teach in a field that is different from the teacher's <br/><span id="pl.4.23" class="pl"> </span>field of licensure without change to the teacher's license tier level.<br/></p>
+        <p><span id="pl.4.24" class="pl"> </span>(c) The board must adopt rules relating to the grade levels that a licensed teacher may <br/><span id="pl.4.25" class="pl"> </span>teach.<br/></p>
+        <p><span id="pl.4.26" class="pl"> </span>(d) If a rule adopted by the board is in conflict with a session law or statute, the law or <br/><span id="pl.4.27" class="pl"> </span>statute prevails. Terms adopted in rule must be clearly defined and must not be construed <br/><span id="pl.4.28" class="pl"> </span>to conflict with terms adopted in statute or session law.<br/></p>
+        <p><span id="pl.4.29" class="pl"> </span>(e) The board must include a description of a proposed rule's probable effect on teacher <br/><span id="pl.4.30" class="pl"> </span>supply and demand in the board's statement of need and reasonableness under section <a href="/statutes/cite/14.131">14.131</a>.<br/></p>
+        <p><span id="pl.4.31" class="pl"> </span>(f) The board must adopt rules only under the specific statutory authority.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.5.1" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.091, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.5.2" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Teacher and administrator preparation and performance data; <br/><span id="pl.5.3" class="pl"> </span>report.</h3>
+        <p>(a) The Professional Educator Licensing and Standards Board and the Board of <br/><span id="pl.5.4" class="pl"> </span>School Administrators, in cooperation with board-adopted teacher or administrator <br/><span id="pl.5.5" class="pl"> </span>preparation programs, annually must collect and report summary data on teacher and <br/><span id="pl.5.6" class="pl"> </span>administrator preparation and performance outcomes, consistent with this subdivision. The <br/><span id="pl.5.7" class="pl"> </span>Professional Educator Licensing and Standards Board and the Board of School Administrators <br/><span id="pl.5.8" class="pl"> </span>annually by June 1 must update and post the reported summary preparation and performance <br/><span id="pl.5.9" class="pl"> </span>data on teachers and administrators from the preceding school years on a website hosted <br/><span id="pl.5.10" class="pl"> </span>jointly by the boards.<br/></p>
+        <p><span id="pl.5.11" class="pl"> </span>(b) Publicly reported summary data on teacher preparation programs must include:<br/></p>
+        <p><span id="pl.5.12" class="pl"> </span>(1) student entrance requirements for each Professional Educator Licensing and Standards <br/><span id="pl.5.13" class="pl"> </span>Board-approved program, including grade point average for enrolling students in the <br/><span id="pl.5.14" class="pl"> </span>preceding year;<br/></p>
+        <p><span id="pl.5.15" class="pl"> </span>(2) the average board-adopted skills examination or ACT or SAT scores of students <br/><span id="pl.5.16" class="pl"> </span>entering the program in the preceding year;<br/></p>
+        <p><span id="pl.5.17" class="pl"> </span>(3) summary data on faculty qualifications, including at least the content areas of faculty <br/><span id="pl.5.18" class="pl"> </span>undergraduate and graduate degrees and their years of experience either as kindergarten <br/><span id="pl.5.19" class="pl"> </span>through grade 12 classroom teachers or school administrators;<br/></p>
+        <p><span id="pl.5.20" class="pl"> </span>(4) the average time resident and nonresident program graduates in the preceding year <br/><span id="pl.5.21" class="pl"> </span>needed to complete the program;<br/></p>
+        <p><span id="pl.5.22" class="pl"> </span>(5) the current number and percentage of students by program who graduated, received <br/><span id="pl.5.23" class="pl"> </span>a standard Minnesota teaching license, and were hired to teach full time in their licensure <br/><span id="pl.5.24" class="pl"> </span>field in a Minnesota district or school in the preceding year disaggregated by race, except <br/><span id="pl.5.25" class="pl"> </span>when disaggregation would not yield statistically reliable results or would reveal personally <br/><span id="pl.5.26" class="pl"> </span>identifiable information about an individual;<br/></p>
+        <p><span id="pl.5.27" class="pl"> </span>(6) the number of content area credits and other credits by undergraduate program that <br/><span id="pl.5.28" class="pl"> </span>students in the preceding school year needed to complete to graduate;<br/></p>
+        <p><span id="pl.5.29" class="pl"> </span>(7) students' pass rates on skills and subject matter exams required for graduation in <br/><span id="pl.5.30" class="pl"> </span>each program and licensure area in the preceding school year;<br/></p>
+        <p><span id="pl.5.31" class="pl"> </span>(8) survey results measuring student and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">graduate</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">program completer </ins><span class="sr-only">new text end</span>satisfaction with <br/><span id="pl.5.32" class="pl"> </span>the program in the preceding school year disaggregated by race, except when disaggregation <br/><span id="pl.6.1" class="pl"> </span>would not yield statistically reliable results or would reveal personally identifiable <br/><span id="pl.6.2" class="pl"> </span>information about an individual;<br/></p>
+        <p><span id="pl.6.3" class="pl"> </span>(9) a standard measure of the satisfaction of school principals or supervising teachers <br/><span id="pl.6.4" class="pl"> </span>with the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">student teachers</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">program completer </ins><span class="sr-only">new text end</span>assigned to a school or supervising teacher; <br/><span id="pl.6.5" class="pl"> </span>and<br/></p>
+        <p><span id="pl.6.6" class="pl"> </span>(10) information under subdivision 3, paragraphs (a) and (b).<br/></p>
+        <p class="bl"><span id="pl.6.7" class="pl"> </span>Program reporting must be consistent with subdivision 2.<br/></p>
+        <p><span id="pl.6.8" class="pl"> </span>(c) Publicly reported summary data on administrator preparation programs approved by <br/><span id="pl.6.9" class="pl"> </span>the Board of School Administrators must include:<br/></p>
+        <p><span id="pl.6.10" class="pl"> </span>(1) summary data on faculty qualifications, including at least the content areas of faculty <br/><span id="pl.6.11" class="pl"> </span>undergraduate and graduate degrees and the years of experience either as kindergarten <br/><span id="pl.6.12" class="pl"> </span>through grade 12 classroom teachers or school administrators;<br/></p>
+        <p><span id="pl.6.13" class="pl"> </span>(2) the average time program graduates in the preceding year needed to complete the <br/><span id="pl.6.14" class="pl"> </span>program;<br/></p>
+        <p><span id="pl.6.15" class="pl"> </span>(3) the current number and percentage of students who graduated, received a standard <br/><span id="pl.6.16" class="pl"> </span>Minnesota administrator license, and were employed as an administrator in a Minnesota <br/><span id="pl.6.17" class="pl"> </span>school district or school in the preceding year disaggregated by race, except when <br/><span id="pl.6.18" class="pl"> </span>disaggregation would not yield statistically reliable results or would reveal personally <br/><span id="pl.6.19" class="pl"> </span>identifiable information about an individual;<br/></p>
+        <p><span id="pl.6.20" class="pl"> </span>(4) the number of credits by graduate program that students in the preceding school year <br/><span id="pl.6.21" class="pl"> </span>needed to complete to graduate;<br/></p>
+        <p><span id="pl.6.22" class="pl"> </span>(5) survey results measuring student, graduate, and employer satisfaction with the <br/><span id="pl.6.23" class="pl"> </span>program in the preceding school year disaggregated by race, except when disaggregation <br/><span id="pl.6.24" class="pl"> </span>would not yield statistically reliable results or would reveal personally identifiable <br/><span id="pl.6.25" class="pl"> </span>information about an individual; and<br/></p>
+        <p><span id="pl.6.26" class="pl"> </span>(6) information under subdivision 3, paragraphs (c) and (d).<br/></p>
+        <p class="bl"><span id="pl.6.27" class="pl"> </span>Program reporting must be consistent with section <a href="/statutes/cite/122A.14#stat.122A.14.10">122A.14, subdivision 10</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.6.28" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.092, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.6.29" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Reading strategies.</h3>
+        <p>(a) All <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">colleges and universities</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">preparation providers <br/></ins><span class="sr-only">new text end</span><span id="pl.6.30" class="pl"> </span>approved by the Professional Educator Licensing and Standards Board to prepare persons <br/><span id="pl.6.31" class="pl"> </span>for classroom teacher licensure must include in their teacher preparation programs <br/><span id="pl.7.1" class="pl"> </span>research-based best practices in reading, consistent with section <a href="/statutes/cite/122A.06#stat.122A.06.4">122A.06, subdivision 4</a>, <br/><span id="pl.7.2" class="pl"> </span>that enables the licensure candidate to teach reading in the candidate's content areas. Teacher <br/><span id="pl.7.3" class="pl"> </span>candidates must be instructed in using students' native languages as a resource in creating <br/><span id="pl.7.4" class="pl"> </span>effective differentiated instructional strategies for English learners developing literacy skills. <br/><span id="pl.7.5" class="pl"> </span>These colleges and universities also must prepare early childhood and elementary teacher <br/><span id="pl.7.6" class="pl"> </span>candidates for Tier 3 and Tier 4 teaching licenses under sections <a href="/statutes/cite/122A.183">122A.183</a> and <a href="/statutes/cite/122A.184">122A.184</a>, <br/><span id="pl.7.7" class="pl"> </span>respectively, for the portion of the examination under section <a href="/statutes/cite/122A.185#stat.122A.185.1">122A.185, subdivision 1</a>, <br/><span id="pl.7.8" class="pl"> </span>paragraph (c), covering assessment of reading instruction.<br/></p>
+        <p><span id="pl.7.9" class="pl"> </span>(b) Board-approved teacher preparation programs for teachers of elementary education <br/><span id="pl.7.10" class="pl"> </span>must require instruction in applying comprehensive, scientifically based, and balanced <br/><span id="pl.7.11" class="pl"> </span>reading instruction programs that:<br/></p>
+        <p><span id="pl.7.12" class="pl"> </span>(1) teach students to read using foundational knowledge, practices, and strategies <br/><span id="pl.7.13" class="pl"> </span>consistent with section <a href="/statutes/cite/122A.06#stat.122A.06.4">122A.06, subdivision 4</a>, so that all students achieve continuous <br/><span id="pl.7.14" class="pl"> </span>progress in reading; and<br/></p>
+        <p><span id="pl.7.15" class="pl"> </span>(2) teach specialized instruction in reading strategies, interventions, and remediations <br/><span id="pl.7.16" class="pl"> </span>that enable students of all ages and proficiency levels to become proficient readers.<br/></p>
+        <p><span id="pl.7.17" class="pl"> </span>(c) Nothing in this section limits the authority of a school district to select a school's <br/><span id="pl.7.18" class="pl"> </span>reading program or curriculum.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.7.19" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.092, subdivision 6, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.7.20" class="pl"> </span>Subd. 6.</h2>
+        <h3 class="headnote">Technology strategies.</h3>
+        <p>All <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">colleges and universities</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">preparation providers <br/></ins><span class="sr-only">new text end</span><span id="pl.7.21" class="pl"> </span>approved by the Professional Educator Licensing and Standards Board to prepare persons <br/><span id="pl.7.22" class="pl"> </span>for classroom teacher licensure must include in their teacher preparation programs the <br/><span id="pl.7.23" class="pl"> </span>knowledge and skills teacher candidates need to engage students with technology and deliver <br/><span id="pl.7.24" class="pl"> </span>digital and blended learning and curriculum.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.7.25" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.17, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.7.26" class="pl"> </span>122A.17 VALIDITY OF CERTIFICATES OR LICENSES.<br/></h1>
+      <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.7.27" class="pl"> </span>(a)</span><span class="sr-only">deleted text end</span> A rule adopted by the Board of Teaching or the Professional Educator Licensing and <br/><span id="pl.7.28" class="pl"> </span>Standards Board must not affect the validity of certificates or licenses to teach in effect on <br/><span id="pl.7.29" class="pl"> </span>July 1, 1974, or the rights and privileges of the holders thereof, except that any such <br/><span id="pl.7.30" class="pl"> </span>certificate or license may be suspended or revoked for any of the causes and by the procedures <br/><span id="pl.7.31" class="pl"> </span>specified by law.<br/></p>
+      <p>
+        <span class="sr-only">deleted text begin</span>
+        <span style="text-decoration: line-through" class="del"><span id="pl.8.1" class="pl"> </span>(b) All teacher licenses in effect on January 1, 2018, shall remain valid for one additional <br/><span id="pl.8.2" class="pl"> </span>year after the date the license is scheduled to expire.<br/></span>
+        <span class="sr-only">deleted text end</span>
+      </p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.8.3" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.175, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.8.4" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Background check account.</h3>
+        <p>An educator licensure background check account <br/><span id="pl.8.5" class="pl"> </span>is created in the special revenue fund. The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Department of Education, the</span><span class="sr-only">deleted text end</span> Professional <br/><span id="pl.8.6" class="pl"> </span>Educator Licensing and Standards Board<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">,</span><span class="sr-only">deleted text end</span> and the Board of School Administrators must <br/><span id="pl.8.7" class="pl"> </span>deposit all payments submitted by license applicants for criminal background checks <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.8" class="pl"> </span>conducted by the Bureau of Criminal Apprehension</span><span class="sr-only">deleted text end</span> in the educator licensure background <br/><span id="pl.8.9" class="pl"> </span>check account. Amounts in the account are annually appropriated to the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">commissioner of <br/><span id="pl.8.10" class="pl"> </span>education for payment to the superintendent of the Bureau of Criminal Apprehension</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.8.11" class="pl"> </span>Professional Educator Licensing and Standards Board</ins><span class="sr-only">new text end</span> for the costs of background checks <br/><span id="pl.8.12" class="pl"> </span>on applicants for licensure.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.8.13" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.18, subdivision 7c, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.8.14" class="pl"> </span>Subd. 7c.</h2>
+        <h3 class="headnote">Temporary military license.</h3>
+        <p>The Professional Educator Licensing and <br/><span id="pl.8.15" class="pl"> </span>Standards Board shall establish a temporary license in accordance with section <a href="/statutes/cite/197.4552">197.4552</a> <br/><span id="pl.8.16" class="pl"> </span>for teaching. The fee for a temporary license under this subdivision shall be <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$87.90</span><span class="sr-only">deleted text end</span> <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for an <br/><span id="pl.8.17" class="pl"> </span>online application or $86.40 for a paper application</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $57</ins><span class="sr-only">new text end</span>. The board must provide candidates <br/><span id="pl.8.18" class="pl"> </span>for a license under this subdivision with information regarding the tiered licensure system <br/><span id="pl.8.19" class="pl"> </span>provided in sections <a href="/statutes/cite/122A.18">122A.18</a> to <a href="/statutes/cite/122A.184">122A.184</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.8.20" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.18, subdivision 8, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.8.21" class="pl"> </span>Subd. 8.</h2>
+        <h3 class="headnote">Background checks.</h3>
+        <p>(a) The Professional Educator Licensing and Standards <br/><span id="pl.8.22" class="pl"> </span>Board and the Board of School Administrators must <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">request</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> obtain</ins><span class="sr-only">new text end</span> a criminal history <br/><span id="pl.8.23" class="pl"> </span>background check<span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> including information</ins><span class="sr-only">new text end</span> from <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the superintendent of</span><span class="sr-only">deleted text end</span> the Bureau of Criminal <br/><span id="pl.8.24" class="pl"> </span>Apprehension on all first-time teaching applicants for licenses under their jurisdiction. <br/><span id="pl.8.25" class="pl"> </span>Applicants must include with their licensure applications:<br/></p>
+        <p><span id="pl.8.26" class="pl"> </span>(1) an executed criminal history consent form, including fingerprints; and<br/></p>
+        <p><span id="pl.8.27" class="pl"> </span>(2) a money order or cashier's check payable to the Bureau of Criminal Apprehension <br/><span id="pl.8.28" class="pl"> </span>for the fee for conducting the criminal history background check.<br/></p>
+        <p><span id="pl.8.29" class="pl"> </span>(b) The superintendent of the Bureau of Criminal Apprehension shall perform the <br/><span id="pl.8.30" class="pl"> </span>background check required under paragraph (a) by retrieving criminal history data as defined <br/><span id="pl.8.31" class="pl"> </span>in section <a href="/statutes/cite/13.87 ">13.87 </a>and shall also conduct a search of the national criminal records repository. <br/><span id="pl.8.32" class="pl"> </span>The superintendent is authorized to exchange fingerprints with the Federal Bureau of <br/><span id="pl.9.1" class="pl"> </span>Investigation for purposes of the criminal history check. The superintendent shall recover <br/><span id="pl.9.2" class="pl"> </span>the cost to the bureau of a background check through the fee charged to the applicant under <br/><span id="pl.9.3" class="pl"> </span>paragraph (a).<br/></p>
+        <p><span id="pl.9.4" class="pl"> </span>(c) The Professional Educator Licensing and Standards Board or the Board of School <br/><span id="pl.9.5" class="pl"> </span>Administrators may issue a license pending completion of a background check under this <br/><span id="pl.9.6" class="pl"> </span>subdivision, but must notify the individual and the school district or charter school employing <br/><span id="pl.9.7" class="pl"> </span>the individual that the individual's license may be revoked based on the result of the <br/><span id="pl.9.8" class="pl"> </span>background check.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.9.9" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.18, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.18.1">
+        <h2 class="subd_no"><span id="pl.9.10" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Licensure via portfolio.</h3>
+        <p>(a) The Professional Educator Licensing and Standards <br/><span id="pl.9.11" class="pl"> </span>Board must adopt rules establishing a process for an eligible candidate to obtain any teacher <br/><span id="pl.9.12" class="pl"> </span>license under subdivision 1, or to add a licensure field, via portfolio. The portfolio licensure <br/><span id="pl.9.13" class="pl"> </span>application process must be consistent with the requirements in this subdivision.<br/></p>
+        <p><span id="pl.9.14" class="pl"> </span>(b) A candidate for a <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Tier 3 </ins><span class="sr-only">new text end</span>license <span class="sr-only">new text begin</span><ins style="text-decoration: underline">via portfolio </ins><span class="sr-only">new text end</span>must submit to the board one portfolio <br/><span id="pl.9.15" class="pl"> </span>demonstrating pedagogical competence and one portfolio demonstrating content competence.<br/></p>
+        <p><span id="pl.9.16" class="pl"> </span>(c) A candidate seeking to add a licensure field <span class="sr-only">new text begin</span><ins style="text-decoration: underline">via portfolio </ins><span class="sr-only">new text end</span>must submit to the board <br/><span id="pl.9.17" class="pl"> </span>one portfolio demonstrating content competence for each licensure field the candidate seeks <br/><span id="pl.9.18" class="pl"> </span>to add.<br/></p>
+        <p><span id="pl.9.19" class="pl"> </span>(d) The board must notify a candidate who submits a portfolio under paragraph (b) or <br/><span id="pl.9.20" class="pl"> </span>(c) within 90 calendar days after the portfolio is received whether or not the portfolio is <br/><span id="pl.9.21" class="pl"> </span>approved. If the portfolio is not approved, the board must immediately inform the candidate <br/><span id="pl.9.22" class="pl"> </span>how to revise the portfolio to successfully demonstrate the requisite competence. The <br/><span id="pl.9.23" class="pl"> </span>candidate may resubmit a revised portfolio at any time and the board must approve or <br/><span id="pl.9.24" class="pl"> </span>disapprove the revised portfolio within 60 calendar days of receiving it.<br/></p>
+        <p><span id="pl.9.25" class="pl"> </span>(e) A candidate must pay to the board a $300 fee for the first portfolio submitted for <br/><span id="pl.9.26" class="pl"> </span>review and a $200 fee for any portfolio submitted subsequently. The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">revenue generated <br/><span id="pl.9.27" class="pl"> </span>from the</span><span class="sr-only">deleted text end</span> fee must be deposited in an education licensure portfolio account in the special <br/><span id="pl.9.28" class="pl"> </span>revenue fund. The fees are nonrefundable for applicants not qualifying for a license. The <br/><span id="pl.9.29" class="pl"> </span>board may waive or reduce fees for candidates based on financial need.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.10.1" class="pl"> </span>Sec. 19. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.182, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.19.1">
+        <h2 class="subd_no"><span id="pl.10.2" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Requirements.</h3>
+        <p>(a) The Professional Educator Licensing and Standards <br/><span id="pl.10.3" class="pl"> </span>Board must approve a request from a district or charter school to issue a Tier 2 license in a <br/><span id="pl.10.4" class="pl"> </span>specified content area to a candidate if:<br/></p>
+        <p><span id="pl.10.5" class="pl"> </span>(1) the candidate meets the educational or professional requirements in paragraph (b) <br/><span id="pl.10.6" class="pl"> </span>or (c);<br/></p>
+        <p><span id="pl.10.7" class="pl"> </span>(2) the candidate:<br/></p>
+        <p><span id="pl.10.8" class="pl"> </span>(i) has completed the coursework required under subdivision 2;<br/></p>
+        <p><span id="pl.10.9" class="pl"> </span>(ii) is enrolled in a Minnesota-approved teacher preparation program<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a state-approved <br/><span id="pl.10.10" class="pl"> </span>teacher preparation program if no licensure program exists in Minnesota</ins><span class="sr-only">new text end</span>; or<br/></p>
+        <p><span id="pl.10.11" class="pl"> </span>(iii) has a master's degree in the specified content area; and<br/></p>
+        <p><span id="pl.10.12" class="pl"> </span>(3) the district or charter school demonstrates that a criminal background check under <br/><span id="pl.10.13" class="pl"> </span>section <a href="/statutes/cite/122A.18#stat.122A.18.8">122A.18, subdivision 8</a>, has been completed on the candidate.<br/></p>
+        <p><span id="pl.10.14" class="pl"> </span>(b) A candidate for a Tier 2 license must have a bachelor's degree to teach a class outside <br/><span id="pl.10.15" class="pl"> </span>a career and technical education or career pathways course of study.<br/></p>
+        <p><span id="pl.10.16" class="pl"> </span>(c) A candidate for a Tier 2 license must have one of the following credentials in a <br/><span id="pl.10.17" class="pl"> </span>relevant content area to teach a class or course in a career and technical education or career <br/><span id="pl.10.18" class="pl"> </span>pathways course of study:<br/></p>
+        <p><span id="pl.10.19" class="pl"> </span>(1) an associate's degree;<br/></p>
+        <p><span id="pl.10.20" class="pl"> </span>(2) a professional certification; or<br/></p>
+        <p><span id="pl.10.21" class="pl"> </span>(3) five years of relevant work experience.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.20.0">
+      <h2 class="section_number"><span id="pl.10.22" class="pl"> </span>Sec. 20. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.185, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.20.1">
+        <h2 class="subd_no"><span id="pl.10.23" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Tests.</h3>
+        <p>(a) The Professional Educator Licensing and Standards Board <br/><span id="pl.10.24" class="pl"> </span>must adopt rules requiring a candidate to demonstrate a passing score on a board-adopted <br/><span id="pl.10.25" class="pl"> </span>examination of skills in reading, writing, and mathematics before being granted a Tier 4 <br/><span id="pl.10.26" class="pl"> </span>teaching license under section <a href="/statutes/cite/122A.184">122A.184</a> to provide direct instruction to pupils in elementary, <br/><span id="pl.10.27" class="pl"> </span>secondary, or special education programs. Candidates may obtain a Tier 1, Tier 2, or Tier <br/><span id="pl.10.28" class="pl"> </span>3 license to provide direct instruction to pupils in elementary, secondary, or special education <br/><span id="pl.10.29" class="pl"> </span>programs if candidates meet the other requirements in section <a href="/statutes/cite/122A.181">122A.181</a>, <a href="/statutes/cite/122A.182">122A.182</a>, or <br/><a href="/statutes/cite/122A.183"><span id="pl.10.30" class="pl"> </span>122A.183</a>, respectively.<br/></p>
+        <p><span id="pl.11.1" class="pl"> </span>(b) The board must adopt rules requiring candidates for Tier 3 and Tier 4 licenses to <br/><span id="pl.11.2" class="pl"> </span>pass an examination <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or performance assessment </ins><span class="sr-only">new text end</span>of general pedagogical knowledge and <br/><span id="pl.11.3" class="pl"> </span>examinations of licensure field specific content. The content examination requirement does <br/><span id="pl.11.4" class="pl"> </span>not apply if no relevant content exam exists.<br/></p>
+        <p><span id="pl.11.5" class="pl"> </span>(c) Candidates for initial Tier 3 and Tier 4 licenses to teach elementary students must <br/><span id="pl.11.6" class="pl"> </span>pass test items assessing the candidates' knowledge, skill, and ability in comprehensive, <br/><span id="pl.11.7" class="pl"> </span>scientifically based reading instruction under section <a href="/statutes/cite/122A.06#stat.122A.06.4">122A.06, subdivision 4</a>, knowledge <br/><span id="pl.11.8" class="pl"> </span>and understanding of the foundations of reading development, development of reading <br/><span id="pl.11.9" class="pl"> </span>comprehension and reading assessment and instruction, and the ability to integrate that <br/><span id="pl.11.10" class="pl"> </span>knowledge and understanding into instruction strategies under section <a href="/statutes/cite/122A.06#stat.122A.06.">122A.06, subdivision <br/></a><span id="pl.11.11" class="pl"> </span>4.<br/></p>
+        <p><span id="pl.11.12" class="pl"> </span>(d) The requirement to pass a board-adopted reading, writing, and mathematics skills <br/><span id="pl.11.13" class="pl"> </span>examination does not apply to nonnative English speakers, as verified by qualified Minnesota <br/><span id="pl.11.14" class="pl"> </span>school district personnel or Minnesota higher education faculty, who, after meeting the <br/><span id="pl.11.15" class="pl"> </span>content and pedagogy requirements under this subdivision, apply for a teaching license to <br/><span id="pl.11.16" class="pl"> </span>provide direct instruction in their native language or world language instruction under section <br/><a href="/statutes/cite/120B.022#stat.120B.022.1"><span id="pl.11.17" class="pl"> </span>120B.022, subdivision 1</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.21.0">
+      <h2 class="section_number"><span id="pl.11.18" class="pl"> </span>Sec. 21. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.187, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.21.1">
+        <h2 class="subd_no"><span id="pl.11.19" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Professional growth.</h3>
+        <p>(a) Applicants for license renewal for a Tier 3 or Tier 4 <br/><span id="pl.11.20" class="pl"> </span>license under sections <a href="/statutes/cite/122A.183">122A.183</a> and <a href="/statutes/cite/122A.184">122A.184</a>, respectively, who have been employed as <br/><span id="pl.11.21" class="pl"> </span>a teacher during the renewal period of the expiring license, as a condition of license renewal, <br/><span id="pl.11.22" class="pl"> </span>must present to their local continuing education and relicensure committee or other local <br/><span id="pl.11.23" class="pl"> </span>relicensure committee evidence of work that demonstrates professional reflection and growth <br/><span id="pl.11.24" class="pl"> </span>in best teaching practices<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, including among other things, cultural competence in accordance <br/><span id="pl.11.25" class="pl"> </span>with section <a href="/statutes/cite/120B.30#stat.120B.30.1">120B.30, subdivision 1</a>, paragraph (q), and practices in meeting the varied <br/><span id="pl.11.26" class="pl"> </span>needs of English learners, from young children to adults under section <a href="/statutes/cite/124D.59#stat.124D.59.">124D.59, subdivisions <br/></a><span id="pl.11.27" class="pl"> </span>2 and 2a</span><span class="sr-only">deleted text end</span>. A teacher may satisfy the requirements of this paragraph by submitting the teacher's <br/><span id="pl.11.28" class="pl"> </span>most recent summative evaluation or improvement plan under section <a href="/statutes/cite/122A.40#stat.122A.40.">122A.40, subdivision <br/></a><span id="pl.11.29" class="pl"> </span>8, or <a href="/statutes/cite/122A.41#stat.122A.41.5">122A.41, subdivision 5</a>.<br/></p>
+        <p><span id="pl.11.30" class="pl"> </span>(b) The Professional Educator Licensing and Standards Board must ensure that its teacher <br/><span id="pl.11.31" class="pl"> </span>relicensing requirements include paragraph (a).<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.22.0">
+      <h2 class="section_number"><span id="pl.12.1" class="pl"> </span>Sec. 22. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.187, is amended by adding a subdivision <br/><span id="pl.12.2" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.22.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.3" class="pl"> </span>Subd. 7.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Cultural competency training.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The Professional Educator Licensing and <br/><span id="pl.12.4" class="pl"> </span>Standards Board must adopt rules that require all licensed teachers who are renewing a Tier <br/><span id="pl.12.5" class="pl"> </span>3 or Tier 4 teaching license under sections 122A.183 and 122A.184, respectively, to include <br/><span id="pl.12.6" class="pl"> </span>in the renewal requirements cultural competency training and meeting the varied needs of <br/><span id="pl.12.7" class="pl"> </span>English learners from young children to adults under section 124D.59, subdivisions 2 and <br/><span id="pl.12.8" class="pl"> </span>2a.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.23.0">
+      <h2 class="section_number"><span id="pl.12.9" class="pl"> </span>Sec. 23. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.19, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.23.1">
+        <h2 class="subd_no"><span id="pl.12.10" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Teacher preparation programs.</h3>
+        <p>(a) For the purpose of licensing bilingual <br/><span id="pl.12.11" class="pl"> </span>and English as a second language teachers, the board may approve <span class="sr-only">new text begin</span><ins style="text-decoration: underline">teacher preparation <br/></ins><span class="sr-only">new text end</span><span id="pl.12.12" class="pl"> </span>programs <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">at colleges or universities</span><span class="sr-only">deleted text end</span> designed for their training.<br/></p>
+        <p><span id="pl.12.13" class="pl"> </span>(b) Programs that prepare English as a second language teachers must provide instruction <br/><span id="pl.12.14" class="pl"> </span>in implementing research-based practices designed specifically for English learners. The <br/><span id="pl.12.15" class="pl"> </span>programs must focus on developing English learners' academic language proficiency in <br/><span id="pl.12.16" class="pl"> </span>English, including oral academic language, giving English learners meaningful access to <br/><span id="pl.12.17" class="pl"> </span>the full school curriculum, developing culturally relevant teaching practices appropriate for <br/><span id="pl.12.18" class="pl"> </span>immigrant students, and providing more intensive instruction and resources to English <br/><span id="pl.12.19" class="pl"> </span>learners with lower levels of academic English proficiency and varied needs, consistent <br/><span id="pl.12.20" class="pl"> </span>with section <a href="/statutes/cite/124D.59#stat.124D.59.2">124D.59, subdivisions 2</a> and 2a.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.24.0">
+      <h2 class="section_number"><span id="pl.12.21" class="pl"> </span>Sec. 24. </h2>
+      <p class="first">Minnesota Statutes 2018, section 122A.21, is amended by adding a subdivision <br/><span id="pl.12.22" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.24.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.23" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Licensure via portfolio.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) An eligible candidate may use licensure via portfolio <br/><span id="pl.12.24" class="pl"> </span>to obtain a Tier 3 license or to add a licensure field, consistent with applicable Professional <br/><span id="pl.12.25" class="pl"> </span>Educator Licensing and Standards Board licensure rules.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.26" class="pl"> </span>(b) A candidate for a Tier 3 license via portfolio must submit to the Professional Educator <br/><span id="pl.12.27" class="pl"> </span>Licensing and Standards Board one portfolio demonstrating pedagogical competence and <br/><span id="pl.12.28" class="pl"> </span>one portfolio demonstrating content competence.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.29" class="pl"> </span>(c) A candidate seeking to add a licensure field via portfolio must submit to the <br/><span id="pl.12.30" class="pl"> </span>Professional Educator Licensing and Standards Board one portfolio demonstrating content <br/><span id="pl.12.31" class="pl"> </span>competence for each licensure field the candidate seeks to add.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.1" class="pl"> </span>(d) The Professional Educator Licensing and Standards Board must notify a candidate <br/><span id="pl.13.2" class="pl"> </span>who submits a portfolio under paragraph (b) or (c) within 90 calendar days after the portfolio <br/><span id="pl.13.3" class="pl"> </span>is received whether or not the portfolio was approved. If the portfolio was not approved, <br/><span id="pl.13.4" class="pl"> </span>the board must immediately inform the candidate how to revise the portfolio to successfully <br/><span id="pl.13.5" class="pl"> </span>demonstrate the requisite competence. The candidate may resubmit a revised portfolio at <br/><span id="pl.13.6" class="pl"> </span>any time and the Professional Educator Licensing and Standards Board must approve or <br/><span id="pl.13.7" class="pl"> </span>disapprove the portfolio within 60 calendar days of receiving it.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.8" class="pl"> </span>(e) A candidate must pay to the Professional Educator Licensing and Standards Board <br/><span id="pl.13.9" class="pl"> </span>a $300 fee for the first portfolio submitted for review and a $200 fee for any portfolio <br/><span id="pl.13.10" class="pl"> </span>submitted subsequently. The Professional Educator Licensing and Standards Board must <br/><span id="pl.13.11" class="pl"> </span>deposit the fee in the education licensure portfolio account in the special revenue fund. The <br/><span id="pl.13.12" class="pl"> </span>fees are nonrefundable for applicants not qualifying for a license. The Professional Educator <br/><span id="pl.13.13" class="pl"> </span>Licensing and Standards Board may waive or reduce fees for candidates based on financial <br/><span id="pl.13.14" class="pl"> </span>need.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

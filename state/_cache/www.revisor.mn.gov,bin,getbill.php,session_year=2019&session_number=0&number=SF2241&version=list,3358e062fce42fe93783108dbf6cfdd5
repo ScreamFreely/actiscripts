@@ -1,0 +1,2028 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:58:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2241 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2241</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/12/2019 08:41am</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2241&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2241&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2241&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2241&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2241&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/07/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2241&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2241&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <br/>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <br/>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">1.24</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <br/>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <br/>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <br/>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <br/>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <br/>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <br/>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <br/>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <br/>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <br/>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <br/>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <br/>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <br/>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <br/>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <br/>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <br/>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <br/>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <br/>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <br/>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <var class="ln">11.32</var>
+    <var class="ln">11.33</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <br/>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to campaign finance; modifying provisions for certain campaign disclosures <br/><span id="pl.1.3" class="pl"> </span>in Hennepin County; amending Minnesota Statutes 2018, sections 10A.01, <br/><span id="pl.1.4" class="pl"> </span>subdivisions 4, 7, 9, 11, 16a, 17c, 18, 20, 24, 27, 28, by adding a subdivision; <br/><span id="pl.1.5" class="pl"> </span>10A.12, subdivisions 1, 2; 10A.121, subdivision 2; 10A.13, subdivision 1; 10A.17, <br/><span id="pl.1.6" class="pl"> </span>subdivision 4; 10A.20, subdivisions 3, 6a, by adding a subdivision; 383B.041; <br/><span id="pl.1.7" class="pl"> </span>repealing Minnesota Statutes 2018, sections 10A.15, subdivision 6; 383B.042; <br/><span id="pl.1.8" class="pl"> </span>383B.043; 383B.044; 383B.045; 383B.046; 383B.047; 383B.048; 383B.049; <br/><span id="pl.1.9" class="pl"> </span>383B.05; 383B.051; 383B.052; 383B.053; 383B.054; 383B.055; 383B.056; <br/><span id="pl.1.10" class="pl"> </span>383B.057.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.11" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.12" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.13" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Approved expenditure.</h3>
+        <p>"Approved expenditure" means an expenditure made <br/><span id="pl.1.14" class="pl"> </span>on behalf of a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a local candidate</ins><span class="sr-only">new text end</span> by an entity other than the<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> candidate's or local <br/><span id="pl.1.15" class="pl"> </span>candidate's</ins><span class="sr-only">new text end</span> principal campaign committee <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of the candidate</span><span class="sr-only">deleted text end</span>, if the expenditure is made with <br/><span id="pl.1.16" class="pl"> </span>the authorization or expressed or implied consent of, or in cooperation or in concert with, <br/><span id="pl.1.17" class="pl"> </span>or at the request or suggestion of the candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>, the candidate's principal <br/><span id="pl.1.18" class="pl"> </span>campaign committee, or the candidate's <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or local candidate's </ins><span class="sr-only">new text end</span>agent. An approved expenditure <br/><span id="pl.1.19" class="pl"> </span>is a contribution to that candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.20" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.21" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Ballot question.</h3>
+        <p class="in">"Ballot question" means a question or proposition that is placed <br/><span id="pl.1.22" class="pl"> </span>on the ballot and that may be voted on by<span class="sr-only">new text begin</span><ins style="text-decoration: underline">:<br/></ins><span class="sr-only">new text end</span></p>
+        <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.1.23" class="pl"> </span>(1)</ins><span class="sr-only">new text end</span> all voters of the state<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">;<br/></ins><span class="sr-only">new text end</span></p>
+        <p class="in">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.24" class="pl"> </span>(2) all voters of Hennepin County;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="in">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.1" class="pl"> </span>(3) all voters of any home rule charter city or statutory city located wholly within <br/><span id="pl.2.2" class="pl"> </span>Hennepin County and having a population of 75,000 or more; or<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.3" class="pl"> </span>(4) all voters of Special School District No. 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="in"> <span id="pl.2.4" class="pl"> </span>"Promoting or defeating a ballot question" includes activities, other than lobbying <br/><span id="pl.2.5" class="pl"> </span>activities, related to qualifying the question for placement on the ballot.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.6" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 9, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.7" class="pl"> </span>Subd. 9.</h2>
+        <h3 class="headnote">Campaign expenditure.</h3>
+        <p>"Campaign expenditure" or "expenditure" means a <br/><span id="pl.2.8" class="pl"> </span>purchase or payment of money or anything of value, or an advance of credit, made or <br/><span id="pl.2.9" class="pl"> </span>incurred for the purpose of influencing the nomination or election of a candidate <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a local <br/><span id="pl.2.10" class="pl"> </span>candidate </ins><span class="sr-only">new text end</span>or for the purpose of promoting or defeating a ballot question.<br/></p>
+        <p><span id="pl.2.11" class="pl"> </span>An expenditure is considered to be made in the year in which the candidate <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or local <br/><span id="pl.2.12" class="pl"> </span>candidate </ins><span class="sr-only">new text end</span>made the purchase of goods or services or incurred an obligation to pay for goods <br/><span id="pl.2.13" class="pl"> </span>or services.<br/></p>
+        <p><span id="pl.2.14" class="pl"> </span>An expenditure made for the purpose of defeating a candidate <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a local candidate </ins><span class="sr-only">new text end</span>is <br/><span id="pl.2.15" class="pl"> </span>considered made for the purpose of influencing the nomination or election of that candidate <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.16" class="pl"> </span>or local candidate </ins><span class="sr-only">new text end</span>or any opponent of that candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p><span id="pl.2.17" class="pl"> </span>Except as provided in clause (1), "expenditure" includes the dollar value of a donation <br/><span id="pl.2.18" class="pl"> </span>in kind.<br/></p>
+        <p><span id="pl.2.19" class="pl"> </span>"Expenditure" does not include:<br/></p>
+        <p><span id="pl.2.20" class="pl"> </span>(1) noncampaign disbursements as defined in subdivision 26;<br/></p>
+        <p><span id="pl.2.21" class="pl"> </span>(2) services provided without compensation by an individual volunteering personal time <br/><span id="pl.2.22" class="pl"> </span>on behalf of a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a local candidate</ins><span class="sr-only">new text end</span>, ballot question, political committee, political <br/><span id="pl.2.23" class="pl"> </span>fund, principal campaign committee, or party unit;<br/></p>
+        <p><span id="pl.2.24" class="pl"> </span>(3) the publishing or broadcasting of news items or editorial comments by the news <br/><span id="pl.2.25" class="pl"> </span>media; or<br/></p>
+        <p><span id="pl.2.26" class="pl"> </span>(4) an individual's unreimbursed personal use of an automobile owned by the individual <br/><span id="pl.2.27" class="pl"> </span>and used by the individual while volunteering personal time.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.1" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, is amended by adding a subdivision to <br/><span id="pl.3.2" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.3" class="pl"> </span>Subd. 10d.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Local candidate.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">"Local candidate" means an individual who seeks <br/><span id="pl.3.4" class="pl"> </span>nomination or election to:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.5" class="pl"> </span>(1) any county office in Hennepin County;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.6" class="pl"> </span>(2) any city office in any home rule charter city or statutory city located wholly within <br/><span id="pl.3.7" class="pl"> </span>Hennepin County and having a population of 75,000 or more; or<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.8" class="pl"> </span>(3) the school board in Special School District No. 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.3.9" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 11, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.3.10" class="pl"> </span>Subd. 11.</h2>
+        <h3 class="headnote">Contribution.</h3>
+        <p>(a) "Contribution" means money, a negotiable instrument, or <br/><span id="pl.3.11" class="pl"> </span>a donation in kind that is given to a political committee, political fund, principal campaign <br/><span id="pl.3.12" class="pl"> </span>committee, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">local candidate, </ins><span class="sr-only">new text end</span>or party unit. An allocation by an association of general treasury <br/><span id="pl.3.13" class="pl"> </span>money to be used for activities that must be or are reported through the association's political <br/><span id="pl.3.14" class="pl"> </span>fund is considered to be a contribution for the purposes of disclosure required by this chapter.<br/></p>
+        <p><span id="pl.3.15" class="pl"> </span>(b) "Contribution" includes a loan or advance of credit to a political committee, political <br/><span id="pl.3.16" class="pl"> </span>fund, principal campaign committee,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> local candidate,</ins><span class="sr-only">new text end</span> or party unit, if the loan or advance <br/><span id="pl.3.17" class="pl"> </span>of credit is: (1) forgiven; or (2) repaid by an individual or an association other than the <br/><span id="pl.3.18" class="pl"> </span>political committee, political fund, principal campaign committee, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">local candidate, </ins><span class="sr-only">new text end</span>or party <br/><span id="pl.3.19" class="pl"> </span>unit to which the loan or advance of credit was made. If an advance of credit or a loan is <br/><span id="pl.3.20" class="pl"> </span>forgiven or repaid as provided in this paragraph, it is a contribution in the year in which the <br/><span id="pl.3.21" class="pl"> </span>loan or advance of credit was made.<br/></p>
+        <p><span id="pl.3.22" class="pl"> </span>(c) "Contribution" does not include services provided without compensation by an <br/><span id="pl.3.23" class="pl"> </span>individual volunteering personal time on behalf of a candidate, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">local candidate, </ins><span class="sr-only">new text end</span>ballot <br/><span id="pl.3.24" class="pl"> </span>question, political committee, political fund, principal campaign committee, or party unit; <br/><span id="pl.3.25" class="pl"> </span>the publishing or broadcasting of news items or editorial comments by the news media; or <br/><span id="pl.3.26" class="pl"> </span>an individual's unreimbursed personal use of an automobile owned by the individual while <br/><span id="pl.3.27" class="pl"> </span>volunteering personal time.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.3.28" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 16a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.3.29" class="pl"> </span>Subd. 16a.</h2>
+        <h3 class="headnote">Expressly advocating.</h3>
+        <p>"Expressly advocating" means that a communication <br/><span id="pl.3.30" class="pl"> </span>clearly identifies a candidate <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or a local candidate </ins><span class="sr-only">new text end</span>and uses words or phrases of express <br/><span id="pl.3.31" class="pl"> </span>advocacy.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.4.1" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 17c, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.4.2" class="pl"> </span>Subd. 17c.</h2>
+        <h3 class="headnote">General treasury money.</h3>
+        <p>"General treasury money" means money that an <br/><span id="pl.4.3" class="pl"> </span>association other than a principal campaign committee, party unit, or political committee <br/><span id="pl.4.4" class="pl"> </span>accumulates through membership dues and fees, donations to the association for its general <br/><span id="pl.4.5" class="pl"> </span>purposes, and income from the operation of a business. General treasury money does not <br/><span id="pl.4.6" class="pl"> </span>include money collected to influence the nomination or election of candidates<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local <br/><span id="pl.4.7" class="pl"> </span>candidates</ins><span class="sr-only">new text end</span> or to promote or defeat a ballot question.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.4.8" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 18, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.4.9" class="pl"> </span>Subd. 18.</h2>
+        <h3 class="headnote">Independent expenditure.</h3>
+        <p>"Independent expenditure" means an expenditure <br/><span id="pl.4.10" class="pl"> </span>expressly advocating the election or defeat of a clearly identified candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>, <br/><span id="pl.4.11" class="pl"> </span>if the expenditure is made without the express or implied consent, authorization, or <br/><span id="pl.4.12" class="pl"> </span>cooperation of, and not in concert with or at the request or suggestion of, any candidate or <br/><span id="pl.4.13" class="pl"> </span>any candidate's principal campaign committee or agent<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or any local candidate or local <br/><span id="pl.4.14" class="pl"> </span>candidate's agent</ins><span class="sr-only">new text end</span>. An independent expenditure is not a contribution to that candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or <br/><span id="pl.4.15" class="pl"> </span>local candidate</ins><span class="sr-only">new text end</span>. An independent expenditure does not include the act of announcing a formal <br/><span id="pl.4.16" class="pl"> </span>public endorsement of a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span> for public office, unless the act is <br/><span id="pl.4.17" class="pl"> </span>simultaneously accompanied by an expenditure that would otherwise qualify as an <br/><span id="pl.4.18" class="pl"> </span>independent expenditure under this subdivision.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.4.19" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 20, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.4.20" class="pl"> </span>Subd. 20.</h2>
+        <h3 class="headnote">Loan.</h3>
+        <p>"Loan" means an advance of money or anything of value made to a <br/><span id="pl.4.21" class="pl"> </span>political committee, political fund, principal campaign committee, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">local candidate, </ins><span class="sr-only">new text end</span>or party <br/><span id="pl.4.22" class="pl"> </span>unit.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.4.23" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 24, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.4.24" class="pl"> </span>Subd. 24.</h2>
+        <h3 class="headnote">Metropolitan governmental unit.</h3>
+        <p>"Metropolitan governmental unit" means <br/><span id="pl.4.25" class="pl"> </span>any of the seven counties in the metropolitan area as defined in section <a href="/statutes/cite/473.121#stat.473.121.2">473.121, subdivision <br/><span id="pl.4.26" class="pl"> </span>2</a>, a regional railroad authority established by one or more of those counties under section <br/><a href="/statutes/cite/398A.03"><span id="pl.4.27" class="pl"> </span>398A.03</a>, a city with a population of over 50,000 located in the seven-county metropolitan <br/><span id="pl.4.28" class="pl"> </span>area, the Metropolitan Council, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span> a metropolitan agency as defined in section <a href="/statutes/cite/473.121#stat.473.121.5a">473.121, <br/><span id="pl.4.29" class="pl"> </span>subdivision 5a</a><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or Special School District No. 1, Minneapolis</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.5.1" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 27, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.5.2" class="pl"> </span>Subd. 27.</h2>
+        <h3 class="headnote">Political committee.</h3>
+        <p>"Political committee" means an association whose major <br/><span id="pl.5.3" class="pl"> </span>purpose is to influence the nomination or election of one or more candidates<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local <br/><span id="pl.5.4" class="pl"> </span>candidates</ins><span class="sr-only">new text end</span> or to promote or defeat a ballot question, other than a principal campaign <br/><span id="pl.5.5" class="pl"> </span>committee<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, local candidate,</ins><span class="sr-only">new text end</span> or a political party unit.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.5.6" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 28, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.5.7" class="pl"> </span>Subd. 28.</h2>
+        <h3 class="headnote">Political fund.</h3>
+        <p>"Political fund" means an accumulation of dues or voluntary <br/><span id="pl.5.8" class="pl"> </span>contributions by an association other than a political committee, principal campaign <br/><span id="pl.5.9" class="pl"> </span>committee, or party unit, if the accumulation is collected or expended to influence the <br/><span id="pl.5.10" class="pl"> </span>nomination or election of one or more candidates <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or local candidates </ins><span class="sr-only">new text end</span>or to promote or defeat <br/><span id="pl.5.11" class="pl"> </span>a ballot question. The term political fund as used in this chapter may also refer to the <br/><span id="pl.5.12" class="pl"> </span>association acting through its political fund.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.5.13" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.12, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.5.14" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">When required for contributions and approved expenditures.</h3>
+        <p>An <br/><span id="pl.5.15" class="pl"> </span>association other than a political committee or party unit may not contribute more than $750 <br/><span id="pl.5.16" class="pl"> </span>in aggregate in any calendar year to candidates,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> local candidates,</ins><span class="sr-only">new text end</span> political committees, or <br/><span id="pl.5.17" class="pl"> </span>party units or make approved expenditures of more than $750 in aggregate in any calendar <br/><span id="pl.5.18" class="pl"> </span>year unless the contribution or expenditure is made through a political fund.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.5.19" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.12, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no"><span id="pl.5.20" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Commingling prohibited.</h3>
+        <p>The contents of an association's political fund may <br/><span id="pl.5.21" class="pl"> </span>not be commingled with other funds or with the personal funds of an officer or member of <br/><span id="pl.5.22" class="pl"> </span>the association or the fund. It is not commingling for an association that uses only its own <br/><span id="pl.5.23" class="pl"> </span>general treasury money to make expenditures and disbursements permitted under section <br/><a href="/statutes/cite/10A.121#stat.10A.121.1"><span id="pl.5.24" class="pl"> </span>10A.121, subdivision 1</a>, directly from the depository used for its general treasury money. <br/><span id="pl.5.25" class="pl"> </span>An association that accepts more than $1,500 in <span class="sr-only">new text begin</span><ins style="text-decoration: underline">aggregate in </ins><span class="sr-only">new text end</span>contributions to influence the <br/><span id="pl.5.26" class="pl"> </span>nomination or election of candidates <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or local candidates </ins><span class="sr-only">new text end</span>or more than $5,000 in contributions <br/><span id="pl.5.27" class="pl"> </span>to promote or defeat a ballot question must establish a separate depository for those <br/><span id="pl.5.28" class="pl"> </span>contributions.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.6.1" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.121, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.6.2" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Penalty.</h3>
+        <p class="in">(a) An independent expenditure political committee or independent <br/><span id="pl.6.3" class="pl"> </span>expenditure political fund is subject to a civil penalty of up to four times the amount of the <br/><span id="pl.6.4" class="pl"> </span>contribution or approved expenditure if it does the following:<br/></p>
+        <p class="in"><span id="pl.6.5" class="pl"> </span>(1) makes a contribution to a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, local candidate</ins><span class="sr-only">new text end</span>, party unit, political committee, <br/><span id="pl.6.6" class="pl"> </span>or political fund other than an independent expenditure political committee or an independent <br/><span id="pl.6.7" class="pl"> </span>expenditure political fund; or<br/></p>
+        <p class="in"><span id="pl.6.8" class="pl"> </span>(2) makes an approved expenditure.<br/></p>
+        <p class="in"><span id="pl.6.9" class="pl"> </span>(b) No other penalty provided in law may be imposed for conduct that is subject to a <br/><span id="pl.6.10" class="pl"> </span>civil penalty under this section.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.6.11" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.13, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.6.12" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Accounts; penalty.</h3>
+        <p>The treasurer of a political committee, political fund, <br/><span id="pl.6.13" class="pl"> </span>principal campaign committee, or party unit must keep an account of:<br/></p>
+        <p><span id="pl.6.14" class="pl"> </span>(1) the sum of all contributions, except any donation in kind valued at $20 or less, made <br/><span id="pl.6.15" class="pl"> </span>to the committee, fund, or party unit;<br/></p>
+        <p><span id="pl.6.16" class="pl"> </span>(2) the name and address of each source of a contribution made to the committee, fund, <br/><span id="pl.6.17" class="pl"> </span>or party unit in excess of $20, together with the date and amount of each;<br/></p>
+        <p><span id="pl.6.18" class="pl"> </span>(3) each expenditure made by the committee, fund, or party unit, together with the date <br/><span id="pl.6.19" class="pl"> </span>and amount;<br/></p>
+        <p><span id="pl.6.20" class="pl"> </span>(4) each approved expenditure made on behalf of the committee, fund, or party unit, <br/><span id="pl.6.21" class="pl"> </span>together with the date and amount; and<br/></p>
+        <p><span id="pl.6.22" class="pl"> </span>(5) the name and address of each political committee, political fund, principal campaign <br/><span id="pl.6.23" class="pl"> </span>committee,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> local candidate,</ins><span class="sr-only">new text end</span> or party unit to which contributions in excess of $20 have been <br/><span id="pl.6.24" class="pl"> </span>made, together with the date and amount.<br/></p>
+        <p><span id="pl.6.25" class="pl"> </span>Any individual who knowingly violates this subdivision is subject to a civil penalty <br/><span id="pl.6.26" class="pl"> </span>imposed by the board of up to $1,000.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.6.27" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.17, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.6.28" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Independent expenditures.</h3>
+        <p>An individual, political committee, political fund, <br/><span id="pl.6.29" class="pl"> </span>principal campaign committee, or party unit that independently solicits or accepts <br/><span id="pl.6.30" class="pl"> </span>contributions or makes independent expenditures on behalf of a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span> <br/><span id="pl.7.1" class="pl"> </span>must publicly disclose that the expenditure is an independent expenditure. All written and <br/><span id="pl.7.2" class="pl"> </span>broadcast communications with those from whom contributions are independently solicited <br/><span id="pl.7.3" class="pl"> </span>or accepted or to whom independent expenditures are made on behalf of a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local <br/><span id="pl.7.4" class="pl"> </span>candidate</ins><span class="sr-only">new text end</span> must contain a statement in substantially the form provided in section <a href="/statutes/cite/211B.04#stat.211B.04.2">211B.04, <br/><span id="pl.7.5" class="pl"> </span>subdivision 2</a>. The statement must be on the front page of all written communications and <br/><span id="pl.7.6" class="pl"> </span>at the end of all broadcast communications made by that individual, political committee, <br/><span id="pl.7.7" class="pl"> </span>political fund, principal campaign committee, or party unit on the candidate's<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local <br/><span id="pl.7.8" class="pl"> </span>candidate's</ins><span class="sr-only">new text end</span> behalf.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.7.9" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.20, is amended by adding a subdivision to <br/><span id="pl.7.10" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.18.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.11" class="pl"> </span>Subd. 2a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Local election reports.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) This subdivision applies to a political committee, <br/><span id="pl.7.12" class="pl"> </span>political fund, or political party unit that during a non-general election year:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.13" class="pl"> </span>(1) spends in aggregate more than $200 to influence the nomination or election of local <br/><span id="pl.7.14" class="pl"> </span>candidates;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.15" class="pl"> </span>(2) spends in aggregate more than $200 to make independent expenditures on behalf of <br/><span id="pl.7.16" class="pl"> </span>local candidates; or<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.17" class="pl"> </span>(3) spends in aggregate more than $200 to promote or defeat ballot questions defined <br/><span id="pl.7.18" class="pl"> </span>in section 10A.01, subdivision 7, clause (2), (3), or (4).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.19" class="pl"> </span>(b) In addition to the reports required by subdivision 2, the entities listed in paragraph <br/><span id="pl.7.20" class="pl"> </span>(a) must file the following reports in each non-general election year:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.21" class="pl"> </span>(1) a first-quarter report covering the calendar year through March 31, which is due <br/><span id="pl.7.22" class="pl"> </span>April 14;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.23" class="pl"> </span>(2) a report covering the calendar year through May 31, which is due June 14;<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.24" class="pl"> </span>(3) a pre-primary-election report due 15 days before the local primary election date <br/><span id="pl.7.25" class="pl"> </span>specified in section 205.065;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.26" class="pl"> </span>(4) a pre-general-election report due 42 days before the local general election; and<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.27" class="pl"> </span>(5) a pre-general-election report due ten days before a local general election.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.28" class="pl"> </span>The reporting obligations in this paragraph begin with the first report due after the <br/><span id="pl.7.29" class="pl"> </span>reporting period in which the entity reaches the spending threshold specified in paragraph <br/><span id="pl.7.30" class="pl"> </span>(a).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.8.1" class="pl"> </span>Sec. 19. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.20, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.19.1">
+        <h2 class="subd_no"><span id="pl.8.2" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Contents of report.</h3>
+        <p>(a) The report required by this section must include each <br/><span id="pl.8.3" class="pl"> </span>of the items listed in paragraphs (b) to (q) that are applicable to the filer. The board shall <br/><span id="pl.8.4" class="pl"> </span>prescribe forms based on filer type indicating which of those items must be included on the <br/><span id="pl.8.5" class="pl"> </span>filer's report.<br/></p>
+        <p><span id="pl.8.6" class="pl"> </span>(b) The report must disclose the amount of liquid assets on hand at the beginning of the <br/><span id="pl.8.7" class="pl"> </span>reporting period.<br/></p>
+        <p><span id="pl.8.8" class="pl"> </span>(c) The report must disclose the name, address, employer, or occupation if self-employed, <br/><span id="pl.8.9" class="pl"> </span>and registration number if registered with the board, of each individual or association that <br/><span id="pl.8.10" class="pl"> </span>has made one or more contributions to the reporting entity, including the purchase of tickets <br/><span id="pl.8.11" class="pl"> </span>for a fund-raising effort, that in aggregate within the year exceed $200 for legislative or <br/><span id="pl.8.12" class="pl"> </span>statewide candidates or more than $500 for ballot questions, together with the amount and <br/><span id="pl.8.13" class="pl"> </span>date of each contribution, and the aggregate amount of contributions within the year from <br/><span id="pl.8.14" class="pl"> </span>each source so disclosed. A donation in kind must be disclosed at its fair market value. An <br/><span id="pl.8.15" class="pl"> </span>approved expenditure must be listed as a donation in kind. A donation in kind is considered <br/><span id="pl.8.16" class="pl"> </span>consumed in the reporting period in which it is received. The names of contributors must <br/><span id="pl.8.17" class="pl"> </span>be listed in alphabetical order. Contributions from the same contributor must be listed under <br/><span id="pl.8.18" class="pl"> </span>the same name. When a contribution received from a contributor in a reporting period is <br/><span id="pl.8.19" class="pl"> </span>added to previously reported unitemized contributions from the same contributor and the <br/><span id="pl.8.20" class="pl"> </span>aggregate exceeds the disclosure threshold of this paragraph, the name, address, and <br/><span id="pl.8.21" class="pl"> </span>employer, or occupation if self-employed, of the contributor must then be listed on the <br/><span id="pl.8.22" class="pl"> </span>report.<br/></p>
+        <p><span id="pl.8.23" class="pl"> </span>(d) The report must disclose the sum of contributions to the reporting entity during the <br/><span id="pl.8.24" class="pl"> </span>reporting period.<br/></p>
+        <p><span id="pl.8.25" class="pl"> </span>(e) The report must disclose each loan made or received by the reporting entity within <br/><span id="pl.8.26" class="pl"> </span>the year in aggregate in excess of $200, continuously reported until repaid or forgiven, <br/><span id="pl.8.27" class="pl"> </span>together with the name, address, occupation, principal place of business, if any, and <br/><span id="pl.8.28" class="pl"> </span>registration number if registered with the board of the lender and any endorser and the date <br/><span id="pl.8.29" class="pl"> </span>and amount of the loan. If a loan made to the principal campaign committee of a candidate <br/><span id="pl.8.30" class="pl"> </span>is forgiven or is repaid by an entity other than that principal campaign committee, it must <br/><span id="pl.8.31" class="pl"> </span>be reported as a contribution for the year in which the loan was made.<br/></p>
+        <p><span id="pl.8.32" class="pl"> </span>(f) The report must disclose each receipt over $200 during the reporting period not <br/><span id="pl.8.33" class="pl"> </span>otherwise listed under paragraphs (c) to (e).<br/></p>
+        <p><span id="pl.9.1" class="pl"> </span>(g) The report must disclose the sum of all receipts of the reporting entity during the <br/><span id="pl.9.2" class="pl"> </span>reporting period.<br/></p>
+        <p><span id="pl.9.3" class="pl"> </span>(h) The report must disclose the name, address, and registration number if registered <br/><span id="pl.9.4" class="pl"> </span>with the board of each individual or association to whom aggregate expenditures, approved <br/><span id="pl.9.5" class="pl"> </span>expenditures, independent expenditures, and ballot question expenditures have been made <br/><span id="pl.9.6" class="pl"> </span>by or on behalf of the reporting entity within the year in excess of $200, together with the <br/><span id="pl.9.7" class="pl"> </span>amount, date, and purpose of each expenditure, including an explanation of how the <br/><span id="pl.9.8" class="pl"> </span>expenditure was used, and the name and address of, and office sought by, each candidate <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.9.9" class="pl"> </span>or local candidate </ins><span class="sr-only">new text end</span>on whose behalf the expenditure was made, identification of the ballot <br/><span id="pl.9.10" class="pl"> </span>question that the expenditure was intended to promote or defeat and an indication of whether <br/><span id="pl.9.11" class="pl"> </span>the expenditure was to promote or to defeat the ballot question, and in the case of independent <br/><span id="pl.9.12" class="pl"> </span>expenditures made in opposition to a candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>, the candidate's<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local <br/><span id="pl.9.13" class="pl"> </span>candidate's</ins><span class="sr-only">new text end</span> name, address, and office sought. A reporting entity making an expenditure on <br/><span id="pl.9.14" class="pl"> </span>behalf of more than one candidate <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for state or legislative office</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span> must <br/><span id="pl.9.15" class="pl"> </span>allocate the expenditure among the candidates <span class="sr-only">new text begin</span><ins style="text-decoration: underline">and local candidates </ins><span class="sr-only">new text end</span>on a reasonable cost <br/><span id="pl.9.16" class="pl"> </span>basis and report the allocation for each candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or local candidate</ins><span class="sr-only">new text end</span>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The report must list <br/><span id="pl.9.17" class="pl"> </span>on separate schedules any independent expenditures made on behalf of local candidates and <br/><span id="pl.9.18" class="pl"> </span>any expenditures made for ballot questions as defined in section 10A.01, subdivision 7, <br/><span id="pl.9.19" class="pl"> </span>clause (2), (3), or (4).<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.9.20" class="pl"> </span>(i) The report must disclose the sum of all expenditures made by or on behalf of the <br/><span id="pl.9.21" class="pl"> </span>reporting entity during the reporting period.<br/></p>
+        <p><span id="pl.9.22" class="pl"> </span>(j) The report must disclose the amount and nature of an advance of credit incurred by <br/><span id="pl.9.23" class="pl"> </span>the reporting entity, continuously reported until paid or forgiven. If an advance of credit <br/><span id="pl.9.24" class="pl"> </span>incurred by the principal campaign committee of a candidate is forgiven by the creditor or <br/><span id="pl.9.25" class="pl"> </span>paid by an entity other than that principal campaign committee, it must be reported as a <br/><span id="pl.9.26" class="pl"> </span>donation in kind for the year in which the advance of credit was made.<br/></p>
+        <p><span id="pl.9.27" class="pl"> </span>(k) The report must disclose the name, address, and registration number if registered <br/><span id="pl.9.28" class="pl"> </span>with the board of each political committee, political fund, principal campaign committee,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.9.29" class="pl"> </span>local candidate,</ins><span class="sr-only">new text end</span> or party unit to which contributions have been made that aggregate in excess <br/><span id="pl.9.30" class="pl"> </span>of $200 within the year and the amount and date of each contribution.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The report must list <br/><span id="pl.9.31" class="pl"> </span>on separate schedules any contributions made to state candidates' principal campaign <br/><span id="pl.9.32" class="pl"> </span>committees and any contributions made to local candidates.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.10.1" class="pl"> </span>(l) The report must disclose the sum of all contributions made by the reporting entity <br/><span id="pl.10.2" class="pl"> </span>during the reporting period<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and must separately disclose the sum of all contributions made <br/><span id="pl.10.3" class="pl"> </span>to local candidates by the reporting entity during the reporting period</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p><span id="pl.10.4" class="pl"> </span>(m) The report must disclose the name, address, and registration number if registered <br/><span id="pl.10.5" class="pl"> </span>with the board of each individual or association to whom noncampaign disbursements have <br/><span id="pl.10.6" class="pl"> </span>been made that aggregate in excess of $200 within the year by or on behalf of the reporting <br/><span id="pl.10.7" class="pl"> </span>entity and the amount, date, and purpose of each noncampaign disbursement, including an <br/><span id="pl.10.8" class="pl"> </span>explanation of how the expenditure was used.<br/></p>
+        <p><span id="pl.10.9" class="pl"> </span>(n) The report must disclose the sum of all noncampaign disbursements made within <br/><span id="pl.10.10" class="pl"> </span>the year by or on behalf of the reporting entity.<br/></p>
+        <p><span id="pl.10.11" class="pl"> </span>(o) The report must disclose the name and address of a nonprofit corporation that provides <br/><span id="pl.10.12" class="pl"> </span>administrative assistance to a political committee or political fund as authorized by section <br/><a href="/statutes/cite/211B.15#stat.211B.15.17"><span id="pl.10.13" class="pl"> </span>211B.15, subdivision 17</a>, the type of administrative assistance provided, and the aggregate <br/><span id="pl.10.14" class="pl"> </span>fair market value of each type of assistance provided to the political committee or political <br/><span id="pl.10.15" class="pl"> </span>fund during the reporting period.<br/></p>
+        <p><span id="pl.10.16" class="pl"> </span>(p) Legislative, statewide, and judicial candidates, party units, and political committees <br/><span id="pl.10.17" class="pl"> </span>and funds must itemize contributions that in aggregate within the year exceed $200 for <br/><span id="pl.10.18" class="pl"> </span>legislative or statewide candidates or more than $500 for ballot questions on reports submitted <br/><span id="pl.10.19" class="pl"> </span>to the board. The itemization must include the date on which the contribution was received, <br/><span id="pl.10.20" class="pl"> </span>the individual or association that provided the contribution, and the address of the contributor. <br/><span id="pl.10.21" class="pl"> </span>Additionally, the itemization for a donation in kind must provide a description of the item <br/><span id="pl.10.22" class="pl"> </span>or service received. Contributions that are less than the itemization amount must be reported <br/><span id="pl.10.23" class="pl"> </span>as an aggregate total.<br/></p>
+        <p><span id="pl.10.24" class="pl"> </span>(q) Legislative, statewide, and judicial candidates, party units, political committees and <br/><span id="pl.10.25" class="pl"> </span>funds, and committees to promote or defeat a ballot question must itemize expenditures and <br/><span id="pl.10.26" class="pl"> </span>noncampaign disbursements that in aggregate exceed $200 in a calendar year on reports <br/><span id="pl.10.27" class="pl"> </span>submitted to the board. The itemization must include the date on which the committee made <br/><span id="pl.10.28" class="pl"> </span>or became obligated to make the expenditure or disbursement, the name and address of the <br/><span id="pl.10.29" class="pl"> </span>vendor that provided the service or item purchased, and a description of the service or item <br/><span id="pl.10.30" class="pl"> </span>purchased, including an explanation of how the expenditure was used. Expenditures and <br/><span id="pl.10.31" class="pl"> </span>noncampaign disbursements must be listed on the report alphabetically by vendor.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.20.0">
+      <h2 class="section_number"><span id="pl.11.1" class="pl"> </span>Sec. 20. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.20, subdivision 6a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.20.1">
+        <h2 class="subd_no"><span id="pl.11.2" class="pl"> </span>Subd. 6a.</h2>
+        <h3 class="headnote">Statement of independence.</h3>
+        <p>An individual, political committee, political <br/><span id="pl.11.3" class="pl"> </span>fund, or party unit filing a report or statement disclosing an independent expenditure under <br/><span id="pl.11.4" class="pl"> </span>subdivision 3 or 6 must file with the report a sworn statement that the disclosed expenditures <br/><span id="pl.11.5" class="pl"> </span>were not made with the authorization or expressed or implied consent of, or in cooperation <br/><span id="pl.11.6" class="pl"> </span>or in concert with, or at the request or suggestion of any candidate<span class="sr-only">new text begin</span><ins style="text-decoration: underline">;</ins><span class="sr-only">new text end</span> <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span> any candidate's <br/><span id="pl.11.7" class="pl"> </span>principal campaign committee or agent<span class="sr-only">new text begin</span><ins style="text-decoration: underline">; any local candidate, or any local candidate's agent</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.21.0">
+      <h2 class="section_number"><span id="pl.11.8" class="pl"> </span>Sec. 21. </h2>
+      <p class="first">Minnesota Statutes 2018, section 383B.041, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.11.9" class="pl"> </span>383B.041 CAMPAIGN FINANCING, DISCLOSURE OF ECONOMIC <br/><span id="pl.11.10" class="pl"> </span>INTERESTS.<br/></h1>
+      <div class="subd" id="bill.0.21.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.11" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Hennepin County candidates.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del">Sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a> apply <br/><span id="pl.11.12" class="pl"> </span>to the financing of campaigns for county elections in Hennepin County and for city elections <br/><span id="pl.11.13" class="pl"> </span>in home rule charter cities and statutory cities located wholly within Hennepin County, <br/><span id="pl.11.14" class="pl"> </span>having a population of 75,000 or more, and for school board elections in the Special School <br/><span id="pl.11.15" class="pl"> </span>District No. 1, Minneapolis, and to disclosure of economic interests by candidates and <br/><span id="pl.11.16" class="pl"> </span>elected public officials of those jurisdictions. The provisions of sections <a href="/statutes/cite/211A.02">211A.02</a> to <a href="/statutes/cite/211A.07">211A.07</a> <br/><span id="pl.11.17" class="pl"> </span>do not apply to the financing of campaigns for elections subject to the provisions of sections <br/><a href="/statutes/cite/383B.041"><span id="pl.11.18" class="pl"> </span>383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a>.</span>
+          <span class="sr-only">deleted text end</span>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"> Candidates for county commissioner, county attorney, and sheriff <br/><span id="pl.11.19" class="pl"> </span>of Hennepin County must file campaign disclosure forms with the filing officer for Hennepin <br/><span id="pl.11.20" class="pl"> </span>County. These candidates are subject to the provisions of chapter 211A.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.21.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.21" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Political subdivision candidates.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Candidates for elected city, school board, <br/><span id="pl.11.22" class="pl"> </span>park commissioner, and other political subdivision offices within Hennepin County shall <br/><span id="pl.11.23" class="pl"> </span>file campaign disclosure forms with the filing officer for the political subdivision for which <br/><span id="pl.11.24" class="pl"> </span>the candidate is seeking office. These candidates are subject to the provisions of chapter <br/><span id="pl.11.25" class="pl"> </span>211A.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.21.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.26" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Political committees, political funds, and independent expenditures.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) <br/><span id="pl.11.27" class="pl"> </span>The provisions of chapter 10A apply to political committees as defined in section 10A.01, <br/><span id="pl.11.28" class="pl"> </span>subdivision 27; political funds as defined in section 10A.01, subdivision 28; and independent <br/><span id="pl.11.29" class="pl"> </span>expenditures as defined in section 10A.01, subdivision 18, related to:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.30" class="pl"> </span>(1) a campaign for the nomination or election of a candidate for:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.31" class="pl"> </span>(i) a county office in Hennepin County;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.32" class="pl"> </span>(ii) a city office in a home rule charter or statutory city located wholly within Hennepin <br/><span id="pl.11.33" class="pl"> </span>County with a population of 75,000 or more; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.1" class="pl"> </span>(iii) the school board in Special School District No. 1; and<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.2" class="pl"> </span>(2) a ballot question or proposition that may be voted on by:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.3" class="pl"> </span>(i) voters in Hennepin County;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.4" class="pl"> </span>(ii) voters of a home rule charter or statutory city located wholly within Hennepin County <br/><span id="pl.12.5" class="pl"> </span>with a population of 75,000 or more; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.6" class="pl"> </span>(iii) voters in Special School District No. 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.7" class="pl"> </span>(b) The provisions of chapter 211A apply to a campaign for a nomination or election in <br/><span id="pl.12.8" class="pl"> </span>the following political subdivisions:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.9" class="pl"> </span>(1) a home rule or statutory city located wholly within Hennepin County and having a <br/><span id="pl.12.10" class="pl"> </span>population of less than 75,000; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.11" class="pl"> </span>(2) a school district located wholly within Hennepin County other than Special School <br/><span id="pl.12.12" class="pl"> </span>District No. 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.21.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.13" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Local ordinances and charters superseded.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section supersedes the <br/><span id="pl.12.14" class="pl"> </span>provisions of any ordinance or resolution of a political subdivision within Hennepin County, <br/><span id="pl.12.15" class="pl"> </span>or any existing special law or home rule charter provision of a political subdivision within <br/><span id="pl.12.16" class="pl"> </span>Hennepin County requiring disclosure of information related to the financing of election <br/><span id="pl.12.17" class="pl"> </span>campaigns.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section repealer" id="bill.0.22.0">
+      <h2 class="section_number"><span id="pl.12.18" class="pl"> </span>Sec. 22. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.12.19" class="pl"> </span>Minnesota Statutes 2018, sections 10A.15, subdivision 6; 383B.042; 383B.043; 383B.044; <br/><span id="pl.12.20" class="pl"> </span>383B.045; 383B.046; 383B.047; 383B.048; 383B.049; 383B.05; 383B.051; 383B.052; <br/><span id="pl.12.21" class="pl"> </span>383B.053; 383B.054; 383B.055; 383B.056; and 383B.057,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-3362</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">10A.15 CONTRIBUTIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Contributions from Hennepin County registered associations. </h3>
+          <p>In lieu of registration with the board, an association registered with the Hennepin County filing officer under sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a> that makes contributions of more than $200 to a committee or fund in a calendar year may notify the recipient committee of its registration with Hennepin County, including its registration number, and instruct the recipient committee to include the notice when the recipient committee discloses receipt of the contribution.</p>
+        </div>
+        <h1 class="shn">383B.042 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">For county campaign finance provisions.</h3>
+          <p>For the purposes of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a>, the terms defined in this section have the meanings given them. The terms defined in chapter 200 also apply to sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a>, unless a different meaning is specified in this section.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Advance of credit.</h3>
+          <p>"Advance of credit" means any money owed for goods provided or services rendered. An advance of credit is an expenditure in the year in which the goods or services are used or consumed. "Advance of credit" does not mean "loan" as defined in subdivision 12.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Association.</h3>
+          <p>"Association" means a business, corporation, firm, partnership, committee, labor organization, club, or any other group of two or more persons, which includes more than an immediate family, acting in concert.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Business with which the individual is associated.</h3>
+          <p>"Business with which the individual is associated" means any association in connection with which the individual is compensated in excess of $50 except for actual and reasonable expenses in any month as a director, officer, owner, member, partner, employer or employee, or is a holder of securities worth $2,500 or more at fair market value.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Candidate.</h3>
+          <p>"Candidate" means an individual, not within the definition of candidate of section <a href="/statutes/cite/10A.01#stat.10A.01.10">10A.01, subdivision 10</a>, who seeks nomination or election to any county office in Hennepin County, to any city office in any home rule charter city or statutory city located wholly within Hennepin County and having a population of 75,000 or more or to the school board of Special School District No. 1, Minneapolis.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">City.</h3>
+          <p>"City" means any statutory or home rule charter city wholly within Hennepin County and having a population of 75,000 or more.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Contribution.</h3>
+          <p>"Contribution" means a transfer of funds or a donation in kind.</p>
+          <p>"Contribution" includes any loan or advance of credit to a political committee, political fund, or principal campaign committee, if that loan or advance of credit is (a) forgiven, or (b) paid by an entity other than the political committee, political fund, or principal campaign committee to which the loan or advance of credit is made.</p>
+          <p>"Contribution" does not include services provided without compensation by an individual volunteering personal time on behalf of a candidate, political committee or political fund, or the publishing or broadcasting of news items or editorial comments by the news media.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Donation in kind.</h3>
+          <p>"Donation in kind" means anything of value other than money or negotiable instruments given by an individual or association to a political committee, political fund, or principal campaign committee for the purpose of influencing the outcome of an election.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 9.</h2>
+          <h3 class="headnote">Election.</h3>
+          <p>"Election" means any election held to nominate or elect any candidate or to decide any question on a county ballot in Hennepin County or on the ballot of any home rule charter city or statutory city located wholly within Hennepin County and having a population of 75,000 or more, or on the ballot of Special School District No. 1, Minneapolis.</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 10.</h2>
+          <h3 class="headnote">Expenditure.</h3>
+          <p>"Expenditure" means a purchase or payment of money or anything of value, or an advance of credit, made or incurred for the purpose of influencing the outcome of any election. "Expenditure" does not include services provided without compensation by an individual volunteering personal time on behalf of a candidate, political committee or political fund, or the publishing or broadcasting of news items or editorial comments by the news media.</p>
+        </div>
+        <div class="subd" id="bill.0.0.11">
+          <h2 class="subd_no">Subd. 11.</h2>
+          <h3 class="headnote">Filing officer.</h3>
+          <p>"Filing officer" means the official responsible under law for administration of the election laws for Hennepin county.</p>
+        </div>
+        <div class="subd" id="bill.0.0.12">
+          <h2 class="subd_no">Subd. 12.</h2>
+          <h3 class="headnote">Loan.</h3>
+          <p>"Loan" means an advance of money or anything of value made to a political committee, political fund, or principal campaign committee.</p>
+        </div>
+        <div class="subd" id="bill.0.0.13">
+          <h2 class="subd_no">Subd. 13.</h2>
+          <h3 class="headnote">Political committee.</h3>
+          <p>"Political committee" means any political party, association or person other than an individual that seeks as its major purpose to influence the outcome of any election for a city ballot issue or for any city office in the city of Bloomington; for a city or school district ballot issue and for any city or school district office in the city of Minneapolis, and in Special School District No. 1, Minneapolis; or for any countywide ballot issue or county office in Hennepin County; and not to influence the outcome of any other election.</p>
+        </div>
+        <div class="subd" id="bill.0.0.14">
+          <h2 class="subd_no">Subd. 14.</h2>
+          <h3 class="headnote">Political fund.</h3>
+          <p>"Political fund" means any accumulation of dues or voluntary contributions by an association other than a political committee, which accumulation is collected or expended for the purpose of influencing the outcome of any election for a city ballot issue or for any city office in the city of Bloomington; for a city or school district ballot issue and for any city or school district office in the city of Minneapolis, and in Special School District No. 1, Minneapolis; or for any countywide ballot issue or county office in Hennepin County; and not for the purpose of influencing the outcome of any other election.</p>
+        </div>
+        <div class="subd" id="bill.0.0.15">
+          <h2 class="subd_no">Subd. 15.</h2>
+          <h3 class="headnote">Population.</h3>
+          <p>"Population" means population as determined by the most recent federal census.</p>
+        </div>
+        <div class="subd" id="bill.0.0.16">
+          <h2 class="subd_no">Subd. 16.</h2>
+          <h3 class="headnote">Principal campaign committee.</h3>
+          <p>"Principal campaign committee" means the single political committee designated by a candidate for election for any city office in the city of Bloomington; for any city office in the city of Minneapolis; for any school district office in Special School District No. 1, Minneapolis; or for any county office in Hennepin County.</p>
+        </div>
+        <div class="subd" id="bill.0.0.17">
+          <h2 class="subd_no">Subd. 17.</h2>
+          <h3 class="headnote">Transfer of funds.</h3>
+          <p>"Transfer of funds" or "transfer" means money or negotiable instruments given by an individual or association to a political committee, political fund, or principal campaign committee for the purpose of influencing the outcome of any election.</p>
+        </div>
+        <h1 class="shn">383B.043 POLITICAL COMMITTEES; COUNTY AND CERTAIN OTHER ELECTIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Officers.</h3>
+          <p>Every political committee shall have a chair and a treasurer, who may be the same individual. The treasurer may designate deputy treasurers and shall be responsible for their accounts. The treasurer shall designate a single depository and account for all contributions received by the political committee.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Prohibitions; acceptance of certain contributions; commingling of funds.</h3>
+          <p>No contribution shall be accepted and no expenditure shall be made by or on behalf of a political committee while the office of treasurer is vacant. No anonymous contribution in excess of $20 shall be retained by the political committee but shall be forwarded to the state campaign finance and public disclosure board and deposited in the general fund. No funds of the political committee shall be commingled with the personal funds of any officer, member or associate of the committee. Any individual who violates a provision of this subdivision is guilty of a misdemeanor.</p>
+        </div>
+        <h1 class="shn">383B.044 POLITICAL FUNDS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">When required.</h3>
+          <p>No association other than a political committee shall transfer more than $100 in aggregate in any one year to candidates or political committees or make any expenditure unless the transfer or expenditure is made from a political fund.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Treasurer; commingling of funds; anonymous contributions.</h3>
+          <p>Each association which has a political fund shall elect or appoint a treasurer of the political fund. No contributions to the political fund shall be accepted and no expenditures from the fund shall be made while the office of treasurer is vacant. The contents of the political fund shall not be commingled with any other funds or with the personal funds of any officer or member of the fund. No anonymous contribution in excess of $20 shall be retained by the political fund but shall be forwarded to the state campaign finance and public disclosure board and deposited in the general fund.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Use of dues and membership fees.</h3>
+          <p>Notwithstanding subdivision 1, the association may, if not prohibited by other law, deposit in its political fund money derived from dues or membership fees. The treasurer of the fund, in any report required by section <a href="/statutes/cite/383B.049">383B.049</a>, shall disclose the name of any member whose dues, membership fees and contributions deposited in the political fund in any one year exceed $50 in the aggregate.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Penalty.</h3>
+          <p>Any person who knowingly violates the provisions of this section is guilty of a misdemeanor.</p>
+        </div>
+        <h1 class="shn">383B.045 PRINCIPAL CAMPAIGN COMMITTEE.</h1>
+        <p>Every candidate who receives contributions or makes expenditures in excess of $100 shall designate and cause to be formed a single political committee which shall be known as the candidate's principal campaign committee. The candidate shall make expenditures only through the candidate's principal campaign committee. The candidate may be the chair and treasurer of the principal campaign committee.</p>
+        <h1 class="shn">383B.046 REGISTRATION OF POLITICAL COMMITTEES, POLITICAL FUNDS, AND PRINCIPAL CAMPAIGN COMMITTEES.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Filing office; deadline.</h3>
+          <p>Every political committee, political fund and principal campaign committee as defined in section <a href="/statutes/cite/383B.042#stat.383B.042.13, 14, a 16">383B.042, subdivisions 13, 14, and 16</a>, shall register with the filing officer within 14 days after the date by which the committee or fund has received contributions or made expenditures in excess of $100. A political committee, political fund, or principal campaign committee that is registered with the Campaign Finance and Public Disclosure Board under section <a href="/statutes/cite/10A.14">10A.14</a> need not register under this section.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Statement required.</h3>
+          <p>A political committee, political fund, or principal campaign committee registers by filing a statement of organization that includes:</p>
+          <p>(a) the name and address of the political committee, political fund, or principal campaign committee;</p>
+          <p>(b) the name and address of the chair, the treasurer, and any deputy treasurers;</p>
+          <p>(c) the name and address of the depository used by the committee or fund;</p>
+          <p>(d) the name and address of any supporting association of a political fund; and</p>
+          <p>(e) a statement as to whether the committee is a principal campaign committee.</p>
+          <p>The statement of organization shall be filed by the treasurer of the political committee, political fund or principal campaign committee.</p>
+        </div>
+        <h1 class="shn">383B.047 ACCOUNTS WHICH MUST BE KEPT.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Contributions; expenditures; transfers.</h3>
+          <p>The treasurer of any political committee, political fund or principal campaign committee shall keep an account of:</p>
+          <p>(1) the sum of all contributions made to the political committee, political fund, or principal campaign committee;</p>
+          <p>(2) the name and address of each source of a transfer or donation in kind, together with the date and amount;</p>
+          <p>(3) each expenditure made by or on behalf of the committee or fund together with the date and amount; and</p>
+          <p>(4) the name and address of each political committee, political fund, or principal campaign committee to which transfers have been made, together with the date and amount.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Authorization of expenditures; receipts.</h3>
+          <p>Each expenditure by a political committee, political fund or principal campaign committee shall be authorized by the treasurer. The treasurer may authorize not more than $20 per week as petty cash for miscellaneous expenditures. The treasurer shall obtain a receipted bill stating the particulars for every expenditure made by or on behalf of the political committee, political fund, or principal campaign committee.</p>
+        </div>
+        <h1 class="shn">383B.048 CAMPAIGN REPORTS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Committees required to report; deadlines.</h3>
+          <p>(a) The treasurer of any political committee, political fund, or principal campaign committee required to register pursuant to section <a href="/statutes/cite/383B.046">383B.046</a> shall file campaign reports with the filing officer. In each year in which the name of the candidate is on the ballot, the report of the principal campaign committee shall be filed one week before a regular primary and a regular election. Political committees and political funds shall file campaign reports one week before a regular primary or regular election.</p>
+          <p>(b) The treasurer of a principal campaign committee shall file reports one week before a special primary or other special election and 30 days after a special election.</p>
+          <p>(c) The reports shall cover the period from the day after the end of the previous reporting period to one week before the filing date.</p>
+          <p>(d) A campaign report shall be filed by all treasurers on January 31 of each year covering the period from the day after the end of the previous reporting period to December 31 of the preceding calendar year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Content of reports.</h3>
+          <p>Each campaign report required under this section shall disclose:</p>
+          <p>(1) the amount of liquid assets on hand at the beginning of the reporting period;</p>
+          <p>(2) the name, address and employer, or occupation if self-employed, of each individual, committee or political fund that made transfers or donations in kind to the political committee, political fund, or principal campaign committee in an aggregate amount or value in excess of $100, together with the amount and date;</p>
+          <p>(3) the sum of all contributions made to the political committee, political fund, or principal campaign committee;</p>
+          <p>(4) each loan made or received by the political committee, political fund, or principal campaign committee within the year in aggregate in excess of $100, together with the name, address, occupation and the principal place of business, if any, of the lender and any endorser and the date and amount of the loan. A loan made to a political committee, political fund, or principal campaign committee which is forgiven or is repaid by an entity other than that political committee or fund shall be reported as a contribution;</p>
+          <p>(5) the sum of all receipts, including all contributions and loans, during the reporting period;</p>
+          <p>(6) the name and address of each person to whom aggregate expenditures have been made by or on behalf of the political committee, political fund, or principal campaign committee within the year in excess of $100, the amount, date and purpose of each expenditure and the ballot question or the name and address of the candidate supported or opposed by the expenditure;</p>
+          <p>(7) the sum of all expenditures made by the political committee, political fund, or principal campaign committee;</p>
+          <p>(8) the amount and nature of any advance of credit incurred by the political committee, political fund, or principal campaign committee continuously reported until paid or forgiven. An advance of credit incurred by a political committee, political fund, or principal campaign committee which is forgiven or is paid by an entity other than that political committee, political fund, or principal campaign committee shall be reported as a donation in kind;</p>
+          <p>(9) the name and address of each political committee, political fund, or principal campaign committee to which aggregate transfers in excess of $100 have been made within the year, together with the amount and date of each transfer;</p>
+          <p>(10) the sum of all transfers made to political committees, political funds, or principal campaign committees; and</p>
+          <p>(11) the sum of all disbursements not made to influence the outcome of an election.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Party sample ballots.</h3>
+          <p>Expenditures by a political party as defined in section <a href="/statutes/cite/200.02#stat.200.02.7">200.02, subdivision 7</a>, or a substate unit of such a party, for the preparation, display and distribution of an official party sample ballot containing the names of three or more individuals whose names are to appear on the ballot shall not be considered contributions or expenditures on behalf of any candidate.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Termination reports.</h3>
+          <p>(a) A political committee, political fund, or principal campaign committee created pursuant to section <a href="/statutes/cite/383B.046">383B.046</a> may dissolve upon filing of a termination report indicating that the committee or fund has settled all of its debts and disposed of all assets in excess of $100. The termination report shall include all information required in a periodic campaign report.</p>
+          <p>(b) Political committees and political funds that were created for purposes of supporting or opposing candidates or ballot issues beyond the scope of those identified in section <a href="/statutes/cite/383B.042#stat.383B.042.5">383B.042, subdivision 5</a>, 13, or 14, may terminate their registration with Hennepin County. Termination of a registration under this provision does not require termination of the political committee or political fund and does not require settlement of all debts and disposition of all assets in excess of $100.</p>
+        </div>
+        <h1 class="shn">383B.049 EXPENDITURES BY INDIVIDUALS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Reports.</h3>
+          <p>Except as provided in subdivision 2, any individual who makes expenditures in an aggregate amount of $100 or more in any year, which expenditures are not required to be reported by any political committee, political fund, or principal campaign committee as contributions to that political committee, political fund, or principal campaign committee, shall file campaign reports in the form required by section <a href="/statutes/cite/383B.048">383B.048</a> with respect to those expenditures.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Exception; independent expenditures.</h3>
+          <p>An individual shall not be required to report any expenditure which is made without the cooperation or express or implied consent of any candidate, political committee, political fund, or agent of a candidate, political committee, or political fund, unless the expenditure expressly advocates the election or defeat of a clearly identified candidate or the approval or rejection of a clearly identified county or city ballot question at any election.</p>
+        </div>
+        <h1 class="shn">383B.05 ADDITIONAL INFORMATION TO BE DISCLOSED.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Earmarked contributions.</h3>
+          <p>Any individual, political committee, political fund, or principal campaign committee that receives a contribution from any person or association in an aggregate in excess of $50 with the express or implied condition that the contribution or any part of it be directed to a particular candidate shall disclose to the ultimate recipient and in any report required by section <a href="/statutes/cite/383B.048">383B.048</a>, the original source of the contribution, the fact that it was earmarked and the candidate to whom it is directed. The ultimate recipient of any earmarked contribution shall also disclose the original source and the individual, political committee, political fund, or principal campaign committee through which it was directed. Any individual, political committee, political fund, or principal campaign committee that knowingly accepts earmarked funds and fails to make the disclosure required by this subdivision is guilty of a misdemeanor.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Bills when rendered and paid.</h3>
+          <p>Every person who has a bill, charge or claim against any political committee, political fund, or principal campaign committee for any expenditure shall render in writing to the treasurer of the committee or fund the bill, charge or claim within 60 days after the material or service is provided. Failure to present the bill, charge or claim as required by this subdivision is a petty misdemeanor.</p>
+        </div>
+        <h1 class="shn">383B.051 CIRCUMVENTION PROHIBITED.</h1>
+        <p>Any person who attempts to circumvent disclosure of the source or amount of contributions or expenditures by redirecting funds through or contributing funds on behalf of another person is guilty of a misdemeanor.</p>
+        <h1 class="shn">383B.052 ECONOMIC REPRISALS PROHIBITED.</h1>
+        <p>No individual or association shall engage in economic reprisals or threaten loss of employment or physical coercion against any individual or association because of the political contributions or political activity of that individual or association. This subdivision does not apply to compensation for employment or loss of employment when the political affiliation or viewpoint of the employee is a bona fide occupational qualification of the employment. Any individual or association that violates this subdivision is guilty of a misdemeanor.</p>
+        <h1 class="shn">383B.053 ECONOMIC INTEREST DISCLOSURE.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Officials required to file; deadlines.</h3>
+          <p>Every candidate for county office, every elected official of Hennepin County, every candidate for office and every elected official of a home rule charter city or statutory city located wholly within Hennepin County and having a population of 75,000 or more, and every candidate for school board and every elected official in Special School District No. 1, Minneapolis shall file statements of economic interest as required by this section with the filing officer. A candidate shall file an original statement within 14 days of the filing of an affidavit or petition to appear on the ballot. Every individual required to file a statement shall file a supplementary statement on April 15 of each year in which the individual remains a candidate or elected official. An official required to file a statement of economic interest under section <a href="/statutes/cite/10A.09">10A.09</a> is not required to comply with this section.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Content of statement.</h3>
+          <p>An individual required to file a statement of economic interest shall disclose:</p>
+          <p>(1) the individual's name, address, occupation and principal place of business;</p>
+          <p>(2) the name of each business with which the individual is associated and the nature of that association;</p>
+          <p>(3) a listing of all real property within the state, excluding homestead property, in which the individual holds: (i) a fee simple interest, a mortgage, a contract for deed as buyer or seller, or an option to buy, whether direct or indirect, and which interest has a market value in excess of $2,500 as shown on the real estate tax statement for the property or (ii) an option to buy, which property has a fair market value of $50,000 or more;</p>
+          <p>(4) a listing of all real property within the state in which a partnership of which the individual is a member holds: (i) a fee simple interest, a mortgage, a contract for deed as buyer or seller, or an option to buy, whether direct or indirect, if the individual's share of the partnership interest has a market value in excess of $2,500 as shown on the real estate tax statement for the property or (ii) an option to buy, which property has a fair market value of $50,000 or more; and</p>
+          <p>(5) in supplementary statements only, the amount of each honorarium in excess of $50 received since the last statement, together with the name and address of the source.</p>
+          <p>Any listing under clause (3) or (4) shall indicate the street address and the municipality or the section, township range and approximate acreage, whichever applies, and the county wherein the property is located.</p>
+        </div>
+        <h1 class="shn">383B.054 REPORTS AND STATEMENTS; REQUIREMENTS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Certification.</h3>
+          <p>A report or statement required by sections <a href="/statutes/cite/383B.046">383B.046</a> to <a href="/statutes/cite/383B.054">383B.054</a> shall be signed and certified as true by the individual required to file the report. Any individual who signs and certifies to be true a report or statement which the individual knows contains false information or who knowingly omits required information is guilty of a gross misdemeanor.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Transmittal, retention, public inspection.</h3>
+          <p>The filing officer shall promptly transmit to the appropriate city clerk a copy of each statement and report filed by a candidate for city office, a political committee or fund that discloses contributions or expenditures to influence a city or an elected city official. The filing officer and each city clerk shall retain the statements, reports and copies and make them available for public inspection for a period of five years after the date of receipt by the filing officer.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Changes and corrections.</h3>
+          <p>Any material changes in information previously submitted and any corrections to a report or statement shall be reported in writing to the filing officer within ten days following the date of the event prompting the change or the date upon which the individual filing became aware of the inaccuracy. The change or correction shall identify the form and the paragraph containing the information to be changed or corrected. Any individual who willfully fails to report a material change or correction is guilty of a misdemeanor.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Record keeping.</h3>
+          <p>Each individual required to file any report or statement or to keep any account pursuant to sections <a href="/statutes/cite/383B.046">383B.046</a> to <a href="/statutes/cite/383B.054">383B.054</a> shall maintain and preserve for four years the records, including any vouchers, canceled checks, bills, invoices, worksheets and receipts, that will provide in sufficient detail the necessary information from which the accounts and the filed reports and statements may be verified, explained, clarified and checked for accuracy and completeness.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Penalties.</h3>
+          <p>The filing officer shall notify by certified mail or personal service any individual who fails to file a statement or report required by sections <a href="/statutes/cite/383B.046">383B.046</a> to <a href="/statutes/cite/383B.054">383B.054</a>. Except for any campaign report of a principal campaign committee due before an election, if an individual fails to file any statement or report within seven days after receiving a notice, the filing officer may impose a late filing fee of $5 per day, not to exceed $100, commencing on the eighth day after receiving notice. If a treasurer of a principal campaign committee fails to file a campaign report due before an election within three days of the date due, regardless of whether the treasurer has received any notice, the filing officer may impose a late filing fee of $50 per day, not to exceed $500, commencing on the fourth day after the date the statement was due. The filing officer shall further notify by certified mail or personal service any individual who fails to file any statement or report within 21 days after receiving a first notice that the individual may be subject to a criminal penalty for failure to file the statement or report. An individual who knowingly fails to file the statement or report within seven days after receiving a second notice from the filing officer is guilty of a misdemeanor. A filing officer who violates any provision of this subdivision is guilty of a misdemeanor.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Recovery of late filing fees.</h3>
+          <p>A filing officer may bring an action in the Fourth Judicial District Court to recover any late filing fee imposed pursuant to subdivision 5. All money recovered shall be deposited in the general fund of Hennepin County.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Reports of violations.</h3>
+          <p>If any individual other than a county official or candidate for county office fails to file the required statement or report within seven days after a second notice as provided in subdivision 5, the filing officer shall inform the Hennepin County attorney that a second notice was sent and that the individual failed to file the required statement or report. If a county official or candidate fails to file a report or statement after a second notice as provided in subdivision 5, the filing officer shall notify the attorney general.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Report by subordinate.</h3>
+          <p>(a) Any deputy, clerk, employee or other subordinate of a filing officer who has knowledge or reason to believe that a violation of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.057">383B.057</a> has occurred, shall immediately transmit a report of that knowledge or belief to that filing officer, together with any evidence of the violation coming into the subordinate's possession.</p>
+          <p>(b) Any filing officer who has knowledge or reason to believe that a violation of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.058">383B.058</a> has occurred shall immediately transmit a report of that knowledge or belief to the county attorney of the county in which the violation is thought to have occurred, together with any evidence of the violation coming into the filing officer's possession.</p>
+          <p>(c) The filing officer shall also immediately send a copy of the report to the Campaign Finance and Public Disclosure Board.</p>
+          <p>(d) A violation of this subdivision is a misdemeanor.</p>
+        </div>
+        <h1 class="shn">383B.055 DUTIES OF CAMPAIGN FINANCE BOARD; FILING OFFICERS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Board: advisory opinions, disclosure exemptions.</h3>
+          <p>The state Campaign Finance and Public Disclosure Board shall:</p>
+          <p>(1) issue and publish advisory opinions concerning the requirements of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.057">383B.057</a> upon application in writing by the county filing officer of Hennepin County or any individual or association who wishes to use the opinion to guide the applicant's own conduct; and</p>
+          <p>(2) exempt any individual or association required to disclose information under sections <a href="/statutes/cite/383B.046">383B.046</a> to <a href="/statutes/cite/383B.05">383B.05</a> from any requirement of those sections in the same manner as it exempts any individual or association from disclosure requirements under chapter 10A. An individual or association exempted from the disclosure provisions of chapter 10A, shall also be exempt from the disclosure provisions of sections <a href="/statutes/cite/383B.046">383B.046</a> to <a href="/statutes/cite/383B.05">383B.05</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Filing officer: develop, distribute needed forms.</h3>
+          <p>The county filing officer of Hennepin County shall develop forms for all statements and reports required to be filed under sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.054">383B.054</a>. The filing officer shall furnish sufficient copies of the forms to all officers with whom candidates file affidavits or applications of candidacy and nominating petitions.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Candidacy filing officer: forms to candidates; penalty.</h3>
+          <p>An officer who receives affidavits or applications of candidacy or nominating petitions shall mail or deliver a copy of each form required to be filed by a candidate to each candidate who files an affidavit, application or petition with that officer or for whom a write-in vote is cast on the ballot of that jurisdiction. Any officer who fails to carry out the duties imposed by this subdivision is guilty of a misdemeanor.</p>
+        </div>
+        <h1 class="shn">383B.056 PENALTIES.</h1>
+        <p>Except as expressly provided to the contrary in sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.055">383B.055</a>, a violation of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.055">383B.055</a> is not a crime.</p>
+        <h1 class="shn">383B.057 PROSECUTION OF VIOLATIONS.</h1>
+        <p>Except as otherwise provided in this section, a violation of a criminal provision of sections <a href="/statutes/cite/383B.041">383B.041</a> to <a href="/statutes/cite/383B.056">383B.056</a> shall be prosecuted by the Hennepin County attorney in the Fourth Judicial District Court. A violation by a county official or candidate shall be prosecuted by the attorney general in the district court of Ramsey County.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

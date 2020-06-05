@@ -1,0 +1,1342 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Wed, 12 Feb 2020 00:24:05 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 3062 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 3062</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 02/11/2020 03:37pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF3062&ssn=0&y=2020">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF3062&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF3062&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF3062&version=0&session=ls91&session_year=2020&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF3062&version=0&session=ls91&session_year=2020&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/30/2020                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF3062&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF3062&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <br/>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <br/>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to taxation; repealing the gross revenues tax on hospitals and health care <br/><span id="pl.1.3" class="pl"> </span>providers; repealing Minnesota Statutes 2018, sections 295.50, subdivisions 1, 1a, <br/><span id="pl.1.4" class="pl"> </span>2, 2a, 6, 6a, 7, 9c, 10a, 10b, 12b, 13; 295.51, subdivision 1; 295.52, subdivisions <br/><span id="pl.1.5" class="pl"> </span>4a, 5, 6; 295.53, subdivisions 2, 3, 4a; 295.54; 295.55; 295.56; 295.57, subdivisions <br/><span id="pl.1.6" class="pl"> </span>1, 2, 4; 295.58; 295.581; 295.582, subdivision 2; 295.59; Minnesota Statutes 2019 <br/><span id="pl.1.7" class="pl"> </span>Supplement, sections 295.50, subdivisions 2b, 3, 4, 7a, 9b, 10c, 13a, 14, 15, 16; <br/><span id="pl.1.8" class="pl"> </span>295.51, subdivision 1a; 295.52, subdivisions 1, 1a, 2, 3, 4, 8; 295.53, subdivision <br/><span id="pl.1.9" class="pl"> </span>1; 295.57, subdivisions 3, 5; 295.582, subdivision 1.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.10" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section repealer" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.11" class="pl"> </span>Section 1. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.1.12" class="pl"> </span>(a)</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> Minnesota Statutes 2018, sections 295.50, subdivisions 1, 1a, 2, 2a, 6, 6a, 7, 9c, 10a, <br/><span id="pl.1.13" class="pl"> </span>10b, 12b, and 13; 295.51, subdivision 1; 295.52, subdivisions 4a, 5, and 6; 295.53, <br/><span id="pl.1.14" class="pl"> </span>subdivisions 2, 3, and 4a; 295.54; 295.55; 295.56; 295.57, subdivisions 1, 2, and 4; 295.58; <br/><span id="pl.1.15" class="pl"> </span>295.581; 295.582, subdivision 2; and 295.59,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.1.16" class="pl"> </span>(b)</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> Minnesota Statutes 2019 Supplement, sections 295.50, subdivisions 2b, 3, 4, 7a, 9b, <br/><span id="pl.1.17" class="pl"> </span>10c, 13a, 14, 15, and 16; 295.51, subdivision 1a; 295.52, subdivisions 1, 1a, 2, 3, 4, and 8; <br/><span id="pl.1.18" class="pl"> </span>295.53, subdivision 1; 295.57, subdivisions 3 and 5; and 295.582, subdivision 1,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.19" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective for gross revenues received after <br/><span id="pl.1.20" class="pl"> </span>December 31, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 20-6522</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">295.50 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Definitions.</h3>
+          <p>For purposes of sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>, the following terms have the meanings given.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 1a.</h2>
+          <h3 class="headnote">Blood components.</h3>
+          <p>"Blood components" means the parts of the blood that are separated from blood by physical or mechanical means and are intended for transfusion. Blood components do not include blood derivatives.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Commissioner.</h3>
+          <p>"Commissioner" is the commissioner of revenue.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 2a.</h2>
+          <h3 class="headnote">Delivered outside of Minnesota.</h3>
+          <p>"Delivered outside of Minnesota" means property which the seller delivers to a common carrier for delivery outside Minnesota, places in the United States mail or parcel post directed to the purchaser outside Minnesota, or delivers to the purchaser outside Minnesota by means of the seller's own delivery vehicles, and which is not later returned to a point within Minnesota, except in the course of interstate commerce.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 2b.</h2>
+          <h3 class="headnote">Emergency medical reasons.</h3>
+          <p>"Emergency medical reasons" means a public health emergency declaration pursuant to United States Code, title 42, section 247d; a national security or peacetime emergency declared by the governor pursuant to section <a href="/statutes/cite/12.31">12.31</a>; or a situation involving an action by the commissioner of health pursuant to section <a href="/statutes/cite/144.4197">144.4197</a>, <a href="/statutes/cite/144.4198">144.4198</a>, or <a href="/statutes/cite/151.37#stat.151.37.2">151.37, subdivisions 2</a>, paragraph (b), and 10, except that, for purposes of this subdivision, a drug shortage not caused by a public health emergency shall not constitute an emergency medical reason.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Gross revenues.</h3>
+          <p>"Gross revenues" are total amounts received in money or otherwise by:</p>
+          <p>(1) a hospital for patient services;</p>
+          <p>(2) a surgical center for patient services;</p>
+          <p>(3) a health care provider, other than a staff model health plan company, for patient services;</p>
+          <p>(4) a wholesale drug distributor for sale or distribution of legend drugs that are delivered in Minnesota by the wholesale drug distributor, by common carrier, or by mail, unless the legend drugs are delivered to another wholesale drug distributor who sells legend drugs exclusively at wholesale; and</p>
+          <p>(5) a staff model health plan company as gross premiums for enrollees, co-payments, deductibles, coinsurance, and fees for patient services.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Health care provider.</h3>
+          <p class="in">(a) "Health care provider" means:</p>
+          <p class="in">(1) a person whose health care occupation is regulated or required to be regulated by the state of Minnesota furnishing any or all of the following goods or services directly to a patient or consumer: medical, surgical, optical, visual, dental, hearing, nursing services, drugs, laboratory, diagnostic or therapeutic services;</p>
+          <p class="in">(2) a person who provides goods and services not listed in clause (1) that qualify for reimbursement under the medical assistance program provided under chapter 256B;</p>
+          <p class="in">(3) a staff model health plan company;</p>
+          <p class="in">(4) an ambulance service required to be licensed;</p>
+          <p class="in">(5) a person who sells or repairs hearing aids and related equipment or prescription eyewear; or</p>
+          <p class="in">(6) a person providing patient services, who does not otherwise meet the definition of health care provider and is not specifically excluded in clause (b), who employs or contracts with a health care provider as defined in clauses (1) to (5) to perform, supervise, otherwise oversee, or consult with regarding patient services.</p>
+          <p class="in">(b) Health care provider does not include:</p>
+          <p class="in">(1) hospitals; medical supplies distributors, except as specified under paragraph (a), clause (5); nursing homes licensed under chapter 144A or licensed in any other jurisdiction; wholesale drug distributors; pharmacies; surgical centers; bus and taxicab transportation, or any other providers of transportation services other than ambulance services required to be licensed; supervised living facilities for persons with developmental disabilities, licensed under Minnesota Rules, parts <a href="/rules/?id=4665.0100">4665.0100</a> to <a href="/rules/?id=4665.9900">4665.9900</a>; housing with services establishments required to be registered under chapter 144D; board and lodging establishments providing only custodial services that are licensed under chapter 157 and registered under section <a href="/statutes/cite/157.17">157.17</a> to provide supportive services or health supervision services; adult foster homes as defined in Minnesota Rules, part <a href="/rules/?id=9555.5105">9555.5105</a>; day training and habilitation services for adults with developmental disabilities as defined in section <a href="/statutes/cite/252.41#stat.252.41.3">252.41, subdivision 3</a>; boarding care homes, as defined in Minnesota Rules, part <a href="/rules/?id=4655.0100">4655.0100</a>; and adult day care centers as defined in Minnesota Rules, part <a href="/rules/?id=9555.9600">9555.9600</a>;</p>
+          <p class="in">(2) home health agencies as defined in Minnesota Rules, part <a href="/rules/?id=9505.0175">9505.0175</a>, subpart 15; a person providing personal care services and supervision of personal care services as defined in Minnesota Rules, part <a href="/rules/?id=9505.0335">9505.0335</a>; a person providing home care nursing services as defined in Minnesota Rules, part <a href="/rules/?id=9505.0360">9505.0360</a>; and home care providers required to be licensed under chapter 144A for home care services provided under chapter 144A;</p>
+          <p class="in">(3) a person who employs health care providers solely for the purpose of providing patient services to its employees;</p>
+          <p class="in">(4) an educational institution that employs health care providers solely for the purpose of providing patient services to its students if the institution does not receive fee for service payments or payments for extended coverage; and</p>
+          <p class="in">(5) a person who receives all payments for patient services from health care providers, surgical centers, or hospitals for goods and services that are taxable to the paying health care providers, surgical centers, or hospitals, as provided under section <a href="/statutes/cite/295.53#stat.295.53.1">295.53, subdivision 1</a>, paragraph (b), clause (3) or (4), or from a source of funds that is exempt from tax under this chapter.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Home health care services.</h3>
+          <p>"Home health care services" are services:</p>
+          <p>(1) defined under the state medical assistance program as home health agency services provided by a home health agency, personal care services and supervision of personal care services, home care nursing services, and waivered services or services by home care providers required to be licensed under chapter 144A; and</p>
+          <p>(2) provided at a recipient's residence, if the recipient does not live in a hospital, nursing facility, as defined in section <a href="/statutes/cite/62A.46#stat.62A.46.3">62A.46, subdivision 3</a>, or intermediate care facility for persons with developmental disabilities as defined in section <a href="/statutes/cite/256B.055#stat.256B.055.12">256B.055, subdivision 12</a>, paragraph (d).</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 6a.</h2>
+          <h3 class="headnote">Hospice care services.</h3>
+          <p>"Hospice care services" are services:</p>
+          <p>(1) as defined in Minnesota Rules, part <a href="/rules/?id=9505.0297">9505.0297</a>; and</p>
+          <p>(2) provided at a recipient's residence, if the recipient does not live in a hospital, nursing facility as defined in section <a href="/statutes/cite/62A.46#stat.62A.46.3">62A.46, subdivision 3</a>, or intermediate care facility for persons with developmental disabilities as defined in section <a href="/statutes/cite/256B.055#stat.256B.055.12">256B.055, subdivision 12</a>, paragraph (d).</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Hospital.</h3>
+          <p>"Hospital" means a hospital licensed under chapter 144, or a hospital licensed by any other jurisdiction.</p>
+        </div>
+        <div class="subd" id="bill.0.0.11">
+          <h2 class="subd_no">Subd. 7a.</h2>
+          <h3 class="headnote">Manufacturer.</h3>
+          <p>"Manufacturer" has the meaning provided in section <a href="/statutes/cite/151.01">151.01</a>, subdivision 14a.</p>
+        </div>
+        <div class="subd" id="bill.0.0.12">
+          <h2 class="subd_no">Subd. 9b.</h2>
+          <h3 class="headnote">Patient services.</h3>
+          <p>(a) "Patient services" means inpatient and outpatient services and other goods and services provided by hospitals, surgical centers, or health care providers. They include the following health care goods and services provided to a patient or consumer:</p>
+          <p>(1) bed and board;</p>
+          <p>(2) nursing services and other related services;</p>
+          <p>(3) use of hospitals, surgical centers, or health care provider facilities;</p>
+          <p>(4) medical social services;</p>
+          <p>(5) drugs, biologicals, supplies, appliances, and equipment;</p>
+          <p>(6) other diagnostic or therapeutic items or services;</p>
+          <p>(7) medical or surgical services;</p>
+          <p>(8) items and services furnished to ambulatory patients not requiring emergency care; and</p>
+          <p>(9) emergency services.</p>
+          <p>(b) "Patient services" does not include:</p>
+          <p>(1) services provided to nursing homes licensed under chapter 144A;</p>
+          <p>(2) examinations for purposes of utilization reviews, insurance claims or eligibility, litigation, and employment, including reviews of medical records for those purposes;</p>
+          <p>(3) services provided to and by community residential mental health facilities licensed under Minnesota Rules, parts <a href="/rules/?id=9520.0500">9520.0500</a> to <a href="/rules/?id=9520.0670">9520.0670</a>, and to and by residential treatment programs for children with severe emotional disturbance licensed or certified under chapter 245A;</p>
+          <p>(4) services provided under the following programs: day treatment services as defined in section <a href="/statutes/cite/245.462#stat.245.462.8">245.462, subdivision 8</a>; assertive community treatment as described in section <a href="/statutes/cite/256B.0622">256B.0622</a>; adult rehabilitative mental health services as described in section <a href="/statutes/cite/256B.0623">256B.0623</a>; adult crisis response services as described in section <a href="/statutes/cite/256B.0624">256B.0624</a>; children's therapeutic services and supports as described in section <a href="/statutes/cite/256B.0943">256B.0943</a>; and children's mental health crisis response services as described in section <a href="/statutes/cite/256B.0944">256B.0944</a>;</p>
+          <p>(5) services provided to and by community mental health centers as defined in section <a href="/statutes/cite/245.62#stat.245.62.2">245.62, subdivision 2</a>;</p>
+          <p>(6) services provided to and by assisted living programs and congregate housing programs;</p>
+          <p>(7) hospice care services;</p>
+          <p>(8) home and community-based waivered services under chapter 256S and sections <a href="/statutes/cite/256B.49">256B.49</a> and <a href="/statutes/cite/256B.501">256B.501</a>;</p>
+          <p>(9) targeted case management services under sections <a href="/statutes/cite/256B.0621">256B.0621</a>; <a href="/statutes/cite/256B.0625#stat.256B.0625.20, 20a, 33, a 44">256B.0625, subdivisions 20, 20a, 33, and 44</a>; and <a href="/statutes/cite/256B.094">256B.094</a>; and</p>
+          <p>(10) services provided to the following: supervised living facilities for persons with developmental disabilities licensed under Minnesota Rules, parts <a href="/rules/?id=4665.0100">4665.0100</a> to <a href="/rules/?id=4665.9900">4665.9900</a>; housing with services establishments required to be registered under chapter 144D; board and lodging establishments providing only custodial services that are licensed under chapter 157 and registered under section <a href="/statutes/cite/157.17">157.17</a> to provide supportive services or health supervision services; adult foster homes as defined in Minnesota Rules, part <a href="/rules/?id=9555.5105">9555.5105</a>; day training and habilitation services for adults with developmental disabilities as defined in section <a href="/statutes/cite/252.41#stat.252.41.3">252.41, subdivision 3</a>; boarding care homes as defined in Minnesota Rules, part <a href="/rules/?id=4655.0100">4655.0100</a>; adult day care services as defined in section <a href="/statutes/cite/245A.02#stat.245A.02.2a">245A.02, subdivision 2a</a>; and home health agencies as defined in Minnesota Rules, part <a href="/rules/?id=9505.0175">9505.0175</a>, subpart 15, or licensed under chapter 144A.</p>
+        </div>
+        <div class="subd" id="bill.0.0.13">
+          <h2 class="subd_no">Subd. 9c.</h2>
+          <h3 class="headnote">Person.</h3>
+          <p>"Person" means an individual, partnership, limited liability company, corporation, association, governmental unit or agency, or public or private organization of any kind.</p>
+        </div>
+        <div class="subd" id="bill.0.0.14">
+          <h2 class="subd_no">Subd. 10a.</h2>
+          <h3 class="headnote">Pharmacy.</h3>
+          <p>"Pharmacy" means a pharmacy required to be licensed under chapter 151, or a pharmacy required to be licensed by any other jurisdiction.</p>
+        </div>
+        <div class="subd" id="bill.0.0.15">
+          <h2 class="subd_no">Subd. 10b.</h2>
+          <h3 class="headnote">Regional treatment center.</h3>
+          <p>"Regional treatment center" means a regional center as defined in section <a href="/statutes/cite/253B.02#stat.253B.02.18">253B.02, subdivision 18</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.16">
+          <h2 class="subd_no">Subd. 10c.</h2>
+          <h3 class="headnote">Pharmacy benefits manager.</h3>
+          <p>"Pharmacy benefits manager" means an entity that performs pharmacy benefits management.</p>
+        </div>
+        <div class="subd" id="bill.0.0.17">
+          <h2 class="subd_no">Subd. 12b.</h2>
+          <h3 class="headnote">Staff model health plan company.</h3>
+          <p>"Staff model health plan company" means a health plan company as defined in section <a href="/statutes/cite/62Q.01#stat.62Q.01.4">62Q.01, subdivision 4</a>, which employs one or more types of health care provider to deliver health care services to the health plan company's enrollees.</p>
+        </div>
+        <div class="subd" id="bill.0.0.18">
+          <h2 class="subd_no">Subd. 13.</h2>
+          <h3 class="headnote">Surgical center.</h3>
+          <p>"Surgical center" is an outpatient surgical center as defined in Minnesota Rules, chapter 4675, or a similar facility located in any other jurisdiction.</p>
+        </div>
+        <div class="subd" id="bill.0.0.19">
+          <h2 class="subd_no">Subd. 13a.</h2>
+          <h3 class="headnote">Third-party purchaser of health care services.</h3>
+          <p>"Third-party purchaser of health care services" includes but is not limited to a health carrier or community integrated service network that pays for health care services on behalf of patients or that reimburses, indemnifies, compensates, or otherwise insures patients for health care services.</p>
+        </div>
+        <div class="subd" id="bill.0.0.20">
+          <h2 class="subd_no">Subd. 14.</h2>
+          <h3 class="headnote">Wholesale drug distributor.</h3>
+          <p>"Wholesale drug distributor" means any person engaged in wholesale drug distribution including but not limited to manufacturers; repackagers; own-label distributors; jobbers; brokers; warehouses, including manufacturers' and distributors' warehouses, chain drug warehouses, and wholesale drug warehouses; independent wholesale drug traders; and pharmacies that conduct wholesale drug distribution. A wholesale drug distributor does not include a common carrier or individual hired primarily to transport legend drugs.</p>
+        </div>
+        <div class="subd" id="bill.0.0.21">
+          <h2 class="subd_no">Subd. 15.</h2>
+          <h3 class="headnote">Legend drug.</h3>
+          <p>"Legend drug" means a drug that is required by federal law to bear one of the following statements: "Caution: Federal law prohibits dispensing without prescription" or "Rx only." Legend drugs do not include nutritional products as defined in Minnesota Rules, part <a href="/rules/?id=9505.0325">9505.0325</a>, subpart 1, and blood and blood components.</p>
+        </div>
+        <div class="subd" id="bill.0.0.22">
+          <h2 class="subd_no">Subd. 16.</h2>
+          <h3 class="headnote">Wholesale drug distribution.</h3>
+          <p>"Wholesale drug distribution" means the sale or distribution of legend drugs to a person other than a consumer or patient, but does not include:</p>
+          <p>(1) a sale between a division, subsidiary, parent, affiliated, or related company under the common ownership and control of a corporate entity;</p>
+          <p>(2) the purchase or other acquisition, by a hospital or other health care entity that is a member of a group purchasing organization, of a legend drug for its own use from the organization or from other hospitals or health care entities that are members of such organizations;</p>
+          <p>(3) the sale, purchase, or trade of a legend drug by a charitable organization described in section 501(c)(3) of the Internal Revenue Code of 1986, as amended through December 31, 1988, to a nonprofit affiliate of the organization to the extent otherwise permitted by law;</p>
+          <p>(4) the sale, purchase, or trade of a legend drug among hospitals or other health care entities that are under common control;</p>
+          <p>(5) the sale, purchase, or trade of a legend drug for emergency medical reasons;</p>
+          <p>(6) the transfer of legend drugs by a retail pharmacy to another retail pharmacy to alleviate a temporary shortage; or</p>
+          <p>(7) the distribution of legend drug samples by manufacturer representatives.</p>
+        </div>
+        <h1 class="shn">295.51 MINIMUM CONTACTS REQUIRED FOR JURISDICTION TO TAX GROSS REVENUE.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Business transactions in Minnesota.</h3>
+          <p>A hospital, surgical center, or health care provider is subject to tax under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a> if it is "transacting business in Minnesota." A hospital, surgical center, or health care provider is transacting business in Minnesota if it maintains contacts with or presence in the state of Minnesota sufficient to permit taxation of gross revenues received for patient services under the United States Constitution.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 1a.</h2>
+          <h3 class="headnote">Nexus in Minnesota.</h3>
+          <p>(a) To the extent allowed by the United States Constitution and the laws of the United States, a person who is a wholesale drug distributor, a person subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.4">295.52, subdivision 4</a>, or a person who sells or repairs hearing aids and related equipment or prescription eyewear is subject to the taxes imposed by this chapter if the person:</p>
+          <p>(1) has or maintains within this state, directly or by a subsidiary or an affiliate, an office, place of distribution, sales, storage, or sample room or place, warehouse, or other place of business, including the employment of a resident of this state who works from a home office in this state;</p>
+          <p>(2) has a representative, including but not limited to an employee, affiliate, agent, salesperson, canvasser, solicitor, independent contractor, or other third party operating in this state under the person's authority or the authority of the person's subsidiary, for any purpose, including the repairing, selling, delivering, installing, facilitating sales, processing sales, or soliciting of orders for the person's goods or services, or the leasing of tangible personal property located in this state, whether the place of business or the agent, representative, affiliate, salesperson, canvasser, or solicitor is located in the state permanently or temporarily, or whether or not the person, subsidiary, or affiliate is authorized to do business in this state;</p>
+          <p>(3) owns or leases real property that is located in this state; or</p>
+          <p>(4) owns or leases tangible personal property that is present in this state, including but not limited to mobile property.</p>
+          <p>(b) To the extent allowed by the United States Constitution and the laws of the United States, a person who is a wholesale drug distributor, or a person who is subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.4">295.52, subdivision 4</a>, is subject to the taxes imposed by this chapter if the person:</p>
+          <p>(1) conducts a trade or business not described in paragraph (a) and sells, delivers, or distributes legend drugs from outside this state to a destination within this state by common carrier or otherwise; and</p>
+          <p>(2) meets one of the following thresholds:</p>
+          <p>(i) makes 200 or more sales, deliveries, or distributions described in clause (1) during any taxable year;</p>
+          <p>(ii) the gross revenues of a wholesale drug distributor that sells, delivers, or distributes legend drugs as described in clause (1) totals more than $100,000 during any taxable year; or</p>
+          <p>(iii) the price paid by a person who is subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.">295.52, subdivision </a>4, totals more than $100,000 for legend drugs that the person sells, delivers, or distributes as described in clause (1) during any taxable year.</p>
+          <p>(c) To the extent allowed by the United States Constitution and the laws of the United States, a person who sells or repairs hearing aids and related equipment or prescription eyewear is subject to the taxes imposed by this chapter if the person:</p>
+          <p>(1) conducts a trade or business not described in paragraph (a) and:</p>
+          <p>(i) sells, delivers, or distributes hearing aids and related equipment or prescription eyewear from outside of this state to a destination within this state by common carrier or otherwise; or</p>
+          <p>(ii) repairs hearing aids and related equipment or prescription eyewear outside of this state and delivers or distributes the hearing aids and related equipment or prescription eyewear to a destination within this state by common carrier or otherwise; and</p>
+          <p>(2) meets one of the following thresholds:</p>
+          <p>(i) makes 200 or more sales, deliveries, distributions, or repairs described in clause (1) during any taxable year; or</p>
+          <p>(ii) the gross revenues of the person who sells, delivers, distributes, or repairs hearing aids and related equipment or prescription eyewear described in clause (1) totals more than $100,000 during any taxable year.</p>
+          <p>(d) Once a taxpayer has established nexus with Minnesota under paragraph (b) or (c), the taxpayer must continue to file an annual return and remit taxes for subsequent years. A taxpayer who has established nexus under paragraph (b) or (c) is no longer required to file an annual return and remit taxes if the taxpayer:</p>
+          <p>(1) ceases to engage in the activities or no longer meets any of the applicable thresholds in paragraph (b) or (c) for an entire taxable year; and</p>
+          <p>(2) notifies the commissioner by March 15 of the following calendar year, in a manner prescribed by the commissioner, that the taxpayer no longer engages in any of the activities or no longer meets any of the applicable thresholds in paragraph (b) or (c).</p>
+          <p>(e) If, after notifying the commissioner pursuant to paragraph (d), the taxpayer subsequently engages in any of the activities and meets any of the applicable thresholds in paragraph (b) or (c), the taxpayer shall again comply with the applicable requirements of paragraphs (b) to (d).</p>
+        </div>
+        <h1 class="shn">295.52 TAXES IMPOSED.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Hospital tax.</h3>
+          <p>A tax is imposed on each hospital equal to 1.8 percent of its gross revenues.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 1a.</h2>
+          <h3 class="headnote">Surgical center tax.</h3>
+          <p>A tax is imposed on each surgical center equal to 1.8 percent of its gross revenues.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Provider tax.</h3>
+          <p>A tax is imposed on each health care provider equal to 1.8 percent of its gross revenues.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Wholesale drug distributor tax.</h3>
+          <p>A tax is imposed on each wholesale drug distributor equal to 1.8 percent of its gross revenues.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Use tax; legend drugs.</h3>
+          <p class="in">(a) A person that receives legend drugs for resale or use in Minnesota, other than from a wholesale drug distributor that is subject to tax under subdivision 3, is subject to a tax equal to the price paid for the legend drugs multiplied by 1.8 percent. Liability for the tax is incurred when legend drugs are received or delivered in Minnesota by the person.</p>
+          <p class="in">(b) A tax imposed under this subdivision does not apply to purchases by an individual for personal consumption.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 4a.</h2>
+          <h3 class="headnote">Tax collection.</h3>
+          <p class="in">A wholesale drug distributor with nexus in Minnesota, who is not subject to tax under subdivision 3, on all or a particular transaction is required to collect the tax imposed under subdivision 4, from the purchaser of the drugs and give the purchaser a receipt for the tax paid. The tax collected shall be remitted to the commissioner in the manner prescribed by section <a href="/statutes/cite/295.55#stat.295.55.3">295.55, subdivision 3</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Volunteer ambulance services.</h3>
+          <p>Volunteer ambulance services are not subject to the tax under this section. For purposes of this requirement, "volunteer ambulance service" means an ambulance service in which all of the individuals whose primary responsibility is direct patient care meet the definition of volunteer under section <a href="/statutes/cite/144E.001#stat.144E.001.15">144E.001, subdivision 15</a>. The ambulance service may employ administrative and support staff, and remain eligible for this exemption, if the primary responsibility of these staff is not direct patient care.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Hearing aids and prescription eyewear.</h3>
+          <p>The tax liability of a person who meets the definition of a health care provider solely because the person sells or repairs hearing aids and related equipment or prescription eyewear is limited to the gross revenues received from the sale or repair of these items.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Contingent reduction in tax rate.</h3>
+          <p>(a) By December 1 of each year, beginning in 2011, the commissioner of management and budget shall determine the projected balance in the health care access fund for the biennium.</p>
+          <p>(b) If the commissioner of management and budget determines that the projected balance in the health care access fund for the biennium reflects a ratio of revenues to expenditures and transfers greater than 125 percent, and if the actual cash balance in the fund is adequate, as determined by the commissioner of management and budget, the commissioner, in consultation with the commissioner of revenue, shall reduce the tax rates levied under subdivisions 1, 1a, 2, 3, and 4, for the subsequent calendar year sufficient to reduce the structural balance in the fund. The rate may be reduced to the extent that the projected revenues for the biennium do not exceed 125 percent of expenditures and transfers. The new rate shall be rounded to the nearest one-tenth of one percent. The rate reduction under this paragraph expires at the end of each calendar year and is subject to an annual redetermination by the commissioner of management and budget.</p>
+          <p>(c) For purposes of the analysis defined in paragraph (b), the commissioner of management and budget shall include projected revenues.</p>
+        </div>
+        <h1 class="shn">295.53 EXCLUSIONS AND EXEMPTIONS; SPECIAL RULES.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Exclusions and exemptions.</h3>
+          <p>(a) The following payments are excluded from the gross revenues subject to the hospital, surgical center, or health care provider taxes under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>:</p>
+          <p>(1) payments received by a health care provider or the wholly owned subsidiary of a health care provider for care provided outside Minnesota;</p>
+          <p>(2) government payments received by the commissioner of human services for state-operated services;</p>
+          <p>(3) payments received by a health care provider for hearing aids and related equipment or prescription eyewear delivered outside of Minnesota; and</p>
+          <p>(4) payments received by an educational institution from student tuition, student activity fees, health care service fees, government appropriations, donations, or grants, and for services identified in and provided under an individualized education program as defined in section <a href="/statutes/cite/256B.0625">256B.0625</a> or Code of Federal Regulations, chapter 34, section 300.340(a). Fee for service payments and payments for extended coverage are taxable.</p>
+          <p>(b) The following payments are exempted from the gross revenues subject to hospital, surgical center, or health care provider taxes under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>:</p>
+          <p>(1) payments received for services provided under the Medicare program, including payments received from the government and organizations governed by sections 1833, 1853, and 1876 of title XVIII of the federal Social Security Act, United States Code, title 42, section 1395; and enrollee deductibles, co-insurance, and co-payments, whether paid by the Medicare enrollee, by Medicare supplemental coverage as described in section <a href="/statutes/cite/62A.011#stat.62A.011.3">62A.011, subdivision 3</a>, clause (10), or by Medicaid payments under title XIX of the federal Social Security Act. Payments for services not covered by Medicare are taxable;</p>
+          <p>(2) payments received for home health care services;</p>
+          <p>(3) payments received from hospitals or surgical centers for goods and services on which liability for tax is imposed under section <a href="/statutes/cite/295.52">295.52</a> or the source of funds for the payment is exempt under clause (1), (6), (9), (10), or (11);</p>
+          <p>(4) payments received from the health care providers for goods and services on which liability for tax is imposed under this chapter or the source of funds for the payment is exempt under clause (1), (6), (9), (10), or (11);</p>
+          <p>(5) amounts paid for legend drugs to a wholesale drug distributor who is subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.3">295.52, subdivision 3</a>, reduced by reimbursement received for legend drugs otherwise exempt under this chapter;</p>
+          <p>(6) payments received from the chemical dependency fund under chapter 254B;</p>
+          <p>(7) payments received in the nature of charitable donations that are not designated for providing patient services to a specific individual or group;</p>
+          <p>(8) payments received for providing patient services incurred through a formal program of health care research conducted in conformity with federal regulations governing research on human subjects. Payments received from patients or from other persons paying on behalf of the patients are subject to tax;</p>
+          <p>(9) payments received from any governmental agency for services benefiting the public, not including payments made by the government in its capacity as an employer or insurer or payments made by the government for services provided under the MinnesotaCare program or the medical assistance program governed by title XIX of the federal Social Security Act, United States Code, title 42, sections 1396 to 1396v;</p>
+          <p>(10) payments received under the federal Employees Health Benefits Act, United States Code, title 5, section 8909(f), as amended by the Omnibus Reconciliation Act of 1990. Enrollee deductibles, co-insurance, and co-payments are subject to tax;</p>
+          <p>(11) payments received under the federal Tricare program, Code of Federal Regulations, title 32, section 199.17 (a)(7). Enrollee deductibles, co-insurance, and co-payments are subject to tax; and</p>
+          <p>(12) supplemental or enhanced payments authorized under section <a href="/statutes/cite/256B.196">256B.196</a> or <a href="/statutes/cite/256B.197">256B.197</a>.</p>
+          <p>(c) Payments received by wholesale drug distributors for legend drugs sold directly to veterinarians or veterinary bulk purchasing organizations are excluded from the gross revenues subject to the wholesale drug distributor tax under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Deductions for staff model health plan company.</h3>
+          <p>In addition to the exemptions allowed under subdivision 1, a staff model health plan company may deduct from its gross revenues for the year:</p>
+          <p>(1) amounts paid to hospitals, surgical centers, and health care providers that are not employees of the staff model health plan company for services on which liability for the tax is imposed under section <a href="/statutes/cite/295.52">295.52</a>;</p>
+          <p>(2) net amounts added to reserves, to the extent that the amounts added do not cause total reserves to exceed 200 percent of the statutory net worth requirement, the calculation of which may be determined on a consolidated basis, taking into account the amounts held in reserve by affiliated staff model health plan companies;</p>
+          <p>(3) assessments for the comprehensive health insurance plan under section <a href="/statutes/cite/62E.11">62E.11</a>; and</p>
+          <p>(4) amounts spent for administration as reported as total administration to the Department of Health in the statement of revenues, expenses, and net worth pursuant to section <a href="/statutes/cite/62D.08#stat.62D.08.3">62D.08, subdivision 3</a>, clause (a).</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Separate statement of tax.</h3>
+          <p>A hospital, surgical center, health care provider, or wholesale drug distributor must not state the tax obligation under section <a href="/statutes/cite/295.52">295.52</a> in a deceptive or misleading manner. It must not separately state tax obligations on bills provided to patients, consumers, or other payers when the amount received for the services or goods is not subject to tax.</p>
+          <p>Pharmacies that separately state the tax obligations on bills provided to consumers or to other payers who purchase legend drugs may state the tax obligation as the wholesale price of the legend drugs multiplied by the tax percentage specified in section <a href="/statutes/cite/295.52">295.52</a>. Pharmacies must not state the tax obligation based on the retail price.</p>
+          <p>Whenever the commissioner determines that a person has engaged in any act or practice constituting a violation of this subdivision, the commissioner may bring an action in the name of the state in the district court of the appropriate county to enjoin the act or practice and to enforce compliance with this subdivision, or the commissioner may refer the matter to the attorney general or the county attorney of the appropriate county. Upon a proper showing, a permanent or temporary injunction, restraining order, or other appropriate relief must be granted.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4a.</h2>
+          <h3 class="headnote">Credit for research.</h3>
+          <p class="in">(a) In addition to the exemptions allowed under subdivision 1, a hospital or health care provider may claim an annual credit against the total amount of tax, if any, the hospital or health care provider owes for that calendar year under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.57">295.57</a>. The credit shall equal 2.5 percent of revenues for patient services used to fund expenditures for qualifying research conducted by an allowable research program. The amount of the credit shall not exceed the tax liability of the hospital or health care provider under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.57">295.57</a>.</p>
+          <p class="in">(b) For purposes of this subdivision, the following requirements apply:</p>
+          <p class="in">(1) expenditures must be for program costs of qualifying research conducted by an allowable research program;</p>
+          <p class="in">(2) an allowable research program must be a formal program of medical and health care research conducted by an entity which is exempt under section 501(c)(3) of the Internal Revenue Code as defined in section <a href="/statutes/cite/289A.02#stat.289A.02.7">289A.02, subdivision 7</a>, or is owned and operated under authority of a governmental unit;</p>
+          <p class="in">(3) qualifying research must:</p>
+          <p class="in">(A) be approved in writing by the governing body of the hospital or health care provider which is taking the deduction under this subdivision;</p>
+          <p class="in">(B) have as its purpose the development of new knowledge in basic or applied science relating to the diagnosis and treatment of conditions affecting the human body;</p>
+          <p class="in">(C) be subject to review by individuals with expertise in the subject matter of the proposed study but who have no financial interest in the proposed study and are not involved in the conduct of the proposed study; and</p>
+          <p class="in">(D) be subject to review and supervision by an institutional review board operating in conformity with federal regulations if the research involves human subjects or an institutional animal care and use committee operating in conformity with federal regulations if the research involves animal subjects. Research expenses are not exempt if the study is a routine evaluation of health care methods or products used in a particular setting conducted for the purpose of making a management decision. Costs of clinical research activities paid directly for the benefit of an individual patient are excluded from this exemption. Basic research in fields including biochemistry, molecular biology, and physiology are also included if such programs are subject to a peer review process.</p>
+          <p class="in">(c) No credit shall be allowed under this subdivision for any revenue received by the hospital or health care provider in the form of a grant, gift, or otherwise, whether from a government or nongovernment source, on which the tax liability under section <a href="/statutes/cite/295.52">295.52</a> is not imposed.</p>
+          <p class="in">(d) The taxpayer shall apply for the credit under this section on the annual return under section <a href="/statutes/cite/295.55#stat.295.55.5">295.55, subdivision 5</a>.</p>
+          <p class="in">(e) Beginning September 1, 2001, if the actual or estimated amount paid under this section for the calendar year exceeds $2,500,000, the commissioner of management and budget shall determine the rate of the research credit for the following calendar year to the nearest one-half percent so that refunds paid under this section will most closely equal $2,500,000. The commissioner of management and budget shall publish in the State Register by October 1 of each year the rate of the credit for the following calendar year. A determination under this section is not subject to the rulemaking provisions of chapter 14.</p>
+        </div>
+        <h1 class="shn">295.54 CREDIT FOR TAXES PAID.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Taxes paid to another state.</h3>
+          <p>A hospital, surgical center, or health care provider that has paid taxes to another jurisdiction measured by gross revenues and is subject to tax under sections <a href="/statutes/cite/295.52">295.52</a> to <a href="/statutes/cite/295.59">295.59</a> on the same gross revenues is entitled to a credit for the tax legally due and paid to another jurisdiction to the extent of the lesser of (1) the tax actually paid to the other jurisdiction, or (2) the amount of tax imposed by Minnesota on the gross revenues subject to tax in the other taxing jurisdictions.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Pharmacy refund.</h3>
+          <p class="in">A pharmacy may claim an annual refund against the total amount of tax, if any, the pharmacy owes during that calendar year under section <a href="/statutes/cite/295.52#stat.295.52.">295.52, subdivision</a> 4. The refund shall equal the amount paid by the pharmacy to a wholesale drug distributor subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.3">295.52, subdivision 3</a>, for legend drugs delivered by the pharmacy outside of Minnesota, multiplied by the tax percentage specified in section <a href="/statutes/cite/295.52">295.52</a>, subdivision 3. If the amount of the refund exceeds the tax liability of the pharmacy under section <a href="/statutes/cite/295.52#stat.295.52.">295.52, subdivision</a> 4, the commissioner shall provide the pharmacy with a refund equal to the excess amount. Each qualifying pharmacy must apply for the refund on the annual return as prescribed by the commissioner, on or before March 15 of the year following the calendar year the legend drugs were delivered outside Minnesota. The refund shall not be allowed if the initial claim for refund is filed more than one year after the original due date of the return. Interest on refunds paid under this subdivision will begin to accrue 60 days after the date a claim for refund is filed. For purposes of this subdivision, the date a claim is filed is the due date of the return if a return is due or the date of the actual claim for refund, whichever is later.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Wholesale drug distributor credit.</h3>
+          <p>A wholesale drug distributor who has paid taxes to another state or province or territory of Canada measured by gross revenues or sales and is subject to tax under sections <a href="/statutes/cite/295.52">295.52</a> to <a href="/statutes/cite/295.59">295.59</a> on the same gross revenues or sales is entitled to a credit for the tax legally due and paid to another state or province or territory of Canada to the extent of the lesser of (1) the tax actually paid to the other state or province or territory of Canada or (2) the amount of tax imposed by Minnesota on the gross revenues or sales subject to tax in the other taxing jurisdictions.</p>
+        </div>
+        <h1 class="shn">295.55 PAYMENT OF TAX.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Scope.</h3>
+          <p>The provisions of this section apply to the taxes imposed under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.58">295.58</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Estimated tax; hospitals; surgical centers.</h3>
+          <p>(a) Each hospital or surgical center must make estimated payments of the taxes for the calendar year in monthly installments to the commissioner within 15 days after the end of the month.</p>
+          <p>(b) Estimated tax payments are not required of hospitals or surgical centers if: (1) the tax for the current calendar year is $500 or less; or (2) the tax for the previous calendar year is $500 or less.</p>
+          <p>(c) Underpayment of estimated installments bear interest at the rate specified in section <a href="/statutes/cite/270C.40">270C.40</a>, from the due date of the payment until paid or until the due date of the annual return whichever comes first. An underpayment of an estimated installment is the difference between the amount paid and the lesser of (1) 90 percent of one-twelfth of the tax for the calendar year or (2) one-twelfth of the total tax for the previous calendar year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Estimated tax; other taxpayers.</h3>
+          <p>(a) Each taxpayer, other than a hospital or surgical center, must make estimated payments of the taxes for the calendar year in quarterly installments to the commissioner by April 15, July 15, October 15, and January 15 of the following calendar year.</p>
+          <p>(b) Estimated tax payments are not required if: (1) the tax for the current calendar year is $500 or less; or (2) the tax for the previous calendar year is $500 or less.</p>
+          <p>(c) Underpayment of estimated installments bear interest at the rate specified in section <a href="/statutes/cite/270C.40">270C.40</a>, from the due date of the payment until paid or until the due date of the annual return whichever comes first. An underpayment of an estimated installment is the difference between the amount paid and the lesser of (1) 90 percent of one-quarter of the tax for the calendar year or (2) one-quarter of the total tax for the previous calendar year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Electronic payments.</h3>
+          <p>A taxpayer with an aggregate tax liability of $10,000 or more in a fiscal year ending June 30 must remit all liabilities by electronic means in all subsequent calendar years.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Annual return.</h3>
+          <p>The taxpayer must file an annual return reconciling the estimated payments by March 15 of the following calendar year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Form of returns.</h3>
+          <p>The commissioner shall prescribe the content, format, and manner of the estimated payment forms and annual return pursuant to section <a href="/statutes/cite/270C.30">270C.30</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Extensions for filing returns.</h3>
+          <p>If good cause exists, the commissioner may extend the time for filing MinnesotaCare tax returns for not more than 60 days.</p>
+        </div>
+        <h1 class="shn">295.56 TRANSFER OF ACCOUNTS RECEIVABLE.</h1>
+        <p>When a hospital, surgical center, health care provider, or wholesale drug distributor transfers, assigns, or sells accounts receivable to another person who is subject to tax under this chapter, liability for the tax on the accounts receivable is imposed on the transferee, assignee, or buyer of the accounts receivable. No liability for these accounts receivable is imposed on the transferor, assignor, or seller of the accounts receivable.</p>
+        <h1 class="shn">295.57 COLLECTION AND ENFORCEMENT; REFUNDS; APPLICATION OF OTHER CHAPTERS; ACCESS TO RECORDS; INTEREST ON OVERPAYMENTS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Application of other chapters.</h3>
+          <p>Unless specifically provided otherwise by sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>, the interest, criminal penalties, and refunds provisions in chapter 289A, the civil penalty provisions applicable to withholding and sales taxes under section <a href="/statutes/cite/289A.60">289A.60</a>, and the audit, assessment, appeal, collection, enforcement, and administrative provisions of chapters 270C and 289A, apply to taxes imposed under sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Access to records.</h3>
+          <p>For purposes of administering the taxes imposed by sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.59">295.59</a>, the commissioner may access patients' records that contain billing or other financial information without prior consent from the patients. The data collected is classified as private or nonpublic data.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Interest on overpayments.</h3>
+          <p>Interest must be paid on an overpayment refunded or credited to the taxpayer in the manner provided in section <a href="/statutes/cite/289A.56#stat.289A.56.2">289A.56, subdivision 2</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Sampling techniques.</h3>
+          <p>The commissioner may use statistical or other sampling techniques consistent with generally accepted auditing standards in examining returns or records and making assessments.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Exemption for amounts paid for legend drugs.</h3>
+          <p>If a hospital, surgical center, or health care provider cannot determine the actual cost or reimbursement of legend drugs under the exemption provided in section <a href="/statutes/cite/295.53#stat.295.53.1">295.53, subdivision 1</a>, paragraph (b), clause (5), the following method must be used:</p>
+          <p>A hospital, surgical center, or health care provider must determine the amount paid for legend drugs used during the month or quarter and multiply that amount by a ratio, the numerator of which is the total amount received for taxable patient services, and the denominator of which is the total amount received for all patient services, including amounts exempt under section <a href="/statutes/cite/295.53#stat.295.53.1, paragraph ()">295.53, subdivision 1, paragraph (b)</a>. The result represents the allowable exemption for the monthly or quarterly cost of drugs.</p>
+        </div>
+        <h1 class="shn">295.58 DEPOSIT OF REVENUES AND PAYMENT OF REFUNDS.</h1>
+        <p>The commissioner shall deposit all revenues, including penalties and interest, derived from the taxes imposed by sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.57">295.57</a> and from the insurance premiums tax imposed by section <a href="/statutes/cite/297I.05#stat.297I.05.5">297I.05, subdivision 5</a>, on health maintenance organizations, community integrated service networks, and nonprofit health service plan corporations in the health care access fund. There is annually appropriated from the health care access fund to the commissioner of revenue the amount necessary to make refunds under this chapter.</p>
+        <h1 class="shn">295.581 PROHIBITION ON NON-MINNESOTACARE TRANSFERS FROM FUND.</h1>
+        <p>Notwithstanding any law to the contrary, and notwithstanding section <a href="/statutes/cite/645.33">645.33</a>, money in the health care access fund shall be appropriated only for purposes that are consistent with past and current MinnesotaCare appropriations in Laws 1992, chapter 549; Laws 1993, chapter 345; Laws 1994, chapter 625; and Laws 1995, chapter 234, or for initiatives that are part of the section 1115 of the Social Security Act health care reform waiver submitted to the federal Centers for Medicare and Medicaid Services by the commissioner of human services as appropriated in Laws 1995, chapter 234.</p>
+        <h1 class="shn">295.582 AUTHORITY.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Tax expense transfer.</h3>
+          <p>(a) The tax expense generated by section <a href="/statutes/cite/295.52">295.52</a> may be transferred as follows:</p>
+          <p>(1) a hospital, surgical center, or health care provider subject to the tax under section <a href="/statutes/cite/295.52">295.52</a> may transfer the tax expense to all third-party contracts for the purchase of health care services on behalf of a patient or consumer;</p>
+          <p>(2) a wholesale drug distributor subject to the tax under section <a href="/statutes/cite/295.52">295.52</a> may transfer the tax expense to entities that purchase legend drugs from the wholesale drug distributor; and</p>
+          <p>(3) a pharmacy that has paid the tax expense transferred by a wholesale drug distributor may transfer the tax expense to all third-party contracts for the purchase of health care services on behalf of a patient or consumer. Nothing shall prohibit a pharmacy from transferring the tax expense generated under section <a href="/statutes/cite/295.52">295.52</a> to a pharmacy benefits manager.</p>
+          <p>(b) The transfer of the tax expense under paragraph (a) must comply with the following:</p>
+          <p>(1) the tax expense transferred to the third-party purchaser or a pharmacy benefits manager must not exceed the tax percentage specified in section <a href="/statutes/cite/295.52">295.52</a> multiplied against:</p>
+          <p>(i) gross revenues received under the third-party contract; and</p>
+          <p>(ii) co-payments and deductibles paid by the individual patient or consumer; and</p>
+          <p>(2) the tax expense must not be generated on revenues derived from payments that are excluded or exempted from the tax under section <a href="/statutes/cite/295.53">295.53</a>.</p>
+          <p>(c) Payment of the transferred tax expense is required as follows:</p>
+          <p>(1) all third-party purchasers of health care services, including but not limited to third-party purchasers regulated under chapter 60A, 62A, 62C, 62D, 62H, 62N, 64B, 65A, 65B, 79, or 79A, or under section <a href="/statutes/cite/471.61">471.61</a> or <a href="/statutes/cite/471.617">471.617</a>, and pharmacy benefits managers must pay the transferred expense. This is in addition to any payments due under existing contracts with the hospital, surgical center, pharmacy, or health care provider, to the extent allowed under federal law; and</p>
+          <p>(2) all entities that purchase legend drugs from a wholesale drug distributor must pay the transferred expense.</p>
+          <p>(d) A third-party purchaser or pharmacy benefits manager must comply with this section regardless of whether the third-party purchaser or pharmacy benefits manager is a for-profit, not-for-profit, or nonprofit entity.</p>
+          <p>(e) Nothing in this section limits the ability of a hospital, surgical center, health care provider, pharmacy, or wholesale drug distributor to recover all or part of the section <a href="/statutes/cite/295.52 ">295.52 </a>obligation by other methods, including increasing fees or charges.</p>
+          <p>(f) Any hospital, surgical center, or health care provider subject to a tax under section <a href="/statutes/cite/295.52">295.52</a> or a pharmacy that has paid the additional expense transferred under this section by a wholesale drug distributor may file a complaint with the commissioner responsible for regulating the third-party purchaser if at any time the third-party purchaser fails to comply with this section.</p>
+          <p>(g) If the commissioner responsible for regulating the third-party purchaser finds at any time that the third-party purchaser has not complied with this section, the commissioner may take enforcement action against a third-party purchaser which is subject to the commissioner's regulatory jurisdiction and which does not allow a hospital, surgical center, pharmacy, or provider to pass-through the tax expense. The commissioner may by order fine or censure the third-party purchaser or revoke or suspend the certificate of authority or license of the third-party purchaser to do business in this state if the commissioner finds that the third-party purchaser has not complied with this section. The third-party purchaser may appeal the commissioner's order through a contested case hearing in accordance with chapter 14.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Agreement.</h3>
+          <p>A contracting agreement between a third-party purchaser or a pharmacy benefits manager and a resident or nonresident pharmacy registered under chapter 151, may not prohibit:</p>
+          <p>(1) a pharmacy that has paid additional expense transferred under this section by a wholesale drug distributor from exercising its option under this section to transfer such additional expenses generated by the section <a href="/statutes/cite/295.52">295.52</a> obligations on to the third-party purchaser or pharmacy benefits manager; or</p>
+          <p>(2) a pharmacy that is subject to tax under section <a href="/statutes/cite/295.52#stat.295.52.4">295.52, subdivision 4</a>, from exercising its option under this section to recover all or part of the section <a href="/statutes/cite/295.52">295.52</a> obligations from the third-party purchaser or a pharmacy benefits manager.</p>
+        </div>
+        <h1 class="shn">295.59 SEVERABILITY.</h1>
+        <p>If any section, subdivision, clause, or phrase of sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.582">295.582</a> is for any reason held to be unconstitutional or in violation of federal law, the decision shall not affect the validity of the remaining portions of sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.582">295.582</a>. The legislature declares that it would have passed sections <a href="/statutes/cite/295.50">295.50</a> to <a href="/statutes/cite/295.582">295.582</a> and each section, subdivision, sentence, clause, and phrase thereof, irrespective of the fact that any one or more sections, subdivisions, sentences, clauses, or phrases is declared unconstitutional.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

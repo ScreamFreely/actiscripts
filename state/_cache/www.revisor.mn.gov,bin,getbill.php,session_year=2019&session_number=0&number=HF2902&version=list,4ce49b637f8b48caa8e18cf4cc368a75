@@ -1,0 +1,1745 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Wed, 12 Feb 2020 00:05:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 2902 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 2902</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 05/17/2019 08:47am</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF2902&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF2902&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF2902&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF2902&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF2902&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 05/17/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2902&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2902&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <br/>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <br/>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <br/>
+    <var class="ln">3.12</var>
+    <br/>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <br/>
+    <var class="ln">4.33</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <br/>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <br/>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <var class="ln">6.34</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <br/>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">9.33</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <br/>
+    <var class="ln">10.5</var>
+    <br/>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <br/>
+    <var class="ln">10.24</var>
+    <br/>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <br/>
+    <var class="ln">10.28</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to water; establishing the Legislative-Citizen Commission on Minnesota <br/><span id="pl.1.3" class="pl"> </span>Waters; eliminating the Clean Water Council and Legislative Water Commission; <br/><span id="pl.1.4" class="pl"> </span>reassigning duties; providing appointments; amending Minnesota Statutes 2018, <br/><span id="pl.1.5" class="pl"> </span>sections 3.886, subdivision 6; 10A.01, subdivision 35; 97A.056, subdivision 3; <br/><span id="pl.1.6" class="pl"> </span>114D.35, subdivisions 2, 3; 114D.50, subdivision 4; proposing coding for new <br/><span id="pl.1.7" class="pl"> </span>law in Minnesota Statutes, chapter 114D; repealing Minnesota Statutes 2018, <br/><span id="pl.1.8" class="pl"> </span>sections 114D.15, subdivision 3; 114D.20, subdivisions 5, 6, 7; 114D.30.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.9" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.10" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 3.886, subdivision 6, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.11" class="pl"> </span>Subd. 6.</h2>
+        <h3 class="headnote">Expiration.</h3>
+        <p>This section expires July 1, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">2019</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 2020</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.12" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 35, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.13" class="pl"> </span>Subd. 35.</h2>
+        <h3 class="headnote">Public official.</h3>
+        <p class="in">"Public official" means any:<br/></p>
+        <p class="in"><span id="pl.1.14" class="pl"> </span>(1) member of the legislature;<br/></p>
+        <p class="in"><span id="pl.1.15" class="pl"> </span>(2) individual employed by the legislature as secretary of the senate, legislative auditor, <br/><span id="pl.1.16" class="pl"> </span>director of the Legislative Budget Office, chief clerk of the house of representatives, revisor <br/><span id="pl.1.17" class="pl"> </span>of statutes, or researcher, legislative analyst, fiscal analyst, or attorney in the Office of <br/><span id="pl.1.18" class="pl"> </span>Senate Counsel, Research and Fiscal Analysis, House Research, or the House Fiscal Analysis <br/><span id="pl.1.19" class="pl"> </span>Department;<br/></p>
+        <p class="in"><span id="pl.1.20" class="pl"> </span>(3) constitutional officer in the executive branch and the officer's chief administrative <br/><span id="pl.1.21" class="pl"> </span>deputy;<br/></p>
+        <p class="in"><span id="pl.1.22" class="pl"> </span>(4) solicitor general or deputy, assistant, or special assistant attorney general;<br/></p>
+        <p class="in"><span id="pl.2.1" class="pl"> </span>(5) commissioner, deputy commissioner, or assistant commissioner of any state <br/><span id="pl.2.2" class="pl"> </span>department or agency as listed in section <a href="/statutes/cite/15.01">15.01</a> or <a href="/statutes/cite/15.06">15.06</a>, or the state chief information <br/><span id="pl.2.3" class="pl"> </span>officer;<br/></p>
+        <p class="in"><span id="pl.2.4" class="pl"> </span>(6) member, chief administrative officer, or deputy chief administrative officer of a state <br/><span id="pl.2.5" class="pl"> </span>board or commission that has either the power to adopt, amend, or repeal rules under chapter <br/><a href="/statutes/cite/14"><span id="pl.2.6" class="pl"> </span>14</a>, or the power to adjudicate contested cases or appeals under chapter <a href="/statutes/cite/14">14</a>;<br/></p>
+        <p class="in"><span id="pl.2.7" class="pl"> </span>(7) individual employed in the executive branch who is authorized to adopt, amend, or <br/><span id="pl.2.8" class="pl"> </span>repeal rules under chapter <a href="/statutes/cite/14">14</a> or adjudicate contested cases under chapter <a href="/statutes/cite/14">14</a>;<br/></p>
+        <p class="in"><span id="pl.2.9" class="pl"> </span>(8) executive director of the State Board of Investment;<br/></p>
+        <p class="in"><span id="pl.2.10" class="pl"> </span>(9) deputy of any official listed in clauses (7) and (8);<br/></p>
+        <p class="in"><span id="pl.2.11" class="pl"> </span>(10) judge of the Workers' Compensation Court of Appeals;<br/></p>
+        <p class="in"><span id="pl.2.12" class="pl"> </span>(11) administrative law judge or compensation judge in the State Office of Administrative <br/><span id="pl.2.13" class="pl"> </span>Hearings or unemployment law judge in the Department of Employment and Economic <br/><span id="pl.2.14" class="pl"> </span>Development;<br/></p>
+        <p class="in"><span id="pl.2.15" class="pl"> </span>(12) member, regional administrator, division director, general counsel, or operations <br/><span id="pl.2.16" class="pl"> </span>manager of the Metropolitan Council;<br/></p>
+        <p class="in"><span id="pl.2.17" class="pl"> </span>(13) member or chief administrator of a metropolitan agency;<br/></p>
+        <p class="in"><span id="pl.2.18" class="pl"> </span>(14) director of the Division of Alcohol and Gambling Enforcement in the Department <br/><span id="pl.2.19" class="pl"> </span>of Public Safety;<br/></p>
+        <p class="in"><span id="pl.2.20" class="pl"> </span>(15) member or executive director of the Higher Education Facilities Authority;<br/></p>
+        <p class="in"><span id="pl.2.21" class="pl"> </span>(16) member of the board of directors or president of Enterprise Minnesota, Inc.;<br/></p>
+        <p class="in"><span id="pl.2.22" class="pl"> </span>(17) member of the board of directors or executive director of the Minnesota State High <br/><span id="pl.2.23" class="pl"> </span>School League;<br/></p>
+        <p class="in"><span id="pl.2.24" class="pl"> </span>(18) member of the Minnesota Ballpark Authority established in section <a href="/statutes/cite/473.755">473.755</a>;<br/></p>
+        <p class="in"><span id="pl.2.25" class="pl"> </span>(19) citizen member of the Legislative-Citizen Commission on Minnesota Resources;<br/></p>
+        <p class="in"><span id="pl.2.26" class="pl"> </span>(20) manager of a watershed district, or member of a watershed management organization <br/><span id="pl.2.27" class="pl"> </span>as defined under section <a href="/statutes/cite/103B.205#stat.103B.205.13">103B.205, subdivision 13</a>;<br/></p>
+        <p class="in"><span id="pl.2.28" class="pl"> </span>(21) supervisor of a soil and water conservation district;<br/></p>
+        <p><span id="pl.2.29" class="pl"> </span>(22) director of Explore Minnesota Tourism;<br/></p>
+        <p class="in"><span id="pl.3.1" class="pl"> </span>(23) citizen member of the Lessard-Sams Outdoor Heritage Council established in section <br/><span id="pl.3.2" class="pl"> </span>97A.056;<br/></p>
+        <p><span id="pl.3.3" class="pl"> </span>(24) citizen member of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Clean Water Council</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Legislative-Citizen Commission on <br/><span id="pl.3.4" class="pl"> </span>Minnesota Waters</ins><span class="sr-only">new text end</span> established in section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/114D.30">114D.30</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 114D.60</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p><span id="pl.3.5" class="pl"> </span>(25) member or chief executive of the Minnesota Sports Facilities Authority established <br/><span id="pl.3.6" class="pl"> </span>in section <a href="/statutes/cite/473J.07">473J.07</a>;<br/></p>
+        <p><span id="pl.3.7" class="pl"> </span>(26) district court judge, appeals court judge, or supreme court justice;<br/></p>
+        <p><span id="pl.3.8" class="pl"> </span>(27) county commissioner;<br/></p>
+        <p><span id="pl.3.9" class="pl"> </span>(28) member of the Greater Minnesota Regional Parks and Trails Commission; or<br/></p>
+        <p><span id="pl.3.10" class="pl"> </span>(29) member of the Destination Medical Center Corporation established in section <br/><a href="/statutes/cite/469.41"><span id="pl.3.11" class="pl"> </span>469.41</a>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.12" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.3.13" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 97A.056, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.3.14" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Council recommendations.</h3>
+        <p class="in">(a) The council shall make recommendations to <br/><span id="pl.3.15" class="pl"> </span>the legislature on appropriations of money from the outdoor heritage fund that are consistent <br/><span id="pl.3.16" class="pl"> </span>with the constitution and state law and that will achieve the outcomes of existing natural <br/><span id="pl.3.17" class="pl"> </span>resource plans, including, but not limited to, the Minnesota Statewide Conservation and <br/><span id="pl.3.18" class="pl"> </span>Preservation Plan, that directly relate to the restoration, protection, and enhancement of <br/><span id="pl.3.19" class="pl"> </span>wetlands, prairies, forests, and habitat for fish, game, and wildlife, and that prevent forest <br/><span id="pl.3.20" class="pl"> </span>fragmentation, encourage forest consolidation, and expand restored native prairie. In making <br/><span id="pl.3.21" class="pl"> </span>recommendations, the council shall consider a range of options that would best restore, <br/><span id="pl.3.22" class="pl"> </span>protect, and enhance wetlands, prairies, forests, and habitat for fish, game, and wildlife. <br/><span id="pl.3.23" class="pl"> </span>The council's recommendations shall be submitted no later than January 15 each year. The <br/><span id="pl.3.24" class="pl"> </span>council shall present its recommendations to the senate and house of representatives <br/><span id="pl.3.25" class="pl"> </span>committees with jurisdiction over the environment and natural resources budget by February <br/><span id="pl.3.26" class="pl"> </span>15 in odd-numbered years, and within the first four weeks of the legislative session in <br/><span id="pl.3.27" class="pl"> </span>even-numbered years. The council's budget recommendations to the legislature shall be <br/><span id="pl.3.28" class="pl"> </span>separate from the Department of Natural Resource's budget recommendations.<br/></p>
+        <p class="in"><span id="pl.3.29" class="pl"> </span>(b) To encourage and support local conservation efforts, the council shall establish a <br/><span id="pl.3.30" class="pl"> </span>conservation partners program. Local, regional, state, or national organizations may apply <br/><span id="pl.3.31" class="pl"> </span>for matching grants for restoration, protection, and enhancement of wetlands, prairies, <br/><span id="pl.4.1" class="pl"> </span>forests, and habitat for fish, game, and wildlife, prevention of forest fragmentation, <br/><span id="pl.4.2" class="pl"> </span>encouragement of forest consolidation, and expansion of restored native prairie.<br/></p>
+        <p class="in"><span id="pl.4.3" class="pl"> </span>(c) The council may work with the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Clean Water Council</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Legislative-Citizen Commission <br/><span id="pl.4.4" class="pl"> </span>on Minnesota Waters</ins><span class="sr-only">new text end</span> to identify projects that are consistent with both the purpose of the <br/><span id="pl.4.5" class="pl"> </span>outdoor heritage fund and the purpose of the clean water fund.<br/></p>
+        <p class="in"><span id="pl.4.6" class="pl"> </span>(d) The council may make recommendations to the Legislative-Citizen Commission on <br/><span id="pl.4.7" class="pl"> </span>Minnesota Resources on scientific research that will assist in restoring, protecting, and <br/><span id="pl.4.8" class="pl"> </span>enhancing wetlands, prairies, forests, and habitat for fish, game, and wildlife, preventing <br/><span id="pl.4.9" class="pl"> </span>forest fragmentation, encouraging forest consolidation, and expanding restored native prairie.<br/></p>
+        <p class="in"><span id="pl.4.10" class="pl"> </span>(e) Recommendations of the council, including approval of recommendations for the <br/><span id="pl.4.11" class="pl"> </span>outdoor heritage fund, require an affirmative vote of at least nine members of the council.<br/></p>
+        <p><span id="pl.4.12" class="pl"> </span>(f) The council may work with the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Clean Water Council</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Legislative-Citizen Commission <br/><span id="pl.4.13" class="pl"> </span>on Minnesota Waters</ins><span class="sr-only">new text end</span>, the Legislative-Citizen Commission on Minnesota Resources, the <br/><span id="pl.4.14" class="pl"> </span>Board of Water and Soil Resources, soil and water conservation districts, and experts from <br/><span id="pl.4.15" class="pl"> </span>Minnesota State Colleges and Universities and the University of Minnesota in developing <br/><span id="pl.4.16" class="pl"> </span>the council's recommendations.<br/></p>
+        <p><span id="pl.4.17" class="pl"> </span>(g) The council shall develop and implement a process that ensures that citizens and <br/><span id="pl.4.18" class="pl"> </span>potential recipients of funds are included throughout the process, including the development <br/><span id="pl.4.19" class="pl"> </span>and finalization of the council's recommendations. The process must include a fair, equitable, <br/><span id="pl.4.20" class="pl"> </span>and thorough process for reviewing requests for funding and a clear and easily understood <br/><span id="pl.4.21" class="pl"> </span>process for ranking projects.<br/></p>
+        <p><span id="pl.4.22" class="pl"> </span>(h) The council shall use the regions of the state based upon the ecological sections and <br/><span id="pl.4.23" class="pl"> </span>subsections developed by the Department of Natural Resources and establish objectives for <br/><span id="pl.4.24" class="pl"> </span>each region and subregion to achieve the purposes of the fund outlined in the state <br/><span id="pl.4.25" class="pl"> </span>constitution.<br/></p>
+        <p><span id="pl.4.26" class="pl"> </span>(i) The council shall develop and submit to the Legislative Coordinating Commission <br/><span id="pl.4.27" class="pl"> </span>plans for the first ten years of funding, and a framework for 25 years of funding, consistent <br/><span id="pl.4.28" class="pl"> </span>with statutory and constitutional requirements. The council may use existing plans from <br/><span id="pl.4.29" class="pl"> </span>other legislative, state, and federal sources, as applicable.<br/></p>
+        <p><span id="pl.4.30" class="pl"> </span>(j) By July 1 each year, the council shall provide counties with a list of project proposals <br/><span id="pl.4.31" class="pl"> </span>that include potential fee title land acquisitions in the county that is based on that year's <br/><span id="pl.4.32" class="pl"> </span>funding requests received by the council from nongovernmental organizations.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.33" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.5.1" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.35, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.5.2" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Expert scientific advice.</h3>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">The Clean Water Council and</span><span class="sr-only">deleted text end</span> Public agencies and <br/><span id="pl.5.3" class="pl"> </span>private entities <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> must</ins><span class="sr-only">new text end</span> make use of available public and private expertise from educational, <br/><span id="pl.5.4" class="pl"> </span>research, and technical organizations, including the University of Minnesota and other <br/><span id="pl.5.5" class="pl"> </span>higher education institutions, to provide appropriate independent expert advice on models, <br/><span id="pl.5.6" class="pl"> </span>methods, and approaches used in identifying degraded groundwater and impaired waters, <br/><span id="pl.5.7" class="pl"> </span>developing TMDLs, and implementing prevention and restoration.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.5.8" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.35, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.5.9" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Education.</h3>
+        <p>The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Clean Water Council shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Pollution Control Agency must</ins><span class="sr-only">new text end</span> <br/><span id="pl.5.10" class="pl"> </span>develop strategies for informing, educating, and encouraging the participation of citizens, <br/><span id="pl.5.11" class="pl"> </span>stakeholders, and others regarding the identification of impaired waters, development of <br/><span id="pl.5.12" class="pl"> </span>TMDLs, development of TMDL implementation plans, implementation of restoration for <br/><span id="pl.5.13" class="pl"> </span>impaired waters, identification of degraded groundwater, and protection and restoration of <br/><span id="pl.5.14" class="pl"> </span>groundwater resources. Public agencies shall be responsible for implementing the strategies.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.5.15" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.50, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.5.16" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Expenditures; accountability.</h3>
+        <p>(a) A project receiving funding from the clean <br/><span id="pl.5.17" class="pl"> </span>water fund must meet or exceed the constitutional requirements to protect, enhance, and <br/><span id="pl.5.18" class="pl"> </span>restore water quality in lakes, rivers, and streams and to protect groundwater and drinking <br/><span id="pl.5.19" class="pl"> </span>water from degradation. Priority may be given to projects that meet more than one of these <br/><span id="pl.5.20" class="pl"> </span>requirements. A project receiving funding from the clean water fund shall include measurable <br/><span id="pl.5.21" class="pl"> </span>outcomes, as defined in section <a href="/statutes/cite/3.303#stat.3.303.10">3.303, subdivision 10</a>, and a plan for measuring and <br/><span id="pl.5.22" class="pl"> </span>evaluating the results. A project must be consistent with current science and incorporate <br/><span id="pl.5.23" class="pl"> </span>state-of-the-art technology.<br/></p>
+        <p><span id="pl.5.24" class="pl"> </span>(b) Money from the clean water fund shall be expended to balance the benefits across <br/><span id="pl.5.25" class="pl"> </span>all regions and residents of the state.<br/></p>
+        <p><span id="pl.5.26" class="pl"> </span>(c) A state agency or other recipient of a direct appropriation from the clean water fund <br/><span id="pl.5.27" class="pl"> </span>must compile and submit all information for proposed and funded projects or programs, <br/><span id="pl.5.28" class="pl"> </span>including the proposed measurable outcomes and all other items required under section <br/><a href="/statutes/cite/3.303#stat.3.303.10"><span id="pl.5.29" class="pl"> </span>3.303, subdivision 10</a>, to the Legislative Coordinating Commission as soon as practicable <br/><span id="pl.5.30" class="pl"> </span>or by January 15 of the applicable fiscal year, whichever comes first. The Legislative <br/><span id="pl.5.31" class="pl"> </span>Coordinating Commission must post submitted information on the website required under <br/><span id="pl.5.32" class="pl"> </span>section <a href="/statutes/cite/3.303#stat.3.303.10">3.303, subdivision 10</a>, as soon as it becomes available. Information classified as not <br/><span id="pl.6.1" class="pl"> </span>public under section <a href="/statutes/cite/13D.05#stat.13D.05.3">13D.05, subdivision 3</a>, paragraph (d), is not required to be placed on <br/><span id="pl.6.2" class="pl"> </span>the website.<br/></p>
+        <p><span id="pl.6.3" class="pl"> </span>(d) Grants funded by the clean water fund must be implemented according to section <br/><a href="/statutes/cite/16B.98"><span id="pl.6.4" class="pl"> </span>16B.98</a> and must account for all expenditures. Proposals must specify a process for any <br/><span id="pl.6.5" class="pl"> </span>regranting envisioned. Priority for grant proposals must be given to proposals involving <br/><span id="pl.6.6" class="pl"> </span>grants that will be competitively awarded.<br/></p>
+        <p><span id="pl.6.7" class="pl"> </span>(e) Money from the clean water fund may only be spent on projects that benefit Minnesota <br/><span id="pl.6.8" class="pl"> </span>waters.<br/></p>
+        <p><span id="pl.6.9" class="pl"> </span>(f) When practicable, a direct recipient of an appropriation from the clean water fund <br/><span id="pl.6.10" class="pl"> </span>shall prominently display on the recipient's website home page the legacy logo required <br/><span id="pl.6.11" class="pl"> </span>under Laws 2009, chapter 172, article 5, section 10, as amended by Laws 2010, chapter <br/><span id="pl.6.12" class="pl"> </span>361, article 3, section 5, accompanied by the phrase "Click here for more information." <br/><span id="pl.6.13" class="pl"> </span>When a person clicks on the legacy logo image, the website must direct the person to a web <br/><span id="pl.6.14" class="pl"> </span>page that includes both the contact information that a person may use to obtain additional <br/><span id="pl.6.15" class="pl"> </span>information, as well as a link to the Legislative Coordinating Commission website required <br/><span id="pl.6.16" class="pl"> </span>under section <a href="/statutes/cite/3.303#stat.3.303.10">3.303, subdivision 10</a>.<br/></p>
+        <p><span id="pl.6.17" class="pl"> </span>(g) Future eligibility for money from the clean water fund is contingent upon a state <br/><span id="pl.6.18" class="pl"> </span>agency or other recipient satisfying all applicable requirements in this section, as well as <br/><span id="pl.6.19" class="pl"> </span>any additional requirements contained in applicable session law. If the Office of the <br/><span id="pl.6.20" class="pl"> </span>Legislative Auditor, in the course of an audit or investigation, publicly reports that a recipient <br/><span id="pl.6.21" class="pl"> </span>of money from the clean water fund has not complied with the laws, rules, or regulations <br/><span id="pl.6.22" class="pl"> </span>in this section or other laws applicable to the recipient, the recipient must be listed in an <br/><span id="pl.6.23" class="pl"> </span>annual report to the legislative committees with jurisdiction over the legacy funds. The list <br/><span id="pl.6.24" class="pl"> </span>must be publicly available. The legislative auditor shall remove a recipient from the list <br/><span id="pl.6.25" class="pl"> </span>upon determination that the recipient is in compliance. A recipient on the list is not eligible <br/><span id="pl.6.26" class="pl"> </span>for future funding from the clean water fund until the recipient demonstrates compliance <br/><span id="pl.6.27" class="pl"> </span>to the legislative auditor.<br/></p>
+        <p><span id="pl.6.28" class="pl"> </span>(h) Money from the clean water fund may be used to leverage federal funds through <br/><span id="pl.6.29" class="pl"> </span>execution of formal project partnership agreements with federal agencies consistent with <br/><span id="pl.6.30" class="pl"> </span>respective federal agency partnership agreement requirements.<br/></p>
+        <p><span id="pl.6.31" class="pl"> </span>(i) Any state agency or organization requesting a direct appropriation from the clean <br/><span id="pl.6.32" class="pl"> </span>water fund must inform the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Clean Water Council</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Legislative-Citizen Commission on <br/><span id="pl.6.33" class="pl"> </span>Minnesota Waters</ins><span class="sr-only">new text end</span> and the house of representatives and senate committees having jurisdiction <br/><span id="pl.6.34" class="pl"> </span>over the clean water fund, at the time the request for funding is made, whether the request <br/><span id="pl.7.1" class="pl"> </span>is supplanting or is a substitution for any previous funding that was not from a legacy fund <br/><span id="pl.7.2" class="pl"> </span>and was used for the same purpose.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.7.3" class="pl"> </span>Sec. 7. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[114D.60] LEGISLATIVE-CITIZEN COMMISSION ON MINNESOTA <br/><span id="pl.7.4" class="pl"> </span>WATERS.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.5" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Establishment; membership.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A Legislative-Citizen Commission on <br/><span id="pl.7.6" class="pl"> </span>Minnesota Waters is created in the legislative branch. The commission consists of 17 <br/><span id="pl.7.7" class="pl"> </span>members as follows:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.8" class="pl"> </span>(1) the chair of the house of representatives committee or division with jurisdiction over <br/><span id="pl.7.9" class="pl"> </span>environment and natural resources finance or designee;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.10" class="pl"> </span>(2) the chair of the senate committee or division with jurisdiction over environment and <br/><span id="pl.7.11" class="pl"> </span>natural resources finance or designee;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.12" class="pl"> </span>(3) four members of the senate appointed by the Subcommittee on Committees of the <br/><span id="pl.7.13" class="pl"> </span>Committee on Rules and Administration;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.14" class="pl"> </span>(4) four members of the house of representatives appointed by the speaker of the house;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.15" class="pl"> </span>(5) five citizen members appointed by the governor;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.16" class="pl"> </span>(6) one citizen member appointed by the senate Subcommittee on Committees of the <br/><span id="pl.7.17" class="pl"> </span>Committee on Rules and Administration; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.18" class="pl"> </span>(7) one citizen member appointed by the speaker of the house.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.19" class="pl"> </span>(b) At least two members from the senate and two members from the house of <br/><span id="pl.7.20" class="pl"> </span>representatives must be from the minority caucus.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.21" class="pl"> </span>(c) The citizen members must:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.22" class="pl"> </span>(1) have experience or expertise in the science, policy, or practice of the protection, <br/><span id="pl.7.23" class="pl"> </span>conservation, preservation, and enhancement of the state's water resources;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.24" class="pl"> </span>(2) have strong knowledge in the state's water issues around the state; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.25" class="pl"> </span>(3) have demonstrated ability to work in a collaborative environment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.26" class="pl"> </span>(d) The governor's appointments to the commission are subject to the advice and consent <br/><span id="pl.7.27" class="pl"> </span>of the senate.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.28" class="pl"> </span>(e) Members appointed under this subdivision must not be registered lobbyists. In making <br/><span id="pl.7.29" class="pl"> </span>appointments, the governor, senate Subcommittee on Committees of the Committee on <br/><span id="pl.8.1" class="pl"> </span>Rules and Administration, and speaker of the house must consider geographic balance, <br/><span id="pl.8.2" class="pl"> </span>gender, age, ethnicity, and varying expertise.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.3" class="pl"> </span>(f) The Legislative Coordinating Commission may appoint nonpartisan staff and contract <br/><span id="pl.8.4" class="pl"> </span>with consultants as necessary to support the functions of the commission. Up to one percent <br/><span id="pl.8.5" class="pl"> </span>of the money appropriated from the clean water fund may be used to pay for administrative <br/><span id="pl.8.6" class="pl"> </span>expenses of the commission and for compensation and expense reimbursement of commission <br/><span id="pl.8.7" class="pl"> </span>members.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.8" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Terms; compensation.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Appointed legislative members serve at the pleasure <br/><span id="pl.8.9" class="pl"> </span>of the appointing authority. Compensation of legislative members is as determined by the <br/><span id="pl.8.10" class="pl"> </span>appointing authority.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.11" class="pl"> </span>(b) Terms, compensation, and removal of citizen members are as provided in section <br/><span id="pl.8.12" class="pl"> </span>15.0575. A vacancy on the commission may be filled by the appointing authority for the <br/><span id="pl.8.13" class="pl"> </span>remainder of the unexpired term.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.14" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Cochairs.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Members of the commission must develop procedures to elect a <br/><span id="pl.8.15" class="pl"> </span>chair that rotates between legislative and citizen members each meeting. A citizen member, <br/><span id="pl.8.16" class="pl"> </span>a senate member, and a house of representatives member must serve as chairs. The citizen <br/><span id="pl.8.17" class="pl"> </span>members, senate members, and house of representatives members must select their respective <br/><span id="pl.8.18" class="pl"> </span>chairs.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.19" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Open meetings.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Meetings of the commission and other groups the <br/><span id="pl.8.20" class="pl"> </span>commission may establish are subject to chapter 13D. For the purposes of this subdivision, <br/><span id="pl.8.21" class="pl"> </span>a meeting occurs when a quorum is present and the members receive information or take <br/><span id="pl.8.22" class="pl"> </span>action on any matter relating to the duties of the commission.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.23" class="pl"> </span>(b) Travel to and from scheduled and publicly noticed site visits by commission members <br/><span id="pl.8.24" class="pl"> </span>for the purposes of receiving information is not a violation of paragraph (a). Any decision <br/><span id="pl.8.25" class="pl"> </span>or agreement to make a decision during the travel is a violation of paragraph (a).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.26" class="pl"> </span>(c) For legislative members of the commission, enforcement of this subdivision is <br/><span id="pl.8.27" class="pl"> </span>governed by section 3.055, subdivision 2. For nonlegislative members of the commission, <br/><span id="pl.8.28" class="pl"> </span>enforcement of this subdivision is governed by section 13D.06, subdivisions 1 and 2.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.5">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.29" class="pl"> </span>Subd. 5.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Conflict of interest.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A commission member may not be an advocate for or <br/><span id="pl.8.30" class="pl"> </span>against a commission action or vote on any action that may be a conflict of interest. A <br/><span id="pl.8.31" class="pl"> </span>conflict of interest must be disclosed as soon as it is discovered. The commission must <br/><span id="pl.8.32" class="pl"> </span>follow the policies and requirements related to conflicts of interest developed by the Office <br/><span id="pl.8.33" class="pl"> </span>of Grants Management under section 16B.98.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.1" class="pl"> </span>(b) For the purposes of this section, a conflict of interest exists when a person has an <br/><span id="pl.9.2" class="pl"> </span>organizational conflict of interest or direct financial interests and those interests present the <br/><span id="pl.9.3" class="pl"> </span>appearance that it will be difficult for the person to impartially fulfill the person's duty. An <br/><span id="pl.9.4" class="pl"> </span>organizational conflict of interest exists when a person has an affiliation with an organization <br/><span id="pl.9.5" class="pl"> </span>that is subject to commission activities, which presents the appearance of a conflict between <br/><span id="pl.9.6" class="pl"> </span>organizational interests and commission member duties. An organizational conflict of <br/><span id="pl.9.7" class="pl"> </span>interest does not exist if the person's only affiliation with an organization is being a member <br/><span id="pl.9.8" class="pl"> </span>of the organization.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.6">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.9" class="pl"> </span>Subd. 6.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Clean water fund recommendations.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) The Legislative-Citizen Commission <br/><span id="pl.9.10" class="pl"> </span>on Minnesota Waters must recommend to the legislature appropriations of money from the <br/><span id="pl.9.11" class="pl"> </span>clean water fund for the purposes stated in the Minnesota Constitution, article XI, section <br/><span id="pl.9.12" class="pl"> </span>15, and section 114D.50.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.13" class="pl"> </span>(b) The commission's recommendations must:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.14" class="pl"> </span>(1) be to protect, enhance, and restore water quality in lakes, rivers, and streams and to <br/><span id="pl.9.15" class="pl"> </span>protect groundwater from degradation and ensure that at least five percent of the clean water <br/><span id="pl.9.16" class="pl"> </span>fund is spent only to protect drinking water sources;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.17" class="pl"> </span>(2) be consistent with the purposes, policies, goals, and priorities in this chapter; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.18" class="pl"> </span>(3) allocate adequate support and resources to identify degraded groundwater and <br/><span id="pl.9.19" class="pl"> </span>impaired waters, develop TMDLs, implement restoration of groundwater and impaired <br/><span id="pl.9.20" class="pl"> </span>waters, and provide assistance and incentives to prevent groundwater and surface waters <br/><span id="pl.9.21" class="pl"> </span>from becoming degraded or impaired and improve the quality of surface waters that are <br/><span id="pl.9.22" class="pl"> </span>listed as impaired but have no approved TMDL.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.23" class="pl"> </span>(c) The commission must recommend methods of ensuring that awards of grants, loans, <br/><span id="pl.9.24" class="pl"> </span>or other funds from the clean water fund specify the outcomes to be achieved as a result of <br/><span id="pl.9.25" class="pl"> </span>the funding and specify standards to hold the recipient accountable for achieving the desired <br/><span id="pl.9.26" class="pl"> </span>outcomes. Expenditures from the fund must be appropriated by law.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.7">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.27" class="pl"> </span>Subd. 7.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Additional duties.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) The Legislative-Citizen Commission on Minnesota <br/><span id="pl.9.28" class="pl"> </span>Waters must review water policy reports and recommendations of the Environmental Quality <br/><span id="pl.9.29" class="pl"> </span>Board, the Board of Water and Soil Resources, the Pollution Control Agency, the Department <br/><span id="pl.9.30" class="pl"> </span>of Natural Resources, the Metropolitan Council, and other water-related reports as may be <br/><span id="pl.9.31" class="pl"> </span>required by law or the legislature.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.32" class="pl"> </span>(b) The commission must make recommendations as it deems proper to assist the <br/><span id="pl.9.33" class="pl"> </span>legislature in formulating legislation.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.1" class="pl"> </span>(c) Data or information compiled by the Legislative-Citizen Commission on Minnesota <br/><span id="pl.10.2" class="pl"> </span>Waters or its subcommittees must be made available to the Legislative-Citizen Commission <br/><span id="pl.10.3" class="pl"> </span>on Minnesota Resources and standing and interim committees of the legislature on request <br/><span id="pl.10.4" class="pl"> </span>of the chair of the respective commission, council, or committee.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.5" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section uncoded" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.10.6" class="pl"> </span>Sec. 8. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">INITIAL APPOINTMENTS AND FIRST MEETING.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.7" class="pl"> </span>(a) Initial appointments to the Legislative-Citizen Commission on Minnesota Waters <br/><span id="pl.10.8" class="pl"> </span>must be made by September 1, 2020. The first meeting of the Legislative-Citizen Commission <br/><span id="pl.10.9" class="pl"> </span>on Minnesota Waters must be convened by the chair or a designee of the Legislative <br/><span id="pl.10.10" class="pl"> </span>Coordinating Commission by October 15, 2020. The Legislative-Citizen Commission on <br/><span id="pl.10.11" class="pl"> </span>Minnesota Waters must select cochairs from its membership at its first meeting.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.12" class="pl"> </span>(b) Citizen members of the Legislative-Citizen Commission on Minnesota Waters must <br/><span id="pl.10.13" class="pl"> </span>initially be appointed according to the following schedule of terms:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.14" class="pl"> </span>(1) two members appointed by the governor for a term ending the first Monday in January <br/><span id="pl.10.15" class="pl"> </span>2024;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.16" class="pl"> </span>(2) one member appointed by the senate Subcommittee on Committees of the Committee <br/><span id="pl.10.17" class="pl"> </span>on Rules and Administration for a term ending the first Monday in January 2024;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.18" class="pl"> </span>(3) one member appointed by the speaker of the house for a term ending the first Monday <br/><span id="pl.10.19" class="pl"> </span>in January 2024;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.20" class="pl"> </span>(4) two members appointed by the governor for a term ending the first Monday in January <br/><span id="pl.10.21" class="pl"> </span>2023; and<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.22" class="pl"> </span>(5) one member appointed by the governor for a term ending the first Monday in January <br/><span id="pl.10.23" class="pl"> </span>2022.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.24" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section repealer" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.10.25" class="pl"> </span>Sec. 9. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.26" class="pl"> </span>Minnesota Statutes 2018, sections 114D.15, subdivision 3; 114D.20, subdivisions 5, 6, <br/><span id="pl.10.27" class="pl"> </span>and 7; and 114D.30,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.28" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-5091</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">114D.15 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Clean Water Council or council.</h3>
+          <p>"Clean Water Council" or "council" means the Clean Water Council created pursuant to section <a href="/statutes/cite/114D.30">114D.30</a>, subdivision 1.</p>
+        </div>
+        <h1 class="shn">114D.20 IMPLEMENTATION; COORDINATION; GOALS; POLICIES; AND PRIORITIES.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Priorities for preparing TMDLs.</h3>
+          <p>The Clean Water Council shall recommend priorities for scheduling and preparing TMDLs and TMDL implementation plans, taking into account the severity of the impairment, the designated uses of those waters, and other applicable federal TMDL requirements. In recommending priorities, the council shall also give consideration to waters and watersheds:</p>
+          <p>(1) with impairments that pose the greatest potential risk to human health;</p>
+          <p>(2) with impairments that pose the greatest potential risk to threatened or endangered species;</p>
+          <p>(3) with impairments that pose the greatest potential risk to aquatic health;</p>
+          <p>(4) where other public agencies and participating organizations and individuals, especially local, basinwide, watershed, or regional agencies or organizations, have demonstrated readiness to assist in carrying out the responsibilities, including availability and organization of human, technical, and financial resources necessary to undertake the work; and</p>
+          <p>(5) where there is demonstrated coordination and cooperation among cities, counties, watershed districts, and soil and water conservation districts in planning and implementation of activities that will assist in carrying out the responsibilities.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Priorities for restoring impaired waters.</h3>
+          <p>In implementing restoration of impaired waters, in addition to the priority considerations in subdivision 5, the Clean Water Council shall give priority in its recommendations for restoration funding from the clean water fund to restoration projects that:</p>
+          <p>(1) coordinate with and utilize existing local authorities and infrastructure for implementation;</p>
+          <p>(2) can be implemented in whole or in part by providing support for existing or ongoing restoration efforts;</p>
+          <p>(3) most effectively leverage other sources of restoration funding, including federal, state, local, and private sources of funds;</p>
+          <p>(4) show a high potential for early restoration and delisting based upon scientific data developed through public agency or citizen monitoring or other means; and</p>
+          <p>(5) show a high potential for long-term water quality and related conservation benefits.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Priorities for funding prevention actions.</h3>
+          <p>The Clean Water Council shall apply the priorities applicable under subdivision 6, as far as practicable, when recommending priorities for funding actions to prevent groundwater and surface waters from becoming degraded or impaired and to improve the quality of surface waters that are listed as impaired but do not have an approved TMDL.</p>
+        </div>
+        <h1 class="shn">114D.30 CLEAN WATER COUNCIL.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Creation; duties.</h3>
+          <p>A Clean Water Council is created to advise on the administration and implementation of this chapter, and foster coordination and cooperation as described in section <a href="/statutes/cite/114D.20#stat.114D.20.1">114D.20, subdivision 1</a>. The council may also advise on the development of appropriate processes for expert scientific review as described in section <a href="/statutes/cite/114D.35">114D.35</a>, subdivision 2. The Pollution Control Agency shall provide administrative support for the council with the support of other member agencies. The members of the council shall elect a chair from the voting members of the council.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Membership; appointment.</h3>
+          <p>(a) The commissioners of natural resources, agriculture, health, and the Pollution Control Agency, the executive director of the Board of Water and Soil Resources, the Board of Regents of the University of Minnesota, and the Metropolitan Council shall each appoint one person from their respective entity to serve as a nonvoting member of the council. Two members of the house of representatives, including one member from the majority party and one member from the minority party, appointed by the speaker and two senators, including one member from the majority party and one member from the minority party, appointed according to the rules of the senate shall serve at the pleasure of the appointing authority as nonvoting members of the council. Members appointed under this paragraph serve as nonvoting members of the council.</p>
+          <p>(b) Seventeen voting members of the council shall be appointed by the governor as follows:</p>
+          <p>(1) two members representing statewide farm organizations;</p>
+          <p>(2) two members representing business organizations;</p>
+          <p>(3) two members representing environmental organizations;</p>
+          <p>(4) one member representing soil and water conservation districts;</p>
+          <p>(5) one member representing watershed districts;</p>
+          <p>(6) one member representing nonprofit organizations focused on improvement of Minnesota lakes or streams;</p>
+          <p>(7) two members representing organizations of county governments, one member representing the interests of rural counties and one member representing the interests of counties in the seven-county metropolitan area;</p>
+          <p>(8) two members representing organizations of city governments;</p>
+          <p>(9) one member representing township officers;</p>
+          <p>(10) one member representing the interests of tribal governments;</p>
+          <p>(11) one member representing statewide hunting organizations; and</p>
+          <p>(12) one member representing statewide fishing organizations.</p>
+          <p class="bl">Members appointed under this paragraph must not be registered lobbyists or legislators. In making appointments, the governor must attempt to provide for geographic balance. The members of the council appointed by the governor are subject to the advice and consent of the senate.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Conflict of interest.</h3>
+          <p>A Clean Water Council member may not participate in or vote on a decision of the council relating to an organization in which the member has either a direct or indirect personal financial interest. While serving on the Clean Water Council, a member shall avoid any potential conflict of interest.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Terms; compensation; removal.</h3>
+          <p> The terms of members representing the state agencies and the Metropolitan Council are four years and are coterminous with the governor. The terms of other nonlegislative members of the council shall be as provided in section <a href="/statutes/cite/15.059">15.059</a>, subdivision 2. Members may serve until their successors are appointed and qualify. Compensation and removal of nonlegislative council members is as provided in section <a href="/statutes/cite/15.059">15.059</a>, subdivisions 3 and 4. Compensation of legislative members is as determined by the appointing authority. The Pollution Control Agency may reimburse legislative members for expenses. A vacancy on the council may be filled by the appointing authority provided in subdivision 1 for the remainder of the unexpired term.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Implementation plan.</h3>
+          <p class="in">The Clean Water Council shall recommend a plan for implementation of this chapter and the provisions of article XI, section 15, of the Minnesota Constitution relating to clean water. The recommended plan shall address general procedures and time frames for implementing this chapter, and shall include a more specific implementation work plan for the next fiscal biennium and a framework for setting priorities to address impaired waters consistent with section <a href="/statutes/cite/114D.20">114D.20</a>, subdivisions 2 to 7. The council shall issue a revised plan by December 1 of each even-numbered year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Recommended appropriations.</h3>
+          <p class="in">(a) The Clean Water Council shall recommend to the governor and the legislature the manner in which money from the clean water fund should be appropriated for the purposes stated in article XI, section 15, of the Minnesota Constitution and section <a href="/statutes/cite/114D.50">114D.50</a>.</p>
+          <p>(b) The council's recommendations must:</p>
+          <p>(1) be to protect, enhance, and restore water quality in lakes, rivers, and streams and to protect groundwater from degradation and ensure that at least five percent of the clean water fund is spent only to protect drinking water sources;</p>
+          <p>(2) be consistent with the purposes, policies, goals, and priorities in this chapter; and</p>
+          <p>(3) allocate adequate support and resources to identify degraded groundwater and impaired waters, develop TMDLs, implement restoration of groundwater and impaired waters, and provide assistance and incentives to prevent groundwater and surface waters from becoming degraded or impaired and improve the quality of surface waters which are listed as impaired but have no approved TMDL.</p>
+          <p>(c) The council must recommend methods of ensuring that awards of grants, loans, or other funds from the clean water fund specify the outcomes to be achieved as a result of the funding and specify standards to hold the recipient accountable for achieving the desired outcomes. Expenditures from the fund must be appropriated by law.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Biennial report to legislature.</h3>
+          <p>By December 1 of each even-numbered year, the council shall submit a report to the legislature on the activities for which money has been or will be spent for the current biennium, the activities for which money is recommended to be spent in the next biennium, and the impact on economic development of the implementation of efforts to protect and restore groundwater and the impaired waters program. The report due on December 1, 2014, must include an evaluation of the progress made through June 30, 2014, in implementing this chapter and the provisions of article XI, section 15, of the Minnesota Constitution relating to clean water, the need for funding of future implementation, and recommendations for the sources of funding.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

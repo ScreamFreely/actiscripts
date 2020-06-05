@@ -1,0 +1,1350 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:05:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 757 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 757</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 01/31/2019 04:21pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF0757&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF0757&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF0757&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF757&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF757&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/30/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0757&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0757&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <br/>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">2.34</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">3.33</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">4.33</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">5.33</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <br/>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <br/>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <br/>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <br/>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to the legislature; proposing an amendment to the Minnesota Constitution, <br/><span id="pl.1.3" class="pl"> </span>article IV; article VIII, sections 1 and 6; article IX, sections 1 and 2; article XI, <br/><span id="pl.1.4" class="pl"> </span>section 5; providing for a single-house legislature; providing by statute for a <br/><span id="pl.1.5" class="pl"> </span>legislature of 99 members; amending Minnesota Statutes 2018, sections 2.021; <br/><span id="pl.1.6" class="pl"> </span>2.031, subdivision 1.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.7" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section constitution" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.8" class="pl"> </span>Section 1. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">CONSTITUTIONAL AMENDMENTS PROPOSED.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.1.9" class="pl"> </span>An amendment to the Minnesota Constitution is proposed to the people. If the amendment <br/><span id="pl.1.10" class="pl"> </span>is adopted, article IV, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.1.11" class="pl"> </span>Section 1. </h2>
+        <p class="in">The legislature consists of the senate <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and house of representatives</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.1.12" class="pl"> </span>Sec. 2. </h2>
+        <p class="in">The number of members who compose the senate <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and house of representatives</span><span class="sr-only">deleted text end</span> <br/><span id="pl.1.13" class="pl"> </span>shall be prescribed by law. The representation <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">in both houses</span><span class="sr-only">deleted text end</span> shall be apportioned equally <br/><span id="pl.1.14" class="pl"> </span>throughout the different sections of the state in proportion to the population thereof.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.1.15" class="pl"> </span>Sec. 3. </h2>
+        <p class="in">At its first session after each enumeration of the inhabitants of this state made <br/><span id="pl.1.16" class="pl"> </span>by the authority of the United States, the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall have the power to prescribe <br/><span id="pl.1.17" class="pl"> </span>the bounds of congressional and legislative districts. Senators shall be chosen by single <br/><span id="pl.1.18" class="pl"> </span>districts of convenient contiguous territory. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">No representative district shall be divided in <br/><span id="pl.1.19" class="pl"> </span>the formation of a senate district.</span><span class="sr-only">deleted text end</span> The senate districts shall be numbered in a regular series.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.1.20" class="pl"> </span>Sec. 4. </h2>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Representatives shall be chosen for a term of two years, except to fill a vacancy.</span><span class="sr-only">deleted text end</span> <br/><span id="pl.1.21" class="pl"> </span>Senators shall be chosen for a term of four years, except to fill a vacancy and except there <br/><span id="pl.1.22" class="pl"> </span>shall be an entire new election of all the senators at the first election <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of representatives</span><span class="sr-only">deleted text end</span> after <br/><span id="pl.1.23" class="pl"> </span>each new legislative <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">apportionment</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> redistricting</ins><span class="sr-only">new text end</span> provided for in this article<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and the senators <br/><span id="pl.2.1" class="pl"> </span>chosen at that election from districts with odd numbers shall serve for an initial term of two <br/><span id="pl.2.2" class="pl"> </span>years</ins><span class="sr-only">new text end</span>. The governor shall call elections to fill vacancies in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">either house of</span><span class="sr-only">deleted text end</span> the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.2.3" class="pl"> </span>senate</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.2.4" class="pl"> </span>Sec. 5. </h2>
+        <p class="in">No senator <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or representative</span><span class="sr-only">deleted text end</span> shall hold any other office under the authority of <br/><span id="pl.2.5" class="pl"> </span>the United States or the state of Minnesota, except that of postmaster or of notary public. <br/><span id="pl.2.6" class="pl"> </span>If elected or appointed to another office, a <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislator</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senator</ins><span class="sr-only">new text end</span> may resign from the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.2.7" class="pl"> </span>senate</ins><span class="sr-only">new text end</span> by tendering his resignation to the governor.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.2.8" class="pl"> </span>Sec. 6. </h2>
+        <p class="in">Senators <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and representatives</span><span class="sr-only">deleted text end</span> shall be qualified voters of the state, and shall have <br/><span id="pl.2.9" class="pl"> </span>resided one year in the state and six months immediately preceding the election in the district <br/><span id="pl.2.10" class="pl"> </span>from which elected. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The senate</ins><span class="sr-only">new text end</span> shall be the judge of the election returns and <br/><span id="pl.2.11" class="pl"> </span>eligibility of its own members. The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall prescribe by law the manner for <br/><span id="pl.2.12" class="pl"> </span>taking evidence in cases of contested seats <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">in either house</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.2.13" class="pl"> </span>Sec. 7. </h2>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The senate</ins><span class="sr-only">new text end</span> may determine the rules of its proceedings, sit upon its <br/><span id="pl.2.14" class="pl"> </span>own adjournment, punish its members for disorderly behavior, and with the concurrence of <br/><span id="pl.2.15" class="pl"> </span>two-thirds expel a member; but no member shall be expelled a second time for the same <br/><span id="pl.2.16" class="pl"> </span>offense.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.2.17" class="pl"> </span>Sec. 8. </h2>
+        <p class="in">Each member and officer of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> before entering upon his duties <br/><span id="pl.2.18" class="pl"> </span>shall take an oath or affirmation to support the Constitution of the United States, the <br/><span id="pl.2.19" class="pl"> </span>constitution of this state, and to discharge faithfully the duties of his office to the best of <br/><span id="pl.2.20" class="pl"> </span>his judgment and ability.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.2.21" class="pl"> </span>Sec. 9. </h2>
+        <p class="in">The salary of senators <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and representatives</span><span class="sr-only">deleted text end</span> shall be prescribed by a council <br/><span id="pl.2.22" class="pl"> </span>consisting of the following members: one person who is not a judge from each congressional <br/><span id="pl.2.23" class="pl"> </span>district appointed by the chief justice of the Supreme Court, and one member from each <br/><span id="pl.2.24" class="pl"> </span>congressional district appointed by the governor. If Minnesota has an odd number of <br/><span id="pl.2.25" class="pl"> </span>congressional districts, the governor and the chief justice must each appoint an at-large <br/><span id="pl.2.26" class="pl"> </span>member in addition to a member from each congressional district. One-half of the members <br/><span id="pl.2.27" class="pl"> </span>appointed by the governor and one-half of the members appointed by the chief justice must <br/><span id="pl.2.28" class="pl"> </span>belong to the political party that has the most members in the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>. One-half <br/><span id="pl.2.29" class="pl"> </span>of the members appointed by the governor and one-half of the members appointed by the <br/><span id="pl.2.30" class="pl"> </span>chief justice must belong to the political party that has the second-most members in the <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.2.31" class="pl"> </span>legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>. None of the members of the council may be current or former legislators, <br/><span id="pl.2.32" class="pl"> </span>or the spouse of a current <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislator</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senator</ins><span class="sr-only">new text end</span>. None of the members of the council may be <br/><span id="pl.2.33" class="pl"> </span>current or former lobbyists registered under Minnesota law. None of the members of the <br/><span id="pl.2.34" class="pl"> </span>council may be a current employee of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>. None of the members of the <br/><span id="pl.3.1" class="pl"> </span>council may be a current or former judge. None of the members of the council may be a <br/><span id="pl.3.2" class="pl"> </span>current or former governor, lieutenant governor, attorney general, secretary of state, or state <br/><span id="pl.3.3" class="pl"> </span>auditor. None of the members of the council may be a current employee of an entity in the <br/><span id="pl.3.4" class="pl"> </span>executive or judicial branch. Membership terms, removal, and compensation of members <br/><span id="pl.3.5" class="pl"> </span>shall be as provided by law. The council must prescribe salaries by March 31 of each <br/><span id="pl.3.6" class="pl"> </span>odd-numbered year, taking into account any other legislative compensation provided to <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.7" class="pl"> </span>legislators</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senators</ins><span class="sr-only">new text end</span> by the state of Minnesota, with any changes in salary to take effect on <br/><span id="pl.3.8" class="pl"> </span>July 1 of that year. Any salary increase for <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislators</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senators</ins><span class="sr-only">new text end</span> authorized in law <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">by the <br/><span id="pl.3.9" class="pl"> </span>legislature</span><span class="sr-only">deleted text end</span> after January 5, 2015, is repealed.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.10" class="pl"> </span>Sec. 10. </h2>
+        <p class="in">The members of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> in all cases except treason, felony and <br/><span id="pl.3.11" class="pl"> </span>breach of the peace, shall be privileged from arrest during the session <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of their respective <br/><span id="pl.3.12" class="pl"> </span>houses</span><span class="sr-only">deleted text end</span> and in going to or returning from the same. For any speech or debate in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">either house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.3.13" class="pl"> </span>the senate</ins><span class="sr-only">new text end</span> they shall not be questioned in any other place.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.14" class="pl"> </span>Sec. 11. </h2>
+        <p class="in">Two or more members of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">either house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> may dissent and protest against <br/><span id="pl.3.15" class="pl"> </span>any act or resolution which they think injurious to the public or to any individual and have <br/><span id="pl.3.16" class="pl"> </span>the reason of their dissent entered in the journal.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.17" class="pl"> </span>Sec. 12. </h2>
+        <p class="in">The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall meet at the seat of government in regular session <br/><span id="pl.3.18" class="pl"> </span>in each biennium at the times prescribed by law for not exceeding a total of 120 legislative <br/><span id="pl.3.19" class="pl"> </span>days. The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall not meet in regular session, nor in any adjournment thereof, <br/><span id="pl.3.20" class="pl"> </span>after the first Monday following the third Saturday in May of any year. After meeting at a <br/><span id="pl.3.21" class="pl"> </span>time prescribed by law, the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> may adjourn to another time. "Legislative <br/><span id="pl.3.22" class="pl"> </span>day" shall be defined by law. A special session of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> may be called by <br/><span id="pl.3.23" class="pl"> </span>the governor on extraordinary occasions.<br/></p>
+        <p class="in">
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.3.24" class="pl"> </span>Neither house during a session of the legislature shall adjourn for more than three days <br/><span id="pl.3.25" class="pl"> </span>(Sundays excepted) nor to any other place than that in which the two houses shall be <br/><span id="pl.3.26" class="pl"> </span>assembled without the consent of the other house.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.27" class="pl"> </span>Sec. 13. </h2>
+        <p class="in">A majority of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> constitutes a quorum to transact business, <br/><span id="pl.3.28" class="pl"> </span>but a smaller number may adjourn from day to day and compel the attendance of absent <br/><span id="pl.3.29" class="pl"> </span>members in the manner and under the penalties it may provide.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.30" class="pl"> </span>Sec. 14. </h2>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The senate</ins><span class="sr-only">new text end</span> shall be open to the public during its sessions except <br/><span id="pl.3.31" class="pl"> </span>in cases which in its opinion require secrecy.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.3.32" class="pl"> </span>Sec. 15. </h2>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The senate</ins><span class="sr-only">new text end</span> shall elect its presiding officer and other officers as <br/><span id="pl.3.33" class="pl"> </span>may be provided by law. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Both houses</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> It</ins><span class="sr-only">new text end</span> shall keep journals of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">their</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> its</ins><span class="sr-only">new text end</span> proceedings, and <br/><span id="pl.4.1" class="pl"> </span>from time to time publish the same, and the yeas and nays, when taken on any question, <br/><span id="pl.4.2" class="pl"> </span>shall be entered in the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">journals</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> journal</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.3" class="pl"> </span>Sec. 16. </h2>
+        <p class="in">In all elections by the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> members shall vote viva voce and their <br/><span id="pl.4.4" class="pl"> </span>votes shall be entered in the journal.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.5" class="pl"> </span>Sec. 17. </h2>
+        <p class="in">No law shall embrace more than one subject, which shall be expressed in its <br/><span id="pl.4.6" class="pl"> </span>title.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.7" class="pl"> </span>Sec. 18. </h2>
+        <p class="in">
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del">All bills for raising revenue shall originate in the house of representatives, but <br/><span id="pl.4.8" class="pl"> </span>the senate may propose and concur with the amendments as on other bills.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.9" class="pl"> </span>Sec. 19. </h2>
+        <p class="in">Every bill shall be reported on three different days in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span>, <br/><span id="pl.4.10" class="pl"> </span>unless, in case of urgency, two-thirds of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">house where the bill is pending</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> deem it <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.11" class="pl"> </span>expedient</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> necessary</ins><span class="sr-only">new text end</span> to dispense with this rule.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.12" class="pl"> </span>Sec. 20. </h2>
+        <p class="in">Every bill passed by <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">both houses</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> shall be enrolled and signed by the <br/><span id="pl.4.13" class="pl"> </span>presiding officer <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of each house</span><span class="sr-only">deleted text end</span>. Any presiding officer refusing to sign a bill passed <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">by both <br/><span id="pl.4.14" class="pl"> </span>houses</span><span class="sr-only">deleted text end</span> shall thereafter be disqualified from any office of honor or profit in the state. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each <br/><span id="pl.4.15" class="pl"> </span>house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The senate</ins><span class="sr-only">new text end</span> by rule shall provide the manner in which a bill shall be certified for <br/><span id="pl.4.16" class="pl"> </span>presentation to the governor in case of such refusal.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.17" class="pl"> </span>Sec. 21. </h2>
+        <p class="in">No bill shall be passed <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">by either house</span><span class="sr-only">deleted text end</span> upon the day prescribed for adjournment. <br/><span id="pl.4.18" class="pl"> </span>This section shall not preclude the enrollment of a bill or its transmittal <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">from one house to <br/><span id="pl.4.19" class="pl"> </span>the other or</span><span class="sr-only">deleted text end</span> to the executive for his signature.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.20" class="pl"> </span>Sec. 22. </h2>
+        <p class="in">The style of all laws of this state shall be: "Be it enacted by the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.4.21" class="pl"> </span>senate</ins><span class="sr-only">new text end</span> of the state of Minnesota." No law shall be passed unless voted for by a majority of <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.22" class="pl"> </span>all the members elected to each house of</span><span class="sr-only">deleted text end</span> the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>, and the vote entered in the <br/><span id="pl.4.23" class="pl"> </span>journal of each house.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.4.24" class="pl"> </span>Sec. 23. </h2>
+        <p class="in">Every bill passed in conformity to the rules <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of each house and the joint rules</span><span class="sr-only">deleted text end</span> <br/><span id="pl.4.25" class="pl"> </span>of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">two houses</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall be presented to the governor. If he approves a bill, he shall <br/><span id="pl.4.26" class="pl"> </span>sign it, deposit it in the office of the secretary of state and notify the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">house in which it <br/><span id="pl.4.27" class="pl"> </span>originated</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> of that fact. If he vetoes a bill, he shall return it with his objections to the <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.28" class="pl"> </span>house in which it originated</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>. His objections shall be entered in the journal. If, after <br/><span id="pl.4.29" class="pl"> </span>reconsideration, two-thirds of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">that house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> agree to pass the bill, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">it shall be sent, <br/><span id="pl.4.30" class="pl"> </span>together with the governor's objections, to the other house, which shall likewise reconsider <br/><span id="pl.4.31" class="pl"> </span>it. If approved by two-thirds of that house</span><span class="sr-only">deleted text end</span> it becomes a law and shall be deposited in the <br/><span id="pl.4.32" class="pl"> </span>office of the secretary of state. In such cases the votes <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of both houses</span><span class="sr-only">deleted text end</span> shall be determined <br/><span id="pl.4.33" class="pl"> </span>by yeas and nays, and the names of the persons voting for or against the bill shall be entered <br/><span id="pl.5.1" class="pl"> </span>in the journal <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of each house</span><span class="sr-only">deleted text end</span>. Any bill not returned by the governor within three days (Sundays <br/><span id="pl.5.2" class="pl"> </span>excepted) after it is presented to him becomes a law as if he had signed it, unless the <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.5.3" class="pl"> </span>legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> by adjournment within that time prevents its return. Any bill passed during <br/><span id="pl.5.4" class="pl"> </span>the last three days of a session may be presented to the governor during the three days <br/><span id="pl.5.5" class="pl"> </span>following the day of final adjournment and becomes law if the governor signs and deposits <br/><span id="pl.5.6" class="pl"> </span>it in the office of the secretary of state within 14 days after the adjournment of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.5.7" class="pl"> </span>senate</ins><span class="sr-only">new text end</span>. Any bill passed during the last three days of the session which is not signed and <br/><span id="pl.5.8" class="pl"> </span>deposited within 14 days after adjournment does not become a law.<br/></p>
+        <p class="in"><span id="pl.5.9" class="pl"> </span>If a bill presented to the governor contains several items of appropriation of money, he <br/><span id="pl.5.10" class="pl"> </span>may veto one or more of the items while approving the bill. At the time he signs the bill the <br/><span id="pl.5.11" class="pl"> </span>governor shall append to it a statement of the items he vetoes and the vetoed items shall not <br/><span id="pl.5.12" class="pl"> </span>take effect. If the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> is in session, he shall transmit to the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">house in which the <br/><span id="pl.5.13" class="pl"> </span>bill originated</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> a copy of the statement, and the items vetoed shall be separately <br/><span id="pl.5.14" class="pl"> </span>reconsidered. If on reconsideration any item is approved by two-thirds of the members <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.5.15" class="pl"> </span>elected to each house</span><span class="sr-only">deleted text end</span>, it is a part of the law notwithstanding the objections of the governor.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.5.16" class="pl"> </span>Sec. 24. </h2>
+        <p class="in">Each order, resolution or vote <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">requiring the concurrence of the two houses</span><span class="sr-only">deleted text end</span> <br/><span id="pl.5.17" class="pl"> </span>except such as relate to the business or adjournment of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> shall be <br/><span id="pl.5.18" class="pl"> </span>presented to the governor and is subject to his veto as prescribed in case of a bill.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.5.19" class="pl"> </span>Sec. 25. </h2>
+        <p class="in">During a session <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the senate</ins><span class="sr-only">new text end</span> may punish by imprisonment for not <br/><span id="pl.5.20" class="pl"> </span>more than 24 hours any person not a member who is guilty of any disorderly or contemptuous <br/><span id="pl.5.21" class="pl"> </span>behavior in its presence.<br/></p>
+      </div>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.5.22" class="pl"> </span>Sec. 26. </h2>
+        <p class="in">Passage of a general banking law requires the vote of two-thirds of the members <br/><span id="pl.5.23" class="pl"> </span>of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house of</span><span class="sr-only">deleted text end</span> the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.24" class="pl"> </span>article VIII, section 1, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.5.25" class="pl"> </span>Section 1. </h2>
+        <p class="in">The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">house of representatives</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> has the sole power of impeachment <br/><span id="pl.5.26" class="pl"> </span>through a concurrence of a majority of all its members. All impeachments shall be tried by <br/><span id="pl.5.27" class="pl"> </span>the senate. When sitting for that purpose, senators shall be upon oath or affirmation to do <br/><span id="pl.5.28" class="pl"> </span>justice according to law and evidence. No person shall be convicted without the concurrence <br/><span id="pl.5.29" class="pl"> </span>of two-thirds of the senators present.<br/></p>
+      </div>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.30" class="pl"> </span>article VIII, section 6, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.5.31" class="pl"> </span>Sec. 6. </h2>
+        <p class="in">A member of the senate <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or the house of representatives</span><span class="sr-only">deleted text end</span>, an executive officer of <br/><span id="pl.5.32" class="pl"> </span>the state identified in section 1 of article V of the constitution, or a judge of the supreme <br/><span id="pl.5.33" class="pl"> </span>court, the court of appeals, or a district court is subject to recall from office by the voters. <br/><span id="pl.6.1" class="pl"> </span>The grounds for recall of a judge shall be established by the supreme court. The grounds <br/><span id="pl.6.2" class="pl"> </span>for recall of an officer other than a judge are serious malfeasance or nonfeasance during the <br/><span id="pl.6.3" class="pl"> </span>term of office in the performance of the duties of the office or conviction during the term <br/><span id="pl.6.4" class="pl"> </span>of office of a serious crime. A petition for recall must set forth the specific conduct that <br/><span id="pl.6.5" class="pl"> </span>may warrant recall. A petition may not be issued until the supreme court has determined <br/><span id="pl.6.6" class="pl"> </span>that the facts alleged in the petition are true and are sufficient grounds for issuing a recall <br/><span id="pl.6.7" class="pl"> </span>petition. A petition must be signed by a number of eligible voters who reside in the district <br/><span id="pl.6.8" class="pl"> </span>where the officer serves and who number not less than 25 percent of the number of votes <br/><span id="pl.6.9" class="pl"> </span>cast for the office at the most recent general election. Upon a determination by the secretary <br/><span id="pl.6.10" class="pl"> </span>of state that a petition has been signed by at least the minimum number of eligible voters, <br/><span id="pl.6.11" class="pl"> </span>a recall election must be conducted in the manner provided by law. A recall election may <br/><span id="pl.6.12" class="pl"> </span>not occur less than six months before the end of the officer's term. An officer who is removed <br/><span id="pl.6.13" class="pl"> </span>from office by a recall election or who resigns from office after a petition for recall issues <br/><span id="pl.6.14" class="pl"> </span>may not be appointed to fill the vacancy that is created.<br/></p>
+      </div>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.15" class="pl"> </span>article IX, section 1, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.6.16" class="pl"> </span>Section 1. </h2>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">A majority</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Three-fifths</ins><span class="sr-only">new text end</span> of the members elected to <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house of</span><span class="sr-only">deleted text end</span> the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.6.17" class="pl"> </span>senate</ins><span class="sr-only">new text end</span> may propose amendments to this constitution. Proposed amendments shall be <br/><span id="pl.6.18" class="pl"> </span>published with the laws passed at the same session and submitted to the people for their <br/><span id="pl.6.19" class="pl"> </span>approval or rejection at a general election. If a majority of all the electors voting at the <br/><span id="pl.6.20" class="pl"> </span>election vote to ratify an amendment, it becomes a part of this constitution. If two or more <br/><span id="pl.6.21" class="pl"> </span>amendments are submitted at the same time, voters shall vote for or against each separately.<br/></p>
+      </div>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.22" class="pl"> </span>article IX, section 2, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.6.23" class="pl"> </span>Sec. 2. </h2>
+        <p class="in">Two-thirds of the members elected to <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">each house of</span><span class="sr-only">deleted text end</span> the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> may <br/><span id="pl.6.24" class="pl"> </span>submit to the electors at the next general election the question of calling a convention to <br/><span id="pl.6.25" class="pl"> </span>revise this constitution. If a majority of all the electors voting at the election vote for a <br/><span id="pl.6.26" class="pl"> </span>convention, the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> at its next session, shall provide by law for calling the <br/><span id="pl.6.27" class="pl"> </span>convention. The convention shall consist of as many delegates as there are members of the <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.6.28" class="pl"> </span>house of representatives</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>. Delegates shall be chosen in the same manner as members <br/><span id="pl.6.29" class="pl"> </span>of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">house of representatives</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span> and shall meet within three months after their election. <br/><span id="pl.6.30" class="pl"> </span>Section 5 of Article IV of the constitution does not apply to election to the convention.<br/></p>
+      </div>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.31" class="pl"> </span>article XI, section 5, will read:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="const_section" id="bill.0.1.0">
+        <h2 class="section_number"><span id="pl.6.32" class="pl"> </span>Sec. 5. </h2>
+        <p class="in">Public debt may be contracted and works of internal improvements carried on <br/><span id="pl.6.33" class="pl"> </span>for the following purposes:<br/></p>
+        <p class="in"><span id="pl.7.1" class="pl"> </span>(a) to acquire and to better public land and buildings and other public improvements of <br/><span id="pl.7.2" class="pl"> </span>a capital nature and to provide money to be appropriated or loaned to any agency or political <br/><span id="pl.7.3" class="pl"> </span>subdivision of the state for such purposes if the law authorizing the debt is adopted by the <br/><span id="pl.7.4" class="pl"> </span>vote of at least three-fifths of the members <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">of each house</span><span class="sr-only">deleted text end</span> of the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">legislature</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> senate</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p class="in"><span id="pl.7.5" class="pl"> </span>(b) to repel invasion or suppress insurrection;<br/></p>
+        <p class="in"><span id="pl.7.6" class="pl"> </span>(c) to borrow temporarily as authorized in section 6;<br/></p>
+        <p class="in"><span id="pl.7.7" class="pl"> </span>(d) to refund outstanding bonds of the state or any of its agencies whether or not the full <br/><span id="pl.7.8" class="pl"> </span>faith and credit of the state has been pledged for the payment of the bonds;<br/></p>
+        <p class="in"><span id="pl.7.9" class="pl"> </span>(e) to establish and maintain highways subject to the limitations of article XIV;<br/></p>
+        <p class="in"><span id="pl.7.10" class="pl"> </span>(f) to promote forestation and prevent and abate forest fires, including the compulsory <br/><span id="pl.7.11" class="pl"> </span>clearing and improving of wild lands whether public or private;<br/></p>
+        <p class="in"><span id="pl.7.12" class="pl"> </span>(g) to construct, improve and operate airports and other air navigation facilities;<br/></p>
+        <p class="in"><span id="pl.7.13" class="pl"> </span>(h) to develop the state's agricultural resources by extending credit on real estate security <br/><span id="pl.7.14" class="pl"> </span>in the manner and on the terms and conditions prescribed by law;<br/></p>
+        <p class="in"><span id="pl.7.15" class="pl"> </span>(i) to improve and rehabilitate railroad rights-of-way and other rail facilities whether <br/><span id="pl.7.16" class="pl"> </span>public or private, provided that bonds issued and unpaid shall not at any time exceed <br/><span id="pl.7.17" class="pl"> </span>$200,000,000 par value; and<br/></p>
+        <p class="in"><span id="pl.7.18" class="pl"> </span>(j) as otherwise authorized in this constitution.<br/></p>
+        <p class="in"><span id="pl.7.19" class="pl"> </span>As authorized by law political subdivisions may engage in the works permitted by (f), <br/><span id="pl.7.20" class="pl"> </span>(g), and (i) and contract debt therefor.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section constitution" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.7.21" class="pl"> </span>Sec. 2. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">SUBMISSION TO VOTERS.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.7.22" class="pl"> </span>The proposed amendment must be submitted to the people at the 2020 general election <br/><span id="pl.7.23" class="pl"> </span>and, if approved, shall be effective for members of the legislature whose terms begin the <br/><span id="pl.7.24" class="pl"> </span>first Monday in January 2025. The question submitted must be:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="in">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> <span id="pl.7.25" class="pl"> </span>"Shall the Minnesota Constitution be amended to provide that the Minnesota House of <br/><span id="pl.7.26" class="pl"> </span>Representatives and Senate be combined and a single legislative body be created, beginning <br/><span id="pl.7.27" class="pl"> </span>in 2025?<br/> </ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <table>
+        <col style="width:61.5384615384615%"/>
+        <col style="width:19.2307692307692%"/>
+        <col style="width:19.2307692307692%"/>
+        <tr>
+          <td/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">
+              <span id="pl.7.28" class="pl"> </span>
+              <span>Yes </span>
+              <span class="leader_test">.</span>
+              <br/>
+            </ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td/>
+        </tr>
+        <tr>
+          <td/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">
+              <span id="pl.7.29" class="pl"> </span>
+              <span>No </span>
+              <span class="leader_test">.</span>
+              <br/>
+            </ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">"<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.8.1" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 2.021, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.8.2" class="pl"> </span>2.021 NUMBER OF MEMBERS.<br/></h1>
+      <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.3" class="pl"> </span>For each legislature, until a new apportionment shall have been made,</span><span class="sr-only">deleted text end</span> The senate is <br/><span id="pl.8.4" class="pl"> </span>composed of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">67</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 99</ins><span class="sr-only">new text end</span> members <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and the house of representatives is composed of 134 members</span><span class="sr-only">deleted text end</span>.<br/></p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.8.5" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 2.031, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.8.6" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Legislative districts.</h3>
+        <p>The representatives in the senate <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and house of <br/><span id="pl.8.7" class="pl"> </span>representatives</span><span class="sr-only">deleted text end</span> are apportioned throughout the state in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">67</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 99</ins><span class="sr-only">new text end</span> senate districts <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and 134 house <br/><span id="pl.8.8" class="pl"> </span>of representatives districts</span><span class="sr-only">deleted text end</span>. Each senate district is entitled to elect one senator <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and each <br/><span id="pl.8.9" class="pl"> </span>house of representatives district is entitled to elect one representative</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section eff_date" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.8.10" class="pl"> </span>Sec. 5. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">EFFECTIVE DATE.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p class="in">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> <span id="pl.8.11" class="pl"> </span>If the amendment proposed in section 1 is adopted, sections 3 and 4 are effective for <br/><span id="pl.8.12" class="pl"> </span>members of the senate whose terms begin the first Monday in January 2025.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

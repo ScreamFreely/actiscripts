@@ -1,0 +1,2540 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:58:08 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2262 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2262</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/11/2019 04:05pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2262&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2262&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2262&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2262&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2262&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/08/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2262&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2262&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <br/>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <br/>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <br/>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">2.34</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">3.33</var>
+    <var class="ln">3.34</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">4.33</var>
+    <var class="ln">4.34</var>
+    <var class="ln">4.35</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <br/>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">5.33</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <br/>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <var class="ln">6.34</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <var class="ln">7.34</var>
+    <var class="ln">7.35</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">8.34</var>
+    <var class="ln">8.35</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <br/>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">9.33</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">10.33</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <br/>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <var class="ln">11.32</var>
+    <var class="ln">11.33</var>
+    <var class="ln">11.34</var>
+    <var class="ln">11.35</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <var class="ln">12.28</var>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <var class="ln">12.31</var>
+    <var class="ln">12.32</var>
+    <var class="ln">12.33</var>
+    <var class="ln">12.34</var>
+    <var class="ln">12.35</var>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+    <var class="ln">13.15</var>
+    <var class="ln">13.16</var>
+    <var class="ln">13.17</var>
+    <var class="ln">13.18</var>
+    <var class="ln">13.19</var>
+    <var class="ln">13.20</var>
+    <var class="ln">13.21</var>
+    <var class="ln">13.22</var>
+    <var class="ln">13.23</var>
+    <var class="ln">13.24</var>
+    <var class="ln">13.25</var>
+    <var class="ln">13.26</var>
+    <var class="ln">13.27</var>
+    <var class="ln">13.28</var>
+    <var class="ln">13.29</var>
+    <var class="ln">13.30</var>
+    <var class="ln">13.31</var>
+    <var class="ln">13.32</var>
+    <var class="ln">13.33</var>
+    <var class="ln">13.34</var>
+    <var class="ln">13.35</var>
+    <var class="ln">14.1</var>
+    <var class="ln">14.2</var>
+    <var class="ln">14.3</var>
+    <var class="ln">14.4</var>
+    <var class="ln">14.5</var>
+    <var class="ln">14.6</var>
+    <var class="ln">14.7</var>
+    <var class="ln">14.8</var>
+    <var class="ln">14.9</var>
+    <var class="ln">14.10</var>
+    <var class="ln">14.11</var>
+    <var class="ln">14.12</var>
+    <var class="ln">14.13</var>
+    <var class="ln">14.14</var>
+    <var class="ln">14.15</var>
+    <var class="ln">14.16</var>
+    <var class="ln">14.17</var>
+    <var class="ln">14.18</var>
+    <var class="ln">14.19</var>
+    <var class="ln">14.20</var>
+    <var class="ln">14.21</var>
+    <var class="ln">14.22</var>
+    <var class="ln">14.23</var>
+    <var class="ln">14.24</var>
+    <var class="ln">14.25</var>
+    <var class="ln">14.26</var>
+    <var class="ln">14.27</var>
+    <var class="ln">14.28</var>
+    <var class="ln">14.29</var>
+    <var class="ln">14.30</var>
+    <var class="ln">14.31</var>
+    <var class="ln">14.32</var>
+    <var class="ln">14.33</var>
+    <var class="ln">14.34</var>
+    <var class="ln">14.35</var>
+    <var class="ln">15.1</var>
+    <var class="ln">15.2</var>
+    <var class="ln">15.3</var>
+    <var class="ln">15.4</var>
+    <var class="ln">15.5</var>
+    <var class="ln">15.6</var>
+    <var class="ln">15.7</var>
+    <var class="ln">15.8</var>
+    <var class="ln">15.9</var>
+    <var class="ln">15.10</var>
+    <var class="ln">15.11</var>
+    <var class="ln">15.12</var>
+    <var class="ln">15.13</var>
+    <var class="ln">15.14</var>
+    <var class="ln">15.15</var>
+    <var class="ln">15.16</var>
+    <var class="ln">15.17</var>
+    <var class="ln">15.18</var>
+    <var class="ln">15.19</var>
+    <var class="ln">15.20</var>
+    <var class="ln">15.21</var>
+    <var class="ln">15.22</var>
+    <var class="ln">15.23</var>
+    <var class="ln">15.24</var>
+    <var class="ln">15.25</var>
+    <var class="ln">15.26</var>
+    <var class="ln">15.27</var>
+    <var class="ln">15.28</var>
+    <var class="ln">15.29</var>
+    <var class="ln">15.30</var>
+    <var class="ln">15.31</var>
+    <var class="ln">15.32</var>
+    <var class="ln">15.33</var>
+    <var class="ln">15.34</var>
+    <var class="ln">16.1</var>
+    <var class="ln">16.2</var>
+    <var class="ln">16.3</var>
+    <var class="ln">16.4</var>
+    <var class="ln">16.5</var>
+    <var class="ln">16.6</var>
+    <var class="ln">16.7</var>
+    <var class="ln">16.8</var>
+    <var class="ln">16.9</var>
+    <var class="ln">16.10</var>
+    <var class="ln">16.11</var>
+    <var class="ln">16.12</var>
+    <var class="ln">16.13</var>
+    <var class="ln">16.14</var>
+    <var class="ln">16.15</var>
+    <var class="ln">16.16</var>
+    <var class="ln">16.17</var>
+    <var class="ln">16.18</var>
+    <var class="ln">16.19</var>
+    <var class="ln">16.20</var>
+    <br/>
+    <var class="ln">16.21</var>
+    <var class="ln">16.22</var>
+    <var class="ln">16.23</var>
+    <var class="ln">16.24</var>
+    <var class="ln">16.25</var>
+    <var class="ln">16.26</var>
+    <var class="ln">16.27</var>
+    <var class="ln">16.28</var>
+    <var class="ln">16.29</var>
+    <var class="ln">16.30</var>
+    <var class="ln">16.31</var>
+    <var class="ln">16.32</var>
+    <var class="ln">17.1</var>
+    <var class="ln">17.2</var>
+    <var class="ln">17.3</var>
+    <var class="ln">17.4</var>
+    <var class="ln">17.5</var>
+    <var class="ln">17.6</var>
+    <var class="ln">17.7</var>
+    <var class="ln">17.8</var>
+    <var class="ln">17.9</var>
+    <var class="ln">17.10</var>
+    <var class="ln">17.11</var>
+    <var class="ln">17.12</var>
+    <var class="ln">17.13</var>
+    <var class="ln">17.14</var>
+    <var class="ln">17.15</var>
+    <var class="ln">17.16</var>
+    <var class="ln">17.17</var>
+    <var class="ln">17.18</var>
+    <var class="ln">17.19</var>
+    <var class="ln">17.20</var>
+    <var class="ln">17.21</var>
+    <var class="ln">17.22</var>
+    <var class="ln">17.23</var>
+    <var class="ln">17.24</var>
+    <var class="ln">17.25</var>
+    <var class="ln">17.26</var>
+    <var class="ln">17.27</var>
+    <var class="ln">17.28</var>
+    <var class="ln">17.29</var>
+    <var class="ln">17.30</var>
+    <var class="ln">17.31</var>
+    <var class="ln">17.32</var>
+    <var class="ln">17.33</var>
+    <var class="ln">18.1</var>
+    <var class="ln">18.2</var>
+    <var class="ln">18.3</var>
+    <var class="ln">18.4</var>
+    <var class="ln">18.5</var>
+    <var class="ln">18.6</var>
+    <var class="ln">18.7</var>
+    <var class="ln">18.8</var>
+    <var class="ln">18.9</var>
+    <var class="ln">18.10</var>
+    <br/>
+    <var class="ln">18.11</var>
+    <var class="ln">18.12</var>
+    <var class="ln">18.13</var>
+    <var class="ln">18.14</var>
+    <var class="ln">18.15</var>
+    <var class="ln">18.16</var>
+    <var class="ln">18.17</var>
+    <var class="ln">18.18</var>
+    <var class="ln">18.19</var>
+    <var class="ln">18.20</var>
+    <var class="ln">18.21</var>
+    <var class="ln">18.22</var>
+    <var class="ln">18.23</var>
+    <var class="ln">18.24</var>
+    <var class="ln">18.25</var>
+    <var class="ln">18.26</var>
+    <var class="ln">18.27</var>
+    <var class="ln">18.28</var>
+    <var class="ln">18.29</var>
+    <var class="ln">18.30</var>
+    <var class="ln">18.31</var>
+    <var class="ln">18.32</var>
+    <var class="ln">18.33</var>
+    <var class="ln">19.1</var>
+    <var class="ln">19.2</var>
+    <var class="ln">19.3</var>
+    <var class="ln">19.4</var>
+    <var class="ln">19.5</var>
+    <var class="ln">19.6</var>
+    <var class="ln">19.7</var>
+    <var class="ln">19.8</var>
+    <var class="ln">19.9</var>
+    <br/>
+    <var class="ln">19.10</var>
+    <var class="ln">19.11</var>
+    <var class="ln">19.12</var>
+    <var class="ln">19.13</var>
+    <var class="ln">19.14</var>
+    <var class="ln">19.15</var>
+    <var class="ln">19.16</var>
+    <var class="ln">19.17</var>
+    <var class="ln">19.18</var>
+    <var class="ln">19.19</var>
+    <var class="ln">19.20</var>
+    <var class="ln">19.21</var>
+    <var class="ln">19.22</var>
+    <var class="ln">19.23</var>
+    <var class="ln">19.24</var>
+    <var class="ln">19.25</var>
+    <var class="ln">19.26</var>
+    <var class="ln">19.27</var>
+    <var class="ln">19.28</var>
+    <var class="ln">19.29</var>
+    <var class="ln">19.30</var>
+    <var class="ln">19.31</var>
+    <var class="ln">19.32</var>
+    <var class="ln">19.33</var>
+    <var class="ln">19.34</var>
+    <var class="ln">20.1</var>
+    <var class="ln">20.2</var>
+    <var class="ln">20.3</var>
+    <var class="ln">20.4</var>
+    <var class="ln">20.5</var>
+    <var class="ln">20.6</var>
+    <var class="ln">20.7</var>
+    <var class="ln">20.8</var>
+    <var class="ln">20.9</var>
+    <var class="ln">20.10</var>
+    <br/>
+    <var class="ln">20.11</var>
+    <var class="ln">20.12</var>
+    <var class="ln">20.13</var>
+    <var class="ln">20.14</var>
+    <var class="ln">20.15</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to clean water; appropriating money from the clean water fund.<br/> </p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.3" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section appropriations" id="bill.0.1.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="7">
+            <h2 class="section_number"><span id="pl.1.4" class="pl"> </span>Section 1. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">CLEAN WATER FUND APPROPRIATIONS.<br/></ins><span class="sr-only">new text end</span> </span></h2>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.1.5" class="pl"> </span>The sums shown in the columns marked "Appropriations" are appropriated to the agencies <br/><span id="pl.1.6" class="pl"> </span>and for the purposes specified in this act. The appropriations are from the clean water fund <br/><span id="pl.1.7" class="pl"> </span>and are available for the fiscal years indicated for allowable activities under the Minnesota <br/><span id="pl.1.8" class="pl"> </span>Constitution, article XI, section 15. The figures "2020" and "2021" used in this act mean <br/><span id="pl.1.9" class="pl"> </span>that the appropriations listed under them are available for the fiscal year ending June 30, <br/><span id="pl.1.10" class="pl"> </span>2020, or June 30, 2021, respectively. "The first year" is fiscal year 2020. "The second year" <br/><span id="pl.1.11" class="pl"> </span>is fiscal year 2021. "The biennium" is fiscal years 2020 and 2021. The appropriations in <br/><span id="pl.1.12" class="pl"> </span>this act are onetime.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td/>
+          <td/>
+          <td/>
+          <td colspan="4" style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.1.13" class="pl"> </span>APPROPRIATIONS<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td/>
+          <td/>
+          <td colspan="4" style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.1.14" class="pl"> </span>Available for the Year<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td/>
+          <td/>
+          <td colspan="4" style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.1.15" class="pl"> </span>Ending June 30<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.1.16" class="pl"> </span>2020<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td/>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">2021<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.2.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.1.17" class="pl"> </span>Sec. 2. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">CLEAN WATER<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;"/>
+          <td style="text-align: right;"/>
+          <td style="text-align: center;"/>
+          <td style="text-align: right;"/>
+        </tr>
+      </table>
+      <div class="subd" id="bill.0.2.1">
+        <table class="border_none">
+          <col style="width:33.0769230769231%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <tr>
+            <td colspan="3">
+              <h2 class="subd_no">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline"><span id="pl.1.18" class="pl"> </span>Subdivision 1.</ins>
+                <span class="sr-only">new text end</span>
+              </h2>
+              <h3 class="headnote">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">Total Appropriation<br/></ins>
+                <span class="sr-only">new text end</span>
+              </h3>
+            </td>
+            <td style="text-align: center;">
+              <b>
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">$<br/></ins>
+                <span class="sr-only">new text end</span>
+              </b>
+            </td>
+            <td style="text-align: right;">
+              <b>
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">134,113,000<br/></ins>
+                <span class="sr-only">new text end</span>
+              </b>
+            </td>
+            <td style="text-align: center;">
+              <b>
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">$<br/></ins>
+                <span class="sr-only">new text end</span>
+              </b>
+            </td>
+            <td style="text-align: right;">
+              <b>
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">128,596,000<br/></ins>
+                <span class="sr-only">new text end</span>
+              </b>
+            </td>
+          </tr>
+        </table>
+        <p class="rider">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.19" class="pl"> </span>The amounts that may be spent for each <br/><span id="pl.1.20" class="pl"> </span>purpose are specified in the following sections.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.2.2">
+        <table>
+          <col style="width:33.0769230769231%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <tr>
+            <td colspan="3">
+              <h2 class="subd_no">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline"><span id="pl.1.21" class="pl"> </span>Subd. 2.</ins>
+                <span class="sr-only">new text end</span>
+              </h2>
+              <h3 class="headnote">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">Availability of Appropriation<br/></ins>
+                <span class="sr-only">new text end</span>
+              </h3>
+            </td>
+            <td style="text-align: center;"/>
+            <td style="text-align: right;"/>
+            <td style="text-align: center;"/>
+            <td style="text-align: right;"/>
+          </tr>
+        </table>
+        <p class="rider">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.1" class="pl"> </span>Money appropriated in this act may not be <br/><span id="pl.2.2" class="pl"> </span>spent on activities unless they are directly <br/><span id="pl.2.3" class="pl"> </span>related to and necessary for a specific <br/><span id="pl.2.4" class="pl"> </span>appropriation. Money appropriated in this act <br/><span id="pl.2.5" class="pl"> </span>must be spent in accordance with Minnesota <br/><span id="pl.2.6" class="pl"> </span>Management and Budget's Guidance to <br/><span id="pl.2.7" class="pl"> </span>Agencies on Legacy Fund Expenditure. <br/><span id="pl.2.8" class="pl"> </span>Notwithstanding Minnesota Statutes, section <br/><span id="pl.2.9" class="pl"> </span>16A.28, and unless otherwise specified in this <br/><span id="pl.2.10" class="pl"> </span>act, fiscal year 2020 appropriations are <br/><span id="pl.2.11" class="pl"> </span>available until June 30, 2021, and fiscal year <br/><span id="pl.2.12" class="pl"> </span>2021 appropriations are available until June <br/><span id="pl.2.13" class="pl"> </span>30, 2022. If a project receives federal funds, <br/><span id="pl.2.14" class="pl"> </span>the period of the appropriation is extended to <br/><span id="pl.2.15" class="pl"> </span>equal the availability of federal funding.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.2.3">
+        <table>
+          <col style="width:33.0769230769231%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <col style="width:3.846153846153846%"/>
+          <col style="width:18.4615384615385%"/>
+          <tr>
+            <td colspan="3">
+              <h2 class="subd_no">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline"><span id="pl.2.16" class="pl"> </span>Subd. 3.</ins>
+                <span class="sr-only">new text end</span>
+              </h2>
+              <h3 class="headnote">
+                <span class="sr-only">new text begin</span>
+                <ins style="text-decoration: underline">Disability Access<br/></ins>
+                <span class="sr-only">new text end</span>
+              </h3>
+            </td>
+            <td style="text-align: center;"/>
+            <td style="text-align: right;"/>
+            <td style="text-align: center;"/>
+            <td style="text-align: right;"/>
+          </tr>
+        </table>
+        <p class="rider">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.17" class="pl"> </span>Where appropriate, grant recipients of clean <br/><span id="pl.2.18" class="pl"> </span>water funds, in consultation with the Council <br/><span id="pl.2.19" class="pl"> </span>on Disability and other appropriate <br/><span id="pl.2.20" class="pl"> </span>governor-appointed disability councils, boards, <br/><span id="pl.2.21" class="pl"> </span>committees, and commissions, should make <br/><span id="pl.2.22" class="pl"> </span>progress toward providing people with <br/><span id="pl.2.23" class="pl"> </span>disabilities greater access to programs, print <br/><span id="pl.2.24" class="pl"> </span>publications, and digital media related to the <br/><span id="pl.2.25" class="pl"> </span>programs the recipient funds using <br/><span id="pl.2.26" class="pl"> </span>appropriations made in this act.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.3.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.2.27" class="pl"> </span>Sec. 3. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">DEPARTMENT OF AGRICULTURE<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">11,458,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">11,457,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.2.28" class="pl"> </span>(a) $350,000 the first year and $350,000 the <br/><span id="pl.2.29" class="pl"> </span>second year are to increase monitoring for <br/><span id="pl.2.30" class="pl"> </span>pesticides and pesticide degradates in surface <br/><span id="pl.2.31" class="pl"> </span>water and groundwater and to use data <br/><span id="pl.2.32" class="pl"> </span>collected to assess pesticide use practices.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.2.33" class="pl"> </span>(b) $2,585,000 the first year and $2,585,000 <br/><span id="pl.2.34" class="pl"> </span>the second year are for monitoring and <br/><span id="pl.3.1" class="pl"> </span>evaluating trends in the concentration of <br/><span id="pl.3.2" class="pl"> </span>nitrate in groundwater in areas vulnerable to <br/><span id="pl.3.3" class="pl"> </span>groundwater degradation; promoting, <br/><span id="pl.3.4" class="pl"> </span>developing, and evaluating regional and <br/><span id="pl.3.5" class="pl"> </span>crop-specific nutrient best management <br/><span id="pl.3.6" class="pl"> </span>practices; assessing best management practice <br/><span id="pl.3.7" class="pl"> </span>adoption; education and technical support from <br/><span id="pl.3.8" class="pl"> </span>University of Minnesota Extension; grants to <br/><span id="pl.3.9" class="pl"> </span>support agricultural demonstration and <br/><span id="pl.3.10" class="pl"> </span>implementation activities; and other actions <br/><span id="pl.3.11" class="pl"> </span>to protect groundwater from degradation from <br/><span id="pl.3.12" class="pl"> </span>nitrate. This appropriation is available until <br/><span id="pl.3.13" class="pl"> </span>June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.3.14" class="pl"> </span>(c) $75,000 the first year and $75,000 the <br/><span id="pl.3.15" class="pl"> </span>second year are for administering clean water <br/><span id="pl.3.16" class="pl"> </span>funds managed through the agriculture best <br/><span id="pl.3.17" class="pl"> </span>management practices loan program. Any <br/><span id="pl.3.18" class="pl"> </span>unencumbered balance at the end of the second <br/><span id="pl.3.19" class="pl"> </span>year must be added to the corpus of the loan <br/><span id="pl.3.20" class="pl"> </span>fund.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.3.21" class="pl"> </span>(d) $1,625,000 the first year and $1,625,000 <br/><span id="pl.3.22" class="pl"> </span>the second year are for technical assistance, <br/><span id="pl.3.23" class="pl"> </span>research, and demonstration projects on proper <br/><span id="pl.3.24" class="pl"> </span>implementation of best management practices <br/><span id="pl.3.25" class="pl"> </span>and more-precise information on nonpoint <br/><span id="pl.3.26" class="pl"> </span>contributions to impaired waters and for grants <br/><span id="pl.3.27" class="pl"> </span>to support on-farm demonstration of <br/><span id="pl.3.28" class="pl"> </span>agricultural practices. This appropriation is <br/><span id="pl.3.29" class="pl"> </span>available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.3.30" class="pl"> </span>(e) $663,000 the first year and $662,000 the <br/><span id="pl.3.31" class="pl"> </span>second year are for research to quantify and <br/><span id="pl.3.32" class="pl"> </span>reduce agricultural contributions to impaired <br/><span id="pl.3.33" class="pl"> </span>waters and for developing and evaluating best <br/><span id="pl.3.34" class="pl"> </span>management practices to protect and restore <br/><span id="pl.4.1" class="pl"> </span>water resources. This appropriation is <br/><span id="pl.4.2" class="pl"> </span>available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.4.3" class="pl"> </span>(f) $50,000 the first year and $50,000 the <br/><span id="pl.4.4" class="pl"> </span>second year are for a research inventory <br/><span id="pl.4.5" class="pl"> </span>database containing water-related research <br/><span id="pl.4.6" class="pl"> </span>activities. Costs for information technology <br/><span id="pl.4.7" class="pl"> </span>development or support for this research <br/><span id="pl.4.8" class="pl"> </span>inventory database may be paid to the Office <br/><span id="pl.4.9" class="pl"> </span>of MN.IT Services. This appropriation is <br/><span id="pl.4.10" class="pl"> </span>available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.4.11" class="pl"> </span>(g) $3,000,000 the first year and $3,000,000 <br/><span id="pl.4.12" class="pl"> </span>the second year are to implement the <br/><span id="pl.4.13" class="pl"> </span>Minnesota agricultural water quality <br/><span id="pl.4.14" class="pl"> </span>certification program statewide. Funds <br/><span id="pl.4.15" class="pl"> </span>appropriated in this paragraph are available <br/><span id="pl.4.16" class="pl"> </span>until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.4.17" class="pl"> </span>(h) $385,000 the first year and $385,000 the <br/><span id="pl.4.18" class="pl"> </span>second year are to provide funding for a <br/><span id="pl.4.19" class="pl"> </span>regional irrigation water quality specialist <br/><span id="pl.4.20" class="pl"> </span>through University of Minnesota Extension, <br/><span id="pl.4.21" class="pl"> </span>development and statewide expansion of the <br/><span id="pl.4.22" class="pl"> </span>Irrigation Management Assistant tool, <br/><span id="pl.4.23" class="pl"> </span>irrigation education and outreach, and the <br/><span id="pl.4.24" class="pl"> </span>Agricultural Weather Station Network.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.4.25" class="pl"> </span>(i) $1,650,000 the first year and $1,650,000 <br/><span id="pl.4.26" class="pl"> </span>the second year are for grants to the Board of <br/><span id="pl.4.27" class="pl"> </span>Regents of the University of Minnesota to <br/><span id="pl.4.28" class="pl"> </span>fund the Forever Green Agriculture Initiative <br/><span id="pl.4.29" class="pl"> </span>and to protect the state's natural resources <br/><span id="pl.4.30" class="pl"> </span>while increasing the efficiency, profitability, <br/><span id="pl.4.31" class="pl"> </span>and productivity of Minnesota farmers by <br/><span id="pl.4.32" class="pl"> </span>incorporating perennial and winter-annual <br/><span id="pl.4.33" class="pl"> </span>crops into existing agricultural practices. Of <br/><span id="pl.4.34" class="pl"> </span>this amount, $1,400,000 each year is for grants <br/><span id="pl.4.35" class="pl"> </span>for research and establishing an Agricultural <br/><span id="pl.5.1" class="pl"> </span>Diversification Steering Council and Network <br/><span id="pl.5.2" class="pl"> </span>and $250,000 each year is for grants to <br/><span id="pl.5.3" class="pl"> </span>implement Forever Green crops or cropping <br/><span id="pl.5.4" class="pl"> </span>systems. This appropriation is available until <br/><span id="pl.5.5" class="pl"> </span>June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.6" class="pl"> </span>(j) $1,000,000 the first year and $1,000,000 <br/><span id="pl.5.7" class="pl"> </span>the second year are for testing private wells <br/><span id="pl.5.8" class="pl"> </span>for pesticides where nitrate is detected as part <br/><span id="pl.5.9" class="pl"> </span>of the township testing program. This <br/><span id="pl.5.10" class="pl"> </span>appropriation is available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.11" class="pl"> </span>(k) $75,000 the first year and $75,000 the <br/><span id="pl.5.12" class="pl"> </span>second year are to evaluate market <br/><span id="pl.5.13" class="pl"> </span>opportunities and develop markets for crops <br/><span id="pl.5.14" class="pl"> </span>that can be profitable for farmers and <br/><span id="pl.5.15" class="pl"> </span>beneficial for water quality and soil health. <br/><span id="pl.5.16" class="pl"> </span>This appropriation is available until June 30, <br/><span id="pl.5.17" class="pl"> </span>2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.18" class="pl"> </span>(l) A portion of the money in this section may <br/><span id="pl.5.19" class="pl"> </span>be used for programs to train state and local <br/><span id="pl.5.20" class="pl"> </span>outreach staff in the intersection between <br/><span id="pl.5.21" class="pl"> </span>agricultural economics and agricultural <br/><span id="pl.5.22" class="pl"> </span>conservation.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.4.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.5.23" class="pl"> </span>Sec. 4. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">PUBLIC FACILITIES AUTHORITY<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">9,125,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">9,125,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.24" class="pl"> </span>(a) $9,000,000 the first year and $9,000,000 <br/><span id="pl.5.25" class="pl"> </span>the second year are for the point source <br/><span id="pl.5.26" class="pl"> </span>implementation grants program under <br/><span id="pl.5.27" class="pl"> </span>Minnesota Statutes, section 446A.073. This <br/><span id="pl.5.28" class="pl"> </span>appropriation is available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.29" class="pl"> </span>(b) $125,000 the first year and $125,000 the <br/><span id="pl.5.30" class="pl"> </span>second year are for small community <br/><span id="pl.5.31" class="pl"> </span>wastewater treatment grants and loans under <br/><span id="pl.5.32" class="pl"> </span>Minnesota Statutes, section 446A.075. This <br/><span id="pl.5.33" class="pl"> </span>appropriation is available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.1" class="pl"> </span>(c) If there is any uncommitted money at the <br/><span id="pl.6.2" class="pl"> </span>end of each fiscal year under paragraph (a) or <br/><span id="pl.6.3" class="pl"> </span>(b), the Public Facilities Authority may <br/><span id="pl.6.4" class="pl"> </span>transfer the remaining funds to eligible <br/><span id="pl.6.5" class="pl"> </span>projects under any of the programs listed in <br/><span id="pl.6.6" class="pl"> </span>this section according to a project's priority <br/><span id="pl.6.7" class="pl"> </span>rank on the Pollution Control Agency's project <br/><span id="pl.6.8" class="pl"> </span>priority list.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.5.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.6.9" class="pl"> </span>Sec. 5. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">POLLUTION CONTROL AGENCY<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">24,480,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">24,480,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.10" class="pl"> </span>(a) $8,000,000 the first year and $8,000,000 <br/><span id="pl.6.11" class="pl"> </span>the second year are for completing needed <br/><span id="pl.6.12" class="pl"> </span>statewide assessments of surface water quality <br/><span id="pl.6.13" class="pl"> </span>and trends according to Minnesota Statutes, <br/><span id="pl.6.14" class="pl"> </span>chapter 114D.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.15" class="pl"> </span>(b) $8,050,000 the first year and $8,050,000 <br/><span id="pl.6.16" class="pl"> </span>the second year are to develop watershed <br/><span id="pl.6.17" class="pl"> </span>restoration and protection strategies (WRAPS), <br/><span id="pl.6.18" class="pl"> </span>which include total maximum daily load <br/><span id="pl.6.19" class="pl"> </span>(TMDL) studies and TMDL implementation <br/><span id="pl.6.20" class="pl"> </span>plans according to Minnesota Statutes, chapter <br/><span id="pl.6.21" class="pl"> </span>114D, for waters on the impaired waters list <br/><span id="pl.6.22" class="pl"> </span>approved by the United States Environmental <br/><span id="pl.6.23" class="pl"> </span>Protection Agency. The agency must complete <br/><span id="pl.6.24" class="pl"> </span>an average of ten percent of the TMDLs each <br/><span id="pl.6.25" class="pl"> </span>year over the biennium.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.26" class="pl"> </span>(c) $1,182,000 the first year and $1,182,000 <br/><span id="pl.6.27" class="pl"> </span>the second year are for groundwater <br/><span id="pl.6.28" class="pl"> </span>assessment, including enhancing the ambient <br/><span id="pl.6.29" class="pl"> </span>monitoring network, modeling, evaluating <br/><span id="pl.6.30" class="pl"> </span>trends, and reassessing groundwater that was <br/><span id="pl.6.31" class="pl"> </span>assessed ten to 15 years ago and found to be <br/><span id="pl.6.32" class="pl"> </span>contaminated.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.33" class="pl"> </span>(d) $750,000 the first year and $750,000 the <br/><span id="pl.6.34" class="pl"> </span>second year are for implementing the St. Louis <br/><span id="pl.7.1" class="pl"> </span>River System Area of Concern Remedial <br/><span id="pl.7.2" class="pl"> </span>Action Plan.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.7.3" class="pl"> </span>(e) $900,000 the first year and $900,000 the <br/><span id="pl.7.4" class="pl"> </span>second year are for national pollutant <br/><span id="pl.7.5" class="pl"> </span>discharge elimination system wastewater and <br/><span id="pl.7.6" class="pl"> </span>storm water TMDL implementation efforts.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.7.7" class="pl"> </span>(f) $3,938,000 the first year and $3,938,000 <br/><span id="pl.7.8" class="pl"> </span>the second year are for enhancing the <br/><span id="pl.7.9" class="pl"> </span>county-level delivery systems for subsurface <br/><span id="pl.7.10" class="pl"> </span>sewage treatment system (SSTS) activities <br/><span id="pl.7.11" class="pl"> </span>necessary to implement Minnesota Statutes, <br/><span id="pl.7.12" class="pl"> </span>sections 115.55 and 115.56, for protecting <br/><span id="pl.7.13" class="pl"> </span>groundwater, including base grants for all <br/><span id="pl.7.14" class="pl"> </span>counties with SSTS programs and competitive <br/><span id="pl.7.15" class="pl"> </span>grants to counties with specific plans to <br/><span id="pl.7.16" class="pl"> </span>significantly reduce water pollution by <br/><span id="pl.7.17" class="pl"> </span>reducing the number of systems that are an <br/><span id="pl.7.18" class="pl"> </span>imminent threat to public health or safety or <br/><span id="pl.7.19" class="pl"> </span>are otherwise failing. Counties that receive <br/><span id="pl.7.20" class="pl"> </span>base grants must report the number of sewage <br/><span id="pl.7.21" class="pl"> </span>noncompliant properties upgraded through <br/><span id="pl.7.22" class="pl"> </span>SSTS replacement, connection to a centralized <br/><span id="pl.7.23" class="pl"> </span>sewer system, or other means, including <br/><span id="pl.7.24" class="pl"> </span>property abandonment or buy-out. Counties <br/><span id="pl.7.25" class="pl"> </span>also must report the number of existing SSTS <br/><span id="pl.7.26" class="pl"> </span>compliance inspections conducted in areas <br/><span id="pl.7.27" class="pl"> </span>under county jurisdiction. These required <br/><span id="pl.7.28" class="pl"> </span>reports are to be part of established annual <br/><span id="pl.7.29" class="pl"> </span>reporting for SSTS programs. Counties that <br/><span id="pl.7.30" class="pl"> </span>conduct SSTS inventories or those with an <br/><span id="pl.7.31" class="pl"> </span>ordinance in place that requires an SSTS to <br/><span id="pl.7.32" class="pl"> </span>be inspected as a condition of transferring <br/><span id="pl.7.33" class="pl"> </span>property or as a condition of obtaining a local <br/><span id="pl.7.34" class="pl"> </span>permit must be given priority for competitive <br/><span id="pl.7.35" class="pl"> </span>grants under this paragraph. Of this amount, <br/><span id="pl.8.1" class="pl"> </span>$1,500,000 each year is available to counties <br/><span id="pl.8.2" class="pl"> </span>for grants to low-income landowners to <br/><span id="pl.8.3" class="pl"> </span>address systems that pose an imminent threat <br/><span id="pl.8.4" class="pl"> </span>to public health or safety or fail to protect <br/><span id="pl.8.5" class="pl"> </span>groundwater. A grant awarded under this <br/><span id="pl.8.6" class="pl"> </span>paragraph may not exceed $40,000 for the <br/><span id="pl.8.7" class="pl"> </span>biennium. A county receiving a grant under <br/><span id="pl.8.8" class="pl"> </span>this paragraph must submit a report to the <br/><span id="pl.8.9" class="pl"> </span>agency listing the projects funded, including <br/><span id="pl.8.10" class="pl"> </span>an account of the expenditures.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.8.11" class="pl"> </span>(g) $225,000 the first year and $225,000 the <br/><span id="pl.8.12" class="pl"> </span>second year are for accelerated implementation <br/><span id="pl.8.13" class="pl"> </span>of MS4 permit requirements, including <br/><span id="pl.8.14" class="pl"> </span>additional technical assistance to <br/><span id="pl.8.15" class="pl"> </span>municipalities experiencing difficulties <br/><span id="pl.8.16" class="pl"> </span>understanding and implementing the basic <br/><span id="pl.8.17" class="pl"> </span>requirements of the municipal storm water <br/><span id="pl.8.18" class="pl"> </span>program.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.8.19" class="pl"> </span>(h) $775,000 the first year and $775,000 the <br/><span id="pl.8.20" class="pl"> </span>second year are for a grant program for <br/><span id="pl.8.21" class="pl"> </span>sanitary sewer projects that are included in the <br/><span id="pl.8.22" class="pl"> </span>draft or any updated Voyageurs National Park <br/><span id="pl.8.23" class="pl"> </span>Clean Water Project Comprehensive Plan to <br/><span id="pl.8.24" class="pl"> </span>restore the water quality of waters in <br/><span id="pl.8.25" class="pl"> </span>Voyageurs National Park. Grants must be <br/><span id="pl.8.26" class="pl"> </span>awarded to local government units for projects <br/><span id="pl.8.27" class="pl"> </span>approved by the Voyageurs National Park <br/><span id="pl.8.28" class="pl"> </span>Clean Water Joint Powers Board and must be <br/><span id="pl.8.29" class="pl"> </span>matched by at least 25 percent from sources <br/><span id="pl.8.30" class="pl"> </span>other than the clean water fund.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.8.31" class="pl"> </span>(i) $300,000 the first year and $300,000 the <br/><span id="pl.8.32" class="pl"> </span>second year are for activities, training, and <br/><span id="pl.8.33" class="pl"> </span>grants that reduce chloride pollution. Of this <br/><span id="pl.8.34" class="pl"> </span>amount, $100,000 each year is for grants for <br/><span id="pl.8.35" class="pl"> </span>upgrading or removing water-softener units. <br/><span id="pl.9.1" class="pl"> </span>This appropriation is available until June 30, <br/><span id="pl.9.2" class="pl"> </span>2023. Any unencumbered grant balances in <br/><span id="pl.9.3" class="pl"> </span>the first year do not cancel but are available <br/><span id="pl.9.4" class="pl"> </span>for grants in the second year.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.5" class="pl"> </span>(j) $110,000 the first year and $110,000 the <br/><span id="pl.9.6" class="pl"> </span>second year are to support activities of the <br/><span id="pl.9.7" class="pl"> </span>Clean Water Council according to Minnesota <br/><span id="pl.9.8" class="pl"> </span>Statutes, section 114D.30, subdivision 1.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.9" class="pl"> </span>(k) $250,000 the first year and $250,000 the <br/><span id="pl.9.10" class="pl"> </span>second year are to support a public information <br/><span id="pl.9.11" class="pl"> </span>campaign carried out by the Clean Water <br/><span id="pl.9.12" class="pl"> </span>Council. The campaign will provide public <br/><span id="pl.9.13" class="pl"> </span>education, engagement, and outreach <br/><span id="pl.9.14" class="pl"> </span>throughout the state on the use of the clean <br/><span id="pl.9.15" class="pl"> </span>water fund.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.16" class="pl"> </span>(l) Notwithstanding Minnesota Statutes, <br/><span id="pl.9.17" class="pl"> </span>section 16A.28, the appropriations in this <br/><span id="pl.9.18" class="pl"> </span>section are available until June 30, 2024.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.6.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.9.19" class="pl"> </span>Sec. 6. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">DEPARTMENT OF NATURAL <br/><span id="pl.9.20" class="pl"> </span>RESOURCES<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/> </ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">11,151,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/> </ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">11,151,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.21" class="pl"> </span>(a) $2,200,000 the first year and $2,200,000 <br/><span id="pl.9.22" class="pl"> </span>the second year are for stream flow <br/><span id="pl.9.23" class="pl"> </span>monitoring.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.24" class="pl"> </span>(b) $1,250,000 the first year and $1,250,000 <br/><span id="pl.9.25" class="pl"> </span>the second year are for lake Index of <br/><span id="pl.9.26" class="pl"> </span>Biological Integrity (IBI) assessments.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.27" class="pl"> </span>(c) $135,000 the first year and $135,000 the <br/><span id="pl.9.28" class="pl"> </span>second year are for assessing mercury and <br/><span id="pl.9.29" class="pl"> </span>other fish contaminants, including monitoring <br/><span id="pl.9.30" class="pl"> </span>to track the status of impaired waters over <br/><span id="pl.9.31" class="pl"> </span>time.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.32" class="pl"> </span>(d) $2,016,000 the first year and $2,016,000 <br/><span id="pl.9.33" class="pl"> </span>the second year are for developing targeted, <br/><span id="pl.10.1" class="pl"> </span>science-based watershed restoration and <br/><span id="pl.10.2" class="pl"> </span>protection strategies.<br/> </ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.3" class="pl"> </span>(e) $2,325,000 the first year and $2,325,000 <br/><span id="pl.10.4" class="pl"> </span>the second year are for water-supply planning, <br/><span id="pl.10.5" class="pl"> </span>aquifer protection, and monitoring activities.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.6" class="pl"> </span>(f) $1,200,000 the first year and $1,200,000 <br/><span id="pl.10.7" class="pl"> </span>the second year are for technical assistance to <br/><span id="pl.10.8" class="pl"> </span>support local implementation of nonpoint <br/><span id="pl.10.9" class="pl"> </span>source restoration and protection activities.<br/> </ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.10" class="pl"> </span>(g) $700,000 the first year and $700,000 the <br/><span id="pl.10.11" class="pl"> </span>second year are for applied research and tools, <br/><span id="pl.10.12" class="pl"> </span>including watershed hydrologic modeling; <br/><span id="pl.10.13" class="pl"> </span>maintaining and updating spatial data for <br/><span id="pl.10.14" class="pl"> </span>watershed boundaries, streams, and water <br/><span id="pl.10.15" class="pl"> </span>bodies and integrating high-resolution digital <br/><span id="pl.10.16" class="pl"> </span>elevation data; and assessing effectiveness of <br/><span id="pl.10.17" class="pl"> </span>forestry best management practices for water <br/><span id="pl.10.18" class="pl"> </span>quality.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.19" class="pl"> </span>(h) $150,000 the first year and $150,000 the <br/><span id="pl.10.20" class="pl"> </span>second year are for developing county <br/><span id="pl.10.21" class="pl"> </span>geologic atlases.<br/> </ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.22" class="pl"> </span>(i) $100,000 the first year and $100,000 the <br/><span id="pl.10.23" class="pl"> </span>second year are for maintenance and updates <br/><span id="pl.10.24" class="pl"> </span>to buffer maps and for technical guidance on <br/><span id="pl.10.25" class="pl"> </span>interpreting buffer maps for local units of <br/><span id="pl.10.26" class="pl"> </span>government implementing buffer <br/><span id="pl.10.27" class="pl"> </span>requirements. Maps must be provided to local <br/><span id="pl.10.28" class="pl"> </span>units of government and made available to <br/><span id="pl.10.29" class="pl"> </span>landowners on the Department of Natural <br/><span id="pl.10.30" class="pl"> </span>Resources' website.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.31" class="pl"> </span>(j) $325,000 the first year and $325,000 the <br/><span id="pl.10.32" class="pl"> </span>second year are for collection and analysis <br/><span id="pl.10.33" class="pl"> </span>using color infrared imagery.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.11.1" class="pl"> </span>(k) $750,000 the first year and $750,000 the <br/><span id="pl.11.2" class="pl"> </span>second year are for the Minnesota forests for <br/><span id="pl.11.3" class="pl"> </span>the future program under Minnesota Statutes, <br/><span id="pl.11.4" class="pl"> </span>section 84.66.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.7.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.11.5" class="pl"> </span>Sec. 7. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">BOARD OF WATER AND SOIL <br/><span id="pl.11.6" class="pl"> </span>RESOURCES<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">67,840,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">62,340,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.11.7" class="pl"> </span>(a) $14,711,000 the first year and $14,711,000 <br/><span id="pl.11.8" class="pl"> </span>the second year are for performance-based <br/><span id="pl.11.9" class="pl"> </span>grants with multiyear implementation plans <br/><span id="pl.11.10" class="pl"> </span>to local government units. The grants may be <br/><span id="pl.11.11" class="pl"> </span>used to implement projects that protect, <br/><span id="pl.11.12" class="pl"> </span>enhance, and restore surface water quality in <br/><span id="pl.11.13" class="pl"> </span>lakes, rivers, and streams; protect groundwater <br/><span id="pl.11.14" class="pl"> </span>from degradation; and protect drinking water <br/><span id="pl.11.15" class="pl"> </span>sources. Projects must be identified in a <br/><span id="pl.11.16" class="pl"> </span>comprehensive watershed plan developed <br/><span id="pl.11.17" class="pl"> </span>under the One Watershed, One Plan or <br/><span id="pl.11.18" class="pl"> </span>metropolitan surface water management <br/><span id="pl.11.19" class="pl"> </span>frameworks or groundwater plans. Grant <br/><span id="pl.11.20" class="pl"> </span>recipients must identify a nonstate match and <br/><span id="pl.11.21" class="pl"> </span>may use other legacy funds to supplement <br/><span id="pl.11.22" class="pl"> </span>projects funded under this paragraph.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.11.23" class="pl"> </span>(b) $16,300,000 the first year and $16,300,000 <br/><span id="pl.11.24" class="pl"> </span>the second year are for grants to local <br/><span id="pl.11.25" class="pl"> </span>government units to protect and restore surface <br/><span id="pl.11.26" class="pl"> </span>water and drinking water; to keep water on <br/><span id="pl.11.27" class="pl"> </span>the land; to protect, enhance, and restore water <br/><span id="pl.11.28" class="pl"> </span>quality in lakes, rivers, and streams; and to <br/><span id="pl.11.29" class="pl"> </span>protect groundwater and drinking water, <br/><span id="pl.11.30" class="pl"> </span>including feedlot water quality and subsurface <br/><span id="pl.11.31" class="pl"> </span>sewage treatment system projects and stream <br/><span id="pl.11.32" class="pl"> </span>bank, stream channel, shoreline restoration, <br/><span id="pl.11.33" class="pl"> </span>and ravine stabilization projects. The projects <br/><span id="pl.11.34" class="pl"> </span>must use practices demonstrated to be <br/><span id="pl.11.35" class="pl"> </span>effective, be of long-lasting public benefit, <br/><span id="pl.12.1" class="pl"> </span>include a match, and be consistent with total <br/><span id="pl.12.2" class="pl"> </span>maximum daily load (TMDL) implementation <br/><span id="pl.12.3" class="pl"> </span>plans, watershed restoration and protection <br/><span id="pl.12.4" class="pl"> </span>strategies (WRAPS), or local water <br/><span id="pl.12.5" class="pl"> </span>management plans or their equivalents. A <br/><span id="pl.12.6" class="pl"> </span>portion of this money may be used to seek <br/><span id="pl.12.7" class="pl"> </span>administrative efficiencies through shared <br/><span id="pl.12.8" class="pl"> </span>resources by multiple local governmental <br/><span id="pl.12.9" class="pl"> </span>units. Up to 20 percent of this appropriation <br/><span id="pl.12.10" class="pl"> </span>is available for land-treatment projects and <br/><span id="pl.12.11" class="pl"> </span>practices that benefit drinking water.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.12.12" class="pl"> </span>(c) $6,050,000 the first year and $6,050,000 <br/><span id="pl.12.13" class="pl"> </span>the second year are for local resource <br/><span id="pl.12.14" class="pl"> </span>protection and enhancement grants and <br/><span id="pl.12.15" class="pl"> </span>statewide program enhancements for technical <br/><span id="pl.12.16" class="pl"> </span>assistance, citizen and community outreach, <br/><span id="pl.12.17" class="pl"> </span>compliance, and training and certification.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.12.18" class="pl"> </span>(d) $1,000,000 the first year and $1,000,000 <br/><span id="pl.12.19" class="pl"> </span>the second year are to provide state oversight <br/><span id="pl.12.20" class="pl"> </span>and accountability, evaluate and communicate <br/><span id="pl.12.21" class="pl"> </span>results, provide implementation tools, and <br/><span id="pl.12.22" class="pl"> </span>measure the value of conservation program <br/><span id="pl.12.23" class="pl"> </span>implementation by local governments, <br/><span id="pl.12.24" class="pl"> </span>including submitting to the legislature by <br/><span id="pl.12.25" class="pl"> </span>March 1 each even-numbered year a biennial <br/><span id="pl.12.26" class="pl"> </span>report prepared by the board, in consultation <br/><span id="pl.12.27" class="pl"> </span>with the commissioners of natural resources, <br/><span id="pl.12.28" class="pl"> </span>health, agriculture, and the Pollution Control <br/><span id="pl.12.29" class="pl"> </span>Agency, detailing the recipients, the projects <br/><span id="pl.12.30" class="pl"> </span>funded under this section, and the amount of <br/><span id="pl.12.31" class="pl"> </span>pollution reduced.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.12.32" class="pl"> </span>(e) $2,500,000 the first year and $2,500,000 <br/><span id="pl.12.33" class="pl"> </span>the second year are to provide assistance, <br/><span id="pl.12.34" class="pl"> </span>oversight, and grants for supporting local <br/><span id="pl.12.35" class="pl"> </span>governments in implementing and complying <br/><span id="pl.13.1" class="pl"> </span>with riparian protection and excessive soil loss <br/><span id="pl.13.2" class="pl"> </span>requirements.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.3" class="pl"> </span>(f) $4,875,000 the first year and $4,875,000 <br/><span id="pl.13.4" class="pl"> </span>the second year are to purchase, restore, or <br/><span id="pl.13.5" class="pl"> </span>preserve riparian land adjacent to lakes, rivers, <br/><span id="pl.13.6" class="pl"> </span>streams, and tributaries, by easements or <br/><span id="pl.13.7" class="pl"> </span>contracts, to keep water on the land to decrease <br/><span id="pl.13.8" class="pl"> </span>sediment, pollutant, and nutrient transport; <br/><span id="pl.13.9" class="pl"> </span>reduce hydrologic impacts to surface waters; <br/><span id="pl.13.10" class="pl"> </span>and increase infiltration for groundwater <br/><span id="pl.13.11" class="pl"> </span>recharge. Up to $507,000 is for deposit in a <br/><span id="pl.13.12" class="pl"> </span>monitoring and enforcement account.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.13" class="pl"> </span>(g) $2,375,000 the first year and $2,375,000 <br/><span id="pl.13.14" class="pl"> </span>the second year are for permanent <br/><span id="pl.13.15" class="pl"> </span>conservation easements on wellhead protection <br/><span id="pl.13.16" class="pl"> </span>areas under Minnesota Statutes, section <br/><span id="pl.13.17" class="pl"> </span>103F.515, subdivision 2, paragraph (d), or for <br/><span id="pl.13.18" class="pl"> </span>grants to local units of government for fee title <br/><span id="pl.13.19" class="pl"> </span>acquisition to permanently protect <br/><span id="pl.13.20" class="pl"> </span>groundwater supply sources on wellhead <br/><span id="pl.13.21" class="pl"> </span>protection areas or for otherwise ensuring <br/><span id="pl.13.22" class="pl"> </span>long-term protection of groundwater supply <br/><span id="pl.13.23" class="pl"> </span>sources as described under alternative <br/><span id="pl.13.24" class="pl"> </span>management tools in the Department of <br/><span id="pl.13.25" class="pl"> </span>Agriculture's Nitrogen Fertilizer Management <br/><span id="pl.13.26" class="pl"> </span>Plan, including low-nitrogen cropping systems <br/><span id="pl.13.27" class="pl"> </span>or implementing nitrogen fertilizer best <br/><span id="pl.13.28" class="pl"> </span>management practices. Priority must be placed <br/><span id="pl.13.29" class="pl"> </span>on land that is located where the vulnerability <br/><span id="pl.13.30" class="pl"> </span>of the drinking water supply is designated as <br/><span id="pl.13.31" class="pl"> </span>high or very high by the commissioner of <br/><span id="pl.13.32" class="pl"> </span>health, where drinking water protection plans <br/><span id="pl.13.33" class="pl"> </span>have identified specific activities that will <br/><span id="pl.13.34" class="pl"> </span>achieve long-term protection, and on lands <br/><span id="pl.13.35" class="pl"> </span>with expiring Conservation Reserve Program <br/><span id="pl.14.1" class="pl"> </span>contracts. Up to $182,000 is for deposit in a <br/><span id="pl.14.2" class="pl"> </span>monitoring and enforcement account.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.14.3" class="pl"> </span>(h) $84,000 the first year and $84,000 the <br/><span id="pl.14.4" class="pl"> </span>second year are for a technical evaluation <br/><span id="pl.14.5" class="pl"> </span>panel to conduct ten restoration evaluations <br/><span id="pl.14.6" class="pl"> </span>under Minnesota Statutes, section 114D.50, <br/><span id="pl.14.7" class="pl"> </span>subdivision 6.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.14.8" class="pl"> </span>(i) $2,270,000 the first year and $2,270,000 <br/><span id="pl.14.9" class="pl"> </span>the second year are for assistance, oversight, <br/><span id="pl.14.10" class="pl"> </span>and grants to local governments to transition <br/><span id="pl.14.11" class="pl"> </span>local water management plans to a watershed <br/><span id="pl.14.12" class="pl"> </span>approach as provided for in Minnesota <br/><span id="pl.14.13" class="pl"> </span>Statutes, chapters 103B, 103C, 103D, and <br/><span id="pl.14.14" class="pl"> </span>114D.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.14.15" class="pl"> </span>(j) $1,500,000 the first year and $1,500,000 <br/><span id="pl.14.16" class="pl"> </span>the second year are for technical assistance <br/><span id="pl.14.17" class="pl"> </span>and grants for the conservation drainage <br/><span id="pl.14.18" class="pl"> </span>program in consultation with the Drainage <br/><span id="pl.14.19" class="pl"> </span>Work Group, coordinated under Minnesota <br/><span id="pl.14.20" class="pl"> </span>Statutes, section 103B.101, subdivision 13, <br/><span id="pl.14.21" class="pl"> </span>that includes projects to improve multipurpose <br/><span id="pl.14.22" class="pl"> </span>water management under Minnesota Statutes, <br/><span id="pl.14.23" class="pl"> </span>section 103E.015.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.14.24" class="pl"> </span>(k) $12,500,000 the first year and $7,500,000 <br/><span id="pl.14.25" class="pl"> </span>the second year are to purchase and restore <br/><span id="pl.14.26" class="pl"> </span>permanent conservation sites via easements <br/><span id="pl.14.27" class="pl"> </span>or contracts to treat and store water on the land <br/><span id="pl.14.28" class="pl"> </span>for water quality improvement purposes and <br/><span id="pl.14.29" class="pl"> </span>related technical assistance. This work may <br/><span id="pl.14.30" class="pl"> </span>be done in cooperation with the United States <br/><span id="pl.14.31" class="pl"> </span>Department of Agriculture with a first-priority <br/><span id="pl.14.32" class="pl"> </span>use to accomplish a conservation reserve <br/><span id="pl.14.33" class="pl"> </span>enhancement program, or equivalent, in the <br/><span id="pl.14.34" class="pl"> </span>state. Up to $397,000 is for deposit in a <br/><span id="pl.14.35" class="pl"> </span>monitoring and enforcement account.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.15.1" class="pl"> </span>(l) $1,750,000 the first year and $1,750,000 <br/><span id="pl.15.2" class="pl"> </span>the second year are to purchase permanent <br/><span id="pl.15.3" class="pl"> </span>conservation easements to protect lands <br/><span id="pl.15.4" class="pl"> </span>adjacent to public waters with good water <br/><span id="pl.15.5" class="pl"> </span>quality but threatened with degradation. Up <br/><span id="pl.15.6" class="pl"> </span>to $338,000 is for deposit in a monitoring and <br/><span id="pl.15.7" class="pl"> </span>enforcement account.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.15.8" class="pl"> </span>(m) $425,000 the first year and $425,000 the <br/><span id="pl.15.9" class="pl"> </span>second year are for grants or contracts for a <br/><span id="pl.15.10" class="pl"> </span>program to systematically collect data and <br/><span id="pl.15.11" class="pl"> </span>produce county, watershed, and statewide <br/><span id="pl.15.12" class="pl"> </span>estimates of soil erosion caused by water and <br/><span id="pl.15.13" class="pl"> </span>wind along with tracking adoption of <br/><span id="pl.15.14" class="pl"> </span>conservation measures, including cover crops, <br/><span id="pl.15.15" class="pl"> </span>to address erosion. Up to $700,000 is available <br/><span id="pl.15.16" class="pl"> </span>for grants to or contracts with the University <br/><span id="pl.15.17" class="pl"> </span>of Minnesota to complete this work.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.15.18" class="pl"> </span>(n) $1,000,000 the first year and $1,000,000 <br/><span id="pl.15.19" class="pl"> </span>the second year are for grants or contracts to <br/><span id="pl.15.20" class="pl"> </span>local, regional, or tribal government and <br/><span id="pl.15.21" class="pl"> </span>nongovernmental organizations to increase <br/><span id="pl.15.22" class="pl"> </span>citizen participation in implementing water <br/><span id="pl.15.23" class="pl"> </span>quality projects and programs to increase <br/><span id="pl.15.24" class="pl"> </span>long-term sustainability of water resources.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.15.25" class="pl"> </span>(o) $500,000 the first year is for grants to <br/><span id="pl.15.26" class="pl"> </span>enhance landowner adoption of cover crops <br/><span id="pl.15.27" class="pl"> </span>in areas with direct benefits to public water <br/><span id="pl.15.28" class="pl"> </span>supplies.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.15.29" class="pl"> </span>(p) The board must contract for delivery of <br/><span id="pl.15.30" class="pl"> </span>services with Conservation Corps Minnesota <br/><span id="pl.15.31" class="pl"> </span>for restoration, maintenance, and other <br/><span id="pl.15.32" class="pl"> </span>activities under this section for up to $500,000 <br/><span id="pl.15.33" class="pl"> </span>the first year and up to $500,000 the second <br/><span id="pl.15.34" class="pl"> </span>year.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.16.1" class="pl"> </span>(q) The board may shift grant or cost-share <br/><span id="pl.16.2" class="pl"> </span>funds in this section and may adjust the <br/><span id="pl.16.3" class="pl"> </span>technical and administrative assistance portion <br/><span id="pl.16.4" class="pl"> </span>of the funds to leverage federal or other <br/><span id="pl.16.5" class="pl"> </span>nonstate funds or to address oversight <br/><span id="pl.16.6" class="pl"> </span>responsibilities or high-priority needs <br/><span id="pl.16.7" class="pl"> </span>identified in local water management plans.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.16.8" class="pl"> </span>(r) The board must require grantees to specify <br/><span id="pl.16.9" class="pl"> </span>the outcomes that will be achieved by the <br/><span id="pl.16.10" class="pl"> </span>grants before any grant awards.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.16.11" class="pl"> </span>(s) The appropriations in this section are <br/><span id="pl.16.12" class="pl"> </span>available until June 30, 2024, except grant <br/><span id="pl.16.13" class="pl"> </span>funds are available for five years after the date <br/><span id="pl.16.14" class="pl"> </span>a grant is executed, unless the commissioner <br/><span id="pl.16.15" class="pl"> </span>of administration determines that a longer <br/><span id="pl.16.16" class="pl"> </span>duration is in the best interest of the state <br/><span id="pl.16.17" class="pl"> </span>according to Minnesota Statutes, section <br/><span id="pl.16.18" class="pl"> </span>16B.98. Returned grant funds must be <br/><span id="pl.16.19" class="pl"> </span>regranted consistent with the purposes of this <br/><span id="pl.16.20" class="pl"> </span>section.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.8.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.16.21" class="pl"> </span>Sec. 8. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">DEPARTMENT OF HEALTH<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">6,872,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">6,872,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.16.22" class="pl"> </span>(a) $1,500,000 the first year and $1,500,000 <br/><span id="pl.16.23" class="pl"> </span>the second year are for addressing public <br/><span id="pl.16.24" class="pl"> </span>health concerns related to contaminants found <br/><span id="pl.16.25" class="pl"> </span>in Minnesota drinking water for which no <br/><span id="pl.16.26" class="pl"> </span>health-based drinking water standards exist, <br/><span id="pl.16.27" class="pl"> </span>for improving the department's capacity to <br/><span id="pl.16.28" class="pl"> </span>monitor the water quality of drinking water <br/><span id="pl.16.29" class="pl"> </span>sources and to develop interventions to <br/><span id="pl.16.30" class="pl"> </span>improve water quality, and for the <br/><span id="pl.16.31" class="pl"> </span>department's laboratory to analyze unregulated <br/><span id="pl.16.32" class="pl"> </span>contaminants.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.1" class="pl"> </span>(b) $2,747,000 the first year and $2,747,000 <br/><span id="pl.17.2" class="pl"> </span>the second year are for protecting drinking <br/><span id="pl.17.3" class="pl"> </span>water sources.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.4" class="pl"> </span>(c) $250,000 the first year and $250,000 the <br/><span id="pl.17.5" class="pl"> </span>second year are for cost-share assistance to <br/><span id="pl.17.6" class="pl"> </span>public and private well owners for up to 50 <br/><span id="pl.17.7" class="pl"> </span>percent of the cost of sealing unused wells.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.8" class="pl"> </span>(d) $650,000 the first year and $650,000 the <br/><span id="pl.17.9" class="pl"> </span>second year are to develop and deliver <br/><span id="pl.17.10" class="pl"> </span>groundwater restoration and protection <br/><span id="pl.17.11" class="pl"> </span>strategies for use on a watershed scale for use <br/><span id="pl.17.12" class="pl"> </span>in local comprehensive water planning efforts, <br/><span id="pl.17.13" class="pl"> </span>to provide resources to local governments for <br/><span id="pl.17.14" class="pl"> </span>activities that protect sources of drinking <br/><span id="pl.17.15" class="pl"> </span>water, and to enhance approaches that improve <br/><span id="pl.17.16" class="pl"> </span>the capacity of local governmental units to <br/><span id="pl.17.17" class="pl"> </span>protect and restore groundwater resources.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.18" class="pl"> </span>(e) $850,000 the first year and $850,000 the <br/><span id="pl.17.19" class="pl"> </span>second year are for studying the occurrence <br/><span id="pl.17.20" class="pl"> </span>and magnitude of contaminants in private <br/><span id="pl.17.21" class="pl"> </span>wells and developing guidance, outreach, and <br/><span id="pl.17.22" class="pl"> </span>interventions to reduce risks to private-well <br/><span id="pl.17.23" class="pl"> </span>owners.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.24" class="pl"> </span>(f) $250,000 the first year and $250,000 the <br/><span id="pl.17.25" class="pl"> </span>second year are for evaluating and addressing <br/><span id="pl.17.26" class="pl"> </span>the risks from viruses, bacteria, and protozoa <br/><span id="pl.17.27" class="pl"> </span>in groundwater supplies and for evaluating <br/><span id="pl.17.28" class="pl"> </span>land uses that may contribute to contamination <br/><span id="pl.17.29" class="pl"> </span>of public water systems with these pathogens.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.17.30" class="pl"> </span>(g) $350,000 the first year and $350,000 the <br/><span id="pl.17.31" class="pl"> </span>second year are to develop public health <br/><span id="pl.17.32" class="pl"> </span>policies and an action plan to address threats <br/><span id="pl.17.33" class="pl"> </span>to safe drinking water, including development <br/><span id="pl.18.1" class="pl"> </span>of a statewide plan for protecting drinking <br/><span id="pl.18.2" class="pl"> </span>water.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.3" class="pl"> </span>(h) $275,000 the first year and $275,000 the <br/><span id="pl.18.4" class="pl"> </span>second year are to create a road map for water <br/><span id="pl.18.5" class="pl"> </span>reuse implementation in Minnesota and to <br/><span id="pl.18.6" class="pl"> </span>address research gaps by studying Minnesota <br/><span id="pl.18.7" class="pl"> </span>water reuse systems.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.8" class="pl"> </span>(i) Unless otherwise specified, the <br/><span id="pl.18.9" class="pl"> </span>appropriations in this section are available <br/><span id="pl.18.10" class="pl"> </span>until June 30, 2023.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.9.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.18.11" class="pl"> </span>Sec. 9. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">METROPOLITAN COUNCIL<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">1,500,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">1,500,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.12" class="pl"> </span>(a) $1,000,000 the first year and $1,000,000 <br/><span id="pl.18.13" class="pl"> </span>the second year are to implement projects that <br/><span id="pl.18.14" class="pl"> </span>address emerging threats to the drinking water <br/><span id="pl.18.15" class="pl"> </span>supply, provide cost-effective regional <br/><span id="pl.18.16" class="pl"> </span>solutions, leverage interjurisdictional <br/><span id="pl.18.17" class="pl"> </span>coordination, support local implementation of <br/><span id="pl.18.18" class="pl"> </span>water supply reliability projects, and prevent <br/><span id="pl.18.19" class="pl"> </span>degradation of groundwater resources in the <br/><span id="pl.18.20" class="pl"> </span>metropolitan area. These projects will provide <br/><span id="pl.18.21" class="pl"> </span>communities with:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.22" class="pl"> </span>(1) potential solutions to leverage regional <br/><span id="pl.18.23" class="pl"> </span>water use by using surface water, storm water, <br/><span id="pl.18.24" class="pl"> </span>wastewater, and groundwater;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.25" class="pl"> </span>(2) an analysis of infrastructure requirements <br/><span id="pl.18.26" class="pl"> </span>for different alternatives;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.27" class="pl"> </span>(3) development of planning-level cost <br/><span id="pl.18.28" class="pl"> </span>estimates, including capital costs and operating <br/><span id="pl.18.29" class="pl"> </span>costs;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.30" class="pl"> </span>(4) identification of funding mechanisms and <br/><span id="pl.18.31" class="pl"> </span>an equitable cost-sharing structure for <br/><span id="pl.18.32" class="pl"> </span>regionally beneficial water supply <br/><span id="pl.18.33" class="pl"> </span>development projects; and<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.19.1" class="pl"> </span>(5) development of subregional groundwater <br/><span id="pl.19.2" class="pl"> </span>models.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.19.3" class="pl"> </span>(b) $500,000 the first year and $500,000 the <br/><span id="pl.19.4" class="pl"> </span>second year are for the water demand <br/><span id="pl.19.5" class="pl"> </span>reduction grant program to encourage <br/><span id="pl.19.6" class="pl"> </span>municipalities in the metropolitan area to <br/><span id="pl.19.7" class="pl"> </span>implement measures to reduce water demand <br/><span id="pl.19.8" class="pl"> </span>to ensure the reliability and protection of <br/><span id="pl.19.9" class="pl"> </span>drinking water supplies.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.10.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.19.10" class="pl"> </span>Sec. 10. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">UNIVERSITY OF MINNESOTA<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">1,672,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">1,671,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.19.11" class="pl"> </span>(a) $500,000 the first year and $500,000 the <br/><span id="pl.19.12" class="pl"> </span>second year are for developing county <br/><span id="pl.19.13" class="pl"> </span>geologic atlases. This appropriation is <br/><span id="pl.19.14" class="pl"> </span>available until June 30, 2026.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.19.15" class="pl"> </span>(b) $750,000 the first year and $750,000 the <br/><span id="pl.19.16" class="pl"> </span>second year are for a program to evaluate <br/><span id="pl.19.17" class="pl"> </span>performance and technology transfer for storm <br/><span id="pl.19.18" class="pl"> </span>water best management practices, to evaluate <br/><span id="pl.19.19" class="pl"> </span>best management performance and <br/><span id="pl.19.20" class="pl"> </span>effectiveness to support meeting total <br/><span id="pl.19.21" class="pl"> </span>maximum daily loads, to develop standards <br/><span id="pl.19.22" class="pl"> </span>and incorporate state-of-the-art guidance using <br/><span id="pl.19.23" class="pl"> </span>minimal impact design standards as the model, <br/><span id="pl.19.24" class="pl"> </span>and to implement a system to transfer <br/><span id="pl.19.25" class="pl"> </span>knowledge and technology across local <br/><span id="pl.19.26" class="pl"> </span>government, industry, and regulatory sectors. <br/><span id="pl.19.27" class="pl"> </span>This appropriation is available until June 30, <br/><span id="pl.19.28" class="pl"> </span>2026.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.19.29" class="pl"> </span>(c) $172,000 the first year and $171,000 the <br/><span id="pl.19.30" class="pl"> </span>second year are to provide guidance and tools <br/><span id="pl.19.31" class="pl"> </span>in support of the Clean Water Council's efforts <br/><span id="pl.19.32" class="pl"> </span>to measure progress, evaluate outcomes, and <br/><span id="pl.19.33" class="pl"> </span>promote transparency in clean water fund <br/><span id="pl.19.34" class="pl"> </span>investments. The research will assist the <br/><span id="pl.20.1" class="pl"> </span>council in communicating the public benefits <br/><span id="pl.20.2" class="pl"> </span>of the clean water fund and making <br/><span id="pl.20.3" class="pl"> </span>more-strategic decisions that protect and <br/><span id="pl.20.4" class="pl"> </span>improve water quality and human well-being.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.20.5" class="pl"> </span>(d) $250,000 the first year and $250,000 the <br/><span id="pl.20.6" class="pl"> </span>second year are to increase the efficacy and <br/><span id="pl.20.7" class="pl"> </span>cost-effectiveness of nutrient reduction <br/><span id="pl.20.8" class="pl"> </span>strategies by developing comprehensive carp <br/><span id="pl.20.9" class="pl"> </span>management programs and documenting their <br/><span id="pl.20.10" class="pl"> </span>effectiveness.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section appropriations" id="bill.0.11.0">
+      <table>
+        <col style="width:33.0769230769231%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <col style="width:3.846153846153846%"/>
+        <col style="width:18.4615384615385%"/>
+        <tr>
+          <td colspan="3">
+            <h2 class="section_number"><span id="pl.20.11" class="pl"> </span>Sec. 11. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">LEGISLATURE<br/></ins><span class="sr-only">new text end</span></span></h2>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">15,000<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: center;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">$<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+          <td style="text-align: right;">
+            <b>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">-0-<br/></ins>
+              <span class="sr-only">new text end</span>
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="rider">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.20.12" class="pl"> </span>$15,000 the first year is for the Legislative <br/><span id="pl.20.13" class="pl"> </span>Coordinating Commission for the website <br/><span id="pl.20.14" class="pl"> </span>required under Minnesota Statutes, section <br/><span id="pl.20.15" class="pl"> </span>3.303, subdivision 10.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

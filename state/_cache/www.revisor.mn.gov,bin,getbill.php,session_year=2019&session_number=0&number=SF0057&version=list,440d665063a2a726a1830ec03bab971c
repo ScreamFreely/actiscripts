@@ -1,0 +1,2134 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 20:55:09 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 57 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 57</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 01/14/2019 03:59pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF0057&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF0057&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF0057&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF57&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF57&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/09/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0057&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0057&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <br/>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <br/>
+    <var class="ln">1.24</var>
+    <var class="ln">1.25</var>
+    <var class="ln">1.26</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <br/>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <br/>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <br/>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <br/>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <br/>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <br/>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <br/>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <br/>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <br/>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <br/>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <br/>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <br/>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">10.33</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <br/>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <br/>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <br/>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <br/>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <br/>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <var class="ln">12.28</var>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <var class="ln">12.31</var>
+    <var class="ln">12.32</var>
+    <var class="ln">12.33</var>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <br/>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+    <var class="ln">13.15</var>
+    <var class="ln">13.16</var>
+    <var class="ln">13.17</var>
+    <var class="ln">13.18</var>
+    <var class="ln">13.19</var>
+    <var class="ln">13.20</var>
+    <var class="ln">13.21</var>
+    <var class="ln">13.22</var>
+    <var class="ln">13.23</var>
+    <var class="ln">13.24</var>
+    <var class="ln">13.25</var>
+    <var class="ln">13.26</var>
+    <var class="ln">13.27</var>
+    <var class="ln">13.28</var>
+    <var class="ln">13.29</var>
+    <br/>
+    <var class="ln">13.30</var>
+    <var class="ln">13.31</var>
+    <var class="ln">13.32</var>
+    <var class="ln">13.33</var>
+    <var class="ln">14.1</var>
+    <var class="ln">14.2</var>
+    <var class="ln">14.3</var>
+    <var class="ln">14.4</var>
+    <var class="ln">14.5</var>
+    <var class="ln">14.6</var>
+    <var class="ln">14.7</var>
+    <br/>
+    <var class="ln">14.8</var>
+    <var class="ln">14.9</var>
+    <var class="ln">14.10</var>
+    <var class="ln">14.11</var>
+    <var class="ln">14.12</var>
+    <var class="ln">14.13</var>
+    <br/>
+    <var class="ln">14.14</var>
+    <var class="ln">14.15</var>
+    <var class="ln">14.16</var>
+    <var class="ln">14.17</var>
+    <var class="ln">14.18</var>
+    <br/>
+    <var class="ln">14.19</var>
+    <var class="ln">14.20</var>
+    <var class="ln">14.21</var>
+    <var class="ln">14.22</var>
+    <var class="ln">14.23</var>
+    <var class="ln">14.24</var>
+    <var class="ln">14.25</var>
+    <var class="ln">14.26</var>
+    <var class="ln">14.27</var>
+    <var class="ln">14.28</var>
+    <var class="ln">14.29</var>
+    <var class="ln">14.30</var>
+    <var class="ln">15.1</var>
+    <var class="ln">15.2</var>
+    <var class="ln">15.3</var>
+    <var class="ln">15.4</var>
+    <var class="ln">15.5</var>
+    <var class="ln">15.6</var>
+    <var class="ln">15.7</var>
+    <var class="ln">15.8</var>
+    <var class="ln">15.9</var>
+    <var class="ln">15.10</var>
+    <var class="ln">15.11</var>
+    <var class="ln">15.12</var>
+    <var class="ln">15.13</var>
+    <var class="ln">15.14</var>
+    <var class="ln">15.15</var>
+    <var class="ln">15.16</var>
+    <var class="ln">15.17</var>
+    <var class="ln">15.18</var>
+    <var class="ln">15.19</var>
+    <var class="ln">15.20</var>
+    <var class="ln">15.21</var>
+    <var class="ln">15.22</var>
+    <var class="ln">15.23</var>
+    <var class="ln">15.24</var>
+    <var class="ln">15.25</var>
+    <var class="ln">15.26</var>
+    <var class="ln">15.27</var>
+    <var class="ln">15.28</var>
+    <var class="ln">15.29</var>
+    <var class="ln">15.30</var>
+    <var class="ln">15.31</var>
+    <var class="ln">15.32</var>
+    <var class="ln">15.33</var>
+    <var class="ln">15.34</var>
+    <var class="ln">16.1</var>
+    <var class="ln">16.2</var>
+    <br/>
+    <var class="ln">16.3</var>
+    <var class="ln">16.4</var>
+    <var class="ln">16.5</var>
+    <var class="ln">16.6</var>
+    <var class="ln">16.7</var>
+    <var class="ln">16.8</var>
+    <var class="ln">16.9</var>
+    <var class="ln">16.10</var>
+    <var class="ln">16.11</var>
+    <br/>
+    <var class="ln">16.12</var>
+    <var class="ln">16.13</var>
+    <var class="ln">16.14</var>
+    <var class="ln">16.15</var>
+    <var class="ln">16.16</var>
+    <var class="ln">16.17</var>
+    <var class="ln">16.18</var>
+    <var class="ln">16.19</var>
+    <var class="ln">16.20</var>
+    <var class="ln">16.21</var>
+    <var class="ln">16.22</var>
+    <var class="ln">16.23</var>
+    <var class="ln">16.24</var>
+    <var class="ln">16.25</var>
+    <br/>
+    <var class="ln">16.26</var>
+    <var class="ln">16.27</var>
+    <var class="ln">16.28</var>
+    <var class="ln">16.29</var>
+    <var class="ln">16.30</var>
+    <var class="ln">16.31</var>
+    <br/>
+    <var class="ln">17.1</var>
+    <var class="ln">17.2</var>
+    <var class="ln">17.3</var>
+    <var class="ln">17.4</var>
+    <var class="ln">17.5</var>
+    <var class="ln">17.6</var>
+    <var class="ln">17.7</var>
+    <var class="ln">17.8</var>
+    <br/>
+    <var class="ln">17.9</var>
+    <var class="ln">17.10</var>
+    <var class="ln">17.11</var>
+    <var class="ln">17.12</var>
+    <var class="ln">17.13</var>
+    <var class="ln">17.14</var>
+    <var class="ln">17.15</var>
+    <var class="ln">17.16</var>
+    <var class="ln">17.17</var>
+    <var class="ln">17.18</var>
+    <var class="ln">17.19</var>
+    <var class="ln">17.20</var>
+    <var class="ln">17.21</var>
+    <var class="ln">17.22</var>
+    <var class="ln">17.23</var>
+    <var class="ln">17.24</var>
+    <var class="ln">17.25</var>
+    <var class="ln">17.26</var>
+    <var class="ln">17.27</var>
+    <var class="ln">17.28</var>
+    <var class="ln">17.29</var>
+    <var class="ln">17.30</var>
+    <var class="ln">17.31</var>
+    <var class="ln">17.32</var>
+    <var class="ln">18.1</var>
+    <var class="ln">18.2</var>
+    <var class="ln">18.3</var>
+    <br/>
+    <var class="ln">18.4</var>
+    <var class="ln">18.5</var>
+    <var class="ln">18.6</var>
+    <var class="ln">18.7</var>
+    <var class="ln">18.8</var>
+    <br/>
+    <var class="ln">18.9</var>
+    <var class="ln">18.10</var>
+    <var class="ln">18.11</var>
+    <var class="ln">18.12</var>
+    <var class="ln">18.13</var>
+    <var class="ln">18.14</var>
+    <var class="ln">18.15</var>
+    <var class="ln">18.16</var>
+    <br/>
+    <var class="ln">18.17</var>
+    <var class="ln">18.18</var>
+    <var class="ln">18.19</var>
+    <br/>
+    <var class="ln">18.20</var>
+    <var class="ln">18.21</var>
+    <var class="ln">18.22</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to metropolitan government; providing for the election of Metropolitan <br/><span id="pl.1.3" class="pl"> </span>Council members; amending Minnesota Statutes 2018, sections 10A.01, subdivision <br/><span id="pl.1.4" class="pl"> </span>10; 10A.09, subdivision 6a; 10A.25, subdivision 2; 10A.27, subdivision 1; 10A.315; <br/><span id="pl.1.5" class="pl"> </span>10A.323; 10A.324, subdivision 1; 15.0597, subdivision 1; 200.02, subdivision 28; <br/><span id="pl.1.6" class="pl"> </span>204B.06, subdivision 4a; 204B.09, subdivisions 1, 1a; 204B.11; 204B.135, <br/><span id="pl.1.7" class="pl"> </span>subdivision 2; 204B.32, subdivision 2; 204D.02, subdivision 1; 204D.08, <br/><span id="pl.1.8" class="pl"> </span>subdivision 6; 204D.27, by adding a subdivision; 209.02, subdivision 1; 211A.01, <br/><span id="pl.1.9" class="pl"> </span>subdivision 3; 211B.01, subdivision 3; 353D.01, subdivision 2; 473.123, <br/><span id="pl.1.10" class="pl"> </span>subdivisions 1, 3a, 4, by adding subdivisions; proposing coding for new law in <br/><span id="pl.1.11" class="pl"> </span>Minnesota Statutes, chapters 10A; 204D; repealing Minnesota Statutes 2018, <br/><span id="pl.1.12" class="pl"> </span>section 473.123, subdivisions 2a, 3; Laws 1994, chapter 628, article 1, section 8.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.13" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.14" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.01, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.15" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Candidate.</h3>
+        <p>"Candidate" means an individual who seeks nomination or election <br/><span id="pl.1.16" class="pl"> </span>as a state constitutional officer, legislator, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span> judge<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or Metropolitan Council member</ins><span class="sr-only">new text end</span>. An <br/><span id="pl.1.17" class="pl"> </span>individual is deemed to seek nomination or election if the individual has taken the action <br/><span id="pl.1.18" class="pl"> </span>necessary under the law of this state to qualify for nomination or election, has received <br/><span id="pl.1.19" class="pl"> </span>contributions or made expenditures in excess of $750, or has given implicit or explicit <br/><span id="pl.1.20" class="pl"> </span>consent for any other person to receive contributions or make expenditures in excess of <br/><span id="pl.1.21" class="pl"> </span>$750, for the purpose of bringing about the individual's nomination or election. A candidate <br/><span id="pl.1.22" class="pl"> </span>remains a candidate until the candidate's principal campaign committee is dissolved as <br/><span id="pl.1.23" class="pl"> </span>provided in section <a href="/statutes/cite/10A.243">10A.243</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.24" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.09, subdivision 6a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.25" class="pl"> </span>Subd. 6a.</h2>
+        <h3 class="headnote">Place of filing.</h3>
+        <p>A public official required to file a statement under this section <br/><span id="pl.1.26" class="pl"> </span>must file it with the board. A local official required to file a statement under this section <br/><span id="pl.2.1" class="pl"> </span>must file it with the governing body of the official's political subdivision<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, except that a <br/><span id="pl.2.2" class="pl"> </span>member of the Metropolitan Council must file the statement with the board</ins><span class="sr-only">new text end</span>. The governing <br/><span id="pl.2.3" class="pl"> </span>body must maintain statements filed with it under this subdivision as public data. If an <br/><span id="pl.2.4" class="pl"> </span>official position is defined as both a public official and as a local official of a metropolitan <br/><span id="pl.2.5" class="pl"> </span>governmental unit under this chapter, the official must file the statement with the board.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.6" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.25, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.7" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Amounts.</h3>
+        <p>(a) In a segment of an election cycle, the principal campaign <br/><span id="pl.2.8" class="pl"> </span>committee of the candidate must not make campaign expenditures nor permit approved <br/><span id="pl.2.9" class="pl"> </span>expenditures to be made on behalf of the candidate that result in aggregate expenditures in <br/><span id="pl.2.10" class="pl"> </span>excess of the following:<br/></p>
+        <p><span id="pl.2.11" class="pl"> </span>(1) for governor and lieutenant governor, running together, $3,817,700 in the election <br/><span id="pl.2.12" class="pl"> </span>segment and $1,636,200 in the nonelection segment;<br/></p>
+        <p><span id="pl.2.13" class="pl"> </span>(2) for attorney general, $654,600 in the election segment and $218,300 in the nonelection <br/><span id="pl.2.14" class="pl"> </span>segment;<br/></p>
+        <p><span id="pl.2.15" class="pl"> </span>(3) for secretary of state and state auditor, separately, $436,400 in the election segment <br/><span id="pl.2.16" class="pl"> </span>and $109,200 in the nonelection segment;<br/></p>
+        <p><span id="pl.2.17" class="pl"> </span>(4) for state senator, $94,700 in the election segment and $32,800 in a nonelection <br/><span id="pl.2.18" class="pl"> </span>segment;<br/></p>
+        <p><span id="pl.2.19" class="pl"> </span>(5) for state representative, $65,500 in the election segment<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">; and<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.20" class="pl"> </span>(6) for a member of the Metropolitan Council, $90,000 in the election segment and <br/><span id="pl.2.21" class="pl"> </span>$30,000 in the nonelection segment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p><span id="pl.2.22" class="pl"> </span>(b) In addition to the amount in paragraph (a), clause (1), a candidate for endorsement <br/><span id="pl.2.23" class="pl"> </span>for the office of lieutenant governor at the convention of a political party may make campaign <br/><span id="pl.2.24" class="pl"> </span>expenditures and approved expenditures of five percent of that amount to seek endorsement.<br/></p>
+        <p><span id="pl.2.25" class="pl"> </span>(c) If a special election cycle occurs during a general election cycle, expenditures by or <br/><span id="pl.2.26" class="pl"> </span>on behalf of a candidate in the special election do not count as expenditures by or on behalf <br/><span id="pl.2.27" class="pl"> </span>of the candidate in the general election.<br/></p>
+        <p><span id="pl.2.28" class="pl"> </span>(d) The expenditure limits in this subdivision for an office are increased by ten percent <br/><span id="pl.2.29" class="pl"> </span>for a candidate who has not previously held the same office, whose name has not previously <br/><span id="pl.2.30" class="pl"> </span>been on the primary or general election ballot for that office, and who has not in the past <br/><span id="pl.2.31" class="pl"> </span>ten years raised or spent more than $750 in a run for any other office whose territory now <br/><span id="pl.2.32" class="pl"> </span>includes a population that is more than one-third of the population in the territory of the <br/><span id="pl.3.1" class="pl"> </span>new office. Candidates who qualify for first-time candidate status receive a ten percent <br/><span id="pl.3.2" class="pl"> </span>increase in the campaign expenditure limit in all segments of the applicable election cycle. <br/><span id="pl.3.3" class="pl"> </span>In the case of a legislative candidate, the office is that of a member of the house of <br/><span id="pl.3.4" class="pl"> </span>representatives or senate without regard to any specific district.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.5" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.27, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.3.6" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Contribution limits.</h3>
+        <p>(a) Except as provided in subdivision 2, a candidate <br/><span id="pl.3.7" class="pl"> </span>must not permit the candidate's principal campaign committee to accept aggregate <br/><span id="pl.3.8" class="pl"> </span>contributions made or delivered by any individual, political committee, political fund, or <br/><span id="pl.3.9" class="pl"> </span>association not registered with the board in excess of the following:<br/></p>
+        <p><span id="pl.3.10" class="pl"> </span>(1) to candidates for governor and lieutenant governor running together, $4,000 in the <br/><span id="pl.3.11" class="pl"> </span>election segment of an election cycle for the office sought and $2,000 in the nonelection <br/><span id="pl.3.12" class="pl"> </span>segment of the election cycle;<br/></p>
+        <p><span id="pl.3.13" class="pl"> </span>(2) to a candidate for attorney general, $2,500 in the election segment of an election <br/><span id="pl.3.14" class="pl"> </span>cycle for the office sought and $1,500 in the nonelection segment of the election cycle;<br/></p>
+        <p><span id="pl.3.15" class="pl"> </span>(3) to a candidate for secretary of state or state auditor, $2,000 in the election segment <br/><span id="pl.3.16" class="pl"> </span>of an election cycle and $1,000 in the nonelection segment of the election cycle;<br/></p>
+        <p><span id="pl.3.17" class="pl"> </span>(4) to a candidate for state senator, $1,000 in the election segment of an election cycle <br/><span id="pl.3.18" class="pl"> </span>for the office sought and $1,000 in a nonelection segment of the election cycle;<br/></p>
+        <p><span id="pl.3.19" class="pl"> </span>(5) to a candidate for state representative, $1,000 in the election segment of an election <br/><span id="pl.3.20" class="pl"> </span>cycle for the office sought; <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and<br/></span><span class="sr-only">deleted text end</span></p>
+        <p><span id="pl.3.21" class="pl"> </span>(6) to a candidate for judicial office, $2,500 in the election segment of an election cycle <br/><span id="pl.3.22" class="pl"> </span>for the office sought and $2,500 in a nonelection segment of the election cycle<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">; and<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.23" class="pl"> </span>(7) to a candidate for the Metropolitan Council, $1,000 in the election segment of an <br/><span id="pl.3.24" class="pl"> </span>election cycle for the office sought and $1,000 in the nonelection segment of the election <br/><span id="pl.3.25" class="pl"> </span>cycle.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p><span id="pl.3.26" class="pl"> </span>(b) The following deliveries are not subject to the bundling limitation in this subdivision:<br/></p>
+        <p><span id="pl.3.27" class="pl"> </span>(1) delivery of contributions collected by a member of the candidate's principal campaign <br/><span id="pl.3.28" class="pl"> </span>committee, such as a block worker or a volunteer who hosts a fund-raising event, to the <br/><span id="pl.3.29" class="pl"> </span>committee's treasurer; and<br/></p>
+        <p><span id="pl.3.30" class="pl"> </span>(2) a delivery made by an individual on behalf of the individual's spouse.<br/></p>
+        <p><span id="pl.4.1" class="pl"> </span>(c) A lobbyist, political committee, political party unit, an association that has a political <br/><span id="pl.4.2" class="pl"> </span>fund, or an association not registered with the board must not make a contribution a candidate <br/><span id="pl.4.3" class="pl"> </span>is prohibited from accepting.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.4.4" class="pl"> </span>Sec. 5. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[10A.313] METROPOLITAN COUNCIL PUBLIC SUBSIDY.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.5" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Funding.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The Metropolitan Council must provide sufficient money to <br/><span id="pl.4.6" class="pl"> </span>pay the public subsidy provided for in this section.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.5.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.7" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Eligibility.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">A candidate is eligible to receive a public subsidy in the amount of <br/><span id="pl.4.8" class="pl"> </span>$20,000 if the candidate has filed with the board a spending limit agreement under section <br/><span id="pl.4.9" class="pl"> </span>10A.322 and an affidavit of contributions under section 10A.323, the candidate was opposed <br/><span id="pl.4.10" class="pl"> </span>in the primary election or will be opposed in the general election, and the candidate's name <br/><span id="pl.4.11" class="pl"> </span>will appear on the ballot in the general election.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.5.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.12" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Certification.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Within one week after the last day for filing a spending limit <br/><span id="pl.4.13" class="pl"> </span>agreement under section 10A.322 and an affidavit of contributions under section 10A.323, <br/><span id="pl.4.14" class="pl"> </span>the board must certify to the Metropolitan Council the maximum number of candidates <br/><span id="pl.4.15" class="pl"> </span>eligible to receive the public subsidy. Within one week after receiving the certification, the <br/><span id="pl.4.16" class="pl"> </span>Metropolitan Council must pay the board the amount necessary to fund the public subsidy <br/><span id="pl.4.17" class="pl"> </span>for that number of candidates. The amount received must be deposited in the state treasury <br/><span id="pl.4.18" class="pl"> </span>and credited to a Metropolitan Council public subsidy account in the special revenue fund. <br/><span id="pl.4.19" class="pl"> </span>Money in the fund is appropriated to the board for purposes of the public subsidy program.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.5.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.20" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Payment.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The board shall pay the public subsidy to the eligible candidates as <br/><span id="pl.4.21" class="pl"> </span>soon as the board has obtained from the secretary of state the results of the primary election <br/><span id="pl.4.22" class="pl"> </span>but not later than one week after certification by the State Canvassing Board of the results <br/><span id="pl.4.23" class="pl"> </span>of the primary. Amounts not paid to candidates, or returned by candidates to the board, must <br/><span id="pl.4.24" class="pl"> </span>be returned by the board to the Metropolitan Council.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.4.25" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.315, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.4.26" class="pl"> </span>10A.315 SPECIAL ELECTION SUBSIDY.<br/></h1>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.27" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Legislative office.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>(a) Each eligible candidate for a legislative office in <br/><span id="pl.4.28" class="pl"> </span>a special election must be paid a public subsidy equal to the sum of:<br/></p>
+        <p><span id="pl.4.29" class="pl"> </span>(1) the party account money at the last general election for the candidate's party for the <br/><span id="pl.4.30" class="pl"> </span>office the candidate is seeking; and<br/></p>
+        <p><span id="pl.4.31" class="pl"> </span>(2) the general account money paid to a candidate for the same office at the last general <br/><span id="pl.4.32" class="pl"> </span>election.<br/></p>
+        <p><span id="pl.5.1" class="pl"> </span>(b) A candidate who wishes to receive this public subsidy must submit a signed agreement <br/><span id="pl.5.2" class="pl"> </span>under section <a href="/statutes/cite/10A.322">10A.322</a> to the board and must meet the contribution requirements of section <br/><a href="/statutes/cite/10A.323"><span id="pl.5.3" class="pl"> </span>10A.323</a>. The special election subsidy must be distributed in the same manner as money in <br/><span id="pl.5.4" class="pl"> </span>the party and general accounts is distributed to legislative candidates in a general election.<br/></p>
+        <p><span id="pl.5.5" class="pl"> </span>(c) The amount necessary to make the payments required by this section is appropriated <br/><span id="pl.5.6" class="pl"> </span>from the general fund for transfer to the state special elections campaign account for <br/><span id="pl.5.7" class="pl"> </span>distribution by the board as set forth in this section.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.6.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.8" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Metropolitan Council office.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Each eligible candidate for Metropolitan Council <br/><span id="pl.5.9" class="pl"> </span>office in a special election must be paid a public subsidy equal to the subsidy paid in a <br/><span id="pl.5.10" class="pl"> </span>general election. To be eligible to receive this public subsidy, a candidate must file a spending <br/><span id="pl.5.11" class="pl"> </span>limit agreement under section 10A.322 and meet the contribution requirements of section <br/><span id="pl.5.12" class="pl"> </span>10A.323, except that the candidate may count contributions received during the two months <br/><span id="pl.5.13" class="pl"> </span>immediately preceding the special election, other than contributions the candidate has <br/><span id="pl.5.14" class="pl"> </span>previously included on an affidavit for another election, and the amount required is <br/><span id="pl.5.15" class="pl"> </span>one-quarter of the amount stated in section 10A.323. To receive the subsidy, the candidate <br/><span id="pl.5.16" class="pl"> </span>must be opposed in either the primary or the general election. The special election subsidy <br/><span id="pl.5.17" class="pl"> </span>must be distributed in the same manner as the public subsidy in a general election.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.5.18" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.323, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.5.19" class="pl"> </span>10A.323 AFFIDAVIT OF CONTRIBUTIONS.<br/></h1>
+      <p class="in"><span id="pl.5.20" class="pl"> </span>(a) In addition to the requirements of section <a href="/statutes/cite/10A.322">10A.322</a>, to be eligible to receive a public <br/><span id="pl.5.21" class="pl"> </span>subsidy under section <a href="/statutes/cite/10A.31">10A.31</a> a candidate or the candidate's treasurer must:<br/></p>
+      <p class="in"><span id="pl.5.22" class="pl"> </span>(1) between January 1 of the previous year and the cutoff date for transactions included <br/><span id="pl.5.23" class="pl"> </span>in the report of receipts and expenditures due before the primary election, accumulate <br/><span id="pl.5.24" class="pl"> </span>contributions from individuals eligible to vote in this state in at least the amount indicated <br/><span id="pl.5.25" class="pl"> </span>for the office sought, counting only the first $50 received from each contributor, excluding <br/><span id="pl.5.26" class="pl"> </span>in-kind contributions:<br/></p>
+      <p class="in"><span id="pl.5.27" class="pl"> </span>(i) candidates for governor and lieutenant governor running together, $35,000;<br/></p>
+      <p class="in"><span id="pl.5.28" class="pl"> </span>(ii) candidates for attorney general, $15,000;<br/></p>
+      <p class="in"><span id="pl.5.29" class="pl"> </span>(iii) candidates for secretary of state and state auditor, separately, $6,000;<br/></p>
+      <p class="in"><span id="pl.5.30" class="pl"> </span>(iv) candidates for the senate, $3,000; <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and<br/></span><span class="sr-only">deleted text end</span></p>
+      <p class="in"><span id="pl.5.31" class="pl"> </span>(v) candidates for the house of representatives, $1,500;<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and<br/></ins><span class="sr-only">new text end</span></p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.5.32" class="pl"> </span>(vi) candidates for the Metropolitan Council, $3,000;<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p class="in"><span id="pl.6.1" class="pl"> </span>(2) file an affidavit with the board stating that the principal campaign committee has <br/><span id="pl.6.2" class="pl"> </span>complied with this paragraph. The affidavit must state the total amount of contributions that <br/><span id="pl.6.3" class="pl"> </span>have been received from individuals eligible to vote in this state, excluding:<br/></p>
+      <p class="in"><span id="pl.6.4" class="pl"> </span>(i) the portion of any contribution in excess of $50;<br/></p>
+      <p><span id="pl.6.5" class="pl"> </span>(ii) any in-kind contribution; and<br/></p>
+      <p><span id="pl.6.6" class="pl"> </span>(iii) any contribution for which the name and address of the contributor is not known <br/><span id="pl.6.7" class="pl"> </span>and recorded; and<br/></p>
+      <p class="in"><span id="pl.6.8" class="pl"> </span>(3) submit the affidavit required by this section to the board in writing by the deadline <br/><span id="pl.6.9" class="pl"> </span>for reporting of receipts and expenditures before a primary under section <a href="/statutes/cite/10A.20">10A.20</a>, subdivision <br/><span id="pl.6.10" class="pl"> </span>4.<br/></p>
+      <p class="in"><span id="pl.6.11" class="pl"> </span>(b) A candidate for a vacancy to be filled at a special election for which the filing period <br/><span id="pl.6.12" class="pl"> </span>does not coincide with the filing period for the general election must accumulate the <br/><span id="pl.6.13" class="pl"> </span>contributions specified in paragraph (a) and must submit the affidavit required by this section <br/><span id="pl.6.14" class="pl"> </span>to the board within five days after the close of the filing period for the special election for <br/><span id="pl.6.15" class="pl"> </span>which the candidate filed.<br/></p>
+      <p><span id="pl.6.16" class="pl"> </span>(c) Notwithstanding paragraphs (a) and (b), a candidate for a vacancy to be filled at a <br/><span id="pl.6.17" class="pl"> </span>special election called under section <a href="/statutes/cite/204B.13#stat.204B.13.2">204B.13, subdivision 2</a>, paragraph (c), must accumulate <br/><span id="pl.6.18" class="pl"> </span>the contributions specified in paragraph (a) and must submit the affidavit required by this <br/><span id="pl.6.19" class="pl"> </span>section to the board within 12 calendar days after the general election.<br/></p>
+      <p><span id="pl.6.20" class="pl"> </span>(d) A candidate or the candidate's treasurer must be able to electronically file the affidavit <br/><span id="pl.6.21" class="pl"> </span>required under this section in the same manner as other reports required by this chapter. <br/><span id="pl.6.22" class="pl"> </span>The board must not require the candidate or candidate's treasurer to notarize the affidavit <br/><span id="pl.6.23" class="pl"> </span>of contribution.<br/></p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.6.24" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 10A.324, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.6.25" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">When return required.</h3>
+        <p>A candidate must return all or a portion of the <br/><span id="pl.6.26" class="pl"> </span>public subsidy received from the state elections campaign account or the public subsidy <br/><span id="pl.6.27" class="pl"> </span>received under section<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 10A.313 or</ins><span class="sr-only">new text end</span> <a href="/statutes/cite/10A.315">10A.315</a>, under the circumstances in this section or <br/><span id="pl.6.28" class="pl"> </span>section <a href="/statutes/cite/10A.257#stat.10A.257.1">10A.257, subdivision 1</a>.<br/></p>
+        <p><span id="pl.6.29" class="pl"> </span>To the extent that the amount of public subsidy received exceeds the aggregate of: (1) <br/><span id="pl.6.30" class="pl"> </span>actual expenditures made by the principal campaign committee of the candidate; and (2) <br/><span id="pl.6.31" class="pl"> </span>approved expenditures made on behalf of the candidate, the treasurer of the candidate's <br/><span id="pl.6.32" class="pl"> </span>principal campaign committee must return an amount equal to the difference to the board. <br/><span id="pl.7.1" class="pl"> </span>The cost of postage that was not used during an election cycle and payments that created <br/><span id="pl.7.2" class="pl"> </span>credit balances at vendors at the close of an election cycle are not considered expenditures <br/><span id="pl.7.3" class="pl"> </span>for purposes of determining the amount to be returned. Expenditures in excess of the <br/><span id="pl.7.4" class="pl"> </span>candidate's spending limit do not count in determining aggregate expenditures under this <br/><span id="pl.7.5" class="pl"> </span>paragraph.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.7.6" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 15.0597, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.7.7" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Definitions.</h3>
+        <p>(a) As used in this section, the following terms shall have <br/><span id="pl.7.8" class="pl"> </span>the meanings given them.<br/></p>
+        <p><span id="pl.7.9" class="pl"> </span>(b) "Agency" means (1) a state board, commission, council, committee, authority, task <br/><span id="pl.7.10" class="pl"> </span>force, including an advisory task force created under section <a href="/statutes/cite/15.014">15.014</a> or <a href="/statutes/cite/15.0593">15.0593</a>, a group <br/><span id="pl.7.11" class="pl"> </span>created by executive order of the governor, or other similar multimember agency created <br/><span id="pl.7.12" class="pl"> </span>by law and having statewide jurisdiction; and (2) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the Metropolitan Council,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> a</ins><span class="sr-only">new text end</span> metropolitan <br/><span id="pl.7.13" class="pl"> </span>agency, Capitol Area Architectural and Planning Board, and any agency with a regional <br/><span id="pl.7.14" class="pl"> </span>jurisdiction created in this state pursuant to an interstate compact.<br/></p>
+        <p><span id="pl.7.15" class="pl"> </span>(c) "Vacancy" or "vacant agency position" means (1) a vacancy in an existing agency, <br/><span id="pl.7.16" class="pl"> </span>or (2) a new, unfilled agency position. Vacancy includes a position that is to be filled through <br/><span id="pl.7.17" class="pl"> </span>appointment of a nonlegislator by a legislator or group of legislators; vacancy does not mean <br/><span id="pl.7.18" class="pl"> </span>(1) a vacant position on an agency composed exclusively of persons employed by a political <br/><span id="pl.7.19" class="pl"> </span>subdivision or another agency, or (2) a vacancy to be filled by a person required to have a <br/><span id="pl.7.20" class="pl"> </span>specific title or position.<br/></p>
+        <p><span id="pl.7.21" class="pl"> </span>(d) "Secretary" means the secretary of state.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.7.22" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 200.02, subdivision 28, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.7.23" class="pl"> </span>Subd. 28.</h2>
+        <h3 class="headnote">Nonpartisan offices.</h3>
+        <p>"Nonpartisan offices" means all judicial, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan <br/><span id="pl.7.24" class="pl"> </span>Council, </ins><span class="sr-only">new text end</span>county, municipal, school district, and special district offices.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.7.25" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.06, subdivision 4a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.7.26" class="pl"> </span>Subd. 4a.</h2>
+        <h3 class="headnote">State and local offices.</h3>
+        <p>Candidates who seek nomination for the following <br/><span id="pl.7.27" class="pl"> </span>offices shall state the following additional information on the affidavit:<br/></p>
+        <p><span id="pl.7.28" class="pl"> </span>(1) for governor or lieutenant governor, that on the first Monday of the next January the <br/><span id="pl.7.29" class="pl"> </span>candidate will be 25 years of age or older and, on the day of the state general election, a <br/><span id="pl.7.30" class="pl"> </span>resident of Minnesota for not less than one year;<br/></p>
+        <p><span id="pl.8.1" class="pl"> </span>(2) for supreme court justice, court of appeals judge, or district court judge, that the <br/><span id="pl.8.2" class="pl"> </span>candidate is learned in the law;<br/></p>
+        <p><span id="pl.8.3" class="pl"> </span>(3) for <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan Council, </ins><span class="sr-only">new text end</span>county, municipal, school district, or special district office, <br/><span id="pl.8.4" class="pl"> </span>that the candidate meets any other qualifications for that office prescribed by law;<br/></p>
+        <p><span id="pl.8.5" class="pl"> </span>(4) for senator or representative in the legislature, that on the day of the general or special <br/><span id="pl.8.6" class="pl"> </span>election to fill the office the candidate will have resided not less than one year in the state <br/><span id="pl.8.7" class="pl"> </span>and not less than six months in the legislative district from which the candidate seeks election.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.8.8" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.09, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.8.9" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Candidates in state and county general elections.</h3>
+        <p class="in">(a) Except as <br/><span id="pl.8.10" class="pl"> </span>otherwise provided by this subdivision, affidavits of candidacy and nominating petitions <br/><span id="pl.8.11" class="pl"> </span>for <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan Council, </ins><span class="sr-only">new text end</span>county, state, and federal offices filled at the state general election <br/><span id="pl.8.12" class="pl"> </span>shall be filed not more than 84 days nor less than 70 days before the state primary. The <br/><span id="pl.8.13" class="pl"> </span>affidavit may be prepared and signed at any time between 60 days before the filing period <br/><span id="pl.8.14" class="pl"> </span>opens and the last day of the filing period.<br/></p>
+        <p class="in"><span id="pl.8.15" class="pl"> </span>(b) Notwithstanding other law to the contrary, the affidavit of candidacy must be signed <br/><span id="pl.8.16" class="pl"> </span>in the presence of a notarial officer or an individual authorized to administer oaths under <br/><span id="pl.8.17" class="pl"> </span>section <a href="/statutes/cite/358.10">358.10</a>.<br/></p>
+        <p class="in"><span id="pl.8.18" class="pl"> </span>(c) This provision does not apply to candidates for presidential elector nominated by <br/><span id="pl.8.19" class="pl"> </span>major political parties. Major party candidates for presidential elector are certified under <br/><span id="pl.8.20" class="pl"> </span>section <a href="/statutes/cite/208.03">208.03</a>. Other candidates for presidential electors may file petitions at least 77 days <br/><span id="pl.8.21" class="pl"> </span>before the general election day pursuant to section <a href="/statutes/cite/204B.07">204B.07</a>. Nominating petitions to fill <br/><span id="pl.8.22" class="pl"> </span>vacancies in nominations shall be filed as provided in section <a href="/statutes/cite/204B.13">204B.13</a>. No affidavit or <br/><span id="pl.8.23" class="pl"> </span>petition shall be accepted later than 5:00 p.m. on the last day for filing.<br/></p>
+        <p class="in"><span id="pl.8.24" class="pl"> </span>(d) Affidavits and petitions for county offices must be filed with the county auditor of <br/><span id="pl.8.25" class="pl"> </span>that county. Affidavits and petitions for federal offices must be filed with the secretary of <br/><span id="pl.8.26" class="pl"> </span>state. Affidavits and petitions for state <span class="sr-only">new text begin</span><ins style="text-decoration: underline">and Metropolitan Council </ins><span class="sr-only">new text end</span>offices must be filed with <br/><span id="pl.8.27" class="pl"> </span>the secretary of state or with the county auditor of the county in which the candidate resides.<br/></p>
+        <p class="in"><span id="pl.8.28" class="pl"> </span>(e) Affidavits other than those filed pursuant to subdivision 1a must be submitted by <br/><span id="pl.8.29" class="pl"> </span>mail or by hand, notwithstanding chapter 325L, or any other law to the contrary and must <br/><span id="pl.8.30" class="pl"> </span>be received by 5:00 p.m. on the last day for filing.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.9.1" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.09, subdivision 1a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.9.2" class="pl"> </span>Subd. 1a.</h2>
+        <h3 class="headnote">Absent candidates.</h3>
+        <p class="in">(a) A candidate for special district, county, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan <br/><span id="pl.9.3" class="pl"> </span>Council, </ins><span class="sr-only">new text end</span>state, or federal office who will be absent from the state during the filing period <br/><span id="pl.9.4" class="pl"> </span>may submit a properly executed affidavit of candidacy, the appropriate filing fee, and any <br/><span id="pl.9.5" class="pl"> </span>necessary petitions in person to the filing officer. The candidate shall state in writing the <br/><span id="pl.9.6" class="pl"> </span>reason for being unable to submit the affidavit during the filing period. The affidavit, filing <br/><span id="pl.9.7" class="pl"> </span>fee, if any, and petitions must be submitted to the filing officer during the seven days <br/><span id="pl.9.8" class="pl"> </span>immediately preceding the candidate's absence from the state. Nominating petitions may <br/><span id="pl.9.9" class="pl"> </span>be signed during the 14 days immediately preceding the date when the affidavit of candidacy <br/><span id="pl.9.10" class="pl"> </span>is filed.<br/></p>
+        <p class="in"><span id="pl.9.11" class="pl"> </span>(b) A candidate for special district, county, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan Council, </ins><span class="sr-only">new text end</span>state, or federal office <br/><span id="pl.9.12" class="pl"> </span>who will be absent from the state during the entire filing period or who must leave the state <br/><span id="pl.9.13" class="pl"> </span>for the remainder of the filing period and who certifies to the secretary of state that the <br/><span id="pl.9.14" class="pl"> </span>circumstances constitute an emergency and were unforeseen, may submit a properly executed <br/><span id="pl.9.15" class="pl"> </span>affidavit of candidacy by facsimile device or by transmitting electronically a scanned image <br/><span id="pl.9.16" class="pl"> </span>of the affidavit to the secretary of state during the filing period. The candidate shall state in <br/><span id="pl.9.17" class="pl"> </span>writing the specific reason for being unable to submit the affidavit by mail or by hand during <br/><span id="pl.9.18" class="pl"> </span>the filing period or in person prior to the start of the filing period. The affidavit of candidacy, <br/><span id="pl.9.19" class="pl"> </span>filing fee, if any, and any necessary petitions must be received by the secretary of state by <br/><span id="pl.9.20" class="pl"> </span>5:00 p.m. on the last day for filing. If the candidate is filing for a special district or county <br/><span id="pl.9.21" class="pl"> </span>office, the secretary of state shall forward the affidavit of candidacy, filing fee, if any, and <br/><span id="pl.9.22" class="pl"> </span>any necessary petitions to the appropriate filing officer.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.9.23" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.11, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.9.24" class="pl"> </span>204B.11 CANDIDATES; FILING FEES; PETITION IN PLACE OF FILING FEE.<br/></h1>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no"><span id="pl.9.25" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Amount; dishonored checks; consequences.</h3>
+        <p>(a) Except as provided by <br/><span id="pl.9.26" class="pl"> </span>subdivision 2, a filing fee shall be paid by each candidate who files an affidavit of candidacy. <br/><span id="pl.9.27" class="pl"> </span>The fee shall be paid at the time the affidavit is filed. The amount of the filing fee shall vary <br/><span id="pl.9.28" class="pl"> </span>with the office sought as follows:<br/></p>
+        <p><span id="pl.9.29" class="pl"> </span>(1) for the office of governor, lieutenant governor, attorney general, state auditor, secretary <br/><span id="pl.9.30" class="pl"> </span>of state, representative in Congress, judge of the supreme court, judge of the court of appeals, <br/><span id="pl.9.31" class="pl"> </span>or judge of the district court, $300;<br/></p>
+        <p><span id="pl.9.32" class="pl"> </span>(2) for the office of senator in Congress, $400;<br/></p>
+        <p><span id="pl.10.1" class="pl"> </span>(3) for office of senator or representative in the legislature<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or Metropolitan Council</ins><span class="sr-only">new text end</span>, <br/><span id="pl.10.2" class="pl"> </span>$100;<br/></p>
+        <p><span id="pl.10.3" class="pl"> </span>(4) for a county office, $50; and<br/></p>
+        <p><span id="pl.10.4" class="pl"> </span>(5) for the office of soil and water conservation district supervisor, $20.<br/></p>
+        <p><span id="pl.10.5" class="pl"> </span>(b) For the office of presidential elector, and for those offices for which no compensation <br/><span id="pl.10.6" class="pl"> </span>is provided, no filing fee is required.<br/></p>
+        <p><span id="pl.10.7" class="pl"> </span>(c) The filing fees received by the county auditor shall immediately be paid to the county <br/><span id="pl.10.8" class="pl"> </span>treasurer. The filing fees received by the secretary of state shall immediately be paid to the <br/><span id="pl.10.9" class="pl"> </span>commissioner of management and budget.<br/></p>
+        <p><span id="pl.10.10" class="pl"> </span>(d) When an affidavit of candidacy has been filed with the appropriate filing officer and <br/><span id="pl.10.11" class="pl"> </span>the requisite filing fee has been paid, the filing fee shall not be refunded. If a candidate's <br/><span id="pl.10.12" class="pl"> </span>filing fee is paid with a check, draft, or similar negotiable instrument for which sufficient <br/><span id="pl.10.13" class="pl"> </span>funds are not available or that is dishonored, notice to the candidate of the worthless <br/><span id="pl.10.14" class="pl"> </span>instrument must be sent by the filing officer via registered mail no later than immediately <br/><span id="pl.10.15" class="pl"> </span>upon the closing of the filing deadline with return receipt requested. The candidate will <br/><span id="pl.10.16" class="pl"> </span>have five days from the time the filing officer receives proof of receipt to issue a check or <br/><span id="pl.10.17" class="pl"> </span>other instrument for which sufficient funds are available. The candidate issuing the worthless <br/><span id="pl.10.18" class="pl"> </span>instrument is liable for a service charge pursuant to section <a href="/statutes/cite/604.113">604.113</a>. If adequate payment <br/><span id="pl.10.19" class="pl"> </span>is not made, the name of the candidate must not appear on any official ballot and the <br/><span id="pl.10.20" class="pl"> </span>candidate is liable for all costs incurred by election officials in removing the name from the <br/><span id="pl.10.21" class="pl"> </span>ballot.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.14.2">
+        <h2 class="subd_no"><span id="pl.10.22" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Petition in place of filing fee.</h3>
+        <p>At the time of filing an affidavit of candidacy, <br/><span id="pl.10.23" class="pl"> </span>a candidate may present a petition in place of the filing fee. The petition may be signed by <br/><span id="pl.10.24" class="pl"> </span>any individual eligible to vote for the candidate. A nominating petition filed pursuant to <br/><span id="pl.10.25" class="pl"> </span>section <a href="/statutes/cite/204B.07">204B.07</a> is effective as a petition in place of a filing fee if the nominating petition <br/><span id="pl.10.26" class="pl"> </span>includes a prominent statement informing the signers of the petition that it will be used for <br/><span id="pl.10.27" class="pl"> </span>that purpose.<br/></p>
+        <p><span id="pl.10.28" class="pl"> </span>The number of signatures on a petition in place of a filing fee shall be as follows:<br/></p>
+        <p><span id="pl.10.29" class="pl"> </span>(a) for a state office voted on statewide, or for president of the United States, or United <br/><span id="pl.10.30" class="pl"> </span>States senator, 2,000;<br/></p>
+        <p><span id="pl.10.31" class="pl"> </span>(b) for a congressional office, 1,000;<br/></p>
+        <p><span id="pl.10.32" class="pl"> </span>(c) for <span class="sr-only">new text begin</span><ins style="text-decoration: underline">the Metropolitan Council, </ins><span class="sr-only">new text end</span>a county or legislative office, or for the office of district <br/><span id="pl.10.33" class="pl"> </span>judge, 500; and<br/></p>
+        <p><span id="pl.11.1" class="pl"> </span>(d) for any other office which requires a filing fee as prescribed by law, municipal charter, <br/><span id="pl.11.2" class="pl"> </span>or ordinance, the lesser of 500 signatures or five percent of the total number of votes cast <br/><span id="pl.11.3" class="pl"> </span>in the municipality, ward, or other election district at the preceding general election at which <br/><span id="pl.11.4" class="pl"> </span>that office was on the ballot.<br/></p>
+        <p><span id="pl.11.5" class="pl"> </span>An official with whom petitions are filed shall make sample forms for petitions in place <br/><span id="pl.11.6" class="pl"> </span>of filing fees available upon request.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.11.7" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.135, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.11.8" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Other election districts.</h3>
+        <p>For purposes of this subdivision, "local government <br/><span id="pl.11.9" class="pl"> </span>election district" means a county district, park and recreation district, school district, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span> soil <br/><span id="pl.11.10" class="pl"> </span>and water conservation district<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or Metropolitan Council district</ins><span class="sr-only">new text end</span>. Local government election <br/><span id="pl.11.11" class="pl"> </span>districts, other than city wards covered by subdivision 1, may not be redistricted until precinct <br/><span id="pl.11.12" class="pl"> </span>boundaries are reestablished under section <a href="/statutes/cite/204B.14#stat.204B.14.3">204B.14, subdivision 3</a>, paragraph (c). Election <br/><span id="pl.11.13" class="pl"> </span>districts covered by this subdivision must be redistricted within 80 days of the time when <br/><span id="pl.11.14" class="pl"> </span>the legislature has been redistricted or at least 15 weeks before the state primary election <br/><span id="pl.11.15" class="pl"> </span>in the year ending in two, whichever comes first.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.11.16" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204B.32, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.11.17" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Allocation of election expenses.</h3>
+        <p>The secretary of state shall develop procedures <br/><span id="pl.11.18" class="pl"> </span>for the allocation of election expenses among counties, municipalities, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span> school districts<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, <br/><span id="pl.11.19" class="pl"> </span>and the Metropolitan Council</ins><span class="sr-only">new text end</span> for elections that are held concurrently. The following expenses <br/><span id="pl.11.20" class="pl"> </span>must be included in the procedures: salaries of election judges; postage for absentee ballots <br/><span id="pl.11.21" class="pl"> </span>and applications; preparation of polling places; preparation and testing of electronic voting <br/><span id="pl.11.22" class="pl"> </span>systems; ballot preparation; publication of election notices and sample ballots; transportation <br/><span id="pl.11.23" class="pl"> </span>of ballots and election supplies; and compensation for administrative expenses of the county <br/><span id="pl.11.24" class="pl"> </span>auditor, municipal clerk, or school district clerk.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.11.25" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204D.02, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.11.26" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Officers.</h3>
+        <p>All elective state<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, Metropolitan Council,</ins><span class="sr-only">new text end</span> and county officers, <br/><span id="pl.11.27" class="pl"> </span>justices of the supreme court, judges of the court of appeals and district court, state senators <br/><span id="pl.11.28" class="pl"> </span>and state representatives, and senators and representatives in Congress shall be elected at <br/><span id="pl.11.29" class="pl"> </span>the state general election held in the year before their terms of office expire. Presidential <br/><span id="pl.11.30" class="pl"> </span>electors shall be chosen at the state general election held in the year before the expiration <br/><span id="pl.11.31" class="pl"> </span>of a term of a president of the United States.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.12.1" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204D.08, subdivision 6, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.18.1">
+        <h2 class="subd_no"><span id="pl.12.2" class="pl"> </span>Subd. 6.</h2>
+        <h3 class="headnote">State and county nonpartisan primary ballot.</h3>
+        <p>The state and county nonpartisan <br/><span id="pl.12.3" class="pl"> </span>primary ballot shall be headed "State and County Nonpartisan Primary Ballot." It shall be <br/><span id="pl.12.4" class="pl"> </span>printed in the manner provided in the rules of the secretary of state. The names of candidates <br/><span id="pl.12.5" class="pl"> </span>for nomination to the supreme court, court of appeals, district court, and all <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan <br/><span id="pl.12.6" class="pl"> </span>Council and </ins><span class="sr-only">new text end</span>county offices shall be placed on this ballot.<br/></p>
+        <p><span id="pl.12.7" class="pl"> </span>No candidate whose name is placed on the state and county nonpartisan primary ballot <br/><span id="pl.12.8" class="pl"> </span>shall be designated or identified as the candidate of any political party or in any other manner <br/><span id="pl.12.9" class="pl"> </span>except as expressly provided by law.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.12.10" class="pl"> </span>Sec. 19. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[204D.265] VACANCY IN OFFICE OF METROPOLITAN COUNCIL <br/><span id="pl.12.11" class="pl"> </span>MEMBER.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.19.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.12" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Special election.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Except as otherwise provided in subdivision 3, a <br/><span id="pl.12.13" class="pl"> </span>vacancy in an office shall be filled by appointment by the Metropolitan Council until an <br/><span id="pl.12.14" class="pl"> </span>election is held as provided in this subdivision. The appointee must reside in the district <br/><span id="pl.12.15" class="pl"> </span>represented by the seat to be filled. In case of a tie vote in the Metropolitan Council, the <br/><span id="pl.12.16" class="pl"> </span>chair shall make the appointment. If the vacancy occurs before the first day to file affidavits <br/><span id="pl.12.17" class="pl"> </span>of candidacy for the next regular election and more than two years remain in the unexpired <br/><span id="pl.12.18" class="pl"> </span>term, a special election shall be held at the next regular election and the appointed person <br/><span id="pl.12.19" class="pl"> </span>shall serve until a successor is elected at a special election to fill the unexpired portion of <br/><span id="pl.12.20" class="pl"> </span>the term. If the vacancy occurs on or after the first day to file affidavits of candidacy for <br/><span id="pl.12.21" class="pl"> </span>the regular election or when less than two years remain in the unexpired term, there need <br/><span id="pl.12.22" class="pl"> </span>not be a special election to fill the vacancy and the appointed person shall serve until the <br/><span id="pl.12.23" class="pl"> </span>qualification of a successor.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.24" class="pl"> </span>(b) The person elected at the special election must take office immediately after receipt <br/><span id="pl.12.25" class="pl"> </span>of the certificate of election and, upon taking the oath of office, must serve the remainder <br/><span id="pl.12.26" class="pl"> </span>of the unexpired term.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.27" class="pl"> </span>(c) If the Metropolitan Council districts have been redrawn since the beginning of the <br/><span id="pl.12.28" class="pl"> </span>term of the vacant office, the election must be based on the district as redrawn.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.19.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.29" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">When victor seated immediately.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">If a vacancy for which a special election is <br/><span id="pl.12.30" class="pl"> </span>required occurs less than 60 days before the general election preceding the end of the term, <br/><span id="pl.12.31" class="pl"> </span>the vacancy must be filled by the person elected at that election for the ensuing term and <br/><span id="pl.12.32" class="pl"> </span>that person must take office immediately after receiving the certificate of election and taking <br/><span id="pl.12.33" class="pl"> </span>the oath of office.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.19.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.1" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Inability or refusal to serve.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">In addition to a vacancy arising under section <br/><span id="pl.13.2" class="pl"> </span>351.02, a vacancy in the office of a Metropolitan Council member may be declared by the <br/><span id="pl.13.3" class="pl"> </span>Metropolitan Council when a member is unable to serve in the office or attend council <br/><span id="pl.13.4" class="pl"> </span>meetings for a 90-day period because of illness, or absence from or refusal to attend council <br/><span id="pl.13.5" class="pl"> </span>meetings for a 90-day period. If any of the conditions described or referred to in this <br/><span id="pl.13.6" class="pl"> </span>subdivision occur, the council may, after the council by resolution has declared a vacancy <br/><span id="pl.13.7" class="pl"> </span>to exist, appoint someone to fill the vacancy at a regular or special meeting for the remainder <br/><span id="pl.13.8" class="pl"> </span>of the unexpired term or until the ill or absent member is again able to resume duties and <br/><span id="pl.13.9" class="pl"> </span>attend council meetings, whichever is earlier. If the council determines that the original <br/><span id="pl.13.10" class="pl"> </span>member is again able to resume duties and attend council meetings, the council must say <br/><span id="pl.13.11" class="pl"> </span>so in a resolution and remove the appointed officeholder and restore the original member <br/><span id="pl.13.12" class="pl"> </span>to office.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.20.0">
+      <h2 class="section_number"><span id="pl.13.13" class="pl"> </span>Sec. 20. </h2>
+      <p class="first">Minnesota Statutes 2018, section 204D.27, is amended by adding a subdivision <br/><span id="pl.13.14" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.20.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.15" class="pl"> </span>Subd. 13.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Special Metropolitan Council election.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Except as provided in subdivision <br/><span id="pl.13.16" class="pl"> </span>4, the State Canvassing Board shall complete its canvass of a special election for a <br/><span id="pl.13.17" class="pl"> </span>Metropolitan Council member and declare the results within four days after the returns of <br/><span id="pl.13.18" class="pl"> </span>the county canvassing boards are certified to the secretary of state, excluding Sundays and <br/><span id="pl.13.19" class="pl"> </span>legal holidays.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.20" class="pl"> </span>(b) In case of a contest of a special election for a Metropolitan Council member, the <br/><span id="pl.13.21" class="pl"> </span>notice of contest must be filed within two days after the canvass is completed, excluding <br/><span id="pl.13.22" class="pl"> </span>Sundays and legal holidays. In other respects, the contest must proceed in the manner <br/><span id="pl.13.23" class="pl"> </span>provided by law for contesting elections.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.24" class="pl"> </span>(c) A certificate of election in a special election for a Metropolitan Council member <br/><span id="pl.13.25" class="pl"> </span>must be issued by the county auditor or the secretary of state to the individual declared <br/><span id="pl.13.26" class="pl"> </span>elected by the county or State Canvassing Board two days after the appropriate canvassing <br/><span id="pl.13.27" class="pl"> </span>board finishes canvassing the returns for the election, excluding Sundays and legal holidays. <br/><span id="pl.13.28" class="pl"> </span>In case of a contest, the certificate must not be issued until the district court decides the <br/><span id="pl.13.29" class="pl"> </span>contest.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.21.0">
+      <h2 class="section_number"><span id="pl.13.30" class="pl"> </span>Sec. 21. </h2>
+      <p class="first">Minnesota Statutes 2018, section 209.02, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.21.1">
+        <h2 class="subd_no"><span id="pl.13.31" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">General.</h3>
+        <p>Any eligible voter, including a candidate, may contest in the <br/><span id="pl.13.32" class="pl"> </span>manner provided in this chapter: (1) the nomination or election of any person for whom the <br/><span id="pl.13.33" class="pl"> </span>voter had the right to vote if that person is declared nominated or elected to the senate or <br/><span id="pl.14.1" class="pl"> </span>the house of representatives of the United States, or to a statewide, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan Council, <br/></ins><span class="sr-only">new text end</span><span id="pl.14.2" class="pl"> </span>county, legislative, municipal, school, or district court office; or (2) the declared result of <br/><span id="pl.14.3" class="pl"> </span>a constitutional amendment or other question voted upon at an election. The contest may <br/><span id="pl.14.4" class="pl"> </span>be brought over an irregularity in the conduct of an election or canvass of votes, over the <br/><span id="pl.14.5" class="pl"> </span>question of who received the largest number of votes legally cast, over the number of votes <br/><span id="pl.14.6" class="pl"> </span>legally cast in favor of or against a question, or on the grounds of deliberate, serious, and <br/><span id="pl.14.7" class="pl"> </span>material violations of the Minnesota Election Law.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.22.0">
+      <h2 class="section_number"><span id="pl.14.8" class="pl"> </span>Sec. 22. </h2>
+      <p class="first">Minnesota Statutes 2018, section 211A.01, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.22.1">
+        <h2 class="subd_no"><span id="pl.14.9" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Candidate.</h3>
+        <p>"Candidate" means an individual who seeks nomination or election <br/><span id="pl.14.10" class="pl"> </span>to a county, municipal, school district, or other political subdivision office. This definition <br/><span id="pl.14.11" class="pl"> </span>does not include an individual seeking a judicial office<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or a seat on the Metropolitan Council</ins><span class="sr-only">new text end</span>. <br/><span id="pl.14.12" class="pl"> </span>For purposes of sections <a href="/statutes/cite/211A.01">211A.01</a> to <a href="/statutes/cite/211A.05">211A.05</a> and <a href="/statutes/cite/211A.07">211A.07</a>, "candidate" also includes a <br/><span id="pl.14.13" class="pl"> </span>candidate for the United States Senate or House of Representatives.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.23.0">
+      <h2 class="section_number"><span id="pl.14.14" class="pl"> </span>Sec. 23. </h2>
+      <p class="first">Minnesota Statutes 2018, section 211B.01, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.23.1">
+        <h2 class="subd_no"><span id="pl.14.15" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Candidate.</h3>
+        <p>"Candidate" means an individual who seeks nomination or election <br/><span id="pl.14.16" class="pl"> </span>to a federal, statewide, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Metropolitan Council, </ins><span class="sr-only">new text end</span>legislative, judicial, or local office including <br/><span id="pl.14.17" class="pl"> </span>special districts, school districts, towns, home rule charter and statutory cities, and counties, <br/><span id="pl.14.18" class="pl"> </span>except candidates for president and vice-president of the United States.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.24.0">
+      <h2 class="section_number"><span id="pl.14.19" class="pl"> </span>Sec. 24. </h2>
+      <p class="first">Minnesota Statutes 2018, section 353D.01, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.24.1">
+        <h2 class="subd_no"><span id="pl.14.20" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Eligibility.</h3>
+        <p>(a) Eligibility to participate in the defined contribution plan is <br/><span id="pl.14.21" class="pl"> </span>available to:<br/></p>
+        <p><span id="pl.14.22" class="pl"> </span>(1) elected local government officials of a governmental subdivision who elect to <br/><span id="pl.14.23" class="pl"> </span>participate in the plan under section <a href="/statutes/cite/353D.02#stat.353D.02.1">353D.02, subdivision 1</a>, and who, for the elected service <br/><span id="pl.14.24" class="pl"> </span>rendered to a governmental subdivision, are not members of the Public Employees Retirement <br/><span id="pl.14.25" class="pl"> </span>Association within the meaning of section <a href="/statutes/cite/353.01#stat.353.01.7">353.01, subdivision 7</a>;<br/></p>
+        <p><span id="pl.14.26" class="pl"> </span>(2) physicians who, if they did not elect to participate in the plan under section <a href="/statutes/cite/353D.02#stat.353D.02.2">353D.02, <br/><span id="pl.14.27" class="pl"> </span>subdivision 2</a>, would meet the definition of member under section <a href="/statutes/cite/353.01#stat.353.01.7">353.01, subdivision 7</a>;<br/></p>
+        <p><span id="pl.14.28" class="pl"> </span>(3) basic and advanced life-support emergency medical service personnel who are <br/><span id="pl.14.29" class="pl"> </span>employed by any public ambulance service that elects to participate under section <a href="/statutes/cite/353D.02#stat.353D.02.3">353D.02, <br/><span id="pl.14.30" class="pl"> </span>subdivision 3</a>;<br/></p>
+        <p><span id="pl.15.1" class="pl"> </span>(4) members of a municipal rescue squad associated with the city of Litchfield in Meeker <br/><span id="pl.15.2" class="pl"> </span>County, or of a county rescue squad associated with Kandiyohi County, if an independent <br/><span id="pl.15.3" class="pl"> </span>nonprofit rescue squad corporation, incorporated under chapter 317A, performing emergency <br/><span id="pl.15.4" class="pl"> </span>management services, and if not affiliated with a fire department or ambulance service and <br/><span id="pl.15.5" class="pl"> </span>if its members are not eligible for membership in that fire department's or ambulance service's <br/><span id="pl.15.6" class="pl"> </span>relief association or comparable pension plan;<br/></p>
+        <p><span id="pl.15.7" class="pl"> </span>(5) employees of the Port Authority of the city of St. Paul who elect to participate in the <br/><span id="pl.15.8" class="pl"> </span>plan under section <a href="/statutes/cite/353D.02#stat.353D.02.5">353D.02, subdivision 5</a>, and who are not members of the Public Employees <br/><span id="pl.15.9" class="pl"> </span>Retirement Association under section <a href="/statutes/cite/353.01#stat.353.01.7">353.01, subdivision 7</a>;<br/></p>
+        <p><span id="pl.15.10" class="pl"> </span>(6) city managers who elected to be excluded from the general employees retirement <br/><span id="pl.15.11" class="pl"> </span>plan of the Public Employees Retirement Association under section <a href="/statutes/cite/353.028">353.028</a> and who elected <br/><span id="pl.15.12" class="pl"> </span>to participate in the public employees defined contribution plan under section <a href="/statutes/cite/353.028">353.028</a>, <br/><span id="pl.15.13" class="pl"> </span>subdivision 3, paragraph (b);<br/></p>
+        <p><span id="pl.15.14" class="pl"> </span>(7) volunteer or emergency on-call firefighters serving in a municipal fire department <br/><span id="pl.15.15" class="pl"> </span>or an independent nonprofit firefighting corporation who are not covered by the public <br/><span id="pl.15.16" class="pl"> </span>employees police and fire retirement plan and who are not covered by a volunteer firefighters <br/><span id="pl.15.17" class="pl"> </span>relief association and who elect to participate in the public employees defined contribution <br/><span id="pl.15.18" class="pl"> </span>plan;<br/></p>
+        <p><span id="pl.15.19" class="pl"> </span>(8) elected county sheriffs who are former members of the police and fire plan and who <br/><span id="pl.15.20" class="pl"> </span>are receiving a retirement annuity as provided under section <a href="/statutes/cite/353.651">353.651</a>; and<br/></p>
+        <p><span id="pl.15.21" class="pl"> </span>(9) persons who are excluded from membership under section <a href="/statutes/cite/353.01#stat.353.01.2">353.01, subdivision 2b</a>, <br/><span id="pl.15.22" class="pl"> </span>paragraph (a), clause (23).<br/></p>
+        <p><span id="pl.15.23" class="pl"> </span>(b) For purposes of this chapter, an elected local government official includes a person <br/><span id="pl.15.24" class="pl"> </span>appointed to fill a vacancy in an elective office<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and a member of the Metropolitan Council</ins><span class="sr-only">new text end</span>. <br/><span id="pl.15.25" class="pl"> </span>Service as an elected local government official only includes service for the governmental <br/><span id="pl.15.26" class="pl"> </span>subdivision for which the official was elected by the public at large. Service as an elected <br/><span id="pl.15.27" class="pl"> </span>local government official ceases and eligibility to participate terminates when the person <br/><span id="pl.15.28" class="pl"> </span>ceases to be an elected official. An elected local government official does not include an <br/><span id="pl.15.29" class="pl"> </span>elected county sheriff who must be a member of the police and fire plan as provided under <br/><span id="pl.15.30" class="pl"> </span>chapter 353.<br/></p>
+        <p><span id="pl.15.31" class="pl"> </span>(c) Individuals otherwise eligible to participate in the plan under this subdivision who <br/><span id="pl.15.32" class="pl"> </span>are currently covered by a public or private pension plan because of their employment or <br/><span id="pl.15.33" class="pl"> </span>provision of services are not eligible to participate in the public employees defined <br/><span id="pl.15.34" class="pl"> </span>contribution plan.<br/></p>
+        <p><span id="pl.16.1" class="pl"> </span>(d) A former participant is a person who has terminated eligible employment or service <br/><span id="pl.16.2" class="pl"> </span>and has not withdrawn the value of the person's individual account.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.25.0">
+      <h2 class="section_number"><span id="pl.16.3" class="pl"> </span>Sec. 25. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.25.1">
+        <h2 class="subd_no"><span id="pl.16.4" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Creation.</h3>
+        <p>A Metropolitan Council with jurisdiction in the metropolitan <br/><span id="pl.16.5" class="pl"> </span>area is established as a public corporation and political subdivision of the state. <span class="sr-only">new text begin</span><ins style="text-decoration: underline">Until the <br/><span id="pl.16.6" class="pl"> </span>completion of redistricting following the 2020 census as required by subdivision 3a, </ins><span class="sr-only">new text end</span>it shall <br/><span id="pl.16.7" class="pl"> </span>be under the supervision and control of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">17</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">16 </ins><span class="sr-only">new text end</span>members<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and a chair</ins><span class="sr-only">new text end</span>, all of whom <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall be <br/><span id="pl.16.8" class="pl"> </span>residents of the metropolitan area</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> are appointed by the governor</ins><span class="sr-only">new text end</span>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> After the completion of <br/><span id="pl.16.9" class="pl"> </span>redistricting following the 2020 census as required by subdivision 3a, it shall be under the <br/><span id="pl.16.10" class="pl"> </span>supervision and control of 17 members, each elected from a district as provided in this <br/><span id="pl.16.11" class="pl"> </span>section.<br/></ins><span class="sr-only">new text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.26.0">
+      <h2 class="section_number"><span id="pl.16.12" class="pl"> </span>Sec. 26. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, is amended by adding a subdivision <br/><span id="pl.16.13" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.26.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.16.14" class="pl"> </span>Subd. 2b.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Terms.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Following each redistricting of council districts, as provided under <br/><span id="pl.16.15" class="pl"> </span>subdivision 3a, council members must be elected from newly drawn districts. The terms of <br/><span id="pl.16.16" class="pl"> </span>members are staggered as follows: members representing even-numbered districts have <br/><span id="pl.16.17" class="pl"> </span>terms ending the first Monday in January of the year ending in the numeral "7;" and members <br/><span id="pl.16.18" class="pl"> </span>representing odd-numbered districts have terms ending the first Monday in January of the <br/><span id="pl.16.19" class="pl"> </span>year ending in the numeral "5." Thereafter the term of each member is four years, with terms <br/><span id="pl.16.20" class="pl"> </span>ending the first Monday in January, except that all terms expire on the effective date of the <br/><span id="pl.16.21" class="pl"> </span>next redistricting. A member shall continue to serve the member's district until a successor <br/><span id="pl.16.22" class="pl"> </span>is elected and qualified; except that, following each redistricting, the member shall continue <br/><span id="pl.16.23" class="pl"> </span>to serve at large until a successor is elected and qualified from each of the newly drawn <br/><span id="pl.16.24" class="pl"> </span>council districts as provided under subdivision 3a, to serve terms as provided under this <br/><span id="pl.16.25" class="pl"> </span>section.<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.27.0">
+      <h2 class="section_number"><span id="pl.16.26" class="pl"> </span>Sec. 27. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, is amended by adding a subdivision <br/><span id="pl.16.27" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.27.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.16.28" class="pl"> </span>Subd. 2c.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Membership.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">After the completion of redistricting following the 2020 census, <br/><span id="pl.16.29" class="pl"> </span>as required by subdivision 3a, 17 members must be elected from districts defined by this <br/><span id="pl.16.30" class="pl"> </span>section. Each council member must reside in the council district represented. Each council <br/><span id="pl.16.31" class="pl"> </span>district must be represented by one member of the council.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.28.0">
+      <h2 class="section_number"><span id="pl.17.1" class="pl"> </span>Sec. 28. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, subdivision 3a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.28.1">
+        <h2 class="subd_no"><span id="pl.17.2" class="pl"> </span>Subd. 3a.</h2>
+        <h3 class="headnote">Redistricting.</h3>
+        <p>The legislature shall redraw the boundaries of the council <br/><span id="pl.17.3" class="pl"> </span>districts after each decennial federal census so that each district has substantially equal <br/><span id="pl.17.4" class="pl"> </span>population. Redistricting is effective in the year ending in the numeral "3." <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Within 60 days <br/><span id="pl.17.5" class="pl"> </span>after a redistricting plan takes effect, the governor shall appoint members from the newly <br/><span id="pl.17.6" class="pl"> </span>drawn districts to serve terms as provided under subdivision 2a.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> At the general election in <br/><span id="pl.17.7" class="pl"> </span>the year ending in the numeral "4," members must be elected from each of the newly drawn <br/><span id="pl.17.8" class="pl"> </span>districts.<br/></ins><span class="sr-only">new text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.29.0">
+      <h2 class="section_number"><span id="pl.17.9" class="pl"> </span>Sec. 29. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.29.1">
+        <h2 class="subd_no"><span id="pl.17.10" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Chair; <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">appointment,</span><span class="sr-only">deleted text end</span> officers<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and</ins><span class="sr-only">new text end</span> selection; duties and compensation.</h3>
+        <p>(a) <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.17.11" class="pl"> </span>Until the completion of redistricting following the 2020 federal census as required by <br/><span id="pl.17.12" class="pl"> </span>subdivision 3a, </ins><span class="sr-only">new text end</span>the chair of the Metropolitan Council shall be appointed by the governor as <br/><span id="pl.17.13" class="pl"> </span>the 17th voting member thereof by and with the advice and consent of the senate to serve <br/><span id="pl.17.14" class="pl"> </span>at the pleasure of the governor to represent the metropolitan area at large. Senate confirmation <br/><span id="pl.17.15" class="pl"> </span>shall be as provided by section <a href="/statutes/cite/15.066">15.066</a>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> After the completion of redistricting following the <br/><span id="pl.17.16" class="pl"> </span>2020 federal census as required by subdivision 3a, the chair shall be elected from the <br/><span id="pl.17.17" class="pl"> </span>membership of the council by the members of the council for a two-year term.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.17.18" class="pl"> </span>The chair of the Metropolitan Council shall, if present, preside at meetings of the council, <br/><span id="pl.17.19" class="pl"> </span>have the primary responsibility for meeting with local elected officials, serve as the principal <br/><span id="pl.17.20" class="pl"> </span>legislative liaison, present to the governor and the legislature, after council approval, the <br/><span id="pl.17.21" class="pl"> </span>council's plans for regional governance and operations, serve as the principal spokesperson <br/><span id="pl.17.22" class="pl"> </span>of the council, and perform other duties assigned by the council or by law.<br/></p>
+        <p><span id="pl.17.23" class="pl"> </span>(b) The Metropolitan Council shall elect other officers as it deems necessary for the <br/><span id="pl.17.24" class="pl"> </span>conduct of its affairs for a one-year term. A secretary and treasurer need not be members <br/><span id="pl.17.25" class="pl"> </span>of the Metropolitan Council. Meeting times and places shall be fixed by the Metropolitan <br/><span id="pl.17.26" class="pl"> </span>Council and special meetings may be called by a majority of the members of the Metropolitan <br/><span id="pl.17.27" class="pl"> </span>Council or by the chair. The chair and each Metropolitan Council member shall be reimbursed <br/><span id="pl.17.28" class="pl"> </span>for actual and necessary expenses.<br/></p>
+        <p><span id="pl.17.29" class="pl"> </span>(c) Each member of the council shall attend and participate in council meetings and meet <br/><span id="pl.17.30" class="pl"> </span>regularly with local elected officials and legislative members from the council member's <br/><span id="pl.17.31" class="pl"> </span>district. Each council member shall serve on at least one division committee for <br/><span id="pl.17.32" class="pl"> </span>transportation, environment, or community development.<br/></p>
+        <p><span id="pl.18.1" class="pl"> </span>(d) In the performance of its duties the Metropolitan Council may adopt policies and <br/><span id="pl.18.2" class="pl"> </span>procedures governing its operation, establish committees, and, when specifically authorized <br/><span id="pl.18.3" class="pl"> </span>by law, make appointments to other governmental agencies and districts.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.30.0">
+      <h2 class="section_number"><span id="pl.18.4" class="pl"> </span>Sec. 30. </h2>
+      <p class="first">Minnesota Statutes 2018, section 473.123, is amended by adding a subdivision <br/><span id="pl.18.5" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.30.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.18.6" class="pl"> </span>Subd. 4a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"> Compensation.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Each Metropolitan Council member must be paid as authorized <br/><span id="pl.18.7" class="pl"> </span>by the Metropolitan Council. The chair and each Metropolitan Council member must be <br/><span id="pl.18.8" class="pl"> </span>reimbursed for actual and necessary expenses.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section uncoded" id="bill.0.31.0">
+      <h2 class="section_number"><span id="pl.18.9" class="pl"> </span>Sec. 31. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">TRANSITION.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.10" class="pl"> </span>The terms of the appointed chair and members of the Metropolitan Council holding <br/><span id="pl.18.11" class="pl"> </span>office on the effective date of this act, and any successors appointed to serve, continue until <br/><span id="pl.18.12" class="pl"> </span>the first Monday in January 2021. A Metropolitan Council member must be elected for each <br/><span id="pl.18.13" class="pl"> </span>council district in the 2020 general election. A member representing an odd-numbered <br/><span id="pl.18.14" class="pl"> </span>district shall serve a two-year term and a member representing an even-numbered district <br/><span id="pl.18.15" class="pl"> </span>shall serve a four-year term. Thereafter, the terms are as provided in Minnesota Statutes, <br/><span id="pl.18.16" class="pl"> </span>section 473.123, subdivision 2a.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section repealer" id="bill.0.32.0">
+      <h2 class="section_number"><span id="pl.18.17" class="pl"> </span>Sec. 32. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.18" class="pl"> </span>(a)</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> Minnesota Statutes 2018, section 473.123, subdivisions 2a and 3,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.19" class="pl"> </span>(b)</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> Laws 1994, chapter 628, article 1, section 8, </ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">is repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section eff_date" id="bill.0.33.0">
+      <h2 class="section_number"><span id="pl.18.20" class="pl"> </span>Sec. 33. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">EFFECTIVE DATE; APPLICATION.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.18.21" class="pl"> </span>This act is effective for the state primary in 2020 and thereafter. This act applies in the <br/><span id="pl.18.22" class="pl"> </span>counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and Washington.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-1213</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">473.123 METROPOLITAN COUNCIL.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 2a.</h2>
+          <h3 class="headnote">Terms.</h3>
+          <p>Following each apportionment of council districts, as provided under subdivision 3a, council members must be appointed from newly drawn districts as provided in subdivision 3a. Each council member, other than the chair, must reside in the council district represented. Each council district must be represented by one member of the council. The terms of members end with the term of the governor, except that all terms expire on the effective date of the next apportionment. A member serves at the pleasure of the governor. A member shall continue to serve the member's district until a successor is appointed and qualified; except that, following each apportionment, the member shall continue to serve at large until the governor appoints 16 council members, one from each of the newly drawn council districts as provided under subdivision 3a, to serve terms as provided under this section. The appointment to the council must be made by the first Monday in March of the year in which the term ends.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Membership; appointment; qualifications.</h3>
+          <p>(a) Sixteen members must be appointed by the governor from districts defined by this section. Each council member must reside in the council district represented. Each council district must be represented by one member of the council.</p>
+          <p>(b) In addition to the notice required by section <a href="/statutes/cite/15.0597#stat.15.0597.4">15.0597, subdivision 4</a>, notice of vacancies and expiration of terms must be published in newspapers of general circulation in the metropolitan area and the appropriate districts. The governing bodies of the statutory and home rule charter cities, counties, and towns having territory in the district for which a member is to be appointed must be notified in writing. The notices must describe the appointments process and invite participation and recommendations on the appointment.</p>
+          <p>(c) The governor shall create a nominating committee, composed of seven metropolitan citizens appointed by the governor, to nominate persons for appointment to the council from districts. Three of the committee members must be local elected officials. Following the submission of applications as provided under section <a href="/statutes/cite/15.0597#stat.15.0597.5">15.0597, subdivision 5</a>, the nominating committee shall conduct public meetings, after appropriate notice, to accept statements from or on behalf of persons who have applied or been nominated for appointment and to allow consultation with and secure the advice of the public and local elected officials. The committee shall hold the meeting on each appointment in the district or in a reasonably convenient and accessible location in the part of the metropolitan area in which the district is located. The committee may consolidate meetings. Following the meetings, the committee shall submit to the governor a list of nominees for each appointment. The governor is not required to appoint from the list.</p>
+          <p>(d) Before making an appointment, the governor shall consult with all members of the legislature from the council district for which the member is to be appointed.</p>
+          <p>(e) Appointments to the council are subject to the advice and consent of the senate as provided in section <a href="/statutes/cite/15.066">15.066</a>.</p>
+          <p>(f) Members of the council must be appointed to reflect fairly the various demographic, political, and other interests in the metropolitan area and the districts.</p>
+          <p>(g) Members of the council must be persons knowledgeable about urban and metropolitan affairs.</p>
+          <p>(h) Any vacancy in the office of a council member shall immediately be filled for the unexpired term. In filling a vacancy, the governor may forgo the requirements of paragraph (c) if the governor has made appointments in full compliance with the requirements of this subdivision within the preceding 12 months.</p>
+        </div>
+      </div>
+      <p style="margin: 2em 0em; text-align: center;">Repealed Minnesota Session Laws: 19-1213</p>
+      <div class="repealed_laws">
+        <p style="font-weight: bold; font-style: italic;margin: 2em 0em -20px 0em; text-indent: 0em">Laws 1994, chapter 628, article 1, section 8</p>
+        <div class="bill_section uncoded" id="bill.0.1.0">
+          <h2 class="section_number">Sec. 8. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">SALARIES OF MEMBERS.</ins><span class="sr-only">new text end</span></span></h2>
+          <p class="in">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Until changed in law after recommendation by the compensation council as provided in Minnesota Statutes, section <a href="/statutes/cite/15A.082">15A.082</a>, the chair of the metropolitan council shall receive a salary of $52,500 per year, and the other members shall receive a salary of $20,000 per year.</ins>
+            <span class="sr-only">new text end</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

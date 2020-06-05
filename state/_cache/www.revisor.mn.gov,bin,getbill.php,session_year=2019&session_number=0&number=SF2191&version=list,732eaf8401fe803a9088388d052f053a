@@ -1,0 +1,1311 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 22:00:34 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2191 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2191</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/08/2019 09:01am</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2191&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2191&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2191&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2191&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2191&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/06/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2191&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2191&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <br/>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <br/>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <br/>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <br/>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <br/>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <br/>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to early childhood; amending requirements governing Head Start programs; <br/><span id="pl.1.3" class="pl"> </span>making technical and clarifying changes; amending Minnesota Statutes 2018, <br/><span id="pl.1.4" class="pl"> </span>sections 119A.50, subdivision 3; 119A.52; 119A.535; repealing Minnesota Statutes <br/><span id="pl.1.5" class="pl"> </span>2018, sections 119A.53; 119A.5411.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.6" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="article" id="bill.1.0.0">
+      <h1 class="article_no"><span id="pl.1.7" class="pl"> </span>ARTICLE 1<br/></h1>
+      <h1 class="article_header"><span id="pl.1.8" class="pl"> </span>HEAD START<br/></h1>
+      <div class="bill_section am_cite" id="bill.1.1.0">
+        <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+        <p class="first">Minnesota Statutes 2018, section 119A.52, is amended to read:<br/></p>
+        <br/>
+        <h1 class="shn"><span id="pl.1.10" class="pl"> </span>119A.52 <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">DISTRIBUTION OF APPROPRIATION</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> HEAD START PROGRAM</ins><span class="sr-only">new text end</span>.<br/></h1>
+        <div class="subd" id="bill.1.1.1">
+          <h2 class="subd_no">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.1.11" class="pl"> </span>Subdivision 1.</ins>
+            <span class="sr-only">new text end</span>
+          </h2>
+          <h3 class="headnote">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Definitions.</ins>
+            <span class="sr-only">new text end</span>
+          </h3>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">(a) For purposes of this section, the following terms have <br/><span id="pl.1.12" class="pl"> </span>the meanings given.<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.1.13" class="pl"> </span>(b) "Head Start" means a comprehensive early education program for eligible children <br/><span id="pl.1.14" class="pl"> </span>from birth to age five that is designed to support growth and development through a variety <br/><span id="pl.1.15" class="pl"> </span>of services, including early learning and healthy development.<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.1.16" class="pl"> </span>(c) "Head Start program" or "program" means a program operated by an Early Head <br/><span id="pl.1.17" class="pl"> </span>Start agency, as defined in Code of Federal Regulations, title 45, section 1305.2, and a Head <br/><span id="pl.1.18" class="pl"> </span>Start agency, as defined in Code of Federal Regulations, title 45, section 1305.2.<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+        </div>
+        <div class="subd" id="bill.1.1.2">
+          <h2 class="subd_no">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.1.19" class="pl"> </span>Subd. 2.</ins>
+            <span class="sr-only">new text end</span>
+          </h2>
+          <h3 class="headnote">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Program requirements.</ins>
+            <span class="sr-only">new text end</span>
+          </h3>
+          <p class="in">(a) The commissioner of education <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">must distribute <br/><span id="pl.1.20" class="pl"> </span>money appropriated for that purpose to federally designated Head Start programs</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and a <br/><span id="pl.1.21" class="pl"> </span>Head Start program must meet federal requirements under Code of Federal Regulations, <br/><span id="pl.1.22" class="pl"> </span>title 45, subchapter B, for all enrollees.<br/></ins><span class="sr-only">new text end</span></p>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.1" class="pl"> </span>(b) A Head Start program must use state funds</ins><span class="sr-only">new text end</span> to expand services <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> in order</ins><span class="sr-only">new text end</span> to serve <br/><span id="pl.2.2" class="pl"> </span>additional low-income children<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, which may include program reconfiguration for children <br/><span id="pl.2.3" class="pl"> </span>from birth to age five</ins><span class="sr-only">new text end</span>.<br/></p>
+        </div>
+        <div class="subd" id="bill.1.1.3">
+          <h2 class="subd_no">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.2.4" class="pl"> </span>Subd. 3.</ins>
+            <span class="sr-only">new text end</span>
+          </h2>
+          <h3 class="headnote">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Distribution.</ins>
+            <span class="sr-only">new text end</span>
+          </h3>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">(a) The commissioner must distribute funds under this section <br/><span id="pl.2.5" class="pl"> </span>to federally designated Head Start programs in the manner provided in this subdivision and <br/><span id="pl.2.6" class="pl"> </span>subdivision 4.</ins><span class="sr-only">new text end</span> Migrant and Indian reservation programs must be initially allocated money <br/><span id="pl.2.7" class="pl"> </span>based on the programs' share of federal funds. The remaining money must be initially <br/><span id="pl.2.8" class="pl"> </span>allocated to the remaining local agencies based equally on the agencies' share of federal <br/><span id="pl.2.9" class="pl"> </span>funds and on the proportion of eligible children in the agencies' service area who are not <br/><span id="pl.2.10" class="pl"> </span>currently being served.<br/></p>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.11" class="pl"> </span>(b)</ins><span class="sr-only">new text end</span> A Head Start program must be funded <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">at a</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> in an odd-numbered year for each of two <br/><span id="pl.2.12" class="pl"> </span>fiscal years, applying the calculations under paragraph (a) to both years. If additional funds <br/><span id="pl.2.13" class="pl"> </span>are made available or additional programs are eligible in an even-numbered year, the <br/><span id="pl.2.14" class="pl"> </span>commissioner may provide funding for one fiscal year using revised calculations under <br/><span id="pl.2.15" class="pl"> </span>paragraph (a).<br/></ins><span class="sr-only">new text end</span></p>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.16" class="pl"> </span>(c) The</ins><span class="sr-only">new text end</span> per child rate<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> of funding for a program in each year must be</ins><span class="sr-only">new text end</span> equal to its <br/><span id="pl.2.17" class="pl"> </span>contracted, federally funded base level<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> in effect</ins><span class="sr-only">new text end</span> at the start of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> that</ins><span class="sr-only">new text end</span> fiscal year. For all <br/><span id="pl.2.18" class="pl"> </span>agencies without a federal Early Head Start rate, the state average federal cost per child for <br/><span id="pl.2.19" class="pl"> </span>Early Head Start applies.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> For all agencies without a federal Head Start rate, the state average <br/><span id="pl.2.20" class="pl"> </span>federal cost per child for Head Start applies.<br/></ins><span class="sr-only">new text end</span></p>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.21" class="pl"> </span>(d)</ins><span class="sr-only">new text end</span> In allocating funds under this <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">paragraph</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> subdivision</ins><span class="sr-only">new text end</span>, the commissioner of education <br/><span id="pl.2.22" class="pl"> </span>must assure that each Head Start program in existence in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">1993</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 2018</ins><span class="sr-only">new text end</span> is allocated no less <br/><span id="pl.2.23" class="pl"> </span>funding in any fiscal year than was allocated to that program in fiscal year <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">1993</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 2018</ins><span class="sr-only">new text end</span>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> If <br/><span id="pl.2.24" class="pl"> </span>available funds are insufficient to meet the requirements of this paragraph, the commissioner <br/><span id="pl.2.25" class="pl"> </span>must allocate funds among the programs in existence in 2018.<br/></ins><span class="sr-only">new text end</span></p>
+        </div>
+        <div class="subd" id="bill.1.1.4">
+          <h2 class="subd_no">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.2.26" class="pl"> </span>Subd. 4.</ins>
+            <span class="sr-only">new text end</span>
+          </h2>
+          <h3 class="headnote">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Distribution procedures.</ins>
+            <span class="sr-only">new text end</span>
+          </h3>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">(a)</ins><span class="sr-only">new text end</span> Before paying money to the programs, the <br/><span id="pl.2.27" class="pl"> </span>commissioner must notify each program of its initial allocation <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and how the money must <br/><span id="pl.2.28" class="pl"> </span>be used</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> for each year</ins><span class="sr-only">new text end</span>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Before the start of a funding biennium,</ins><span class="sr-only">new text end</span> each program must present <br/><span id="pl.2.29" class="pl"> </span>a plan under section <a href="/statutes/cite/119A.535">119A.535</a>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> A program may submit a plan revision as necessary, including <br/><span id="pl.2.30" class="pl"> </span>for a change in federal per child rates, in the manner prescribed by the commissioner.<br/></ins><span class="sr-only">new text end</span></p>
+          <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.31" class="pl"> </span>(b)</ins><span class="sr-only">new text end</span> For any program that cannot utilize its full allocation at the beginning of the fiscal <br/><span id="pl.2.32" class="pl"> </span>year, the commissioner must reduce the allocation proportionately. Money available after <br/><span id="pl.2.33" class="pl"> </span>the initial allocations are reduced must be redistributed to eligible programs.<br/></p>
+          <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.1" class="pl"> </span>(b)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (c)</ins><span class="sr-only">new text end</span> The commissioner must develop procedures to make payments to programs based <br/><span id="pl.3.2" class="pl"> </span>upon the number of children reported to be enrolled during the required time period of <br/><span id="pl.3.3" class="pl"> </span>program operations. Enrollment is defined by federal Head Start regulations. The procedures <br/><span id="pl.3.4" class="pl"> </span>must include a reporting schedule, corrective action plan requirements, and financial <br/><span id="pl.3.5" class="pl"> </span>consequences to be imposed on programs that do not meet full enrollment after the period <br/><span id="pl.3.6" class="pl"> </span>of corrective action. Programs reporting chronic underenrollment, as defined by the <br/><span id="pl.3.7" class="pl"> </span>commissioner, will have their subsequent program year allocation reduced proportionately. <br/><span id="pl.3.8" class="pl"> </span>Funds made available by prorating payments and allocations to programs with reported <br/><span id="pl.3.9" class="pl"> </span>underenrollment will be made available to the extent funds exist to fully enrolled Head Start <br/><span id="pl.3.10" class="pl"> </span>programs through a form and manner prescribed by the department.<br/></p>
+        </div>
+        <div class="subd" id="bill.1.1.5">
+          <h2 class="subd_no">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.3.11" class="pl"> </span>Subd. 5.</ins>
+            <span class="sr-only">new text end</span>
+          </h2>
+          <h3 class="headnote">
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Innovative initiatives.</ins>
+            <span class="sr-only">new text end</span>
+          </h3>
+          <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(c)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (a) As approved by the commissioner,</ins><span class="sr-only">new text end</span> programs <br/><span id="pl.3.12" class="pl"> </span>with <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">approved</span><span class="sr-only">deleted text end</span> innovative initiatives that target services to high-risk populations<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, including <br/><span id="pl.3.13" class="pl"> </span>homeless families and families living in homeless shelters and transitional housing,</span><span class="sr-only">deleted text end</span> are <br/><span id="pl.3.14" class="pl"> </span>exempt from the procedures in<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> subdivision 4,</ins><span class="sr-only">new text end</span> paragraph <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(b)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (c)</ins><span class="sr-only">new text end</span>. This exemption does not <br/><span id="pl.3.15" class="pl"> </span>apply to entire programs. The exemption applies only to approved innovative initiatives <br/><span id="pl.3.16" class="pl"> </span>that target services to high-risk populations, including<span class="sr-only">new text begin</span><ins style="text-decoration: underline">:<br/></ins><span class="sr-only">new text end</span></p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.3.17" class="pl"> </span>(1) families with a parent who is under age 21 and is pursuing a high school degree or <br/><span id="pl.3.18" class="pl"> </span>a course of study for a high school equivalency test;<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.3.19" class="pl"> </span>(2) families with children in foster care or in need of child protective services;<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.3.20" class="pl"> </span>(3) families that have experienced homelessness in the last 24 months, as defined under <br/><span id="pl.3.21" class="pl"> </span>the federal McKinney-Vento Homeless Assistance Act, United States Code, title 42, section <br/><span id="pl.3.22" class="pl"> </span>11434a; and<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+          <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.3.23" class="pl"> </span>(4)</ins><span class="sr-only">new text end</span> homeless families and families living in homeless shelters, transitional housing, and <br/><span id="pl.3.24" class="pl"> </span>permanent supportive housing.<br/></p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.3.25" class="pl"> </span>(b) Notwithstanding subdivision 2 and as approved by the commissioner, programs with <br/><span id="pl.3.26" class="pl"> </span>innovative initiatives may use funds provided under this section in a manner that does not <br/><span id="pl.3.27" class="pl"> </span>comply with federal regulations under Code of Federal Regulations, title 45, subchapter B.<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+        </div>
+      </div>
+      <div class="bill_section am_cite" id="bill.1.2.0">
+        <h2 class="section_number"><span id="pl.3.28" class="pl"> </span>Sec. 2. </h2>
+        <p class="first">Minnesota Statutes 2018, section 119A.535, is amended to read:<br/></p>
+        <br/>
+        <h1 class="shn"><span id="pl.3.29" class="pl"> </span>119A.535 APPLICATION REQUIREMENTS.<br/></h1>
+        <p class="in"><span id="pl.3.30" class="pl"> </span>Eligible Head Start <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">organizations</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> programs</ins><span class="sr-only">new text end</span> must submit a plan to the department for <br/><span id="pl.3.31" class="pl"> </span>approval <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">on a form and</span><span class="sr-only">deleted text end</span> in the manner prescribed by the commissioner. The plan must <br/><span id="pl.3.32" class="pl"> </span>include:<br/></p>
+        <p class="in"><span id="pl.4.1" class="pl"> </span>(1) the number of low-income children and families the program will be able to serve;<br/></p>
+        <p class="in"><span id="pl.4.2" class="pl"> </span>(2) a description of the program design and service delivery area which meets the needs <br/><span id="pl.4.3" class="pl"> </span>of and encourages access by low-income working families;<br/></p>
+        <p class="in"><span id="pl.4.4" class="pl"> </span>(3) a program design that ensures fair and equitable access to Head Start services for all <br/><span id="pl.4.5" class="pl"> </span>populations and parts of the service area;<br/></p>
+        <p class="in"><span id="pl.4.6" class="pl"> </span>(4) a plan for providing Head Start services in conjunction with full-day child care <br/><span id="pl.4.7" class="pl"> </span>programs to minimize child transitions, increase program intensity and duration, and improve <br/><span id="pl.4.8" class="pl"> </span>child and family outcomes <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">as required in section <a href="/statutes/cite/119A.5411">119A.5411</a></span><span class="sr-only">deleted text end</span>;<br/></p>
+        <p class="in"><span id="pl.4.9" class="pl"> </span>(5) identification of regular Head Start, Early Head Start, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">full-day services identified in <br/><span id="pl.4.10" class="pl"> </span>section <a href="/statutes/cite/119A.5411">119A.5411</a>,</span><span class="sr-only">deleted text end</span> and innovative services based upon demonstrated needs to be provided; <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.11" class="pl"> </span>and<br/></span><span class="sr-only">deleted text end</span></p>
+        <p class="in"><span id="pl.4.12" class="pl"> </span>(6)<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> identification of service duration hours that meet or exceed federal minimum <br/><span id="pl.4.13" class="pl"> </span>requirements; and<br/></ins><span class="sr-only">new text end</span></p>
+        <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.4.14" class="pl"> </span>(7)</ins><span class="sr-only">new text end</span> evidence parents of English learners are provided with oral or written information <br/><span id="pl.4.15" class="pl"> </span>to monitor the program's impact on their children's English language development, know <br/><span id="pl.4.16" class="pl"> </span>whether their children are progressing in developing their English proficiency, and, where <br/><span id="pl.4.17" class="pl"> </span>practicable, their native language proficiency, and actively engage with their children in <br/><span id="pl.4.18" class="pl"> </span>developing their English and native language proficiency.<br/></p>
+      </div>
+      <div class="bill_section repealer" id="bill.1.3.0">
+        <h2 class="section_number"><span id="pl.4.19" class="pl"> </span>Sec. 3. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.20" class="pl"> </span>Minnesota Statutes 2018, sections 119A.53; and 119A.5411,</ins>
+          <span class="sr-only">new text end</span>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"> are repealed.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="article" id="bill.2.0.0">
+      <h1 class="article_no"><span id="pl.4.21" class="pl"> </span>ARTICLE 2<br/></h1>
+      <h1 class="article_header"><span id="pl.4.22" class="pl"> </span>TECHNICAL AND CONFORMING CHANGES<br/></h1>
+      <div class="bill_section am_subd" id="bill.2.1.0">
+        <h2 class="section_number"><span id="pl.4.23" class="pl"> </span>Section 1. </h2>
+        <p class="first">Minnesota Statutes 2018, section 119A.50, subdivision 3, is amended to read:<br/></p>
+        <br/>
+        <div class="subd" id="bill.2.1.1">
+          <h2 class="subd_no"><span id="pl.4.24" class="pl"> </span>Subd. 3.</h2>
+          <h3 class="headnote">Early childhood literacy programs.</h3>
+          <p class="in">(a) A research-based early childhood <br/><span id="pl.4.25" class="pl"> </span>literacy program premised on actively involved parents, ongoing professional staff <br/><span id="pl.4.26" class="pl"> </span>development, and high quality early literacy program standards is established to increase <br/><span id="pl.4.27" class="pl"> </span>the literacy skills of<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> participating</ins><span class="sr-only">new text end</span> children <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">participating in Head Start</span><span class="sr-only">deleted text end</span> to prepare them to be <br/><span id="pl.4.28" class="pl"> </span>successful readers and to increase families' participation in providing early literacy <br/><span id="pl.4.29" class="pl"> </span>experiences to their children. Program providers must:<br/></p>
+          <p class="in"><span id="pl.4.30" class="pl"> </span>(1) work to prepare children to be successful learners;<br/></p>
+          <p class="in"><span id="pl.4.31" class="pl"> </span>(2) work to close the achievement gap for at-risk children;<br/></p>
+          <p class="in"><span id="pl.5.1" class="pl"> </span>(3) use a culturally relevant integrated approach to early literacy that daily offers a <br/><span id="pl.5.2" class="pl"> </span>literacy-rich classroom learning environment composed of books, writing materials, writing <br/><span id="pl.5.3" class="pl"> </span>centers, labels, rhyming, and other related literacy materials and opportunities;<br/></p>
+          <p class="in"><span id="pl.5.4" class="pl"> </span>(4) support children's home language while helping the children master English and use <br/><span id="pl.5.5" class="pl"> </span>multiple literacy strategies to provide a cultural bridge between home and school;<br/></p>
+          <p class="in"><span id="pl.5.6" class="pl"> </span>(5) use literacy mentors, ongoing literacy groups, and other teachers and staff to provide <br/><span id="pl.5.7" class="pl"> </span>appropriate, extensive professional development opportunities in early literacy and classroom <br/><span id="pl.5.8" class="pl"> </span>strategies for preschool teachers and other preschool staff;<br/></p>
+          <p class="in"><span id="pl.5.9" class="pl"> </span>(6) use ongoing data-based assessments that enable preschool teachers to understand, <br/><span id="pl.5.10" class="pl"> </span>plan, and implement literacy strategies, activities, and curriculum that meet children's literacy <br/><span id="pl.5.11" class="pl"> </span>needs and continuously improve children's literacy;<br/></p>
+          <p class="in"><span id="pl.5.12" class="pl"> </span>(7) foster participation by parents, community stakeholders, literacy advisors, and <br/><span id="pl.5.13" class="pl"> </span>evaluation specialists; and<br/></p>
+          <p class="in"><span id="pl.5.14" class="pl"> </span>(8) provide parents of English learners with oral and written information to monitor the <br/><span id="pl.5.15" class="pl"> </span>program's impact on their children's English language development, to know whether their <br/><span id="pl.5.16" class="pl"> </span>children are progressing in developing their English proficiency and, where practicable, <br/><span id="pl.5.17" class="pl"> </span>their native language proficiency, and to actively engage with their children in developing <br/><span id="pl.5.18" class="pl"> </span>their English and native language proficiency.<br/></p>
+          <p class="bl"><span id="pl.5.19" class="pl"> </span>Program providers are encouraged to collaborate with qualified, community-based early <br/><span id="pl.5.20" class="pl"> </span>childhood providers in implementing this program and to seek nonstate funds to supplement <br/><span id="pl.5.21" class="pl"> </span>the program.<br/></p>
+          <p class="in"><span id="pl.5.22" class="pl"> </span>(b) Program providers under paragraph (a) interested in extending literacy programs to <br/><span id="pl.5.23" class="pl"> </span>children in kindergarten through grade 3 may elect to form a partnership with an eligible <br/><span id="pl.5.24" class="pl"> </span>organization under section <a href="/statutes/cite/124D.38#stat.124D.38.2">124D.38, subdivision 2</a>, or <a href="/statutes/cite/124D.42">124D.42</a>, subdivision 8, schools <br/><span id="pl.5.25" class="pl"> </span>enrolling children in kindergarten through grade 3, and other interested and qualified <br/><span id="pl.5.26" class="pl"> </span>community-based entities to provide ongoing literacy programs that offer seamless literacy <br/><span id="pl.5.27" class="pl"> </span>instruction focused on closing the literacy achievement gap. To close the literacy achievement <br/><span id="pl.5.28" class="pl"> </span>gap by the end of third grade, partnership members must agree to use best efforts and <br/><span id="pl.5.29" class="pl"> </span>practices and to work collaboratively to implement a seamless literacy model from age three <br/><span id="pl.5.30" class="pl"> </span>to grade 3, consistent with paragraph (a). Literacy programs under this paragraph must <br/><span id="pl.5.31" class="pl"> </span>collect and use literacy data to:<br/></p>
+          <p class="in"><span id="pl.5.32" class="pl"> </span>(1) evaluate children's literacy skills;<br/></p>
+          <p class="in"><span id="pl.6.1" class="pl"> </span>(2) monitor the progress and provide reading instruction appropriate to the specific needs <br/><span id="pl.6.2" class="pl"> </span>of English learners; and<br/></p>
+          <p class="in"><span id="pl.6.3" class="pl"> </span>(3) formulate specific intervention strategies to provide reading instruction to children <br/><span id="pl.6.4" class="pl"> </span>premised on the outcomes of formative and summative assessments and research-based <br/><span id="pl.6.5" class="pl"> </span>indicators of literacy development.<br/></p>
+          <p class="in"><span id="pl.6.6" class="pl"> </span>The literacy programs under this paragraph also must train teachers and other providers <br/><span id="pl.6.7" class="pl"> </span>working with children to use the assessment outcomes under clause (3) to develop and use <br/><span id="pl.6.8" class="pl"> </span>effective, long-term literacy coaching models that are specific to the program providers.<br/></p>
+        </div>
+      </div>
+      <div class="bill_section uncoded" id="bill.2.2.0">
+        <h2 class="section_number"><span id="pl.6.9" class="pl"> </span>Sec. 2. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REVISOR INSTRUCTION.<br/></ins><span class="sr-only">new text end</span></span></h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.10" class="pl"> </span>The revisor of statutes shall renumber each section of Minnesota Statutes listed in column <br/><span id="pl.6.11" class="pl"> </span>A with the number listed in column B. The revisor shall also make necessary cross-reference <br/><span id="pl.6.12" class="pl"> </span>changes consistent with the renumbering under this section.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <table>
+          <col style="width:15.3846153846154%"/>
+          <col style="width:42.3076923076923%"/>
+          <col style="width:42.3076923076923%"/>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.13" class="pl"> </span>Column A<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">Column B<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.14" class="pl"> </span>119A.50, subd. 1<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">119A.52, subd. 2<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.15" class="pl"> </span>119A.50, subd. 2<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">119A.52, subd. 9<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.16" class="pl"> </span>119A.50, subd. 3<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">124D.42, subd. 8a<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.17" class="pl"> </span>119A.535<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">119A.52, subd. 6<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+          <tr>
+            <td/>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline"><span id="pl.6.18" class="pl"> </span>119A.545<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+            <td>
+              <span class="sr-only">new text begin</span>
+              <ins style="text-decoration: underline">119A.52, subd. 8<br/></ins>
+              <span class="sr-only">new text end</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-2931</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">119A.53 FEDERAL REQUIREMENTS.</h1>
+        <p>Programs and the commissioner shall comply with federal regulations governing the federal Head Start program, except for funding for innovative initiatives under section <a href="/statutes/cite/119A.535">119A.535</a> as approved by the commissioner, which may be used to operate differently than federal Head Start regulations. If a state statute or rule conflicts with a federal statute or regulation, the state statute or rule prevails.</p>
+        <h1 class="shn">119A.5411 FULL-DAY REQUIREMENTS.</h1>
+        <p class="in">The following phase-in of full-day services in Head Start programs or licensed child care as defined in chapter 245A is required:</p>
+        <p class="in">(1) by fiscal year 2009, a minimum of 25 percent of the total state-funded enrollment throughout the state must be provided in full-day services;</p>
+        <p class="in">(2) by fiscal year 2011, a minimum of 40 percent of the total state-funded enrollment throughout the state must be provided in full-day services; and</p>
+        <p class="in">(3) by fiscal year 2013, a minimum of 50 percent of the total state-funded enrollment throughout the state must be provided in full-day services.</p>
+        <p class="in">Head Start programs may provide full-day services as part of their own program model or through agreements with licensed full-day child care programs. If licensed child care providers do not exist in a geographic area, choose not to participate, cannot meet the federal Head Start performance standards after sufficient opportunity, or a Head Start program is unable to establish the full-day services as a part of their own program model, the Head Start program may request exemption from the commissioner.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

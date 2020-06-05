@@ -1,0 +1,1752 @@
+status: 200
+encoding: utf-8
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+Set-Cookie: ASP.NET_SessionId=oxkocfldqlx3udgwrysdnoju; path=/; HttpOnly; SameSite=Lax
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 11 Feb 2020 17:21:29 GMT
+Content-Length: 158539
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, minimal-ui, minimum-scale=1.0" /><meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- ==================================================
+    INSTRUCTIONS:
+
+ 
+    ================================================== -->
+
+    <link href="/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" /><!-- Stylesheet #2: compiled SASS -->
+    <link href="/styles/css/app.css" rel="stylesheet" /><!-- jQuery first, then Bootstrap JS. -->
+
+   
+   <script src="/js/jquery-3.2.1.min.js">
+    </script>
+    <script src="/js/getParameterByName.js">
+    </script>
+    <script src="/js/calendar.js">
+    </script>
+    <script src="/js/navbarhelper.js">
+    </script>
+    <script src="/js/bootstrapWindowHelper.js"></script>
+    
+    <script src="/js/jquery.tablesorter.min.js"></script>
+    
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+ <script type="text/javascript" src="/js/chosen.jquery.min.js"></script>
+    <link href="/styles/css/lrl.css" rel="stylesheet" />
+   
+    <!-- USE THIS CSS TO STYLE CHOSEN IN BOOTSTRAP IN STEAD OF THE CSS PROVIDED WITH CHOSEN -->
+    <link href="/styles/css/component-chosen.css" rel="stylesheet" />
+ 
+    
+    
+    <!-- RESPONSIVE TABLES   -->
+    <link rel="stylesheet" type="text/css" href="/styles/css/ng_responsive_tables.css" />
+    <script src="/js/ng_responsive_tables.js" type="text/javascript"></script>
+    <!-- END RESPONSIV TABLES-->
+    
+    <link rel="stylesheet" type="text/css" href="/styles/css/print.css" media="print" />
+    
+    
+
+    <script src="/js/lrl.js"></script>
+
+    <title>
+	Combined Calendar - Minnesota Legislature 
+</title>
+    <meta name="Description" content="Minnesota Legislature Calendar. Session times, committee meetings" />
+    <meta name="Keywords" content="Minnesota Legislature Calendar. Session times, committee meetings" />
+
+     <script type="text/javascript">
+         //if I do this then the page scrolls quickly to the top
+         //which then makes it so when a user goes FORWARD and BACK
+         //the page returns to the top
+         //caching the AJAX doesn't work because of the showall loop
+         //so everything reloads...
+         window.onbeforeunload = function () {
+             window.scrollTo(0, 0);
+         }
+
+
+         $(document).ready(function() {
+
+
+             //SEARCH
+             $("#cal-search-input").on("keydown",
+                 function(event) {
+                     if (event.which === 13) {
+                         event.preventDefault();
+                         calSearch();
+                     }
+                 });
+             $("#cal_search_btn").click(function(event) {
+
+                 calSearch();
+             });
+
+             function calSearch() {
+                 var colls = '';
+
+                 $('input.leg-search-checkbox:checkbox:checked').each(function() {
+                     colls += $(this).val() + ',';
+                 });
+
+                 if (colls === '') {
+                     colls = '81,82,83,84,85';
+                 };
+
+                  window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#cal-search-input').val() + "&c=" + colls;
+                 //window.location.href = "http://10.11.11.34/search?q=" + $('#cal-search-input').val() + "&c=" + colls;
+             };
+
+
+             //CHECKBOXES ON LOAD
+             $('.form-check-input:checkbox').prop('checked', true);
+             $('.form-check-input:checkbox').prop('disabled', true);
+             $('#search-chk-cal-all').prop('disabled', false);
+             //$('.form-check').addClass('lrl-data-selected');
+
+             //CEHCKBOX ACTIONS
+             $('.form-check-input:checkbox').click(function() {
+                 if ($(this).attr('id') === 'search-chk-cal-all') {
+                     //console.log($(this).val().substring(0, 3));
+
+                     if ($(this).is(':checked')) {
+                         //removeAllChecked();
+                         $(":checkbox[value=full]").prop("checked", false);
+                         $(":checkbox[value=full]").parent().removeClass('lrl-data-selected');
+
+                         $(this).parent().parent().parent().parent().find('input:checkbox').prop('checked', true);
+                         $(this).parent().parent().parent().parent().find('input:checkbox').prop('disabled', true);
+                        // $(this).parent().parent().parent().parent().find('.form-check').addClass('lrl-data-selected');
+                         $(this).prop('checked', true);
+                         $(this).prop('disabled', false);
+
+                     } else {
+                         $(this).parent().parent().parent().parent().find('input:checkbox').prop('checked', false);
+                         $(this).parent().parent().parent().parent().find('input:checkbox').prop('disabled', false);
+                         $(this).parent().parent().parent().parent().find('.form-check')
+                             .removeClass('lrl-data-selected');
+                     };
+                 } else {
+
+                     if ($(this).is(':checked')) {
+                         $(":checkbox[value=full]").prop("checked", false);
+                         $(":checkbox[value=full]").parent().removeClass('lrl-data-selected');
+                         //removeAllChecked();
+                         $(this).prop('checked', true);
+                        // $(this).parent().addClass('lrl-data-selected');
+                         $(":checkbox[value=full]").prop("checked", false);
+                         $(":checkbox[value=full]").parent().removeClass('lrl-data-selected');
+                         $(":checkbox[value=71]").prop("checked", false);
+                         $(":checkbox[value=71]").parent().removeClass('lrl-data-selected');
+                         $(":checkbox[value=2]").prop("checked", false);
+                         $(":checkbox[value=2]").parent().removeClass('lrl-data-selected');
+
+                     } else {
+                         $(this).parent().removeClass('lrl-data-selected');
+                     };
+                 };
+             }); //checkboxes
+
+            //this is used so I can cancel requests when leaving the page
+            var xhrPool = []; // no need to use **var**
+
+          // $(".cal_cal_datepicker").datepicker();
+           
+             $('body').on('click', '.lrl_show_leaving', function () {
+                 doLeaving();
+             }); 
+
+
+             $('body').on('click', '#ctl00_Main_combined_calendar_btn_cal_range', function () {
+                 var d = $('#ctl00_Main_combined_calendar_TextBox_Date_1').val();
+                 if (d !== '') {
+                     doLeaving();
+                 };
+             });
+
+             $('#datepicker').on('change', function () {
+                 //console.log('k');
+                     doLeaving();
+             });
+
+             //shows the user that they have clicked on a calendar link
+             //by changing appearance of the page
+             //and aborting AJAX requests
+             function doLeaving (){
+                 $('#cal_main').css('opacity',".1");
+                 $('#div_leaving').show();
+                 $.each(xhrPool, function (idx, jqXHR) {
+                     jqXHR.abort();
+                 });
+             };
+
+
+
+             //Hide Quick Date
+             $('body').on('click',
+                 '#show_quick_date',
+                 function() {
+                     if ($(this).text().indexOf("Hide quick calendar") === 0) {
+                         $('#div_quick_date').hide();
+                         $(this).html("<i class='fas fa-calendar-alt fa-2x mr-2'></i>Show quick calendar");
+                     } else {
+                         $('#div_quick_date').show();
+                         $(this).html("<i class='fas fa-calendar-alt fa-2x mr-2'></i>Hide quick calendar");
+                     };
+                 });
+
+
+             //SHOW  show_comm_alpha
+             $('body').on('click', '#show_comm_alpha', function () {
+                
+               // console.log($(this).text());
+                 //console.log($(this).text().indexOf("Show quick calendar"));
+                 if ($(this).text().indexOf("Show quick calendar") === 0) {
+                     $('#div_comm_time').show();
+                     $('#div_comm_alpha').hide();
+                     $(this).html("<i class='fas fa-calendar-alt fa-2x mr-2'></i>Hide quick calendar");
+
+                     ////find out how many people open it?!?!
+                     //$.ajax({
+                     //    type: "GET",
+                     //    url: "cal_sendemail",
+                     //    cache: false,
+                     //    context: this,
+                     //  success: function (data) {
+                     //    },
+                     //    error: function () {
+                     //    }
+                     //}); //ajax end
+
+
+                 } else {
+                     $(this).html("<i class='fas fa-calendar-alt fa-2x mr-2'></i>Show quick calendar");
+                     $('#div_comm_time').hide();
+                     $('#div_comm_alpha').hide();
+                 };
+             }); //show_comm_alpha
+
+
+             
+             $('body').on('click',
+                 '.cal_sort_name',
+                 function () {
+                     $('#div_comm_time').hide();
+                     $('#div_comm_body').hide();
+                     $('#div_comm_alpha').show();
+                 });
+
+             $('body').on('click',
+                 '.cal_sort_date',
+                 function () {
+                     $('#div_comm_alpha').hide();
+                     $('#div_comm_body').hide();
+                     $('#div_comm_time').show();
+                 });
+
+             $('body').on('click',
+                 '.cal_sort_body',
+                 function () {
+                     $('#div_comm_alpha').hide();
+                     $('#div_comm_time').hide();
+                     $('#div_comm_body').show();
+                 });
+
+
+             $('.cal_data_table').on('click', 'td', function () {
+                 var alink = $(this).parent(0).find('.cal_anchor_link').attr('href');
+                 window.location = alink;
+             }); 
+
+            
+
+             $('.house_item').on('click', '.cal_open_bill', function () {
+                 //console.log('here');
+                 $(this).parent().parent().find('.bill_details').slideToggle();
+                 //var isDown = this.src.indexOf('arrowdown.gif') !== -1;
+                 //this.src = isDown ? this.src.replace('arrowdown.gif', 'arrowup.gif') : this.src.replace('arrowup.gif', 'arrowdown.gif');
+             }); //SHOW BILL INFO
+
+
+
+             //***************************VARIABLES ********************************
+             var i = 0;
+             var strIDs = [];
+
+             //***************************FUNCTIONS ********************************
+             function showAll() {
+                 i = 0;
+                 strIDs = [];
+                 $(".cal_item").each(function () {
+                     var v = $(this).attr('id');
+                     strIDs.push(v);
+                     //console.log(v);
+                     //showDetails(v);
+                 });
+                 doNext();
+             };
+
+             function doNext() {
+                 if (i < strIDs.length) {
+                     showDetails(strIDs[i]);
+                 };
+                 if (i > 2) {
+                     $('#cal_link_top').show();
+                 }
+                 i++;
+             };
+
+
+             function showDetails(vId) {
+                // console.log(vId);
+              
+                 var strType = $('#ctl00_Main_HiddenField_type').val();
+                 var d1 = $('#ctl00_Main_HiddenField_d1').val();
+                 var d2 = $('#ctl00_Main_HiddenField_d2').val();
+                
+                 //$("div[id*='" + vId + "']").hide();
+                 //$("div[id*='" + vId + "']").next('.cal_item').show();
+
+                 $.ajax({
+                     type: "GET",
+                     url: "cal_getdetails?id=" + vId + '&type=' + strType + '&d1=' + d1 + '&d2=' + d2,
+                     cache: false,
+                     context: this,
+                     beforeSend: function (jqXHR, settings) {
+                         xhrPool.push(jqXHR);
+                     },
+                     success: function (data) {
+                         //console.log('#' + vId);
+                         // alert(data);
+                         if (data !== 'No topic found') {
+                             // alert("got it");
+                             $("div[id*='" + vId + "']").html(data);
+                             doNext();
+                         } else {
+                             //alert("got it");
+                             $("div[id*='" + vId + "']").html(data);
+                           doNext();
+                         };
+                     },
+                     error: function () {
+                         //alert("mike");
+                         $("div[id*='" + vId + "']").html("<span style='color:red;'>Details Not Loaded.</span>");
+                     }
+                 }); //ajax end
+             }; //showDetails
+
+
+             //***************************ONLOAD ********************************
+             //DECIDED TO AUTO SHOW ALL BECUASE THINGS SEEM FASTER
+             //HID THE BUTTON AS WELL
+             showAll();
+
+         });                            //document ready
+
+      
+        </script>
+    
+    <style>
+      .btn_cal_range {
+          vertical-align: middle;
+      }
+      .cal_live_video_senate {
+          margin-top: -20px;   
+      }
+      .card-header {
+          padding: 0.5rem .75rem;  
+      }
+      .card-header a {
+          color: white;
+          text-decoration: underline;
+      }
+      .card {
+          margin-bottom: 20px;
+      }
+      .card-body {
+          padding: 10px 30px;
+      }
+      .cal_live_video {
+          margin: 10px 10px 0 0;
+          float: right;
+          /*clear: right;*/
+          background-color: white;
+      }
+      .cal_live_video img {
+          height: 30px;
+      }
+      .downarrow {
+          margin-left: 8px;
+          height: 6px;
+          cursor: pointer;
+      }
+      .bill_details {
+          display: none;
+          background-color: #FFFFFF;
+          border-radius: 5px;
+          /*padding: 2px 10px;
+          width: 50%;*/
+
+      }
+      .cal-mouseover {
+          cursor: pointer;
+      }
+      .cal-mouseover:hover {
+          background-color: #e0e0e0;
+      }
+        .time_divider {
+            font-weight: bold;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            padding: 2px 0 2px 8px;
+            position: relative;
+            width: 310px;
+            border: 1px solid #343a40;
+            border-radius: 0.25rem;
+        }
+        .leg-cal-bg-house {
+            background-color:rgba(102, 102, 51,.8) !important;
+        }
+        
+      .leg-cal-bg-senate {
+          background-color: rgba(51, 83, 187,.8) !important;   
+      }
+      .leg-cal-bg-joint {
+          background-color: rgba(153, 0, 51,.8) !important;   
+      }
+      .card { page-break-inside: auto;}
+      .cal_data_table th {
+          background-color: #f2f2f2;
+      }
+      .cal_data_table td {
+          cursor: pointer;
+      }
+
+
+    </style>
+</head>
+<body class="joint">
+    <form method="post" action="./cal?type=all" id="aspnetForm">
+<input type="hidden" name="ctl00_ctl12_HiddenField" id="ctl00_ctl12_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAxNDU1NDg1Ng9kFgJmD2QWAgIDD2QWEgIDDw8WBB4LTmF2aWdhdGVVcmwFAS8eBFRleHQFG01pbm5lc290YSBTdGF0ZSBMZWdpc2xhdHVyZWRkAgUPFgIeB1Zpc2libGVoZAIHD2QWAgIBDw8WAh8BBURUaGUgTGVnaXNsYXR1cmUgaXMgYWRqb3VybmVkIHVudGlsIG5vb24sIFR1ZXNkYXksIEZlYnJ1YXJ5IDExLCAyMDIwLmRkAgkPDxYCHwJoZGQCCw8WAh8CaGQCDQ8PFgIfAmhkZAITD2QWDAIDD2QWAgIBDw8WAh8BZWRkAgUPFgIfAQURVXBjb21pbmcgTWVldGluZ3NkAg0PDxYCHwJoZBYCAgMPZBYCAgEPFgIfAQW+Njx0YWJsZSBjbGFzcz0ndGFibGUgIHRhYmxlLWhvdmVyIHRhYmxlLXNtIGNhbF9kYXRhX3RhYmxlICc+PHRyPjx0aGVhZD48dGggc2NvcGU9J2NvbCcgc3R5bGU9J3dpZHRoOjE2MHB4OycgY2xhc3M9J2NhbC1zb3J0ZWRfYmcnPlRpbWU8aSBjbGFzcz0nZmFzIGZhLXNvcnQtZG93biBtbC0yJz48L2k+PC90aD48dGggc2NvcGU9J2NvbCcgY2xhc3M9J2NhbF9zb3J0X2JvZHknICBzdHlsZT0nd2lkdGg6ODBweDtjdXJzb3I6cG9pbnRlcjsnPkJvZHk8aSBjbGFzcz0nZmFzIGZhLXNvcnQgbWwtMic+PC9pPjwvdGg+PHRoIHNjb3BlPSdjb2wnIGNsYXNzPSdjYWxfc29ydF9uYW1lICcgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+Q29tbWl0dGVlPGkgY2xhc3M9J2ZhcyBmYS1zb3J0IG1sLTInPjwvaT48L3RoPjwvdHI+PC90aGVhZD48dHI+PHRkPjg6MDAgQU08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDQnPkNhcGl0YWwgSW52ZXN0bWVudCBEaXZpc2lvbjwvYT4gTWVldGluZyBtYXkgZ28gbG9uZ2VyIHRoYW4gOTozMCBhbTwvdGQ+PC90cj48dHI+PHRkPjExOjU5IEFNPC90ZD48dGQ+U2VuYXRlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LXNlbmF0ZScgaHJlZj0nI3NfMTUyNDInPlNlbmF0ZTwvYT4gPC90ZD48L3RyPjx0cj48dGQ+MTI6MDAgUE08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk1MTMnPkZsb29yIFNlc3Npb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjEzJz5Hb3Zlcm5tZW50IE9wZXJhdGlvbnM8L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjAyJz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjI6MzAgUE08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDgnPkNvbW1lcmNlPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4yOjMwIFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NTk3Jz5FbnZpcm9ubWVudCBhbmQgTmF0dXJhbCBSZXNvdXJjZXMgUG9saWN5PC9hPiAqKlRoZSBjb21taXR0ZWUgaGVhcmluZyBpcyBzZXQgdG8gYmVnaW4gYXQgMjozMCBQTS4gU2hvdWxkIGZsb29yIHNlc3Npb24gZ28gYmV5b25kIDI6MzAgUE0sIHRoZSBjb21taXR0ZWUgd2lsbCBtZWV0IDE1IG1pbnV0ZXMgYWZ0ZXIgc2Vzc2lvbiBhZGpvdXJucy4qKjwvdGQ+PC90cj48dHI+PHRkPjk6NDUgQU08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDMnPkp1ZGljaWFyeSBGaW5hbmNlIGFuZCBDaXZpbCBMYXcgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjg6MDAgQU08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDUnPkNhcGl0YWwgSW52ZXN0bWVudCBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+ODowMCBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYyNSc+RWFybHkgQ2hpbGRob29kIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+ODowMCBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTU5MSc+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjAwIEFNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjA5Jz5UYXhlczwvYT4gPC90ZD48L3RyPjx0cj48dGQ+OTozMCBBTTwvdGQ+PHRkPjwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1qb2ludCcgaHJlZj0nI2NfMTI3MCc+TGVnaXNsYXRpdmUgUGVybWFuZW50IFNjaG9vbCBGdW5kIENvbW1pc3Npb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjk6NDUgQU08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk1OTQnPkFncmljdWx0dXJlIGFuZCBGb29kIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+OTo0NSBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYwNyc+RW5lcmd5IGFuZCBDbGltYXRlIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+OTo0NSBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYxNCc+R292ZXJubWVudCBPcGVyYXRpb25zPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD45OjQ1IEFNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NTk2Jz5KdWRpY2lhcnkgRmluYW5jZSBhbmQgQ2l2aWwgTGF3IERpdmlzaW9uPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4xMjo0NSBQTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTU5OCc+RW52aXJvbm1lbnQgYW5kIE5hdHVyYWwgUmVzb3VyY2VzIEZpbmFuY2UgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjI2Jz5IZWFsdGggYW5kIEh1bWFuIFNlcnZpY2VzIEZpbmFuY2UgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjA2Jz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjIyJz5UcmFuc3BvcnRhdGlvbiBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjE6MDAgUE08L3RkPjx0ZD5TZW5hdGU8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtc2VuYXRlJyBocmVmPScjc18xNTIzNic+RW5lcmd5IGFuZCBVdGlsaXRpZXMgRmluYW5jZSBhbmQgUG9saWN5PC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4zOjAwIFBNPC90ZD48dGQ+U2VuYXRlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LXNlbmF0ZScgaHJlZj0nI3NfMTUyMzcnPkhlYWx0aCBhbmQgSHVtYW4gU2VydmljZXMgRmluYW5jZSBhbmQgUG9saWN5PC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD40OjMwIFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjIxJz5IZWFsdGggYW5kIEh1bWFuIFNlcnZpY2VzIFBvbGljeTwvYT4gKio0OjMwUE0gb3IgQ0FMTCBPRiBUSEUgQ0hBSVIqKjwvdGQ+PC90cj48dHI+PHRkPjU6MzAgUE08L3RkPjx0ZD5Ib3VzZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MzAnPlN1YmNvbW1pdHRlZSBvbiBFbGVjdGlvbnM8L2E+IEF0IHRoZSBjYWxsIG9mIHRoZSBjaGFpciAoNTozMCBwLm0uIC0gNzoxNSBwLm0uIG9yIDE1IG1pbnV0ZXMgYWZ0ZXIgRmxvb3IgU2Vzc2lvbiwgd2hpY2hldmVyIHN0YXJ0IHRpbWUgaXMgbGF0ZXIpLjwvdGQ+PC90cj48dHI+PHRkPjg6MzAgQU08L3RkPjx0ZD48L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtam9pbnQnIGhyZWY9JyNjXzEyNzgnPkRyaXZlciBhbmQgVmVoaWNsZSBTeXN0ZW1zIE92ZXJzaWdodCBDb21taXR0ZWU8L2E+IDwvdGQ+PC90cj48dHI+PHRkPjEyOjQ1IFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjI5Jz5XYXRlciBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+MzowMCBQTTwvdGQ+PHRkPlNlbmF0ZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1zZW5hdGUnIGhyZWY9JyNzXzE1MjM5Jz5IdW1hbiBTZXJ2aWNlcyBSZWZvcm0gRmluYW5jZSBhbmQgUG9saWN5PC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD41OjMwIFBNPC90ZD48dGQ+PC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWpvaW50JyBocmVmPScjY18xMjc0Jz5TdWJjb21taXR0ZWUgb24gTWlubmVzb3RhIFdhdGVyIFBvbGljeTwvYT4gPC90ZD48L3RyPjx0cj48dGQ+ODowMCBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYxMCc+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4xOjAwIFBNPC90ZD48dGQ+U2VuYXRlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LXNlbmF0ZScgaHJlZj0nI3NfMTUyNDMnPkhpZ2hlciBFZHVjYXRpb24gRmluYW5jZSBhbmQgUG9saWN5PC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4yOjMwIFBNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjI4Jz5IaWdoZXIgRWR1Y2F0aW9uIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+ODowMCBBTTwvdGQ+PHRkPkhvdXNlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYxMSc+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjMwIEFNPC90ZD48dGQ+U2VuYXRlPC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LXNlbmF0ZScgaHJlZj0nI3NfMTUyNDEnPkZhbWlseSBDYXJlIGFuZCBBZ2luZzwvYT4gPC90ZD48L3RyPjx0cj48dGQ+MzowMCBQTTwvdGQ+PHRkPlNlbmF0ZTwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1zZW5hdGUnIGhyZWY9JyNzXzE1MjQwJz5IdW1hbiBTZXJ2aWNlcyBSZWZvcm0gRmluYW5jZSBhbmQgUG9saWN5PC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjAwIEFNPC90ZD48dGQ+SG91c2U8L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtaG91c2UnIGhyZWY9JyNoXzI5NjEyJz5TdGF0ZSBHb3Zlcm5tZW50IEZpbmFuY2UgRGl2aXNpb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjU6MDAgUE08L3RkPjx0ZD48L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtam9pbnQnIGhyZWY9JyNjXzEyNzYnPkxlZ2lzbGF0aXZlIEJ1ZGdldCBPZmZpY2UgT3ZlcnNpZ2h0IENvbW1pc3Npb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjk6MDAgQU08L3RkPjx0ZD48L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtam9pbnQnIGhyZWY9JyNjXzEyNjknPkxlZ2lzbGF0aXZlIFRhc2sgRm9yY2Ugb24gQ2hpbGQgUHJvdGVjdGlvbjwvYT4gPC90ZD48L3RyPjx0cj48dGQ+MjowMCBQTTwvdGQ+PHRkPjwvdGQ+PHRkPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsgdGV4dC1qb2ludCcgaHJlZj0nI2NfMTI1Mic+TWlzc2lzc2lwcGkgUml2ZXIgUGFya3dheSBDb21taXNzaW9uPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjAwIEFNPC90ZD48dGQ+PC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWpvaW50JyBocmVmPScjY18xMjY2Jz5MZXNzYXJkLVNhbXMgT3V0ZG9vciBIZXJpdGFnZSBDb3VuY2lsPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjAwIEFNPC90ZD48dGQ+PC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWpvaW50JyBocmVmPScjY18xMjY3Jz5MZXNzYXJkLVNhbXMgT3V0ZG9vciBIZXJpdGFnZSBDb3VuY2lsPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD44OjAwIEFNPC90ZD48dGQ+PC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWpvaW50JyBocmVmPScjY18xMjY4Jz5MZXNzYXJkLVNhbXMgT3V0ZG9vciBIZXJpdGFnZSBDb3VuY2lsPC9hPiA8L3RkPjwvdHI+PHRyPjx0ZD4yOjAwIFBNPC90ZD48dGQ+PC90ZD48dGQ+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluayB0ZXh0LWpvaW50JyBocmVmPScjY18xMjUzJz5NaXNzaXNzaXBwaSBSaXZlciBQYXJrd2F5IENvbW1pc3Npb248L2E+IDwvdGQ+PC90cj48dHI+PHRkPjI6MDAgUE08L3RkPjx0ZD48L3RkPjx0ZD48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rIHRleHQtam9pbnQnIGhyZWY9JyNjXzEyNTQnPk1pc3Npc3NpcHBpIFJpdmVyIFBhcmt3YXkgQ29tbWlzc2lvbjwvYT4gPC90ZD48L3RyPjwvdGFibGU+ZAIPDw8WAh8CZ2QWAgIBDxYCHwEFmFM8dGFibGUgY2xhc3M9J3RhYmxlICB0YWJsZS1zbSBjYWxfZGF0YV90YWJsZSAnPjx0cj48dGhlYWQ+PHRoIHNjb3BlPSdjb2wnIHN0eWxlPSd3aWR0aDoxNjBweDsnIGNsYXNzPScnPkRhdGU8L3RoPjx0aD48ZGl2IGNsYXNzPSdyb3cgbXgtMCc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkJvZHk8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPkNvbW1pdHRlZShzKTwvZGl2PjwvZGl2PjwvdGg+PC90cj48L3RoZWFkPjx0cj48dGQgIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsnIGhyZWY9JyMyLzExLzIwMjAnPkZlYnJ1YXJ5IDExLCAyMDIwPC9hPjwvdGQ+PHRkIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxkaXYgY2xhc3M9J3JvdyBteC0wICAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDQnPkNhcGl0YWwgSW52ZXN0bWVudCBEaXZpc2lvbjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5TZW5hdGU8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LXNlbmF0ZScgaHJlZj0nI3NfMTUyNDInPlNlbmF0ZTwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NTEzJz5GbG9vciBTZXNzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MTMnPkdvdmVybm1lbnQgT3BlcmF0aW9uczwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NjAyJz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYwOCc+Q29tbWVyY2U8L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTU5Nyc+RW52aXJvbm1lbnQgYW5kIE5hdHVyYWwgUmVzb3VyY2VzIFBvbGljeTwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMTIvMjAyMCc+RmVicnVhcnkgMTIsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYwMyc+SnVkaWNpYXJ5IEZpbmFuY2UgYW5kIENpdmlsIExhdyBEaXZpc2lvbjwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMTMvMjAyMCc+RmVicnVhcnkgMTMsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYwNSc+Q2FwaXRhbCBJbnZlc3RtZW50IERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MjUnPkVhcmx5IENoaWxkaG9vZCBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTU5MSc+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MDknPlRheGVzPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPiZuYnNwOzwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtam9pbnQnIGhyZWY9JyNjXzEyNzAnPkxlZ2lzbGF0aXZlIFBlcm1hbmVudCBTY2hvb2wgRnVuZCBDb21taXNzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk1OTQnPkFncmljdWx0dXJlIGFuZCBGb29kIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NjA3Jz5FbmVyZ3kgYW5kIENsaW1hdGUgRmluYW5jZSBhbmQgUG9saWN5IERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MTQnPkdvdmVybm1lbnQgT3BlcmF0aW9uczwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NTk2Jz5KdWRpY2lhcnkgRmluYW5jZSBhbmQgQ2l2aWwgTGF3IERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk1OTgnPkVudmlyb25tZW50IGFuZCBOYXR1cmFsIFJlc291cmNlcyBGaW5hbmNlIERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPkhvdXNlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1ob3VzZScgaHJlZj0nI2hfMjk2MjYnPkhlYWx0aCBhbmQgSHVtYW4gU2VydmljZXMgRmluYW5jZSBEaXZpc2lvbjwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NjA2Jz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYyMic+VHJhbnNwb3J0YXRpb24gRmluYW5jZSBhbmQgUG9saWN5IERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPlNlbmF0ZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtc2VuYXRlJyBocmVmPScjc18xNTIzNic+RW5lcmd5IGFuZCBVdGlsaXRpZXMgRmluYW5jZSBhbmQgUG9saWN5PC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPlNlbmF0ZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtc2VuYXRlJyBocmVmPScjc18xNTIzNyc+SGVhbHRoIGFuZCBIdW1hbiBTZXJ2aWNlcyBGaW5hbmNlIGFuZCBQb2xpY3k8L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYyMSc+SGVhbHRoIGFuZCBIdW1hbiBTZXJ2aWNlcyBQb2xpY3k8L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYzMCc+U3ViY29tbWl0dGVlIG9uIEVsZWN0aW9uczwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMTQvMjAyMCc+RmVicnVhcnkgMTQsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+Jm5ic3A7PC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1qb2ludCcgaHJlZj0nI2NfMTI3OCc+RHJpdmVyIGFuZCBWZWhpY2xlIFN5c3RlbXMgT3ZlcnNpZ2h0IENvbW1pdHRlZTwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMTcvMjAyMCc+RmVicnVhcnkgMTcsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYyOSc+V2F0ZXIgRGl2aXNpb248L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+U2VuYXRlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1zZW5hdGUnIGhyZWY9JyNzXzE1MjM5Jz5IdW1hbiBTZXJ2aWNlcyBSZWZvcm0gRmluYW5jZSBhbmQgUG9saWN5PC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPiZuYnNwOzwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtam9pbnQnIGhyZWY9JyNjXzEyNzQnPlN1YmNvbW1pdHRlZSBvbiBNaW5uZXNvdGEgV2F0ZXIgUG9saWN5PC9hPjwvZGl2PjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkICBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rJyBocmVmPScjMi8xOC8yMDIwJz5GZWJydWFyeSAxOCwgMjAyMDwvYT48L3RkPjx0ZCBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48ZGl2IGNsYXNzPSdyb3cgbXgtMCAgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NjEwJz5TdGF0ZSBHb3Zlcm5tZW50IEZpbmFuY2UgRGl2aXNpb248L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ncm93IG14LTAgYm9yZGVyLXRvcCBwdC0xICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+U2VuYXRlPC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1zZW5hdGUnIGhyZWY9JyNzXzE1MjQzJz5IaWdoZXIgRWR1Y2F0aW9uIEZpbmFuY2UgYW5kIFBvbGljeTwvYT48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdyb3cgbXgtMCBib3JkZXItdG9wIHB0LTEgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz5Ib3VzZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtaG91c2UnIGhyZWY9JyNoXzI5NjI4Jz5IaWdoZXIgRWR1Y2F0aW9uIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMTkvMjAyMCc+RmVicnVhcnkgMTksIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYxMSc+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPlNlbmF0ZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtc2VuYXRlJyBocmVmPScjc18xNTI0MSc+RmFtaWx5IENhcmUgYW5kIEFnaW5nPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPlNlbmF0ZTwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtc2VuYXRlJyBocmVmPScjc18xNTI0MCc+SHVtYW4gU2VydmljZXMgUmVmb3JtIEZpbmFuY2UgYW5kIFBvbGljeTwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzIvMjAvMjAyMCc+RmVicnVhcnkgMjAsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+SG91c2U8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWhvdXNlJyBocmVmPScjaF8yOTYxMic+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9hPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J3JvdyBteC0wIGJvcmRlci10b3AgcHQtMSAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPiZuYnNwOzwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtam9pbnQnIGhyZWY9JyNjXzEyNzYnPkxlZ2lzbGF0aXZlIEJ1ZGdldCBPZmZpY2UgT3ZlcnNpZ2h0IENvbW1pc3Npb248L2E+PC9kaXY+PC9kaXY+PC90ZD48L3RyPjx0cj48dGQgIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsnIGhyZWY9JyMyLzIxLzIwMjAnPkZlYnJ1YXJ5IDIxLCAyMDIwPC9hPjwvdGQ+PHRkIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxkaXYgY2xhc3M9J3JvdyBteC0wICAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPiZuYnNwOzwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtam9pbnQnIGhyZWY9JyNjXzEyNjknPkxlZ2lzbGF0aXZlIFRhc2sgRm9yY2Ugb24gQ2hpbGQgUHJvdGVjdGlvbjwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzYvNC8yMDIwJz5KdW5lIDQsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+Jm5ic3A7PC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1qb2ludCcgaHJlZj0nI2NfMTI1Mic+TWlzc2lzc2lwcGkgUml2ZXIgUGFya3dheSBDb21taXNzaW9uPC9hPjwvZGl2PjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkICBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rJyBocmVmPScjNi8yNC8yMDIwJz5KdW5lIDI0LCAyMDIwPC9hPjwvdGQ+PHRkIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxkaXYgY2xhc3M9J3JvdyBteC0wICAgcGItMSc+PGRpdiBjbGFzcz0nY29sLWxnLTInPiZuYnNwOzwvZGl2PjxkaXYgY2xhc3M9J2NvbC1sZy0xMCc+PGEgY2xhc3M9J3RleHQtam9pbnQnIGhyZWY9JyNjXzEyNjYnPkxlc3NhcmQtU2FtcyBPdXRkb29yIEhlcml0YWdlIENvdW5jaWw8L2E+PC9kaXY+PC9kaXY+PC90ZD48L3RyPjx0cj48dGQgIHN0eWxlPSdib3JkZXItdG9wLXdpZHRoOjJweDsnPjxhIGNsYXNzPSdjYWxfYW5jaG9yX2xpbmsnIGhyZWY9JyM2LzI1LzIwMjAnPkp1bmUgMjUsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+Jm5ic3A7PC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1qb2ludCcgaHJlZj0nI2NfMTI2Nyc+TGVzc2FyZC1TYW1zIE91dGRvb3IgSGVyaXRhZ2UgQ291bmNpbDwvYT48L2Rpdj48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCAgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGEgY2xhc3M9J2NhbF9hbmNob3JfbGluaycgaHJlZj0nIzgvNS8yMDIwJz5BdWd1c3QgNSwgMjAyMDwvYT48L3RkPjx0ZCBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48ZGl2IGNsYXNzPSdyb3cgbXgtMCAgIHBiLTEnPjxkaXYgY2xhc3M9J2NvbC1sZy0yJz4mbmJzcDs8L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbGctMTAnPjxhIGNsYXNzPSd0ZXh0LWpvaW50JyBocmVmPScjY18xMjY4Jz5MZXNzYXJkLVNhbXMgT3V0ZG9vciBIZXJpdGFnZSBDb3VuY2lsPC9hPjwvZGl2PjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkICBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rJyBocmVmPScjOC8xMy8yMDIwJz5BdWd1c3QgMTMsIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+Jm5ic3A7PC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1qb2ludCcgaHJlZj0nI2NfMTI1Myc+TWlzc2lzc2lwcGkgUml2ZXIgUGFya3dheSBDb21taXNzaW9uPC9hPjwvZGl2PjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkICBzdHlsZT0nYm9yZGVyLXRvcC13aWR0aDoycHg7Jz48YSBjbGFzcz0nY2FsX2FuY2hvcl9saW5rJyBocmVmPScjMTEvMTkvMjAyMCc+Tm92ZW1iZXIgMTksIDIwMjA8L2E+PC90ZD48dGQgc3R5bGU9J2JvcmRlci10b3Atd2lkdGg6MnB4Oyc+PGRpdiBjbGFzcz0ncm93IG14LTAgICBwYi0xJz48ZGl2IGNsYXNzPSdjb2wtbGctMic+Jm5ic3A7PC9kaXY+PGRpdiBjbGFzcz0nY29sLWxnLTEwJz48YSBjbGFzcz0ndGV4dC1qb2ludCcgaHJlZj0nI2NfMTI1NCc+TWlzc2lzc2lwcGkgUml2ZXIgUGFya3dheSBDb21taXNzaW9uPC9hPjwvZGl2PjwvZGl2PjwvdGFibGU+ZAIZDxYCHwEFnJYBPGRpdiBjbGFzcz0ndGltZV9kaXZpZGVyIGJnLWxpZ2h0JyBpZD0nMi8xMS8yMDIwJz5UdWVzZGF5LCBGZWJydWFyeSAxMSwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwNCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5DYXBpdGFsIEludmVzdG1lbnQgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgc2VuYXRlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J3NfMTUyNDInPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+U2VuYXRlPC9zcGFuPg0KPGgzPlNlbmF0ZTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBob3VzZV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdoXzI5NTEzJz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8c3BhbiBjbGFzcz0nZmxvYXQtcmlnaHQnPkhvdXNlPC9zcGFuPg0KPGgzPkZsb29yIFNlc3Npb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYxMyc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5Hb3Zlcm5tZW50IE9wZXJhdGlvbnM8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwMic+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwOCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5Db21tZXJjZTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBob3VzZV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdoXzI5NTk3Jz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8c3BhbiBjbGFzcz0nZmxvYXQtcmlnaHQnPkhvdXNlPC9zcGFuPg0KPGgzPkVudmlyb25tZW50IGFuZCBOYXR1cmFsIFJlc291cmNlcyBQb2xpY3k8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzIvMTIvMjAyMCc+V2VkbmVzZGF5LCBGZWJydWFyeSAxMiwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwMyc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5KdWRpY2lhcnkgRmluYW5jZSBhbmQgQ2l2aWwgTGF3IERpdmlzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSd0aW1lX2RpdmlkZXIgYmctbGlnaHQnIGlkPScyLzEzLzIwMjAnPlRodXJzZGF5LCBGZWJydWFyeSAxMywgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwNSc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5DYXBpdGFsIEludmVzdG1lbnQgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYyNSc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5FYXJseSBDaGlsZGhvb2QgRmluYW5jZSBhbmQgUG9saWN5IERpdmlzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk1OTEnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk2MDknPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+VGF4ZXM8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNzAnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5MZWdpc2xhdGl2ZSBQZXJtYW5lbnQgU2Nob29sIEZ1bmQgQ29tbWlzc2lvbjwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBob3VzZV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdoXzI5NTk0Jz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8c3BhbiBjbGFzcz0nZmxvYXQtcmlnaHQnPkhvdXNlPC9zcGFuPg0KPGgzPkFncmljdWx0dXJlIGFuZCBGb29kIEZpbmFuY2UgYW5kIFBvbGljeSBEaXZpc2lvbjwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBob3VzZV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdoXzI5NjA3Jz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8c3BhbiBjbGFzcz0nZmxvYXQtcmlnaHQnPkhvdXNlPC9zcGFuPg0KPGgzPkVuZXJneSBhbmQgQ2xpbWF0ZSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYxNCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5Hb3Zlcm5tZW50IE9wZXJhdGlvbnM8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTU5Nic+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5KdWRpY2lhcnkgRmluYW5jZSBhbmQgQ2l2aWwgTGF3IERpdmlzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk1OTgnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+RW52aXJvbm1lbnQgYW5kIE5hdHVyYWwgUmVzb3VyY2VzIEZpbmFuY2UgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYyNic+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5IZWFsdGggYW5kIEh1bWFuIFNlcnZpY2VzIEZpbmFuY2UgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYwNic+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5QdWJsaWMgU2FmZXR5IGFuZCBDcmltaW5hbCBKdXN0aWNlIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYyMic+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5UcmFuc3BvcnRhdGlvbiBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgc2VuYXRlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J3NfMTUyMzYnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+U2VuYXRlPC9zcGFuPg0KPGgzPkVuZXJneSBhbmQgVXRpbGl0aWVzIEZpbmFuY2UgYW5kIFBvbGljeTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBzZW5hdGVfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0nc18xNTIzNyc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5TZW5hdGU8L3NwYW4+DQo8aDM+SGVhbHRoIGFuZCBIdW1hbiBTZXJ2aWNlcyBGaW5hbmNlIGFuZCBQb2xpY3k8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYyMSc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5IZWFsdGggYW5kIEh1bWFuIFNlcnZpY2VzIFBvbGljeTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBob3VzZV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdoXzI5NjMwJz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8c3BhbiBjbGFzcz0nZmxvYXQtcmlnaHQnPkhvdXNlPC9zcGFuPg0KPGgzPlN1YmNvbW1pdHRlZSBvbiBFbGVjdGlvbnM8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzIvMTQvMjAyMCc+RnJpZGF5LCBGZWJydWFyeSAxNCwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNzgnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5Ecml2ZXIgYW5kIFZlaGljbGUgU3lzdGVtcyBPdmVyc2lnaHQgQ29tbWl0dGVlPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSd0aW1lX2RpdmlkZXIgYmctbGlnaHQnIGlkPScyLzE3LzIwMjAnPk1vbmRheSwgRmVicnVhcnkgMTcsIDIwMjA8L2Rpdj48ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk2MjknPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+V2F0ZXIgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgc2VuYXRlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J3NfMTUyMzknPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+U2VuYXRlPC9zcGFuPg0KPGgzPkh1bWFuIFNlcnZpY2VzIFJlZm9ybSBGaW5hbmNlIGFuZCBQb2xpY3k8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNzQnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5TdWJjb21taXR0ZWUgb24gTWlubmVzb3RhIFdhdGVyIFBvbGljeTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0ndGltZV9kaXZpZGVyIGJnLWxpZ2h0JyBpZD0nMi8xOC8yMDIwJz5UdWVzZGF5LCBGZWJydWFyeSAxOCwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYxMCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5TdGF0ZSBHb3Zlcm5tZW50IEZpbmFuY2UgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgc2VuYXRlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J3NfMTUyNDMnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+U2VuYXRlPC9zcGFuPg0KPGgzPkhpZ2hlciBFZHVjYXRpb24gRmluYW5jZSBhbmQgUG9saWN5PC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk2MjgnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+SGlnaGVyIEVkdWNhdGlvbiBGaW5hbmNlIGFuZCBQb2xpY3kgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzIvMTkvMjAyMCc+V2VkbmVzZGF5LCBGZWJydWFyeSAxOSwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgaG91c2VfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0naF8yOTYxMSc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5Ib3VzZTwvc3Bhbj4NCjxoMz5TdGF0ZSBHb3Zlcm5tZW50IEZpbmFuY2UgRGl2aXNpb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgc2VuYXRlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J3NfMTUyNDEnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+U2VuYXRlPC9zcGFuPg0KPGgzPkZhbWlseSBDYXJlIGFuZCBBZ2luZzwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBzZW5hdGVfaXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0nc18xNTI0MCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPHNwYW4gY2xhc3M9J2Zsb2F0LXJpZ2h0Jz5TZW5hdGU8L3NwYW4+DQo8aDM+SHVtYW4gU2VydmljZXMgUmVmb3JtIEZpbmFuY2UgYW5kIFBvbGljeTwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0ndGltZV9kaXZpZGVyIGJnLWxpZ2h0JyBpZD0nMi8yMC8yMDIwJz5UaHVyc2RheSwgRmVicnVhcnkgMjAsIDIwMjA8L2Rpdj48ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGhvdXNlX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2hfMjk2MTInPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxzcGFuIGNsYXNzPSdmbG9hdC1yaWdodCc+SG91c2U8L3NwYW4+DQo8aDM+U3RhdGUgR292ZXJubWVudCBGaW5hbmNlIERpdmlzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGNvbW1faXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0nY18xMjc2Jz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8aDM+TGVnaXNsYXRpdmUgQnVkZ2V0IE9mZmljZSBPdmVyc2lnaHQgQ29tbWlzc2lvbjwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0ndGltZV9kaXZpZGVyIGJnLWxpZ2h0JyBpZD0nMi8yMS8yMDIwJz5GcmlkYXksIEZlYnJ1YXJ5IDIxLCAyMDIwPC9kaXY+PGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBjb21tX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2NfMTI2OSc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPGgzPkxlZ2lzbGF0aXZlIFRhc2sgRm9yY2Ugb24gQ2hpbGQgUHJvdGVjdGlvbjwvaDM+DQogICA8L2Rpdj4gDQogPGRpdj48aW1nIHNyYz0nL2ltZy9hamF4LWxvYWRlci5naWYnIHdpZHRoPSczMHB4JyBoZWlnaHQ9JzMwcHgnIGNsYXNzPSdtbC02JyBzdHlsZT0ndmVydGljYWwtYWxpZ246bWlkZGxlO21hcmdpbi1sZWZ0OjIwcHg7Jy8+PHNwYW4gY2xhc3M9J2ZvbnQtd2VpZ2h0LWJvbGQgbWwtMyBmb250LWl0YWxpYyc+TG9hZGluZyBEZXRhaWxzLi4uPC9zcGFuPjwvZGl2Pg0KICAgPC9kaXY+IA0KPGRpdiBjbGFzcz0ndGltZV9kaXZpZGVyIGJnLWxpZ2h0JyBpZD0nNi80LzIwMjAnPlRodXJzZGF5LCBKdW5lIDQsIDIwMjA8L2Rpdj48ZGl2IGNsYXNzPSdjYXJkIGJvcmRlci1kYXJrIGNvbW1faXRlbSBjYWxfaXRlbSBtbC1sZy0zJyBpZD0nY18xMjUyJz4NCiA8ZGl2IGNsYXNzPSdjYXJkLWhlYWRlcic+DQo8aDM+TWlzc2lzc2lwcGkgUml2ZXIgUGFya3dheSBDb21taXNzaW9uPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSd0aW1lX2RpdmlkZXIgYmctbGlnaHQnIGlkPSc2LzI0LzIwMjAnPldlZG5lc2RheSwgSnVuZSAyNCwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNjYnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5MZXNzYXJkLVNhbXMgT3V0ZG9vciBIZXJpdGFnZSBDb3VuY2lsPC9oMz4NCiAgIDwvZGl2PiANCiA8ZGl2PjxpbWcgc3JjPScvaW1nL2FqYXgtbG9hZGVyLmdpZicgd2lkdGg9JzMwcHgnIGhlaWdodD0nMzBweCcgY2xhc3M9J21sLTYnIHN0eWxlPSd2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7bWFyZ2luLWxlZnQ6MjBweDsnLz48c3BhbiBjbGFzcz0nZm9udC13ZWlnaHQtYm9sZCBtbC0zIGZvbnQtaXRhbGljJz5Mb2FkaW5nIERldGFpbHMuLi48L3NwYW4+PC9kaXY+DQogICA8L2Rpdj4gDQo8ZGl2IGNsYXNzPSd0aW1lX2RpdmlkZXIgYmctbGlnaHQnIGlkPSc2LzI1LzIwMjAnPlRodXJzZGF5LCBKdW5lIDI1LCAyMDIwPC9kaXY+PGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBjb21tX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2NfMTI2Nyc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPGgzPkxlc3NhcmQtU2FtcyBPdXRkb29yIEhlcml0YWdlIENvdW5jaWw8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzgvNS8yMDIwJz5XZWRuZXNkYXksIEF1Z3VzdCA1LCAyMDIwPC9kaXY+PGRpdiBjbGFzcz0nY2FyZCBib3JkZXItZGFyayBjb21tX2l0ZW0gY2FsX2l0ZW0gbWwtbGctMycgaWQ9J2NfMTI2OCc+DQogPGRpdiBjbGFzcz0nY2FyZC1oZWFkZXInPg0KPGgzPkxlc3NhcmQtU2FtcyBPdXRkb29yIEhlcml0YWdlIENvdW5jaWw8L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzgvMTMvMjAyMCc+VGh1cnNkYXksIEF1Z3VzdCAxMywgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNTMnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5NaXNzaXNzaXBwaSBSaXZlciBQYXJrd2F5IENvbW1pc3Npb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCjxkaXYgY2xhc3M9J3RpbWVfZGl2aWRlciBiZy1saWdodCcgaWQ9JzExLzE5LzIwMjAnPlRodXJzZGF5LCBOb3ZlbWJlciAxOSwgMjAyMDwvZGl2PjxkaXYgY2xhc3M9J2NhcmQgYm9yZGVyLWRhcmsgY29tbV9pdGVtIGNhbF9pdGVtIG1sLWxnLTMnIGlkPSdjXzEyNTQnPg0KIDxkaXYgY2xhc3M9J2NhcmQtaGVhZGVyJz4NCjxoMz5NaXNzaXNzaXBwaSBSaXZlciBQYXJrd2F5IENvbW1pc3Npb248L2gzPg0KICAgPC9kaXY+IA0KIDxkaXY+PGltZyBzcmM9Jy9pbWcvYWpheC1sb2FkZXIuZ2lmJyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyBjbGFzcz0nbWwtNicgc3R5bGU9J3ZlcnRpY2FsLWFsaWduOm1pZGRsZTttYXJnaW4tbGVmdDoyMHB4OycvPjxzcGFuIGNsYXNzPSdmb250LXdlaWdodC1ib2xkIG1sLTMgZm9udC1pdGFsaWMnPkxvYWRpbmcgRGV0YWlscy4uLjwvc3Bhbj48L2Rpdj4NCiAgIDwvZGl2PiANCmQCGw9kFgQCBQ8PFgIfAAUuaHR0cDovL3d3dy5ob3VzZS5sZWcuc3RhdGUubW4udXMvc2NoZWR1bGVzL2FsbGRkAgcPDxYCHwAFQ2h0dHA6Ly93d3cuc2VuYXRlLmxlZy5zdGF0ZS5tbi51cy9zY2hlZHVsZS9pbmRleC5waHA/ZGF0ZT0yMDIwLTItMTFkZAIVDxYCHwEFG01pbm5lc290YSBTdGF0ZSBMZWdpc2xhdHVyZWQCFw8PFgIfAmdkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUqY3RsMDAkTWFpbiRjb21iaW5lZF9jYWxlbmRhciRidG5fY2FsX3JhbmdlFALApSZxxzNXm1NaViEOuj3bLhIzaDgu1/mZtIb5dEc=" />
+
+
+<script src="/ScriptResource.axd?d=xZPCahygZhWtpRCzthbhN7_NCJ_ULlE24qLlcu6nbk-tQNgy_vrXiRdftaepn1qHPdCHOxqYVnANY9gdb4HV5stxGFmcIQfxjLVPRT-HC394Qsz_dES2voC55IqsIl1H0&amp;t=78f0a2d1" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0F22FD30" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAieB0gX/cEK4G93BTms5/SIhzyobgPcbokRj0pxcgF4p3w/y/Ce+a1jz+I27uHleooj/Uw39NWocgRwwejIhVlTVS/CGIoMQ0N4Xpq9J4yEfeaqgTqEM4PZaJEY1GagAIC4WhmUxlsdkEuw25mgZPKJvddPJLMKB/L9f3zwrA6JbJf/bgndHmsYGcnLyyosl+Eoxzj8F8q+bHloz6RIdV6y" />
+    
+    
+
+    
+    <!--skip nav for accessibility-->
+    <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+    <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+    <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+        
+
+  <!--NAV-->  
+    <div class="container-fluid">
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0  d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" >
+                <img src="/img/icons/capitol2.svg" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1" alt="Capital Icon">Minnesota Legislature
+            </a>
+            
+
+            <div class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>                
+                <input class="form-control form-control-sm align-top mr-2 js-search" style="display: none;" id="main-search-top" name="search" placeholder="Search..." type="text">  
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </div>
+               
+        </div>
+           
+    </div>
+
+       <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+            <div class="w-100 px-auto">
+              <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                <div class="collapse navbar-collapse py-0" id="top-nav">
+                  <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                   <!--  <li class="nav-item mr-3">
+                      <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header  "><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">House Members and Staff</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
+                              <dl>
+                                <dt class="text-white pb-1">Committees</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
+                              <dl>
+                                <dt class="text-white pb-1">Offices</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>         
+                                <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd> 
+                                <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
+                              <dl>
+                                <dt class="text-white pb-1">Other Information</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">Senators and Staff</dt>
+                                <dd class="text-white"><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                <dd class="text-muted"><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                <dd class="text-muted"><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                <dd class="text-muted"><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+
+                                <!-- <dd class="text-muted">Employment</dd> -->
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white pb-1">Committees</dt>
+                                <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white pb-1">Offices</dt>
+                                  <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                  <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                  <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white pb-1">Other Information</dt>
+                                  <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                  <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                  <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                  <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                  <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                  <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <!-- <div class="col"></div> -->
+                            <div class="col-12 col-sm-4">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">Joint Legislative Offices</dt>
+                                <dd><a href="https://www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd> 
+                                <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl  class="mb-0">
+                                <dt class="text-white pb-1">Commissions</dt>
+                                <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd> 
+                                <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+
+                                <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
+                                <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>      
+                                <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+
+                            <div class="col-12 col-sm-4">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">House</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Senate</dt>
+                                  <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                  <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                  <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                  <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Joint</dt>
+                                <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-4">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">House</dt>
+                                <dd>
+                                  <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                </dd>                  
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Senate</dt>
+                                <dd>
+                                  <a href="https://www.senate.mn/committees">Committee List</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.senate.mn/schedule/schedule.php?ls=&amp;cmte_id=&amp;cmte_type=&amp;type=upcoming">Upcoming Meetings</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php?ls=">Standing Committee Schedule</a>
+                                </dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Joint</dt>
+                                <dd>
+                                  <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                </dd>
+                                <dd>
+                                  <a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a>
+                                </dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-4">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white pb-1">House</dt>
+                                <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                  <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                  <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                  <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                  <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Senate</dt>
+                                <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                <dd class="text-white">Summaries: <a href="http://www.senate.leg.state.mn.us/departments/scr/billsumm/index.php?summary_type=bill#header">Bill</a> | 
+                                      <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                  <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                  <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                </dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white pb-1">Joint</dt>
+                                <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.revisor.mn.gov/pubs/">Statutes, Laws, and Rules</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white">Statutes</dt>
+                                
+                                <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                </dd>
+                                <dd><a href="https://www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                </dd>
+                                <dd><a href="https://www.revisor.mn.gov/statutes/?view=index">Statutes by Topic (Index)</a>
+                                </dd>
+                                <dd><a href="https://www.revisor.mn.gov/statutes/?view=archive">Statutes Archive</a>
+                                </dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">Session Laws</dt>
+                                <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/laws/">Session Laws Archive</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">Administrative Rules</dt>
+                                <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/rules/?view=archive">Rules Archive</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/state_register/">State Register</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">Other Legal Materials</dt>
+                                <dd><a href="https://www.revisor.mn.gov/constitution/">Minnesota Constitution</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/court_rules/">Court Rules</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-4">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white">House</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white">Senate</dt>
+                                <dd>
+                                  <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> 
+                               <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                <dd><a href="https://www.senate.mn/media/index.php?ls=&type=audio">Audio Archives</a></dd>
+                                <dd><a href="https://www.senate.mn/media/index.php?ls=&type=video">Video Archives</a></dd>
+                                <dd><a href="https://www.senate.mn/media/media_photos.php">Photos</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <dl>
+                                <dt class="text-white">Joint</dt>
+                                  <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                <dd><a href="https://www.lcc.leg.mn/meetings-all.htm">Commission Audio/Video</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <li class="nav-item">
+                      <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                    </li>
+                    <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                      <div class="bg-dark">
+                        <div class="container px-3">
+                          <div class="row">
+                            <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                          </div>
+                          <hr class="my-1 bg-secondary">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                              <dl>
+                                <dt class="text-white">Office Research &amp; Reports</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                <dd><a href="https://www.revisor.mn.gov/office/publications.php">Revisor Publications</a></dd>
+                                <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">News</dt>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                <dd><a href="https://www.senate.mn/media/">Senate Media Services</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">Legislative History</dt>
+                                <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                              </dl>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3">
+                              <dl>
+                                <dt class="text-white">Notable Documents</dt>
+                                <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/hrd/databook/datamain.aspx">MN Government in Brief</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                              </dl>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                  <div class="form-inline ml-auto d-block d-md-none p-2">
+                      <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>   
+                      <div class="input-group mb-2 mr-sm-2">
+
+                          <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text"> 
+
+                          <div class="input-group-append">
+                              <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                          </div>
+
+                      </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </nav>
+
+           <div id="bannerImage" class="leg-banner img-joint">
+               <div class="position-relative h-100">
+                   <div class="leg-title-container pl-0">
+                       <div class="container">
+                           
+                           <a id="ctl00_leg_title_text" class="leg-title-text text-white" href="/">Minnesota State Legislature</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+    <nav id ="sub-nav" class="navbar navbar-expand-md navbar-joint bg-joint">
+        <div class="container">
+            <div class="d-block ml-0">
+                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div id="ctl00_Panel_leg_nav" style="width: 100%; display: inline; ">
+	
+                <span id="ctl00_Label_session_msg" style="color: rgba(255, 255, 255, 0.875);">The Legislature is adjourned until noon, Tuesday, February 11, 2020.</span>
+            
+</div>
+
+             <!--panel_lrl_nav-->
+          <ul class="navbar-nav ml-auto mr-3">
+              
+            <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">
+              <a class="nav-link" href="/leg/comments.aspx"><i aria-label="Email" class="far fa-lg fa-envelope"></i></a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+              <a class="nav-link" href="javascript:window.print();"><i aria-label="Print" class="fas fa-lg fa-print"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+   
+    </nav>
+        
+   <!--END NAV-->     
+        
+   <!--MAIN CONTENT-->     
+    <div id="legContainerMain" class="container pb-5" tabindex="-1">
+        
+
+        
+             
+        <span id="ctl00_SiteMapPath1" class="breadcrumb"><a href="#ctl00_SiteMapPath1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=sROrf3M61rO7XFNCzuikjpPBJ2MkoENSGyWIeXx50YukKg4YBTqCCyijpKxoFS9D3gELa_RzmhOgtFFAqajZVPBfD9OZkERF22o6jlixlc41&amp;t=637100646046795651" width="0" height="0" border="0" /></a><span>
+                <li class="breadcrumb-li">
+                    <a id="ctl00_SiteMapPath1_ctl00_lnkPage" title="Legislature" href="/leg.aspx">Legislature</a>
+                </li>
+            </span><span> &gt; </span><span>
+                <li class="breadcrumb-li">
+                    <a id="ctl00_SiteMapPath1_ctl02_lnkPage" title="Calendar" href="/cal.aspx">Calendar</a>
+                </li>
+            </span><a id="ctl00_SiteMapPath1_SkipLink"></a></span>
+
+        <!--INCLUDE FILE-->
+        
+    <div id="div_leaving" style="position: absolute; left: 40%; top: 400px; width: 100px; height: 100px; background-color: white; opacity: 1; display: none;"><img src="/img/ajax-loader.gif"/></div>
+   <div class="row leg-row-print-full">
+    <div class="col-xl-9 leg-col-print-12"> <!-- begin column --> 
+        
+    <div id="cal_main" >
+
+        <h1 id="ctl00_Main_h1_cal">Combined Legislative Meeting Calendar</h1>
+        
+        
+        
+        <h2 class="mb-4">Upcoming Meetings</h2>  
+
+
+        <input type="hidden" name="ctl00$Main$HiddenField_type" id="ctl00_Main_HiddenField_type" value="all" />
+        <input type="hidden" name="ctl00$Main$HiddenField_d1" id="ctl00_Main_HiddenField_d1" value="2/11/2020" />
+        <input type="hidden" name="ctl00$Main$HiddenField_d2" id="ctl00_Main_HiddenField_d2" />
+        
+        
+        
+        
+        <div id="ctl00_Main_Panel_quick_date" class="d-print-none">
+	
+            <h3  id="show_quick_date" class="text-primary" style="cursor: pointer; text-decoration: underline;" ><i class="fas fa-calendar-alt fa-2x mr-2"></i>Hide quick calendar</h3>
+
+            <div id="div_quick_date" >
+                <table class='table  table-sm cal_data_table '><tr><thead><th scope='col' style='width:160px;' class=''>Date</th><th><div class='row mx-0'><div class='col-lg-2'>Body</div><div class='col-lg-10'>Committee(s)</div></div></th></tr></thead><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/11/2020'>February 11, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29604'>Capital Investment Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15242'>Senate</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29513'>Floor Session</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29613'>Government Operations</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29602'>Public Safety and Criminal Justice Reform Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29608'>Commerce</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29597'>Environment and Natural Resources Policy</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/12/2020'>February 12, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29603'>Judiciary Finance and Civil Law Division</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/13/2020'>February 13, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29605'>Capital Investment Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29625'>Early Childhood Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29591'>State Government Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29609'>Taxes</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1270'>Legislative Permanent School Fund Commission</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29594'>Agriculture and Food Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29607'>Energy and Climate Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29614'>Government Operations</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29596'>Judiciary Finance and Civil Law Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29598'>Environment and Natural Resources Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29626'>Health and Human Services Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29606'>Public Safety and Criminal Justice Reform Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29622'>Transportation Finance and Policy Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15236'>Energy and Utilities Finance and Policy</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15237'>Health and Human Services Finance and Policy</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29621'>Health and Human Services Policy</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29630'>Subcommittee on Elections</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/14/2020'>February 14, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1278'>Driver and Vehicle Systems Oversight Committee</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/17/2020'>February 17, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29629'>Water Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15239'>Human Services Reform Finance and Policy</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1274'>Subcommittee on Minnesota Water Policy</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/18/2020'>February 18, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29610'>State Government Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15243'>Higher Education Finance and Policy</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29628'>Higher Education Finance and Policy Division</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/19/2020'>February 19, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29611'>State Government Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15241'>Family Care and Aging</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>Senate</div><div class='col-lg-10'><a class='text-senate' href='#s_15240'>Human Services Reform Finance and Policy</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/20/2020'>February 20, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>House</div><div class='col-lg-10'><a class='text-house' href='#h_29612'>State Government Finance Division</a></div></div><div class='row mx-0 border-top pt-1  pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1276'>Legislative Budget Office Oversight Commission</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#2/21/2020'>February 21, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1269'>Legislative Task Force on Child Protection</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#6/4/2020'>June 4, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1252'>Mississippi River Parkway Commission</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#6/24/2020'>June 24, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1266'>Lessard-Sams Outdoor Heritage Council</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#6/25/2020'>June 25, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1267'>Lessard-Sams Outdoor Heritage Council</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#8/5/2020'>August 5, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1268'>Lessard-Sams Outdoor Heritage Council</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#8/13/2020'>August 13, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1253'>Mississippi River Parkway Commission</a></div></div></td></tr><tr><td  style='border-top-width:2px;'><a class='cal_anchor_link' href='#11/19/2020'>November 19, 2020</a></td><td style='border-top-width:2px;'><div class='row mx-0   pb-1'><div class='col-lg-2'>&nbsp;</div><div class='col-lg-10'><a class='text-joint' href='#c_1254'>Mississippi River Parkway Commission</a></div></div></table>
+            </div>
+        
+</div><!--Panel_comm_time-->
+        
+        
+
+        <a id="ctl00_Main_HyperLink1" class="leg_HiddenNonmobile" href="#calendar_anchor" style="display: none;">Jump to calendar</a>
+        
+      
+        
+        
+        
+        
+         
+        <div class='time_divider bg-light' id='2/11/2020'>Tuesday, February 11, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29604'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Capital Investment Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15242'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Senate</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29513'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Floor Session</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29613'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Government Operations</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29602'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Public Safety and Criminal Justice Reform Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29608'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Commerce</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29597'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Environment and Natural Resources Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/12/2020'>Wednesday, February 12, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29603'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Judiciary Finance and Civil Law Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/13/2020'>Thursday, February 13, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29605'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Capital Investment Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29625'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Early Childhood Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29591'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>State Government Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29609'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Taxes</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark comm_item cal_item ml-lg-3' id='c_1270'>
+ <div class='card-header'>
+<h3>Legislative Permanent School Fund Commission</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29594'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Agriculture and Food Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29607'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Energy and Climate Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29614'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Government Operations</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29596'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Judiciary Finance and Civil Law Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29598'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Environment and Natural Resources Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29626'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Health and Human Services Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29606'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Public Safety and Criminal Justice Reform Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29622'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Transportation Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15236'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Energy and Utilities Finance and Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15237'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Health and Human Services Finance and Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29621'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Health and Human Services Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29630'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Subcommittee on Elections</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/14/2020'>Friday, February 14, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1278'>
+ <div class='card-header'>
+<h3>Driver and Vehicle Systems Oversight Committee</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/17/2020'>Monday, February 17, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29629'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Water Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15239'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Human Services Reform Finance and Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark comm_item cal_item ml-lg-3' id='c_1274'>
+ <div class='card-header'>
+<h3>Subcommittee on Minnesota Water Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/18/2020'>Tuesday, February 18, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29610'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>State Government Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15243'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Higher Education Finance and Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark house_item cal_item ml-lg-3' id='h_29628'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>Higher Education Finance and Policy Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/19/2020'>Wednesday, February 19, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29611'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>State Government Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15241'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Family Care and Aging</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark senate_item cal_item ml-lg-3' id='s_15240'>
+ <div class='card-header'>
+<span class='float-right'>Senate</span>
+<h3>Human Services Reform Finance and Policy</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/20/2020'>Thursday, February 20, 2020</div><div class='card border-dark house_item cal_item ml-lg-3' id='h_29612'>
+ <div class='card-header'>
+<span class='float-right'>House</span>
+<h3>State Government Finance Division</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='card border-dark comm_item cal_item ml-lg-3' id='c_1276'>
+ <div class='card-header'>
+<h3>Legislative Budget Office Oversight Commission</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='2/21/2020'>Friday, February 21, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1269'>
+ <div class='card-header'>
+<h3>Legislative Task Force on Child Protection</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='6/4/2020'>Thursday, June 4, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1252'>
+ <div class='card-header'>
+<h3>Mississippi River Parkway Commission</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='6/24/2020'>Wednesday, June 24, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1266'>
+ <div class='card-header'>
+<h3>Lessard-Sams Outdoor Heritage Council</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='6/25/2020'>Thursday, June 25, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1267'>
+ <div class='card-header'>
+<h3>Lessard-Sams Outdoor Heritage Council</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='8/5/2020'>Wednesday, August 5, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1268'>
+ <div class='card-header'>
+<h3>Lessard-Sams Outdoor Heritage Council</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='8/13/2020'>Thursday, August 13, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1253'>
+ <div class='card-header'>
+<h3>Mississippi River Parkway Commission</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+<div class='time_divider bg-light' id='11/19/2020'>Thursday, November 19, 2020</div><div class='card border-dark comm_item cal_item ml-lg-3' id='c_1254'>
+ <div class='card-header'>
+<h3>Mississippi River Parkway Commission</h3>
+   </div> 
+ <div><img src='/img/ajax-loader.gif' width='30px' height='30px' class='ml-6' style='vertical-align:middle;margin-left:20px;'/><span class='font-weight-bold ml-3 font-italic'>Loading Details...</span></div>
+   </div> 
+
+        
+
+        </div><!--cal_main-->
+        
+        <a id="cal_link_top" style="display: none;" href="#cal_main" class="float-right btn btn-outline-joint btn-sm">Top</a>
+
+</div><!--end 3/4 column-->
+
+<div class="col-xl-3 d-print-none"> <!-- begin column --> 
+
+    <div id="ctl00_Main_calendar_div" class="center hide_in_print d-print-none" todaydaystyle-bordercolor="#009900">
+     <a id="calendar_anchor"></a>   
+        <input type="hidden" name="ctl00$Main$HiddenField_selecteddate" id="ctl00_Main_HiddenField_selecteddate" value="2/11/2020" />
+        
+        
+  <script type="text/javascript">
+      //function pageLoad() {
+      //    $(".cal_cal_datepicker").datepicker(); // Will run at every postback/AsyncPostback
+      //}
+
+      $(document).ready(function () {
+         
+
+          function doLeaving() {
+              $('#cal_main').addClass('lrl_opacity_inactive');
+              $('#div_leaving').show();
+           
+          };
+
+          var strCalDate = getParameterByName('d1');
+
+
+          if (strCalDate === '') {
+              strCalDate = $.datepicker.formatDate('mm/dd/yy', new Date());
+              
+          };
+
+          $(".cal_cal_datepicker").datepicker();
+
+          
+
+          //console.log(strCalDate);
+          $('#datepicker').datepicker('setDate', strCalDate);
+
+
+          $("#datepicker").datepicker({
+              changeMonth: true,
+              changeYear: true,
+              minDate: new Date(2011, 1 - 1, 1),
+              maxDate: "+1y +6m",
+              defaultDate: strCalDate,
+              onSelect: function (date, inst) {
+                  //https://stackoverflow.com/questions/6056287/jquery-ui-datepicker-prevent-refresh-onselect
+                  //This is the important line.
+                  //Setting this to false prevents the redraw.
+                  inst.inline = false;
+
+                  //The remainder of the function simply preserves the 
+                  //highlighting functionality without completely redrawing.
+
+                  //This removes any existing selection styling.
+                  $(".ui-datepicker-calendar .ui-datepicker-current-day").removeClass("ui-datepicker-current-day").children().removeClass("ui-state-active");
+
+                  //This finds the selected link and styles it accordingly.
+                  //You can probably change the selectors, depending on your layout.
+                  $(".ui-datepicker-calendar TBODY A").each(function () {
+                      if ($(this).text() == inst.selectedDay) {
+                          $(this).addClass("ui-state-active");
+                          $(this).parent().addClass("ui-datepicker-current-day");
+                      }
+                  });
+                  var the_date = $('#datepicker').val();
+                  //console.log(the_date);
+                  doLeaving();
+
+                  window.location.href = window.location.origin + "/cal?d1=" + the_date;
+              }
+          });
+          //gets rid of todays formatting
+          $('.ui-state-highlight').removeClass('ui-state-highlight');
+
+
+
+          $("#datepicker").datepicker("option", "prevText", "");
+          $("#datepicker").datepicker("option", "nextText", "");
+
+          $("#datepicker").on("change", function (e) {
+              //  var myDate = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
+              //e.preventDefault();
+              //e.stopPropagation();
+              //console.log('onchange');
+              e.inline = false;
+
+              var the_date = $('#datepicker').val();
+              //console.log(the_date);
+            
+
+              window.location.href = window.location.origin + "/cal?d1=" + the_date;
+          });
+
+
+      });                            //document ready
+          </script>
+
+
+
+  <div id="ctl00_Main_combined_calendar_Panel_cal_links" class=" mb-3  text-center">
+	
+     <div  class="">
+         <h2 id="ctl00_Main_combined_calendar_cal_asx_h2">Select a date</h2>
+
+         <div id="datepicker" style="font-size: 1em; display: inline-block;"></div>
+
+                <div class="text-center mt-2">
+                        <a href="/cal.aspx" class="lrl_show_leaving btn border-dark btn-light btn-sm">Today</a>
+                 <a href="/cal.aspx?type=week" class="lrl_show_leaving btn  border-dark btn-light btn-sm">Next Seven Days</a>
+              </div>
+                <div class="text-center mt-2">
+                   <a href="/cal.aspx?type=all" class="lrl_show_leaving btn  border-dark btn-light btn-sm">All Upcoming Meetings</a>
+                </div>
+           
+   
+         
+              <div id="div_range_search" style="">
+              <div style="text-align: left; margin:16px 0 4px 4px;">
+                  <span id="ctl00_Main_combined_calendar_label_dr"><b>Date Range:</b></span>
+              </div>
+
+              <input name="ctl00$Main$combined_calendar$TextBox_Date_1" type="text" id="ctl00_Main_combined_calendar_TextBox_Date_1" class="form-control form-control-sm d-inline cal_cal_datepicker" style="position: relative; z-index: 100000;" />
+              to 
+              <input name="ctl00$Main$combined_calendar$TextBox_Date_2" type="text" id="ctl00_Main_combined_calendar_TextBox_Date_2" class="form-control form-control-sm d-inline cal_cal_datepicker" style="position: relative; z-index: 100000;" />
+              <input type="image" name="ctl00$Main$combined_calendar$btn_cal_range" id="ctl00_Main_combined_calendar_btn_cal_range" class="btn_cal_range" src="/img/icon_search.png" />
+              
+                
+            
+            </div>
+            
+            
+          
+            </div>
+    
+
+            
+</div> <!--Panel_cal_links-->
+            
+
+        
+     
+           <hr />
+               
+                    <h3 class="">
+                        Search
+                    </h3>
+        
+        <div class="form-row">
+            <div class="col-lg-10">
+                <label class="sr-only" for="cal-search-input">Search</label>
+                <input type="text" class="form-control form-control-sm mb-2" id="cal-search-input" placeholder="Search">
+            </div>
+            <div class="col-lg-2">
+                <div class="btn btn-sm btn-joint" id="cal_search_btn">GO</div>
+            </div>
+        </div>
+
+        
+                    <div id="leg-searchcal-subs" class="ml-4 mt-2">
+                    <div class="row">
+                    <div class="col-lg-6 pr-0"> <!-- begin column -->
+                        <div class="form-check">
+                            <input class="form-check-input leg-search-checkbox" checked="checked" type="checkbox" value="81,82,83,84,85" id="search-chk-cal-all" >
+                            <label class="form-check-label" for="search-chk-cal-all">
+                                All
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input leg-search-checkbox" data-checkboxtype="cal" data-years="2019-2020" type="checkbox" value="81" id="search-chk-cal-2019" >
+                            <label class="form-check-label" for="search-chk-cal-2019">
+                                2019-2020
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input leg-search-checkbox" data-checkboxtype="cal" data-years="2017-2018" type="checkbox" value="82" id="search-chk-cal-2017" >
+                            <label class="form-check-label" for="search-chk-cal-2017">
+                                2017-2018
+                            </label>
+                        </div>
+                        </div><!--col-->
+                        <div class="col-lg-6 pr-0"> <!-- begin column -->
+                            <div class="form-check">
+                                <input class="form-check-input leg-search-checkbox" data-checkboxtype="cal" data-years="2015-2016" type="checkbox" value="83" id="search-chk-cal-2015" >
+                                <label class="form-check-label" for="search-chk-cal-2015">
+                                    2015-2016
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input leg-search-checkbox" data-checkboxtype="cal" data-years="2013-2014" type="checkbox" value="84" id="search-chk-cal-2013" >
+                                <label class="form-check-label" for="search-chk-cal-2013">
+                                    2013-2014
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input leg-search-checkbox" data-checkboxtype="cal" data-years="2011-2012" type="checkbox" value="85" id="search-chk-cal-2011" >
+                                <label class="form-check-label" for="search-chk-cal-2011">
+                                    2011-2012
+                                </label>
+                            </div>
+                        </div><!--col-->
+                        </div><!--row-->
+                    </div><!-- leg-searchcal-subs-->
+
+        
+        <hr />
+        <div class="d-print-none text-center border border-joint rounded p-3">
+            The Legislature will be in recess for the Easter/Passover holidays beginning 11:59 PM Friday, April 3 
+            through Monday, April 13th, 2020. Legislative activity may resume at 8:00 AM Tuesday, April 14th, 2020.
+ 
+        </div><!--cal_info-->
+        <hr />
+       <div class="d-print-none text-center">
+           This calendar displays meetings that are listed on the House and Senate calendar pages. 
+           This includes meetings from the <a id="ctl00_Main_HyperLink_House_2" href="http://www.house.leg.state.mn.us/schedules/all" style="font-weight:normal;text-decoration: underline;">House</a>
+           (2007-present), the <a id="ctl00_Main_HyperLink_Senate_2" href="http://www.senate.leg.state.mn.us/schedule/index.php?date=2020-2-11" style="font-weight:normal;text-decoration: underline;">Senate</a>
+           (2009-present), and the <a href="http://www.commissions.leg.state.mn.us/depts.htm" style="font-weight:normal;text-decoration: underline;">Commissions, Joint Committees and Task
+               Forces and Working Groups</a> (2011-present). 
+ 
+       </div><!--cal_info-->
+      
+     </div><!--calendar_div-->
+       
+         <div class="d-print-none mt-5 pt-2" style="border-top: 2px solid #E0E0E0; ">
+            <img src='/img/widescreen-tv-xxl_38.png' alt="Live Video Icon" style="float: left; margin: 0 6px 0 0;" />
+             <img src='/img/audio.png' alt="Live Audio Icon" style="float: left; margin: 0 6px 0 0;" />
+             The "Live Video" and "Live Audio" links will open a window to 
+             the live broadcast on the correct date and time of the House meeting. For Senate audio and video, visit the <a href="http://www.senate.mn/media/" class="b">Senate Media page</a>.   
+       </div>
+    
+
+</div><!--end column-->
+       
+    </div><!--row-->
+
+
+
+           </div><!-- END MAIN CONTENT-->     
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul  class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faq.aspx?subject=14">Visiting the Capitol</a>
+                  </li>
+
+                  <li>
+                      <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faq.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul  class="list-unstyled clear-margins">
+                  <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338" class="d-lg-none">(651) 296-8338</a><span class="d-none d-lg-inline">(651) 296-8338</span> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>         
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>            
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="row  mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota State Legislature</div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- container.fluid (from top) -->
+      <script src="/js/jquery-ui-1.12.1.custom/jquery-ui.min.js">
+      </script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+      </script> 
+      <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+      </script> 
+        
+        
+        
+        
+        
+    <div id="ctl00_Panel_google_leg">
+	
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-7669435-2']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+</div><!--panel_google_leg-->
+    
+    <!--panel_google_lrlg-->
+
+
+
+        
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ctl12_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>
+
+

@@ -13,7 +13,7 @@ class Duluth(Jurisdiction):
     url = "http://www.duluthmn.gov"
     scrapers = {
         "events": DuluthEventScraper,
-        "people": DuluthPersonScraper,
+        # "people": DuluthPersonScraper,
         # "bills": DuluthBillScraper,
         # "vote_events": DuluthVoteEventScraper,
     }

@@ -1,0 +1,1286 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 22:10:26 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2900 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2900</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 05/18/2019 09:31am</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2900&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2900&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2900&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2900&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2900&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 05/16/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2900&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2900&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <br/>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <br/>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <br/>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <br/>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <br/>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <br/>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <br/>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <br/>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <br/>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <br/>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <br/>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <br/>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to health occupations; modifying respiratory care practitioner requirements;<br/> <span id="pl.1.3" class="pl"> </span>amending Minnesota Statutes 2018, sections 147.012, as amended; 147C.01, <br/><span id="pl.1.4" class="pl"> </span>subdivisions 2, 10; 147C.05; 147C.10, subdivisions 1a, 2; 147C.15, subdivisions <br/><span id="pl.1.5" class="pl"> </span>1, 2, 7, as amended; 147C.35; 256B.0659, subdivision 27.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.6" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_cite_as_amended" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.7" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147.012, as amended by Laws 2019, chapter <br/><span id="pl.1.8" class="pl"> </span>8, article 7, section 2, is amended to read:<br/></p>
+      <br/>
+      <div class="law_language">
+        <h1 class="shn"><span id="pl.1.9" class="pl"> </span>147.012 OVERSIGHT OF ALLIED HEALTH PROFESSIONS.<br/></h1>
+        <p><span id="pl.1.10" class="pl"> </span>The board has responsibility for the oversight of the following allied health professions: <br/><span id="pl.1.11" class="pl"> </span>physician assistants under chapter 147A, acupuncture practitioners under chapter 147B, <br/><span id="pl.1.12" class="pl"> </span>respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care practitioners</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapists</ins><span class="sr-only">new text end</span> under chapter 147C, traditional midwives under <br/><span id="pl.1.13" class="pl"> </span>chapter 147D, registered naturopathic doctors under chapter 147E, genetic counselors under <br/><span id="pl.1.14" class="pl"> </span>chapter 147F, and athletic trainers under sections <a href="/statutes/cite/148.7801">148.7801</a> to <a href="/statutes/cite/148.7815">148.7815</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.15" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.01, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.16" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Advisory council.</h3>
+        <p>"Advisory council" means the Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Therapy</ins><span class="sr-only">new text end</span> <br/><span id="pl.1.17" class="pl"> </span>Advisory Council established under section <a href="/statutes/cite/147C.35">147C.35</a>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.1.18" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.01, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.1.19" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span>.</h3>
+        <p>"Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span>" means the provision <br/><span id="pl.1.20" class="pl"> </span>of services described under section <a href="/statutes/cite/147C.05">147C.05</a> for the assessment, treatment, education, <br/><span id="pl.1.21" class="pl"> </span>management, evaluation, and care of patients with deficiencies, abnormalities, and diseases <br/><span id="pl.2.1" class="pl"> </span>of the cardiopulmonary system, under the supervision of a physician and pursuant to a <br/><span id="pl.2.2" class="pl"> </span>referral, or a verbal, written, or telecommunicated order from a physician, nurse practitioner, <br/><span id="pl.2.3" class="pl"> </span>or physician assistant. Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> includes, but is not limited to, education <br/><span id="pl.2.4" class="pl"> </span>pertaining to health promotion, disease prevention and management, patient care, and <br/><span id="pl.2.5" class="pl"> </span>treatment.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.2.6" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.05, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.2.7" class="pl"> </span>147C.05 SCOPE OF PRACTICE.<br/></h1>
+      <p><span id="pl.2.8" class="pl"> </span>(a) The practice of respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> by a licensed respiratory therapist includes, <br/><span id="pl.2.9" class="pl"> </span>but is not limited to, the following services:<br/></p>
+      <p><span id="pl.2.10" class="pl"> </span>(1) providing and monitoring therapeutic administration of medical gases, aerosols, <br/><span id="pl.2.11" class="pl"> </span>humidification, and pharmacological agents related to respiratory care procedures, but not <br/><span id="pl.2.12" class="pl"> </span>including administration of general anesthesia;<br/></p>
+      <p><span id="pl.2.13" class="pl"> </span>(2) carrying out therapeutic application and monitoring of mechanical ventilatory support;<br/></p>
+      <p><span id="pl.2.14" class="pl"> </span>(3) providing cardiopulmonary resuscitation and maintenance of natural airways and <br/><span id="pl.2.15" class="pl"> </span>insertion and maintenance of artificial airways;<br/></p>
+      <p><span id="pl.2.16" class="pl"> </span>(4) assessing and monitoring signs, symptoms, and general behavior relating to, and <br/><span id="pl.2.17" class="pl"> </span>general physical response to, respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> treatment or evaluation for treatment <br/><span id="pl.2.18" class="pl"> </span>and diagnostic testing, including determination of whether the signs, symptoms, reactions, <br/><span id="pl.2.19" class="pl"> </span>behavior, or general response exhibit abnormal characteristics;<br/></p>
+      <p><span id="pl.2.20" class="pl"> </span>(5) obtaining physiological specimens and interpreting physiological data including:<br/></p>
+      <p><span id="pl.2.21" class="pl"> </span>(i) analyzing arterial and venous blood gases;<br/></p>
+      <p><span id="pl.2.22" class="pl"> </span>(ii) assessing respiratory secretions;<br/></p>
+      <p><span id="pl.2.23" class="pl"> </span>(iii) measuring ventilatory volumes, pressures, and flows;<br/></p>
+      <p><span id="pl.2.24" class="pl"> </span>(iv) testing pulmonary function;<br/></p>
+      <p><span id="pl.2.25" class="pl"> </span>(v) testing and studying the cardiopulmonary system; and<br/></p>
+      <p><span id="pl.2.26" class="pl"> </span>(vi) diagnostic and therapeutic testing of breathing patterns related to sleep disorders;<br/></p>
+      <p><span id="pl.2.27" class="pl"> </span>(6) assisting hemodynamic monitoring and support of the cardiopulmonary system;<br/></p>
+      <p><span id="pl.2.28" class="pl"> </span>(7) assessing and making suggestions for modifications in the treatment regimen based <br/><span id="pl.2.29" class="pl"> </span>on abnormalities, protocols, or changes in patient response to respiratory care treatment;<br/></p>
+      <p><span id="pl.3.1" class="pl"> </span>(8) providing cardiopulmonary rehabilitation including respiratory-<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> related <br/><span id="pl.3.2" class="pl"> </span>educational components, postural drainage, chest physiotherapy, breathing exercises, <br/><span id="pl.3.3" class="pl"> </span>aerosolized administration of medications, and equipment use and maintenance;<br/></p>
+      <p><span id="pl.3.4" class="pl"> </span>(9) instructing patients and their families in techniques for the prevention, alleviation, <br/><span id="pl.3.5" class="pl"> </span>and rehabilitation of deficiencies, abnormalities, and diseases of the cardiopulmonary system; <br/><span id="pl.3.6" class="pl"> </span>and<br/></p>
+      <p><span id="pl.3.7" class="pl"> </span>(10) transcribing and implementing verbal, written, or telecommunicated orders from a <br/><span id="pl.3.8" class="pl"> </span>physician, nurse practitioner, or physician assistant for respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> services.<br/></p>
+      <p><span id="pl.3.9" class="pl"> </span>(b) This section does not prohibit a respiratory therapist from performing advances in <br/><span id="pl.3.10" class="pl"> </span>the art and techniques of respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> learned through formal or specialized <br/><span id="pl.3.11" class="pl"> </span>training as approved by the Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Therapy</ins><span class="sr-only">new text end</span> Advisory Council.<br/></p>
+      <p><span id="pl.3.12" class="pl"> </span>(c) This section does not prohibit an individual licensed or credentialed as a respiratory <br/><span id="pl.3.13" class="pl"> </span>therapist in another state or country from providing respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> in an emergency <br/><span id="pl.3.14" class="pl"> </span>in this state, providing respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> as a member of an organ harvesting team, <br/><span id="pl.3.15" class="pl"> </span>or from providing respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> on board an ambulance as part of an ambulance <br/><span id="pl.3.16" class="pl"> </span>treatment team.<br/></p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.3.17" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.10, subdivision 1a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.3.18" class="pl"> </span>Subd. 1a.</h2>
+        <h3 class="headnote">Unlicensed practice prohibited.</h3>
+        <p>No person shall practice respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.3.19" class="pl"> </span>therapy</ins><span class="sr-only">new text end</span> unless the person is licensed as a respiratory therapist under this chapter except as <br/><span id="pl.3.20" class="pl"> </span>otherwise provided under this chapter.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.3.21" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.10, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.3.22" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Other health care practitioners.</h3>
+        <p>(a) Nothing in this chapter shall prohibit the <br/><span id="pl.3.23" class="pl"> </span>practice of any profession or occupation licensed or registered by the state by any person <br/><span id="pl.3.24" class="pl"> </span>duly licensed or registered to practice the profession or occupation or to perform any act <br/><span id="pl.3.25" class="pl"> </span>that falls within the scope of practice of the profession or occupation.<br/></p>
+        <p><span id="pl.3.26" class="pl"> </span>(b) Nothing in this chapter shall be construed to require a respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> license <br/><span id="pl.3.27" class="pl"> </span>for:<br/></p>
+        <p><span id="pl.3.28" class="pl"> </span>(1) a student enrolled in a respiratory therapy or polysomnography technology education <br/><span id="pl.3.29" class="pl"> </span>program accredited by the Commission on Accreditation of Allied Health Education <br/><span id="pl.3.30" class="pl"> </span>Programs, its successor organization, or another nationally recognized accrediting <br/><span id="pl.3.31" class="pl"> </span>organization;<br/></p>
+        <p><span id="pl.4.1" class="pl"> </span>(2) a respiratory therapist as a member of the United States armed forces while performing <br/><span id="pl.4.2" class="pl"> </span>duties incident to that duty;<br/></p>
+        <p><span id="pl.4.3" class="pl"> </span>(3) an individual employed by a durable medical equipment provider or a home medical <br/><span id="pl.4.4" class="pl"> </span>equipment provider who delivers, sets up, instructs the patient on the use of, or maintains <br/><span id="pl.4.5" class="pl"> </span>respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> therapy</ins><span class="sr-only">new text end</span> equipment, but does not perform assessment, education, or evaluation <br/><span id="pl.4.6" class="pl"> </span>of the patient;<br/></p>
+        <p><span id="pl.4.7" class="pl"> </span>(4) self-care by a patient or gratuitous care by a friend or relative who does not purport <br/><span id="pl.4.8" class="pl"> </span>to be a licensed respiratory therapist; or<br/></p>
+        <p><span id="pl.4.9" class="pl"> </span>(5) an individual employed in a sleep lab or center as a polysomnographic technologist <br/><span id="pl.4.10" class="pl"> </span>under the supervision of a licensed physician.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.4.11" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.15, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.4.12" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">General requirements for licensure.</h3>
+        <p>To be eligible for a license, an <br/><span id="pl.4.13" class="pl"> </span>applicant, with the exception of those seeking licensure by reciprocity under subdivision 2, <br/><span id="pl.4.14" class="pl"> </span>must:<br/></p>
+        <p><span id="pl.4.15" class="pl"> </span>(1) submit a completed application on forms provided by the board along with all fees <br/><span id="pl.4.16" class="pl"> </span>required under section <a href="/statutes/cite/147C.40">147C.40</a> that includes:<br/></p>
+        <p><span id="pl.4.17" class="pl"> </span>(i) the applicant's name, Social Security number, home address, e-mail address, and <br/><span id="pl.4.18" class="pl"> </span>telephone number, and business address and telephone number;<br/></p>
+        <p><span id="pl.4.19" class="pl"> </span>(ii) the name and location of the respiratory therapy education program the applicant <br/><span id="pl.4.20" class="pl"> </span>completed;<br/></p>
+        <p><span id="pl.4.21" class="pl"> </span>(iii) a list of degrees received from educational institutions;<br/></p>
+        <p><span id="pl.4.22" class="pl"> </span>(iv) a description of the applicant's professional training beyond the first degree received;<br/></p>
+        <p><span id="pl.4.23" class="pl"> </span>(v) the applicant's work history for the five years preceding the application, including <br/><span id="pl.4.24" class="pl"> </span>the average number of hours worked per week;<br/></p>
+        <p><span id="pl.4.25" class="pl"> </span>(vi) a list of registrations, certifications, and licenses held in other jurisdictions;<br/></p>
+        <p><span id="pl.4.26" class="pl"> </span>(vii) a description of any other jurisdiction's refusal to credential the applicant;<br/></p>
+        <p><span id="pl.4.27" class="pl"> </span>(viii) a description of all professional disciplinary actions initiated against the applicant <br/><span id="pl.4.28" class="pl"> </span>in any jurisdiction; and<br/></p>
+        <p><span id="pl.4.29" class="pl"> </span>(ix) any history of drug or alcohol abuse, and any misdemeanor or felony conviction;<br/></p>
+        <p><span id="pl.4.30" class="pl"> </span>(2) submit a certificate of completion from an approved education program;<br/></p>
+        <p><span id="pl.5.1" class="pl"> </span>(3) achieve a qualifying score on a <span class="sr-only">new text begin</span><ins style="text-decoration: underline">registered respiratory therapist or advanced level <br/><span id="pl.5.2" class="pl"> </span>respiratory therapy </ins><span class="sr-only">new text end</span>credentialing examination within five years prior to application for <br/><span id="pl.5.3" class="pl"> </span>registration;<br/></p>
+        <p><span id="pl.5.4" class="pl"> </span>(4) submit a verified copy of a valid and current credential, issued by the National Board <br/><span id="pl.5.5" class="pl"> </span>for Respiratory Care or other board-approved national organization, as a <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">certified respiratory <br/><span id="pl.5.6" class="pl"> </span>therapist,</span><span class="sr-only">deleted text end</span> registered respiratory therapist<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">,</span><span class="sr-only">deleted text end</span> or other <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">entry or</span><span class="sr-only">deleted text end</span> advanced level respiratory therapist <br/><span id="pl.5.7" class="pl"> </span>designation;<br/></p>
+        <p><span id="pl.5.8" class="pl"> </span>(5) submit additional information as requested by the board, including providing any <br/><span id="pl.5.9" class="pl"> </span>additional information necessary to ensure that the applicant is able to practice with <br/><span id="pl.5.10" class="pl"> </span>reasonable skill and safety to the public;<br/></p>
+        <p><span id="pl.5.11" class="pl"> </span>(6) sign a statement that the information in the application is true and correct to the best <br/><span id="pl.5.12" class="pl"> </span>of the applicant's knowledge and belief; and<br/></p>
+        <p><span id="pl.5.13" class="pl"> </span>(7) sign a waiver authorizing the board to obtain access to the applicant's records in this <br/><span id="pl.5.14" class="pl"> </span>or any other state in which the applicant has completed an approved education program or <br/><span id="pl.5.15" class="pl"> </span>engaged in the practice of respiratory therapy.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.5.16" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.15, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.5.17" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Licensure by reciprocity.</h3>
+        <p>To be eligible for licensure by reciprocity, the <br/><span id="pl.5.18" class="pl"> </span>applicant must be credentialed<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> as a registered respiratory therapist or advanced level <br/><span id="pl.5.19" class="pl"> </span>respiratory therapist</ins><span class="sr-only">new text end</span> by the National Board for Respiratory Care or other board-approved <br/><span id="pl.5.20" class="pl"> </span>organization and have worked at least eight weeks of the previous five years as a respiratory <br/><span id="pl.5.21" class="pl"> </span>therapist and must:<br/></p>
+        <p><span id="pl.5.22" class="pl"> </span>(1) submit the application materials and fees as required by subdivision 1, clauses (1), <br/><span id="pl.5.23" class="pl"> </span>(4), (5), (6), and (7);<br/></p>
+        <p><span id="pl.5.24" class="pl"> </span>(2) provide a verified copy from the appropriate government body of a current and <br/><span id="pl.5.25" class="pl"> </span>unrestricted credential or license for the practice of respiratory therapy in another jurisdiction <br/><span id="pl.5.26" class="pl"> </span>that has initial credentialing requirements equivalent to or higher than the requirements in <br/><span id="pl.5.27" class="pl"> </span>subdivision 1; and<br/></p>
+        <p><span id="pl.5.28" class="pl"> </span>(3) provide letters of verification from the appropriate government body in each <br/><span id="pl.5.29" class="pl"> </span>jurisdiction in which the applicant holds a credential or license. Each letter must state the <br/><span id="pl.5.30" class="pl"> </span>applicant's name, date of birth, credential number, date of issuance, a statement regarding <br/><span id="pl.5.31" class="pl"> </span>disciplinary actions, if any, taken against the applicant, and the terms under which the <br/><span id="pl.5.32" class="pl"> </span>credential was issued.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd_as_amended" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.6.1" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.15, subdivision 7, as amended by Laws <br/><span id="pl.6.2" class="pl"> </span>2019, chapter 8, article 3, section 1, is amended to read:<br/></p>
+      <br/>
+      <div class="law_language">
+        <div class="subd" id="bill.0.9.1">
+          <h2 class="subd_no"><span id="pl.6.3" class="pl"> </span>Subd. 7.</h2>
+          <h3 class="headnote">Renewal.</h3>
+          <p>(a) To be eligible for license renewal a licensee must:<br/></p>
+          <p><span id="pl.6.4" class="pl"> </span>(1) annually, or as determined by the board, complete a renewal application on a form <br/><span id="pl.6.5" class="pl"> </span>provided by the board;<br/></p>
+          <p><span id="pl.6.6" class="pl"> </span>(2) submit the renewal fee;<br/></p>
+          <p><span id="pl.6.7" class="pl"> </span>(3) provide evidence every two years of a total of 24 hours of continuing education <br/><span id="pl.6.8" class="pl"> </span>approved by the board as described in section <a href="/statutes/cite/147C.25">147C.25</a>; and<br/></p>
+          <p><span id="pl.6.9" class="pl"> </span>(4) submit any additional information requested by the board to clarify information <br/><span id="pl.6.10" class="pl"> </span>presented in the renewal application. The information must be submitted within 30 days <br/><span id="pl.6.11" class="pl"> </span>after the board's request, or the renewal request is nullified.<br/></p>
+          <p><span id="pl.6.12" class="pl"> </span>(b) Applicants for renewal who have not practiced the equivalent of eight full weeks <br/><span id="pl.6.13" class="pl"> </span>during the past five years must achieve a passing score on retaking the credentialing <br/><span id="pl.6.14" class="pl"> </span>examination<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> required under subdivision 1</ins><span class="sr-only">new text end</span>.<br/></p>
+          <p><span id="pl.6.15" class="pl"> </span>(c) A licensee must maintain a correct mailing address with the board for receiving board <br/><span id="pl.6.16" class="pl"> </span>communications, notices, and license renewal documents. Placing the license renewal <br/><span id="pl.6.17" class="pl"> </span>application in first class United States mail, addressed to the licensee at the licensee's last <br/><span id="pl.6.18" class="pl"> </span>known address with postage prepaid, constitutes valid service. Failure to receive the renewal <br/><span id="pl.6.19" class="pl"> </span>documents does not relieve a licensee of the obligation to comply with this section.<br/></p>
+          <p><span id="pl.6.20" class="pl"> </span>(d) The name of a licensee who does not return a complete license renewal application, <br/><span id="pl.6.21" class="pl"> </span>annual license fee, or late application fee, as applicable, within the time period required by <br/><span id="pl.6.22" class="pl"> </span>this section shall be removed from the list of individuals authorized to practice during the <br/><span id="pl.6.23" class="pl"> </span>current renewal period. If the licensee's license is reinstated, the licensee's name shall be <br/><span id="pl.6.24" class="pl"> </span>placed on the list of individuals authorized to practice.<br/></p>
+          <p>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.6.25" class="pl"> </span>(e) An applicant for renewal after July 1, 2020, is eligible for license renewal if the <br/><span id="pl.6.26" class="pl"> </span>applicant has a valid and current certified or registered respiratory therapist credential <br/><span id="pl.6.27" class="pl"> </span>designation, or other entry or advanced level respiratory therapy designation, issued by the <br/><span id="pl.6.28" class="pl"> </span>National Board of Respiratory Care or other board-approved organization.<br/></ins>
+            <span class="sr-only">new text end</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.6.29" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 147C.35, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.6.30" class="pl"> </span>147C.35 RESPIRATORY <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">CARE</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> THERAPY</ins><span class="sr-only">new text end</span> ADVISORY COUNCIL.<br/></h1>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.6.31" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Membership.</h3>
+        <p>The board shall appoint a seven-member Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Care</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.6.32" class="pl"> </span>Therapy</ins><span class="sr-only">new text end</span> Advisory Council consisting of two public members as defined in section <a href="/statutes/cite/214.02">214.02</a>, <br/><span id="pl.7.1" class="pl"> </span>three licensed respiratory therapists, and two licensed physicians with expertise in respiratory <br/><span id="pl.7.2" class="pl"> </span>care.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.10.2">
+        <h2 class="subd_no"><span id="pl.7.3" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Organization.</h3>
+        <p class="in">The advisory council shall be organized and administered under <br/><span id="pl.7.4" class="pl"> </span>section <a href="/statutes/cite/15.059">15.059</a>.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.10.3">
+        <h2 class="subd_no"><span id="pl.7.5" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Duties.</h3>
+        <p>The advisory council shall:<br/></p>
+        <p><span id="pl.7.6" class="pl"> </span>(1) advise the board regarding standards for respiratory therapists;<br/></p>
+        <p><span id="pl.7.7" class="pl"> </span>(2) provide for distribution of information regarding respiratory therapy standards;<br/></p>
+        <p><span id="pl.7.8" class="pl"> </span>(3) advise the board on enforcement of sections <a href="/statutes/cite/147.091">147.091</a> to <a href="/statutes/cite/147.162">147.162</a>;<br/></p>
+        <p><span id="pl.7.9" class="pl"> </span>(4) review applications and recommend granting or denying licensure or license renewal;<br/></p>
+        <p><span id="pl.7.10" class="pl"> </span>(5) advise the board on issues related to receiving and investigating complaints, <br/><span id="pl.7.11" class="pl"> </span>conducting hearings, and imposing disciplinary action in relation to complaints against <br/><span id="pl.7.12" class="pl"> </span>respiratory therapists;<br/></p>
+        <p><span id="pl.7.13" class="pl"> </span>(6) advise the board regarding approval of continuing education programs using the <br/><span id="pl.7.14" class="pl"> </span>criteria in section <a href="/statutes/cite/147C.25#stat.147C.25.3">147C.25, subdivision 3</a>; and<br/></p>
+        <p><span id="pl.7.15" class="pl"> </span>(7) perform other duties authorized for advisory councils by chapter 214, as directed by <br/><span id="pl.7.16" class="pl"> </span>the board.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.7.17" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 256B.0659, subdivision 27, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.7.18" class="pl"> </span>Subd. 27.</h2>
+        <h3 class="headnote">Personal care assistance provider agency.</h3>
+        <p>(a) The personal care assistance <br/><span id="pl.7.19" class="pl"> </span>provider agency is required to provide training for the personal care assistant responsible <br/><span id="pl.7.20" class="pl"> </span>for working with a recipient who is ventilator dependent. All training must be administered <br/><span id="pl.7.21" class="pl"> </span>by a respiratory therapist, nurse, or physician. Qualified professional supervision by a nurse <br/><span id="pl.7.22" class="pl"> </span>must be completed and documented on file in the personal care assistant's employment <br/><span id="pl.7.23" class="pl"> </span>record and the recipient's health record. If offering personal care services to a <br/><span id="pl.7.24" class="pl"> </span>ventilator-dependent recipient, the personal care assistance provider agency shall demonstrate <br/><span id="pl.7.25" class="pl"> </span>and document the ability to:<br/></p>
+        <p><span id="pl.7.26" class="pl"> </span>(1) train the personal care assistant;<br/></p>
+        <p><span id="pl.7.27" class="pl"> </span>(2) supervise the personal care assistant in the care of a ventilator-dependent recipient;<br/></p>
+        <p><span id="pl.7.28" class="pl"> </span>(3) supervise the recipient and responsible party in the care of a ventilator-dependent <br/><span id="pl.7.29" class="pl"> </span>recipient; and<br/></p>
+        <p><span id="pl.7.30" class="pl"> </span>(4) provide documentation of the training and supervision in clauses (1) to (3) upon <br/><span id="pl.7.31" class="pl"> </span>request.<br/></p>
+        <p><span id="pl.8.1" class="pl"> </span>(b) A personal care assistant shall not undertake any clinical services, patient assessment, <br/><span id="pl.8.2" class="pl"> </span>patient evaluation, or clinical education regarding the ventilator or the patient on the <br/><span id="pl.8.3" class="pl"> </span>ventilator. These services may only be provided by health care professionals licensed or <br/><span id="pl.8.4" class="pl"> </span>registered in this state.<br/></p>
+        <p><span id="pl.8.5" class="pl"> </span>(c) A personal care assistant may only perform tasks associated with ventilator <br/><span id="pl.8.6" class="pl"> </span>maintenance that are approved by the Board of Medical Practice in consultation with the <br/><span id="pl.8.7" class="pl"> </span>Respiratory <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Care Practitioner</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Therapy</ins><span class="sr-only">new text end</span> Advisory Council and the Department of Human <br/><span id="pl.8.8" class="pl"> </span>Services.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section revisorInstr" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.8.9" class="pl"> </span>Sec. 12. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REVISOR INSTRUCTION.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.8.10" class="pl"> </span>The title of Minnesota Statutes, chapter 147C, shall be changed to "Respiratory <br/><span id="pl.8.11" class="pl"> </span>Therapists."<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

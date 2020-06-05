@@ -22,12 +22,10 @@ sys.path.insert(0, '/var/www/mn.actibase')
 import siteauth as KF
 
 LINKS = [
-    'https://mnactivist.org/p/Minneapolis',
-    'https://mnactivist.org/p/Saint-Paul',
-#    'https://mnactivist.org/p/Inver-Grove-Heights',
-#    'https://mnactivist.org/p/Wayzata',
-#    'https://mnactivist.org/p/Hennepin-County',
-#   'https://mnactivist.org/p/Minnesota',
+    {'cal': 'https://mnactivist.org/p/Minneapolis', 'vidlink': 'http://minneapolismn.gov/tv/citycounciltv', 'callink': 'https://lims.minneapolismn.gov/Calendar/citycouncil/upcoming'},
+    {'cal': 'https://mnactivist.org/p/Saint-Paul', 'vidlink': None, 'callink': 'https://www.wayzata.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml'},
+    {'cal': 'https://mnactivist.org/p/Duluth', 'vidlink': None, 'callink': 'https://duluthmn.gov/event-calendar/'},
+    {'cal': 'https://mnactivist.org/p/Minnesota', 'vidlink': None, 'callink': 'http://www.leg.state.mn.us/calendarday.aspx?jday=all'},
 ]
 
 mnact = {'access_token': KF.fb_token, 'id': KF.fb_id}
@@ -42,6 +40,7 @@ xvfb.start()
 print("Xvfb started")
 
 br = wd.Chrome()
+# br = wd.Firefox()
 br.set_window_size(800, 1000)
 
 # graph = facebook.GraphAPI(mnact['access_token'], 2.7)
@@ -50,16 +49,16 @@ api = twitter.Api(consumer_key=KF.tw_ckey,
                   access_token_key=KF.tw_tkey,
                   access_token_secret=KF.tw_tsecret)
 
-
+lastTweetID = 0
 
 for link in LINKS:
-    wait = random.randrange(174, 348, 16)
-    br.get(link)
+    wait = random.randrange(14, 38, 4)
+    br.get(link['cal'])
     timestamp = '{:%Y%m%d-%H:%M:%S}'.format(datetime.now())
-    name = link.split('/')[-1:]
+    name = link['cal'].split('/')[-1:]
     name = ('-').join(name)
     picName = name + timestamp + '.png'
-    time.sleep(5)
+    time.sleep(10)
     br.get_screenshot_as_file('testShot.png') 
     screen = br.get_screenshot_as_png()
     box = (50, 100, 700, 850)
@@ -67,10 +66,19 @@ for link in LINKS:
     region = im.crop(box)
     region.save(picName, 'PNG', optimize=True, quality=95)
     print('Picture save: {0}'.format(picName))
-    msg = "More at MnActivist.org"
     image=open(picName, 'rb')
     name = name.replace('-', ' ')
-    api.PostUpdate('Upcoming events for {0}'.format(name), media=image)
+    msg = "Upcoming events for {0}\n".format(name)
+    if link['vidlink'] != None:
+        msg = msg + "\nWatch Online: {0}\n".format(link['vidlink'])
+    if link['callink'] != None:
+        msg = msg + "\nOfficial Calendar: {0}\n".format(link['callink'])
+    if lastTweetID > 0:
+        tweet = api.PostUpdate(msg, in_reply_to_status_id=int(lastTweetID), media=image)
+    else:
+        msg = "THREAD of Upcoming Events:\n\n" + msg
+        tweet = api.PostUpdate(msg, media=image)
+    lastTweetID = tweet.id
     time.sleep(wait)
 
 
@@ -97,7 +105,7 @@ for link in LINKS:
 #     api.PostUpdate('Upcoming events for {0}'.format(name), media=image)
 #     time.sleep(wait)
 
-api.PostUpdate('Check us out for Android {0} \n\n and iTunes {1}'.format('http://bit.ly/MnActivist_for_Android', 'http://bit.ly/MnActivist_for_iOS'),)
+# api.PostUpdate('Check us out for Android {0} \n\n and iTunes {1}'.format('http://bit.ly/MnActivist_for_Android', 'http://bit.ly/MnActivist_for_iOS'),)
     
 br.close() 
 xvfb.stop()
