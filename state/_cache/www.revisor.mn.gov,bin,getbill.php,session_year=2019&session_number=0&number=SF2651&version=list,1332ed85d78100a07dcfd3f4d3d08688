@@ -1,0 +1,2232 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 22:19:18 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2651 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2651</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/25/2019 03:54pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2651&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2651&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2651&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2651&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2651&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/21/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2651&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2651&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <br/>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <br/>
+    <var class="ln">1.17</var>
+    <br/>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <br/>
+    <var class="ln">2.3</var>
+    <br/>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <br/>
+    <var class="ln">3.10</var>
+    <br/>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <br/>
+    <var class="ln">3.25</var>
+    <br/>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <br/>
+    <var class="ln">3.30</var>
+    <br/>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <br/>
+    <var class="ln">4.7</var>
+    <br/>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <br/>
+    <var class="ln">7.1</var>
+    <br/>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <br/>
+    <var class="ln">7.22</var>
+    <br/>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <br/>
+    <var class="ln">8.25</var>
+    <br/>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <br/>
+    <var class="ln">9.15</var>
+    <br/>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <br/>
+    <var class="ln">9.28</var>
+    <br/>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">10.33</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <br/>
+    <var class="ln">11.7</var>
+    <br/>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <br/>
+    <var class="ln">11.17</var>
+    <br/>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <br/>
+    <var class="ln">11.23</var>
+    <br/>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <br/>
+    <var class="ln">12.28</var>
+    <br/>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <var class="ln">12.31</var>
+    <var class="ln">12.32</var>
+    <var class="ln">12.33</var>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+    <var class="ln">13.15</var>
+    <var class="ln">13.16</var>
+    <var class="ln">13.17</var>
+    <var class="ln">13.18</var>
+    <var class="ln">13.19</var>
+    <var class="ln">13.20</var>
+    <var class="ln">13.21</var>
+    <var class="ln">13.22</var>
+    <var class="ln">13.23</var>
+    <var class="ln">13.24</var>
+    <var class="ln">13.25</var>
+    <var class="ln">13.26</var>
+    <var class="ln">13.27</var>
+    <var class="ln">13.28</var>
+    <var class="ln">13.29</var>
+    <var class="ln">13.30</var>
+    <var class="ln">13.31</var>
+    <var class="ln">14.1</var>
+    <var class="ln">14.2</var>
+    <var class="ln">14.3</var>
+    <var class="ln">14.4</var>
+    <var class="ln">14.5</var>
+    <var class="ln">14.6</var>
+    <var class="ln">14.7</var>
+    <var class="ln">14.8</var>
+    <var class="ln">14.9</var>
+    <var class="ln">14.10</var>
+    <var class="ln">14.11</var>
+    <var class="ln">14.12</var>
+    <var class="ln">14.13</var>
+    <var class="ln">14.14</var>
+    <var class="ln">14.15</var>
+    <var class="ln">14.16</var>
+    <var class="ln">14.17</var>
+    <var class="ln">14.18</var>
+    <var class="ln">14.19</var>
+    <var class="ln">14.20</var>
+    <var class="ln">14.21</var>
+    <var class="ln">14.22</var>
+    <var class="ln">14.23</var>
+    <var class="ln">14.24</var>
+    <var class="ln">14.25</var>
+    <var class="ln">14.26</var>
+    <var class="ln">14.27</var>
+    <var class="ln">14.28</var>
+    <var class="ln">14.29</var>
+    <var class="ln">14.30</var>
+    <var class="ln">14.31</var>
+    <var class="ln">14.32</var>
+    <var class="ln">15.1</var>
+    <var class="ln">15.2</var>
+    <var class="ln">15.3</var>
+    <var class="ln">15.4</var>
+    <var class="ln">15.5</var>
+    <var class="ln">15.6</var>
+    <var class="ln">15.7</var>
+    <var class="ln">15.8</var>
+    <var class="ln">15.9</var>
+    <var class="ln">15.10</var>
+    <br/>
+    <var class="ln">15.11</var>
+    <br/>
+    <var class="ln">15.12</var>
+    <var class="ln">15.13</var>
+    <var class="ln">15.14</var>
+    <var class="ln">15.15</var>
+    <var class="ln">15.16</var>
+    <var class="ln">15.17</var>
+    <var class="ln">15.18</var>
+    <var class="ln">15.19</var>
+    <var class="ln">15.20</var>
+    <var class="ln">15.21</var>
+    <var class="ln">15.22</var>
+    <var class="ln">15.23</var>
+    <var class="ln">15.24</var>
+    <var class="ln">15.25</var>
+    <var class="ln">15.26</var>
+    <var class="ln">15.27</var>
+    <var class="ln">15.28</var>
+    <var class="ln">15.29</var>
+    <var class="ln">15.30</var>
+    <var class="ln">15.31</var>
+    <var class="ln">15.32</var>
+    <var class="ln">16.1</var>
+    <var class="ln">16.2</var>
+    <var class="ln">16.3</var>
+    <var class="ln">16.4</var>
+    <var class="ln">16.5</var>
+    <var class="ln">16.6</var>
+    <var class="ln">16.7</var>
+    <var class="ln">16.8</var>
+    <br/>
+    <var class="ln">16.9</var>
+    <br/>
+    <var class="ln">16.10</var>
+    <var class="ln">16.11</var>
+    <var class="ln">16.12</var>
+    <var class="ln">16.13</var>
+    <var class="ln">16.14</var>
+    <var class="ln">16.15</var>
+    <var class="ln">16.16</var>
+    <var class="ln">16.17</var>
+    <var class="ln">16.18</var>
+    <var class="ln">16.19</var>
+    <var class="ln">16.20</var>
+    <var class="ln">16.21</var>
+    <var class="ln">16.22</var>
+    <var class="ln">16.23</var>
+    <var class="ln">16.24</var>
+    <var class="ln">16.25</var>
+    <var class="ln">16.26</var>
+    <var class="ln">16.27</var>
+    <br/>
+    <var class="ln">16.28</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to health occupations; establishing licensure requirements for <br/><span id="pl.1.3" class="pl"> </span>speech-language pathology assistants; establishing licensure fees; amending <br/><span id="pl.1.4" class="pl"> </span>Minnesota Statutes 2018, sections 148.512, subdivision 17a; 148.513, subdivisions <br/><span id="pl.1.5" class="pl"> </span>1, 2, by adding a subdivision; 148.515, subdivision 1; 148.516; 148.519, subdivision <br/><span id="pl.1.6" class="pl"> </span>1, by adding a subdivision; 148.5192, subdivision 1; 148.5193, subdivision 1, by <br/><span id="pl.1.7" class="pl"> </span>adding a subdivision; 148.5194, subdivision 8, by adding a subdivision; 148.5195, <br/><span id="pl.1.8" class="pl"> </span>subdivision 3; 148.5196, subdivisions 1, 3; proposing coding for new law in <br/><span id="pl.1.9" class="pl"> </span>Minnesota Statutes, chapter 148.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.10" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.11" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.512, subdivision 17a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.12" class="pl"> </span>Subd. 17a.</h2>
+        <h3 class="headnote">Speech-language pathology assistant.</h3>
+        <p>"Speech-language pathology assistant" <br/><span id="pl.1.13" class="pl"> </span>means a person who <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">provides speech-language pathology services under the supervision of <br/><span id="pl.1.14" class="pl"> </span>a licensed speech-language pathologist in accordance with section <a href="/statutes/cite/148.5192">148.5192</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> practices <br/><span id="pl.1.15" class="pl"> </span>speech-language pathology assisting, meets the requirements under section 148.5185 or <br/><span id="pl.1.16" class="pl"> </span>148.5186, and is licensed by the commissioner</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.17" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.18" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.513, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.19" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Unlicensed practice prohibited.</h3>
+        <p>A person must not engage in the practice <br/><span id="pl.1.20" class="pl"> </span>of speech-language pathology <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> audiology<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or speech-language pathology assisting</ins><span class="sr-only">new text end</span> unless <br/><span id="pl.1.21" class="pl"> </span>the person is licensed as a speech-language pathologist <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> an audiologist<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or a <br/><span id="pl.1.22" class="pl"> </span>speech-language pathology assistant</ins><span class="sr-only">new text end</span> under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a> <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or is practicing as <br/><span id="pl.1.23" class="pl"> </span>a speech-language pathology assistant in accordance with section <a href="/statutes/cite/148.5192">148.5192</a>. For purposes <br/><span id="pl.2.1" class="pl"> </span>of this subdivision, a speech-language pathology assistant's duties are limited to the duties <br/><span id="pl.2.2" class="pl"> </span>described in accordance with section <a href="/statutes/cite/148.5192#stat.148.5192.2">148.5192, subdivision 2</a></span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.3" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.4" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.513, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.5" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Protected titles and restrictions on use<span class="sr-only">new text begin</span><ins style="text-decoration: underline">; speech-language pathologists and <br/><span id="pl.2.6" class="pl"> </span>audiologists</ins><span class="sr-only">new text end</span>.</h3>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(a) Notwithstanding paragraph (b)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Except as provided in subdivision 2b</ins><span class="sr-only">new text end</span>, the <br/><span id="pl.2.7" class="pl"> </span>use of the following terms or initials which represent the following terms, alone or in <br/><span id="pl.2.8" class="pl"> </span>combination with any word or words, by any person to form an occupational title is prohibited <br/><span id="pl.2.9" class="pl"> </span>unless that person is licensed <span class="sr-only">new text begin</span><ins style="text-decoration: underline">as a speech-language pathologist or audiologist </ins><span class="sr-only">new text end</span>under sections <br/><a href="/statutes/cite/148.511"><span id="pl.2.10" class="pl"> </span>148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>:<br/></p>
+        <p><span id="pl.2.11" class="pl"> </span>(1) speech-language;<br/></p>
+        <p><span id="pl.2.12" class="pl"> </span>(2) speech-language pathologist, S, SP, or SLP;<br/></p>
+        <p><span id="pl.2.13" class="pl"> </span>(3) speech pathologist;<br/></p>
+        <p><span id="pl.2.14" class="pl"> </span>(4) language pathologist;<br/></p>
+        <p><span id="pl.2.15" class="pl"> </span>(5) audiologist, A, or AUD;<br/></p>
+        <p><span id="pl.2.16" class="pl"> </span>(6) speech therapist;<br/></p>
+        <p><span id="pl.2.17" class="pl"> </span>(7) speech clinician;<br/></p>
+        <p><span id="pl.2.18" class="pl"> </span>(8) speech correctionist;<br/></p>
+        <p><span id="pl.2.19" class="pl"> </span>(9) language therapist;<br/></p>
+        <p><span id="pl.2.20" class="pl"> </span>(10) voice therapist;<br/></p>
+        <p><span id="pl.2.21" class="pl"> </span>(11) voice pathologist;<br/></p>
+        <p><span id="pl.2.22" class="pl"> </span>(12) logopedist;<br/></p>
+        <p><span id="pl.2.23" class="pl"> </span>(13) communicologist;<br/></p>
+        <p><span id="pl.2.24" class="pl"> </span>(14) aphasiologist;<br/></p>
+        <p><span id="pl.2.25" class="pl"> </span>(15) phoniatrist;<br/></p>
+        <p><span id="pl.2.26" class="pl"> </span>(16) audiometrist;<br/></p>
+        <p><span id="pl.2.27" class="pl"> </span>(17) audioprosthologist;<br/></p>
+        <p><span id="pl.2.28" class="pl"> </span>(18) hearing therapist;<br/></p>
+        <p><span id="pl.3.1" class="pl"> </span>(19) hearing clinician; or<br/></p>
+        <p><span id="pl.3.2" class="pl"> </span>(20) hearing aid audiologist.<br/></p>
+        <p><span id="pl.3.3" class="pl"> </span>Use of the term "Minnesota licensed" in conjunction with the titles protected under this <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.4" class="pl"> </span>paragraph</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> subdivision</ins><span class="sr-only">new text end</span> by any person is prohibited unless that person is licensed <span class="sr-only">new text begin</span><ins style="text-decoration: underline">as a <br/><span id="pl.3.5" class="pl"> </span>speech-language pathologist or audiologist </ins><span class="sr-only">new text end</span>under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.3.6" class="pl"> </span>(b) A speech-language pathology assistant practicing under section <a href="/statutes/cite/148.5192">148.5192</a> must not <br/><span id="pl.3.7" class="pl"> </span>represent, indicate, or imply to the public that the assistant is a licensed speech-language <br/><span id="pl.3.8" class="pl"> </span>pathologist and shall only utilize one of the following titles: "speech-language pathology <br/><span id="pl.3.9" class="pl"> </span>assistant," "SLP assistant," or "SLP asst."<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.10" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.11" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.513, is amended by adding a subdivision to <br/><span id="pl.3.12" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.13" class="pl"> </span>Subd. 2b.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Protected titles and restrictions on use; speech-language pathology <br/><span id="pl.3.14" class="pl"> </span>assistants.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Use of the following titles is prohibited, unless that person is licensed under <br/><span id="pl.3.15" class="pl"> </span>section 148.5185 or 148.5186: "speech-language pathology assistant," "SLP assistant," or <br/><span id="pl.3.16" class="pl"> </span>"SLP asst."<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.17" class="pl"> </span>(b) A speech-language pathology assistant licensed under section 148.5185 or 148.5186 <br/><span id="pl.3.18" class="pl"> </span>must not represent, indicate, or imply to the public that the assistant is a licensed <br/><span id="pl.3.19" class="pl"> </span>speech-language pathologist and shall only utilize one of the following titles: <br/><span id="pl.3.20" class="pl"> </span>"speech-language pathology assistant," "SLP assistant," or "SLP asst." A speech-language <br/><span id="pl.3.21" class="pl"> </span>pathology assistant licensed under section 148.5185 or 148.5186 may use the term "licensed" <br/><span id="pl.3.22" class="pl"> </span>or "Minnesota licensed" in connection with a title listed in this paragraph. Use of the term <br/><span id="pl.3.23" class="pl"> </span>"Minnesota licensed" in conjunction with any of the titles protected under paragraph (a) by <br/><span id="pl.3.24" class="pl"> </span>any person is prohibited unless that person is licensed under section 148.5185 or 148.5186.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.25" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.3.26" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.515, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.3.27" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Applicability.</h3>
+        <p>Except as provided in section <a href="/statutes/cite/148.516">148.516</a> or <a href="/statutes/cite/148.517">148.517</a>, an <br/><span id="pl.3.28" class="pl"> </span>applicant <span class="sr-only">new text begin</span><ins style="text-decoration: underline">for licensure as a speech-language pathologist or audiologist </ins><span class="sr-only">new text end</span>must meet the <br/><span id="pl.3.29" class="pl"> </span>requirements in this section.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.30" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.4.1" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.516, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.4.2" class="pl"> </span>148.516 LICENSURE BY EQUIVALENCY.<br/></h1>
+      <p><span id="pl.4.3" class="pl"> </span>An applicant who applies for licensure by equivalency <span class="sr-only">new text begin</span><ins style="text-decoration: underline">as a speech-language pathologist <br/><span id="pl.4.4" class="pl"> </span>or audiologist </ins><span class="sr-only">new text end</span>must show evidence of possessing a current certificate of clinical competence <br/><span id="pl.4.5" class="pl"> </span>issued by the American Speech-Language-Hearing Association or board certification by <br/><span id="pl.4.6" class="pl"> </span>the American Board of Audiology and must meet the requirements of section <a href="/statutes/cite/148.514">148.514</a>.<br/></p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.7" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.4.8" class="pl"> </span>Sec. 7. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[148.5185] RESTRICTED LICENSURE; SPEECH-LANGUAGE <br/><span id="pl.4.9" class="pl"> </span>PATHOLOGY ASSISTANTS.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.10" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Qualifications for a restricted license.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">To be eligible for restricted <br/><span id="pl.4.11" class="pl"> </span>licensure as a speech-language pathology assistant, an applicant must satisfy the requirements <br/><span id="pl.4.12" class="pl"> </span>in subdivision 2, 3, or 4.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.13" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Person practicing as a speech-language pathology assistant before January <br/><span id="pl.4.14" class="pl"> </span>1, 2020.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A person who is practicing as a speech-language pathology assistant before <br/><span id="pl.4.15" class="pl"> </span>January 1, 2020, and who does not meet the qualifications for a license under section <br/><span id="pl.4.16" class="pl"> </span>148.5186 may apply for a restricted speech-language pathology assistant license from the <br/><span id="pl.4.17" class="pl"> </span>commissioner. An applicant under this paragraph must submit to the commissioner:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.18" class="pl"> </span>(1) proof of current employment as a speech-language pathology assistant; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.19" class="pl"> </span>(2) a signed affidavit affirming supervision, from the licensed speech-language pathologist <br/><span id="pl.4.20" class="pl"> </span>currently supervising the applicant.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.21" class="pl"> </span>(b) In order to be licensed as a speech-language pathology assistant under section <br/><span id="pl.4.22" class="pl"> </span>148.5186, a licensee with a restricted license under this subdivision must obtain an associate <br/><span id="pl.4.23" class="pl"> </span>degree from a speech-language pathology assistant program that is accredited by the Higher <br/><span id="pl.4.24" class="pl"> </span>Learning Commission of the North Central Association of Colleges or its equivalent, as <br/><span id="pl.4.25" class="pl"> </span>approved by the commissioner, and that includes:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.26" class="pl"> </span>(1) coursework on an introduction to communication disorders, phonetics, language <br/><span id="pl.4.27" class="pl"> </span>development, articulation disorders, language disorders, anatomy of speech/language hearing, <br/><span id="pl.4.28" class="pl"> </span>stuttering, adult communication disorders, and clinical documentations and materials <br/><span id="pl.4.29" class="pl"> </span>management; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.30" class="pl"> </span>(2) at least 100 hours of supervised field work experience in speech-language pathology <br/><span id="pl.4.31" class="pl"> </span>assisting.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="bl">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.1" class="pl"> </span>A licensee under this subdivision must obtain an associate degree that meets the requirements <br/><span id="pl.5.2" class="pl"> </span>of this paragraph no later than December 31, 2024. A licensee who fails to obtain an associate <br/><span id="pl.5.3" class="pl"> </span>degree prior to January 1, 2025, is not eligible to apply for licensure under section 148.5186. <br/><span id="pl.5.4" class="pl"> </span>Upon completion of the requirements in this paragraph prior to January 1, 2025, a licensee <br/><span id="pl.5.5" class="pl"> </span>with a restricted license under this subdivision is eligible to apply for licensure under section <br/><span id="pl.5.6" class="pl"> </span>148.5186.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.7" class="pl"> </span>(c) A restricted license issued under this subdivision may be renewed until January 1, <br/><span id="pl.5.8" class="pl"> </span>2025.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.9" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Person with a bachelor's degree in communication sciences or disorders <br/><span id="pl.5.10" class="pl"> </span>and practicing as a speech-language pathology assistant before January 1, 2020.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A <br/><span id="pl.5.11" class="pl"> </span>person with a bachelor's degree in the discipline of communication sciences or disorders <br/><span id="pl.5.12" class="pl"> </span>and who is practicing as a speech-language pathology assistant before January 1, 2020, but <br/><span id="pl.5.13" class="pl"> </span>who does not meet the qualifications for a license under section 148.5186, may apply for a <br/><span id="pl.5.14" class="pl"> </span>restricted speech-language pathology assistant license from the commissioner. An applicant <br/><span id="pl.5.15" class="pl"> </span>under this paragraph must submit to the commissioner:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.16" class="pl"> </span>(1) a transcript from an educational institution documenting satisfactory completion of <br/><span id="pl.5.17" class="pl"> </span>a bachelor's degree in the discipline of communication sciences or disorders;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.18" class="pl"> </span>(2) proof of current employment as a speech-language pathology assistant; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.19" class="pl"> </span>(3) a signed affidavit affirming supervision from the licensed speech-language pathologist <br/><span id="pl.5.20" class="pl"> </span>currently supervising the applicant.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.21" class="pl"> </span>(b) In order to be licensed as a speech-language pathology assistant under section <br/><span id="pl.5.22" class="pl"> </span>148.5186, a licensee with a restricted license under this subdivision must complete the <br/><span id="pl.5.23" class="pl"> </span>following coursework and supervised field work experience within two years after the date <br/><span id="pl.5.24" class="pl"> </span>on which the licensee obtains a restricted license under paragraph (a):<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.25" class="pl"> </span>(1) coursework from a speech-language pathology assistant program in articulation <br/><span id="pl.5.26" class="pl"> </span>disorders, language disorders, adult communication disorders, and stuttering; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.27" class="pl"> </span>(2) at least 100 hours of supervised field work experience in speech-language pathology <br/><span id="pl.5.28" class="pl"> </span>assisting.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="bl">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.29" class="pl"> </span>A licensee under this subdivision who fails to complete the required coursework and <br/><span id="pl.5.30" class="pl"> </span>supervised field work experience within two years after obtaining a restricted license under <br/><span id="pl.5.31" class="pl"> </span>this subdivision is not eligible to apply for licensure under section 148.5186. Upon <br/><span id="pl.5.32" class="pl"> </span>completion of the requirements in this paragraph within two years after obtaining a restricted <br/><span id="pl.6.1" class="pl"> </span>license under this subdivision, a licensee is eligible to apply for licensure under section <br/><span id="pl.6.2" class="pl"> </span>148.5186.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.3" class="pl"> </span>(c) A restricted license issued under this subdivision may be renewed until January 1, <br/><span id="pl.6.4" class="pl"> </span>2023.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.5" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Person with an associate degree from a program that does not meet <br/><span id="pl.6.6" class="pl"> </span>requirements in section 148.5186.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A person with an associate degree from a <br/><span id="pl.6.7" class="pl"> </span>speech-language pathology assistant program that does not meet the requirements in section <br/><span id="pl.6.8" class="pl"> </span>148.5186, subdivision 1, clause (1), may apply for a restricted speech-language pathology <br/><span id="pl.6.9" class="pl"> </span>assistant license from the commissioner. An applicant under this paragraph must submit to <br/><span id="pl.6.10" class="pl"> </span>the commissioner a transcript from an educational institution documenting satisfactory <br/><span id="pl.6.11" class="pl"> </span>completion of an associate degree from a speech-language pathology assistant program. If <br/><span id="pl.6.12" class="pl"> </span>the commissioner determines that the applicant's speech-language pathology assistant <br/><span id="pl.6.13" class="pl"> </span>program does not include coursework or supervised field work experience that is equivalent <br/><span id="pl.6.14" class="pl"> </span>to a program under section 148.5186, subdivision 1, clause (1), the commissioner may issue <br/><span id="pl.6.15" class="pl"> </span>a restricted license to the applicant.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.16" class="pl"> </span>(b) In order to be licensed as a speech-language pathology assistant under section <br/><span id="pl.6.17" class="pl"> </span>148.5186, a licensee with a restricted license under this subdivision must complete any <br/><span id="pl.6.18" class="pl"> </span>missing coursework or supervised field work experience, as determined by the commissioner, <br/><span id="pl.6.19" class="pl"> </span>in a speech-language pathology assisting program by December 31, 2024. A licensee who <br/><span id="pl.6.20" class="pl"> </span>fails to complete the required course work or supervised field work experience prior to <br/><span id="pl.6.21" class="pl"> </span>January 1, 2025, is not eligible for licensure under section 148.5186. Upon completion of <br/><span id="pl.6.22" class="pl"> </span>the requirements in this paragraph prior to January 1, 2025, a licensee with a restricted <br/><span id="pl.6.23" class="pl"> </span>license under this subdivision is eligible to apply for licensure under section 148.5186.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.24" class="pl"> </span>(c) A restricted license issued under this subdivision may be renewed until January 1, <br/><span id="pl.6.25" class="pl"> </span>2025.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.5">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.26" class="pl"> </span>Subd. 5.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Change of employer.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">If a licensee with a restricted license under subdivision <br/><span id="pl.6.27" class="pl"> </span>2 or 3 changes employers, the licensee must submit to the commissioner updated proof of <br/><span id="pl.6.28" class="pl"> </span>current employment as a speech-language pathology assistant in order to maintain the <br/><span id="pl.6.29" class="pl"> </span>restricted license.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.6">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.30" class="pl"> </span>Subd. 6.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Continuing education.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">In order to renew a restricted license, a licensee must <br/><span id="pl.6.31" class="pl"> </span>comply with the continuing education requirements in section 148.5193, subdivision 1a.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.7.7">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.32" class="pl"> </span>Subd. 7.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Scope of practice.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Scope of practice for a speech-language pathology assistant <br/><span id="pl.6.33" class="pl"> </span>licensed under this section is governed by section 148.5192, subdivision 2.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.1" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.7.2" class="pl"> </span>Sec. 8. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[148.5186] LICENSURE; SPEECH-LANGUAGE PATHOLOGY <br/><span id="pl.7.3" class="pl"> </span>ASSISTANTS.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.4" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Requirements for licensure.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">To be eligible for licensure as a <br/><span id="pl.7.5" class="pl"> </span>speech-language pathology assistant, an applicant must submit to the commissioner a <br/><span id="pl.7.6" class="pl"> </span>transcript from an educational institution documenting satisfactory completion of either:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.7" class="pl"> </span>(1) an associate degree from a speech-language pathology assistant program that is <br/><span id="pl.7.8" class="pl"> </span>accredited by the Higher Learning Commission of the North Central Association of Colleges <br/><span id="pl.7.9" class="pl"> </span>or its equivalent as approved by the commissioner, which includes at least 100 hours of <br/><span id="pl.7.10" class="pl"> </span>supervised field work experience in speech-language pathology assisting; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.11" class="pl"> </span>(2) a bachelor's degree in the discipline of communication sciences or disorders and a <br/><span id="pl.7.12" class="pl"> </span>speech-language pathology assistant certificate program that includes:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.13" class="pl"> </span>(i) coursework in an introduction to speech-language pathology assisting, stuttering, <br/><span id="pl.7.14" class="pl"> </span>articulation disorders, and language disorders; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.15" class="pl"> </span>(ii) at least 100 hours of supervised field work experience in speech-language pathology <br/><span id="pl.7.16" class="pl"> </span>assisting.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.8.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.17" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Licensure by equivalency.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">An applicant who applies for licensure by <br/><span id="pl.7.18" class="pl"> </span>equivalency as a speech-language pathology assistant must provide evidence to the <br/><span id="pl.7.19" class="pl"> </span>commissioner of satisfying the requirements in subdivision 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.8.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.20" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Scope of practice.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Scope of practice for a speech-language pathology assistant <br/><span id="pl.7.21" class="pl"> </span>licensed under this section is governed by section 148.5192, subdivision 2.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.22" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.7.23" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.519, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.7.24" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Applications for licensure<span class="sr-only">new text begin</span><ins style="text-decoration: underline">; speech-language pathologists and <br/><span id="pl.7.25" class="pl"> </span>audiologists</ins><span class="sr-only">new text end</span>.</h3>
+        <p>(a) An applicant for licensure <span class="sr-only">new text begin</span><ins style="text-decoration: underline">as a speech-language pathologist or audiologist <br/></ins><span class="sr-only">new text end</span><span id="pl.7.26" class="pl"> </span>must:<br/></p>
+        <p><span id="pl.7.27" class="pl"> </span>(1) submit a completed application for licensure on forms provided by the commissioner. <br/><span id="pl.7.28" class="pl"> </span>The application must include the applicant's name, certification number under chapter 153A, <br/><span id="pl.7.29" class="pl"> </span>if applicable, business address and telephone number, or home address and telephone number <br/><span id="pl.7.30" class="pl"> </span>if the applicant practices speech-language pathology or audiology out of the home, and a <br/><span id="pl.7.31" class="pl"> </span>description of the applicant's education, training, and experience, including previous work <br/><span id="pl.8.1" class="pl"> </span>history for the five years immediately preceding the date of application. The commissioner <br/><span id="pl.8.2" class="pl"> </span>may ask the applicant to provide additional information necessary to clarify information <br/><span id="pl.8.3" class="pl"> </span>submitted in the application; and<br/></p>
+        <p><span id="pl.8.4" class="pl"> </span>(2) submit documentation of the certificate of clinical competence issued by the American <br/><span id="pl.8.5" class="pl"> </span>Speech-Language-Hearing Association, board certification by the American Board of <br/><span id="pl.8.6" class="pl"> </span>Audiology, or satisfy the following requirements:<br/></p>
+        <p><span id="pl.8.7" class="pl"> </span>(i) submit a transcript showing the completion of a master's or doctoral degree or its <br/><span id="pl.8.8" class="pl"> </span>equivalent meeting the requirements of section <a href="/statutes/cite/148.515#stat.148.515.2">148.515, subdivision 2</a>;<br/></p>
+        <p><span id="pl.8.9" class="pl"> </span>(ii) submit documentation of the required hours of supervised clinical training;<br/></p>
+        <p><span id="pl.8.10" class="pl"> </span>(iii) submit documentation of the postgraduate clinical or doctoral clinical experience <br/><span id="pl.8.11" class="pl"> </span>meeting the requirements of section <a href="/statutes/cite/148.515#stat.148.515.4">148.515, subdivision 4</a>; and<br/></p>
+        <p><span id="pl.8.12" class="pl"> </span>(iv) submit documentation of receiving a qualifying score on an examination meeting <br/><span id="pl.8.13" class="pl"> </span>the requirements of section <a href="/statutes/cite/148.515#stat.148.515.6">148.515, subdivision 6</a>.<br/></p>
+        <p><span id="pl.8.14" class="pl"> </span>(b) In addition, an applicant must:<br/></p>
+        <p><span id="pl.8.15" class="pl"> </span>(1) sign a statement that the information in the application is true and correct to the best <br/><span id="pl.8.16" class="pl"> </span>of the applicant's knowledge and belief;<br/></p>
+        <p><span id="pl.8.17" class="pl"> </span>(2) submit with the application all fees required by section <a href="/statutes/cite/148.5194">148.5194</a>;<br/></p>
+        <p><span id="pl.8.18" class="pl"> </span>(3) sign a waiver authorizing the commissioner to obtain access to the applicant's records <br/><span id="pl.8.19" class="pl"> </span>in this or any other state in which the applicant has engaged in the practice of speech-language <br/><span id="pl.8.20" class="pl"> </span>pathology or audiology; and<br/></p>
+        <p><span id="pl.8.21" class="pl"> </span>(4) consent to a fingerprint-based criminal history background check as required under <br/><span id="pl.8.22" class="pl"> </span>section <a href="/statutes/cite/144.0572">144.0572</a>, pay all required fees, and cooperate with all requests for information. An <br/><span id="pl.8.23" class="pl"> </span>applicant must complete a new criminal history background check if more than one year <br/><span id="pl.8.24" class="pl"> </span>has elapsed since the applicant last applied for a license.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.25" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.8.26" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.519, is amended by adding a subdivision <br/><span id="pl.8.27" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.28" class="pl"> </span>Subd. 1a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Applications for licensure; speech-language pathology assistants.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">An <br/><span id="pl.8.29" class="pl"> </span>applicant for licensure as a speech-language pathology assistant must submit to the <br/><span id="pl.8.30" class="pl"> </span>commissioner:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.1" class="pl"> </span>(1) a completed application on forms provided by the commissioner. The application <br/><span id="pl.9.2" class="pl"> </span>must include the applicant's name, business address and telephone number, home address <br/><span id="pl.9.3" class="pl"> </span>and telephone number, and a description of the applicant's education, training, and experience, <br/><span id="pl.9.4" class="pl"> </span>including previous work history for the five years immediately preceding the application <br/><span id="pl.9.5" class="pl"> </span>date. The commissioner may ask the applicant to provide additional information needed to <br/><span id="pl.9.6" class="pl"> </span>clarify information submitted in the application;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.7" class="pl"> </span>(2) documentation that the applicant satisfied one of the qualifications listed in section <br/><span id="pl.9.8" class="pl"> </span>148.5185 or 148.5186;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.9" class="pl"> </span>(3) a signed statement that the information in the application is true and correct to the <br/><span id="pl.9.10" class="pl"> </span>best of the applicant's knowledge and belief;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.11" class="pl"> </span>(4) all fees required under section 148.5194; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.12" class="pl"> </span>(5) a signed waiver authorizing the commissioner to obtain access to the applicant's <br/><span id="pl.9.13" class="pl"> </span>records in this or any other state in which the applicant has worked as a speech-language <br/><span id="pl.9.14" class="pl"> </span>pathology assistant.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.15" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.9.16" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5192, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.9.17" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Delegation requirements.</h3>
+        <p>A licensed speech-language pathologist may <br/><span id="pl.9.18" class="pl"> </span>delegate duties to a speech-language pathology assistant in accordance with this section. <br/><span id="pl.9.19" class="pl"> </span>Duties may only be delegated to an individual who <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">has documented with a transcript from <br/><span id="pl.9.20" class="pl"> </span>an educational institution satisfactory completion of either:<br/></span><span class="sr-only">deleted text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.9.21" class="pl"> </span>(1) an associate degree from a speech-language pathology assistant program that is <br/><span id="pl.9.22" class="pl"> </span>accredited by the Higher Learning Commission of the North Central Association of Colleges <br/><span id="pl.9.23" class="pl"> </span>or its equivalent as approved by the commissioner; or<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.24" class="pl"> </span>(2) a bachelor's degree in the discipline of communication sciences or disorders with <br/><span id="pl.9.25" class="pl"> </span>additional transcript credit in the area of instruction in assistant-level service delivery <br/><span id="pl.9.26" class="pl"> </span>practices and completion of at least 100 hours of supervised field work experience as a <br/><span id="pl.9.27" class="pl"> </span>speech-language pathology assistant student</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> is licensed under section 148.5185 or 148.5186</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.28" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.9.29" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5193, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.9.30" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Number of contact hours required.</h3>
+        <p>(a) An applicant for licensure <br/><span id="pl.9.31" class="pl"> </span>renewal <span class="sr-only">new text begin</span><ins style="text-decoration: underline">as a speech-language pathologist or audiologist </ins><span class="sr-only">new text end</span>must meet the requirements for <br/><span id="pl.10.1" class="pl"> </span>continuing education stipulated by the American Speech-Language-Hearing Association <br/><span id="pl.10.2" class="pl"> </span>or the American Board of Audiology, or satisfy the requirements described in paragraphs <br/><span id="pl.10.3" class="pl"> </span>(b) to (e).<br/></p>
+        <p><span id="pl.10.4" class="pl"> </span>(b) Within one month following expiration of a license, an applicant for licensure renewal <br/><span id="pl.10.5" class="pl"> </span>as either a speech-language pathologist or an audiologist must provide evidence to the <br/><span id="pl.10.6" class="pl"> </span>commissioner of a minimum of 30 contact hours of continuing education obtained within <br/><span id="pl.10.7" class="pl"> </span>the two years immediately preceding licensure expiration. A minimum of 20 contact hours <br/><span id="pl.10.8" class="pl"> </span>of continuing education must be directly related to the licensee's area of licensure. Ten <br/><span id="pl.10.9" class="pl"> </span>contact hours of continuing education may be in areas generally related to the licensee's <br/><span id="pl.10.10" class="pl"> </span>area of licensure. Licensees who are issued licenses for a period of less than two years shall <br/><span id="pl.10.11" class="pl"> </span>prorate the number of contact hours required for licensure renewal based on the number of <br/><span id="pl.10.12" class="pl"> </span>months licensed during the biennial licensure period. Licensees shall receive contact hours <br/><span id="pl.10.13" class="pl"> </span>for continuing education activities only for the biennial licensure period in which the <br/><span id="pl.10.14" class="pl"> </span>continuing education activity was performed.<br/></p>
+        <p><span id="pl.10.15" class="pl"> </span>(c) An applicant for licensure renewal as both a speech-language pathologist and an <br/><span id="pl.10.16" class="pl"> </span>audiologist must attest to and document completion of a minimum of 36 contact hours of <br/><span id="pl.10.17" class="pl"> </span>continuing education offered by a continuing education sponsor within the two years <br/><span id="pl.10.18" class="pl"> </span>immediately preceding licensure renewal. A minimum of 15 contact hours must be received <br/><span id="pl.10.19" class="pl"> </span>in the area of speech-language pathology and a minimum of 15 contact hours must be <br/><span id="pl.10.20" class="pl"> </span>received in the area of audiology. Six contact hours of continuing education may be in areas <br/><span id="pl.10.21" class="pl"> </span>generally related to the licensee's areas of licensure. Licensees who are issued licenses for <br/><span id="pl.10.22" class="pl"> </span>a period of less than two years shall prorate the number of contact hours required for licensure <br/><span id="pl.10.23" class="pl"> </span>renewal based on the number of months licensed during the biennial licensure period. <br/><span id="pl.10.24" class="pl"> </span>Licensees shall receive contact hours for continuing education activities only for the biennial <br/><span id="pl.10.25" class="pl"> </span>licensure period in which the continuing education activity was performed.<br/></p>
+        <p><span id="pl.10.26" class="pl"> </span>(d) If the licensee is licensed by the Professional Educator Licensing and Standards <br/><span id="pl.10.27" class="pl"> </span>Board:<br/></p>
+        <p><span id="pl.10.28" class="pl"> </span>(1) activities that are approved in the categories of Minnesota Rules, part <a href="/rules/?id=8710.7200">8710.7200</a>, <br/><span id="pl.10.29" class="pl"> </span>subpart 3, items A and B, and that relate to speech-language pathology, shall be considered:<br/></p>
+        <p><span id="pl.10.30" class="pl"> </span>(i) offered by a sponsor of continuing education; and<br/></p>
+        <p><span id="pl.10.31" class="pl"> </span>(ii) directly related to speech-language pathology;<br/></p>
+        <p><span id="pl.10.32" class="pl"> </span>(2) activities that are approved in the categories of Minnesota Rules, part <a href="/rules/?id=8710.7200">8710.7200</a>, <br/><span id="pl.10.33" class="pl"> </span>subpart 3, shall be considered:<br/></p>
+        <p><span id="pl.11.1" class="pl"> </span>(i) offered by a sponsor of continuing education; and<br/></p>
+        <p><span id="pl.11.2" class="pl"> </span>(ii) generally related to speech-language pathology; and<br/></p>
+        <p><span id="pl.11.3" class="pl"> </span>(3) one clock hour as defined in Minnesota Rules, part <a href="/rules/?id=8710.7200">8710.7200</a>, subpart 1, is equivalent <br/><span id="pl.11.4" class="pl"> </span>to 1.0 contact hours of continuing education.<br/></p>
+        <p><span id="pl.11.5" class="pl"> </span>(e) Contact hours may not be accumulated in advance and transferred to a future <br/><span id="pl.11.6" class="pl"> </span>continuing education period.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.7" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.11.8" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5193, is amended by adding a subdivision <br/><span id="pl.11.9" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.10" class="pl"> </span>Subd. 1a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Continuing education; speech-language pathology assistants.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">An applicant <br/><span id="pl.11.11" class="pl"> </span>for licensure renewal as a speech-language pathology assistant must meet the requirements <br/><span id="pl.11.12" class="pl"> </span>for continuing education established by the American Speech-Language-Hearing Association. <br/><span id="pl.11.13" class="pl"> </span>A licensee shall receive contact hours for continuing education activities only for the biennial <br/><span id="pl.11.14" class="pl"> </span>licensure period in which the continuing education activity was completed. Continuing <br/><span id="pl.11.15" class="pl"> </span>education contact hours obtained in one continuing education period shall not be transferred <br/><span id="pl.11.16" class="pl"> </span>to a future continuing education period.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.17" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.11.18" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5194, is amended by adding a subdivision <br/><span id="pl.11.19" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.20" class="pl"> </span>Subd. 3b.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Speech-language pathology assistant initial licensure and renewal fees.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The <br/><span id="pl.11.21" class="pl"> </span>fee for initial speech-language pathology assistant licensure under section 148.5185 or <br/><span id="pl.11.22" class="pl"> </span>148.5186 is $130. The fee for licensure renewal is $120.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.23" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.11.24" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5194, subdivision 8, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.11.25" class="pl"> </span>Subd. 8.</h2>
+        <h3 class="headnote">Penalty fees.</h3>
+        <p>(a) The penalty fee for practicing speech-language pathology or <br/><span id="pl.11.26" class="pl"> </span>audiology or using protected titles without a current license after the credential has expired <br/><span id="pl.11.27" class="pl"> </span>and before it is renewed is the amount of the license renewal fee for any part of the first <br/><span id="pl.11.28" class="pl"> </span>month, plus the license renewal fee for any part of any subsequent month up to 36 months.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.11.29" class="pl"> </span>The penalty fee for a speech-language pathology assistant who practices speech-language <br/><span id="pl.11.30" class="pl"> </span>pathology assisting or uses protected titles without a current license after a license has <br/><span id="pl.11.31" class="pl"> </span>expired and before it is renewed is the amount of the license renewal fee for any part of the <br/><span id="pl.12.1" class="pl"> </span>first month, plus the license renewal fee for any part of any subsequent month up to 36 <br/><span id="pl.12.2" class="pl"> </span>months.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.12.3" class="pl"> </span>(b) The penalty fee for applicants who engage in the unauthorized practice of <br/><span id="pl.12.4" class="pl"> </span>speech-language pathology or audiology or using protected titles before being issued a <br/><span id="pl.12.5" class="pl"> </span>license is the amount of the license application fee for any part of the first month, plus the <br/><span id="pl.12.6" class="pl"> </span>license application fee for any part of any subsequent month up to 36 months. <span class="sr-only">new text begin</span><ins style="text-decoration: underline">The penalty <br/><span id="pl.12.7" class="pl"> </span>fee for a speech-language pathology assistant who engages in the unauthorized practice of <br/><span id="pl.12.8" class="pl"> </span>speech-language pathology assisting or uses protected titles without being issued a license <br/><span id="pl.12.9" class="pl"> </span>is the amount of the license application fee for any part of the first month, plus the license <br/><span id="pl.12.10" class="pl"> </span>application fee for any part of any subsequent month up to 36 months. </ins><span class="sr-only">new text end</span>This paragraph does <br/><span id="pl.12.11" class="pl"> </span>not apply to applicants not qualifying for a license who engage in the unauthorized practice <br/><span id="pl.12.12" class="pl"> </span>of speech language pathology or audiology.<br/></p>
+        <p><span id="pl.12.13" class="pl"> </span>(c) The penalty fee for practicing speech-language pathology or audiology and failing <br/><span id="pl.12.14" class="pl"> </span>to submit a continuing education report by the due date with the correct number or type of <br/><span id="pl.12.15" class="pl"> </span>hours in the correct time period is $100 plus $20 for each missing clock hour. <span class="sr-only">new text begin</span><ins style="text-decoration: underline">The penalty <br/><span id="pl.12.16" class="pl"> </span>fee for a licensed speech-language pathology assistant who fails to submit a continuing <br/><span id="pl.12.17" class="pl"> </span>education report by the due date with the correct number or type of hours in the correct time <br/><span id="pl.12.18" class="pl"> </span>period is $100 plus $20 for each missing clock hour. </ins><span class="sr-only">new text end</span>"Missing" means not obtained between <br/><span id="pl.12.19" class="pl"> </span>the effective and expiration dates of the certificate, the one-month period following the <br/><span id="pl.12.20" class="pl"> </span>certificate expiration date, or the 30 days following notice of a penalty fee for failing to <br/><span id="pl.12.21" class="pl"> </span>report all continuing education hours. The licensee must obtain the missing number of <br/><span id="pl.12.22" class="pl"> </span>continuing education hours by the next reporting due date.<br/></p>
+        <p><span id="pl.12.23" class="pl"> </span>(d) Civil penalties and discipline incurred by licensees prior to August 1, 2005, for <br/><span id="pl.12.24" class="pl"> </span>conduct described in paragraph (a), (b), or (c) shall be recorded as nondisciplinary penalty <br/><span id="pl.12.25" class="pl"> </span>fees. For conduct described in paragraph (a) or (b) occurring after August 1, 2005, and <br/><span id="pl.12.26" class="pl"> </span>exceeding six months, payment of a penalty fee does not preclude any disciplinary action <br/><span id="pl.12.27" class="pl"> </span>reasonably justified by the individual case.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.28" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.12.29" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5195, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.12.30" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Grounds for disciplinary action by commissioner.</h3>
+        <p>The commissioner may <br/><span id="pl.12.31" class="pl"> </span>take any of the disciplinary actions listed in subdivision 4 on proof that the individual has:<br/></p>
+        <p><span id="pl.12.32" class="pl"> </span>(1) intentionally submitted false or misleading information to the commissioner or the <br/><span id="pl.12.33" class="pl"> </span>advisory council;<br/></p>
+        <p><span id="pl.13.1" class="pl"> </span>(2) failed, within 30 days, to provide information in response to a written request by the <br/><span id="pl.13.2" class="pl"> </span>commissioner or advisory council;<br/></p>
+        <p><span id="pl.13.3" class="pl"> </span>(3) performed services of a speech-language pathologist <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> audiologist<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or <br/><span id="pl.13.4" class="pl"> </span>speech-language pathology assistant</ins><span class="sr-only">new text end</span> in an incompetent or negligent manner;<br/></p>
+        <p><span id="pl.13.5" class="pl"> </span>(4) violated sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>;<br/></p>
+        <p><span id="pl.13.6" class="pl"> </span>(5) failed to perform services with reasonable judgment, skill, or safety due to the use <br/><span id="pl.13.7" class="pl"> </span>of alcohol or drugs, or other physical or mental impairment;<br/></p>
+        <p><span id="pl.13.8" class="pl"> </span>(6) violated any state or federal law, rule, or regulation, and the violation is a felony or <br/><span id="pl.13.9" class="pl"> </span>misdemeanor, an essential element of which is dishonesty, or which relates directly or <br/><span id="pl.13.10" class="pl"> </span>indirectly to the practice of speech-language pathology <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> audiology<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or speech-language <br/><span id="pl.13.11" class="pl"> </span>pathology assisting</ins><span class="sr-only">new text end</span>. Conviction for violating any state or federal law which relates to <br/><span id="pl.13.12" class="pl"> </span>speech-language pathology <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> audiology<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or speech-language pathology assisting</ins><span class="sr-only">new text end</span> is <br/><span id="pl.13.13" class="pl"> </span>necessarily considered to constitute a violation, except as provided in chapter 364;<br/></p>
+        <p><span id="pl.13.14" class="pl"> </span>(7) aided or abetted another person in violating any provision of sections <a href="/statutes/cite/148.511">148.511</a> to <br/><a href="/statutes/cite/148.5198"><span id="pl.13.15" class="pl"> </span>148.5198</a>;<br/></p>
+        <p><span id="pl.13.16" class="pl"> </span>(8) been or is being disciplined by another jurisdiction, if any of the grounds for the <br/><span id="pl.13.17" class="pl"> </span>discipline is the same or substantially equivalent to those under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>;<br/></p>
+        <p><span id="pl.13.18" class="pl"> </span>(9) not cooperated with the commissioner or advisory council in an investigation <br/><span id="pl.13.19" class="pl"> </span>conducted according to subdivision 1;<br/></p>
+        <p><span id="pl.13.20" class="pl"> </span>(10) advertised in a manner that is false or misleading;<br/></p>
+        <p><span id="pl.13.21" class="pl"> </span>(11) engaged in conduct likely to deceive, defraud, or harm the public; or demonstrated <br/><span id="pl.13.22" class="pl"> </span>a willful or careless disregard for the health, welfare, or safety of a client;<br/></p>
+        <p><span id="pl.13.23" class="pl"> </span>(12) failed to disclose to the consumer any fee splitting or any promise to pay a portion <br/><span id="pl.13.24" class="pl"> </span>of a fee to any other professional other than a fee for services rendered by the other <br/><span id="pl.13.25" class="pl"> </span>professional to the client;<br/></p>
+        <p><span id="pl.13.26" class="pl"> </span>(13) engaged in abusive or fraudulent billing practices, including violations of federal <br/><span id="pl.13.27" class="pl"> </span>Medicare and Medicaid laws, Food and Drug Administration regulations, or state medical <br/><span id="pl.13.28" class="pl"> </span>assistance laws;<br/></p>
+        <p><span id="pl.13.29" class="pl"> </span>(14) obtained money, property, or services from a consumer through the use of undue <br/><span id="pl.13.30" class="pl"> </span>influence, high pressure sales tactics, harassment, duress, deception, or fraud;<br/></p>
+        <p><span id="pl.13.31" class="pl"> </span>(15) performed services for a client who had no possibility of benefiting from the services;<br/></p>
+        <p><span id="pl.14.1" class="pl"> </span>(16) failed to refer a client for medical evaluation or to other health care professionals <br/><span id="pl.14.2" class="pl"> </span>when appropriate or when a client indicated symptoms associated with diseases that could <br/><span id="pl.14.3" class="pl"> </span>be medically or surgically treated;<br/></p>
+        <p><span id="pl.14.4" class="pl"> </span>(17) had the certification required by chapter 153A denied, suspended, or revoked <br/><span id="pl.14.5" class="pl"> </span>according to chapter 153A;<br/></p>
+        <p><span id="pl.14.6" class="pl"> </span>(18) used the term doctor of audiology, doctor of speech-language pathology, AuD, or <br/><span id="pl.14.7" class="pl"> </span>SLPD without having obtained the degree from an institution accredited by the North Central <br/><span id="pl.14.8" class="pl"> </span>Association of Colleges and Secondary Schools, the Council on Academic Accreditation <br/><span id="pl.14.9" class="pl"> </span>in Audiology and Speech-Language Pathology, the United States Department of Education, <br/><span id="pl.14.10" class="pl"> </span>or an equivalent;<br/></p>
+        <p><span id="pl.14.11" class="pl"> </span>(19) failed to comply with the requirements of section <a href="/statutes/cite/148.5192">148.5192</a> regarding supervision <br/><span id="pl.14.12" class="pl"> </span>of speech-language pathology assistants; or<br/></p>
+        <p><span id="pl.14.13" class="pl"> </span>(20) if the individual is an audiologist or certified hearing instrument dispenser:<br/></p>
+        <p><span id="pl.14.14" class="pl"> </span>(i) prescribed or otherwise recommended to a consumer or potential consumer the use <br/><span id="pl.14.15" class="pl"> </span>of a hearing instrument, unless the prescription from a physician or recommendation from <br/><span id="pl.14.16" class="pl"> </span>an audiologist or certified dispenser is in writing, is based on an audiogram that is delivered <br/><span id="pl.14.17" class="pl"> </span>to the consumer or potential consumer when the prescription or recommendation is made, <br/><span id="pl.14.18" class="pl"> </span>and bears the following information in all capital letters of 12-point or larger boldface type: <br/><span id="pl.14.19" class="pl"> </span>"THIS PRESCRIPTION OR RECOMMENDATION MAY BE FILLED BY, AND <br/><span id="pl.14.20" class="pl"> </span>HEARING INSTRUMENTS MAY BE PURCHASED FROM, THE LICENSED <br/><span id="pl.14.21" class="pl"> </span>AUDIOLOGIST OR CERTIFIED DISPENSER OF YOUR CHOICE";<br/></p>
+        <p><span id="pl.14.22" class="pl"> </span>(ii) failed to give a copy of the audiogram, upon which the prescription or <br/><span id="pl.14.23" class="pl"> </span>recommendation is based, to the consumer when the consumer requests a copy;<br/></p>
+        <p><span id="pl.14.24" class="pl"> </span>(iii) failed to provide the consumer rights brochure required by section <a href="/statutes/cite/148.5197#stat.148.5197.3">148.5197, <br/><span id="pl.14.25" class="pl"> </span>subdivision 3</a>;<br/></p>
+        <p><span id="pl.14.26" class="pl"> </span>(iv) failed to comply with restrictions on sales of hearing instruments in sections <br/><a href="/statutes/cite/148.5197#stat.148.5197.3"><span id="pl.14.27" class="pl"> </span>148.5197, subdivision 3</a>, and <a href="/statutes/cite/148.5198">148.5198</a>;<br/></p>
+        <p><span id="pl.14.28" class="pl"> </span>(v) failed to return a consumer's hearing instrument used as a trade-in or for a discount <br/><span id="pl.14.29" class="pl"> </span>in the price of a new hearing instrument when requested by the consumer upon cancellation <br/><span id="pl.14.30" class="pl"> </span>of the purchase agreement;<br/></p>
+        <p><span id="pl.14.31" class="pl"> </span>(vi) failed to follow Food and Drug Administration or Federal Trade Commission <br/><span id="pl.14.32" class="pl"> </span>regulations relating to dispensing hearing instruments;<br/></p>
+        <p><span id="pl.15.1" class="pl"> </span>(vii) failed to dispense a hearing instrument in a competent manner or without appropriate <br/><span id="pl.15.2" class="pl"> </span>training;<br/></p>
+        <p><span id="pl.15.3" class="pl"> </span>(viii) delegated hearing instrument dispensing authority to a person not authorized to <br/><span id="pl.15.4" class="pl"> </span>dispense a hearing instrument under this chapter or chapter 153A;<br/></p>
+        <p><span id="pl.15.5" class="pl"> </span>(ix) failed to comply with the requirements of an employer or supervisor of a hearing <br/><span id="pl.15.6" class="pl"> </span>instrument dispenser trainee;<br/></p>
+        <p><span id="pl.15.7" class="pl"> </span>(x) violated a state or federal court order or judgment, including a conciliation court <br/><span id="pl.15.8" class="pl"> </span>judgment, relating to the activities of the individual's hearing instrument dispensing; or<br/></p>
+        <p><span id="pl.15.9" class="pl"> </span>(xi) failed to include on the audiogram the practitioner's printed name, credential type, <br/><span id="pl.15.10" class="pl"> </span>credential number, signature, and date.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.15.11" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.15.12" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5196, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.15.13" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Membership.</h3>
+        <p>The commissioner shall appoint <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">12</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 13</ins><span class="sr-only">new text end</span> persons to a <br/><span id="pl.15.14" class="pl"> </span>Speech-Language Pathologist and Audiologist Advisory Council. The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">12</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 13</ins><span class="sr-only">new text end</span> persons must <br/><span id="pl.15.15" class="pl"> </span>include:<br/></p>
+        <p><span id="pl.15.16" class="pl"> </span>(1) three public members, as defined in section <a href="/statutes/cite/214.02">214.02</a>. Two of the public members shall <br/><span id="pl.15.17" class="pl"> </span>be either persons receiving services of a speech-language pathologist or audiologist, or <br/><span id="pl.15.18" class="pl"> </span>family members of or caregivers to such persons, and at least one of the public members <br/><span id="pl.15.19" class="pl"> </span>shall be either a hearing instrument user or an advocate of one;<br/></p>
+        <p><span id="pl.15.20" class="pl"> </span>(2) three speech-language pathologists licensed under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>, <br/><span id="pl.15.21" class="pl"> </span>one of whom is currently and has been, for the five years immediately preceding the <br/><span id="pl.15.22" class="pl"> </span>appointment, engaged in the practice of speech-language pathology in Minnesota and each <br/><span id="pl.15.23" class="pl"> </span>of whom is employed in a different employment setting including, but not limited to, private <br/><span id="pl.15.24" class="pl"> </span>practice, hospitals, rehabilitation settings, educational settings, and government agencies;<br/></p>
+        <p><span id="pl.15.25" class="pl"> </span>(3) one speech-language pathologist licensed under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>, who <br/><span id="pl.15.26" class="pl"> </span>is currently and has been, for the five years immediately preceding the appointment, <br/><span id="pl.15.27" class="pl"> </span>employed by a Minnesota public school district or a Minnesota public school district <br/><span id="pl.15.28" class="pl"> </span>consortium that is authorized by Minnesota Statutes and who is licensed in speech-language <br/><span id="pl.15.29" class="pl"> </span>pathology by the Professional Educator Licensing and Standards Board;<br/></p>
+        <p><span id="pl.15.30" class="pl"> </span>(4) three audiologists licensed under sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>, two of whom are <br/><span id="pl.15.31" class="pl"> </span>currently and have been, for the five years immediately preceding the appointment, engaged <br/><span id="pl.15.32" class="pl"> </span>in the practice of audiology and the dispensing of hearing instruments in Minnesota and <br/><span id="pl.16.1" class="pl"> </span>each of whom is employed in a different employment setting including, but not limited to, <br/><span id="pl.16.2" class="pl"> </span>private practice, hospitals, rehabilitation settings, educational settings, industry, and <br/><span id="pl.16.3" class="pl"> </span>government agencies;<br/></p>
+        <p><span id="pl.16.4" class="pl"> </span>(5) one nonaudiologist hearing instrument dispenser recommended by a professional <br/><span id="pl.16.5" class="pl"> </span>association representing hearing instrument dispensers; <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and<br/></span><span class="sr-only">deleted text end</span></p>
+        <p><span id="pl.16.6" class="pl"> </span>(6) one physician licensed under chapter 147 and certified by the American Board of <br/><span id="pl.16.7" class="pl"> </span>Otolaryngology, Head and Neck Surgery<span class="sr-only">new text begin</span><ins style="text-decoration: underline">; and<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.16.8" class="pl"> </span>(7) one speech-language pathology assistant licensed under section 148.5186</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.16.9" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.16.10" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 148.5196, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.18.1">
+        <h2 class="subd_no"><span id="pl.16.11" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Duties.</h3>
+        <p>The advisory council shall:<br/></p>
+        <p><span id="pl.16.12" class="pl"> </span>(1) advise the commissioner regarding speech-language pathologist <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> audiologist<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, <br/><span id="pl.16.13" class="pl"> </span>and speech-language pathology assistant</ins><span class="sr-only">new text end</span> licensure standards;<br/></p>
+        <p><span id="pl.16.14" class="pl"> </span>(2) advise the commissioner regarding the delegation of duties to and the training required <br/><span id="pl.16.15" class="pl"> </span>for speech-language pathology assistants;<br/></p>
+        <p><span id="pl.16.16" class="pl"> </span>(3) advise the commissioner on enforcement of sections <a href="/statutes/cite/148.511">148.511</a> to <a href="/statutes/cite/148.5198">148.5198</a>;<br/></p>
+        <p><span id="pl.16.17" class="pl"> </span>(4) provide for distribution of information regarding speech-language pathologist <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> <br/><span id="pl.16.18" class="pl"> </span>audiologist<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, and speech-language pathology assistant</ins><span class="sr-only">new text end</span> licensure standards;<br/></p>
+        <p><span id="pl.16.19" class="pl"> </span>(5) review applications and make recommendations to the commissioner on granting or <br/><span id="pl.16.20" class="pl"> </span>denying licensure or licensure renewal;<br/></p>
+        <p><span id="pl.16.21" class="pl"> </span>(6) review reports of investigations relating to individuals and make recommendations <br/><span id="pl.16.22" class="pl"> </span>to the commissioner as to whether licensure should be denied or disciplinary action taken <br/><span id="pl.16.23" class="pl"> </span>against the individual;<br/></p>
+        <p><span id="pl.16.24" class="pl"> </span>(7) advise the commissioner regarding approval of continuing education activities <br/><span id="pl.16.25" class="pl"> </span>provided by sponsors using the criteria in section <a href="/statutes/cite/148.5193#stat.148.5193.2">148.5193, subdivision 2</a>; and<br/></p>
+        <p><span id="pl.16.26" class="pl"> </span>(8) perform other duties authorized for advisory councils under chapter 214, or as directed <br/><span id="pl.16.27" class="pl"> </span>by the commissioner.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.16.28" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

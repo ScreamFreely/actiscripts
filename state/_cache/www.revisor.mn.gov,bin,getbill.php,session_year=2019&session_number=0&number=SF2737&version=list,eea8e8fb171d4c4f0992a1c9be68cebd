@@ -1,0 +1,1263 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 22:16:12 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 2737 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 2737</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/28/2019 03:08pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF2737&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF2737&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF2737&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF2737&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF2737&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/27/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2737&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF2737&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <br/>
+    <var class="ln">3.6</var>
+    <br/>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to health; authorizing health care providers to provide patients with health <br/><span id="pl.1.3" class="pl"> </span>information and services that are medically accurate, evidence-based, and <br/><span id="pl.1.4" class="pl"> </span>appropriate for the patient; repealing informed consent requirements before <br/><span id="pl.1.5" class="pl"> </span>abortions may be performed; proposing coding for new law in Minnesota Statutes, <br/><span id="pl.1.6" class="pl"> </span>chapter 145; repealing Minnesota Statutes 2018, sections 145.4241; 145.4242; <br/><span id="pl.1.7" class="pl"> </span>145.4243; 145.4244; 145.4245; 145.4246; 145.4247; 145.4248; 145.4249.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.8" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section newstatute" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[145.25] PROVISION OF SCIENCE-BASED HEALTH CARE.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.10" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Definitions.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) For the purposes of this section, the terms in this <br/><span id="pl.1.11" class="pl"> </span>subdivision have the meanings given.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.12" class="pl"> </span>(b) "Evidence-based" means the conscientious, explicit, and judicious use of current <br/><span id="pl.1.13" class="pl"> </span>best evidence in making decisions about the care of an individual patient while integrating <br/><span id="pl.1.14" class="pl"> </span>individual clinical expertise with the best available external, clinically relevant evidence <br/><span id="pl.1.15" class="pl"> </span>from systematic research.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.16" class="pl"> </span>(c) "Medically accurate" means information that is:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.17" class="pl"> </span>(1) verified or supported by the weight of peer-reviewed medical research conducted in <br/><span id="pl.1.18" class="pl"> </span>compliance with accepted scientific methods;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.19" class="pl"> </span>(2) recognized as medically sound and objective by:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.20" class="pl"> </span>(i) leading health care organizations with relevant expertise, such as the American <br/><span id="pl.1.21" class="pl"> </span>Medical Association, the American Congress of Obstetricians and Gynecologists, the <br/><span id="pl.1.22" class="pl"> </span>American Public Health Association, the American Psychological Association, the American <br/><span id="pl.2.1" class="pl"> </span>Academy of Pediatrics, the American College of Physicians, and the American Academy <br/><span id="pl.2.2" class="pl"> </span>of Family Physicians;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.3" class="pl"> </span>(ii) federal agencies such as the Centers for Disease Control and Prevention, the Food <br/><span id="pl.2.4" class="pl"> </span>and Drug Administration, the National Cancer Institute, and the National Institutes of Health; <br/><span id="pl.2.5" class="pl"> </span>or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.6" class="pl"> </span>(iii) leading national or international scientific advisory groups such as the Health and <br/><span id="pl.2.7" class="pl"> </span>Medicine Division and the Advisory Committee on Immunization Practices; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.8" class="pl"> </span>(3) recommended by or affirmed in the health care practice guidelines of a nationally <br/><span id="pl.2.9" class="pl"> </span>recognized health care accreditation organization.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.10" class="pl"> </span>(d) "Appropriate for the patient" means care consistent with applicable health and <br/><span id="pl.2.11" class="pl"> </span>professional standards, the patient's clinical and other circumstances, and the patient's <br/><span id="pl.2.12" class="pl"> </span>reasonably known wishes and beliefs.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.1.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.13" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Right to provide science-based health care.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Notwithstanding any law to <br/><span id="pl.2.14" class="pl"> </span>the contrary, no licensed or registered health care provider or person operating under the <br/><span id="pl.2.15" class="pl"> </span>authority of the provider shall be required by state or local law, rule, or ordinance to provide <br/><span id="pl.2.16" class="pl"> </span>a patient with:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.17" class="pl"> </span>(1) information that is not medically accurate and appropriate for the patient in the health <br/><span id="pl.2.18" class="pl"> </span>care provider's reasonable professional judgment; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.19" class="pl"> </span>(2) a health care service in a manner that is not evidence-based and appropriate for the <br/><span id="pl.2.20" class="pl"> </span>patient, in the health care provider's reasonable professional judgment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.21" class="pl"> </span>(b) Notwithstanding any law to the contrary, no state or local law, rule, or ordinance <br/><span id="pl.2.22" class="pl"> </span>shall prohibit a licensed or registered health care provider or person operating under the <br/><span id="pl.2.23" class="pl"> </span>authority of the provider from providing a patient with:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.24" class="pl"> </span>(1) information that is medically accurate and appropriate for the patient in the health <br/><span id="pl.2.25" class="pl"> </span>care provider's reasonable professional judgment; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.26" class="pl"> </span>(2) a health care service in a manner that is evidence-based and appropriate for the patient <br/><span id="pl.2.27" class="pl"> </span>in the health care provider's reasonable professional judgment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.1.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.28" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Documentation.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">A health care provider who determines that a state or local <br/><span id="pl.2.29" class="pl"> </span>law, rule, or ordinance violates subdivision 2 and determines that following the law, rule, <br/><span id="pl.2.30" class="pl"> </span>or ordinance is not appropriate for the patient must:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.31" class="pl"> </span>(1) document the determination in writing, including the medical basis for the <br/><span id="pl.2.32" class="pl"> </span>determination; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.1" class="pl"> </span>(2) include the documentation in clause (1) in the patient's health record and comply <br/><span id="pl.3.2" class="pl"> </span>with existing health record retention requirements for retention of the documentation.<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.1.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.3" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Existing standard of care.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Nothing in this section shall be construed to alter <br/><span id="pl.3.4" class="pl"> </span>a health care provider's existing professional standards of care or interfere with the duty of <br/><span id="pl.3.5" class="pl"> </span>a health care provider in meeting the applicable standard of care for that provider.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.6" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section repealer" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.3.7" class="pl"> </span>Sec. 2. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.3.8" class="pl"> </span>Minnesota Statutes 2018, sections 145.4241; 145.4242; 145.4243; 145.4244; 145.4245; <br/><span id="pl.3.9" class="pl"> </span>145.4246; 145.4247; 145.4248; and 145.4249,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed effective July 1, 2019.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-4791</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">145.4241 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Applicability.</h3>
+          <p>As used in sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a>, the following terms have the meanings given them.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Abortion.</h3>
+          <p>"Abortion" means the use or prescription of any instrument, medicine, drug, or any other substance or device to intentionally terminate the pregnancy of a female known to be pregnant, with an intention other than to increase the probability of a live birth, to preserve the life or health of the child after live birth, or to remove a dead fetus.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Attempt to perform an abortion.</h3>
+          <p>"Attempt to perform an abortion" means an act, or an omission of a statutorily required act, that, under the circumstances as the actor believes them to be, constitutes a substantial step in a course of conduct planned to culminate in the performance of an abortion in Minnesota in violation of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 3a.</h2>
+          <h3 class="headnote">Fetal anomaly incompatible with life.</h3>
+          <p>"Fetal anomaly incompatible with life" means a fetal anomaly diagnosed before birth that will with reasonable certainty result in death of the unborn child within three months. Fetal anomaly incompatible with life does not include conditions which can be treated.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Medical emergency.</h3>
+          <p>"Medical emergency" means any condition that, on the basis of the physician's good faith clinical judgment, so complicates the medical condition of a pregnant female as to necessitate the immediate abortion of her pregnancy to avert her death or for which a delay will create serious risk of substantial and irreversible impairment of a major bodily function.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 4a.</h2>
+          <h3 class="headnote">Perinatal hospice.</h3>
+          <p>(a) "Perinatal hospice" means comprehensive support to the female and her family that includes support from the time of diagnosis through the time of birth and death of the infant and through the postpartum period. Supportive care may include maternal-fetal medical specialists, obstetricians, neonatologists, anesthesia specialists, clergy, social workers, and specialty nurses.</p>
+          <p>(b) The availability of perinatal hospice provides an alternative to families for whom elective pregnancy termination is not chosen.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Physician.</h3>
+          <p>"Physician" means a person licensed as a physician or osteopathic physician under chapter 147.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Probable gestational age of the unborn child.</h3>
+          <p>"Probable gestational age of the unborn child" means what will, in the judgment of the physician, with reasonable probability, be the gestational age of the unborn child at the time the abortion is planned to be performed.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Stable Internet website.</h3>
+          <p>"Stable Internet website" means a website that, to the extent reasonably practicable, is safeguarded from having its content altered other than by the commissioner of health.</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Unborn child.</h3>
+          <p>"Unborn child" means a member of the species Homo sapiens from fertilization until birth.</p>
+        </div>
+        <h1 class="shn">145.4242 INFORMED CONSENT.</h1>
+        <p>(a) No abortion shall be performed in this state except with the voluntary and informed consent of the female upon whom the abortion is to be performed. Except in the case of a medical emergency or if the fetus has an anomaly incompatible with life, and the female has declined perinatal hospice care, consent to an abortion is voluntary and informed only if:</p>
+        <p>(1) the female is told the following, by telephone or in person, by the physician who is to perform the abortion or by a referring physician, at least 24 hours before the abortion:</p>
+        <p>(i) the particular medical risks associated with the particular abortion procedure to be employed including, when medically accurate, the risks of infection, hemorrhage, breast cancer, danger to subsequent pregnancies, and infertility;</p>
+        <p>(ii) the probable gestational age of the unborn child at the time the abortion is to be performed;</p>
+        <p>(iii) the medical risks associated with carrying her child to term; and</p>
+        <p>(iv) for abortions after 20 weeks gestational, whether or not an anesthetic or analgesic would eliminate or alleviate organic pain to the unborn child caused by the particular method of abortion to be employed and the particular medical benefits and risks associated with the particular anesthetic or analgesic.</p>
+        <p>The information required by this clause may be provided by telephone without conducting a physical examination or tests of the patient, in which case the information required to be provided may be based on facts supplied to the physician by the female and whatever other relevant information is reasonably available to the physician. It may not be provided by a tape recording, but must be provided during a consultation in which the physician is able to ask questions of the female and the female is able to ask questions of the physician. If a physical examination, tests, or the availability of other information to the physician subsequently indicate, in the medical judgment of the physician, a revision of the information previously supplied to the patient, that revised information may be communicated to the patient at any time prior to the performance of the abortion. Nothing in this section may be construed to preclude provision of required information in a language understood by the patient through a translator;</p>
+        <p>(2) the female is informed, by telephone or in person, by the physician who is to perform the abortion, by a referring physician, or by an agent of either physician at least 24 hours before the abortion:</p>
+        <p>(i) that medical assistance benefits may be available for prenatal care, childbirth, and neonatal care;</p>
+        <p>(ii) that the father is liable to assist in the support of her child, even in instances when the father has offered to pay for the abortion; and</p>
+        <p>(iii) that she has the right to review the printed materials described in section <a href="/statutes/cite/145.4243">145.4243</a>, that these materials are available on a state-sponsored website, and what the website address is. The physician or the physician's agent shall orally inform the female that the materials have been provided by the state of Minnesota and that they describe the unborn child, list agencies that offer alternatives to abortion, and contain information on fetal pain. If the female chooses to view the materials other than on the website, they shall either be given to her at least 24 hours before the abortion or mailed to her at least 72 hours before the abortion by certified mail, restricted delivery to addressee, which means the postal employee can only deliver the mail to the addressee.</p>
+        <p>The information required by this clause may be provided by a tape recording if provision is made to record or otherwise register specifically whether the female does or does not choose to have the printed materials given or mailed to her;</p>
+        <p>(3) the female certifies in writing, prior to the abortion, that the information described in clauses (1) and (2) has been furnished to her and that she has been informed of her opportunity to review the information referred to in clause (2), item (iii); and</p>
+        <p>(4) prior to the performance of the abortion, the physician who is to perform the abortion or the physician's agent obtains a copy of the written certification prescribed by clause (3) and retains it on file with the female's medical record for at least three years following the date of receipt.</p>
+        <p>(b) Prior to administering the anesthetic or analgesic as described in paragraph (a), clause (1), item (iv), the physician must disclose to the woman any additional cost of the procedure for the administration of the anesthetic or analgesic. If the woman consents to the administration of the anesthetic or analgesic, the physician shall administer the anesthetic or analgesic or arrange to have the anesthetic or analgesic administered.</p>
+        <p>(c) A female seeking an abortion of her unborn child diagnosed with fetal anomaly incompatible with life must be informed of available perinatal hospice services and offered this care as an alternative to abortion. If perinatal hospice services are declined, voluntary and informed consent by the female seeking an abortion is given if the female receives the information required in paragraphs (a), clause (1), and (b). The female must comply with the requirements in paragraph (a), clauses (3) and (4).</p>
+        <h1 class="shn">145.4243 PRINTED INFORMATION.</h1>
+        <p>(a) Within 90 days after July 1, 2003, the commissioner of health shall cause to be published, in English and in each language that is the primary language of two percent or more of the state's population, and shall cause to be available on the state website provided for under section <a href="/statutes/cite/145.4244">145.4244</a> the following printed materials in such a way as to ensure that the information is easily comprehensible:</p>
+        <p>(1) geographically indexed materials designed to inform the female of public and private agencies and services available to assist a female through pregnancy, upon childbirth, and while the child is dependent, including adoption agencies, which shall include a comprehensive list of the agencies available, a description of the services they offer, and a description of the manner, including telephone numbers, in which they might be contacted or, at the option of the commissioner of health, printed materials including a toll-free, 24-hours-a-day telephone number that may be called to obtain, orally or by a tape recorded message tailored to a zip code entered by the caller, such a list and description of agencies in the locality of the caller and of the services they offer;</p>
+        <p>(2) materials designed to inform the female of the probable anatomical and physiological characteristics of the unborn child at two-week gestational increments from the time when a female can be known to be pregnant to full term, including any relevant information on the possibility of the unborn child's survival and pictures or drawings representing the development of unborn children at two-week gestational increments, provided that any such pictures or drawings must contain the dimensions of the fetus and must be realistic and appropriate for the stage of pregnancy depicted. The materials shall be objective, nonjudgmental, and designed to convey only accurate scientific information about the unborn child at the various gestational ages. The material shall also contain objective information describing the methods of abortion procedures commonly employed, the medical risks commonly associated with each procedure, the possible detrimental psychological effects of abortion, and the medical risks commonly associated with carrying a child to term; and</p>
+        <p>(3) materials with the following information concerning an unborn child of 20 weeks gestational age and at two weeks gestational increments thereafter in such a way as to ensure that the information is easily comprehensible:</p>
+        <p>(i) the development of the nervous system of the unborn child;</p>
+        <p>(ii) fetal responsiveness to adverse stimuli and other indications of capacity to experience organic pain; and</p>
+        <p>(iii) the impact on fetal organic pain of each of the methods of abortion procedures commonly employed at this stage of pregnancy.</p>
+        <p>The material under this clause shall be objective, nonjudgmental, and designed to convey only accurate scientific information.</p>
+        <p>(b) The materials referred to in this section must be printed in a typeface large enough to be clearly legible. The website provided for under section <a href="/statutes/cite/145.4244">145.4244</a> shall be maintained at a minimum resolution of 70 DPI (dots per inch). All pictures appearing on the website shall be a minimum of 200x300 pixels. All letters on the website shall be a minimum of 11-point font. All information and pictures shall be accessible with an industry standard browser, requiring no additional plug-ins. The materials required under this section must be available at no cost from the commissioner of health upon request and in appropriate number to any person, facility, or hospital.</p>
+        <h1 class="shn">145.4244 INTERNET WEBSITE.</h1>
+        <p>The commissioner of health shall develop and maintain a stable Internet website to provide the information described under section <a href="/statutes/cite/145.4243">145.4243</a>. No information regarding who uses the website shall be collected or maintained. The commissioner of health shall monitor the website on a weekly basis to prevent and correct tampering.</p>
+        <h1 class="shn">145.4245 PROCEDURE IN CASE OF MEDICAL EMERGENCY.</h1>
+        <p>When a medical emergency compels the performance of an abortion, the physician shall inform the female, prior to the abortion if possible, of the medical indications supporting the physician's judgment that an abortion is necessary to avert her death or that a 24-hour delay will create serious risk of substantial and irreversible impairment of a major bodily function.</p>
+        <h1 class="shn">145.4246 REPORTING REQUIREMENTS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Reporting form.</h3>
+          <p>Within 90 days after July 1, 2003, the commissioner of health shall prepare a reporting form for physicians containing a reprint of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> and listing:</p>
+          <p>(1) the number of females to whom the physician provided the information described in section <a href="/statutes/cite/145.4242">145.4242</a>, clause (1); of that number, the number provided by telephone and the number provided in person; and of each of those numbers, the number provided in the capacity of a referring physician and the number provided in the capacity of a physician who is to perform the abortion;</p>
+          <p>(2) the number of females to whom the physician or an agent of the physician provided the information described in section <a href="/statutes/cite/145.4242">145.4242</a>, clause (2); of that number, the number provided by telephone and the number provided in person; of each of those numbers, the number provided in the capacity of a referring physician and the number provided in the capacity of a physician who is to perform the abortion; and of each of those numbers, the number provided by the physician and the number provided by an agent of the physician;</p>
+          <p>(3) the number of females who availed themselves of the opportunity to obtain a copy of the printed information described in section <a href="/statutes/cite/145.4243">145.4243</a> other than on the website and the number who did not; and of each of those numbers, the number who, to the best of the reporting physician's information and belief, went on to obtain the abortion; and</p>
+          <p>(4) the number of abortions performed by the physician in which information otherwise required to be provided at least 24 hours before the abortion was not so provided because an immediate abortion was necessary to avert the female's death and the number of abortions in which such information was not so provided because a delay would create serious risk of substantial and irreversible impairment of a major bodily function.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Distribution of forms.</h3>
+          <p>The commissioner of health shall ensure that copies of the reporting forms described in subdivision 1 are provided:</p>
+          <p>(1) by December 1, 2003, and by December 1 of each subsequent year thereafter to all physicians licensed to practice in this state; and</p>
+          <p>(2) to each physician who subsequently becomes newly licensed to practice in this state, at the same time as official notification to that physician that the physician is so licensed.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Reporting requirement.</h3>
+          <p>By April 1, 2005, and by April 1 of each subsequent year thereafter, each physician who provided, or whose agent provided, information to one or more females in accordance with section <a href="/statutes/cite/145.4242">145.4242</a> during the previous calendar year shall submit to the commissioner of health a copy of the form described in subdivision 1 with the requested data entered accurately and completely.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Additional reporting.</h3>
+          <p>Nothing in this section shall be construed to preclude the voluntary or required submission of other reports or forms regarding abortions.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Failure to report as required.</h3>
+          <p>Reports that are not submitted by the end of a grace period of 30 days following the due date shall be subject to a late fee of $500 for each additional 30-day period or portion of a 30-day period they are overdue. Any physician required to report according to this section who has not submitted a report, or has submitted only an incomplete report, more than one year following the due date, may, in an action brought by the commissioner of health, be directed by a court of competent jurisdiction to submit a complete report within a period stated by court order or be subject to sanctions for civil contempt.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Public statistics.</h3>
+          <p>By July 1, 2005, and by July 1 of each subsequent year thereafter, the commissioner of health shall issue a public report providing statistics for the previous calendar year compiled from all of the reports covering that year submitted according to this section for each of the items listed in subdivision 1. Each report shall also provide the statistics for all previous calendar years, adjusted to reflect any additional information from late or corrected reports. The commissioner of health shall take care to ensure that none of the information included in the public reports could reasonably lead to the identification of any individual providing or provided information according to section <a href="/statutes/cite/145.4242">145.4242</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Consolidation.</h3>
+          <p>The commissioner of health may consolidate the forms or reports described in this section with other forms or reports to achieve administrative convenience or fiscal savings or to reduce the burden of reporting requirements.</p>
+        </div>
+        <h1 class="shn">145.4247 REMEDIES.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Civil remedies.</h3>
+          <p>Any person upon whom an abortion has been performed without complying with sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> may maintain an action against the person who performed the abortion in knowing or reckless violation of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> for actual and punitive damages. Any person upon whom an abortion has been attempted without complying with sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> may maintain an action against the person who attempted to perform the abortion in knowing or reckless violation of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> for actual and punitive damages. No civil liability may be assessed for failure to comply with section <a href="/statutes/cite/145.4242">145.4242</a>, clause (2), item (iii), or that portion of section <a href="/statutes/cite/145.4242">145.4242</a>, clause (2), requiring written certification that the female has been informed of her opportunity to review the information referred to in section <a href="/statutes/cite/145.4242">145.4242</a>, clause (2), item (iii), unless the commissioner of health has made the printed materials or website address available at the time the physician or the physician's agent is required to inform the female of her right to review them.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Suit to compel statistical report.</h3>
+          <p>If the commissioner of health fails to issue the public report required under section <a href="/statutes/cite/145.4246#stat.145.4246.6">145.4246, subdivision 6</a>, or fails in any way to enforce Laws 2003, chapter 14, any group of ten or more citizens of this state may seek an injunction in a court of competent jurisdiction against the commissioner of health requiring that a complete report be issued within a period stated by court order. Failure to abide by such an injunction shall subject the commissioner to sanctions for civil contempt.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Attorney fees.</h3>
+          <p>If judgment is rendered in favor of the plaintiff in any action described in this section, the court shall also render judgment for reasonable attorney fees in favor of the plaintiff against the defendant. If judgment is rendered in favor of the defendant and the court finds that the plaintiff's suit was frivolous and brought in bad faith, the court shall also render judgment for reasonable attorney fees in favor of the defendant against the plaintiff.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Protection of privacy in court proceedings.</h3>
+          <p>In every civil action brought under sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a>, the court shall rule whether the anonymity of any female upon whom an abortion has been performed or attempted shall be preserved from public disclosure if she does not give her consent to such disclosure. The court, upon motion or sua sponte, shall make such a ruling and, upon determining that her anonymity should be preserved, shall issue orders to the parties, witnesses, and counsel and shall direct the sealing of the record and exclusion of individuals from courtrooms or hearing rooms to the extent necessary to safeguard her identity from public disclosure. Each order must be accompanied by specific written findings explaining why the anonymity of the female should be preserved from public disclosure, why the order is essential to that end, how the order is narrowly tailored to serve that interest, and why no reasonable, less restrictive alternative exists. In the absence of written consent of the female upon whom an abortion has been performed or attempted, anyone, other than a public official, who brings an action under subdivision 1, shall do so under a pseudonym. This section may not be construed to conceal the identity of the plaintiff or of witnesses from the defendant.</p>
+        </div>
+        <h1 class="shn">145.4248 SEVERABILITY.</h1>
+        <p>If any one or more provision, section, subsection, sentence, clause, phrase, or word of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> or the application thereof to any person or circumstance is found to be unconstitutional, the same is hereby declared to be severable and the balance of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> shall remain effective notwithstanding such unconstitutionality. The legislature hereby declares that it would have passed sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a>, and each provision, section, subsection, sentence, clause, phrase, or word thereof, irrespective of the fact that any one or more provision, section, subsection, sentence, clause, phrase, or word be declared unconstitutional.</p>
+        <h1 class="shn">145.4249 SUPREME COURT JURISDICTION.</h1>
+        <p>The Minnesota Supreme Court has original jurisdiction over an action challenging the constitutionality of sections <a href="/statutes/cite/145.4241">145.4241</a> to <a href="/statutes/cite/145.4249">145.4249</a> and shall expedite the resolution of the action.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

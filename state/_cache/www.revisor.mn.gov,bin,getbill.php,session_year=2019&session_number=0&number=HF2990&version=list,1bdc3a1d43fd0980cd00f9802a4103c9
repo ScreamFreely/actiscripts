@@ -1,0 +1,1340 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Wed, 12 Feb 2020 00:02:05 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 2990 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 2990</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 02/11/2020 03:38pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF2990&ssn=0&y=2020">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF2990&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF2990&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF2990&version=0&session=ls91&session_year=2020&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF2990&version=0&session=ls91&session_year=2020&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/30/2020                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2990&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2990&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">1.24</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <br/>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <br/>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <br/>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">3.33</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <br/>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <br/>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <br/>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <br/>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">5.33</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <var class="ln">6.34</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <br/>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <br/>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <br/>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <br/>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <br/>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to insurance; no-fault auto; adjusting certain dollar amounts to reflect <br/><span id="pl.1.3" class="pl"> </span>inflation; modifying the limitation on damages for noneconomic detriment;<br/> <span id="pl.1.4" class="pl"> </span>amending Minnesota Statutes 2018, sections 65B.44, subdivisions 1, 3, 5, 6, 7; <br/><span id="pl.1.5" class="pl"> </span>65B.45, subdivision 2; 65B.49, subdivisions 3, 3a; 65B.51, subdivision 3; 65B.525, <br/><span id="pl.1.6" class="pl"> </span>subdivision 1; 65B.54, subdivision 1; proposing coding for new law in Minnesota <br/><span id="pl.1.7" class="pl"> </span>Statutes, chapter 65B.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.8" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.44, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.10" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Inclusions.</h3>
+        <p>(a) Basic economic loss benefits shall provide reimbursement <br/><span id="pl.1.11" class="pl"> </span>for all loss suffered through injury arising out of the maintenance or use of a motor vehicle, <br/><span id="pl.1.12" class="pl"> </span>subject to any applicable deductibles, exclusions, disqualifications, and other conditions, <br/><span id="pl.1.13" class="pl"> </span>and shall provide a minimum of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$40,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $94,300</ins><span class="sr-only">new text end</span> for loss arising out of the injury of any <br/><span id="pl.1.14" class="pl"> </span>one person, consisting of:<br/></p>
+        <p><span id="pl.1.15" class="pl"> </span>(1) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$20,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $62,900</ins><span class="sr-only">new text end</span> for medical expense loss arising out of injury to any one person; <br/><span id="pl.1.16" class="pl"> </span>and<br/></p>
+        <p><span id="pl.1.17" class="pl"> </span>(2) a total of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$20,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $31,400</ins><span class="sr-only">new text end</span> for income loss, replacement services loss, funeral expense <br/><span id="pl.1.18" class="pl"> </span>loss, survivor's economic loss, and survivor's replacement services loss arising out of the <br/><span id="pl.1.19" class="pl"> </span>injury to any one person.<br/></p>
+        <p><span id="pl.1.20" class="pl"> </span>(b) Notwithstanding any other law to the contrary, a person entitled to basic economic <br/><span id="pl.1.21" class="pl"> </span>loss benefits under this chapter is entitled to the full medical expense benefits set forth in <br/><span id="pl.1.22" class="pl"> </span>subdivision 2, and may not receive medical expense benefits that are in any way less than <br/><span id="pl.1.23" class="pl"> </span>those provided for in subdivision 2, or that involve any preestablished limitations on the <br/><span id="pl.1.24" class="pl"> </span>benefits. Medical expenses must be reasonable and must be for necessary medical care as <br/><span id="pl.2.1" class="pl"> </span>provided in subdivision 2. This paragraph shall not be deemed to alter the obligations of an <br/><span id="pl.2.2" class="pl"> </span>insured or the rights of a reparation obligor as set forth in section <a href="/statutes/cite/65B.56">65B.56</a>.<br/></p>
+        <p><span id="pl.2.3" class="pl"> </span>(c) No reparation obligor or health plan company as defined in section <a href="/statutes/cite/62Q.01#stat.62Q.01.4">62Q.01, <br/><span id="pl.2.4" class="pl"> </span>subdivision 4</a>, may enter into or renew any contract that provides, or has the effect of <br/><span id="pl.2.5" class="pl"> </span>providing, managed care services to no-fault claimants. For the purposes of this section, <br/><span id="pl.2.6" class="pl"> </span>"managed care services" is defined as any program of medical services that uses health care <br/><span id="pl.2.7" class="pl"> </span>providers managed, owned, employed by, or under contract with a health plan company.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.2.8" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.44, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.2.9" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Disability and income loss benefits.</h3>
+        <p>(a) Disability and income loss benefits <br/><span id="pl.2.10" class="pl"> </span>shall provide compensation for 85 percent of the injured person's loss of present and future <br/><span id="pl.2.11" class="pl"> </span>gross income from inability to work proximately caused by the nonfatal injury subject to a <br/><span id="pl.2.12" class="pl"> </span>maximum of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$500</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $600</ins><span class="sr-only">new text end</span> per week. Loss of income includes the costs incurred by a <br/><span id="pl.2.13" class="pl"> </span>self-employed person to hire substitute employees to perform tasks which are necessary to <br/><span id="pl.2.14" class="pl"> </span>maintain the income of the injured person, which are normally performed by the injured <br/><span id="pl.2.15" class="pl"> </span>person, and which cannot be performed because of the injury.<br/></p>
+        <p><span id="pl.2.16" class="pl"> </span>(b) If the injured person is unemployed at the time of injury and is receiving or is eligible <br/><span id="pl.2.17" class="pl"> </span>to receive unemployment benefits under chapter 268, but the injured person loses eligibility <br/><span id="pl.2.18" class="pl"> </span>for those benefits because of inability to work caused by the injury, disability and income <br/><span id="pl.2.19" class="pl"> </span>loss benefits shall provide compensation for the lost benefits in an amount equal to the <br/><span id="pl.2.20" class="pl"> </span>unemployment benefits which otherwise would have been payable, subject to a maximum <br/><span id="pl.2.21" class="pl"> </span>of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$500</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $600</ins><span class="sr-only">new text end</span> per week.<br/></p>
+        <p><span id="pl.2.22" class="pl"> </span>(c) Compensation under this subdivision shall be reduced by any income from substitute <br/><span id="pl.2.23" class="pl"> </span>work actually performed by the injured person or by income the injured person would have <br/><span id="pl.2.24" class="pl"> </span>earned in available appropriate substitute work which the injured person was capable of <br/><span id="pl.2.25" class="pl"> </span>performing but unreasonably failed to undertake.<br/></p>
+        <p><span id="pl.2.26" class="pl"> </span>(d) For the purposes of this section "inability to work" means disability which prevents <br/><span id="pl.2.27" class="pl"> </span>the injured person from engaging in any substantial gainful occupation or employment on <br/><span id="pl.2.28" class="pl"> </span>a regular basis, for wage or profit, for which the injured person is or may by training become <br/><span id="pl.2.29" class="pl"> </span>reasonably qualified. If the injured person returns to employment and is unable by reason <br/><span id="pl.2.30" class="pl"> </span>of the injury to work continuously, compensation for lost income shall be reduced by the <br/><span id="pl.2.31" class="pl"> </span>income received while the injured person is actually able to work. The weekly maximums <br/><span id="pl.2.32" class="pl"> </span>may not be prorated to arrive at a daily maximum, even if the injured person does not incur <br/><span id="pl.2.33" class="pl"> </span>loss of income for a full week.<br/></p>
+        <p><span id="pl.3.1" class="pl"> </span>(e) For the purposes of this section, an injured person who is "unable by reason of the <br/><span id="pl.3.2" class="pl"> </span>injury to work continuously" includes, but is not limited to, a person who misses time from <br/><span id="pl.3.3" class="pl"> </span>work, including reasonable travel time, and loses income, vacation, or sick leave benefits, <br/><span id="pl.3.4" class="pl"> </span>to obtain medical treatment for an injury arising out of the maintenance or use of a motor <br/><span id="pl.3.5" class="pl"> </span>vehicle.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.3.6" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.44, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.3.7" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Replacement service and loss.</h3>
+        <p>Replacement service loss benefits shall <br/><span id="pl.3.8" class="pl"> </span>reimburse all expenses reasonably incurred by or on behalf of the nonfatally injured person <br/><span id="pl.3.9" class="pl"> </span>in obtaining usual and necessary substitute services in lieu of those that, had the injured <br/><span id="pl.3.10" class="pl"> </span>person not been injured, the injured person would have performed not for income but for <br/><span id="pl.3.11" class="pl"> </span>direct personal benefit or for the benefit of the injured person's household; if the nonfatally <br/><span id="pl.3.12" class="pl"> </span>injured person normally, as a full time responsibility, provides care and maintenance of a <br/><span id="pl.3.13" class="pl"> </span>home with or without children, the benefit to be provided under this subdivision shall be <br/><span id="pl.3.14" class="pl"> </span>the reasonable value of such care and maintenance or the reasonable expenses incurred in <br/><span id="pl.3.15" class="pl"> </span>obtaining usual and necessary substitute care and maintenance of the home, whichever is <br/><span id="pl.3.16" class="pl"> </span>greater. These benefits shall be subject to a maximum of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$200</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $300</ins><span class="sr-only">new text end</span> per week. All <br/><span id="pl.3.17" class="pl"> </span>replacement services loss sustained on the date of injury and the first seven days thereafter <br/><span id="pl.3.18" class="pl"> </span>is excluded in calculating replacement services loss.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.19" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.44, subdivision 6, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.3.20" class="pl"> </span>Subd. 6.</h2>
+        <h3 class="headnote">Survivors economic loss benefits.</h3>
+        <p>Survivors economic loss benefits, in the <br/><span id="pl.3.21" class="pl"> </span>event of death occurring within one year of the date of the accident, caused by and arising <br/><span id="pl.3.22" class="pl"> </span>out of injuries received in the accident, are subject to a maximum of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$500</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $600</ins><span class="sr-only">new text end</span> per week <br/><span id="pl.3.23" class="pl"> </span>and shall cover loss accruing after decedent's death of contributions of money or tangible <br/><span id="pl.3.24" class="pl"> </span>things of economic value, not including services, that surviving dependents would have <br/><span id="pl.3.25" class="pl"> </span>received from the decedent for their support during their dependency had the decedent not <br/><span id="pl.3.26" class="pl"> </span>suffered the injury causing death.<br/></p>
+        <p><span id="pl.3.27" class="pl"> </span>For the purposes of definition under sections <a href="/statutes/cite/65B.41">65B.41</a> to <a href="/statutes/cite/65B.71">65B.71</a>, the following described <br/><span id="pl.3.28" class="pl"> </span>persons shall be presumed to be dependents of a deceased person: (a) a wife is dependent <br/><span id="pl.3.29" class="pl"> </span>on a husband with whom she lives at the time of his death; (b) a husband is dependent on <br/><span id="pl.3.30" class="pl"> </span>a wife with whom he lives at the time of her death; (c) any child while under the age of 18 <br/><span id="pl.3.31" class="pl"> </span>years, or while over that age but physically or mentally incapacitated from earning, is <br/><span id="pl.3.32" class="pl"> </span>dependent on the parent with whom the child is living or from whom the child is receiving <br/><span id="pl.3.33" class="pl"> </span>support regularly at the time of the death of such parent; or (d) an actual dependent who <br/><span id="pl.4.1" class="pl"> </span>lives with the decedent at the time of the decedent's death. Questions of the existence and <br/><span id="pl.4.2" class="pl"> </span>the extent of dependency shall be questions of fact, considering the support regularly received <br/><span id="pl.4.3" class="pl"> </span>from the deceased.<br/></p>
+        <p><span id="pl.4.4" class="pl"> </span>Payments shall be made to the dependent, except that benefits to a dependent who is a <br/><span id="pl.4.5" class="pl"> </span>child or an incapacitated person may be paid to the dependent's surviving parent or guardian. <br/><span id="pl.4.6" class="pl"> </span>Payments shall be terminated whenever the recipient ceases to maintain a status which if <br/><span id="pl.4.7" class="pl"> </span>the decedent were alive would be that of dependency.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.4.8" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.44, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.4.9" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Survivors replacement services loss.</h3>
+        <p>Survivors replacement services loss <br/><span id="pl.4.10" class="pl"> </span>benefits shall reimburse expenses reasonably incurred by surviving dependents after the <br/><span id="pl.4.11" class="pl"> </span>date of the decedent's death in obtaining ordinary and necessary services in lieu of those <br/><span id="pl.4.12" class="pl"> </span>the deceased would have performed for their benefit had the decedent not suffered the injury <br/><span id="pl.4.13" class="pl"> </span>causing death, minus expenses of the survivors avoided by reason of the decedent's death. <br/><span id="pl.4.14" class="pl"> </span>These benefits shall be subject to a maximum of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$200</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $600</ins><span class="sr-only">new text end</span> per week.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.4.15" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.45, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.4.16" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Notice of treatment or training.</h3>
+        <p>An injured person who has undertaken a <br/><span id="pl.4.17" class="pl"> </span>procedure or treatment for rehabilitation or a course of rehabilitative occupational training, <br/><span id="pl.4.18" class="pl"> </span>other than medical rehabilitation procedure or treatment, shall give notice to the reparation <br/><span id="pl.4.19" class="pl"> </span>obligor of having undertaken the procedure, treatment, or training within 60 days after a <br/><span id="pl.4.20" class="pl"> </span>rehabilitation expense exceeding <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$1,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $3,100</ins><span class="sr-only">new text end</span> has been incurred for the procedure, <br/><span id="pl.4.21" class="pl"> </span>treatment, or training, unless the reparation obligor knows or has reason to know of the <br/><span id="pl.4.22" class="pl"> </span>undertaking. If the injured person does not give the required notice within the prescribed <br/><span id="pl.4.23" class="pl"> </span>time, the reparation obligor is responsible only for <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$1,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $3,100</ins><span class="sr-only">new text end</span> or the expense incurred <br/><span id="pl.4.24" class="pl"> </span>after the notice is given and within the 60 days before the notice, whichever is greater, unless <br/><span id="pl.4.25" class="pl"> </span>failure to give timely notice is the result of excusable neglect.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.4.26" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.49, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.4.27" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Residual liability insurance.</h3>
+        <p>(1) Each plan of reparation security shall also <br/><span id="pl.4.28" class="pl"> </span>contain stated limits of liability, exclusive of interest and costs, with respect to each vehicle <br/><span id="pl.4.29" class="pl"> </span>for which coverage is thereby granted, of not less than <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$30,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $78,600</ins><span class="sr-only">new text end</span> because of bodily <br/><span id="pl.4.30" class="pl"> </span>injury to one person in any one accident and, subject to said limit for one person, of not less <br/><span id="pl.4.31" class="pl"> </span>than <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$60,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $157,200</ins><span class="sr-only">new text end</span> because of injury to two or more persons in any one accident, and, <br/><span id="pl.5.1" class="pl"> </span>if the accident has resulted in injury to or destruction of property, of not less than <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$10,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.5.2" class="pl"> </span>$31,400</ins><span class="sr-only">new text end</span> because of such injury to or destruction of property of others in any one accident.<br/></p>
+        <p><span id="pl.5.3" class="pl"> </span>(2) Under residual liability insurance the reparation obligor shall be liable to pay, on <br/><span id="pl.5.4" class="pl"> </span>behalf of the insured, sums which the insured is legally obligated to pay as damages because <br/><span id="pl.5.5" class="pl"> </span>of bodily injury and property damage arising out of the ownership, maintenance or use of <br/><span id="pl.5.6" class="pl"> </span>any motor vehicle, including a motor vehicle permissively operated by an insured as that <br/><span id="pl.5.7" class="pl"> </span>term is defined in section <a href="/statutes/cite/65B.43#stat.65B.43.5">65B.43, subdivision 5</a>, if the injury or damage occurs within this <br/><span id="pl.5.8" class="pl"> </span>state, the United States of America, its territories or possessions, or Canada. A reparation <br/><span id="pl.5.9" class="pl"> </span>obligor shall also be liable to pay sums which another reparation obligor is entitled to recover <br/><span id="pl.5.10" class="pl"> </span>under the indemnity provisions of section <a href="/statutes/cite/65B.53#stat.65B.53.1">65B.53, subdivision 1</a>.<br/></p>
+        <p><span id="pl.5.11" class="pl"> </span>(3) Every plan of reparation security shall be subject to the following provisions which <br/><span id="pl.5.12" class="pl"> </span>need not be contained therein:<br/></p>
+        <p><span id="pl.5.13" class="pl"> </span>(a) The liability of the reparation obligor with respect to the residual liability coverage <br/><span id="pl.5.14" class="pl"> </span>required by this clause shall become absolute whenever injury or damage occurs; such <br/><span id="pl.5.15" class="pl"> </span>liability may not be canceled or annulled by any agreement between the reparation obligor <br/><span id="pl.5.16" class="pl"> </span>and the insured after the occurrence of the injury or damage; no statement made by the <br/><span id="pl.5.17" class="pl"> </span>insured or on the insured's behalf and no violation of said policy shall defeat or void said <br/><span id="pl.5.18" class="pl"> </span>policy.<br/></p>
+        <p><span id="pl.5.19" class="pl"> </span>(b) The satisfaction by the insured of a judgment for such injury or damage shall not be <br/><span id="pl.5.20" class="pl"> </span>a condition precedent to the right or duty of the reparation obligor to make payment on <br/><span id="pl.5.21" class="pl"> </span>account of such injury or damage.<br/></p>
+        <p><span id="pl.5.22" class="pl"> </span>(c) The reparation obligor shall have the right to settle any claim covered by the residual <br/><span id="pl.5.23" class="pl"> </span>liability insurance policy, and if such settlement is made in good faith, the amount thereof <br/><span id="pl.5.24" class="pl"> </span>shall be deductible from the limits of liability for the accident out of which such claim arose.<br/></p>
+        <p><span id="pl.5.25" class="pl"> </span>(d) Except as provided in subdivision 5a, a residual liability insurance policy shall be <br/><span id="pl.5.26" class="pl"> </span>excess of a nonowned vehicle policy whether the nonowned vehicle is borrowed or rented, <br/><span id="pl.5.27" class="pl"> </span>or used for business or pleasure. A nonowned vehicle is one not used or provided on a <br/><span id="pl.5.28" class="pl"> </span>regular basis.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.5.29" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.49, subdivision 3a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.5.30" class="pl"> </span>Subd. 3a.</h2>
+        <h3 class="headnote">Uninsured and underinsured motorist coverages.</h3>
+        <p>(1) No plan of reparation <br/><span id="pl.5.31" class="pl"> </span>security may be renewed, delivered or issued for delivery, or executed in this state with <br/><span id="pl.5.32" class="pl"> </span>respect to any motor vehicle registered or principally garaged in this state unless separate <br/><span id="pl.5.33" class="pl"> </span>uninsured and underinsured motorist coverages are provided therein. Each coverage, at a <br/><span id="pl.6.1" class="pl"> </span>minimum, must provide limits of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$25,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $78,600</ins><span class="sr-only">new text end</span> because of injury to or the death of one <br/><span id="pl.6.2" class="pl"> </span>person in any accident and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$50,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $157,200</ins><span class="sr-only">new text end</span> because of injury to or the death of two or <br/><span id="pl.6.3" class="pl"> </span>more persons in any accident. In the case of injury to, or the death of, two or more persons <br/><span id="pl.6.4" class="pl"> </span>in any accident, the amount available to any one person must not exceed the coverage limit <br/><span id="pl.6.5" class="pl"> </span>provided for injury to, or the death of, one person in any accident.<br/></p>
+        <p><span id="pl.6.6" class="pl"> </span>(2) Every owner of a motor vehicle registered or principally garaged in this state shall <br/><span id="pl.6.7" class="pl"> </span>maintain uninsured and underinsured motorist coverages as provided in this subdivision.<br/></p>
+        <p><span id="pl.6.8" class="pl"> </span>(3) No reparation obligor is required to provide limits of uninsured and underinsured <br/><span id="pl.6.9" class="pl"> </span>motorist coverages in excess of the bodily injury liability limit provided by the applicable <br/><span id="pl.6.10" class="pl"> </span>plan of reparation security.<br/></p>
+        <p><span id="pl.6.11" class="pl"> </span>(4) No recovery shall be permitted under the uninsured and underinsured motorist <br/><span id="pl.6.12" class="pl"> </span>coverages of this section for basic economic loss benefits paid or payable, or which would <br/><span id="pl.6.13" class="pl"> </span>be payable but for any applicable deductible.<br/></p>
+        <p><span id="pl.6.14" class="pl"> </span>(5) If at the time of the accident the injured person is occupying a motor vehicle, the <br/><span id="pl.6.15" class="pl"> </span>limit of liability for uninsured and underinsured motorist coverages available to the injured <br/><span id="pl.6.16" class="pl"> </span>person is the limit specified for that motor vehicle. However, if the injured person is <br/><span id="pl.6.17" class="pl"> </span>occupying a motor vehicle of which the injured person is not an insured, the injured person <br/><span id="pl.6.18" class="pl"> </span>may be entitled to excess insurance protection afforded by a policy in which the injured <br/><span id="pl.6.19" class="pl"> </span>party is otherwise insured. The excess insurance protection is limited to the extent of covered <br/><span id="pl.6.20" class="pl"> </span>damages sustained, and further is available only to the extent by which the limit of liability <br/><span id="pl.6.21" class="pl"> </span>for like coverage applicable to any one motor vehicle listed on the automobile insurance <br/><span id="pl.6.22" class="pl"> </span>policy of which the injured person is an insured exceeds the limit of liability of the coverage <br/><span id="pl.6.23" class="pl"> </span>available to the injured person from the occupied motor vehicle.<br/></p>
+        <p><span id="pl.6.24" class="pl"> </span>If at the time of the accident the injured person is not occupying a motor vehicle or <br/><span id="pl.6.25" class="pl"> </span>motorcycle, the injured person is entitled to select any one limit of liability for any one <br/><span id="pl.6.26" class="pl"> </span>vehicle afforded by a policy under which the injured person is insured.<br/></p>
+        <p><span id="pl.6.27" class="pl"> </span>(6) Regardless of the number of policies involved, vehicles involved, persons covered, <br/><span id="pl.6.28" class="pl"> </span>claims made, vehicles or premiums shown on the policy, or premiums paid, in no event <br/><span id="pl.6.29" class="pl"> </span>shall the limit of liability for uninsured and underinsured motorist coverages for two or <br/><span id="pl.6.30" class="pl"> </span>more motor vehicles be added together to determine the limit of insurance coverage available <br/><span id="pl.6.31" class="pl"> </span>to an injured person for any one accident.<br/></p>
+        <p><span id="pl.6.32" class="pl"> </span>(7) The uninsured and underinsured motorist coverages required by this subdivision do <br/><span id="pl.6.33" class="pl"> </span>not apply to bodily injury of the insured while occupying a motor vehicle owned by the <br/><span id="pl.6.34" class="pl"> </span>insured, unless the occupied vehicle is an insured motor vehicle.<br/></p>
+        <p><span id="pl.7.1" class="pl"> </span>(8) The uninsured and underinsured motorist coverages required by this subdivision do <br/><span id="pl.7.2" class="pl"> </span>not apply to bodily injury of the insured while occupying a motorcycle owned by the insured.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.7.3" class="pl"> </span>Sec. 9. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[65B.495] PERIODIC ADJUSTMENT OF BENEFIT AND CLAIM <br/><span id="pl.7.4" class="pl"> </span>AMOUNTS.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.7.5" class="pl"> </span>The dollar amounts stated in sections <a href="/statutes/cite/65B.44">65B.44</a>; <a href="/statutes/cite/65B.45">65B.45</a>; 65B.49, subdivisions 3 and 3a; <br/><a href="/statutes/cite/65B.51"><span id="pl.7.6" class="pl"> </span>65B.51</a>; <a href="/statutes/cite/65B.525">65B.525</a>; and <a href="/statutes/cite/65B.54">65B.54</a>, shall be adjusted for inflation based upon the Consumer <br/><span id="pl.7.7" class="pl"> </span>Price Index - All Urban Consumers, CPI-U, published by the United States Bureau of Labor <br/><span id="pl.7.8" class="pl"> </span>Statistics.  The dollar amounts in the provisions referenced in this section are based upon <br/><span id="pl.7.9" class="pl"> </span>the value of that index for July 2001 rounded to the nearest $100, which is the reference <br/><span id="pl.7.10" class="pl"> </span>base index for purposes of this section.  The dollar amounts in the provisions referenced in <br/><span id="pl.7.11" class="pl"> </span>this section shall change effective January 1 of each odd-numbered year based upon the <br/><span id="pl.7.12" class="pl"> </span>percentage difference between the index for July of the preceding year and the reference <br/><span id="pl.7.13" class="pl"> </span>base index, calculated to the nearest whole percentage point.  The commissioner shall <br/><span id="pl.7.14" class="pl"> </span>announce and publish, on or before September 30 of the preceding year, the changes in the <br/><span id="pl.7.15" class="pl"> </span>dollar amounts required by this section to take effect on January 1 of each odd-numbered <br/><span id="pl.7.16" class="pl"> </span>year.  The commissioner shall use the most recent revision of the July index available as of <br/><span id="pl.7.17" class="pl"> </span>September 1. Changes in the dollar amounts must be in increments of $100, and no change <br/><span id="pl.7.18" class="pl"> </span>shall be made in a dollar amount until the change in the index requires at least a $100 change. <br/><span id="pl.7.19" class="pl"> </span>If the United States Bureau of Labor Statistics changes the base year upon which the CPI-U <br/><span id="pl.7.20" class="pl"> </span>is based, the commissioner shall make the calculations necessary to convert from the old <br/><span id="pl.7.21" class="pl"> </span>base year to the new base year.  If the CPI-U is discontinued, the commissioner shall use <br/><span id="pl.7.22" class="pl"> </span>the available index that is most similar to the CPI-U. The commissioner shall promptly <br/><span id="pl.7.23" class="pl"> </span>notify the revisor in writing of the changes announced and published pursuant to this section. <br/><span id="pl.7.24" class="pl"> </span>The revisor shall publish the changes in the next edition of Minnesota Statutes.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.7.25" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.51, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.7.26" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Limitation of damages for noneconomic detriment.</h3>
+        <p>In an action described <br/><span id="pl.7.27" class="pl"> </span>in subdivision 1, no person shall recover damages for noneconomic detriment unless<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">:<br/></span><span class="sr-only">deleted text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.7.28" class="pl"> </span>(a) The sum of the following exceeds $4,000:<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.7.29" class="pl"> </span>(1) reasonable medical expense benefits paid, payable or payable but for any applicable <br/><span id="pl.7.30" class="pl"> </span>deductible, plus<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.7.31" class="pl"> </span>(2) the value of free medical or surgical care or ordinary and necessary nursing services <br/><span id="pl.7.32" class="pl"> </span>performed by a relative of the injured person or a member of the injured person's household, <br/><span id="pl.7.33" class="pl"> </span>plus<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.1" class="pl"> </span>(3) the amount by which the value of reimbursable medical services or products exceeds <br/><span id="pl.8.2" class="pl"> </span>the amount of benefit paid, payable, or payable but for an applicable deductible for those <br/><span id="pl.8.3" class="pl"> </span>services or products if the injured person was charged less than the average reasonable <br/><span id="pl.8.4" class="pl"> </span>amount charged in this state for similar services or products, minus<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.5" class="pl"> </span>(4) the amount of medical expense benefits paid, payable, or payable but for an applicable <br/><span id="pl.8.6" class="pl"> </span>deductible for diagnostic X-rays and for a procedure or treatment for rehabilitation and not <br/><span id="pl.8.7" class="pl"> </span>for remedial purposes or a course of rehabilitative occupational training; or<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.8" class="pl"> </span>(b)</span><span class="sr-only">deleted text end</span> the injury results in:<br/></p>
+        <p><span id="pl.8.9" class="pl"> </span>(1) <span class="sr-only">new text begin</span><ins style="text-decoration: underline">significant </ins><span class="sr-only">new text end</span>permanent disfigurement;<br/></p>
+        <p><span id="pl.8.10" class="pl"> </span>(2) <span class="sr-only">new text begin</span><ins style="text-decoration: underline">significant </ins><span class="sr-only">new text end</span>permanent injury;<br/></p>
+        <p><span id="pl.8.11" class="pl"> </span>(3) death; or<br/></p>
+        <p><span id="pl.8.12" class="pl"> </span>(4) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">disability</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">the inability to engage in substantially all of the injured person's usual and <br/><span id="pl.8.13" class="pl"> </span>customary daily activities </ins><span class="sr-only">new text end</span>for 60 days or more.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.14" class="pl"> </span>(c) For the purposes of clause (a) evidence of the reasonable value of medical services <br/><span id="pl.8.15" class="pl"> </span>and products shall be admissible in any action brought in this state.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.16" class="pl"> </span>For the purposes of this subdivision disability means the inability to engage in <br/><span id="pl.8.17" class="pl"> </span>substantially all of the injured person's usual and customary daily activities.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.8.18" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.525, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.8.19" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Mandatory submission to binding arbitration.</h3>
+        <p> The Supreme Court <br/><span id="pl.8.20" class="pl"> </span>and the several courts of general trial jurisdiction of this state shall by rules of court or other <br/><span id="pl.8.21" class="pl"> </span>constitutionally allowable device, provide for the mandatory submission to binding arbitration <br/><span id="pl.8.22" class="pl"> </span>of all cases at issue where the claim at the commencement of arbitration is in an amount of <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.23" class="pl"> </span>$10,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $15,700</ins><span class="sr-only">new text end</span> or less against any insured's reparation obligor for no-fault benefits or <br/><span id="pl.8.24" class="pl"> </span>comprehensive or collision damage coverage.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.8.25" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 65B.54, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.8.26" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Payment of basic economic loss benefits.</h3>
+        <p>Basic economic loss benefits <br/><span id="pl.8.27" class="pl"> </span>are payable monthly as loss accrues. Loss accrues not when injury occurs, but as income <br/><span id="pl.8.28" class="pl"> </span>loss, replacement services loss, survivor's economic loss, survivor's replacement services <br/><span id="pl.8.29" class="pl"> </span>loss, or medical or funeral expense is incurred. Benefits are overdue if not paid within 30 <br/><span id="pl.8.30" class="pl"> </span>days after the reparation obligor receives reasonable proof of the fact and amount of loss <br/><span id="pl.8.31" class="pl"> </span>realized, unless the reparation obligor elects to accumulate claims for periods not exceeding <br/><span id="pl.9.1" class="pl"> </span>31 days and pays them within 15 days after the period of accumulation. If reasonable proof <br/><span id="pl.9.2" class="pl"> </span>is supplied as to only part of a claim, and the part totals <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">$100</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> $300</ins><span class="sr-only">new text end</span> or more, the part is <br/><span id="pl.9.3" class="pl"> </span>overdue if not paid within the time provided by this section. Medical or funeral expense <br/><span id="pl.9.4" class="pl"> </span>benefits may be paid by the reparation obligor directly to persons supplying products, <br/><span id="pl.9.5" class="pl"> </span>services, or accommodations to the claimant. Claims by a health provider defined in section <br/><a href="/statutes/cite/62J.03#stat.62J.03.8"><span id="pl.9.6" class="pl"> </span>62J.03, subdivision 8</a>, for medical expense benefits covered by this chapter shall be submitted <br/><span id="pl.9.7" class="pl"> </span>to the reparation obligor pursuant to the uniform electronic transaction standards required <br/><span id="pl.9.8" class="pl"> </span>by section <a href="/statutes/cite/62J.536">62J.536</a> and the rules promulgated under that section. Payment of benefits for <br/><span id="pl.9.9" class="pl"> </span>such claims for medical expense benefits are not due if the claim is not received by the <br/><span id="pl.9.10" class="pl"> </span>reparation obligor pursuant to those electronic transaction standards and rules. <br/><span id="pl.9.11" class="pl"> </span>Notwithstanding any such submission, a reparation obligor may require additional reasonable <br/><span id="pl.9.12" class="pl"> </span>proof regarding the fact and the amount of loss realized regarding such a claim. A health <br/><span id="pl.9.13" class="pl"> </span>care provider cannot directly bill an insured for the amount of any such claim not remitted <br/><span id="pl.9.14" class="pl"> </span>pursuant to the transaction standards required by section <a href="/statutes/cite/62J.536">62J.536</a> if the reparation obligor <br/><span id="pl.9.15" class="pl"> </span>is acting in compliance with these standards in receiving or paying such a claim.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section uncoded" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.9.16" class="pl"> </span>Sec. 13. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">EFFECTIVE DATE; APPLICABILITY.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.9.17" class="pl"> </span>Sections 1 to 12 are effective August 1, 2020, and apply to actions arising from incidents <br/><span id="pl.9.18" class="pl"> </span>occurring on or after that date.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

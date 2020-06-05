@@ -1,0 +1,2215 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Wed, 12 Feb 2020 00:12:36 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 2683 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 2683</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 03/25/2019 02:37pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF2683&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF2683&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF2683&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF2683&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF2683&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 03/25/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2683&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF2683&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <br/>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <br/>
+    <var class="ln">1.22</var>
+    <br/>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <br/>
+    <var class="ln">3.16</var>
+    <br/>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <br/>
+    <var class="ln">3.25</var>
+    <br/>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">4.33</var>
+    <var class="ln">4.34</var>
+    <var class="ln">4.35</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <br/>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <br/>
+    <var class="ln">6.12</var>
+    <br/>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <br/>
+    <var class="ln">6.25</var>
+    <br/>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <br/>
+    <var class="ln">7.5</var>
+    <br/>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <br/>
+    <var class="ln">7.12</var>
+    <br/>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <br/>
+    <var class="ln">7.17</var>
+    <br/>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <br/>
+    <var class="ln">7.23</var>
+    <br/>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">9.33</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">10.33</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <br/>
+    <var class="ln">11.6</var>
+    <br/>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <br/>
+    <var class="ln">11.20</var>
+    <br/>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <br/>
+    <var class="ln">11.26</var>
+    <br/>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <br/>
+    <var class="ln">12.16</var>
+    <br/>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <var class="ln">12.28</var>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <br/>
+    <var class="ln">12.31</var>
+    <br/>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+    <br/>
+    <var class="ln">13.15</var>
+    <br/>
+    <var class="ln">13.16</var>
+    <var class="ln">13.17</var>
+    <var class="ln">13.18</var>
+    <var class="ln">13.19</var>
+    <var class="ln">13.20</var>
+    <var class="ln">13.21</var>
+    <br/>
+    <var class="ln">13.22</var>
+    <br/>
+    <var class="ln">13.23</var>
+    <var class="ln">13.24</var>
+    <var class="ln">13.25</var>
+    <var class="ln">13.26</var>
+    <var class="ln">13.27</var>
+    <var class="ln">13.28</var>
+    <var class="ln">13.29</var>
+    <var class="ln">13.30</var>
+    <var class="ln">13.31</var>
+    <var class="ln">14.1</var>
+    <var class="ln">14.2</var>
+    <var class="ln">14.3</var>
+    <var class="ln">14.4</var>
+    <var class="ln">14.5</var>
+    <var class="ln">14.6</var>
+    <var class="ln">14.7</var>
+    <var class="ln">14.8</var>
+    <var class="ln">14.9</var>
+    <var class="ln">14.10</var>
+    <var class="ln">14.11</var>
+    <var class="ln">14.12</var>
+    <br/>
+    <var class="ln">14.13</var>
+    <br/>
+    <var class="ln">14.14</var>
+    <var class="ln">14.15</var>
+    <var class="ln">14.16</var>
+    <br/>
+    <var class="ln">14.17</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to retirement; Minnesota State; eliminating the expiration of an early <br/><span id="pl.1.3" class="pl"> </span>retirement incentive program; modifying eligibility rules in the higher education <br/><span id="pl.1.4" class="pl"> </span>supplemental retirement plan; making various nonsubstantive style and form <br/><span id="pl.1.5" class="pl"> </span>changes;  amending Minnesota Statutes 2018, sections 136F.47; 136F.481; 354.05, <br/><span id="pl.1.6" class="pl"> </span>subdivision 2a; 354.51, subdivision 5; 354A.011, subdivision 27; 354B.20, <br/><span id="pl.1.7" class="pl"> </span>subdivisions 4, 7, 12, by adding a subdivision; 354B.22, subdivision 2; 354B.23, <br/><span id="pl.1.8" class="pl"> </span>subdivision 5; 354C.11, subdivisions 1, 2; 354C.12, subdivisions 1, 2; 355.01, <br/><span id="pl.1.9" class="pl"> </span>subdivision 3c; 355.091; proposing coding for new law in Minnesota Statutes, <br/><span id="pl.1.10" class="pl"> </span>chapter 354B; repealing Minnesota Statutes 2018, sections 354B.20, subdivision <br/><span id="pl.1.11" class="pl"> </span>8; 354B.21, subdivisions 1, 1a, 2, 3, 3a, 3b, 4, 5, 6, 7.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.12" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_cite" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.13" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 136F.47, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.1.14" class="pl"> </span>136F.47 PENSION PLAN.<br/></h1>
+      <p><span id="pl.1.15" class="pl"> </span>The board shall assume the administrative responsibility for the individual retirement <br/><span id="pl.1.16" class="pl"> </span>account plans in chapters 354B and 354C formerly administered separately by the State <br/><span id="pl.1.17" class="pl"> </span>University Board and the Community College Board. The separate plans and the former <br/><span id="pl.1.18" class="pl"> </span>plan administration must be merged into a single individual retirement account plan and <br/><span id="pl.1.19" class="pl"> </span>plan administration covering eligible employees of the board, eligible employees of system <br/><span id="pl.1.20" class="pl"> </span>institutions, and other eligible employee groups who are covered by the plan under section <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21"><span id="pl.1.21" class="pl"> </span>354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span>.<br/></p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.1.22" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.2.1" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 136F.481, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.2.2" class="pl"> </span>136F.481 EARLY SEPARATION INCENTIVE PROGRAM.<br/></h1>
+      <p><span id="pl.2.3" class="pl"> </span>(a) Notwithstanding any provision of law to the contrary, the board may offer a targeted <br/><span id="pl.2.4" class="pl"> </span>early separation incentive program for its employees.<br/></p>
+      <p><span id="pl.2.5" class="pl"> </span>(b) The early separation incentive program may include one or both of the following:<br/></p>
+      <p><span id="pl.2.6" class="pl"> </span>(1) cash incentives, not to exceed one year of base salary; or<br/></p>
+      <p><span id="pl.2.7" class="pl"> </span>(2) employer contributions to the postretirement health care savings plan established <br/><span id="pl.2.8" class="pl"> </span>under section <a href="/statutes/cite/352.98">352.98</a>.<br/></p>
+      <p><span id="pl.2.9" class="pl"> </span>(c) To be eligible to receive an incentive, an employee must be at least age 55 and must <br/><span id="pl.2.10" class="pl"> </span>have at least five years of employment by the Minnesota State Colleges and Universities <br/><span id="pl.2.11" class="pl"> </span>System. The board shall establish and periodically revise the eligibility requirements for <br/><span id="pl.2.12" class="pl"> </span>system employees to receive an incentive. The board shall file a copy of its proposed revised <br/><span id="pl.2.13" class="pl"> </span>eligibility requirements with the chairs and ranking members of the senate committee with <br/><span id="pl.2.14" class="pl"> </span>higher education within its jurisdiction and the senate finance division with higher education <br/><span id="pl.2.15" class="pl"> </span>within its jurisdiction and with the chair and ranking members of the committee in the house <br/><span id="pl.2.16" class="pl"> </span>of representatives with higher education within its jurisdiction and of the house of <br/><span id="pl.2.17" class="pl"> </span>representatives Committee on Ways and Means, at least 30 days before the final adoption <br/><span id="pl.2.18" class="pl"> </span>of the proposed revised eligibility requirements by the board, shall post the same document <br/><span id="pl.2.19" class="pl"> </span>on the system website at the same time, and shall hold a public hearing on the proposed <br/><span id="pl.2.20" class="pl"> </span>eligibility requirements. The type and any additional amount of the incentive to be offered <br/><span id="pl.2.21" class="pl"> </span>may vary by employee classification, as specified by the board.<br/></p>
+      <p><span id="pl.2.22" class="pl"> </span>(d) The president of a college or university, consistent with paragraphs (b) and (c), may <br/><span id="pl.2.23" class="pl"> </span>designate:<br/></p>
+      <p><span id="pl.2.24" class="pl"> </span>(1) specific departments or programs at the college or university whose employees are <br/><span id="pl.2.25" class="pl"> </span>eligible to be offered the incentive program; or<br/></p>
+      <p><span id="pl.2.26" class="pl"> </span>(2) positions at the college or university eligible to be offered the incentive program.<br/></p>
+      <p><span id="pl.2.27" class="pl"> </span>(e) The chancellor, consistent with paragraphs (b) and (c), may designate:<br/></p>
+      <p><span id="pl.2.28" class="pl"> </span>(1) system office divisions whose employees are eligible to be offered the incentive <br/><span id="pl.2.29" class="pl"> </span>program; or<br/></p>
+      <p><span id="pl.2.30" class="pl"> </span>(2) positions at the system office eligible to be offered the incentive program.<br/></p>
+      <p><span id="pl.3.1" class="pl"> </span>(f) Acceptance of the offered incentive must be voluntary on the part of the employee <br/><span id="pl.3.2" class="pl"> </span>and must be in writing. The incentive may only be offered at the sole discretion of the <br/><span id="pl.3.3" class="pl"> </span>president of the applicable college or university.<br/></p>
+      <p><span id="pl.3.4" class="pl"> </span>(g) A decision by the president of a college or university or by the chancellor not to offer <br/><span id="pl.3.5" class="pl"> </span>an incentive may not be challenged.<br/></p>
+      <p><span id="pl.3.6" class="pl"> </span>(h) The cost of the incentive is payable by the college or university on whose behalf the <br/><span id="pl.3.7" class="pl"> </span>president offered the incentive or from the system office budget if the chancellor offered <br/><span id="pl.3.8" class="pl"> </span>the incentive. If a college or university is merged, the remaining cost of any early separation <br/><span id="pl.3.9" class="pl"> </span>incentive must be borne by the successor institution. If a college or university is closed, the <br/><span id="pl.3.10" class="pl"> </span>remaining cost of any early separation incentive must be borne by the board.<br/></p>
+      <p><span id="pl.3.11" class="pl"> </span>(i) Annually, the chancellor and the president of each college or university must report <br/><span id="pl.3.12" class="pl"> </span>on the number and types of early separation incentives which were offered and utilized <br/><span id="pl.3.13" class="pl"> </span>under this section. The report must be filed annually with the board and with the Legislative <br/><span id="pl.3.14" class="pl"> </span>Reference Library on or before September 1.<br/></p>
+      <p>
+        <span class="sr-only">deleted text begin</span>
+        <span style="text-decoration: line-through" class="del"><span id="pl.3.15" class="pl"> </span>(j) The early retirement incentive authority under this section expires on June 30, 2019.<br/></span>
+        <span class="sr-only">deleted text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.16" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective the day following final enactment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.3.17" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354.05, subdivision 2a, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.3.18" class="pl"> </span>Subd. 2a.</h2>
+        <h3 class="headnote">Exceptions.</h3>
+        <p>(a) Notwithstanding subdivision 2, a person specified in paragraph <br/><span id="pl.3.19" class="pl"> </span>(b) is not a member of the association except for purposes of Social Security coverage unless <br/><span id="pl.3.20" class="pl"> </span>the person is covered by section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span>, and elects coverage by the Teachers <br/><span id="pl.3.21" class="pl"> </span>Retirement Association.<br/></p>
+        <p><span id="pl.3.22" class="pl"> </span>(b) A teacher is excluded from association membership other than Social Security <br/><span id="pl.3.23" class="pl"> </span>coverage under paragraph (a) if the person is covered by the individual retirement account <br/><span id="pl.3.24" class="pl"> </span>plan established under chapter 354B.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.25" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.26" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354.51, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.3.27" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Payment of shortages.</h3>
+        <p>(a) Except as provided in paragraph (b), in the event <br/><span id="pl.3.28" class="pl"> </span>that full required member contributions are not deducted from the salary of a teacher, <br/><span id="pl.3.29" class="pl"> </span>payment of shortages in member deductions on salary earned are the sole obligation of the <br/><span id="pl.3.30" class="pl"> </span>employing unit and are payable by the employing unit upon notification by the executive <br/><span id="pl.3.31" class="pl"> </span>director of the shortage. The amount of the shortage shall be paid with interest at the <br/><span id="pl.4.1" class="pl"> </span>applicable annual rate or rates specified in section <a href="/statutes/cite/356.59#stat.356.59.4">356.59, subdivision 4</a>, compounded <br/><span id="pl.4.2" class="pl"> </span>annually, from the end of the fiscal year in which the shortage occurred to the end of the <br/><span id="pl.4.3" class="pl"> </span>month in which payment is made and the interest must be credited to the fund. The employing <br/><span id="pl.4.4" class="pl"> </span>unit shall also pay the employer contributions as specified in section <a href="/statutes/cite/354.42">354.42</a>, subdivisions <br/><span id="pl.4.5" class="pl"> </span>3 and 5 for the shortages. If the shortage payment is not paid by the employing unit within <br/><span id="pl.4.6" class="pl"> </span>60 days of notification, and if the executive director does not use the recovery procedure <br/><span id="pl.4.7" class="pl"> </span>in section <a href="/statutes/cite/354.512">354.512</a>, the executive director shall certify the amount of the shortage to the <br/><span id="pl.4.8" class="pl"> </span>applicable county auditor, who shall spread a levy in the amount of the shortage payment <br/><span id="pl.4.9" class="pl"> </span>over the taxable property of the taxing district of the employing unit if the employing unit <br/><span id="pl.4.10" class="pl"> </span>is supported by property taxes. Payment may not be made for shortages in member deductions <br/><span id="pl.4.11" class="pl"> </span>on salary paid or payable under paragraph (b) or for shortages in member deductions for <br/><span id="pl.4.12" class="pl"> </span>persons employed by the Minnesota State Colleges and Universities system in a faculty <br/><span id="pl.4.13" class="pl"> </span>position or in an eligible unclassified administrative position and whose employment was <br/><span id="pl.4.14" class="pl"> </span>less than 25 percent of a full academic year, exclusive of the summer session, for the <br/><span id="pl.4.15" class="pl"> </span>applicable institution that exceeds the most recent 36 months.<br/></p>
+        <p><span id="pl.4.16" class="pl"> </span>(b) For a person who is employed by the Minnesota State Colleges and Universities <br/><span id="pl.4.17" class="pl"> </span>system in a faculty position or in an eligible unclassified administrative position and whose <br/><span id="pl.4.18" class="pl"> </span>employment was less than 25 percent of a full academic year, exclusive of the summer <br/><span id="pl.4.19" class="pl"> </span>session, for the applicable institution, upon the person's election under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.4.20" class="pl"> </span>354B.211</ins><span class="sr-only">new text end</span> of retirement coverage under this chapter, the shortage in member deductions on <br/><span id="pl.4.21" class="pl"> </span>the salary for employment by the Minnesota State Colleges and Universities system institution <br/><span id="pl.4.22" class="pl"> </span>of less than 25 percent of a full academic year, exclusive of the summer session, for the <br/><span id="pl.4.23" class="pl"> </span>applicable institution for the most recent 36 months and the associated employer contributions <br/><span id="pl.4.24" class="pl"> </span>must be paid by the Minnesota State Colleges and Universities system institution, plus <br/><span id="pl.4.25" class="pl"> </span>interest at the applicable annual rate or rates specified in section <a href="/statutes/cite/356.59#stat.356.59.4">356.59, subdivision 4</a>, <br/><span id="pl.4.26" class="pl"> </span>compounded annually, from the end of the fiscal year in which the shortage occurred to the <br/><span id="pl.4.27" class="pl"> </span>end of the month in which the Teachers Retirement Association coverage election is made. <br/><span id="pl.4.28" class="pl"> </span>An individual electing coverage under this paragraph shall repay the amount of the shortage <br/><span id="pl.4.29" class="pl"> </span>in member deductions, plus interest, through deduction from salary or compensation <br/><span id="pl.4.30" class="pl"> </span>payments within the first year of employment after the election under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.4.31" class="pl"> </span>354B.211</ins><span class="sr-only">new text end</span>, subject to the limitations in section <a href="/statutes/cite/16D.16">16D.16</a>. The Minnesota State Colleges and <br/><span id="pl.4.32" class="pl"> </span>Universities system may use any means available to recover amounts which were not <br/><span id="pl.4.33" class="pl"> </span>recovered through deductions from salary or compensation payments. No payment of the <br/><span id="pl.4.34" class="pl"> </span>shortage in member deductions under this paragraph may be made for a period longer than <br/><span id="pl.4.35" class="pl"> </span>the most recent 36 months.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.1" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.5.2" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354A.011, subdivision 27, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.5.3" class="pl"> </span>Subd. 27.</h2>
+        <h3 class="headnote">Teacher.</h3>
+        <p>(a) "Teacher" means any person who renders service for <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">a public <br/><span id="pl.5.4" class="pl"> </span>school district, other than a charter school, located in the corporate limits of</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">:<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.5.5" class="pl"> </span>(1) Independent School District No. 625,</ins><span class="sr-only">new text end</span> St. Paul, as any of the following:<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.5.6" class="pl"> </span>(1)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (i)</ins><span class="sr-only">new text end</span> a full-time employee in a position for which a valid license from the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">state <br/><span id="pl.5.7" class="pl"> </span>Department of Education</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Professional Educator Licensing and Standards Board</ins><span class="sr-only">new text end</span> is required;<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.5.8" class="pl"> </span>(2) an employee of the teachers retirement fund association located in the city of St. <br/><span id="pl.5.9" class="pl"> </span>Paul;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.5.10" class="pl"> </span>(3)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (ii)</ins><span class="sr-only">new text end</span> a part-time employee in a position for which a valid license from the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">state <br/><span id="pl.5.11" class="pl"> </span>Department of Education</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Professional Educator Licensing and Standards Board</ins><span class="sr-only">new text end</span> is required; <br/><span id="pl.5.12" class="pl"> </span>or<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.5.13" class="pl"> </span>(4)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (iii)</ins><span class="sr-only">new text end</span> a part-time employee in a position for which a valid license from the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">state <br/><span id="pl.5.14" class="pl"> </span>Department of Education</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Professional Educator Licensing and Standards Board</ins><span class="sr-only">new text end</span> is required <br/><span id="pl.5.15" class="pl"> </span>who also renders other nonteaching services for the school district, unless the board of <br/><span id="pl.5.16" class="pl"> </span>trustees of the teachers retirement fund association determines that the combined employment <br/><span id="pl.5.17" class="pl"> </span>is on the whole so substantially dissimilar to teaching service that the service may not be <br/><span id="pl.5.18" class="pl"> </span>covered by the association<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">;<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.19" class="pl"> </span>(2) the teachers retirement fund association located in the city of St. Paul as an employee; <br/><span id="pl.5.20" class="pl"> </span>or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.5.21" class="pl"> </span>(3) the Minnesota State Colleges and Universities as an employee who has continuing <br/><span id="pl.5.22" class="pl"> </span>coverage under this chapter through section 354B.211, subdivision 3, paragraph (c).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p><span id="pl.5.23" class="pl"> </span>(b) The term does not mean any person who renders service in the school district as any <br/><span id="pl.5.24" class="pl"> </span>of the following:<br/></p>
+        <p><span id="pl.5.25" class="pl"> </span>(1) an independent contractor or the employee of an independent contractor;<br/></p>
+        <p><span id="pl.5.26" class="pl"> </span>(2) an employee who is a full-time teacher covered by the Teachers Retirement <br/><span id="pl.5.27" class="pl"> </span>Association under chapter 354;<br/></p>
+        <p><span id="pl.5.28" class="pl"> </span>(3) an employee who is exempt from licensure pursuant to section <a href="/statutes/cite/122A.30">122A.30</a>;<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.5.29" class="pl"> </span>(4) an employee who is a teacher in a technical college located in a city of the first class <br/><span id="pl.5.30" class="pl"> </span>unless the person elects coverage by the first class city teacher retirement fund association <br/><span id="pl.5.31" class="pl"> </span>under section <a href="/statutes/cite/354B.21#stat.354B.21.2">354B.21, subdivision 2</a>;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.6.1" class="pl"> </span>(5) a teacher employed by a charter school, irrespective of the location of the school;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.6.2" class="pl"> </span>(6) an employee who is a part-time teacher in a technical college in the city of St. Paul <br/><span id="pl.6.3" class="pl"> </span>and who has elected coverage by the first class city teacher retirement fund association <br/><span id="pl.6.4" class="pl"> </span>under section <a href="/statutes/cite/354B.21#stat.354B.21.2">354B.21, subdivision 2</a>, but (i) the teaching service is incidental to the regular <br/><span id="pl.6.5" class="pl"> </span>nonteaching occupation of the person; (ii) the applicable technical college stipulates annually <br/><span id="pl.6.6" class="pl"> </span>in advance that the part-time teaching service will not exceed 300 hours in a fiscal year; <br/><span id="pl.6.7" class="pl"> </span>and (iii) the part-time teaching actually does not exceed 300 hours in the fiscal year to which <br/><span id="pl.6.8" class="pl"> </span>the certification applies; or<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.6.9" class="pl"> </span>(7)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (4)</ins><span class="sr-only">new text end</span> a person who is receiving a retirement annuity from the teachers retirement fund <br/><span id="pl.6.10" class="pl"> </span>association and is employed after retirement by the school district associated with the <br/><span id="pl.6.11" class="pl"> </span>retirement fund association.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.12" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.6.13" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.20, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.6.14" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Covered employment.</h3>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(a)</span><span class="sr-only">deleted text end</span> "Covered employment" means employment by <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">a <br/><span id="pl.6.15" class="pl"> </span>person eligible for coverage by this retirement program under section <a href="/statutes/cite/354B.21">354B.21</a> in a faculty <br/><span id="pl.6.16" class="pl"> </span>position or in an eligible unclassified administrative position</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> an employee in the fiscal year <br/><span id="pl.6.17" class="pl"> </span>in which the employee first attains eligible employee status, as determined under section <br/><span id="pl.6.18" class="pl"> </span>354B.211, subdivision 1, and thereafter all employment by that individual in an eligible <br/><span id="pl.6.19" class="pl"> </span>unclassified administrative position as defined in subdivision 6 or in an eligible unclassified <br/><span id="pl.6.20" class="pl"> </span>faculty position as defined in subdivision 6a</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.6.21" class="pl"> </span>(b) "Covered employment" does not mean employment specified in paragraph (a) by a <br/><span id="pl.6.22" class="pl"> </span>faculty member employed in the Minnesota State Colleges and Universities system if the <br/><span id="pl.6.23" class="pl"> </span>person's initial appointment is specified as constituting less than 25 percent of a full academic <br/><span id="pl.6.24" class="pl"> </span>year, exclusive of summer session, for the applicable institution.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.25" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.6.26" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.20, is amended by adding a subdivision to <br/><span id="pl.6.27" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.28" class="pl"> </span>Subd. 6a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Eligible unclassified faculty position.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">"Eligible unclassified faculty position" <br/><span id="pl.6.29" class="pl"> </span>means employment by an employing unit in:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.30" class="pl"> </span>(1) a classification included in the:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.31" class="pl"> </span>(i) state university instructional unit;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.1" class="pl"> </span>(ii) state university administrative faculty unit; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.2" class="pl"> </span>(iii) state college instructional unit under section 179A.10, subdivision 2; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.3" class="pl"> </span>(2) an employment position that meets the definition of "teacher" under section 354.05, <br/><span id="pl.7.4" class="pl"> </span>subdivision 2, or 354A.011, subdivision 27.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.5" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.7.6" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.20, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.7.7" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Employing unit.</h3>
+        <p>"Employing unit," if the agency employs any persons covered <br/><span id="pl.7.8" class="pl"> </span>by the individual retirement account plan under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span>, means:<br/></p>
+        <p><span id="pl.7.9" class="pl"> </span>(1) the board;<br/></p>
+        <p><span id="pl.7.10" class="pl"> </span>(2) the Minnesota Office of Higher Education; and<br/></p>
+        <p><span id="pl.7.11" class="pl"> </span>(3) the Higher Education Facilities Authority.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.12" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.7.13" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.20, subdivision 12, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.7.14" class="pl"> </span>Subd. 12.</h2>
+        <h3 class="headnote">Participant.</h3>
+        <p>"Participant" means a person who is employed in covered <br/><span id="pl.7.15" class="pl"> </span>employment by the board and who elects coverage by the plan under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.7.16" class="pl"> </span>354B.211</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.17" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.7.18" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.22, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.7.19" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Public pension coverage as condition of employment.</h3>
+        <p>Coverage by a public <br/><span id="pl.7.20" class="pl"> </span>pension plan under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span> is a condition of initial employment or <br/><span id="pl.7.21" class="pl"> </span>continued employment <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">as a faculty member</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> in an eligible unclassified faculty position</ins><span class="sr-only">new text end</span> or <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.7.22" class="pl"> </span>an </ins><span class="sr-only">new text end</span>eligible unclassified administrative position by the board or other employing unit.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.23" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.7.24" class="pl"> </span>Sec. 11. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[354B.211] COVERAGE.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.25" class="pl"> </span>Subdivision 1.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Eligibility.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) The following persons are eligible to have coverage by <br/><span id="pl.7.26" class="pl"> </span>the individual retirement account plan or coverage by another plan as further specified in <br/><span id="pl.7.27" class="pl"> </span>this section:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.1" class="pl"> </span>(1) employees who are employed for at least 25 percent of a full academic year, exclusive <br/><span id="pl.8.2" class="pl"> </span>of the summer session, in eligible unclassified faculty positions under section 354B.20, <br/><span id="pl.8.3" class="pl"> </span>subdivision 6a; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.4" class="pl"> </span>(2) employees who are employed for at least 25 percent of a full fiscal year in eligible <br/><span id="pl.8.5" class="pl"> </span>unclassified administrative positions under section 354B.20, subdivision 6.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.6" class="pl"> </span>(b) An employee who becomes eligible under clause (1) or (2) remains eligible regardless <br/><span id="pl.8.7" class="pl"> </span>of (i) a break in service, or (ii) the percentage of full time worked in any covered employment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.8" class="pl"> </span>Subd. 2.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Default coverage.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) The default retirement coverage specified under this <br/><span id="pl.8.9" class="pl"> </span>subdivision for an eligible employee applies to all covered employment unless the eligible <br/><span id="pl.8.10" class="pl"> </span>employee makes a coverage election under subdivision 4.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.11" class="pl"> </span>(b) The individual retirement account plan is the default coverage if:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.12" class="pl"> </span>(1) the eligible employee does not have continuing coverage under subdivision 3; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.13" class="pl"> </span>(2) the eligible employee:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.14" class="pl"> </span>(i) was employed before July 1, 2011; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.15" class="pl"> </span>(ii) is employed on or after July 1, 2011 and does not have allowable service credit or <br/><span id="pl.8.16" class="pl"> </span>an account in any retirement plan listed in section 356.30, subdivision 3.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.17" class="pl"> </span>(c) The Teachers Retirement Association is the default coverage if the eligible employee <br/><span id="pl.8.18" class="pl"> </span>(1) does not have continuing coverage under subdivision 3, paragraphs (c) or (d), (2) is <br/><span id="pl.8.19" class="pl"> </span>employed on or after July 1, 2011, and (3) has allowable service credit or an account in any <br/><span id="pl.8.20" class="pl"> </span>retirement plan listed in section 356.30, subdivision 3.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.21" class="pl"> </span>(d) At the time of hire, the employee must certify to the employer the existence of any <br/><span id="pl.8.22" class="pl"> </span>allowable service credit or an account within any plan listed in section 356.30, subdivision <br/><span id="pl.8.23" class="pl"> </span>3. If an employee fails to provide certification, the Minnesota State Colleges and Universities <br/><span id="pl.8.24" class="pl"> </span>system and its board shall be held harmless and, notwithstanding any law to the contrary, <br/><span id="pl.8.25" class="pl"> </span>any resulting cost or financial liability becomes the employee's responsibility.<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.3">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.26" class="pl"> </span>Subd. 3.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coverage continuation; certain technical college employees.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) If an <br/><span id="pl.8.27" class="pl"> </span>employee was employed in a technical college faculty position with Teachers Retirement <br/><span id="pl.8.28" class="pl"> </span>Association coverage on or before June 30, 1997, that coverage continues for all covered <br/><span id="pl.8.29" class="pl"> </span>employment unless the employee elects coverage under paragraph (e).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.30" class="pl"> </span>(b) If an employee was employed in a technical college faculty position on or before <br/><span id="pl.8.31" class="pl"> </span>June 30, 1995, and covered by a former first class city teacher retirement fund association, <br/><span id="pl.9.1" class="pl"> </span>the Teachers Retirement Association shall provide coverage for all covered employment <br/><span id="pl.9.2" class="pl"> </span>unless the employee elects coverage under paragraph (e).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.3" class="pl"> </span>(c) If an employee was employed in a technical college faculty position with St. Paul <br/><span id="pl.9.4" class="pl"> </span>Teachers Retirement Fund Association coverage on or before June 30, 1995, that coverage <br/><span id="pl.9.5" class="pl"> </span>continues for all covered employment unless the employee elects coverage under paragraph <br/><span id="pl.9.6" class="pl"> </span>(e).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.7" class="pl"> </span>(d) If an employee was employed in a technical college position with Public Employee <br/><span id="pl.9.8" class="pl"> </span>Retirement Association coverage on or before June 30, 1995, that coverage continues for <br/><span id="pl.9.9" class="pl"> </span>all covered employment unless the employee elects coverage under paragraph (e).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.10" class="pl"> </span>(e) If an employee under this subdivision changes employment within the Minnesota <br/><span id="pl.9.11" class="pl"> </span>State Colleges and Universities system, the employee is authorized to elect prospective <br/><span id="pl.9.12" class="pl"> </span>coverage by the individual retirement account plan pursuant to subdivision 4 for all <br/><span id="pl.9.13" class="pl"> </span>subsequent covered employment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.4">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.14" class="pl"> </span>Subd. 4.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coverage; election for new employment position.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) Unless a timely coverage <br/><span id="pl.9.15" class="pl"> </span>election is made as specified below, an eligible employee retains the default coverage <br/><span id="pl.9.16" class="pl"> </span>specified in subdivision 2 for all covered employment.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.17" class="pl"> </span>(1) An eligible employee who has default coverage with the individual retirement account <br/><span id="pl.9.18" class="pl"> </span>plan under subdivision 2 may elect prospective Teachers Retirement Association coverage.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.19" class="pl"> </span>(2) An eligible employee who has default coverage with the Teachers Retirement <br/><span id="pl.9.20" class="pl"> </span>Association under subdivision 2 may elect prospective coverage by the individual retirement <br/><span id="pl.9.21" class="pl"> </span>account plan.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.22" class="pl"> </span>(b) An election under paragraph (a) must be made within one year of commencing <br/><span id="pl.9.23" class="pl"> </span>covered employment. If an election is not made within one year of commencing covered <br/><span id="pl.9.24" class="pl"> </span>employment and the employee separated from such covered employment prior to completion <br/><span id="pl.9.25" class="pl"> </span>of the year, an election may be made within 90 days of returning to covered employment.<br/> </ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.26" class="pl"> </span>(c) Except as provided in subdivision 6, purchasing service credit in the Teachers <br/><span id="pl.9.27" class="pl"> </span>Retirement Association for any period of Minnesota State Colleges and Universities system <br/><span id="pl.9.28" class="pl"> </span>employment occurring before the election under this section is prohibited.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.29" class="pl"> </span>(d) An election made under this subdivision is irrevocable unless a subsequent election <br/><span id="pl.9.30" class="pl"> </span>is made under subdivision 6.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.5">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.31" class="pl"> </span>Subd. 5.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Required notice.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) No later than 90 days before the end of any applicable <br/><span id="pl.9.32" class="pl"> </span>election period specified in this section, the employer must provide an eligible employee <br/><span id="pl.9.33" class="pl"> </span>the following information:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.1" class="pl"> </span>(1) the eligible employee's default retirement coverage;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.2" class="pl"> </span>(2) the form for electing alternative coverage other than the default coverage; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.3" class="pl"> </span>(3) the website addresses for the plan providing default coverage and comparable <br/><span id="pl.10.4" class="pl"> </span>information for the applicable optional coverage.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.5" class="pl"> </span>(b) The election of coverage forms must include a certification statement that the <br/><span id="pl.10.6" class="pl"> </span>employee has received and reviewed materials on the alternative and default coverages prior <br/><span id="pl.10.7" class="pl"> </span>to making the election.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.6">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.8" class="pl"> </span>Subd. 6.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coverage; election for tenure.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) A faculty member, defined as a person <br/><span id="pl.10.9" class="pl"> </span>employed in an eligible unclassified faculty position under section 354B.20, subdivision <br/><span id="pl.10.10" class="pl"> </span>6a, who is a member of the individual retirement account plan may elect to transfer retirement <br/><span id="pl.10.11" class="pl"> </span>coverage to the Teachers Retirement Association within one year of the faculty member <br/><span id="pl.10.12" class="pl"> </span>first achieving tenure or its equivalent at a Minnesota state college or university.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.13" class="pl"> </span>(b) A faculty member electing Teachers Retirement Association coverage must purchase <br/><span id="pl.10.14" class="pl"> </span>service credit in the Teachers Retirement Association for the entire period of time covered <br/><span id="pl.10.15" class="pl"> </span>under the individual retirement account plan. The purchase payment amount must be <br/><span id="pl.10.16" class="pl"> </span>determined under section 356.551. The Teachers Retirement Association may charge a <br/><span id="pl.10.17" class="pl"> </span>faculty member transferring coverage a reasonable fee to cover the costs associated with <br/><span id="pl.10.18" class="pl"> </span>computing the actuarial cost of purchasing service credit and making the transfer.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.19" class="pl"> </span>(c) A faculty member purchasing service credit in the Teachers Retirement Association <br/><span id="pl.10.20" class="pl"> </span>may use:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.21" class="pl"> </span>(1) any balances in the faculty member's individual retirement account plan or higher <br/><span id="pl.10.22" class="pl"> </span>education supplemental retirement plan established under chapter 354C; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.23" class="pl"> </span>(2) any source specified in section 356.441, subdivision 1.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="bl">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.24" class="pl"> </span>If the total amount of payments under this paragraph are less than the total purchase payment <br/><span id="pl.10.25" class="pl"> </span>amount under section 356.551, and the employee fails to make timely payments as determined <br/><span id="pl.10.26" class="pl"> </span>by the Teachers Retirement Association, all payment amounts must be refunded to the <br/><span id="pl.10.27" class="pl"> </span>applicable source.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.7">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.28" class="pl"> </span>Subd. 7.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coverage; acting, interim, or temporary appointments.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">An employee on a <br/><span id="pl.10.29" class="pl"> </span>leave of absence from a classified position who is appointed to an acting, interim, or <br/><span id="pl.10.30" class="pl"> </span>temporary unclassified position retains the retirement coverage that the employee had in <br/><span id="pl.10.31" class="pl"> </span>the prior classified position for up to one year of covered employment. If the employee <br/><span id="pl.10.32" class="pl"> </span>continues in the unclassified position, the employee has the option to make an election under <br/><span id="pl.10.33" class="pl"> </span>subdivision 4, provided no previous election had been made under that subdivision.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.11.8">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.1" class="pl"> </span>Subd. 8.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coverage; certain part-time employees.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Notwithstanding subdivision 1, an <br/><span id="pl.11.2" class="pl"> </span>employee in a part-time eligible unclassified administrative position or eligible unclassified <br/><span id="pl.11.3" class="pl"> </span>faculty position that constitutes less than 25 percent of a full academic year is eligible for <br/><span id="pl.11.4" class="pl"> </span>Teachers Retirement Association coverage for all covered employment if the person certifies <br/><span id="pl.11.5" class="pl"> </span>to the employer existing membership in the Teachers Retirement Association.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.6" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.11.7" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354B.23, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.11.8" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Omitted member deductions.</h3>
+        <p>(a) If the employing unit that employs a plan <br/><span id="pl.11.9" class="pl"> </span>participant fails to deduct the member contribution from the participant's salary and a period <br/><span id="pl.11.10" class="pl"> </span>of less than 60 days from the date on which the deduction should have been made has <br/><span id="pl.11.11" class="pl"> </span>elapsed, the employing unit must obtain the omitted member deduction by an additional <br/><span id="pl.11.12" class="pl"> </span>payroll deduction during the pay period next following the discovery of the omission.<br/></p>
+        <p><span id="pl.11.13" class="pl"> </span>(b) If the employing unit of a plan participant fails to deduct the member contribution <br/><span id="pl.11.14" class="pl"> </span>from the participant's salary and that omission continues for at least 60 days from the date <br/><span id="pl.11.15" class="pl"> </span>on which the deduction should have been made, the employing unit must pay the amount <br/><span id="pl.11.16" class="pl"> </span>representing the omitted member contribution, and the full required employer contribution, <br/><span id="pl.11.17" class="pl"> </span>plus compound interest at <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">an annual rate of 8.5 percent</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the applicable annual rate or rates <br/><span id="pl.11.18" class="pl"> </span>specified in section 356.59, subdivision 2</ins><span class="sr-only">new text end</span>. The contributions and any interest must be made <br/><span id="pl.11.19" class="pl"> </span>within one year of the date on which the omission was discovered.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.20" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.11.21" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354C.11, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.11.22" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Authorization.</h3>
+        <p>Individuals employed by the Board of Trustees of the <br/><span id="pl.11.23" class="pl"> </span>Minnesota State Colleges and Universities are authorized to participate in the supplemental <br/><span id="pl.11.24" class="pl"> </span>retirement plan, effective <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">on the next following July 1, after meeting</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">upon hire if the <br/><span id="pl.11.25" class="pl"> </span>individual meets the </ins><span class="sr-only">new text end</span>eligibility requirements specified in subdivision 2.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.26" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.11.27" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354C.11, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no"><span id="pl.11.28" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Eligibility.</h3>
+        <p>(a) An individual <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">must participate</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">is automatically enrolled </ins><span class="sr-only">new text end</span>in the <br/><span id="pl.11.29" class="pl"> </span>supplemental retirement plan if the individual is employed by the Board of Trustees in the <br/><span id="pl.11.30" class="pl"> </span>unclassified service of the state and has completed at least two years with a full-time contract <br/><span id="pl.12.1" class="pl"> </span>of applicable unclassified employment with the board or an applicable predecessor board <br/><span id="pl.12.2" class="pl"> </span>in any of the positions specified in paragraph (b).<br/></p>
+        <p><span id="pl.12.3" class="pl"> </span>(b) Eligible positions or employment classifications are:<br/></p>
+        <p><span id="pl.12.4" class="pl"> </span>(1) an unclassified administrative position as defined in section <a href="/statutes/cite/354B.20#stat.354B.20.6">354B.20, subdivision <br/><span id="pl.12.5" class="pl"> </span>6</a>;<br/></p>
+        <p><span id="pl.12.6" class="pl"> </span>(2) an employment classification included in one of the following collective bargaining <br/><span id="pl.12.7" class="pl"> </span>units under section <a href="/statutes/cite/179A.10#stat.179A.10.2">179A.10, subdivision 2</a>:<br/></p>
+        <p><span id="pl.12.8" class="pl"> </span>(i) the state university instructional unit;<br/></p>
+        <p><span id="pl.12.9" class="pl"> </span>(ii) the state college instructional unit; and<br/></p>
+        <p><span id="pl.12.10" class="pl"> </span>(iii) the state university administrative unit; or<br/></p>
+        <p><span id="pl.12.11" class="pl"> </span>(3) an unclassified employee of the board:<br/></p>
+        <p><span id="pl.12.12" class="pl"> </span>(i) included in the general professional unit or the supervisory employees unit under <br/><span id="pl.12.13" class="pl"> </span>section <a href="/statutes/cite/179A.10#stat.179A.10.2">179A.10, subdivision 2</a>; or<br/></p>
+        <p><span id="pl.12.14" class="pl"> </span>(ii) an employee who is excluded from one of those units due to the employee's <br/><span id="pl.12.15" class="pl"> </span>confidential status under section <a href="/statutes/cite/179A.10#stat.179A.10.1">179A.10, subdivision 1</a>, clause (7).<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.16" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.12.17" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354C.12, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.12.18" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Basic contributions and deductions.</h3>
+        <p>(a) The employer of personnel <br/><span id="pl.12.19" class="pl"> </span>covered by the supplemental retirement plan as provided in section <a href="/statutes/cite/354C.11">354C.11</a> shall deduct <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">a <br/><span id="pl.12.20" class="pl"> </span>sum</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">an amount </ins><span class="sr-only">new text end</span>equal to five percent of the annual salary of the person <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">between $6,000 and <br/><span id="pl.12.21" class="pl"> </span>$15,000</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, not to exceed the employer contribution amount defined in section 356.24, <br/><span id="pl.12.22" class="pl"> </span>subdivision 1, clause (6)</ins><span class="sr-only">new text end</span>. The employer may accomplish this deduction by making equal <br/><span id="pl.12.23" class="pl"> </span>deductions each payroll period, based on anticipated annual salary. The employer may adjust <br/><span id="pl.12.24" class="pl"> </span>these deductions as necessary to deduct the correct amount annually. Deductions cease upon <br/><span id="pl.12.25" class="pl"> </span>termination of employment covered by the supplemental retirement plan.<br/></p>
+        <p><span id="pl.12.26" class="pl"> </span>(b) The basic contribution deduction must be made in the same manner as other retirement <br/><span id="pl.12.27" class="pl"> </span>deductions are made from the salary of the person under section <a href="/statutes/cite/352.04#stat.352.04.4">352.04, subdivision 4</a>; <br/><a href="/statutes/cite/352D.04#stat.352D.04.2"><span id="pl.12.28" class="pl"> </span>352D.04, subdivision 2</a>; <a href="/statutes/cite/354.42#stat.354.42.2">354.42, subdivision 2</a>; or <a href="/statutes/cite/354A.12">354A.12</a>, whichever applies.<br/></p>
+        <p><span id="pl.12.29" class="pl"> </span>(c) The employer shall also make a contribution to the supplemental retirement plan on <br/><span id="pl.12.30" class="pl"> </span>behalf of covered personnel equal to the salary deduction made under paragraph (a).<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.31" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective January 1, 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.13.1" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 354C.12, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.13.2" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Omitted deductions.</h3>
+        <p>If the employer of personnel covered by the supplemental <br/><span id="pl.13.3" class="pl"> </span>retirement plan as provided in section <a href="/statutes/cite/354C.11">354C.11</a> fails to deduct the member basic contribution <br/><span id="pl.13.4" class="pl"> </span>from the covered employee's salary and a period of less than 60 days from the date on which <br/><span id="pl.13.5" class="pl"> </span>the deduction should have been made has elapsed, the employer must obtain the omitted <br/><span id="pl.13.6" class="pl"> </span>member deduction by an additional payroll deduction during the pay period next following <br/><span id="pl.13.7" class="pl"> </span>the discovery of the omission. If the employer fails to deduct the member basic contribution <br/><span id="pl.13.8" class="pl"> </span>from the covered employee's salary and that omission continues for at least 60 days from <br/><span id="pl.13.9" class="pl"> </span>the date on which the member basic contribution deduction should have been made, the <br/><span id="pl.13.10" class="pl"> </span>employer must pay the amount representing the omitted member basic contribution, and <br/><span id="pl.13.11" class="pl"> </span>the full required omitted employer basic contribution, plus compound interest at <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">an annual <br/><span id="pl.13.12" class="pl"> </span>rate of 8.5 percent</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the applicable annual rate or rates specified in section 356.59, subdivision <br/><span id="pl.13.13" class="pl"> </span>2</ins><span class="sr-only">new text end</span>. The contributions must be made within one year of the date on which the omission was <br/><span id="pl.13.14" class="pl"> </span>discovered.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.15" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.13.16" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 355.01, subdivision 3c, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.13.17" class="pl"> </span>Subd. 3c.</h2>
+        <h3 class="headnote">Higher education employee.</h3>
+        <p>"Higher education employee" means an employee <br/><span id="pl.13.18" class="pl"> </span>of the state of Minnesota who performs services in a Minnesota State Colleges and <br/><span id="pl.13.19" class="pl"> </span>Universities system in a position covered by the individual retirement account plan under <br/><span id="pl.13.20" class="pl"> </span>section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span> and who remains a member of the Teachers Retirement <br/><span id="pl.13.21" class="pl"> </span>Association for purposes of Social Security coverage only.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.13.22" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.13.23" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 355.091, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.13.24" class="pl"> </span>355.091 DIVISION OF RETIREMENT PLANS.<br/></h1>
+      <p><span id="pl.13.25" class="pl"> </span>(a) The public retirement plans enumerated in paragraph (b) must be divided into two <br/><span id="pl.13.26" class="pl"> </span>parts in accordance with section 218(d)(6)(c) of the Social Security Act, with one part <br/><span id="pl.13.27" class="pl"> </span>composed of plan members who did not elect Social Security coverage in the applicable <br/><span id="pl.13.28" class="pl"> </span>referendum and the other part composed of plan members who did elect Social Security <br/><span id="pl.13.29" class="pl"> </span>coverage in the applicable referendum.<br/></p>
+      <p><span id="pl.13.30" class="pl"> </span>(b) The applicable public retirement plans are:<br/></p>
+      <p><span id="pl.13.31" class="pl"> </span>(1) the elective state officers retirement plan;<br/></p>
+      <p><span id="pl.14.1" class="pl"> </span>(2) the judges retirement plan;<br/></p>
+      <p><span id="pl.14.2" class="pl"> </span>(3) the legislators retirement plan;<br/></p>
+      <p><span id="pl.14.3" class="pl"> </span>(4) the Minneapolis Teachers Retirement Fund Association;<br/></p>
+      <p><span id="pl.14.4" class="pl"> </span>(5) the general employees retirement plan of the Public Employees Retirement <br/><span id="pl.14.5" class="pl"> </span>Association;<br/></p>
+      <p><span id="pl.14.6" class="pl"> </span>(6) the St. Paul Teachers Retirement Fund Association; and<br/></p>
+      <p><span id="pl.14.7" class="pl"> </span>(7) the Teachers Retirement Association.<br/></p>
+      <p><span id="pl.14.8" class="pl"> </span>(c) Plan participants and persons electing participation under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/354B.21">354B.21</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 354B.211</ins><span class="sr-only">new text end</span> <br/><span id="pl.14.9" class="pl"> </span>remain members of the Teachers Retirement Association for purposes of Social Security <br/><span id="pl.14.10" class="pl"> </span>coverage only, and remain covered by the applicable agreement entered into under section <br/><a href="/statutes/cite/355.01"><span id="pl.14.11" class="pl"> </span>355.01</a>, but are not members of the Teachers Retirement Association for any other purpose <br/><span id="pl.14.12" class="pl"> </span>while employed in covered employment.<br/></p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.14.13" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section repealer" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.14.14" class="pl"> </span>Sec. 19. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.14.15" class="pl"> </span>Minnesota Statutes 2018, sections 354B.20, subdivision 8; and 354B.21, subdivisions <br/><span id="pl.14.16" class="pl"> </span>1, 1a, 2, 3, 3a, 3b, 4, 5, 6, and 7,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.14.17" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-4571</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">354B.20 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Faculty.</h3>
+          <p>"Faculty" means an employment position that meets the definition of either section <a href="/statutes/cite/354.05#stat.354.05.2">354.05, subdivision 2</a>, or <a href="/statutes/cite/354A.011#stat.354A.011.27">354A.011, subdivision 27</a>.</p>
+        </div>
+        <h1 class="shn">354B.21 COVERAGE.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Eligibility.</h3>
+          <p>The following persons are eligible to have coverage by the individual retirement account plan or coverage by another plan as further specified in this section:</p>
+          <p>(1) employees of the board who are employed as faculty in an employment classification included in the state university instructional unit or the state college instructional unit under section <a href="/statutes/cite/179A.10#stat.179A.10.2">179A.10, subdivision 2</a>;</p>
+          <p>(2) the chancellor and employees of the board in eligible unclassified administrative positions;</p>
+          <p>(3) the employees in eligible unclassified administrative positions in the state universities;</p>
+          <p>(4) the employees in eligible unclassified administrative positions in the technical colleges; and</p>
+          <p>(5) the employees in eligible unclassified administrative positions of the Minnesota Office of Higher Education or of the community colleges.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 1a.</h2>
+          <h3 class="headnote">Required notice; counseling.</h3>
+          <p>(a) No later than 90 days before the end of any applicable election period specified in this section, the employer must provide to a person beginning work in a position subject to this section for which an option to elect alternative retirement plan coverage is authorized the following information:</p>
+          <p>(1) the default retirement coverage;</p>
+          <p>(2) election procedures, if applicable, for electing coverage other than the default coverage; and</p>
+          <p>(3) the website and the telephone number for the plan providing default coverage and comparable information for the plan which the person is eligible to elect.</p>
+          <p>(b) The election of coverage forms must include a certification statement that the employee has received and reviewed materials on the optional coverage and the default coverage prior to making the election.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Coverage; election.</h3>
+          <p>(a) An eligible person employed by the board has the default coverage specified in subdivision 3, or other subdivisions of this section, whichever is applicable, and retains that coverage for the period of covered employment unless a timely election to change that coverage is made as specified in this section.</p>
+          <p>(b) An eligible person under subdivision 3, paragraph (b) or (c), is authorized to elect prospective Teachers Retirement Association plan coverage.</p>
+          <p>(c) An eligible person under subdivision 3, paragraph (d), is authorized to elect prospective coverage by the plan established by this chapter.</p>
+          <p>(d) The election under paragraph (a) must be made within one year of commencing eligible Minnesota State Colleges and Universities system employment. If an election is not made within the specified election period due to a termination of Minnesota State Colleges and Universities system employment, an election may be made within 90 days of returning to eligible Minnesota State Colleges and Universities system employment. Except as specified in paragraph (f), all elections are irrevocable.</p>
+          <p>(e) Except as provided in paragraph (f), a purchase of service credit in the Teachers Retirement Association plan for any period or periods of Minnesota State Colleges and Universities system employment occurring before the election under this section is prohibited.</p>
+          <p>(f) Notwithstanding other paragraphs in this subdivision, a faculty member who is a member of the individual retirement account plan may elect to transfer retirement coverage to the teachers retirement plan within one year of the faculty member first achieving tenure or its equivalent at a Minnesota state college or university. The faculty member electing Teachers Retirement Association coverage under this paragraph must purchase service credit in the Teachers Retirement Association for the entire period of time covered under the individual retirement account plan and the purchase payment amount must be determined under section <a href="/statutes/cite/356.551">356.551</a>. The Teachers Retirement Association may charge a faculty member transferring coverage a reasonable fee to cover the costs associated with computing the actuarial cost of purchasing service credit and making the transfer. A faculty member transferring from the individual retirement account plan to the Teachers Retirement Association may use any balances to the credit of the faculty member in the individual retirement account plan, any balances to the credit of the faculty member in the higher education supplemental retirement plan established under chapter 354C, or any source specified in section <a href="/statutes/cite/356.441#stat.356.441.1">356.441, subdivision 1</a>, to purchase the service credit in the Teachers Retirement Association. If the total amount of payments under this paragraph are less than the total purchase payment amount under section <a href="/statutes/cite/356.551">356.551</a>, the payment amounts must be refunded to the applicable source.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Default coverage.</h3>
+          <p class="in">(a) Prior to making an election under subdivision 2, or if an eligible person fails to elect coverage by the plan under subdivision 2 or if the person fails to make a timely election, the coverage specified in this subdivision applies.</p>
+          <p>(b) If an eligible person is employed by the board before July 1, 2011, in an eligible unclassified administrative position or in a faculty position in a technical college, community college, or state university, the retirement coverage is by the plan established by this chapter, unless otherwise specified in this section.</p>
+          <p>(c) An eligible person described in paragraph (b), except that first employment by the board is on or after July 1, 2011, has retirement coverage by the plan established by this chapter if the eligible person has no:</p>
+          <p>(1) allowable service credit in any plan listed in section <a href="/statutes/cite/356.30#stat.356.30.3">356.30, subdivision 3</a>; or</p>
+          <p>(2) prior employment covered by the state unclassified employees retirement program under chapter 352D.</p>
+          <p>(d) An eligible person described in paragraph (c) has retirement coverage by the Teachers Retirement Association if the person has:</p>
+          <p>(1) prior employment covered by the state unclassified employees retirement program under chapter 352D and has not withdrawn or transferred assets from that account; or</p>
+          <p>(2) allowable service credit in a plan listed in section <a href="/statutes/cite/356.30#stat.356.30.3">356.30, subdivision 3</a>.</p>
+          <p>(e) To ensure that coverage is provided by the proper plan, the employee must certify to the board the existence of any service credit in any plan listed in section <a href="/statutes/cite/356.30">356.30</a>, subdivision 3, or whether the person retains a state unclassified employees retirement program account. If an employee fails to correctly certify prior membership in a plan or the existence of an unclassified program account, the Minnesota State Colleges and Universities system and its board shall be held harmless, and notwithstanding any law to the contrary, any resulting cost or financial liability becomes the employee's responsibility.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 3a.</h2>
+          <h3 class="headnote">Plan coverage and election; certain past service technical college faculty.</h3>
+          <p>(a) Notwithstanding subdivision 3, if an employee of the board was employed in a faculty position in a technical college on June 30, 1997, with coverage by the Teachers Retirement Association, the employee retains that coverage. If the employee was a technical college faculty member on June 30, 1995, covered by a first class city teacher retirement fund established under chapter 354A, the retirement coverage continues with the St. Paul Teachers Retirement Fund Association, whichever is applicable. If the person was a technical college faculty member on June 30, 1995, covered by the former Minneapolis Teachers Retirement Fund Association or the former Duluth Teachers Retirement Fund Association, the Teachers Retirement Association shall provide coverage.</p>
+          <p>(b) An employee under paragraph (a) who has coverage by the St. Paul Teachers Retirement Fund Association retains that coverage for the duration of the person's employment by the board unless, within one year of a change in employment within the Minnesota State Colleges and Universities system, the person elects the individual retirement account plan for all future employment by the board. The election is irrevocable.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 3b.</h2>
+          <h3 class="headnote">Coverage of certain former technical college faculty members.</h3>
+          <p>A person who was employed as a teacher by a technical college before July 1, 1995, and who subsequently is reclassified into a different employment position while continuing to perform the same or essentially the same employment duties and consequently shifts from the technical college instructional collective bargaining unit to another state collective bargaining unit retains coverage by the Teachers Retirement Association or the applicable first class city teachers retirement fund association, whichever applies.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Coverage in the event of acting, interim, or temporary appointments.</h3>
+          <p>(a) A person previously employed by the board and subsequently appointed by the board to an acting, interim, or temporary faculty or eligible unclassified administrative position by the board retains the retirement coverage that the person had in the prior board position. If the participant's status becomes permanent, the participant has the option to make an election of retirement coverage appropriate to the retirement plan in which the employment position should have retirement coverage consistent with subdivision 2.</p>
+          <p>(b) A person who is appointed to an acting, interim, or temporary faculty position by the board and who was not employed in a faculty position by the board immediately before that appointment must elect coverage as provided in subdivision 2.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Payment for certain prior uncovered service.</h3>
+          <p>(a) A person employed in a faculty position or in an eligible unclassified administrative position by the board who was initially excluded from participation in the individual retirement account plan coverage, who was not covered by any other Minnesota public pension plan for that service, and who is subsequently eligible to participate in the individual retirement account plan may make member contributions for that period of prior uncovered teaching employment or eligible unclassified administrative employment with the board.</p>
+          <p>(b) The member contributions for prior uncovered board service are the amount that the person would have paid if the prior service had been covered employment. The payment must be made to the individual retirement account plan administrator and may be made only by payroll deduction. The payment must be made by the later of:</p>
+          <p>(1) 45 days of the start of covered employment; or</p>
+          <p>(2) the end of the fiscal year in which covered employment began.</p>
+          <p>(c) The board must contribute an amount to match any contribution made by a plan participant under this subdivision.</p>
+          <p>(d) Payments of contributions for prior uncovered board service under this subdivision must be invested in the same manner as the regular contributions made by or on behalf of the plan participant.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Continuation of coverage.</h3>
+          <p>Except as otherwise specified in this section, once a person is employed in a position that qualifies for participation in the individual retirement account plan and elects to participate in the plan, all subsequent service by the person as a faculty member or in an eligible unclassified administrative position employed by the board or other employing unit is covered by the individual retirement account plan.</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Coverage; certain part-time employees.</h3>
+          <p>A person employed in a part-time faculty position or in a part-time eligible unclassified administrative position who does not meet the definition of covered employment under section <a href="/statutes/cite/354B.20">354B.20</a>, subdivision 4, because the employment does not meet the threshold required under that provision, must certify prior membership in the Teachers Retirement Association to the Minnesota State Colleges and Universities system. If the certification is incorrect, the employee, and not the employer, is required to pay interest on the employee and employer contributions, and, if applicable, on the employer additional contributions to the Teachers Retirement Association under section <a href="/statutes/cite/354.52#stat.354.52.4">354.52, subdivision 4</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

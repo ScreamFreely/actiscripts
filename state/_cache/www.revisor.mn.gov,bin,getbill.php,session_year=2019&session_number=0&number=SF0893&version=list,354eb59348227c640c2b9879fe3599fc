@@ -1,0 +1,1451 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:00:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 893 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 893</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 02/07/2019 02:11pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF0893&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF0893&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF0893&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF893&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF893&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 02/05/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0893&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0893&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <br/>
+    <var class="ln">3.6</var>
+    <br/>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <br/>
+    <var class="ln">3.15</var>
+    <br/>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <br/>
+    <var class="ln">4.12</var>
+    <br/>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <br/>
+    <var class="ln">4.31</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">5.33</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <br/>
+    <var class="ln">6.15</var>
+    <br/>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <br/>
+    <var class="ln">6.23</var>
+    <br/>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <br/>
+    <var class="ln">6.28</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to taxation; property; repealing the Iron Range fiscal disparities program;<br/> <span id="pl.1.3" class="pl"> </span>amending Minnesota Statutes 2018, sections 134.34, subdivision 4; 270C.89, <br/><span id="pl.1.4" class="pl"> </span>subdivision 2; 273.1325, subdivision 1; 278.14, subdivision 1; 469.177, subdivision <br/><span id="pl.1.5" class="pl"> </span>3; 477A.011, subdivision 27; repealing Minnesota Statutes 2018, sections 276A.01, <br/><span id="pl.1.6" class="pl"> </span>subdivisions 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17; 276A.02; 276A.03; <br/><span id="pl.1.7" class="pl"> </span>276A.04; 276A.05; 276A.06; 276A.07; 276A.08; 276A.09.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.8" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 134.34, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.10" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Limitation.</h3>
+        <p class="in">(a) For calendar year 2010 and later, regional library basic system <br/><span id="pl.1.11" class="pl"> </span>support aid shall not be provided to a regional public library system for a participating city <br/><span id="pl.1.12" class="pl"> </span>or county which decreases the dollar amount provided for support for operating purposes <br/><span id="pl.1.13" class="pl"> </span>of public library service below the amount provided by it for the second, or third preceding <br/><span id="pl.1.14" class="pl"> </span>year, whichever is less. For purposes of this subdivision and subdivision 1, any funds <br/><span id="pl.1.15" class="pl"> </span>provided under section <a href="/statutes/cite/473.757#stat.473.757.2">473.757, subdivision 2</a>, for extending library hours of operation <br/><span id="pl.1.16" class="pl"> </span>shall not be considered amounts provided by a city or county for support for operating <br/><span id="pl.1.17" class="pl"> </span>purposes of public library service. This subdivision shall not apply to participating cities or <br/><span id="pl.1.18" class="pl"> </span>counties where the adjusted net tax capacity of that city or county has decreased, if the dollar <br/><span id="pl.1.19" class="pl"> </span>amount of the reduction in support is not greater than the dollar amount by which support <br/><span id="pl.1.20" class="pl"> </span>would be decreased if the reduction in support were made in direct proportion to the decrease <br/><span id="pl.1.21" class="pl"> </span>in adjusted net tax capacity.<br/></p>
+        <p><span id="pl.1.22" class="pl"> </span>(b) For calendar year 2009 and later, in any calendar year in which a city's or county's <br/><span id="pl.1.23" class="pl"> </span>aid under sections <a href="/statutes/cite/477A.011">477A.011</a> to <a href="/statutes/cite/477A.014">477A.014</a> or credit reimbursement under section <a href="/statutes/cite/273.1384">273.1384</a> <br/><span id="pl.2.1" class="pl"> </span>is reduced after the city or county has certified its levy payable in that year, it may reduce <br/><span id="pl.2.2" class="pl"> </span>its local support by the lesser of:<br/></p>
+        <p><span id="pl.2.3" class="pl"> </span>(1) ten percent; or<br/></p>
+        <p><span id="pl.2.4" class="pl"> </span>(2) a percent equal to the ratio of the aid and credit reimbursement reductions to the <br/><span id="pl.2.5" class="pl"> </span>city's or county's revenue base, based on aids certified for the current calendar year. For <br/><span id="pl.2.6" class="pl"> </span>calendar year 2009 only, the reduction under this paragraph shall be based on 2008 aid and <br/><span id="pl.2.7" class="pl"> </span>credit reimbursement reductions under the December 2008 unallotment, as well as any aid <br/><span id="pl.2.8" class="pl"> </span>and credit reimbursement reductions in calendar year 2009. For pay 2009 only, the <br/><span id="pl.2.9" class="pl"> </span>commissioner of revenue will calculate the reductions under this paragraph and certify them <br/><span id="pl.2.10" class="pl"> </span>to the commissioner of education within 15 days of May 17, 2009.<br/></p>
+        <p><span id="pl.2.11" class="pl"> </span>(c) For taxes payable in 2010 and later, in any payable year in which the total amounts <br/><span id="pl.2.12" class="pl"> </span>certified for city or county aids under sections <a href="/statutes/cite/477A.011">477A.011</a> to <a href="/statutes/cite/477A.014">477A.014</a> are less than the total <br/><span id="pl.2.13" class="pl"> </span>amounts paid under those sections in the previous calendar year, a city or county may reduce <br/><span id="pl.2.14" class="pl"> </span>its local support by the lesser of:<br/></p>
+        <p><span id="pl.2.15" class="pl"> </span>(1) ten percent; or<br/></p>
+        <p><span id="pl.2.16" class="pl"> </span>(2) a percent equal to the ratio of:<br/></p>
+        <p><span id="pl.2.17" class="pl"> </span>(i) the difference between (A) the sum of the aid it was paid under sections <a href="/statutes/cite/477A.011 ">477A.011 <br/></a><span id="pl.2.18" class="pl"> </span>to <a href="/statutes/cite/477A.014">477A.014</a> and the credit reimbursement it received under section <a href="/statutes/cite/273.1384 ">273.1384 </a>in the previous <br/><span id="pl.2.19" class="pl"> </span>calendar year and (B) the sum of the aid it is certified to be paid in the current calendar year <br/><span id="pl.2.20" class="pl"> </span>under sections <a href="/statutes/cite/477A.011">477A.011</a> to <a href="/statutes/cite/477A.014">477A.014</a> and the credit reimbursement estimated to be paid <br/><span id="pl.2.21" class="pl"> </span>under section <a href="/statutes/cite/273.1384">273.1384</a>; to<br/></p>
+        <p><span id="pl.2.22" class="pl"> </span>(ii) its revenue base for the previous year, based on aids actually paid in the previous <br/><span id="pl.2.23" class="pl"> </span>calendar year. The commissioner of revenue shall calculate the percent aid cut for each <br/><span id="pl.2.24" class="pl"> </span>county and city under this paragraph and certify the percentage cuts to the commissioner <br/><span id="pl.2.25" class="pl"> </span>of education by August 1 of the year prior to the year in which the reduced aids and credit <br/><span id="pl.2.26" class="pl"> </span>reimbursements are to be paid. The percentage of reduction related to reductions to credit <br/><span id="pl.2.27" class="pl"> </span>reimbursements under section <a href="/statutes/cite/273.1384">273.1384</a> shall be based on the best estimation available as <br/><span id="pl.2.28" class="pl"> </span>of July 30.<br/></p>
+        <p><span id="pl.2.29" class="pl"> </span>(d) Notwithstanding paragraph (a), (b), or (c), no city or county shall reduce its support <br/><span id="pl.2.30" class="pl"> </span>for public libraries below the minimum level specified in subdivision 1.<br/></p>
+        <p><span id="pl.2.31" class="pl"> </span>(e) For purposes of this subdivision, "revenue base" means the sum of:<br/></p>
+        <p><span id="pl.3.1" class="pl"> </span>(1) its levy for taxes payable in the current calendar year, including the levy on the fiscal <br/><span id="pl.3.2" class="pl"> </span>disparities distribution under section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/276A.06#stat.276A.06.3">276A.06, subdivision 3</a>, clause (1), or</span><span class="sr-only">deleted text end</span> <a href="/statutes/cite/473F.08#stat.473F.08.3">473F.08, <br/><span id="pl.3.3" class="pl"> </span>subdivision 3</a>, paragraph (a);<br/></p>
+        <p><span id="pl.3.4" class="pl"> </span>(2) its aid under sections <a href="/statutes/cite/477A.011">477A.011</a> to <a href="/statutes/cite/477A.014">477A.014</a> in the current calendar year; and<br/></p>
+        <p><span id="pl.3.5" class="pl"> </span>(3) its taconite aid in the current calendar year under sections <a href="/statutes/cite/298.28">298.28</a> and <a href="/statutes/cite/298.282">298.282</a>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.6" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.3.7" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 270C.89, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.3.8" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Final report.</h3>
+        <p>The final abstract of assessments after adjustments by the State <br/><span id="pl.3.9" class="pl"> </span>Board of Equalization and inclusion of any omitted property shall be submitted to the <br/><span id="pl.3.10" class="pl"> </span>commissioner on or before September 1 of each calendar year. The final abstract must <br/><span id="pl.3.11" class="pl"> </span>separately report the captured tax capacity of tax increment financing districts under section <br/><a href="/statutes/cite/469.177#stat.469.177.2"><span id="pl.3.12" class="pl"> </span>469.177, subdivision 2</a>, the areawide net tax capacity contribution values determined under <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.13" class="pl"> </span>sections <a href="/statutes/cite/276A.05#stat.276A.05.1">276A.05, subdivision 1</a>, and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> section</ins><span class="sr-only">new text end</span> <a href="/statutes/cite/473F.07#stat.473F.07.1">473F.07, subdivision 1</a>, and the value subject <br/><span id="pl.3.14" class="pl"> </span>to the power line credit under section <a href="/statutes/cite/273.42">273.42</a>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.15" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.3.16" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 273.1325, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.3.17" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Computation.</h3>
+        <p class="in">The Department of Revenue must annually conduct an <br/><span id="pl.3.18" class="pl"> </span>assessment/sales ratio study of the taxable property in each county, city, town, and school <br/><span id="pl.3.19" class="pl"> </span>district in accordance with the procedures in subdivisions 2 and 3. Based upon the results <br/><span id="pl.3.20" class="pl"> </span>of this assessment/sales ratio study, the Department of Revenue must determine an equalized <br/><span id="pl.3.21" class="pl"> </span>net tax capacity for the various classes of taxable property in each taxing district, the <br/><span id="pl.3.22" class="pl"> </span>aggregate of which is designated as the adjusted net tax capacity. The adjusted net tax <br/><span id="pl.3.23" class="pl"> </span>capacity must be reduced by the captured tax capacity of tax increment districts under section <br/><a href="/statutes/cite/469.177#stat.469.177.2"><span id="pl.3.24" class="pl"> </span>469.177, subdivision 2</a>, fiscal disparities contribution tax capacities under <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">sections <a href="/statutes/cite/276A.06">276A.06</a> <br/><span id="pl.3.25" class="pl"> </span>and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> section</ins><span class="sr-only">new text end</span> <a href="/statutes/cite/473F.08">473F.08</a>, and the tax capacity of transmission lines required to be subtracted <br/><span id="pl.3.26" class="pl"> </span>from the local tax base under section <a href="/statutes/cite/273.425">273.425</a>; and increased by fiscal disparities distribution <br/><span id="pl.3.27" class="pl"> </span>tax capacities under <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">sections <a href="/statutes/cite/276A.06">276A.06</a> and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> section</ins><span class="sr-only">new text end</span> <a href="/statutes/cite/473F.08">473F.08</a>. The adjusted net tax capacities <br/><span id="pl.3.28" class="pl"> </span>shall be determined using the net tax capacity percentages in effect for the assessment year <br/><span id="pl.3.29" class="pl"> </span>following the assessment year of the study. The Department of Revenue must make whatever <br/><span id="pl.3.30" class="pl"> </span>estimates are necessary to account for changes in the classification system. The Department <br/><span id="pl.3.31" class="pl"> </span>of Revenue may incur the expense necessary to make the determinations. The commissioner <br/><span id="pl.3.32" class="pl"> </span>of revenue may reimburse any county or governmental official for requested services <br/><span id="pl.4.1" class="pl"> </span>performed in ascertaining the adjusted net tax capacity. On or before March 15 annually, <br/><span id="pl.4.2" class="pl"> </span>the Department of Revenue shall file with the chair of the Tax Committee of the house of <br/><span id="pl.4.3" class="pl"> </span>representatives and the chair of the Committee on Taxes and Tax laws of the senate a report <br/><span id="pl.4.4" class="pl"> </span>of adjusted net tax capacities for school districts. On or before June 30 annually, the <br/><span id="pl.4.5" class="pl"> </span>Department of Revenue shall file its final report on the adjusted net tax capacities for school <br/><span id="pl.4.6" class="pl"> </span>districts established by the previous year's assessments and the current year's net tax capacity <br/><span id="pl.4.7" class="pl"> </span>percentages with the commissioner of education and each county auditor for those school <br/><span id="pl.4.8" class="pl"> </span>districts for which the auditor has the responsibility for determination of local tax rates. A <br/><span id="pl.4.9" class="pl"> </span>copy of the report so filed shall be mailed to the clerk of each school district involved and <br/><span id="pl.4.10" class="pl"> </span>to the county assessor or supervisor of assessments of the county or counties in which each <br/><span id="pl.4.11" class="pl"> </span>school district is located.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.12" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.4.13" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 278.14, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.4.14" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Applicability.</h3>
+        <p>A county must pay a refund of a mistakenly billed tax as <br/><span id="pl.4.15" class="pl"> </span>provided in this section. As used in this section, "mistakenly billed tax" means an amount <br/><span id="pl.4.16" class="pl"> </span>of property tax that was billed, to the extent the amount billed exceeds the accurate tax <br/><span id="pl.4.17" class="pl"> </span>amount due to a misclassification of the owner's property under section <a href="/statutes/cite/273.13">273.13</a> or a <br/><span id="pl.4.18" class="pl"> </span>mathematical error in the calculation of the tax on the owner's property, together with any <br/><span id="pl.4.19" class="pl"> </span>penalty or interest paid on that amount. This section applies only to taxes payable in the <br/><span id="pl.4.20" class="pl"> </span>current year and the two prior years. As used in this section, "mathematical error" is limited <br/><span id="pl.4.21" class="pl"> </span>to an error in:<br/></p>
+        <p><span id="pl.4.22" class="pl"> </span>(1) converting the market value of a property to tax capacity or to a referendum market <br/><span id="pl.4.23" class="pl"> </span>value;<br/></p>
+        <p><span id="pl.4.24" class="pl"> </span>(2) application of the tax rate as computed by the auditor under sections <a href="/statutes/cite/275.08#stat.275.08.1, 1c, a 1">275.08, <br/><span id="pl.4.25" class="pl"> </span>subdivisions 1b, 1c, and 1d</a>; <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/276A.06">276A.06</a>, subdivisions 4 and 5;</span><span class="sr-only">deleted text end</span> and <a href="/statutes/cite/473F.07">473F.07</a>, subdivisions 4 <br/><span id="pl.4.26" class="pl"> </span>and 5, to the property's tax capacity or referendum market value; or<br/></p>
+        <p><span id="pl.4.27" class="pl"> </span>(3) calculation of or eligibility for a credit.<br/></p>
+        <p><span id="pl.4.28" class="pl"> </span>The remedy provided under this section does not apply to a misclassification under <br/><span id="pl.4.29" class="pl"> </span>section <a href="/statutes/cite/273.13">273.13</a> that is due to the failure of the property owner to apply for the correct <br/><span id="pl.4.30" class="pl"> </span>classification as required by law.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.4.31" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.5.1" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 469.177, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.5.2" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Tax increment, relationship to <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">chapters 276A and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> chapter</ins><span class="sr-only">new text end</span> 473F.</h3>
+        <p>(a) Unless <br/><span id="pl.5.3" class="pl"> </span>the governing body elects pursuant to paragraph (b) the following method of computation <br/><span id="pl.5.4" class="pl"> </span>shall apply to a district:<br/></p>
+        <p><span id="pl.5.5" class="pl"> </span>(1) The original net tax capacity and the current net tax capacity shall be determined <br/><span id="pl.5.6" class="pl"> </span>before the application of the fiscal disparity provisions of chapter <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">276A or</span><span class="sr-only">deleted text end</span> 473F. Where the <br/><span id="pl.5.7" class="pl"> </span>original net tax capacity is equal to or greater than the current net tax capacity, there is no <br/><span id="pl.5.8" class="pl"> </span>captured net tax capacity and no tax increment determination. Where the original net tax <br/><span id="pl.5.9" class="pl"> </span>capacity is less than the current net tax capacity, the difference between the original net tax <br/><span id="pl.5.10" class="pl"> </span>capacity and the current net tax capacity is the captured net tax capacity. This amount less <br/><span id="pl.5.11" class="pl"> </span>any portion thereof which the authority has designated, in its tax increment financing plan, <br/><span id="pl.5.12" class="pl"> </span>to share with the local taxing districts is the retained captured net tax capacity of the authority.<br/></p>
+        <p><span id="pl.5.13" class="pl"> </span>(2) The county auditor shall exclude the retained captured net tax capacity of the authority <br/><span id="pl.5.14" class="pl"> </span>from the net tax capacity of the local taxing districts in determining local taxing district tax <br/><span id="pl.5.15" class="pl"> </span>rates. The local tax rates so determined are to be extended against the retained captured net <br/><span id="pl.5.16" class="pl"> </span>tax capacity of the authority as well as the net tax capacity of the local taxing districts. The <br/><span id="pl.5.17" class="pl"> </span>tax generated by the extension of the lesser of (A) the local taxing district tax rates or (B) <br/><span id="pl.5.18" class="pl"> </span>the original local tax rate to the retained captured net tax capacity of the authority is the tax <br/><span id="pl.5.19" class="pl"> </span>increment of the authority.<br/></p>
+        <p><span id="pl.5.20" class="pl"> </span>(b) The following method of computation applies to any other district for which the <br/><span id="pl.5.21" class="pl"> </span>governing body, by resolution approving the tax increment financing plan pursuant to section <br/><a href="/statutes/cite/469.175#stat.469.175.3"><span id="pl.5.22" class="pl"> </span>469.175, subdivision 3</a>, elects:<br/></p>
+        <p><span id="pl.5.23" class="pl"> </span>(1) The original net tax capacity shall be determined before the application of the fiscal <br/><span id="pl.5.24" class="pl"> </span>disparity provisions of chapter <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">276A or</span><span class="sr-only">deleted text end</span> 473F. The current net tax capacity shall exclude <br/><span id="pl.5.25" class="pl"> </span>any fiscal disparity commercial-industrial net tax capacity increase between the original <br/><span id="pl.5.26" class="pl"> </span>year and the current year multiplied by the fiscal disparity ratio determined pursuant to <br/><span id="pl.5.27" class="pl"> </span>section <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/276A.06#stat.276A.06.7">276A.06, subdivision 7</a>, or</span><span class="sr-only">deleted text end</span> <a href="/statutes/cite/473F.08#stat.473F.08.6">473F.08, subdivision 6</a>. Where the original net tax <br/><span id="pl.5.28" class="pl"> </span>capacity is equal to or greater than the current net tax capacity, there is no captured net tax <br/><span id="pl.5.29" class="pl"> </span>capacity and no tax increment determination. Where the original net tax capacity is less <br/><span id="pl.5.30" class="pl"> </span>than the current net tax capacity, the difference between the original net tax capacity and <br/><span id="pl.5.31" class="pl"> </span>the current net tax capacity is the captured net tax capacity. This amount less any portion <br/><span id="pl.5.32" class="pl"> </span>thereof which the authority has designated, in its tax increment financing plan, to share with <br/><span id="pl.5.33" class="pl"> </span>the local taxing districts is the retained captured net tax capacity of the authority.<br/></p>
+        <p><span id="pl.6.1" class="pl"> </span>(2) The county auditor shall exclude the retained captured net tax capacity of the authority <br/><span id="pl.6.2" class="pl"> </span>from the net tax capacity of the local taxing districts in determining local taxing district tax <br/><span id="pl.6.3" class="pl"> </span>rates. The local tax rates so determined are to be extended against the retained captured net <br/><span id="pl.6.4" class="pl"> </span>tax capacity of the authority as well as the net tax capacity of the local taxing districts. The <br/><span id="pl.6.5" class="pl"> </span>tax generated by the extension of the lesser of (A) the local taxing district tax rates or (B) <br/><span id="pl.6.6" class="pl"> </span>the original local tax rate to the retained captured net tax capacity of the authority is the tax <br/><span id="pl.6.7" class="pl"> </span>increment of the authority.<br/></p>
+        <p><span id="pl.6.8" class="pl"> </span>(3) An election by the governing body pursuant to paragraph (b) shall be submitted to <br/><span id="pl.6.9" class="pl"> </span>the county auditor by the authority at the time of the request for certification pursuant to <br/><span id="pl.6.10" class="pl"> </span>subdivision 1.<br/></p>
+        <p><span id="pl.6.11" class="pl"> </span>(c) The method of computation of tax increment applied to a district pursuant to paragraph <br/><span id="pl.6.12" class="pl"> </span>(a) or (b) shall remain the same for the duration of the district, except that the governing <br/><span id="pl.6.13" class="pl"> </span>body may elect to change its election from the method of computation in paragraph (a) to <br/><span id="pl.6.14" class="pl"> </span>the method in paragraph (b).<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.15" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.6.16" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 477A.011, subdivision 27, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.6.17" class="pl"> </span>Subd. 27.</h2>
+        <h3 class="headnote">Revenue base.</h3>
+        <p>"Revenue base" means the amount levied for taxes payable in <br/><span id="pl.6.18" class="pl"> </span>the previous year, including the levy on the fiscal disparity distribution under section <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/276A.06#stat.276A.06.3"><span id="pl.6.19" class="pl"> </span>276A.06, subdivision 3</a>, clause (1), or</span><span class="sr-only">deleted text end</span> <a href="/statutes/cite/473F.08#stat.473F.08.3">473F.08, subdivision 3</a>, paragraph (a); plus the <br/><span id="pl.6.20" class="pl"> </span>originally certified local government aid in the previous year under sections <a href="/statutes/cite/477A.011">477A.011</a> and <br/><a href="/statutes/cite/477A.013"><span id="pl.6.21" class="pl"> </span>477A.013</a>; and the taconite aids received in the previous year under sections <a href="/statutes/cite/298.28">298.28</a> and <br/><a href="/statutes/cite/298.282"><span id="pl.6.22" class="pl"> </span>298.282</a>.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.23" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section repealer" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.6.24" class="pl"> </span>Sec. 7. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.6.25" class="pl"> </span>Minnesota Statutes 2018, sections 276A.01, subdivisions 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, <br/><span id="pl.6.26" class="pl"> </span>13, 14, 15, 16, and 17; 276A.02; 276A.03; 276A.04; 276A.05; 276A.06; 276A.07; 276A.08; <br/><span id="pl.6.27" class="pl"> </span>and 276A.09,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.28" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning with taxes payable in 2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-2034</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">276A.01 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Applicability.</h3>
+          <p>In sections <a href="/statutes/cite/276A.01">276A.01</a> to <a href="/statutes/cite/276A.09">276A.09</a>, the terms defined in this section have the meanings given them unless the context indicates otherwise.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Area.</h3>
+          <p>"Area" means the territory included within all taconite assistance areas defined in section <a href="/statutes/cite/273.1341">273.1341</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Commercial-industrial property.</h3>
+          <p class="in">"Commercial-industrial property" means the following categories of property, as defined in section <a href="/statutes/cite/273.13">273.13</a>, excluding that portion of the property (i) that may, by law, constitute the tax base for a tax increment pledged pursuant to sections <a href="/statutes/cite/469.174">469.174</a> to <a href="/statutes/cite/469.178">469.178</a>, certification of which was requested prior to May 1, 1996, to the extent and while the tax increment is so pledged; or (ii) that is exempt from taxation under section <a href="/statutes/cite/272.02">272.02</a>:</p>
+          <p class="in">(1) that portion of class 5 property consisting of unmined iron ore and low-grade iron-bearing formations as defined in section <a href="/statutes/cite/273.14">273.14</a>, tools, implements, and machinery, except the portion of high voltage transmission lines, the value of which is deducted from net tax capacity under section <a href="/statutes/cite/273.425">273.425</a>; and</p>
+          <p class="in">(2) that portion of class 3 and class 5 property which is either used or zoned for use for any commercial or industrial purpose, including property that becomes taxable under section 298.25, except for such property which is, or, in the case of property under construction, will when completed be used exclusively for residential occupancy and the provision of services to residential occupants thereof. Property must be considered as used exclusively for residential occupancy only if each of not less than 80 percent of its occupied residential units is, or, in the case of property under construction, will when completed be occupied under an oral or written agreement for occupancy over a continuous period of not less than 30 days.</p>
+          <p class="in">If the classification of property prescribed by section <a href="/statutes/cite/273.13">273.13</a> is modified by legislative amendment, the references in this subdivision are to the successor class or classes of property, or portions thereof, that include the kinds of property designated in this subdivision.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Residential property.</h3>
+          <p>"Residential property" means the following categories of property, as defined in section <a href="/statutes/cite/273.13">273.13</a>, excluding that portion of the property that is exempt from taxation pursuant to section <a href="/statutes/cite/272.02">272.02</a>:</p>
+          <p>(1) class 1a, 1b, and 2a property, limited to the homestead dwelling, a garage, and the one acre of land on which the dwelling is located;</p>
+          <p>(2) that portion of class 3 property used exclusively for residential occupancy; and</p>
+          <p>(3) property valued and assessed under section <a href="/statutes/cite/273.13#stat.273.13.25">273.13, subdivision 25</a>, except for hospitals and property valued and assessed under section <a href="/statutes/cite/273.13#stat.273.13.25">273.13, subdivision 25</a>, paragraph (d), clauses (1) and (3).</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Governmental unit.</h3>
+          <p>"Governmental unit" means a county, city, town, school district, or other taxing unit or body which levies ad valorem taxes in whole or in part within the area.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Administrative auditor.</h3>
+          <p>"Administrative auditor" means the person selected under section <a href="/statutes/cite/276A.02">276A.02</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Population.</h3>
+          <p>"Population" means the most recent estimate of the population of a municipality made by the state demographer and filed with the commissioner of revenue as of July 15 of the year in which a municipality's distribution net tax capacity is calculated. The state demographer shall annually estimate the population of each municipality and, in the case of a municipality which is located partly within and partly without the area, the proportion of the total which resides within the area, and shall file the estimates with the commissioner of revenue.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Municipality.</h3>
+          <p>"Municipality" means a city, town, or township located in whole or part within the area. If a municipality is located partly within and partly without the area, the references in sections <a href="/statutes/cite/276A.01">276A.01</a> to <a href="/statutes/cite/276A.09">276A.09</a> to property or any portion thereof subject to taxation or taxing jurisdiction within the municipality are to the property or portion thereof that is located in that portion of the municipality within the area, except that the fiscal capacity of the municipality must be computed upon the basis of the valuation and population of the entire municipality. A municipality shall be excluded from the area if its municipal comprehensive zoning and planning policies conscientiously exclude most commercial-industrial development, for reasons other than preserving an agricultural use. The commissioner of Iron Range resources and rehabilitation and the commissioner of revenue shall jointly make this determination annually and shall notify those municipalities that are ineligible to participate in the tax base sharing program provided in this chapter for the following year. Before making the determination, the commissioner of Iron Range resources and rehabilitation must consult the Iron Range Resources and Rehabilitation Board.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 9.</h2>
+          <h3 class="headnote">County.</h3>
+          <p>"County" means each county in which a governmental unit is located in whole or in part.</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 10.</h2>
+          <h3 class="headnote">Adjusted market value.</h3>
+          <p class="in">"Adjusted market value" of real and personal property within a municipality means the taxable market value, as defined in section <a href="/statutes/cite/272.03">272.03</a>, of all real and personal property, including the value of manufactured housing, within the municipality, adjusted for sales ratios in a manner similar to the adjustments made to city and town net tax capacities under section <a href="/statutes/cite/273.1325#stat.273.1325.1 t 6">273.1325, subdivisions 1 to 6</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.11">
+          <h2 class="subd_no">Subd. 12.</h2>
+          <h3 class="headnote">Fiscal capacity.</h3>
+          <p class="in">"Fiscal capacity" of a municipality means its adjusted market value, determined as of January 2 of any year, divided by its population, determined as of a date in the same year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.12">
+          <h2 class="subd_no">Subd. 13.</h2>
+          <h3 class="headnote">Average fiscal capacity.</h3>
+          <p class="in">"Average fiscal capacity" of municipalities means the sum of the adjusted market values of all municipalities, determined as of January 2 of any year, divided by the sum of their populations, determined as of a date in the same year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.13">
+          <h2 class="subd_no">Subd. 14.</h2>
+          <h3 class="headnote">Levy.</h3>
+          <p>"Levy" means the amount certified to the county auditor pursuant to chapter 275, less all reductions made by the auditor pursuant to any provision of law in determining the amount to be spread against taxable property.</p>
+        </div>
+        <div class="subd" id="bill.0.0.14">
+          <h2 class="subd_no">Subd. 15.</h2>
+          <h3 class="headnote">Net tax capacity.</h3>
+          <p class="in">"Net tax capacity" means the taxable market value of real and personal property multiplied by its net tax capacity rates in section <a href="/statutes/cite/273.13">273.13</a>.</p>
+        </div>
+        <div class="subd" id="bill.0.0.15">
+          <h2 class="subd_no">Subd. 16.</h2>
+          <h3 class="headnote">Local tax rate.</h3>
+          <p>"Local tax rate" means a governmental unit's levy, including any portion levied against market value under section <a href="/statutes/cite/126C.17#stat.126C.17.10">126C.17, subdivision 10</a>, divided by its net tax capacity.</p>
+        </div>
+        <div class="subd" id="bill.0.0.16">
+          <h2 class="subd_no">Subd. 17.</h2>
+          <h3 class="headnote">School fund allocation.</h3>
+          <p>(a) "School fund allocation" means an amount up to 25 percent of the areawide levy certified by the commissioner of Iron Range resources and rehabilitation, after consultation with the Iron Range Resources and Rehabilitation Board, to be used for the purposes of the Iron Range school consolidation and cooperatively operated school account under section <a href="/statutes/cite/298.28#stat.298.28.7a">298.28, subdivision 7a</a>.</p>
+          <p>(b) The allocation under paragraph (a) shall only be made after the commissioner of Iron Range resources and rehabilitation, after consultation with the Iron Range Resources and Rehabilitation Board, has certified by June 30 that the Iron Range school consolidation and cooperatively operated account has insufficient funds to make payments as authorized under section <a href="/statutes/cite/298.28#stat.298.28.7a">298.28, subdivision 7a</a>.</p>
+        </div>
+        <h1 class="shn">276A.02 ADMINISTRATIVE AUDITOR.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Election.</h3>
+          <p>On or before July 1, 1997, and each subsequent odd-numbered year, the auditors of the counties within the area shall meet at the call of the auditor of St. Louis County and elect from among themselves one auditor to serve as administrative auditor for a period of two years and until a successor is elected. If a majority is unable to agree upon a person to serve as administrative auditor, the commissioner of revenue shall appoint one from among the auditors of the counties in the area. If the administrative auditor ceases to serve as a county auditor within the area during the term for which the administrative auditor was elected or appointed, a successor must be chosen in the manner provided for the original selection to serve for the unexpired term.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Staff; expenses.</h3>
+          <p>The administrative auditor shall utilize the staff and facilities of the auditor's office of the county the administrative auditor serves to perform the functions imposed upon the administrative auditor by sections <a href="/statutes/cite/276A.01">276A.01</a> to <a href="/statutes/cite/276A.09">276A.09</a>. That county shall be reimbursed for the marginal expenses incurred by its county auditor and staff under this section by contributions from each other county in the area in an amount which bears the same proportion to the total expenses that the population of the other county bears to the total population of the area. By February 1 each year, the administrative auditor shall certify the amounts of total expense for the preceding calendar year, and the share of each county, to the treasurer of each other county. Payment must be made by the treasurer of each other county to the treasurer of the county incurring expense by the succeeding March 1.</p>
+        </div>
+        <h1 class="shn">276A.03 NET TAX CAPACITY OF COMMERCIAL-INDUSTRIAL PROPERTY.</h1>
+        <p>By August 5 of 1996 and each subsequent year, the assessors within each county in the area shall determine and certify to the county auditor the net tax capacity in that year of commercial-industrial property subject to taxation within each municipality in the county, determined without regard to section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>. By August 5 of 1996 only, the assessor within each county in the area shall also determine and certify to the county auditor the net tax capacity for the 1995 assessment of commercial-industrial property subject to taxation within each municipality within the county determined without regard to section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>.</p>
+        <h1 class="shn">276A.04 INCREASE IN NET TAX CAPACITY.</h1>
+        <p class="in">By July 15 of 1997 and each subsequent year, the auditor of each county in the area shall determine the amount, if any, by which the net tax capacity determined in the preceding year pursuant to section <a href="/statutes/cite/276A.03">276A.03</a>, of commercial-industrial property subject to taxation within each municipality in the county exceeds the net tax capacity in 1995 of commercial-industrial property subject to taxation within that municipality, including the total net tax capacity of property that becomes taxable under section 298.25. If a municipality is located in two or more counties within the area, the auditors of those counties shall certify the data required by section <a href="/statutes/cite/276A.03">276A.03</a> to the county auditor responsible for allocating the levies of that municipality between or among the affected counties. That county auditor shall determine the amount of the net excess, if any, for the municipality under this section, and certify that amount under section <a href="/statutes/cite/276A.05">276A.05</a>. The increase in total net tax capacity determined by this section must be reduced by the amount of any decreases in the net tax capacity of commercial-industrial property resulting from any court decisions, court-related stipulation agreements, or abatements for a prior year, and only in the amount of such decreases made during the 12-month period ending on May 1 of the current assessment year, where the decreases, if originally reflected in the determination of a prior year's net tax capacity under section <a href="/statutes/cite/276A.03">276A.03</a>, would have resulted in a smaller contribution from the municipality in that year. An adjustment for the decreases shall be made only if the municipality made a contribution in a prior year based on the higher net tax capacity of the commercial-industrial property.</p>
+        <h1 class="shn">276A.05 COMPUTATION OF AREAWIDE TAX BASE.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Areawide net tax capacity.</h3>
+          <p>Each county auditor shall certify the determinations under sections <a href="/statutes/cite/276A.03">276A.03</a> and <a href="/statutes/cite/276A.04">276A.04</a> to the administrative auditor on or before August 1 of each year. The administrative auditor shall determine an amount equal to 40 percent of the sum of the amounts certified pursuant to section <a href="/statutes/cite/276A.04">276A.04</a>. The resulting amount shall be known as the "areawide net tax capacity for ........(year)."</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Population and fiscal capacity certifications.</h3>
+          <p>The commissioner of revenue shall certify to the administrative auditor, on or before August 10 of each year, the population of each municipality for the preceding year, the proportion of that population which resides within the area, the average fiscal capacity of municipalities for the preceding year, and the fiscal capacity of each municipality for the preceding year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Areawide tax base distribution index.</h3>
+          <p>The administrative auditor shall determine, for each municipality, the product of (1) its population, (2) the proportion which the average fiscal capacity of municipalities for the preceding year bears to the fiscal capacity of that municipality for the preceding year. The product shall be the areawide tax base distribution index for that municipality. If a municipality is located partly within and partly without the area, its index is that which is otherwise determined hereunder, multiplied by the proportion which its population residing within the area bears to its total population as of the preceding year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Distribution net tax capacity.</h3>
+          <p>The administrative auditor shall determine the proportion which the index of each municipality bears to the sum of the indices of all municipalities and shall then multiply this proportion in the case of each municipality, by the areawide net tax capacity.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Certification.</h3>
+          <p>The product of the procedure prescribed by subdivision 4 shall be known as the "areawide net tax capacity for ......(year) attributable to ..........(municipality)." The administrative auditor shall certify the product to the auditor of the county in which the municipality is located on or before August 15.</p>
+        </div>
+        <h1 class="shn">276A.06 NET TAX CAPACITY OF GOVERNMENTAL UNIT.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Generally.</h3>
+          <p>The county auditor shall determine the net tax capacity of each governmental unit within the county in the manner prescribed by this section.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Definition.</h3>
+          <p>The net tax capacity of a governmental unit is its net tax capacity as determined in accordance with other provisions of law including section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>, subject to the following adjustments:</p>
+          <p>(1) There must be subtracted from its net tax capacity, in each municipality in which the governmental unit exercises ad valorem taxing jurisdiction, an amount that bears the same proportion to 40 percent of the amount certified in that year pursuant to sections <a href="/statutes/cite/276A.04">276A.04</a> and <a href="/statutes/cite/276A.05">276A.05</a> for the municipality as the total preceding year's net tax capacity of commercial-industrial property which is subject to the taxing jurisdiction of the governmental unit within the municipality, determined without regard to section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>, bears to the total preceding year's net tax capacity of commercial-industrial property within the municipality, determined without regard to section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>.</p>
+          <p>(2) There must be added to its net tax capacity, in each municipality in which the governmental unit exercises ad valorem taxing jurisdiction, an amount which bears the same proportion to the areawide net tax capacity for the year attributable to that municipality as the total preceding year's net tax capacity of residential property which is subject to the taxing jurisdiction of the governmental unit within the municipality bears to the total preceding year's net tax capacity of residential property of the municipality.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Apportionment of levy.</h3>
+          <p>The county auditor shall apportion the levy of each governmental unit in the county in the manner prescribed by this subdivision. The auditor shall:</p>
+          <p>(1) by August 20 of 2014 and each subsequent year, determine the preliminary areawide portion of the levy for each governmental unit by multiplying the local tax rate of the governmental unit for the preceding levy year times the distribution value set forth in subdivision 2, clause (2);</p>
+          <p>(2) by September 5 of 2014 and each subsequent year, determine the areawide portion of the levy for each governmental unit by multiplying the preliminary areawide portion of the levy for each governmental unit times a fraction, the numerator of which is the difference between the sum of the preliminary areawide levies for all governmental units in the area minus the school fund allocation and the denominator is the sum of the preliminary areawide levy for all governmental units in the area; and</p>
+          <p>(3) by September 5 of 2014 and each subsequent year, determine the local portion of the current year's levy by subtracting the resulting amount from clause (1) from the governmental unit's current year's levy.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Tax rate noncommercial property.</h3>
+          <p>In 1997 and subsequent years, the county auditor shall divide that portion of the levy determined pursuant to subdivision 3, clause (2), by the net tax capacity of the governmental unit, taking section <a href="/statutes/cite/469.177#stat.469.177.3">469.177, subdivision 3</a>, into account, less that portion subtracted from net tax capacity pursuant to subdivision 2, clause (1). The resulting rate applies to all taxable property except commercial-industrial property, which must be taxed in accordance with subdivision 7.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Areawide tax rate.</h3>
+          <p>On or before August 25, 1997, and each subsequent year, the county auditor shall certify to the administrative auditor the preliminary portion of the levy of each governmental unit determined pursuant to subdivision 3, clause (1). The administrative auditor shall then determine the areawide tax rate sufficient to yield an amount equal to the sum of the levies from the preliminary areawide net tax capacity. On or before September 1, the administrative auditor shall certify the areawide tax rate to each of the county auditors.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Governmental unit in two or more counties.</h3>
+          <p>If a governmental unit is located in two or more counties, the computations and certifications required by subdivisions 3 to 5 with respect to it must be made by the county auditor who is responsible for allocating its levies between or among the affected counties.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 7.</h2>
+          <h3 class="headnote">Application to commercial-industrial property.</h3>
+          <p>The areawide tax rate determined in accordance with subdivision 5 applies to each commercial-industrial property subject to taxation within a municipality, including property located within any tax increment financing district, as defined in section <a href="/statutes/cite/469.174#stat.469.174.9">469.174, subdivision 9</a>, to that portion of the net tax capacity of the item which bears the same proportion to its total net tax capacity as 40 percent of the amount determined pursuant to sections <a href="/statutes/cite/276A.04">276A.04</a> and <a href="/statutes/cite/276A.05">276A.05</a> is to the amount determined pursuant to section <a href="/statutes/cite/276A.03">276A.03</a>. The rate of taxation determined in accordance with subdivision 4 applies in the taxation of the remainder of the net tax capacity of the item.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Certification of values; payment.</h3>
+          <p>The administrative auditor shall determine for each county the difference between the total levy on distribution value pursuant to subdivision 3, clause (1), including the school fund allocation within the county and the total tax on contribution value pursuant to subdivision 7, within the county. On or before May 16 of each year, the administrative auditor shall certify the differences so determined and the county's portion of the school fund allocation to each county auditor. In addition, the administrative auditor shall certify to those county auditors for whose county the total tax on contribution value exceeds the total levy on distribution value the settlement the county is to make to the other counties of the excess of the total tax on contribution value over the total levy on distribution value in the county. On or before June 15 and November 15 of each year, each county treasurer in a county having a total tax on contribution value in excess of the total levy on distribution value shall pay one-half of the excess to the other counties in accordance with the administrative auditor's certification. On or before June 15 and November 15 of each year, each county treasurer shall pay to the administrative auditor that county's share of the school fund allocation. On or before December 1 of each year, the administrative auditor shall pay the school fund allocation to the commissioner of Iron Range resources and rehabilitation for deposit in the Iron Range school consolidation and cooperatively operated account.</p>
+        </div>
+        <div class="subd" id="bill.0.0.9">
+          <h2 class="subd_no">Subd. 9.</h2>
+          <h3 class="headnote">Fiscal disparities adjustment.</h3>
+          <p>In any year in which the highest classification rate for class 3a property changes from the rate in the previous year, the following adjustments shall be made to the procedures described in sections <a href="/statutes/cite/276A.04">276A.04</a> to <a href="/statutes/cite/276A.06">276A.06</a>:</p>
+          <p>(1) An initial contribution tax capacity shall be determined for each municipality based on the previous year's classification rates.</p>
+          <p>(2) Each jurisdiction's distribution tax capacity shall be determined based upon the areawide tax base determined by summing the tax capacities computed under clause (1) for all municipalities and apportioning the resulting sum pursuant to section <a href="/statutes/cite/276A.05#stat.276A.05.5">276A.05, subdivision 5</a>.</p>
+          <p>(3) Each jurisdiction's distribution levy shall be determined by applying the procedures described in subdivision 3, clause (1), to the distribution tax capacity determined pursuant to clause (2).</p>
+          <p>(4) Each municipality's final contribution tax capacity shall be determined equal to its initial contribution tax capacity multiplied by the ratio of the new highest classification rate for class 3a property to the previous year's highest classification rate for class 3a property.</p>
+          <p>(5) For the purposes of computing education aids and any other state aids requiring the addition of the fiscal disparities distribution tax capacity to the local tax capacity, each municipality's final distribution tax capacity shall be determined equal to its initial distribution tax capacity multiplied by the ratio of the new highest classification rate for class 3a property to the previous year's highest classification rate for class 3a property.</p>
+          <p>(6) The areawide tax rate shall be determined by dividing the sum of the amounts determined in clause (3) by the sum of the values determined in clause (4).</p>
+          <p>(7) The final contribution tax capacity determined in clause (4) shall also be used to determine the portion of each commercial-industrial property's tax capacity subject to the areawide tax rate pursuant to subdivision 7.</p>
+        </div>
+        <div class="subd" id="bill.0.0.10">
+          <h2 class="subd_no">Subd. 10.</h2>
+          <h3 class="headnote">Adjustment of values.</h3>
+          <p class="in">For the purpose of computing fiscal capacity under section <a href="/statutes/cite/276A.01#stat.276A.01.12">276A.01, subdivision 12</a>, a municipality's taxable market value must be adjusted to reflect the reductions to net tax capacity effected by subdivision 2, clause (1), provided that in determining the taxable market value of commercial-industrial property or any class thereof within a municipality, the reduction required by this subdivision is that amount which bears the same proportion to the amount subtracted from the municipality's net tax capacity pursuant to subdivision 2, clause (1), as the taxable market value of commercial-industrial property, or such class thereof, located within the municipality bears to the net tax capacity of commercial-industrial property, or such class thereof, located within the municipality. No adjustment shall be made to taxable market value for the increase in net tax capacity under subdivision 2, clause (2).</p>
+        </div>
+        <h1 class="shn">276A.07 ADJUSTMENTS IN DATES.</h1>
+        <p>If, because of the enactment of any other law, the date by which the commissioner of revenue is required to certify to the county auditors the records of proceedings affecting the net tax capacity of property is advanced to a date earlier than June 30, the dates specified in sections <a href="/statutes/cite/276A.03">276A.03</a> to <a href="/statutes/cite/276A.06">276A.06</a> and <a href="/statutes/cite/276A.08">276A.08</a> may be modified in the years to which the other law applies in the manner and to the extent prescribed by the administrative auditor.</p>
+        <h1 class="shn">276A.08 REASSESSMENTS AND OMITTED PROPERTY.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Reassessment orders.</h3>
+          <p>If the commissioner of revenue orders a reassessment of all or any portion of the property in a municipality other than in the form of a mathematically prescribed adjustment of valuation, or if omitted property is placed upon the tax rolls, and the reassessment has not been completed or the property placed upon the rolls by November 15, the net tax capacity of the affected property must, for purposes of sections <a href="/statutes/cite/276A.02">276A.02</a> to <a href="/statutes/cite/276A.06">276A.06</a>, be determined from the abstracts filed by the county auditor with the commissioner of revenue.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Adjustment of value.</h3>
+          <p>If the reassessment, when completed and incorporated in the commissioner's certification of the net tax capacity of the municipality, or the listing of omitted property, when placed on the rolls, results in an increase in the net tax capacity of commercial-industrial property in the municipality which differs from that used, pursuant to subdivision 1, for purposes of sections <a href="/statutes/cite/276A.02">276A.02</a> to <a href="/statutes/cite/276A.06">276A.06</a>, the increase in the net tax capacity of commercial-industrial property in that municipality in the succeeding year, as otherwise computed under section <a href="/statutes/cite/276A.04">276A.04</a>, must be adjusted in a like amount, by an increase if the reassessment or listing discloses a larger increase than was used for purposes of sections <a href="/statutes/cite/276A.02">276A.02</a> to <a href="/statutes/cite/276A.06">276A.06</a>, or by a decrease if the reassessment or listing discloses a smaller increase than was used for those purposes, provided that no adjustment shall reduce the amount determined under section <a href="/statutes/cite/276A.04">276A.04</a> to an amount less than zero.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Exceptions.</h3>
+          <p>Subdivisions 1 and 2 do not apply to the determination of the tax rate under section <a href="/statutes/cite/276A.06#stat.276A.06.4">276A.06, subdivision 4</a>, or to the determination of the net tax capacity of commercial-industrial property and each item thereof for purposes of section <a href="/statutes/cite/276A.06#stat.276A.06.7">276A.06, subdivision 7</a>.</p>
+        </div>
+        <h1 class="shn">276A.09 CHANGE IN STATUS OF MUNICIPALITY.</h1>
+        <p>If a municipality is dissolved, is consolidated with all or part of another municipality, annexes territory, has a portion of its territory detached from it, or is newly incorporated, the secretary of state shall immediately certify that fact to the commissioner of revenue. The secretary of state shall also certify to the commissioner of revenue the current population of the new, enlarged, or successor municipality, if determined by the chief administrative law judge of the state Office of Administrative Hearings incident to consolidation, annexation, or incorporation proceedings. The population so certified shall govern for purposes of sections <a href="/statutes/cite/276A.01">276A.01</a> to <a href="/statutes/cite/276A.09">276A.09</a> until the state demographer files the first population estimate as of a later date with the commissioner of revenue. If an annexation of unincorporated land occurs without proceedings before the chief administrative law judge of the state Office of Administrative Hearings, the population of the annexing municipality as previously determined shall continue to govern for purposes of sections <a href="/statutes/cite/276A.01">276A.01</a> to <a href="/statutes/cite/276A.09">276A.09</a> until the state demographer files the first population estimate as of a later date with the commissioner of revenue.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

@@ -1,0 +1,1589 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:29:42 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 1063 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 1063</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 07/03/2019 03:17pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF1063&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF1063&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF1063&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF1063&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF1063&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 02/08/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF1063&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF1063&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">1.24</var>
+    <var class="ln">1.25</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <br/>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <br/>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <br/>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <br/>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <br/>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <br/>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <br/>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <br/>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <br/>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">5.1</var>
+    <br/>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <br/>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <br/>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <br/>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <br/>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <br/>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <br/>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <br/>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <br/>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to natural resources; modifying Clean Water Legacy Act; providing for <br/><span id="pl.1.3" class="pl"> </span>coordinated watershed management; amending Minnesota Statutes 2018, sections <br/><span id="pl.1.4" class="pl"> </span>103B.3369, subdivisions 5, 9; 103B.801, subdivisions 2, 5; 114D.15, subdivisions <br/><span id="pl.1.5" class="pl"> </span>7, 11, 13, by adding subdivisions; 114D.20, subdivisions 2, 3, 5, 7, by adding <br/><span id="pl.1.6" class="pl"> </span>subdivisions; 114D.26; 114D.35, subdivisions 1, 3; proposing coding for new law <br/><span id="pl.1.7" class="pl"> </span>in Minnesota Statutes, chapter 114D.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.8" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 103B.3369, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.10" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Financial assistance.</h3>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">A base grant may be awarded to a county that provides <br/><span id="pl.1.11" class="pl"> </span>a match utilizing a water implementation tax or other local source. A water implementation <br/><span id="pl.1.12" class="pl"> </span>tax that a county intends to use as a match to the base grant must be levied at a rate sufficient <br/><span id="pl.1.13" class="pl"> </span>to generate a minimum amount determined by the board.</span><span class="sr-only">deleted text end</span> The board may award <br/><span id="pl.1.14" class="pl"> </span>performance-based<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, watershed-based, or program-based</ins><span class="sr-only">new text end</span> grants <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or other financial assistance <br/></ins><span class="sr-only">new text end</span><span id="pl.1.15" class="pl"> </span>to local units of government that are responsible for implementing elements of applicable <br/><span id="pl.1.16" class="pl"> </span>portions of watershed management plans, comprehensive plans, local water management <br/><span id="pl.1.17" class="pl"> </span>plans, or comprehensive watershed management plans, developed or amended, adopted and <br/><span id="pl.1.18" class="pl"> </span>approved, according to chapter 103B, 103C, or 103D. Upon request by a local government <br/><span id="pl.1.19" class="pl"> </span>unit, the board may also award performance-based grants to local units of government to <br/><span id="pl.1.20" class="pl"> </span>carry out TMDL implementation plans as provided in chapter 114D, if the TMDL <br/><span id="pl.1.21" class="pl"> </span>implementation plan has been incorporated into the local water management plan according <br/><span id="pl.1.22" class="pl"> </span>to the procedures for approving comprehensive plans, watershed management plans, local <br/><span id="pl.1.23" class="pl"> </span>water management plans, or comprehensive watershed management plans under chapter <br/><span id="pl.1.24" class="pl"> </span>103B, 103C, or 103D, or if the TMDL implementation plan has undergone a public review <br/><span id="pl.1.25" class="pl"> </span>process. Notwithstanding section <a href="/statutes/cite/16A.41">16A.41</a>, the board may award performance-based<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, <br/><span id="pl.2.1" class="pl"> </span>watershed-based, or program-based</ins><span class="sr-only">new text end</span> grants <span class="sr-only">new text begin</span><ins style="text-decoration: underline">or other financial assistance </ins><span class="sr-only">new text end</span>on an advanced <br/><span id="pl.2.2" class="pl"> </span>basis<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and may prescribe the amount of local match required</ins><span class="sr-only">new text end</span>. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">The fee authorized in section <br/><a href="/statutes/cite/40A.152"><span id="pl.2.3" class="pl"> </span>40A.152</a> may be used as a local match or as a supplement to state funding to accomplish <br/><span id="pl.2.4" class="pl"> </span>implementation of comprehensive plans, watershed management plans, local water <br/><span id="pl.2.5" class="pl"> </span>management plans, or comprehensive watershed management plans under this chapter and <br/><span id="pl.2.6" class="pl"> </span>chapter 103C or 103D</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The board may enter into intergovernmental agreements to provide <br/><span id="pl.2.7" class="pl"> </span>funding for water management to local governments</ins><span class="sr-only">new text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.2.8" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 103B.3369, subdivision 9, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.2.9" class="pl"> </span>Subd. 9.</h2>
+        <h3 class="headnote"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Performance-based</span><span class="sr-only">deleted text end</span> Criteria.</h3>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline">(a) </ins><span class="sr-only">new text end</span>The board <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">must </ins><span class="sr-only">new text end</span>develop and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">utilize</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> use</ins><span class="sr-only">new text end</span> <br/><span id="pl.2.10" class="pl"> </span>performance-based criteria for local water resources restoration, protection, and management <br/><span id="pl.2.11" class="pl"> </span>programs and projects. The criteria may include but are not limited to science-based <br/><span id="pl.2.12" class="pl"> </span>assessments, organizational capacity, priority resource issues, community outreach and <br/><span id="pl.2.13" class="pl"> </span>support, partnership potential, potential for multiple benefits, and program and project <br/><span id="pl.2.14" class="pl"> </span>delivery efficiency and effectiveness.<br/></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.2.15" class="pl"> </span>(b) Notwithstanding paragraph (a), the board may develop and use eligibility criteria <br/><span id="pl.2.16" class="pl"> </span>for state grants or other financial assistance provided to local governments.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.17" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 103B.801, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.18" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Program purposes.</h3>
+        <p>The purposes of the comprehensive watershed management <br/><span id="pl.2.19" class="pl"> </span>plan program under section <a href="/statutes/cite/103B.101#stat.103B.101.14">103B.101, subdivision 14</a>, paragraph (a), are to:<br/></p>
+        <p><span id="pl.2.20" class="pl"> </span>(1) align local water planning purposes and procedures under this chapter and chapters <br/><span id="pl.2.21" class="pl"> </span>103C and 103D on watershed boundaries to create a systematic, watershed-wide, <br/><span id="pl.2.22" class="pl"> </span>science-based approach to watershed management;<br/></p>
+        <p><span id="pl.2.23" class="pl"> </span>(2) acknowledge and build off existing local government structure, water plan services, <br/><span id="pl.2.24" class="pl"> </span>and local capacity;<br/></p>
+        <p><span id="pl.2.25" class="pl"> </span>(3) incorporate and make use of data and information, including watershed restoration <br/><span id="pl.2.26" class="pl"> </span>and protection strategies under section <a href="/statutes/cite/114D.26">114D.26</a><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, which may serve to fulfill all or some of <br/><span id="pl.2.27" class="pl"> </span>the requirements under chapter 114D</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p><span id="pl.2.28" class="pl"> </span>(4) solicit input and engage experts from agencies, citizens, and stakeholder groups;<br/></p>
+        <p><span id="pl.2.29" class="pl"> </span>(5) focus on implementation of prioritized and targeted actions capable of achieving <br/><span id="pl.2.30" class="pl"> </span>measurable progress; and<br/></p>
+        <p><span id="pl.3.1" class="pl"> </span>(6) serve as a substitute for a comprehensive plan, local water management plan, or <br/><span id="pl.3.2" class="pl"> </span>watershed management plan developed or amended, approved, and adopted, according to <br/><span id="pl.3.3" class="pl"> </span>this chapter or chapter 103C or 103D.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.3.4" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 103B.801, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.3.5" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Timelines; administration.</h3>
+        <p>(a) The board shall develop and adopt, by June <br/><span id="pl.3.6" class="pl"> </span>30, 2016, a transition plan for development, approval, adoption, and coordination of plans <br/><span id="pl.3.7" class="pl"> </span>consistent with section <a href="/statutes/cite/103A.212">103A.212</a>. The transition plan must include a goal of completing <br/><span id="pl.3.8" class="pl"> </span>statewide transition to comprehensive watershed management plans by 2025. The <br/><span id="pl.3.9" class="pl"> </span>metropolitan area may be considered for inclusion in the transition plan.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> The board may <br/><span id="pl.3.10" class="pl"> </span>amend the transition plan no more than once every two years.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.3.11" class="pl"> </span>(b) The board may use the authority under section <a href="/statutes/cite/103B.3369#stat.103B.3369.9">103B.3369, subdivision 9</a>, to support <br/><span id="pl.3.12" class="pl"> </span>development or implementation of a comprehensive watershed management plan under this <br/><span id="pl.3.13" class="pl"> </span>section.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.3.14" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.15, is amended by adding a subdivision to <br/><span id="pl.3.15" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.16" class="pl"> </span>Subd. 3a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Comprehensive local water management plan.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">"Comprehensive local water <br/><span id="pl.3.17" class="pl"> </span>management plan" has the meaning given under section 103B.3363, subdivision 3.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.3.18" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.15, is amended by adding a subdivision to <br/><span id="pl.3.19" class="pl"> </span>read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.3.20" class="pl"> </span>Subd. 3b.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Comprehensive watershed management plan.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">"Comprehensive watershed <br/><span id="pl.3.21" class="pl"> </span>management plan" has the meaning given under section 103B.3363, subdivision 3a.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.3.22" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.15, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.3.23" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Restoration.</h3>
+        <p>"Restoration" means actions<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, including effectiveness monitoring, <br/><span id="pl.3.24" class="pl"> </span>that are</span><span class="sr-only">deleted text end</span> taken to <span class="sr-only">new text begin</span><ins style="text-decoration: underline">pursue, </ins><span class="sr-only">new text end</span>achieve<span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> and maintain water quality standards for impaired waters <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.25" class="pl"> </span>in accordance with a TMDL that has been approved by the United States Environmental <br/><span id="pl.3.26" class="pl"> </span>Protection Agency under federal TMDL requirements</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.3.27" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.15, subdivision 11, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.3.28" class="pl"> </span>Subd. 11.</h2>
+        <h3 class="headnote">TMDL implementation plan.</h3>
+        <p>"TMDL implementation plan" means a <br/><span id="pl.3.29" class="pl"> </span>document detailing restoration <span class="sr-only">new text begin</span><ins style="text-decoration: underline">strategies or </ins><span class="sr-only">new text end</span>activities needed to meet <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the</span><span class="sr-only">deleted text end</span> approved <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">TMDL's</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.3.30" class="pl"> </span>TMDL</ins><span class="sr-only">new text end</span> pollutant load allocations for point and nonpoint sources.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> This could include a <br/><span id="pl.4.1" class="pl"> </span>WRAPS, a comprehensive watershed management plan, a comprehensive local water <br/><span id="pl.4.2" class="pl"> </span>management plan, or another document or strategy that the commissioner of the Pollution <br/><span id="pl.4.3" class="pl"> </span>Control Agency determines to be, in whole or in part, sufficient to provide reasonable <br/><span id="pl.4.4" class="pl"> </span>assurance of achieving applicable water quality standards.<br/></ins><span class="sr-only">new text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.4.5" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.15, subdivision 13, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.4.6" class="pl"> </span>Subd. 13.</h2>
+        <h3 class="headnote">Watershed restoration and protection strategy or WRAPS.</h3>
+        <p>"Watershed <br/><span id="pl.4.7" class="pl"> </span>restoration and protection strategy" or "WRAPS" means a document summarizing scientific <br/><span id="pl.4.8" class="pl"> </span>studies of a major watershed <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">no larger than</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> at approximately</ins><span class="sr-only">new text end</span> a hydrologic unit code 8 <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.9" class="pl"> </span>including the physical, chemical, and biological assessment of the water quality of the <br/><span id="pl.4.10" class="pl"> </span>watershed; identification of impairments and water bodies in need of protection; identification <br/><span id="pl.4.11" class="pl"> </span>of biotic stressors and sources of pollution, both point and nonpoint; TMDLs for the <br/><span id="pl.4.12" class="pl"> </span>impairments; and an implementation table containing</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">scale with </ins><span class="sr-only">new text end</span>strategies <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and actions</span><span class="sr-only">deleted text end</span> <br/><span id="pl.4.13" class="pl"> </span>designed to achieve and maintain water quality standards and goals.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.4.14" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.4.15" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Goals for implementation.</h3>
+        <p>The following goals must guide the implementation <br/><span id="pl.4.16" class="pl"> </span>of this chapter:<br/></p>
+        <p><span id="pl.4.17" class="pl"> </span>(1) to identify impaired waters in accordance with federal TMDL requirements <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">within <br/><span id="pl.4.18" class="pl"> </span>ten years after May 23, 2006,</span><span class="sr-only">deleted text end</span> and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">thereafter</span><span class="sr-only">deleted text end</span> to ensure continuing evaluation of surface <br/><span id="pl.4.19" class="pl"> </span>waters for impairments;<br/></p>
+        <p><span id="pl.4.20" class="pl"> </span>(2) to submit TMDLs to the United States Environmental Protection Agency <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for all <br/><span id="pl.4.21" class="pl"> </span>impaired waters</span><span class="sr-only">deleted text end</span> in a timely manner in accordance with federal TMDL requirements;<br/></p>
+        <p><span id="pl.4.22" class="pl"> </span>(3) to <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">set a reasonable time</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> inform and support strategies</ins><span class="sr-only">new text end</span> for implementing restoration <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.23" class="pl"> </span>of each identified impaired water</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and protection activities in a reasonable time period</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p><span id="pl.4.24" class="pl"> </span>(4)<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> to systematically evaluate waters,</ins><span class="sr-only">new text end</span> to provide assistance and incentives to prevent <br/><span id="pl.4.25" class="pl"> </span>waters from becoming impaired<span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> and to improve the quality of waters that are listed as <br/><span id="pl.4.26" class="pl"> </span>impaired <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">but do not have an approved TMDL addressing the impairment</span><span class="sr-only">deleted text end</span>;<br/></p>
+        <p><span id="pl.4.27" class="pl"> </span>(5) to promptly seek the delisting of waters from the impaired waters list when those <br/><span id="pl.4.28" class="pl"> </span>waters are shown to achieve the designated uses applicable to the waters;<br/></p>
+        <p><span id="pl.4.29" class="pl"> </span>(6) to achieve compliance with federal Clean Water Act requirements in Minnesota;<br/></p>
+        <p><span id="pl.4.30" class="pl"> </span>(7) to support effective measures to prevent the degradation of groundwater according <br/><span id="pl.4.31" class="pl"> </span>to the groundwater degradation prevention goal under section <a href="/statutes/cite/103H.001">103H.001</a>; and<br/></p>
+        <p><span id="pl.5.1" class="pl"> </span>(8) to support effective measures to restore degraded groundwater.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.5.2" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.5.3" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Implementation policies.</h3>
+        <p>The following policies must guide the implementation <br/><span id="pl.5.4" class="pl"> </span>of this chapter:<br/></p>
+        <p><span id="pl.5.5" class="pl"> </span>(1) develop regional <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, multiple pollutant, or</ins><span class="sr-only">new text end</span> watershed TMDLs <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and TMDL <br/><span id="pl.5.6" class="pl"> </span>implementation plans, and TMDLs and TMDL implementation plans for multiple pollutants</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.5.7" class="pl"> </span>or WRAPSs</ins><span class="sr-only">new text end</span>, where reasonable and feasible;<br/></p>
+        <p><span id="pl.5.8" class="pl"> </span>(2) maximize use of available organizational, technical, and financial resources to perform <br/><span id="pl.5.9" class="pl"> </span>sampling, monitoring, and other activities to identify degraded groundwater and impaired <br/><span id="pl.5.10" class="pl"> </span>waters, including use of citizen monitoring and citizen monitoring data used by the Pollution <br/><span id="pl.5.11" class="pl"> </span>Control Agency in assessing water quality that meets the requirements <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">in Appendix D of <br/><span id="pl.5.12" class="pl"> </span>the Volunteer Surface Water Monitoring Guide, Minnesota</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">established by the commissioner <br/><span id="pl.5.13" class="pl"> </span>of the </ins><span class="sr-only">new text end</span>Pollution Control Agency <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(2003)</span><span class="sr-only">deleted text end</span>;<br/></p>
+        <p><span id="pl.5.14" class="pl"> </span>(3) maximize opportunities for restoration of degraded groundwater and impaired waters, <br/><span id="pl.5.15" class="pl"> </span>by prioritizing and targeting of available programmatic, financial, and technical resources <br/><span id="pl.5.16" class="pl"> </span>and by providing additional state resources to complement and leverage available resources;<br/></p>
+        <p><span id="pl.5.17" class="pl"> </span>(4) use existing regulatory authorities to achieve restoration for point and nonpoint <br/><span id="pl.5.18" class="pl"> </span>sources of pollution where applicable, and promote the development and use of effective <br/><span id="pl.5.19" class="pl"> </span>nonregulatory measures to address pollution sources for which regulations are not applicable;<br/></p>
+        <p><span id="pl.5.20" class="pl"> </span>(5) use restoration methods that have a demonstrated effectiveness in reducing <br/><span id="pl.5.21" class="pl"> </span>impairments and provide the greatest long-term positive impact on water quality protection <br/><span id="pl.5.22" class="pl"> </span>and improvement and related conservation benefits while incorporating innovative approaches <br/><span id="pl.5.23" class="pl"> </span>on a case-by-case basis;<br/></p>
+        <p><span id="pl.5.24" class="pl"> </span>(6) identify for the legislature any innovative approaches that may strengthen or <br/><span id="pl.5.25" class="pl"> </span>complement existing programs;<br/></p>
+        <p><span id="pl.5.26" class="pl"> </span>(7) identify and encourage implementation of measures to prevent surface waters from <br/><span id="pl.5.27" class="pl"> </span>becoming impaired and to improve the quality of waters that are listed as impaired but have <br/><span id="pl.5.28" class="pl"> </span>no approved TMDL addressing the impairment using the best available data and technology, <br/><span id="pl.5.29" class="pl"> </span>and establish and report outcome-based performance measures that monitor the progress <br/><span id="pl.5.30" class="pl"> </span>and effectiveness of protection and restoration measures;<br/></p>
+        <p><span id="pl.5.31" class="pl"> </span>(8) monitor and enforce cost-sharing contracts and impose monetary damages in an <br/><span id="pl.5.32" class="pl"> </span>amount up to 150 percent of the financial assistance received for failure to comply; and<br/></p>
+        <p><span id="pl.6.1" class="pl"> </span>(9) identify and encourage implementation of measures to prevent groundwater from <br/><span id="pl.6.2" class="pl"> </span>becoming degraded and measures that restore groundwater resources.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.6.3" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.6.4" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Priorities for <span class="sr-only">new text begin</span><ins style="text-decoration: underline">scheduling and </ins><span class="sr-only">new text end</span>preparing <span class="sr-only">new text begin</span><ins style="text-decoration: underline">WRAPSs and </ins><span class="sr-only">new text end</span>TMDLs.</h3>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline">The <br/><span id="pl.6.5" class="pl"> </span>commissioner of the Pollution Control Agency must seek recommendations from </ins><span class="sr-only">new text end</span>the Clean <br/><span id="pl.6.6" class="pl"> </span>Water Council <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall recommend</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, the commissioners of natural resources, health and <br/><span id="pl.6.7" class="pl"> </span>agriculture, and the Board of Water and Soil Resources regarding</ins><span class="sr-only">new text end</span> priorities for scheduling <br/><span id="pl.6.8" class="pl"> </span>and preparing <span class="sr-only">new text begin</span><ins style="text-decoration: underline">WRAPSs and </ins><span class="sr-only">new text end</span>TMDLs <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and TMDL implementation plans, taking into account <br/><span id="pl.6.9" class="pl"> </span>the severity</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">. Recommendations must consider the causes</ins><span class="sr-only">new text end</span> of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the impairment</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> impairments</ins><span class="sr-only">new text end</span>, <br/><span id="pl.6.10" class="pl"> </span>the designated uses of <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">those</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the</ins><span class="sr-only">new text end</span> waters, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and other</span><span class="sr-only">deleted text end</span> applicable federal TMDL requirements<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">. <br/><span id="pl.6.11" class="pl"> </span>In recommending priorities, the council shall also give consideration to</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, surface water and <br/><span id="pl.6.12" class="pl"> </span>groundwater interactions, protection of high-quality waters,</ins><span class="sr-only">new text end</span> waters and watersheds<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> with <br/><span id="pl.6.13" class="pl"> </span>declining water quality trends, and waters used as drinking water sources. Furthermore, <br/><span id="pl.6.14" class="pl"> </span>consideration must be given to waters and watersheds</ins><span class="sr-only">new text end</span>:<br/></p>
+        <p><span id="pl.6.15" class="pl"> </span>(1) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">with impairments</span><span class="sr-only">deleted text end</span> that <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">pose</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> have</ins><span class="sr-only">new text end</span> the greatest potential risk to human health;<br/></p>
+        <p><span id="pl.6.16" class="pl"> </span>(2) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">with impairments</span><span class="sr-only">deleted text end</span> that <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">pose</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> have</ins><span class="sr-only">new text end</span> the greatest potential risk to threatened or endangered <br/><span id="pl.6.17" class="pl"> </span>species;<br/></p>
+        <p><span id="pl.6.18" class="pl"> </span>(3) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">with impairments</span><span class="sr-only">deleted text end</span> that <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">pose</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> have</ins><span class="sr-only">new text end</span> the greatest potential risk to aquatic health;<br/></p>
+        <p><span id="pl.6.19" class="pl"> </span>(4) where other public agencies and participating organizations and individuals, especially <br/><span id="pl.6.20" class="pl"> </span>local, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basinwide</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> basin-wide</ins><span class="sr-only">new text end</span>, watershed, or regional agencies or organizations, have <br/><span id="pl.6.21" class="pl"> </span>demonstrated readiness to assist in carrying out the responsibilities, including availability <br/><span id="pl.6.22" class="pl"> </span>and organization of human, technical, and financial resources necessary to undertake the <br/><span id="pl.6.23" class="pl"> </span>work; and<br/></p>
+        <p><span id="pl.6.24" class="pl"> </span>(5) where there is demonstrated coordination and cooperation among cities, counties, <br/><span id="pl.6.25" class="pl"> </span>watershed districts, and soil and water conservation districts in planning and implementation <br/><span id="pl.6.26" class="pl"> </span>of activities that will assist in carrying out the responsibilities.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.6.27" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.6.28" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Priorities for funding prevention actions.</h3>
+        <p>The Clean Water Council shall <br/><span id="pl.6.29" class="pl"> </span>apply the priorities applicable under subdivision 6, as far as practicable, when recommending <br/><span id="pl.6.30" class="pl"> </span>priorities for funding actions to prevent groundwater and surface waters from becoming <br/><span id="pl.6.31" class="pl"> </span>degraded or impaired and to improve the quality of surface waters that are listed as impaired <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.6.32" class="pl"> </span>but do not have an approved TMDL</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.7.1" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, is amended by adding a subdivision <br/><span id="pl.7.2" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.3" class="pl"> </span>Subd. 8.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Alternatives; TMDL, TMDL implementation plan, or WRAPS.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) If the <br/><span id="pl.7.4" class="pl"> </span>commissioner of the Pollution Control Agency determines that a comprehensive watershed <br/><span id="pl.7.5" class="pl"> </span>management plan or comprehensive local water management plan contains information that <br/><span id="pl.7.6" class="pl"> </span>is sufficient and consistent with guidance from the United States Environmental Protection <br/><span id="pl.7.7" class="pl"> </span>Agency under section 303(d) of the federal Clean Water Act, the commissioner may submit <br/><span id="pl.7.8" class="pl"> </span>the plan to the Environmental Protection Agency according to federal TMDL requirements <br/><span id="pl.7.9" class="pl"> </span>as an alternative to developing a TMDL.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.10" class="pl"> </span>(b) A TMDL implementation plan or a WRAPS, or portions thereof, are not needed for <br/><span id="pl.7.11" class="pl"> </span>waters or watersheds when the commissioner of the Pollution Control Agency determines <br/><span id="pl.7.12" class="pl"> </span>that a comprehensive watershed management plan, a comprehensive local water management <br/><span id="pl.7.13" class="pl"> </span>plan, or a statewide or regional strategy published by the Pollution Control Agency meets <br/><span id="pl.7.14" class="pl"> </span>the definition in section 114D.15, subdivision 11 or 13.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.15" class="pl"> </span>(c) The commissioner of the Pollution Control Agency may request that the Board of <br/><span id="pl.7.16" class="pl"> </span>Water and Soil Resources conduct an evaluation of the implementation efforts under a <br/><span id="pl.7.17" class="pl"> </span>comprehensive watershed management plan or comprehensive local water management <br/><span id="pl.7.18" class="pl"> </span>plan when the commissioner makes a determination under paragraph (b). The board must <br/><span id="pl.7.19" class="pl"> </span>conduct the evaluation in accordance with section 103B.102.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.20" class="pl"> </span>(d) The commissioner of the Pollution Control Agency may amend or revoke a <br/><span id="pl.7.21" class="pl"> </span>determination made under paragraph (a) or (b) after considering the evaluation conducted <br/><span id="pl.7.22" class="pl"> </span>under paragraph (c).<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section add_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.7.23" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.20, is amended by adding a subdivision <br/><span id="pl.7.24" class="pl"> </span>to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.25" class="pl"> </span>Subd. 9.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coordinating municipal and local water quality activities.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">A project, practice, <br/><span id="pl.7.26" class="pl"> </span>or program for water quality improvement or protection that is conducted by a watershed <br/><span id="pl.7.27" class="pl"> </span>management organization or a local government unit with a comprehensive watershed <br/><span id="pl.7.28" class="pl"> </span>management plan or other water management plan approved according to chapter 103B, <br/><span id="pl.7.29" class="pl"> </span>103C, or 103D may be considered by the commissioner of the Pollution Control Agency <br/><span id="pl.7.30" class="pl"> </span>as contributing to the requirements of a storm water pollution prevention plan (SWPPP) for <br/><span id="pl.7.31" class="pl"> </span>a municipal separate storm sewer systems (MS4) permit unless the project, practice, or <br/><span id="pl.7.32" class="pl"> </span>program was previously documented as contributing to a different SWPPP for an MS4 <br/><span id="pl.7.33" class="pl"> </span>permit.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.8.1" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.26, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.8.2" class="pl"> </span>114D.26 WATERSHED RESTORATION AND PROTECTION STRATEGIES.<br/></h1>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.8.3" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Contents.</h3>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline">(a) </ins><span class="sr-only">new text end</span>The <span class="sr-only">new text begin</span><ins style="text-decoration: underline">commissioner of the </ins><span class="sr-only">new text end</span>Pollution Control Agency shall <br/><span id="pl.8.4" class="pl"> </span>develop watershed restoration and protection strategies<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">. To ensure effectiveness and <br/><span id="pl.8.5" class="pl"> </span>accountability in meeting the goals of this chapter,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> for the purposes of:<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.6" class="pl"> </span>(1) summarizing the physical, chemical, and biological assessment of the water quality <br/><span id="pl.8.7" class="pl"> </span>of the watershed;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.8" class="pl"> </span>(2) quantifying impairments and risks to water quality;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.9" class="pl"> </span>(3) describing the causes of impairments and pollution sources;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.10" class="pl"> </span>(4) consolidating TMDLs in a major watershed; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.11" class="pl"> </span>(5) informing comprehensive local water management plans and comprehensive <br/><span id="pl.8.12" class="pl"> </span>watershed management plans.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p> <span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.8.13" class="pl"> </span>(b) </ins><span class="sr-only">new text end</span>Each WRAPS <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> must</ins><span class="sr-only">new text end</span>:<br/></p>
+        <p><span id="pl.8.14" class="pl"> </span>(1) identify impaired waters and waters in need of protection;<br/></p>
+        <p><span id="pl.8.15" class="pl"> </span>(2) identify biotic stressors causing impairments or threats to water quality;<br/></p>
+        <p><span id="pl.8.16" class="pl"> </span>(3) summarize <span class="sr-only">new text begin</span><ins style="text-decoration: underline">TMDLs, </ins><span class="sr-only">new text end</span>watershed modeling outputs<span class="sr-only">new text begin</span><ins style="text-decoration: underline">,</ins><span class="sr-only">new text end</span> and resulting pollution load <br/><span id="pl.8.17" class="pl"> </span>allocations<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, wasteload allocations,</span><span class="sr-only">deleted text end</span> and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">priority areas for targeting actions to improve water <br/><span id="pl.8.18" class="pl"> </span>quality</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> identify areas with high pollutant-loading rates</ins><span class="sr-only">new text end</span>;<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.19" class="pl"> </span>(4) identify point sources of pollution for which a national pollutant discharge elimination <br/><span id="pl.8.20" class="pl"> </span>system permit is required under section <a href="/statutes/cite/115.03">115.03</a>;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.21" class="pl"> </span>(5) identify nonpoint sources of pollution for which a national pollutant discharge <br/><span id="pl.8.22" class="pl"> </span>elimination system permit is not required under section <a href="/statutes/cite/115.03">115.03</a>, with sufficient specificity <br/><span id="pl.8.23" class="pl"> </span>to prioritize and geographically locate watershed restoration and protection actions;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.24" class="pl"> </span>(6) describe the current pollution loading and load reduction needed for each source or <br/><span id="pl.8.25" class="pl"> </span>source category to meet water quality standards and goals, including wasteload and load <br/><span id="pl.8.26" class="pl"> </span>allocations from TMDLs;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.27" class="pl"> </span>(7) contain a plan for ongoing</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (4) in consultation with local governments and other state <br/><span id="pl.8.28" class="pl"> </span>agencies, identify</ins><span class="sr-only">new text end</span> water quality monitoring <span class="sr-only">new text begin</span><ins style="text-decoration: underline">needed </ins><span class="sr-only">new text end</span>to fill data gaps, determine changing <br/><span id="pl.8.29" class="pl"> </span>conditions, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or</ins><span class="sr-only">new text end</span> gauge implementation effectiveness; and<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.1" class="pl"> </span>(8)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (5)</ins><span class="sr-only">new text end</span> contain <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">an implementation table of</span><span class="sr-only">deleted text end</span> strategies <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and actions</span><span class="sr-only">deleted text end</span> that are capable of <br/><span id="pl.9.2" class="pl"> </span>cumulatively achieving needed pollution load reductions for point and nonpoint sources, <br/><span id="pl.9.3" class="pl"> </span>including<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> identifying</ins><span class="sr-only">new text end</span>:<br/></p>
+        <p><span id="pl.9.4" class="pl"> </span>(i) water quality parameters of concern;<br/></p>
+        <p><span id="pl.9.5" class="pl"> </span>(ii) current water quality conditions;<br/></p>
+        <p><span id="pl.9.6" class="pl"> </span>(iii) water quality goals<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, strategies,</ins><span class="sr-only">new text end</span> and targets by parameter of concern;<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.9.7" class="pl"> </span>(iv) strategies <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and actions by parameter of concern</span><span class="sr-only">deleted text end</span> and <span class="sr-only">new text begin</span><ins style="text-decoration: underline">an example of </ins><span class="sr-only">new text end</span>the scale of <br/><span id="pl.9.8" class="pl"> </span>adoptions <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">needed for each;</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> with a timeline to meet the water quality restoration or protection <br/><span id="pl.9.9" class="pl"> </span>goals of this chapter.<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.9.10" class="pl"> </span>(v) a timeline for achievement of water quality targets;<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.9.11" class="pl"> </span>(vi) the governmental units with primary responsibility for implementing each watershed <br/><span id="pl.9.12" class="pl"> </span>restoration or protection strategy; and<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.9.13" class="pl"> </span>(vii) a timeline and interim milestones for achievement of watershed restoration or <br/><span id="pl.9.14" class="pl"> </span>protection implementation actions within ten years of strategy adoption.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.16.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.15" class="pl"> </span>Subd. 1a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Coordination.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">To ensure effectiveness, efficiency, and accountability in <br/><span id="pl.9.16" class="pl"> </span>meeting the goals of this chapter, the commissioner of the Pollution Control Agency, in <br/><span id="pl.9.17" class="pl"> </span>consultation with the Board of Water and Soil Resources and local government units, must <br/><span id="pl.9.18" class="pl"> </span>coordinate the schedule, budget, scope, and use of a WRAPS and related documents and <br/><span id="pl.9.19" class="pl"> </span>processes.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.16.3">
+        <h2 class="subd_no"><span id="pl.9.20" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Reporting.</h3>
+        <p>Beginning July 1, 2016, and every other year thereafter, <span class="sr-only">new text begin</span><ins style="text-decoration: underline">the <br/><span id="pl.9.21" class="pl"> </span>commissioner of </ins><span class="sr-only">new text end</span>the Pollution Control Agency must report on <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">its</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the agency's</ins><span class="sr-only">new text end</span> website the <br/><span id="pl.9.22" class="pl"> </span>progress toward implementation milestones and water quality goals <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for all adopted TMDLs <br/><span id="pl.9.23" class="pl"> </span>and, where available, WRAPSs</span><span class="sr-only">deleted text end</span>.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.16.4">
+        <h2 class="subd_no"><span id="pl.9.24" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Timelines; administration.</h3>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Each year,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (a) The commissioner of</ins><span class="sr-only">new text end</span> the Pollution <br/><span id="pl.9.25" class="pl"> </span>Control Agency must complete <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">WRAPSs for at least ten percent of</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> watershed restoration <br/><span id="pl.9.26" class="pl"> </span>and protection strategies for</ins><span class="sr-only">new text end</span> the state's major watersheds<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">. WRAPS shall be</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> by June 30, <br/><span id="pl.9.27" class="pl"> </span>2023, unless the commissioner determines that a comprehensive watershed management <br/><span id="pl.9.28" class="pl"> </span>plan or comprehensive local water management plan, in whole or in part, meets the definition <br/><span id="pl.9.29" class="pl"> </span>in section 114D.15, subdivision 11 or 13. As needed, the commissioner must update the <br/><span id="pl.9.30" class="pl"> </span>strategies, in whole or in part, after consulting with the Board of Water and Soil Resources <br/><span id="pl.9.31" class="pl"> </span>and local government units.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.10.1" class="pl"> </span>(b) Watershed restoration and protection strategies are</ins><span class="sr-only">new text end</span> governed by the procedures for <br/><span id="pl.10.2" class="pl"> </span>approval and notice in section <a href="/statutes/cite/114D.25#stat.114D.25.">114D.25, subdivisions </a>2 and 4, except that <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">WRAPS</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the <br/><span id="pl.10.3" class="pl"> </span>strategies</ins><span class="sr-only">new text end</span> need not be submitted to the United States Environmental Protection Agency.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.10.4" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.35, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.17.1">
+        <h2 class="subd_no"><span id="pl.10.5" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Public and stakeholder participation.</h3>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline">(a) </ins><span class="sr-only">new text end</span>Public agencies and private <br/><span id="pl.10.6" class="pl"> </span>entities involved in <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the implementation of</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> implementing</ins><span class="sr-only">new text end</span> this chapter <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> must</ins><span class="sr-only">new text end</span> encourage <br/><span id="pl.10.7" class="pl"> </span>participation by the public and stakeholders, including local citizens, landowners <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, land</ins><span class="sr-only">new text end</span> <br/><span id="pl.10.8" class="pl"> </span>managers, and public and private organizations<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, in identifying impaired waters, in developing <br/><span id="pl.10.9" class="pl"> </span>TMDLs, in planning, priority setting, and implementing restoration of impaired waters, in <br/><span id="pl.10.10" class="pl"> </span>identifying degraded groundwater, and in protecting and restoring groundwater resources</span><span class="sr-only">deleted text end</span>.<br/></p>
+        <p><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.10.11" class="pl"> </span>(b)</ins><span class="sr-only">new text end</span> In particular, the <span class="sr-only">new text begin</span><ins style="text-decoration: underline">commissioner of the </ins><span class="sr-only">new text end</span>Pollution Control Agency <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> must</ins><span class="sr-only">new text end</span> make <br/><span id="pl.10.12" class="pl"> </span>reasonable efforts to provide timely information to the public and to stakeholders about <br/><span id="pl.10.13" class="pl"> </span>impaired waters that have been identified by the agency<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">. The agency shall seek broad and <br/><span id="pl.10.14" class="pl"> </span>early public and stakeholder participation in scoping the activities necessary to develop a <br/><span id="pl.10.15" class="pl"> </span>TMDL, including the scientific models, methods, and approaches to be used in TMDL <br/><span id="pl.10.16" class="pl"> </span>development, and to implement restoration pursuant to section <a href="/statutes/cite/114D.15">114D.15</a>, subdivision 7</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and <br/><span id="pl.10.17" class="pl"> </span>to inform and consult with the public and stakeholders in developing a WRAPS or TMDL</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.18" class="pl"> </span>(c) Public agencies and private entities using public funds that are involved in <br/><span id="pl.10.19" class="pl"> </span>implementing restoration and protection identified in a comprehensive watershed <br/><span id="pl.10.20" class="pl"> </span>management plan or comprehensive local water management plan must make efforts to <br/><span id="pl.10.21" class="pl"> </span>inform, consult, and involve the public and stakeholders.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.22" class="pl"> </span>(d) The commissioner of the Pollution Control Agency and the Board of Water and Soil <br/><span id="pl.10.23" class="pl"> </span>Resources must coordinate public and stakeholder participation in consultation with local <br/><span id="pl.10.24" class="pl"> </span>government units. To the extent practicable, implementation of this chapter must be <br/><span id="pl.10.25" class="pl"> </span>accomplished in cooperation with local, state, federal, and tribal governments and <br/><span id="pl.10.26" class="pl"> </span>private-sector organizations.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.10.27" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 114D.35, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.18.1">
+        <h2 class="subd_no"><span id="pl.10.28" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Education.</h3>
+        <p>The Clean Water Council <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> must</ins><span class="sr-only">new text end</span> develop strategies for <br/><span id="pl.10.29" class="pl"> </span>informing, educating, and encouraging the participation of citizens, stakeholders, and others <br/><span id="pl.10.30" class="pl"> </span>regarding <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the identification of impaired waters, development of TMDLs, development of <br/><span id="pl.10.31" class="pl"> </span>TMDL implementation plans, implementation of restoration for impaired waters, <br/><span id="pl.10.32" class="pl"> </span>identification of degraded groundwater, and protection and restoration of groundwater <br/><span id="pl.11.1" class="pl"> </span>resources</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> this chapter</ins><span class="sr-only">new text end</span>. Public agencies <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">shall be</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> are</ins><span class="sr-only">new text end</span> responsible for implementing the <br/><span id="pl.11.2" class="pl"> </span>strategies.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section newstatute" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.11.3" class="pl"> </span>Sec. 19. </h2>
+      <h1 class="shn">
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline">[114D.47] NONPOINT FUNDING ALTERNATIVE.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </h1>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.11.4" class="pl"> </span>Notwithstanding section 114D.50, subdivision 3a, the Board of Water and Soil Resources <br/><span id="pl.11.5" class="pl"> </span>may, by board order, establish alternative timelines or content for the priority funding plan <br/><span id="pl.11.6" class="pl"> </span>for nonpoint sources under section 114D.50, subdivision 3a, and may use information from <br/><span id="pl.11.7" class="pl"> </span>comprehensive watershed management plans or comprehensive local water management <br/><span id="pl.11.8" class="pl"> </span>plans to estimate or summarize costs.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

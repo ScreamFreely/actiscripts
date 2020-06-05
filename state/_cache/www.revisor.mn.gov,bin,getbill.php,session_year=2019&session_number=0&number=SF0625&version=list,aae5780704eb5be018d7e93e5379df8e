@@ -1,0 +1,1788 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:10:10 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 625 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 625</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 01/28/2019 04:34pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF0625&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF0625&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF0625&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF625&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF625&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/25/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0625&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0625&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <br/>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">1.24</var>
+    <var class="ln">1.25</var>
+    <var class="ln">1.26</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <br/>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <br/>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <br/>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <br/>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <br/>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <br/>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <br/>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <br/>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <br/>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <br/>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <br/>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <br/>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">9.33</var>
+    <var class="ln">9.34</var>
+    <br/>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <br/>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">10.33</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <br/>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <br/>
+    <var class="ln">12.11</var>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+    <var class="ln">12.14</var>
+    <var class="ln">12.15</var>
+    <var class="ln">12.16</var>
+    <var class="ln">12.17</var>
+    <var class="ln">12.18</var>
+    <br/>
+    <var class="ln">12.19</var>
+    <var class="ln">12.20</var>
+    <var class="ln">12.21</var>
+    <var class="ln">12.22</var>
+    <var class="ln">12.23</var>
+    <var class="ln">12.24</var>
+    <var class="ln">12.25</var>
+    <var class="ln">12.26</var>
+    <var class="ln">12.27</var>
+    <var class="ln">12.28</var>
+    <var class="ln">12.29</var>
+    <var class="ln">12.30</var>
+    <var class="ln">12.31</var>
+    <br/>
+    <var class="ln">13.1</var>
+    <var class="ln">13.2</var>
+    <var class="ln">13.3</var>
+    <var class="ln">13.4</var>
+    <var class="ln">13.5</var>
+    <br/>
+    <var class="ln">13.6</var>
+    <var class="ln">13.7</var>
+    <var class="ln">13.8</var>
+    <var class="ln">13.9</var>
+    <var class="ln">13.10</var>
+    <var class="ln">13.11</var>
+    <var class="ln">13.12</var>
+    <var class="ln">13.13</var>
+    <var class="ln">13.14</var>
+    <var class="ln">13.15</var>
+    <var class="ln">13.16</var>
+    <br/>
+    <var class="ln">13.17</var>
+    <var class="ln">13.18</var>
+    <var class="ln">13.19</var>
+    <var class="ln">13.20</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to human services; providing increased child care assistance to low-income <br/><span id="pl.1.3" class="pl"> </span>workers to enable higher-quality early childhood care and education; increasing <br/><span id="pl.1.4" class="pl"> </span>child care assistance reimbursement rates; forecasting the basic sliding fee child <br/><span id="pl.1.5" class="pl"> </span>care assistance program; amending Minnesota Statutes 2018, sections 119B.02, <br/><span id="pl.1.6" class="pl"> </span>subdivisions 1, 2; 119B.03, subdivisions 3, 9, 10; 119B.035, subdivisions 1, 2, 4, <br/><span id="pl.1.7" class="pl"> </span>5; 119B.05, subdivision 5; 119B.08, subdivision 3; 119B.09, subdivision 7; <br/><span id="pl.1.8" class="pl"> </span>119B.10; 119B.11, subdivision 1; 119B.12, subdivision 2; 119B.13, subdivision <br/><span id="pl.1.9" class="pl"> </span>1; 119B.15; 119B.24; repealing Minnesota Statutes 2018, sections 119B.011, <br/><span id="pl.1.10" class="pl"> </span>subdivisions 20, 20a; 119B.03, subdivisions 1, 2, 4, 5, 6, 6a, 6b, 8; 119B.05, <br/><span id="pl.1.11" class="pl"> </span>subdivision 1; 119B.09, subdivisions 3, 4a; 119B.11, subdivision 4.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.12" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.13" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.02, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.14" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Child care services.</h3>
+        <p>The commissioner shall develop standards for county <br/><span id="pl.1.15" class="pl"> </span>and human services boards to provide child care services to enable eligible families to <br/><span id="pl.1.16" class="pl"> </span>participate in employment, training, or education programs. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Within the limits of available <br/><span id="pl.1.17" class="pl"> </span>appropriations,</span><span class="sr-only">deleted text end</span> The commissioner shall distribute money to counties to reduce the costs of <br/><span id="pl.1.18" class="pl"> </span>child care for eligible families. The commissioner shall adopt rules to govern the program <br/><span id="pl.1.19" class="pl"> </span>in accordance with this section. The rules must establish a sliding schedule of fees for parents <br/><span id="pl.1.20" class="pl"> </span>receiving child care services. The rules shall provide that funds received as a lump-sum <br/><span id="pl.1.21" class="pl"> </span>payment of child support arrearages shall not be counted as income to a family in the month <br/><span id="pl.1.22" class="pl"> </span>received but shall be prorated over the 12 months following receipt and added to the family <br/><span id="pl.1.23" class="pl"> </span>income during those months. The commissioner shall maximize the use of federal money <br/><span id="pl.1.24" class="pl"> </span>under title I and title IV of Public Law 104-193, the Personal Responsibility and Work <br/><span id="pl.1.25" class="pl"> </span>Opportunity Reconciliation Act of 1996, and other programs that provide federal or state <br/><span id="pl.1.26" class="pl"> </span>reimbursement for child care services for low-income families who are in education, training, <br/><span id="pl.2.1" class="pl"> </span>job search, or other activities allowed under those programs. Money appropriated under <br/><span id="pl.2.2" class="pl"> </span>this section must be coordinated with the programs that provide federal reimbursement for <br/><span id="pl.2.3" class="pl"> </span>child care services to accomplish this purpose. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Federal reimbursement obtained must be <br/><span id="pl.2.4" class="pl"> </span>allocated to the county that spent money for child care that is federally reimbursable under <br/><span id="pl.2.5" class="pl"> </span>programs that provide federal reimbursement for child care services.</span><span class="sr-only">deleted text end</span> The <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">counties</span><span class="sr-only">deleted text end</span> <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.2.6" class="pl"> </span>commissioner </ins><span class="sr-only">new text end</span>shall use the federal money to expand child care services. The commissioner <br/><span id="pl.2.7" class="pl"> </span>may adopt rules under chapter 14 to implement and coordinate federal program requirements.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.2.8" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.02, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.2.9" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Contractual agreements with tribes.</h3>
+        <p class="in">The commissioner may enter into <br/><span id="pl.2.10" class="pl"> </span>contractual agreements with a federally recognized Indian tribe with a reservation in <br/><span id="pl.2.11" class="pl"> </span>Minnesota to carry out the responsibilities of county human service agencies to the extent <br/><span id="pl.2.12" class="pl"> </span>necessary for the tribe to operate child care assistance programs<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> for families eligible</ins><span class="sr-only">new text end</span> under <br/><span id="pl.2.13" class="pl"> </span>sections <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/119B.03">119B.03</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 119B.09</ins><span class="sr-only">new text end</span> and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><a href="/statutes/cite/119B.05">119B.05</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> 119B.10</ins><span class="sr-only">new text end</span>. An agreement may allow the state to <br/><span id="pl.2.14" class="pl"> </span>make payments for child care assistance services provided under <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">section <a href="/statutes/cite/119B.05">119B.05</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> this <br/><span id="pl.2.15" class="pl"> </span>chapter</ins><span class="sr-only">new text end</span>. The commissioner shall consult with the affected county or counties in the <br/><span id="pl.2.16" class="pl"> </span>contractual agreement negotiations, if the county or counties wish to be included, in order <br/><span id="pl.2.17" class="pl"> </span>to avoid the duplication of county and tribal child care services. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Funding to support services <br/><span id="pl.2.18" class="pl"> </span>under section <a href="/statutes/cite/119B.03">119B.03</a> may be transferred to the federally recognized Indian tribe with a <br/><span id="pl.2.19" class="pl"> </span>reservation in Minnesota from allocations available to counties in which reservation <br/><span id="pl.2.20" class="pl"> </span>boundaries lie. When funding is transferred under section <a href="/statutes/cite/119B.03">119B.03</a>, the amount shall be <br/><span id="pl.2.21" class="pl"> </span>commensurate to estimates of the proportion of reservation residents with characteristics <br/><span id="pl.2.22" class="pl"> </span>identified in section <a href="/statutes/cite/119B.03#stat.119B.03.6">119B.03, subdivision 6</a>, to the total population of county residents with <br/><span id="pl.2.23" class="pl"> </span>those same characteristics.<br/></span><span class="sr-only">deleted text end</span></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.2.24" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.03, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.2.25" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Eligible participants.</h3>
+        <p>Families that meet the eligibility requirements under <br/><span id="pl.2.26" class="pl"> </span>sections <a href="/statutes/cite/119B.09">119B.09</a> and <a href="/statutes/cite/119B.10">119B.10</a><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, except MFIP participants, diversionary work program, and <br/><span id="pl.2.27" class="pl"> </span>transition year families</span><span class="sr-only">deleted text end</span> are eligible for child care assistance under the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child <br/><span id="pl.2.28" class="pl"> </span>care assistance</ins><span class="sr-only">new text end</span> program. Families enrolled in the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child care assistance</ins><span class="sr-only">new text end</span> <br/><span id="pl.2.29" class="pl"> </span>program shall be continued until they are no longer eligible. Child care assistance provided <br/><span id="pl.2.30" class="pl"> </span>through the child care fund is considered assistance to the parent.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.2.31" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.03, subdivision 9, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.2.32" class="pl"> </span>Subd. 9.</h2>
+        <h3 class="headnote"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Portability pool</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> Family move; continued participation</ins><span class="sr-only">new text end</span>.</h3>
+        <p>(a) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">The commissioner <br/><span id="pl.2.33" class="pl"> </span>shall establish a pool of up to five percent of the annual appropriation for the basic sliding <br/><span id="pl.3.1" class="pl"> </span>fee program to provide continuous child care assistance for eligible families who move <br/><span id="pl.3.2" class="pl"> </span>between Minnesota counties. At the end of each allocation period, any unspent funds in the <br/><span id="pl.3.3" class="pl"> </span>portability pool must be used for assistance under the basic sliding fee program. If <br/><span id="pl.3.4" class="pl"> </span>expenditures from the portability pool exceed the amount of money available, the reallocation <br/><span id="pl.3.5" class="pl"> </span>pool must be reduced to cover these shortages.<br/></span><span class="sr-only">deleted text end</span></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.6" class="pl"> </span>(b) To be eligible for portable basic sliding fee assistance, a family that has moved from <br/><span id="pl.3.7" class="pl"> </span>a county in which it</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> A family receiving child care assistance under the child care fund that <br/><span id="pl.3.8" class="pl"> </span>has moved from a county in which the family</ins><span class="sr-only">new text end</span> was receiving <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">child care <br/></ins><span class="sr-only">new text end</span><span id="pl.3.9" class="pl"> </span>assistance to <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">a</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">another </ins><span class="sr-only">new text end</span>county <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">with a waiting list for the basic sliding fee program</span><span class="sr-only">deleted text end</span> must<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> be <br/><span id="pl.3.10" class="pl"> </span>admitted into the receiving county's child care assistance program if the family</ins><span class="sr-only">new text end</span>:<br/></p>
+        <p><span id="pl.3.11" class="pl"> </span>(1) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">meet</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> meets</ins><span class="sr-only">new text end</span> the income and eligibility guidelines for the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">child care <br/><span id="pl.3.12" class="pl"> </span>assistance </ins><span class="sr-only">new text end</span>program; and<br/></p>
+        <p><span id="pl.3.13" class="pl"> </span>(2) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">notify</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">notifies </ins><span class="sr-only">new text end</span>the new county of residence within 60 days of moving and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">submit</span><span class="sr-only">deleted text end</span> <br/><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.3.14" class="pl"> </span>submits </ins><span class="sr-only">new text end</span>information to the new county of residence to verify eligibility for the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding <br/><span id="pl.3.15" class="pl"> </span>fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child care assistance</ins><span class="sr-only">new text end</span> program.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.16" class="pl"> </span>(c)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (b)</ins><span class="sr-only">new text end</span> The receiving county must<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">:<br/></span><span class="sr-only">deleted text end</span></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.17" class="pl"> </span>(1)</span><span class="sr-only">deleted text end</span> accept administrative responsibility <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for applicants for portable basic sliding fee <br/><span id="pl.3.18" class="pl"> </span>assistance</span><span class="sr-only">deleted text end</span> at the end of the two months of assistance under the Unitary Residency Act<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">;</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">.<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.3.19" class="pl"> </span>(2) continue basic sliding fee assistance for the lesser of six months or until the family <br/><span id="pl.3.20" class="pl"> </span>is able to receive assistance under the county's regular basic sliding program; and<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.3.21" class="pl"> </span>(3) notify the commissioner through the quarterly reporting process of any family that <br/><span id="pl.3.22" class="pl"> </span>meets the criteria of the portable basic sliding fee assistance pool.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.3.23" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.03, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.3.24" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Application; entry points.</h3>
+        <p>Two or more methods of applying for the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic <br/><span id="pl.3.25" class="pl"> </span>sliding fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child care assistance</ins><span class="sr-only">new text end</span> program <span class="sr-only">new text begin</span><ins style="text-decoration: underline">under this chapter </ins><span class="sr-only">new text end</span>must be available to applicants <br/><span id="pl.3.26" class="pl"> </span>in each county. To meet the requirements of this subdivision, a county may provide <br/><span id="pl.3.27" class="pl"> </span>alternative methods of applying for assistance, including, but not limited to, a mail <br/><span id="pl.3.28" class="pl"> </span>application, or application sites that are located outside of government offices.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.3.29" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.035, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.3.30" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Establishment.</h3>
+        <p class="in">A family in which a parent provides care for the family's <br/><span id="pl.3.31" class="pl"> </span>infant child may receive a subsidy in lieu of assistance if the family is eligible for or is <br/><span id="pl.4.1" class="pl"> </span>receiving assistance under the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child care assistance</ins><span class="sr-only">new text end</span> program. An eligible <br/><span id="pl.4.2" class="pl"> </span>family must meet the eligibility factors under section <a href="/statutes/cite/119B.09">119B.09</a>, except as provided in <br/><span id="pl.4.3" class="pl"> </span>subdivision 4, and the requirements of this section. Subject to federal match and maintenance <br/><span id="pl.4.4" class="pl"> </span>of effort requirements for the child care and development fund, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and up to available <br/><span id="pl.4.5" class="pl"> </span>appropriations,</span><span class="sr-only">deleted text end</span> the commissioner shall provide assistance under the at-home infant child <br/><span id="pl.4.6" class="pl"> </span>care program and for administrative costs associated with the program. At the end of a fiscal <br/><span id="pl.4.7" class="pl"> </span>year, the commissioner may carry forward any unspent funds under this section to the next <br/><span id="pl.4.8" class="pl"> </span>fiscal year within the same biennium for assistance under the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> child care <br/><span id="pl.4.9" class="pl"> </span>assistance</ins><span class="sr-only">new text end</span> program.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.7.0">
+      <h2 class="section_number"><span id="pl.4.10" class="pl"> </span>Sec. 7. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.035, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.7.1">
+        <h2 class="subd_no"><span id="pl.4.11" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Eligible families.</h3>
+        <p>A family with an infant under the age of one year is eligible <br/><span id="pl.4.12" class="pl"> </span>for assistance if:<br/></p>
+        <p><span id="pl.4.13" class="pl"> </span>(1) the family is not receiving MFIP, other cash assistance, or other child care assistance;<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.4.14" class="pl"> </span>and<br/></ins><span class="sr-only">new text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.4.15" class="pl"> </span>(2) the family has not previously received a lifelong total of 12 months of assistance <br/><span id="pl.4.16" class="pl"> </span>under this section; and<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.17" class="pl"> </span>(3)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (2)</ins><span class="sr-only">new text end</span> the family is participating in the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">child care assistance </ins><span class="sr-only">new text end</span>program <br/><span id="pl.4.18" class="pl"> </span>or provides verification of participating in an authorized activity at the time of application <br/><span id="pl.4.19" class="pl"> </span>and meets the program requirements.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.8.0">
+      <h2 class="section_number"><span id="pl.4.20" class="pl"> </span>Sec. 8. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.035, subdivision 4, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.8.1">
+        <h2 class="subd_no"><span id="pl.4.21" class="pl"> </span>Subd. 4.</h2>
+        <h3 class="headnote">Assistance.</h3>
+        <p>(a) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">A family is limited to a lifetime total of 12 months of assistance <br/><span id="pl.4.22" class="pl"> </span>under subdivision 2.</span><span class="sr-only">deleted text end</span> The maximum rate of assistance is equal to 68 percent of the rate <br/><span id="pl.4.23" class="pl"> </span>established under section <a href="/statutes/cite/119B.13">119B.13</a> for care of infants in licensed family child care in the <br/><span id="pl.4.24" class="pl"> </span>applicant's county of residence.<br/></p>
+        <p><span id="pl.4.25" class="pl"> </span>(b) A participating family must report income and other family changes as specified in <br/><span id="pl.4.26" class="pl"> </span>sections <a href="/statutes/cite/256P.06">256P.06</a> and <a href="/statutes/cite/256P.07">256P.07</a>, and the county's plan under section <a href="/statutes/cite/119B.08#stat.119B.08.3">119B.08, subdivision 3</a>.<br/></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.4.27" class="pl"> </span>(c) Persons who are admitted to the at-home infant child care program retain their position <br/><span id="pl.4.28" class="pl"> </span>in any basic sliding fee program. Persons leaving the at-home infant child care program <br/><span id="pl.4.29" class="pl"> </span>reenter the basic sliding fee program at the position they would have occupied.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.4.30" class="pl"> </span>(d)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (c)</ins><span class="sr-only">new text end</span> Assistance under this section does not establish an employer-employee relationship <br/><span id="pl.4.31" class="pl"> </span>between any member of the assisted family and the county or state.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.9.0">
+      <h2 class="section_number"><span id="pl.5.1" class="pl"> </span>Sec. 9. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.035, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.9.1">
+        <h2 class="subd_no"><span id="pl.5.2" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Implementation.</h3>
+        <p>The commissioner shall implement the at-home infant child <br/><span id="pl.5.3" class="pl"> </span>care program under this section through counties that administer the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic sliding fee</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">child <br/><span id="pl.5.4" class="pl"> </span>care assistance </ins><span class="sr-only">new text end</span>program under <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">section <a href="/statutes/cite/119B.03">119B.03</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> this chapter</ins><span class="sr-only">new text end</span>. The commissioner must develop <br/><span id="pl.5.5" class="pl"> </span>and distribute consumer information on the at-home infant child care program to assist <br/><span id="pl.5.6" class="pl"> </span>parents of infants or expectant parents in making informed child care decisions.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.10.0">
+      <h2 class="section_number"><span id="pl.5.7" class="pl"> </span>Sec. 10. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.05, subdivision 5, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.10.1">
+        <h2 class="subd_no"><span id="pl.5.8" class="pl"> </span>Subd. 5.</h2>
+        <h3 class="headnote">Federal reimbursement.</h3>
+        <p>Counties <span class="sr-only">new text begin</span><ins style="text-decoration: underline">and the state </ins><span class="sr-only">new text end</span>shall maximize their federal <br/><span id="pl.5.9" class="pl"> </span>reimbursement under federal reimbursement programs for money spent for persons eligible <br/><span id="pl.5.10" class="pl"> </span>under this chapter. The commissioner shall allocate any federal earnings to the county to <br/><span id="pl.5.11" class="pl"> </span>be used to expand child care services under this chapter.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.11.0">
+      <h2 class="section_number"><span id="pl.5.12" class="pl"> </span>Sec. 11. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.08, subdivision 3, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.11.1">
+        <h2 class="subd_no"><span id="pl.5.13" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Child care fund plan.</h3>
+        <p>The county and designated administering agency shall <br/><span id="pl.5.14" class="pl"> </span>submit a biennial child care fund plan to the commissioner. The commissioner shall establish <br/><span id="pl.5.15" class="pl"> </span>the dates by which the county must submit the plans. The plan shall include:<br/></p>
+        <p><span id="pl.5.16" class="pl"> </span>(1) a description of strategies to coordinate and maximize public and private community <br/><span id="pl.5.17" class="pl"> </span>resources, including school districts, health care facilities, government agencies, <br/><span id="pl.5.18" class="pl"> </span>neighborhood organizations, and other resources knowledgeable in early childhood <br/><span id="pl.5.19" class="pl"> </span>development, in particular to coordinate child care assistance with existing community-based <br/><span id="pl.5.20" class="pl"> </span>programs and service providers including child care resource and referral programs, early <br/><span id="pl.5.21" class="pl"> </span>childhood family education, school readiness, Head Start, local interagency early intervention <br/><span id="pl.5.22" class="pl"> </span>committees, special education services, early childhood screening, and other early childhood <br/><span id="pl.5.23" class="pl"> </span>care and education services and programs to the extent possible, to foster collaboration <br/><span id="pl.5.24" class="pl"> </span>among agencies and other community-based programs that provide flexible, family-focused <br/><span id="pl.5.25" class="pl"> </span>services to families with young children and to facilitate transition into kindergarten. The <br/><span id="pl.5.26" class="pl"> </span>county must describe a method by which to share information, responsibility, and <br/><span id="pl.5.27" class="pl"> </span>accountability among service and program providers;<br/></p>
+        <p><span id="pl.5.28" class="pl"> </span>(2) a description of procedures and methods to be used to make copies of the proposed <br/><span id="pl.5.29" class="pl"> </span>state plan reasonably available to the public, including members of the public particularly <br/><span id="pl.5.30" class="pl"> </span>interested in child care policies such as parents, child care providers, culturally specific <br/><span id="pl.5.31" class="pl"> </span>service organizations, child care resource and referral programs, interagency early <br/><span id="pl.5.32" class="pl"> </span>intervention committees, potential collaborative partners and agencies involved in the <br/><span id="pl.6.1" class="pl"> </span>provision of care and education to young children, and allowing sufficient time for public <br/><span id="pl.6.2" class="pl"> </span>review and comment; and<br/></p>
+        <p><span id="pl.6.3" class="pl"> </span>(3) information as requested by the department to ensure compliance with the child care <br/><span id="pl.6.4" class="pl"> </span>fund statutes and rules promulgated by the commissioner.<br/></p>
+        <p><span id="pl.6.5" class="pl"> </span>The commissioner shall notify counties within 90 days of the date the plan is submitted <br/><span id="pl.6.6" class="pl"> </span>whether the plan is approved or the corrections or information needed to approve the plan. <br/><span id="pl.6.7" class="pl"> </span>The commissioner shall withhold <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">a county's allocation until it has an approved plan. Plans <br/><span id="pl.6.8" class="pl"> </span>not approved by the end of the second quarter after the plan is due may result in a 25 percent <br/><span id="pl.6.9" class="pl"> </span>reduction in allocation. Plans not approved by the end of the third quarter after the plan is <br/><span id="pl.6.10" class="pl"> </span>due may result in a 100 percent reduction in the allocation to the county</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> payments to a <br/><span id="pl.6.11" class="pl"> </span>county until it has an approved plan</ins><span class="sr-only">new text end</span>. Counties are to maintain services despite any <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">reduction <br/><span id="pl.6.12" class="pl"> </span>in their allocation</span><span class="sr-only">deleted text end</span> <span class="sr-only">new text begin</span><ins style="text-decoration: underline">withholding of payments </ins><span class="sr-only">new text end</span>due to plans not being approved.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.12.0">
+      <h2 class="section_number"><span id="pl.6.13" class="pl"> </span>Sec. 12. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.09, subdivision 7, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.12.1">
+        <h2 class="subd_no"><span id="pl.6.14" class="pl"> </span>Subd. 7.</h2>
+        <h3 class="headnote">Date of eligibility for assistance.</h3>
+        <p class="in">(a) The date of eligibility for child care <br/><span id="pl.6.15" class="pl"> </span>assistance under this chapter is the later of the date the application was received by the <br/><span id="pl.6.16" class="pl"> </span>county; the beginning date of employment, education, or training;<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or</ins><span class="sr-only">new text end</span> the date the infant is <br/><span id="pl.6.17" class="pl"> </span>born for applicants to the at-home infant care program<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">; or the date a determination has been <br/><span id="pl.6.18" class="pl"> </span>made that the applicant is a participant in employment and training services under Minnesota <br/><span id="pl.6.19" class="pl"> </span>Rules, part 3400.0080, or chapter 256J</span><span class="sr-only">deleted text end</span>.<br/></p>
+        <p class="in"><span id="pl.6.20" class="pl"> </span>(b) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Payment ceases for a family under the at-home infant child care program when a <br/><span id="pl.6.21" class="pl"> </span>family has used a total of 12 months of assistance as specified under section <a href="/statutes/cite/119B.035">119B.035</a>. <br/><span id="pl.6.22" class="pl"> </span>Payment of child care assistance for employed persons on MFIP is effective the date of <br/><span id="pl.6.23" class="pl"> </span>employment or the date of MFIP eligibility, whichever is later.</span><span class="sr-only">deleted text end</span> Payment of child care <br/><span id="pl.6.24" class="pl"> </span>assistance for MFIP or DWP participants in employment and training services is effective <br/><span id="pl.6.25" class="pl"> </span>the date of commencement of the services or the date of MFIP or DWP eligibility, whichever <br/><span id="pl.6.26" class="pl"> </span>is later. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Payment of child care assistance for transition year child care must be made <br/><span id="pl.6.27" class="pl"> </span>retroactive to the date of eligibility for transition year child care.<br/></span><span class="sr-only">deleted text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.6.28" class="pl"> </span>(c) Notwithstanding paragraph (b), payment of child care assistance for participants <br/><span id="pl.6.29" class="pl"> </span>eligible under section <a href="/statutes/cite/119B.05">119B.05</a> may only be made retroactive for a maximum of six months <br/><span id="pl.6.30" class="pl"> </span>from the date of application for child care assistance.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.13.0">
+      <h2 class="section_number"><span id="pl.7.1" class="pl"> </span>Sec. 13. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.10, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.7.2" class="pl"> </span>119B.10 EMPLOYMENT, EDUCATION, OR TRAINING ELIGIBILITY.<br/></h1>
+      <div class="subd" id="bill.0.13.1">
+        <h2 class="subd_no"><span id="pl.7.3" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Assistance for persons seeking and retaining employment.</h3>
+        <p>(a) Persons <br/><span id="pl.7.4" class="pl"> </span>who are seeking employment and who are eligible for assistance under this <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">section</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> chapter</ins><span class="sr-only">new text end</span> <br/><span id="pl.7.5" class="pl"> </span>are eligible to receive up to 240 hours of child care assistance per calendar year.<br/></p>
+        <p><span id="pl.7.6" class="pl"> </span>(b) At application and redetermination, employed persons who work at least an average <br/><span id="pl.7.7" class="pl"> </span>of 20 hours and full-time students who work at least an average of ten hours a week and <br/><span id="pl.7.8" class="pl"> </span>receive at least a minimum wage for all hours worked are eligible for child care assistance <br/><span id="pl.7.9" class="pl"> </span>for employment. For purposes of this section, work-study programs must be counted as <br/><span id="pl.7.10" class="pl"> </span>employment. An employed person with an MFIP or DWP employment plan shall receive <br/><span id="pl.7.11" class="pl"> </span>child care assistance as specified in the person's employment plan. Child care assistance <br/><span id="pl.7.12" class="pl"> </span>during employment must be authorized as provided in paragraphs (c) and (d).<br/></p>
+        <p><span id="pl.7.13" class="pl"> </span>(c) When the person works for an hourly wage and the hourly wage is equal to or greater <br/><span id="pl.7.14" class="pl"> </span>than the applicable minimum wage, child care assistance shall be provided for the hours of <br/><span id="pl.7.15" class="pl"> </span>employment, break, and mealtime during the employment and travel time up to two hours <br/><span id="pl.7.16" class="pl"> </span>per day.<br/></p>
+        <p><span id="pl.7.17" class="pl"> </span>(d) When the person does not work for an hourly wage, child care assistance must be <br/><span id="pl.7.18" class="pl"> </span>provided for the lesser of:<br/></p>
+        <p><span id="pl.7.19" class="pl"> </span>(1) the amount of child care determined by dividing gross earned income by the applicable <br/><span id="pl.7.20" class="pl"> </span>minimum wage, up to one hour every eight hours for meals and break time, plus up to two <br/><span id="pl.7.21" class="pl"> </span>hours per day for travel time; or<br/></p>
+        <p><span id="pl.7.22" class="pl"> </span>(2) the amount of child care equal to the actual amount of child care used during <br/><span id="pl.7.23" class="pl"> </span>employment, including break and mealtime during employment, and travel time up to two <br/><span id="pl.7.24" class="pl"> </span>hours per day.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.13.2">
+        <h2 class="subd_no">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.25" class="pl"> </span>Subd. 1a.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <h3 class="headnote">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">Assistance for persons participating in employment or family stabilization <br/><span id="pl.7.26" class="pl"> </span>plan.</ins>
+          <span class="sr-only">new text end</span>
+        </h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">The following persons are also eligible for child care assistance:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.27" class="pl"> </span>(1) persons who are participating in work, job search, job support, employment, or <br/><span id="pl.7.28" class="pl"> </span>training activities as required in their job search support or employment plan or in appeals, <br/><span id="pl.7.29" class="pl"> </span>hearings, assessments, or orientations according to chapter 256J;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.30" class="pl"> </span>(2) persons who are participating in social services activities under chapter 256J as <br/><span id="pl.7.31" class="pl"> </span>required in their employment plan approved according to chapter 256J;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.1" class="pl"> </span>(3) families who are participating in programs as required in tribal contracts under section <br/><span id="pl.8.2" class="pl"> </span>119B.02, subdivision 2, or 256.01, subdivision 2; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.3" class="pl"> </span>(4) persons who are participating in services or activities that are included in an approved <br/><span id="pl.8.4" class="pl"> </span>family stabilization plan under section 256J.575.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="subd" id="bill.0.13.3">
+        <h2 class="subd_no"><span id="pl.8.5" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Financial eligibility required.</h3>
+        <p>Persons participating in employment programs, <br/><span id="pl.8.6" class="pl"> </span>training programs, or education programs are eligible for continued assistance from the <br/><span id="pl.8.7" class="pl"> </span>child care fund, if they are financially eligible under the sliding fee scale set by the <br/><span id="pl.8.8" class="pl"> </span>commissioner in section <a href="/statutes/cite/119B.12">119B.12</a>.<br/></p>
+      </div>
+      <div class="subd" id="bill.0.13.4">
+        <h2 class="subd_no"><span id="pl.8.9" class="pl"> </span>Subd. 3.</h2>
+        <h3 class="headnote">Assistance for persons attending an approved education or training <br/><span id="pl.8.10" class="pl"> </span>program.</h3>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">(a) The following persons are eligible for child care assistance for education or <br/><span id="pl.8.11" class="pl"> </span>training:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.12" class="pl"> </span>(1) persons who meet the requirements of section 119B.09 who are enrolled in remedial <br/><span id="pl.8.13" class="pl"> </span>or basic education or English as a second language, or persons up to the age of 19 who are <br/><span id="pl.8.14" class="pl"> </span>enrolled in an educational program to attain a high school diploma or general equivalency <br/><span id="pl.8.15" class="pl"> </span>diploma;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.16" class="pl"> </span>(2) persons who meet the requirements of this section and section 119B.09 who receive <br/><span id="pl.8.17" class="pl"> </span>child care assistance to reduce the costs of child care for education when employed an <br/><span id="pl.8.18" class="pl"> </span>average of at least ten hours per week under subdivision 1, and are not receiving MFIP <br/><span id="pl.8.19" class="pl"> </span>benefits; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.20" class="pl"> </span>(3) persons who meet the requirements of this section and section 119B.09 who receive <br/><span id="pl.8.21" class="pl"> </span>child care assistance to reduce the costs of child care for education when enrolled in a <br/><span id="pl.8.22" class="pl"> </span>postsecondary educational institution as a full-time undergraduate student, and are not <br/><span id="pl.8.23" class="pl"> </span>receiving MFIP benefits.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.24" class="pl"> </span>(b) Notwithstanding paragraph (d), assistance for persons under paragraph (a), clause <br/><span id="pl.8.25" class="pl"> </span>(3), is limited to 48 months or the length of time necessary to complete the degree, whichever <br/><span id="pl.8.26" class="pl"> </span>is shorter.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.27" class="pl"> </span>(a) Money for an eligible person according to sections <a href="/statutes/cite/119B.03#stat.119B.03.3">119B.03, subdivision 3</a>, and <br/><a href="/statutes/cite/119B.05#stat.119B.05.1"><span id="pl.8.28" class="pl"> </span>119B.05, subdivision 1</a>, shall be used to reduce child care costs for a student.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (c)</ins><span class="sr-only">new text end</span> The county <br/><span id="pl.8.29" class="pl"> </span>shall not limit the duration of child care subsidies for a person in an employment or <br/><span id="pl.8.30" class="pl"> </span>educational program unless the person is<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> found to be</ins><span class="sr-only">new text end</span> ineligible <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">for</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> under the</ins><span class="sr-only">new text end</span> child care <br/><span id="pl.8.31" class="pl"> </span>funds<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> eligibility standards</ins><span class="sr-only">new text end</span>. Any other limitation must be based on <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">county policies included <br/><span id="pl.8.32" class="pl"> </span>in the approved child care fund plan</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> a person's employment or family stabilization plan in <br/><span id="pl.8.33" class="pl"> </span>the case of an MFIP participant</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.1" class="pl"> </span>(b)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (d)</ins><span class="sr-only">new text end</span> To be eligible, the student must be in good standing and be making satisfactory <br/><span id="pl.9.2" class="pl"> </span>progress toward <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">the degree</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> completion of the program as stipulated in the school's satisfactory <br/><span id="pl.9.3" class="pl"> </span>progress policy</ins><span class="sr-only">new text end</span>. The maximum length of time a <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">student</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> participant</ins><span class="sr-only">new text end</span> is eligible for child care <br/><span id="pl.9.4" class="pl"> </span>assistance under the child care fund for education and training is no more than the<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> maximum</ins><span class="sr-only">new text end</span> <br/><span id="pl.9.5" class="pl"> </span>time <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">necessary</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> allowed</ins><span class="sr-only">new text end</span> to complete the credit requirements for an <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">associate's</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> associate</ins><span class="sr-only">new text end</span> or <br/><span id="pl.9.6" class="pl"> </span>baccalaureate degree as <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">determined by the educational institution</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> stipulated in the school's <br/><span id="pl.9.7" class="pl"> </span>satisfactory progress policy</ins><span class="sr-only">new text end</span>. <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Time limitations for child care assistance do not apply to</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> This <br/><span id="pl.9.8" class="pl"> </span>length of time excludes</ins><span class="sr-only">new text end</span> basic or remedial educational programs needed<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> to prepare</ins><span class="sr-only">new text end</span> for <br/><span id="pl.9.9" class="pl"> </span>postsecondary education or employment. Basic or remedial educational programs include <br/><span id="pl.9.10" class="pl"> </span>high school, commissioner of education-selected high school equivalency, and English as <br/><span id="pl.9.11" class="pl"> </span>a second language programs. A program exempt from this time limit must not run <br/><span id="pl.9.12" class="pl"> </span>concurrently with a postsecondary program.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.13" class="pl"> </span>(c)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (e)</ins><span class="sr-only">new text end</span> If a student meets the conditions of paragraphs <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(a)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (c)</ins><span class="sr-only">new text end</span> and <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">(b)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (d)</ins><span class="sr-only">new text end</span>, child care <br/><span id="pl.9.14" class="pl"> </span>assistance must be authorized for all hours of class time and credit hours, including <br/><span id="pl.9.15" class="pl"> </span>independent study and internships, and up to two hours of travel time per day. A <br/><span id="pl.9.16" class="pl"> </span>postsecondary student shall receive four hours of child care assistance per credit hour for <br/><span id="pl.9.17" class="pl"> </span>study time and academic appointments per service period.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.18" class="pl"> </span>(d) For an MFIP or DWP participant, child care assistance must be authorized according <br/><span id="pl.9.19" class="pl"> </span>to the person's approved employment plan.</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (f)</ins><span class="sr-only">new text end</span> If an MFIP or DWP participant<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> who is</ins><span class="sr-only">new text end</span> <br/><span id="pl.9.20" class="pl"> </span>receiving MFIP or DWP child care assistance under this chapter moves to another county, <br/><span id="pl.9.21" class="pl"> </span>continues to participate in an authorized educational or training program<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> authorized in the <br/><span id="pl.9.22" class="pl"> </span>MFIP or DWP participant's employment or family stabilization plan</ins><span class="sr-only">new text end</span>, and remains eligible <br/><span id="pl.9.23" class="pl"> </span>for <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">MFIP </span><span class="sr-only">deleted text end</span><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or DWP</span><span class="sr-only">deleted text end</span> child care assistance<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> under this chapter</ins><span class="sr-only">new text end</span>, the participant must receive <br/><span id="pl.9.24" class="pl"> </span>continued child care assistance from the county responsible for the person's current <br/><span id="pl.9.25" class="pl"> </span>employment<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or family stabilization</ins><span class="sr-only">new text end</span> plan under section <a href="/statutes/cite/256G.07">256G.07</a>.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.26" class="pl"> </span>(e)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (g)</ins><span class="sr-only">new text end</span> If a person with an approved education program under section <a href="/statutes/cite/119B.03#stat.119B.03.">119B.03, <br/><span id="pl.9.27" class="pl"> </span>subdivision </a>3, or <a href="/statutes/cite/119B.05#stat.119B.05.1">119B.05, subdivision 1</a>, begins receiving MFIP or DWP assistance, the <br/><span id="pl.9.28" class="pl"> </span>person continues to receive child care assistance for the approved education program until <br/><span id="pl.9.29" class="pl"> </span>the person's education is included in an approved MFIP or DWP employment plan or until <br/><span id="pl.9.30" class="pl"> </span>redetermination, whichever occurs first.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.31" class="pl"> </span>(f)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (h)</ins><span class="sr-only">new text end</span> If a person's MFIP or DWP assistance ends and the approved MFIP or DWP <br/><span id="pl.9.32" class="pl"> </span>employment plan included education, the person continues to be eligible for child care <br/><span id="pl.9.33" class="pl"> </span>assistance for education under transition year child care assistance until the person's education <br/><span id="pl.9.34" class="pl"> </span>is included in an approved education plan or until redetermination.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.14.0">
+      <h2 class="section_number"><span id="pl.10.1" class="pl"> </span>Sec. 14. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.11, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.14.1">
+        <h2 class="subd_no"><span id="pl.10.2" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">County contributions required.</h3>
+        <p>(a) In addition to payments from <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">basic <br/><span id="pl.10.3" class="pl"> </span>sliding fee</span><span class="sr-only">deleted text end</span> child care <span class="sr-only">new text begin</span><ins style="text-decoration: underline">assistance </ins><span class="sr-only">new text end</span>program participants, each county shall contribute from <br/><span id="pl.10.4" class="pl"> </span>county tax or other sources a fixed local match equal to its calendar year 1996 required <br/><span id="pl.10.5" class="pl"> </span>county contribution reduced by the administrative funding loss that would have occurred <br/><span id="pl.10.6" class="pl"> </span>in state fiscal year 1996 under section <a href="/statutes/cite/119B.15">119B.15</a>. The commissioner shall recover funds from <br/><span id="pl.10.7" class="pl"> </span>the county as necessary to bring county expenditures into compliance with this subdivision. <br/><span id="pl.10.8" class="pl"> </span>The commissioner may accept county contributions, including contributions above the fixed <br/><span id="pl.10.9" class="pl"> </span>local match, in order to make state payments.<br/></p>
+        <p><span id="pl.10.10" class="pl"> </span>(b) The commissioner may accept payments from counties to:<br/></p>
+        <p><span id="pl.10.11" class="pl"> </span>(1) fulfill the county contribution as required under subdivision 1;<br/></p>
+        <p><span id="pl.10.12" class="pl"> </span>(2) pay for services authorized under this chapter beyond those paid for with federal or <br/><span id="pl.10.13" class="pl"> </span>state funds or with the required county contributions; or<br/></p>
+        <p><span id="pl.10.14" class="pl"> </span>(3) pay for child care services in addition to those authorized under this chapter, as <br/><span id="pl.10.15" class="pl"> </span>authorized under other federal, state, or local statutes or regulations.<br/></p>
+        <p><span id="pl.10.16" class="pl"> </span>(c) The county payments must be deposited in an account in the special revenue fund. <br/><span id="pl.10.17" class="pl"> </span>Money in this account is appropriated to the commissioner for child care assistance under <br/><span id="pl.10.18" class="pl"> </span>this chapter and other applicable statutes and regulations and is in addition to other state <br/><span id="pl.10.19" class="pl"> </span>and federal appropriations.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.15.0">
+      <h2 class="section_number"><span id="pl.10.20" class="pl"> </span>Sec. 15. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.12, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.15.1">
+        <h2 class="subd_no"><span id="pl.10.21" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Parent fee.</h3>
+        <p class="in">A family must be assessed a parent fee for each service period. A <br/><span id="pl.10.22" class="pl"> </span>family's parent fee must be a fixed percentage of its annual gross income. Parent fees must <br/><span id="pl.10.23" class="pl"> </span>apply to families eligible for child care assistance under <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">sections <a href="/statutes/cite/119B.03">119B.03</a> and <a href="/statutes/cite/119B.05">119B.05</a></span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> <br/><span id="pl.10.24" class="pl"> </span>section 119B.09</ins><span class="sr-only">new text end</span>. Income must be as defined in section <a href="/statutes/cite/119B.011#stat.119B.011.15">119B.011, subdivision 15</a>. The fixed <br/><span id="pl.10.25" class="pl"> </span>percentage is based on the relationship of the family's annual gross income to 100 percent <br/><span id="pl.10.26" class="pl"> </span>of the annual state median income. Parent fees must begin at 75 percent of the poverty level. <br/><span id="pl.10.27" class="pl"> </span>The minimum parent fees for families between 75 percent and 100 percent of poverty level <br/><span id="pl.10.28" class="pl"> </span>must be $2 per biweekly period. Parent fees must provide for graduated movement to full <br/><span id="pl.10.29" class="pl"> </span>payment. At initial application, the parent fee is established for the family's 12-month <br/><span id="pl.10.30" class="pl"> </span>eligibility period. At redetermination, if the family remains eligible, the parent fee is <br/><span id="pl.10.31" class="pl"> </span>recalculated and is established for the next 12-month eligibility period. A parent fee shall <br/><span id="pl.10.32" class="pl"> </span>not increase during the 12-month eligibility period. Payment of part or all of a family's <br/><span id="pl.10.33" class="pl"> </span>parent fee directly to the family's child care provider on behalf of the family by a source <br/><span id="pl.11.1" class="pl"> </span>other than the family shall not affect the family's eligibility for child care assistance, and <br/><span id="pl.11.2" class="pl"> </span>the amount paid shall be excluded from the family's income. Child care providers who <br/><span id="pl.11.3" class="pl"> </span>accept third-party payments must maintain family specific documentation of payment source, <br/><span id="pl.11.4" class="pl"> </span>amount, and time period covered by the payment.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.16.0">
+      <h2 class="section_number"><span id="pl.11.5" class="pl"> </span>Sec. 16. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.13, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.16.1">
+        <h2 class="subd_no"><span id="pl.11.6" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Subsidy restrictions.</h3>
+        <p class="in">(a) Beginning <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">February 3, 2014</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> July 1, 2019</ins><span class="sr-only">new text end</span>, the <br/><span id="pl.11.7" class="pl"> </span>maximum rate paid for child care assistance <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">in any county or county price cluster under the <br/><span id="pl.11.8" class="pl"> </span>child care fund shall be the greater of the 25th percentile of the 2011 child care provider <br/><span id="pl.11.9" class="pl"> </span>rate survey or the maximum rate effective November 28, 2011. For a child care provider <br/><span id="pl.11.10" class="pl"> </span>located within the boundaries of a city located in two or more of the counties of Benton, <br/><span id="pl.11.11" class="pl"> </span>Sherburne, and Stearns, the maximum rate paid for child care assistance shall be equal to <br/><span id="pl.11.12" class="pl"> </span>the maximum rate paid in the county with the highest maximum reimbursement rates or the <br/><span id="pl.11.13" class="pl"> </span>provider's charge, whichever is less. The commissioner may: (1) assign a county with no <br/><span id="pl.11.14" class="pl"> </span>reported provider prices to a similar price cluster; and (2) consider county level access when <br/><span id="pl.11.15" class="pl"> </span>determining final price clusters</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> is the 75th percentile rate for like-care arrangements as <br/><span id="pl.11.16" class="pl"> </span>surveyed by the commissioner in the most current market rate survey</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p class="in"><span id="pl.11.17" class="pl"> </span>(b) A rate which includes a special needs rate paid under subdivision 3 may be in excess <br/><span id="pl.11.18" class="pl"> </span>of the maximum rate allowed under this subdivision.<br/></p>
+        <p class="in"><span id="pl.11.19" class="pl"> </span>(c) The department shall monitor the effect of this paragraph on provider rates. The <br/><span id="pl.11.20" class="pl"> </span>county shall pay the provider's full charges for every child in care up to the maximum <br/><span id="pl.11.21" class="pl"> </span>established. The commissioner shall determine the maximum rate for each type of care on <br/><span id="pl.11.22" class="pl"> </span>an hourly, full-day, and weekly basis, including special needs and disability care.<br/></p>
+        <p class="in"><span id="pl.11.23" class="pl"> </span>(d) If a child uses one provider, the maximum payment for one day of care must not <br/><span id="pl.11.24" class="pl"> </span>exceed the daily rate. The maximum payment for one week of care must not exceed the <br/><span id="pl.11.25" class="pl"> </span>weekly rate.<br/></p>
+        <p><span id="pl.11.26" class="pl"> </span>(e) If a child uses two providers under section <a href="/statutes/cite/119B.097">119B.097</a>, the maximum payment must <br/><span id="pl.11.27" class="pl"> </span>not exceed:<br/></p>
+        <p><span id="pl.11.28" class="pl"> </span>(1) the daily rate for one day of care;<br/></p>
+        <p><span id="pl.11.29" class="pl"> </span>(2) the weekly rate for one week of care by the child's primary provider; and<br/></p>
+        <p><span id="pl.11.30" class="pl"> </span>(3) two daily rates during two weeks of care by a child's secondary provider.<br/></p>
+        <p><span id="pl.12.1" class="pl"> </span>(f) Child care providers receiving reimbursement under this chapter must not be paid <br/><span id="pl.12.2" class="pl"> </span>activity fees or an additional amount above the maximum rates for care provided during <br/><span id="pl.12.3" class="pl"> </span>nonstandard hours for families receiving assistance.<br/></p>
+        <p class="in"><span id="pl.12.4" class="pl"> </span>(g) If the provider charge is greater than the maximum provider rate allowed, the parent <br/><span id="pl.12.5" class="pl"> </span>is responsible for payment of the difference in the rates in addition to any family co-payment <br/><span id="pl.12.6" class="pl"> </span>fee.<br/></p>
+        <p class="in"><span id="pl.12.7" class="pl"> </span>(h) All maximum provider rates changes shall be implemented on the Monday following <br/><span id="pl.12.8" class="pl"> </span>the effective date of the maximum provider rate.<br/></p>
+        <p class="in"><span id="pl.12.9" class="pl"> </span>(i) Notwithstanding Minnesota Rules, part <a href="/rules/?id=3400.0130">3400.0130</a>, subpart 7, maximum registration <br/><span id="pl.12.10" class="pl"> </span>fees in effect on January 1, 2013, shall remain in effect.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.17.0">
+      <h2 class="section_number"><span id="pl.12.11" class="pl"> </span>Sec. 17. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.15, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.12.12" class="pl"> </span>119B.15 ADMINISTRATIVE EXPENSES.<br/></h1>
+      <p><span id="pl.12.13" class="pl"> </span>The commissioner shall use up to 1/21 of the state and federal funds available for the <br/><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.12.14" class="pl"> </span>basic sliding fee program and 1/21 of the state and federal funds available for the MFIP</span><span class="sr-only">deleted text end</span> <br/><span id="pl.12.15" class="pl"> </span>child care <span class="sr-only">new text begin</span><ins style="text-decoration: underline">assistance </ins><span class="sr-only">new text end</span>program for <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">payments to counties for administrative expenses</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> the <br/><span id="pl.12.16" class="pl"> </span>administrative costs of the delivery of direct services</ins><span class="sr-only">new text end</span>. The commissioner shall make monthly <br/><span id="pl.12.17" class="pl"> </span>payments to each county based on direct service expenditures. Payments may be withheld <br/><span id="pl.12.18" class="pl"> </span>if monthly reports are incomplete or untimely.<br/></p>
+    </div>
+    <div class="bill_section am_cite" id="bill.0.18.0">
+      <h2 class="section_number"><span id="pl.12.19" class="pl"> </span>Sec. 18. </h2>
+      <p class="first">Minnesota Statutes 2018, section 119B.24, is amended to read:<br/></p>
+      <br/>
+      <h1 class="shn"><span id="pl.12.20" class="pl"> </span>119B.24 DUTIES OF COMMISSIONER.<br/></h1>
+      <p><span id="pl.12.21" class="pl"> </span>In addition to the powers and duties already conferred by law, the commissioner of <br/><span id="pl.12.22" class="pl"> </span>human services shall:<br/></p>
+      <p><span id="pl.12.23" class="pl"> </span>(1) administer the child care fund<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, including the basic sliding fee program</span><span class="sr-only">deleted text end</span> authorized <br/><span id="pl.12.24" class="pl"> </span>under sections <a href="/statutes/cite/119B.011">119B.011</a> to <a href="/statutes/cite/119B.16">119B.16</a>;<br/></p>
+      <p><span id="pl.12.25" class="pl"> </span>(2) monitor the child care resource and referral programs established under section <br/><a href="/statutes/cite/119B.19"><span id="pl.12.26" class="pl"> </span>119B.19</a>; and<br/></p>
+      <p><span id="pl.12.27" class="pl"> </span>(3) encourage child care providers to participate in a nationally recognized accreditation <br/><span id="pl.12.28" class="pl"> </span>system for early childhood and school-age care programs. Subject to approval by the <br/><span id="pl.12.29" class="pl"> </span>commissioner, family child care providers and early childhood and school-age care programs <br/><span id="pl.12.30" class="pl"> </span>shall be reimbursed for one-half of the direct cost of accreditation fees, upon successful <br/><span id="pl.12.31" class="pl"> </span>completion of accreditation.<br/></p>
+    </div>
+    <div class="bill_section uncoded" id="bill.0.19.0">
+      <h2 class="section_number"><span id="pl.13.1" class="pl"> </span>Sec. 19. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">DIRECTION TO COMMISSIONER OF MANAGEMENT AND BUDGET.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.2" class="pl"> </span>The state obligation for the child care assistance program under Minnesota Statutes, <br/><span id="pl.13.3" class="pl"> </span>chapter 119B, must be included in the Department of Management and Budget February <br/><span id="pl.13.4" class="pl"> </span>and November forecast of state revenues and expenditures under Minnesota Statutes, section <br/><span id="pl.13.5" class="pl"> </span>16A.103, beginning with the November 2019 forecast.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section revisorInstr" id="bill.0.20.0">
+      <h2 class="section_number"><span id="pl.13.6" class="pl"> </span>Sec. 20. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">REVISOR'S INSTRUCTION.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.7" class="pl"> </span>(a) In the next edition of Minnesota Statutes, the revisor shall renumber the statutory <br/><span id="pl.13.8" class="pl"> </span>section in column A with the section in column B, and make necessary cross-reference <br/><span id="pl.13.9" class="pl"> </span>changes consistent with the renumbering:<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+      <table>
+        <col style="width:19.4594594594595%"/>
+        <col style="width:42.7027027027027%"/>
+        <col style="width:37.8378378378378%"/>
+        <tr>
+          <td style="text-align: center;"/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.13.10" class="pl"> </span>Column A<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">Column B<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.13.11" class="pl"> </span>119B.035<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">119B.106<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.13.12" class="pl"> </span>119B.05, subd. 4<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">119B.03, subd. 11<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+        </tr>
+        <tr>
+          <td/>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline"><span id="pl.13.13" class="pl"> </span>119B.05, subd. 5<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+          <td>
+            <span class="sr-only">new text begin</span>
+            <ins style="text-decoration: underline">119B.03, subd. 12<br/></ins>
+            <span class="sr-only">new text end</span>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.14" class="pl"> </span>(b) The revisor of statutes shall correct internal cross-references to sections resulting <br/><span id="pl.13.15" class="pl"> </span>from the repealer in section 21. The revisor may make changes necessary to correct the <br/><span id="pl.13.16" class="pl"> </span>punctuation, grammar, or structure of the remaining text and preserve its meaning.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section repealer" id="bill.0.21.0">
+      <h2 class="section_number"><span id="pl.13.17" class="pl"> </span>Sec. 21. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> REPEALER.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.13.18" class="pl"> </span>Minnesota Statutes 2018, sections 119B.011, subdivisions 20 and 20a; 119B.03, <br/><span id="pl.13.19" class="pl"> </span>subdivisions 1, 2, 4, 5, 6, 6a, 6b, and 8; 119B.05, subdivision 1; 119B.09, subdivisions 3 <br/><span id="pl.13.20" class="pl"> </span>and 4a; and 119B.11, subdivision 4,</ins>
+        <span class="sr-only">new text end</span>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"> are repealed.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="rlang">
+      <h2 class="title">APPENDIX</h2>
+      <p style="margin-bottom: 2em">Repealed Minnesota Statutes: 19-1169</p>
+      <div class="repealed_statutes">
+        <h1 class="shn">119B.011 DEFINITIONS.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 20.</h2>
+          <h3 class="headnote">Transition year families.</h3>
+          <p>"Transition year families" means families who have received MFIP assistance, or who were eligible to receive MFIP assistance after choosing to discontinue receipt of the cash portion of MFIP assistance under section <a href="/statutes/cite/256J.31#stat.256J.31.12">256J.31, subdivision 12</a>, or families who have received DWP assistance under section <a href="/statutes/cite/256J.95">256J.95</a> for at least three of the last six months before losing eligibility for MFIP or DWP. Notwithstanding Minnesota Rules, parts <a href="/rules/?id=3400.0040">3400.0040</a>, subpart 10, and <a href="/rules/?id=3400.0090">3400.0090</a>, subpart 2, transition year child care may be used to support employment, approved education or training programs, or job search that meets the requirements of section <a href="/statutes/cite/119B.10">119B.10</a>. Transition year child care is not available to families who have been disqualified from MFIP or DWP due to fraud.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 20a.</h2>
+          <h3 class="headnote">Transition year extension families.</h3>
+          <p>"Transition year extension families" means families who have completed their transition year of child care assistance under this subdivision and who are eligible for, but on a waiting list for, services under section <a href="/statutes/cite/119B.03">119B.03</a>. For purposes of sections <a href="/statutes/cite/119B.03#stat.119B.03.3">119B.03, subdivision 3</a>, and <a href="/statutes/cite/119B.05#stat.119B.05.1">119B.05, subdivision 1</a>, clause (2), families participating in extended transition year shall not be considered transition year families. Notwithstanding Minnesota Rules, parts <a href="/rules/?id=3400.0040">3400.0040</a>, subpart 10, and <a href="/rules/?id=3400.0090">3400.0090</a>, subpart 2, transition year extension child care may be used to support employment, approved education or training programs, or a job search that meets the requirements of section <a href="/statutes/cite/119B.10">119B.10</a> for the length of time necessary for families to be moved from the basic sliding fee waiting list into the basic sliding fee program.</p>
+        </div>
+        <h1 class="shn">119B.03 BASIC SLIDING FEE PROGRAM.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote"> Notice of allocation.</h3>
+          <p class="in">By October 1 of each year, the commissioner shall notify all counties of their final child care fund program allocation.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 2.</h2>
+          <h3 class="headnote">Waiting list.</h3>
+          <p>Each county that receives funds under this section must keep a written record and report to the commissioner the number of eligible families who have applied for a child care subsidy or have requested child care assistance. Counties shall perform a preliminary determination of eligibility when a family requests child care assistance. At a minimum, a county must make a preliminary determination of eligibility based on family size, income, and authorized activity. A family seeking child care assistance must provide the required information to the county. A family that appears to be eligible must be put on a waiting list if funds are not immediately available. The waiting list must identify students in need of child care. Counties must review and update their waiting list at least every six months.</p>
+        </div>
+        <div class="subd" id="bill.0.0.3">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Funding priority.</h3>
+          <p>(a) First priority for child care assistance under the basic sliding fee program must be given to eligible non-MFIP families who do not have a high school diploma or commissioner of education-selected high school equivalency certification or who need remedial and basic skill courses in order to pursue employment or to pursue education leading to employment and who need child care assistance to participate in the education program. This includes student parents as defined under section <a href="/statutes/cite/119B.011#stat.119B.011.19">119B.011, subdivision 19b</a>. Within this priority, the following subpriorities must be used:</p>
+          <p>(1) child care needs of minor parents;</p>
+          <p>(2) child care needs of parents under 21 years of age; and</p>
+          <p>(3) child care needs of other parents within the priority group described in this paragraph.</p>
+          <p>(b) Second priority must be given to parents who have completed their MFIP or DWP transition year, or parents who are no longer receiving or eligible for diversionary work program supports.</p>
+          <p>(c) Third priority must be given to families who are eligible for portable basic sliding fee assistance through the portability pool under subdivision 9.</p>
+          <p>(d) Fourth priority must be given to families in which at least one parent is a veteran as defined under section <a href="/statutes/cite/197.447">197.447</a>.</p>
+          <p>(e) Families under paragraph (b) must be added to the basic sliding fee waiting list on the date they begin the transition year under section <a href="/statutes/cite/119B.011#stat.119B.011.20">119B.011, subdivision 20</a>, and must be moved into the basic sliding fee program as soon as possible after they complete their transition year.</p>
+        </div>
+        <div class="subd" id="bill.0.0.4">
+          <h2 class="subd_no">Subd. 5.</h2>
+          <h3 class="headnote">Review of use of funds; reallocation.</h3>
+          <p>(a) After each quarter, the commissioner shall review the use of basic sliding fee program allocations by county. The commissioner may reallocate unexpended or unencumbered money among those counties who have expended their full allocation or may allow a county to expend up to ten percent of its allocation in the subsequent allocation period.</p>
+          <p>(b) Any unexpended state and federal appropriations from the first year of the biennium may be carried forward to the second year of the biennium.</p>
+        </div>
+        <div class="subd" id="bill.0.0.5">
+          <h2 class="subd_no">Subd. 6.</h2>
+          <h3 class="headnote">Allocation formula.</h3>
+          <p class="in">The basic sliding fee state and federal funds shall be allocated on a calendar year basis. Funds shall be allocated first in amounts equal to each county's guaranteed floor according to subdivision 8, with any remaining available funds allocated according to the following formula:</p>
+          <p class="in">(a) One-fourth of the funds shall be allocated in proportion to each county's total expenditures for the basic sliding fee child care program reported during the most recent fiscal year completed at the time of the notice of allocation.</p>
+          <p class="in">(b) Up to one-fourth of the funds shall be allocated in proportion to the number of families participating in the transition year child care program as reported during and averaged over the most recent six months completed at the time of the notice of allocation. Funds in excess of the amount necessary to serve all families in this category shall be allocated according to paragraph (f).</p>
+          <p class="in">(c) Up to one-fourth of the funds shall be allocated in proportion to the average of each county's most recent six months of reported first, second, and third priority waiting list as defined in subdivision 2 and the reinstatement list of those families whose assistance was terminated with the approval of the commissioner under Minnesota Rules, part <a href="/rules/?id=3400.0183">3400.0183</a>, subpart 1. Funds in excess of the amount necessary to serve all families in this category shall be allocated according to paragraph (f).</p>
+          <p class="in">(d) Up to one-fourth of the funds shall be allocated in proportion to the average of each county's most recent six months of reported waiting list as defined in subdivision 2 and the reinstatement list of those families whose assistance was terminated with the approval of the commissioner under Minnesota Rules, part <a href="/rules/?id=3400.0183">3400.0183</a>, subpart 1. Funds in excess of the amount necessary to serve all families in this category shall be allocated according to paragraph (f).</p>
+          <p class="in">(e) The amount necessary to serve all families in paragraphs (b), (c), and (d) shall be calculated based on the basic sliding fee average cost of care per family in the county with the highest cost in the most recently completed calendar year.</p>
+          <p class="in">(f) Funds in excess of the amount necessary to serve all families in paragraphs (b), (c), and (d) shall be allocated in proportion to each county's total expenditures for the basic sliding fee child care program reported during the most recent fiscal year completed at the time of the notice of allocation.</p>
+        </div>
+        <div class="subd" id="bill.0.0.6">
+          <h2 class="subd_no">Subd. 6a.</h2>
+          <h3 class="headnote">Allocation due to increased funding.</h3>
+          <p>When funding increases are implemented within a calendar year, every county must receive an allocation at least equal to its original allocation for the same time period. The remainder of the allocation must be recalculated to reflect the funding increase, according to formulas identified in subdivision 6.</p>
+        </div>
+        <div class="subd" id="bill.0.0.7">
+          <h2 class="subd_no">Subd. 6b.</h2>
+          <h3 class="headnote">Allocation due to decreased funding.</h3>
+          <p>When funding decreases are implemented within a calendar year, county allocations must be reduced in an amount proportionate to the reduction in the total allocation for the same time period. This applies when a funding decrease necessitates the revision of an existing calendar year allocation.</p>
+        </div>
+        <div class="subd" id="bill.0.0.8">
+          <h2 class="subd_no">Subd. 8.</h2>
+          <h3 class="headnote">Guaranteed floor.</h3>
+          <p>(a) Beginning January 1, 1996, each county's guaranteed floor shall equal 90 percent of the allocation received in the preceding calendar year. For the period January 1, 1999, to December 31, 1999, each county's guaranteed floor must be equal to its original calendar year 1998 allocation or its actual earnings for calendar year 1998, whichever is less.</p>
+          <p>(b) When the amount of funds available for allocation is less than the amount available in the previous year, each county's previous year allocation shall be reduced in proportion to the reduction in the statewide funding, for the purpose of establishing the guaranteed floor.</p>
+        </div>
+        <h1 class="shn">119B.05 MFIP CHILD CARE ASSISTANCE PROGRAM.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subdivision 1.</h2>
+          <h3 class="headnote">Eligible participants.</h3>
+          <p class="in">Families eligible for child care assistance under the MFIP child care program are:</p>
+          <p class="in">(1) MFIP participants who are employed or in job search and meet the requirements of section <a href="/statutes/cite/119B.10">119B.10</a>;</p>
+          <p class="in">(2) persons who are members of transition year families under section <a href="/statutes/cite/119B.011#stat.119B.011.20">119B.011, subdivision 20</a>, and meet the requirements of section <a href="/statutes/cite/119B.10">119B.10</a>;</p>
+          <p class="in">(3) families who are participating in employment orientation or job search, or other employment or training activities that are included in an approved employability development plan under section <a href="/statutes/cite/256J.95">256J.95</a>;</p>
+          <p class="in">(4) MFIP families who are participating in work job search, job support, employment, or training activities as required in their employment plan, or in appeals, hearings, assessments, or orientations according to chapter 256J;</p>
+          <p class="in">(5) MFIP families who are participating in social services activities under chapter 256J as required in their employment plan approved according to chapter 256J;</p>
+          <p class="in">(6) families who are participating in services or activities that are included in an approved family stabilization plan under section <a href="/statutes/cite/256J.575">256J.575</a>;</p>
+          <p class="in">(7) families who are participating in programs as required in tribal contracts under section <a href="/statutes/cite/119B.02#stat.119B.02.2">119B.02, subdivision 2</a>, or <a href="/statutes/cite/256.01#stat.256.01.2">256.01, subdivision 2</a>;</p>
+          <p class="in">(8) families who are participating in the transition year extension under section <a href="/statutes/cite/119B.011#stat.119B.011.20a;">119B.011, subdivision 20a;</a></p>
+          <p>(9) student parents as defined under section <a href="/statutes/cite/119B.011#stat.119B.011.19">119B.011, subdivision 19b</a>; and</p>
+          <p>(10) student parents who turn 21 years of age and who continue to meet the other requirements under section <a href="/statutes/cite/119B.011#stat.119B.011.19">119B.011, subdivision 19b</a>. A student parent continues to be eligible until the student parent is approved for basic sliding fee child care assistance or until the student parent's redetermination, whichever comes first. At the student parent's redetermination, if the student parent was not approved for basic sliding fee child care assistance, a student parent's eligibility ends following a 15-day adverse action notice.</p>
+        </div>
+        <h1 class="shn">119B.09 FINANCIAL ELIGIBILITY.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 3.</h2>
+          <h3 class="headnote">Priorities; allocations.</h3>
+          <p>If a county projects that its child care allocation is insufficient to meet the needs of all eligible families, it may prioritize among the families that remain to be served after the county has complied with the priority requirements of section <a href="/statutes/cite/119B.03">119B.03</a>. Counties that have established a priority for families who are not MFIP participants beyond those established under section <a href="/statutes/cite/119B.03">119B.03</a> must submit the policy in the annual child care fund plan.</p>
+        </div>
+        <div class="subd" id="bill.0.0.2">
+          <h2 class="subd_no">Subd. 4a.</h2>
+          <h3 class="headnote">Temporary ineligibility of military personnel.</h3>
+          <p>Counties must reserve a family's position under the child care assistance fund if a family has been receiving child care assistance but is temporarily ineligible for assistance due to increased income from active military service. Activated military personnel may be temporarily ineligible until deactivation. A county must reserve a military family's position on the basic sliding fee waiting list under the child care assistance fund if a family is approved to receive child care assistance and reaches the top of the waiting list but is temporarily ineligible for assistance.</p>
+        </div>
+        <h1 class="shn">119B.11 COUNTY CONTRIBUTION.</h1>
+        <div class="subd" id="bill.0.0.1">
+          <h2 class="subd_no">Subd. 4.</h2>
+          <h3 class="headnote">Maintenance of funding effort.</h3>
+          <p>To receive money through this program, each county shall certify, in its annual plan to the commissioner, that the county has not reduced allocations from other federal and state sources, which, in the absence of the child care fund, would have been available for child care assistance. However, the county must continue contributions, as necessary, to maintain on the basic sliding fee program, families who are receiving assistance on July 1, 1995, until the family loses eligibility for the program or until a family voluntarily withdraws from the program. This subdivision does not affect the local match required for this program under other sections of the law.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

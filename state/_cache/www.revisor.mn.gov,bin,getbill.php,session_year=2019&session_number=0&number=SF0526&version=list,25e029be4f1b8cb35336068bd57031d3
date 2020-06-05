@@ -1,0 +1,1488 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 21:13:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>SF 526 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="senate_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">SF 526</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 01/28/2019 02:59pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=senate&f=SF0526&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=SF0526&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=SF0526&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=SF526&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=SF526&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/24/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0526&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=SF0526&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <br/>
+    <var class="ln">1.9</var>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <br/>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <br/>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <br/>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <br/>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">8.34</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <br/>
+    <var class="ln">9.13</var>
+    <br/>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">9.33</var>
+    <br/>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <br/>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+    <var class="ln">10.29</var>
+    <var class="ln">10.30</var>
+    <var class="ln">10.31</var>
+    <var class="ln">10.32</var>
+    <var class="ln">11.1</var>
+    <var class="ln">11.2</var>
+    <var class="ln">11.3</var>
+    <var class="ln">11.4</var>
+    <var class="ln">11.5</var>
+    <var class="ln">11.6</var>
+    <var class="ln">11.7</var>
+    <var class="ln">11.8</var>
+    <var class="ln">11.9</var>
+    <var class="ln">11.10</var>
+    <var class="ln">11.11</var>
+    <var class="ln">11.12</var>
+    <var class="ln">11.13</var>
+    <var class="ln">11.14</var>
+    <var class="ln">11.15</var>
+    <var class="ln">11.16</var>
+    <var class="ln">11.17</var>
+    <var class="ln">11.18</var>
+    <var class="ln">11.19</var>
+    <br/>
+    <var class="ln">11.20</var>
+    <var class="ln">11.21</var>
+    <br/>
+    <var class="ln">11.22</var>
+    <var class="ln">11.23</var>
+    <var class="ln">11.24</var>
+    <var class="ln">11.25</var>
+    <var class="ln">11.26</var>
+    <var class="ln">11.27</var>
+    <var class="ln">11.28</var>
+    <var class="ln">11.29</var>
+    <var class="ln">11.30</var>
+    <var class="ln">11.31</var>
+    <var class="ln">11.32</var>
+    <var class="ln">11.33</var>
+    <var class="ln">12.1</var>
+    <var class="ln">12.2</var>
+    <var class="ln">12.3</var>
+    <var class="ln">12.4</var>
+    <var class="ln">12.5</var>
+    <var class="ln">12.6</var>
+    <var class="ln">12.7</var>
+    <var class="ln">12.8</var>
+    <var class="ln">12.9</var>
+    <var class="ln">12.10</var>
+    <var class="ln">12.11</var>
+    <br/>
+    <var class="ln">12.12</var>
+    <var class="ln">12.13</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to taxation; modifying the agricultural homestead rules for certain  properties <br/><span id="pl.1.3" class="pl"> </span>owned by trusts; modifying provisions for service and filing of defense or objection <br/><span id="pl.1.4" class="pl"> </span>to real and personal property taxes; modifying provisions for relief for innocent <br/><span id="pl.1.5" class="pl"> </span>spouses for joint income tax returns; modifying qualified property provisions for <br/><span id="pl.1.6" class="pl"> </span>the estate tax; amending Minnesota Statutes 2018, sections 273.124, subdivisions <br/><span id="pl.1.7" class="pl"> </span>14, 21; 278.01, subdivision 1; 289A.31, subdivision 2; 291.03, subdivisions 9, 10.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.8" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section am_subd" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.9" class="pl"> </span>Section 1. </h2>
+      <p class="first">Minnesota Statutes 2018, section 273.124, subdivision 14, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.1.1">
+        <h2 class="subd_no"><span id="pl.1.10" class="pl"> </span>Subd. 14.</h2>
+        <h3 class="headnote">Agricultural homesteads; special provisions. </h3>
+        <p class="in">(a) Real estate of less than ten <br/><span id="pl.1.11" class="pl"> </span>acres that is the homestead of its owner must be classified as class 2a under section <a href="/statutes/cite/273.13#stat.273.13.23">273.13, <br/><span id="pl.1.12" class="pl"> </span>subdivision 23</a>, paragraph (a), if:<br/></p>
+        <p class="in"><span id="pl.1.13" class="pl"> </span>(1) the parcel on which the house is located is contiguous on at least two sides to (i) <br/><span id="pl.1.14" class="pl"> </span>agricultural land, (ii) land owned or administered by the United States Fish and Wildlife <br/><span id="pl.1.15" class="pl"> </span>Service, or (iii) land administered by the Department of Natural Resources on which in lieu <br/><span id="pl.1.16" class="pl"> </span>taxes are paid under sections <a href="/statutes/cite/477A.11">477A.11</a> to <a href="/statutes/cite/477A.14">477A.14</a>;<br/></p>
+        <p class="in"><span id="pl.1.17" class="pl"> </span>(2) its owner also owns a noncontiguous parcel of agricultural land that is at least 20 <br/><span id="pl.1.18" class="pl"> </span>acres;<br/></p>
+        <p class="in"><span id="pl.1.19" class="pl"> </span>(3) the noncontiguous land is located not farther than four townships or cities, or a <br/><span id="pl.1.20" class="pl"> </span>combination of townships or cities from the homestead; and<br/></p>
+        <p class="in"><span id="pl.1.21" class="pl"> </span>(4) the agricultural use value of the noncontiguous land and farm buildings is equal to <br/><span id="pl.1.22" class="pl"> </span>at least 50 percent of the market value of the house, garage, and one acre of land.<br/></p>
+        <p class="in"><span id="pl.2.1" class="pl"> </span>Homesteads initially classified as class 2a under the provisions of this paragraph shall <br/><span id="pl.2.2" class="pl"> </span>remain classified as class 2a, irrespective of subsequent changes in the use of adjoining <br/><span id="pl.2.3" class="pl"> </span>properties, as long as the homestead remains under the same ownership, the owner owns a <br/><span id="pl.2.4" class="pl"> </span>noncontiguous parcel of agricultural land that is at least 20 acres, and the agricultural use <br/><span id="pl.2.5" class="pl"> </span>value qualifies under clause (4). Homestead classification under this paragraph is limited <br/><span id="pl.2.6" class="pl"> </span>to property that qualified under this paragraph for the 1998 assessment.<br/></p>
+        <p class="in"><span id="pl.2.7" class="pl"> </span>(b)(i) Agricultural property shall be classified as the owner's homestead, to the same <br/><span id="pl.2.8" class="pl"> </span>extent as other agricultural homestead property, if all of the following criteria are met:<br/></p>
+        <p class="in"><span id="pl.2.9" class="pl"> </span>(1) the agricultural property consists of at least 40 acres including undivided government <br/><span id="pl.2.10" class="pl"> </span>lots and correctional 40's;<br/></p>
+        <p class="in"><span id="pl.2.11" class="pl"> </span>(2) the owner, the owner's spouse, or a grandchild, child, sibling, or parent of the owner <br/><span id="pl.2.12" class="pl"> </span>or of the owner's spouse, is actively farming the agricultural property, either on the person's <br/><span id="pl.2.13" class="pl"> </span>own behalf as an individual or on behalf of a partnership operating a family farm, family <br/><span id="pl.2.14" class="pl"> </span>farm corporation, joint family farm venture, or limited liability company of which the person <br/><span id="pl.2.15" class="pl"> </span>is a partner, shareholder, or member;<br/></p>
+        <p class="in"><span id="pl.2.16" class="pl"> </span>(3) both the owner of the agricultural property and the person who is actively farming <br/><span id="pl.2.17" class="pl"> </span>the agricultural property under clause (2), are Minnesota residents;<br/></p>
+        <p class="in"><span id="pl.2.18" class="pl"> </span>(4) neither the owner nor the spouse of the owner claims another agricultural homestead <br/><span id="pl.2.19" class="pl"> </span>in Minnesota; and<br/></p>
+        <p class="in"><span id="pl.2.20" class="pl"> </span>(5) neither the owner nor the person actively farming the agricultural property lives <br/><span id="pl.2.21" class="pl"> </span>farther than four townships or cities, or a combination of four townships or cities, from the <br/><span id="pl.2.22" class="pl"> </span>agricultural property, except that if the owner or the owner's spouse is required to live in <br/><span id="pl.2.23" class="pl"> </span>employer-provided housing, the owner or owner's spouse, whichever is actively farming <br/><span id="pl.2.24" class="pl"> </span>the agricultural property, may live more than four townships or cities, or combination of <br/><span id="pl.2.25" class="pl"> </span>four townships or cities from the agricultural property.<br/></p>
+        <p class="in"><span id="pl.2.26" class="pl"> </span>The relationship under this paragraph may be either by blood or marriage.<br/></p>
+        <p class="in"><span id="pl.2.27" class="pl"> </span>(ii) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">Agricultural property held by a trustee under a trust is eligible for agricultural <br/><span id="pl.2.28" class="pl"> </span>homestead classification under this paragraph if the qualifications in clause (i) are met, <br/><span id="pl.2.29" class="pl"> </span>except that "owner" means the grantor of the trust.<br/></span><span class="sr-only">deleted text end</span></p>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.2.30" class="pl"> </span>(iii)</span><span class="sr-only">deleted text end</span> Property containing the residence of an owner who owns qualified property under <br/><span id="pl.2.31" class="pl"> </span>clause (i) shall be classified as part of the owner's agricultural homestead, if that property <br/><span id="pl.2.32" class="pl"> </span>is also used for noncommercial storage or drying of agricultural crops.<br/></p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.3.1" class="pl"> </span>(iv)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (iii)</ins><span class="sr-only">new text end</span> As used in this paragraph, "agricultural property" means class 2a property and <br/><span id="pl.3.2" class="pl"> </span>any class 2b property that is contiguous to and under the same ownership as the class 2a <br/><span id="pl.3.3" class="pl"> </span>property.<br/></p>
+        <p class="in"><span id="pl.3.4" class="pl"> </span>(c) Noncontiguous land shall be included as part of a homestead under section <a href="/statutes/cite/273.13#stat.273.13.23">273.13, <br/><span id="pl.3.5" class="pl"> </span>subdivision 23</a>, paragraph (a), only if the homestead is classified as class 2a and the detached <br/><span id="pl.3.6" class="pl"> </span>land is located in the same township or city, or not farther than four townships or cities or <br/><span id="pl.3.7" class="pl"> </span>combination thereof from the homestead. Any taxpayer of these noncontiguous lands must <br/><span id="pl.3.8" class="pl"> </span>notify the county assessor that the noncontiguous land is part of the taxpayer's homestead, <br/><span id="pl.3.9" class="pl"> </span>and, if the homestead is located in another county, the taxpayer must also notify the assessor <br/><span id="pl.3.10" class="pl"> </span>of the other county.<br/></p>
+        <p class="in"><span id="pl.3.11" class="pl"> </span>(d) Agricultural land used for purposes of a homestead and actively farmed by a person <br/><span id="pl.3.12" class="pl"> </span>holding a vested remainder interest in it must be classified as a homestead under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.3.13" class="pl"> </span>273.13, subdivision 23</a>, paragraph (a). If agricultural land is classified class 2a, any other <br/><span id="pl.3.14" class="pl"> </span>dwellings on the land used for purposes of a homestead by persons holding vested remainder <br/><span id="pl.3.15" class="pl"> </span>interests who are actively engaged in farming the property, and up to one acre of the land <br/><span id="pl.3.16" class="pl"> </span>surrounding each homestead and reasonably necessary for the use of the dwelling as a home, <br/><span id="pl.3.17" class="pl"> </span>must also be assessed class 2a.<br/></p>
+        <p class="in"><span id="pl.3.18" class="pl"> </span>(e) Agricultural land and buildings that were class 2a homestead property under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.3.19" class="pl"> </span>273.13, subdivision 23</a>, paragraph (a), for the 1997 assessment shall remain classified as <br/><span id="pl.3.20" class="pl"> </span>agricultural homesteads for subsequent assessments if:<br/></p>
+        <p class="in"><span id="pl.3.21" class="pl"> </span>(1) the property owner abandoned the homestead dwelling located on the agricultural <br/><span id="pl.3.22" class="pl"> </span>homestead as a result of the April 1997 floods;<br/></p>
+        <p class="in"><span id="pl.3.23" class="pl"> </span>(2) the property is located in the county of Polk, Clay, Kittson, Marshall, Norman, or <br/><span id="pl.3.24" class="pl"> </span>Wilkin;<br/></p>
+        <p class="in"><span id="pl.3.25" class="pl"> </span>(3) the agricultural land and buildings remain under the same ownership for the current <br/><span id="pl.3.26" class="pl"> </span>assessment year as existed for the 1997 assessment year and continue to be used for <br/><span id="pl.3.27" class="pl"> </span>agricultural purposes;<br/></p>
+        <p class="in"><span id="pl.3.28" class="pl"> </span>(4) the dwelling occupied by the owner is located in Minnesota and is within 30 miles <br/><span id="pl.3.29" class="pl"> </span>of one of the parcels of agricultural land that is owned by the taxpayer; and<br/></p>
+        <p class="in"><span id="pl.3.30" class="pl"> </span>(5) the owner notifies the county assessor that the relocation was due to the 1997 floods, <br/><span id="pl.3.31" class="pl"> </span>and the owner furnishes the assessor any information deemed necessary by the assessor in <br/><span id="pl.3.32" class="pl"> </span>verifying the change in dwelling. Further notifications to the assessor are not required if the <br/><span id="pl.4.1" class="pl"> </span>property continues to meet all the requirements in this paragraph and any dwellings on the <br/><span id="pl.4.2" class="pl"> </span>agricultural land remain uninhabited.<br/></p>
+        <p class="in"><span id="pl.4.3" class="pl"> </span>(f) Agricultural land and buildings that were class 2a homestead property under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.4.4" class="pl"> </span>273.13, subdivision 23</a>, paragraph (a), for the 1998 assessment shall remain classified <br/><span id="pl.4.5" class="pl"> </span>agricultural homesteads for subsequent assessments if:<br/></p>
+        <p class="in"><span id="pl.4.6" class="pl"> </span>(1) the property owner abandoned the homestead dwelling located on the agricultural <br/><span id="pl.4.7" class="pl"> </span>homestead as a result of damage caused by a March 29, 1998, tornado;<br/></p>
+        <p class="in"><span id="pl.4.8" class="pl"> </span>(2) the property is located in the county of Blue Earth, Brown, Cottonwood, LeSueur, <br/><span id="pl.4.9" class="pl"> </span>Nicollet, Nobles, or Rice;<br/></p>
+        <p class="in"><span id="pl.4.10" class="pl"> </span>(3) the agricultural land and buildings remain under the same ownership for the current <br/><span id="pl.4.11" class="pl"> </span>assessment year as existed for the 1998 assessment year;<br/></p>
+        <p class="in"><span id="pl.4.12" class="pl"> </span>(4) the dwelling occupied by the owner is located in this state and is within 50 miles of <br/><span id="pl.4.13" class="pl"> </span>one of the parcels of agricultural land that is owned by the taxpayer; and<br/></p>
+        <p class="in"><span id="pl.4.14" class="pl"> </span>(5) the owner notifies the county assessor that the relocation was due to a March 29, <br/><span id="pl.4.15" class="pl"> </span>1998, tornado, and the owner furnishes the assessor any information deemed necessary by <br/><span id="pl.4.16" class="pl"> </span>the assessor in verifying the change in homestead dwelling. For taxes payable in 1999, the <br/><span id="pl.4.17" class="pl"> </span>owner must notify the assessor by December 1, 1998. Further notifications to the assessor <br/><span id="pl.4.18" class="pl"> </span>are not required if the property continues to meet all the requirements in this paragraph and <br/><span id="pl.4.19" class="pl"> </span>any dwellings on the agricultural land remain uninhabited.<br/></p>
+        <p class="in"><span id="pl.4.20" class="pl"> </span>(g) Agricultural property of a family farm corporation, joint family farm venture, family <br/><span id="pl.4.21" class="pl"> </span>farm limited liability company, or partnership operating a family farm as described under <br/><span id="pl.4.22" class="pl"> </span>subdivision 8 shall be classified homestead, to the same extent as other agricultural homestead <br/><span id="pl.4.23" class="pl"> </span>property, if all of the following criteria are met:<br/></p>
+        <p class="in"><span id="pl.4.24" class="pl"> </span>(1) the property consists of at least 40 acres including undivided government lots and <br/><span id="pl.4.25" class="pl"> </span>correctional 40's;<br/></p>
+        <p class="in"><span id="pl.4.26" class="pl"> </span>(2) a shareholder, member, or partner of that entity is actively farming the agricultural <br/><span id="pl.4.27" class="pl"> </span>property;<br/></p>
+        <p class="in"><span id="pl.4.28" class="pl"> </span>(3) that shareholder, member, or partner who is actively farming the agricultural property <br/><span id="pl.4.29" class="pl"> </span>is a Minnesota resident;<br/></p>
+        <p class="in"><span id="pl.4.30" class="pl"> </span>(4) neither that shareholder, member, or partner, nor the spouse of that shareholder, <br/><span id="pl.4.31" class="pl"> </span>member, or partner claims another agricultural homestead in Minnesota; and<br/></p>
+        <p class="in"><span id="pl.5.1" class="pl"> </span>(5) that shareholder, member, or partner does not live farther than four townships or <br/><span id="pl.5.2" class="pl"> </span>cities, or a combination of four townships or cities, from the agricultural property.<br/></p>
+        <p class="in"><span id="pl.5.3" class="pl"> </span>Homestead treatment applies under this paragraph for property leased to a family farm <br/><span id="pl.5.4" class="pl"> </span>corporation, joint farm venture, limited liability company, or partnership operating a family <br/><span id="pl.5.5" class="pl"> </span>farm if legal title to the property is in the name of an individual who is a member, shareholder, <br/><span id="pl.5.6" class="pl"> </span>or partner in the entity.<br/></p>
+        <p class="in"><span id="pl.5.7" class="pl"> </span>(h) To be eligible for the special agricultural homestead under this subdivision, an initial <br/><span id="pl.5.8" class="pl"> </span>full application must be submitted to the county assessor where the property is located. <br/><span id="pl.5.9" class="pl"> </span>Owners and the persons who are actively farming the property shall be required to complete <br/><span id="pl.5.10" class="pl"> </span>only a one-page abbreviated version of the application in each subsequent year provided <br/><span id="pl.5.11" class="pl"> </span>that none of the following items have changed since the initial application:<br/></p>
+        <p class="in"><span id="pl.5.12" class="pl"> </span>(1) the day-to-day operation, administration, and financial risks remain the same;<br/></p>
+        <p class="in"><span id="pl.5.13" class="pl"> </span>(2) the owners and the persons actively farming the property continue to live within the <br/><span id="pl.5.14" class="pl"> </span>four townships or city criteria and are Minnesota residents;<br/></p>
+        <p class="in"><span id="pl.5.15" class="pl"> </span>(3) the same operator of the agricultural property is listed with the Farm Service Agency;<br/></p>
+        <p class="in"><span id="pl.5.16" class="pl"> </span>(4) a Schedule F or equivalent income tax form was filed for the most recent year;<br/></p>
+        <p class="in"><span id="pl.5.17" class="pl"> </span>(5) the property's acreage is unchanged; and<br/></p>
+        <p class="in"><span id="pl.5.18" class="pl"> </span>(6) none of the property's acres have been enrolled in a federal or state farm program <br/><span id="pl.5.19" class="pl"> </span>since the initial application.<br/></p>
+        <p class="in"><span id="pl.5.20" class="pl"> </span>The owners and any persons who are actively farming the property must include the <br/><span id="pl.5.21" class="pl"> </span>appropriate Social Security numbers, and sign and date the application. If any of the specified <br/><span id="pl.5.22" class="pl"> </span>information has changed since the full application was filed, the owner must notify the <br/><span id="pl.5.23" class="pl"> </span>assessor, and must complete a new application to determine if the property continues to <br/><span id="pl.5.24" class="pl"> </span>qualify for the special agricultural homestead. The commissioner of revenue shall prepare <br/><span id="pl.5.25" class="pl"> </span>a standard reapplication form for use by the assessors.<br/></p>
+        <p class="in"><span id="pl.5.26" class="pl"> </span>(i) Agricultural land and buildings that were class 2a homestead property under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.5.27" class="pl"> </span>273.13, subdivision 23</a>, paragraph (a), for the 2007 assessment shall remain classified <br/><span id="pl.5.28" class="pl"> </span>agricultural homesteads for subsequent assessments if:<br/></p>
+        <p class="in"><span id="pl.5.29" class="pl"> </span>(1) the property owner abandoned the homestead dwelling located on the agricultural <br/><span id="pl.5.30" class="pl"> </span>homestead as a result of damage caused by the August 2007 floods;<br/></p>
+        <p class="in"><span id="pl.5.31" class="pl"> </span>(2) the property is located in the county of Dodge, Fillmore, Houston, Olmsted, Steele, <br/><span id="pl.5.32" class="pl"> </span>Wabasha, or Winona;<br/></p>
+        <p class="in"><span id="pl.6.1" class="pl"> </span>(3) the agricultural land and buildings remain under the same ownership for the current <br/><span id="pl.6.2" class="pl"> </span>assessment year as existed for the 2007 assessment year;<br/></p>
+        <p class="in"><span id="pl.6.3" class="pl"> </span>(4) the dwelling occupied by the owner is located in this state and is within 50 miles of <br/><span id="pl.6.4" class="pl"> </span>one of the parcels of agricultural land that is owned by the taxpayer; and<br/></p>
+        <p class="in"><span id="pl.6.5" class="pl"> </span>(5) the owner notifies the county assessor that the relocation was due to the August 2007 <br/><span id="pl.6.6" class="pl"> </span>floods, and the owner furnishes the assessor any information deemed necessary by the <br/><span id="pl.6.7" class="pl"> </span>assessor in verifying the change in homestead dwelling. For taxes payable in 2009, the <br/><span id="pl.6.8" class="pl"> </span>owner must notify the assessor by December 1, 2008. Further notifications to the assessor <br/><span id="pl.6.9" class="pl"> </span>are not required if the property continues to meet all the requirements in this paragraph and <br/><span id="pl.6.10" class="pl"> </span>any dwellings on the agricultural land remain uninhabited.<br/></p>
+        <p class="in"><span id="pl.6.11" class="pl"> </span>(j) Agricultural land and buildings that were class 2a homestead property under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.6.12" class="pl"> </span>273.13, subdivision 23</a>, paragraph (a), for the 2008 assessment shall remain classified as <br/><span id="pl.6.13" class="pl"> </span>agricultural homesteads for subsequent assessments if:<br/></p>
+        <p class="in"><span id="pl.6.14" class="pl"> </span>(1) the property owner abandoned the homestead dwelling located on the agricultural <br/><span id="pl.6.15" class="pl"> </span>homestead as a result of the March 2009 floods;<br/></p>
+        <p class="in"><span id="pl.6.16" class="pl"> </span>(2) the property is located in the county of Marshall;<br/></p>
+        <p class="in"><span id="pl.6.17" class="pl"> </span>(3) the agricultural land and buildings remain under the same ownership for the current <br/><span id="pl.6.18" class="pl"> </span>assessment year as existed for the 2008 assessment year and continue to be used for <br/><span id="pl.6.19" class="pl"> </span>agricultural purposes;<br/></p>
+        <p class="in"><span id="pl.6.20" class="pl"> </span>(4) the dwelling occupied by the owner is located in Minnesota and is within 50 miles <br/><span id="pl.6.21" class="pl"> </span>of one of the parcels of agricultural land that is owned by the taxpayer; and<br/></p>
+        <p class="in"><span id="pl.6.22" class="pl"> </span>(5) the owner notifies the county assessor that the relocation was due to the 2009 floods, <br/><span id="pl.6.23" class="pl"> </span>and the owner furnishes the assessor any information deemed necessary by the assessor in <br/><span id="pl.6.24" class="pl"> </span>verifying the change in dwelling. Further notifications to the assessor are not required if the <br/><span id="pl.6.25" class="pl"> </span>property continues to meet all the requirements in this paragraph and any dwellings on the <br/><span id="pl.6.26" class="pl"> </span>agricultural land remain uninhabited.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.6.27" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning for property taxes payable in <br/><span id="pl.6.28" class="pl"> </span>2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.6.29" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 273.124, subdivision 21, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.6.30" class="pl"> </span>Subd. 21.</h2>
+        <h3 class="headnote">Trust property; homestead.</h3>
+        <p class="in">Real or personal property<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, including agricultural <br/><span id="pl.6.31" class="pl"> </span>property,</ins><span class="sr-only">new text end</span> held by a trustee under a trust is eligible for classification as homestead property <br/><span id="pl.6.32" class="pl"> </span>if the property satisfies the requirements of paragraph (a), (b), (c), <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">or</span><span class="sr-only">deleted text end</span> (d)<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, or (e)</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p class="in"><span id="pl.7.1" class="pl"> </span>(a) The grantor or surviving spouse of the grantor of the trust occupies and uses the <br/><span id="pl.7.2" class="pl"> </span>property as a homestead.<br/></p>
+        <p class="in"><span id="pl.7.3" class="pl"> </span>(b) A relative or surviving relative of the grantor who meets the requirements of <br/><span id="pl.7.4" class="pl"> </span>subdivision 1, paragraph (c), in the case of residential real estate; or subdivision 1, paragraph <br/><span id="pl.7.5" class="pl"> </span>(d), in the case of agricultural property, occupies and uses the property as a homestead.<br/></p>
+        <p class="in"><span id="pl.7.6" class="pl"> </span>(c) A family farm corporation, joint farm venture, limited liability company, or partnership <br/><span id="pl.7.7" class="pl"> </span>operating a family farm in which the grantor or the grantor's surviving spouse is a <br/><span id="pl.7.8" class="pl"> </span>shareholder, member, or partner rents the property; and, either (1) a shareholder, member, <br/><span id="pl.7.9" class="pl"> </span>or partner of the corporation, joint farm venture, limited liability company, or partnership <br/><span id="pl.7.10" class="pl"> </span>occupies and uses the property as a homestead; or (2) the property is at least 40 acres, <br/><span id="pl.7.11" class="pl"> </span>including undivided government lots and correctional 40's, and a shareholder, member, or <br/><span id="pl.7.12" class="pl"> </span>partner of the tenant-entity is actively farming the property on behalf of the corporation, <br/><span id="pl.7.13" class="pl"> </span>joint farm venture, limited liability company, or partnership.<br/></p>
+        <p class="in"><span id="pl.7.14" class="pl"> </span>(d) A person who has received homestead classification for property taxes payable in <br/><span id="pl.7.15" class="pl"> </span>2000 on the basis of an unqualified legal right under the terms of the trust agreement to <br/><span id="pl.7.16" class="pl"> </span>occupy the property as that person's homestead and who continues to use the property as a <br/><span id="pl.7.17" class="pl"> </span>homestead; or, a person who received the homestead classification for taxes payable in 2005 <br/><span id="pl.7.18" class="pl"> </span>under paragraph (c) who does not qualify under paragraph (c) for taxes payable in 2006 or <br/><span id="pl.7.19" class="pl"> </span>thereafter but who continues to qualify under paragraph (c) as it existed for taxes payable <br/><span id="pl.7.20" class="pl"> </span>in 2005.<br/></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.21" class="pl"> </span>(e) The qualifications under subdivision 14, paragraph (b), clause (i), are met. For <br/><span id="pl.7.22" class="pl"> </span>purposes of this paragraph, "owner" means the grantor of the trust or the surviving spouse <br/><span id="pl.7.23" class="pl"> </span>of the grantor.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.24" class="pl"> </span>(f) For purposes of this subdivision, the following terms have the meanings given them:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.25" class="pl"> </span>(1) "agricultural property" means the house, garage, other farm buildings and structures, <br/><span id="pl.7.26" class="pl"> </span>and agricultural land;<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.27" class="pl"> </span>(2) "agricultural land" has the meaning given in section 273.13, subdivision 23, except <br/><span id="pl.7.28" class="pl"> </span>that the phrases "owned by same person" or "under the same ownership" as used in that <br/><span id="pl.7.29" class="pl"> </span>subdivision mean and include contiguous tax parcels owned by:<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.30" class="pl"> </span>(i) an individual and a trust of which the individual, the individual's spouse, or the <br/><span id="pl.7.31" class="pl"> </span>individual's deceased spouse is the grantor; or<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.7.32" class="pl"> </span>(ii) different trusts of which the grantors of each trust are any combination of an <br/><span id="pl.7.33" class="pl"> </span>individual, the individual's spouse, or the individual's deceased spouse; and<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+        <p class="in"><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.8.1" class="pl"> </span>For purposes of this subdivision,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (3)</ins><span class="sr-only">new text end</span> "grantor" <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">is defined as</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> means</ins><span class="sr-only">new text end</span> the person creating <br/><span id="pl.8.2" class="pl"> </span>or establishing a testamentary, inter Vivos, revocable or irrevocable trust by written <br/><span id="pl.8.3" class="pl"> </span>instrument or through the exercise of a power of appointment.<br/></p>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.4" class="pl"> </span>(g) Noncontiguous land is included as part of a homestead under this subdivision, only <br/><span id="pl.8.5" class="pl"> </span>if the homestead is classified as class 2a, as defined in section 273.13, subdivision 23, and <br/><span id="pl.8.6" class="pl"> </span>the detached land is located in the same township or city, or not farther than four townships <br/><span id="pl.8.7" class="pl"> </span>or cities or combination thereof from the homestead. Any taxpayer of these noncontiguous <br/><span id="pl.8.8" class="pl"> </span>lands must notify the county assessor that the noncontiguous land is part of the taxpayer's <br/><span id="pl.8.9" class="pl"> </span>homestead, and, if the homestead is located in another county, the taxpayer must also notify <br/><span id="pl.8.10" class="pl"> </span>the assessor of the other county.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.8.11" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective beginning for property taxes payable in <br/><span id="pl.8.12" class="pl"> </span>2020.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.8.13" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 278.01, subdivision 1, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.8.14" class="pl"> </span>Subdivision 1.</h2>
+        <h3 class="headnote">Determination of validity.</h3>
+        <p>(a) Any person having personal property, or <br/><span id="pl.8.15" class="pl"> </span>any estate, right, title, or interest in or lien upon any parcel of land, who claims that such <br/><span id="pl.8.16" class="pl"> </span>property has been partially, unfairly, or unequally assessed in comparison with other property <br/><span id="pl.8.17" class="pl"> </span>in the (1) city, or (2) county, or (3) in the case of a county containing a city of the first class, <br/><span id="pl.8.18" class="pl"> </span>the portion of the county excluding the first class city, or that the parcel has been assessed <br/><span id="pl.8.19" class="pl"> </span>at a valuation greater than its real or actual value, or that the tax levied against the same is <br/><span id="pl.8.20" class="pl"> </span>illegal, in whole or in part, or has been paid, or that the property is exempt from the tax so <br/><span id="pl.8.21" class="pl"> </span>levied, may have the validity of the claim, defense, or objection determined by the district <br/><span id="pl.8.22" class="pl"> </span>court of the county in which the tax is levied or by the Tax Court by serving one copy of a <br/><span id="pl.8.23" class="pl"> </span>petition for such determination upon the county auditor<span class="sr-only">new text begin</span><ins style="text-decoration: underline">. </ins><span class="sr-only">new text end</span><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">, one copy on the county attorney, <br/><span id="pl.8.24" class="pl"> </span>one copy on the county treasurer, and three copies on the county assessor. The county <br/><span id="pl.8.25" class="pl"> </span>assessor shall immediately forward one copy of the petition to the appropriate governmental <br/><span id="pl.8.26" class="pl"> </span>authority in a home rule charter or statutory city or town in which the property is located if <br/><span id="pl.8.27" class="pl"> </span>that city or town employs its own certified assessor. A copy of the petition shall also be <br/><span id="pl.8.28" class="pl"> </span>forwarded by the assessor to the school board of the school district in which the property <br/><span id="pl.8.29" class="pl"> </span>is located.<br/></span><span class="sr-only">deleted text end</span></p>
+        <p>
+          <span class="sr-only">deleted text begin</span>
+          <span style="text-decoration: line-through" class="del"><span id="pl.8.30" class="pl"> </span>(b) In counties where the office of county treasurer has been combined with the office <br/><span id="pl.8.31" class="pl"> </span>of county auditor, the county may elect to require the petitioner to serve the number of <br/><span id="pl.8.32" class="pl"> </span>copies as determined by the county. The county assessor shall immediately forward one <br/><span id="pl.8.33" class="pl"> </span>copy of the petition to the appropriate governmental authority in a home rule charter or <br/><span id="pl.8.34" class="pl"> </span>statutory city or town in which the property is located if that city or town employs its own <br/><span id="pl.9.1" class="pl"> </span>certified assessor. A list of petitioned properties, including the name of the petitioner, the <br/><span id="pl.9.2" class="pl"> </span>identification number of the property, and the estimated market value, shall be sent on or <br/><span id="pl.9.3" class="pl"> </span>before the first day of July by the county auditor/treasurer to the school board of the school <br/><span id="pl.9.4" class="pl"> </span>district in which the property is located.<br/></span>
+          <span class="sr-only">deleted text end</span>
+        </p>
+        <p><span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del"><span id="pl.9.5" class="pl"> </span>(c)</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> (b)</ins><span class="sr-only">new text end</span> For all counties, the petitioner must file the <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">copies</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> copy</ins><span class="sr-only">new text end</span> with proof of service, in <br/><span id="pl.9.6" class="pl"> </span>the office of the court administrator of the district court on or before April 30 of the year <br/><span id="pl.9.7" class="pl"> </span>in which the tax becomes payable. A petition for determination under this section may be <br/><span id="pl.9.8" class="pl"> </span>transferred by the district court to the Tax Court. An appeal may also be taken to the Tax <br/><span id="pl.9.9" class="pl"> </span>Court under chapter 271 at any time following receipt of the valuation notice that county <br/><span id="pl.9.10" class="pl"> </span>assessors or city assessors having the powers of a county assessor are required by section <br/><a href="/statutes/cite/273.121"><span id="pl.9.11" class="pl"> </span>273.121</a> to send to persons whose property is to be included on the assessment roll that year, <br/><span id="pl.9.12" class="pl"> </span>but prior to May 1 of the year in which the taxes are payable.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.9.13" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective July 1, 2019.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.9.14" class="pl"> </span>Sec. 4. </h2>
+      <p class="first">Minnesota Statutes 2018, section 289A.31, subdivision 2, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.4.1">
+        <h2 class="subd_no"><span id="pl.9.15" class="pl"> </span>Subd. 2.</h2>
+        <h3 class="headnote">Joint income tax returns.</h3>
+        <p>(a) If a joint income tax return is made by a husband <br/><span id="pl.9.16" class="pl"> </span>and wife, the liability for the tax is joint and several. A spouse who qualifies for relief from <br/><span id="pl.9.17" class="pl"> </span>a liability attributable to an underpayment under section 6015<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> subsection </ins><span class="sr-only">new text end</span>(b)<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or (f)</ins><span class="sr-only">new text end</span> of the <br/><span id="pl.9.18" class="pl"> </span>Internal Revenue Code is relieved of the state income tax liability on the underpayment.<br/></p>
+        <p><span id="pl.9.19" class="pl"> </span>(b) In the case of individuals who were a husband and wife prior to the dissolution of <br/><span id="pl.9.20" class="pl"> </span>their marriage or their legal separation, or prior to the death of one of the individuals, for <br/><span id="pl.9.21" class="pl"> </span>tax liabilities reported on a joint or combined return, the liability of each person is limited <br/><span id="pl.9.22" class="pl"> </span>to the proportion of the tax due on the return that equals that person's proportion of the total <br/><span id="pl.9.23" class="pl"> </span>tax due if the husband and wife filed separate returns for the taxable year. This provision <br/><span id="pl.9.24" class="pl"> </span>is effective only when the commissioner receives written notice of the marriage dissolution, <br/><span id="pl.9.25" class="pl"> </span>legal separation, or death of a spouse from the husband or wife. No refund may be claimed <br/><span id="pl.9.26" class="pl"> </span>by an ex-spouse, legally separated or widowed spouse for any taxes paid more than 60 days <br/><span id="pl.9.27" class="pl"> </span>before receipt by the commissioner of the written notice.<br/></p>
+        <p><span id="pl.9.28" class="pl"> </span>(c) <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">A request for calculation of separate liability pursuant to paragraph (b) for taxes <br/><span id="pl.9.29" class="pl"> </span>reported on a return must be made within six years after the due date of the return. For <br/><span id="pl.9.30" class="pl"> </span>calculation of separate liability for taxes assessed by the commissioner under section <a href="/statutes/cite/289A.35">289A.35</a> <br/><span id="pl.9.31" class="pl"> </span>or <a href="/statutes/cite/289A.37">289A.37</a>, the request must be made within six years after the date of assessment.</span><span class="sr-only">deleted text end</span> The <br/><span id="pl.9.32" class="pl"> </span>commissioner is not required to calculate separate liability<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> pursuant to paragraph (b)</ins><span class="sr-only">new text end</span> if the <br/><span id="pl.9.33" class="pl"> </span>remaining unpaid liability for which recalculation is requested is $100 or less.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.10.1" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective for returns first due for taxable years <br/><span id="pl.10.2" class="pl"> </span>beginning after December 31, 2018.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.5.0">
+      <h2 class="section_number"><span id="pl.10.3" class="pl"> </span>Sec. 5. </h2>
+      <p class="first">Minnesota Statutes 2018, section 291.03, subdivision 9, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.5.1">
+        <h2 class="subd_no"><span id="pl.10.4" class="pl"> </span>Subd. 9.</h2>
+        <h3 class="headnote">Qualified small business property.</h3>
+        <p>Property satisfying all of the following <br/><span id="pl.10.5" class="pl"> </span>requirements is qualified small business property:<br/></p>
+        <p><span id="pl.10.6" class="pl"> </span>(1) The value of the property was included in the federal adjusted taxable estate.<br/></p>
+        <p><span id="pl.10.7" class="pl"> </span>(2) The property consists of the assets of a trade or business or shares of stock or other <br/><span id="pl.10.8" class="pl"> </span>ownership interests in a corporation or other entity engaged in a trade or business. Shares <br/><span id="pl.10.9" class="pl"> </span>of stock in a corporation or an ownership interest in another type of entity do not qualify <br/><span id="pl.10.10" class="pl"> </span>under this subdivision if the shares or ownership interests are traded on a public stock <br/><span id="pl.10.11" class="pl"> </span>exchange at any time during the three-year period ending on the decedent's date of death. <br/><span id="pl.10.12" class="pl"> </span>For purposes of this subdivision, an ownership interest includes the interest the decedent is <br/><span id="pl.10.13" class="pl"> </span>deemed to own under sections 2036, 2037, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span> 2038<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, 2040, or 2044</ins><span class="sr-only">new text end</span> of the Internal Revenue <br/><span id="pl.10.14" class="pl"> </span>Code.<br/></p>
+        <p><span id="pl.10.15" class="pl"> </span>(3) During the taxable year that ended before the decedent's death, the trade or business <br/><span id="pl.10.16" class="pl"> </span>must not have been a passive activity within the meaning of section 469(c) of the Internal <br/><span id="pl.10.17" class="pl"> </span>Revenue Code, and the decedent or the decedent's spouse must have materially participated <br/><span id="pl.10.18" class="pl"> </span>in the trade or business within the meaning of section 469(h) of the Internal Revenue Code, <br/><span id="pl.10.19" class="pl"> </span>excluding section 469(h)(3) of the Internal Revenue Code and any other provision provided <br/><span id="pl.10.20" class="pl"> </span>by United States Treasury Department regulation that substitutes material participation in <br/><span id="pl.10.21" class="pl"> </span>prior taxable years for material participation in the taxable year that ended before the <br/><span id="pl.10.22" class="pl"> </span>decedent's death.<br/></p>
+        <p><span id="pl.10.23" class="pl"> </span>(4) The gross annual sales of the trade or business were $10,000,000 or less for the last <br/><span id="pl.10.24" class="pl"> </span>taxable year that ended before the date of the death of the decedent.<br/></p>
+        <p><span id="pl.10.25" class="pl"> </span>(5) The property does not include:<br/></p>
+        <p><span id="pl.10.26" class="pl"> </span>(i) cash;<br/></p>
+        <p><span id="pl.10.27" class="pl"> </span>(ii) cash equivalents;<br/></p>
+        <p><span id="pl.10.28" class="pl"> </span>(iii) publicly traded securities; or<br/></p>
+        <p><span id="pl.10.29" class="pl"> </span>(iv) any assets not used in the operation of the trade or business.<br/></p>
+        <p><span id="pl.10.30" class="pl"> </span>(6) For property consisting of shares of stock or other ownership interests in an entity, <br/><span id="pl.10.31" class="pl"> </span>the value of items described in clause (5) must be excluded in the valuation of the decedent's <br/><span id="pl.10.32" class="pl"> </span>interest in the entity.<br/></p>
+        <p><span id="pl.11.1" class="pl"> </span>(7) The decedent<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or the decedent's spouse</ins><span class="sr-only">new text end</span> continuously owned the property,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or an <br/><span id="pl.11.2" class="pl"> </span>undivided or joint interest in the property,</ins><span class="sr-only">new text end</span> including property the decedent<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or the decedent's <br/><span id="pl.11.3" class="pl"> </span>spouse</ins><span class="sr-only">new text end</span> is deemed to own under sections 2036, 2037, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span> 2038<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, 2040, or 2044</ins><span class="sr-only">new text end</span> of the Internal <br/><span id="pl.11.4" class="pl"> </span>Revenue Code,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or under subdivision 1d,</ins><span class="sr-only">new text end</span> for the three-year period ending on the date of <br/><span id="pl.11.5" class="pl"> </span>death of the decedent. In the case of a sole proprietor, if the property replaced similar property <br/><span id="pl.11.6" class="pl"> </span>within the three-year period, the replacement property will be treated as having been owned <br/><span id="pl.11.7" class="pl"> </span>for the three-year period ending on the date of death of the decedent.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> For the purposes of <br/><span id="pl.11.8" class="pl"> </span>the three-year holding period under this clause, any ownership by the decedent's spouse, <br/><span id="pl.11.9" class="pl"> </span>whether the spouse predeceases or survives the decedent, is attributed to the decedent.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.11.10" class="pl"> </span>(8) For three years following the date of death of the decedent, the trade or business is <br/><span id="pl.11.11" class="pl"> </span>not a passive activity within the meaning of section 469(c) of the Internal Revenue Code, <br/><span id="pl.11.12" class="pl"> </span>and a family member materially participates in the operation of the trade or business within <br/><span id="pl.11.13" class="pl"> </span>the meaning of section 469(h) of the Internal Revenue Code, excluding section 469(h)(3) <br/><span id="pl.11.14" class="pl"> </span>of the Internal Revenue Code and any other provision provided by United States Treasury <br/><span id="pl.11.15" class="pl"> </span>Department regulation that substitutes material participation in prior taxable years for <br/><span id="pl.11.16" class="pl"> </span>material participation in the three years following the date of death of the decedent.<br/></p>
+        <p><span id="pl.11.17" class="pl"> </span>(9) The estate and the qualified heir elect to treat the property as qualified small business <br/><span id="pl.11.18" class="pl"> </span>property and agree, in the form prescribed by the commissioner, to pay the recapture tax <br/><span id="pl.11.19" class="pl"> </span>under subdivision 11, if applicable.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.11.20" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective retroactively for estates of decedents <br/><span id="pl.11.21" class="pl"> </span>dying after December 31, 2017.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.6.0">
+      <h2 class="section_number"><span id="pl.11.22" class="pl"> </span>Sec. 6. </h2>
+      <p class="first">Minnesota Statutes 2018, section 291.03, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.6.1">
+        <h2 class="subd_no"><span id="pl.11.23" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Qualified farm property.</h3>
+        <p>Property satisfying all of the following requirements <br/><span id="pl.11.24" class="pl"> </span>is qualified farm property:<br/></p>
+        <p><span id="pl.11.25" class="pl"> </span>(1) The value of the property was included in the federal adjusted taxable estate.<br/></p>
+        <p><span id="pl.11.26" class="pl"> </span>(2) The property consists of agricultural land and is owned by a person or entity that is <br/><span id="pl.11.27" class="pl"> </span>either not subject to or is in compliance with section <a href="/statutes/cite/500.24">500.24</a>.<br/></p>
+        <p><span id="pl.11.28" class="pl"> </span>(3) For property taxes payable in the taxable year of the decedent's death, the property <br/><span id="pl.11.29" class="pl"> </span>is classified as class 2a property under section <a href="/statutes/cite/273.13#stat.273.13.23">273.13, subdivision 23</a>, and is classified as <br/><span id="pl.11.30" class="pl"> </span>agricultural homestead, agricultural relative homestead, or special agricultural homestead <br/><span id="pl.11.31" class="pl"> </span>under section <a href="/statutes/cite/273.124">273.124</a>.<br/></p>
+        <p><span id="pl.11.32" class="pl"> </span>(4) The decedent<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or the decedent's spouse</ins><span class="sr-only">new text end</span> continuously owned the property,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or an <br/><span id="pl.11.33" class="pl"> </span>undivided or joint interest in the property,</ins><span class="sr-only">new text end</span> including property the decedent<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or the decedent's <br/><span id="pl.12.1" class="pl"> </span>spouse</ins><span class="sr-only">new text end</span> is deemed to own under sections 2036, 2037, <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">and</span><span class="sr-only">deleted text end</span> 2038<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, 2040, or 2044</ins><span class="sr-only">new text end</span> of the Internal <br/><span id="pl.12.2" class="pl"> </span>Revenue Code,<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> or under subdivision 1d,</ins><span class="sr-only">new text end</span> for the three-year period ending on the date of <br/><span id="pl.12.3" class="pl"> </span>death of the decedent either by ownership of the agricultural land or pursuant to holding an <br/><span id="pl.12.4" class="pl"> </span>interest in an entity that is not subject to or is in compliance with section <a href="/statutes/cite/500.24">500.24</a>.<span class="sr-only">new text begin</span><ins style="text-decoration: underline"> For the <br/><span id="pl.12.5" class="pl"> </span>purposes of the three-year holding period under this clause, any ownership by the decedent's <br/><span id="pl.12.6" class="pl"> </span>spouse, whether the spouse predeceases or survives the decedent, is attributed to the decedent.<br/></ins><span class="sr-only">new text end</span></p>
+        <p><span id="pl.12.7" class="pl"> </span>(5) The property is classified for property tax purposes as class 2a property under section <br/><a href="/statutes/cite/273.13#stat.273.13.23"><span id="pl.12.8" class="pl"> </span>273.13, subdivision 23</a>, for three years following the date of death of the decedent.<br/></p>
+        <p><span id="pl.12.9" class="pl"> </span>(6) The estate and the qualified heir elect to treat the property as qualified farm property <br/><span id="pl.12.10" class="pl"> </span>and agree, in a form prescribed by the commissioner, to pay the recapture tax under <br/><span id="pl.12.11" class="pl"> </span>subdivision 11, if applicable.<br/></p>
+      </div>
+      <div class="sec_eff_date">
+        <h2 class="effective_date">
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline"><span id="pl.12.12" class="pl"> </span>EFFECTIVE DATE.</ins>
+          <span class="sr-only">new text end</span>
+        </h2>
+        <p>
+          <span class="sr-only">new text begin</span>
+          <ins style="text-decoration: underline">This section is effective retroactively for estates of decedents <br/><span id="pl.12.13" class="pl"> </span>dying after December 31, 2017.<br/></ins>
+          <span class="sr-only">new text end</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

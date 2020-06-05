@@ -1,0 +1,1272 @@
+status: 200
+encoding: ISO-8859-1
+Server: nginx/1.13.4
+Date: Tue, 11 Feb 2020 23:07:46 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en">
+
+       <head>        
+        <title>HF 563 as introduced - 91st Legislature (2019 - 2020)</title>
+        <meta charset="utf-8" />  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+        <link href="/static/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.css" rel="stylesheet">
+        
+        <style>
+          .img-joint {
+            background-image: url('/static/images/banners/cap_quadrangle.jpg');
+          }
+        </style>
+        <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/doc.css"/><link rel="stylesheet" type="text/css" media="screen, print" href="/css/bills_new.css?v=04-26-2019_17-09-09"/>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/navbarhelper.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/base_js.js"></script>
+        <script src="/static/js/revisor.js"></script>
+        <script src="/static/js/spin.js.js"></script>
+        
+
+      </head>  
+
+<body class="joint">
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-20900283-1', 'mn.gov');
+                ga('require', 'linkid', 'linkid.js');
+                ga('send', 'pageview');
+
+                </script>
+
+
+<!--skip nav for accessibility-->
+<a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+<a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+<a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+<div class="container-fluid"> <!-- closing tag in footer -->
+
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
+            <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+            <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
+                <label class="sr-only" for="main-search">Search Legislature</label>
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search"  style="display: none;" placeholder="Search..." type="text">
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+            </form>
+
+            <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+            <div class="input-group py-0 mr-2 js-search">
+              <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            </form>  -->
+
+
+
+        </div>
+    </div>
+
+    <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+        <div class="container">
+            <div class="w-100 px-auto">
+                <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
+
+                    <div class="collapse navbar-collapse py-0" id="top-nav">
+                        <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                            <!--  <li class="nav-item mr-3">
+                               <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                             </li> -->
+
+                            <li class="nav-item">
+                                <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House Members and Staff</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3 ">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Senators and Staff</dt>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
+                                                    <!-- <dd class="text-muted">Employment</dd> -->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Committees</dt>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                    <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Offices</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Information</dt>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <!-- <div class="col"></div> -->
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Joint Legislative Offices</dt>
+                                                    <dd><a href="/">Revisor of Statutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl  class="mb-0">
+                                                    <dt class="text-white">Commissions</dt>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
+                                                    </dd>
+                                                    <dd>
+                                                        <a href="/bin/sbs.php">Side by Side Comparisons</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd><a href="/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="/bin/sbs.php">Side by Side Comparisons</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="/pubs/">Statutes, Laws, and Rules</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Statutes</dt>
+
+                                                    <dd><a href="/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/">Current Statutes</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=index">Statutes by Topic (Index)</a>
+                                                    </dd>
+                                                    <dd><a href="/statutes/?view=archive">Statutes Archive</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Session Laws</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/laws/current/">Current Session Laws</a></dd>
+                                                    <dd><a href="/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                                                    <dd><a href="/laws/">Session Laws Archive</a></dd>
+                                                    <dd><a href="/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                                                    <dd><a href="/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Administrative Rules</dt>
+                                                    <dd><a href="/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                                                    <dd><a href="/rules/">Current Rules</a></dd>
+                                                    <dd><a href="/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                                                    <dd><a href="/rules/?view=archive">Rules Archive</a></dd>
+                                                    <dd><a href="/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                                                    <dd><a href="/state_register/">State Register</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Other Legal Materials</dt>
+                                                    <dd><a href="/constitution/">Minnesota Constitution</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="/court_rules/">Court Rules</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-4">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">House</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/live/1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Senate</dt>
+                                                    <dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-4">
+                                                <dl>
+                                                    <dt class="text-white">Joint</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media Page</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="nav-item">
+                                <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                            </li>
+                            <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                <div class="bg-dark">
+                                    <div class="container px-3">
+                                        <div class="row">
+                                            <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
+                                        </div>
+                                        <hr class="my-1 bg-secondary">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                <dl>
+                                                    <dt class="text-white">Office Research &amp; Reports</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="/office/publications.php">Revisor Publications</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">News</dt>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
+
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Legislative History</dt>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                </dl>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-md-3">
+                                                <dl>
+                                                    <dt class="text-white">Notable Documents</dt>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <form class="form-inline ml-auto d-block d-md-none p-2">
+                            <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                            <div class="input-group mb-2 mr-sm-2">
+
+                                <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton"  alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="leg-banner img-joint">
+        <div class="position-relative h-100">
+            <div class="leg-title-container pl-0">
+                <div class="container pl-sm-0 pl-md-3">
+                    <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Office of the Revisor of Statutes</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+                    <div class="container">
+                 <div class="d-block ml-0">
+                   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                   <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+                 </div>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                   <li class="nav-item pl-md-0 d-none d-lg-inline">
+                             <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+        <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text"
+                               placeholder="Retrieve by number" maxlength="200"/>
+
+        <div class="input-group">
+            <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type"><option value="statutes">Statutes</option><option value="laws">Laws</option><option value="rules">Rules</option><option value="bills" selected="selected">Bills</option>        </select>
+        <div class="input-group-append">
+          <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+        </div>
+    </div>
+</form>
+                   </li>
+                   
+                 </ul>
+     
+                 <ul class="navbar-nav ml-auto mr-3">
+                   <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                     <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+                   <!--</li>-->
+                   <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                     <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          
+      </nav>
+      
+      <div id="legContainerMain" class="container leg-content py-4">
+          <div class="row">
+            <div class="col">
+            
+            
+            
+            
+
+    
+<div class="house_bill">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h1 class="card-title float-left mr-4">HF 563</h1>
+            <p class="mb-0 pt-2">as introduced - 91st Legislature (2019 - 2020) Posted on 04/01/2019 05:38pm</p>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-auto">
+                    KEY: <s>stricken</s> = removed, old language. 
+                </div>
+                <div class="col-auto"> 
+                    <u>underscored</u> = added, new language.
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row pb-2">
+        
+    <div class="col-auto mr-auto">
+                    <a class="expander mr-2" href="#" onclick="$('#versions').slideToggle('fast'); return false;">Version List</a>
+                <a href="/bills/bill.php?b=house&f=HF0563&ssn=0&y=2019">Authors and Status</a>
+
+    </div>
+    <div class="col-auto">
+        <a href="/bills/text.php?session_year=2019&session_number=0&number=HF0563&version=list&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> Pdf</a>        <a class="ml-2" href="/bills/text.php?session_year=2019&session_number=0&number=HF0563&version=list&format=rtf"><i class="far fa-file-alt fa-2x" style="color: #000"></i> Rtf</a>
+    </div>
+</div>
+
+<div id="versions" 
+>
+<h2>Bill Text Versions</h2>
+    
+    <table class="table table-sm " style="margin-top: 0px">
+        <col width="70%"/>
+    <col width="10%"/>
+    <col width="20%" align="right"/>
+        
+    <th colspan="3">
+                Engrossments
+            </th>
+        
+            <tr>
+            <td><a href="text.php?number=HF563&version=0&session=ls91&session_year=2019&session_number=0">
+                Introduction                </a>
+            </td>
+            <td>
+                                <a aria-label="PDF document" href="text.php?number=HF563&version=0&session=ls91&session_year=2019&session_number=0&format=pdf"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i></a>
+                            </td>
+            <td>
+                Posted on 01/31/2019                
+                            </td>
+                    </tr>
+        
+    </table>
+</div>
+
+
+    <form id="page_line_form" class="form-inline" action="">
+                <label for="page_line_number" class="mr-2">Jump to page/line #</label>
+                <input class="form-control" type="text" id="page_line_number_input" maxlength="7" placeholder="eg. 2.1" title="Enter a page and line number and press enter." accesskey="p"/>
+            </form>
+            <script>
+                function scrollToAnchor(){
+                    var number = $('#page_line_number_input').val();
+                    $(document).scrollTop( $("#pl\\."+number.replace( /(:|\.|\[|\]|,)/g, "\\$1" )).offset().top);
+                    //$('html,body').animate({scrollTop: $("#pl."+number)},'slow');
+                    //location.hash = "pl."+number;
+                    //return false;
+                }
+            $('#page_line_form').submit(function(event){
+                event.preventDefault();
+                scrollToAnchor(); 
+                return false;
+            });
+            </script>
+
+<h2 class="mt-3">Current Version - as introduced</h2><div>
+
+    
+</div>
+
+<!--<ul class="bill_nav" style="top: -.4em; border-bottom: solid 1px #000">
+    <li ><a href="/bills/text.php?session_year=2019&session_number=0&number=HF0563&version=list&pl=1">Numbered</a></li>
+    <li class="selected"><a href="/bills/text.php?session_year=2019&session_number=0&number=HF0563&version=list&pl=0">Not Numbered</a></li>
+</div>-->
+    <div id="xtend" class="pt-4">
+<div xmlns="http://www.w3.org/1999/xhtml" class="row">
+  <div id="line_numbers" class="d-none d-md-block col-md-1">
+    <span class="sr-only">Line numbers</span>
+    <var class="ln">1.1</var>
+    <var class="ln">1.2</var>
+    <var class="ln">1.3</var>
+    <var class="ln">1.4</var>
+    <var class="ln">1.5</var>
+    <var class="ln">1.6</var>
+    <var class="ln">1.7</var>
+    <var class="ln">1.8</var>
+    <var class="ln">1.9</var>
+    <br/>
+    <var class="ln">1.10</var>
+    <var class="ln">1.11</var>
+    <br/>
+    <var class="ln">1.12</var>
+    <var class="ln">1.13</var>
+    <var class="ln">1.14</var>
+    <var class="ln">1.15</var>
+    <var class="ln">1.16</var>
+    <var class="ln">1.17</var>
+    <var class="ln">1.18</var>
+    <var class="ln">1.19</var>
+    <var class="ln">1.20</var>
+    <var class="ln">1.21</var>
+    <var class="ln">1.22</var>
+    <var class="ln">1.23</var>
+    <var class="ln">1.24</var>
+    <var class="ln">2.1</var>
+    <var class="ln">2.2</var>
+    <var class="ln">2.3</var>
+    <var class="ln">2.4</var>
+    <var class="ln">2.5</var>
+    <var class="ln">2.6</var>
+    <var class="ln">2.7</var>
+    <var class="ln">2.8</var>
+    <var class="ln">2.9</var>
+    <var class="ln">2.10</var>
+    <var class="ln">2.11</var>
+    <var class="ln">2.12</var>
+    <var class="ln">2.13</var>
+    <var class="ln">2.14</var>
+    <var class="ln">2.15</var>
+    <var class="ln">2.16</var>
+    <var class="ln">2.17</var>
+    <var class="ln">2.18</var>
+    <var class="ln">2.19</var>
+    <var class="ln">2.20</var>
+    <var class="ln">2.21</var>
+    <var class="ln">2.22</var>
+    <var class="ln">2.23</var>
+    <var class="ln">2.24</var>
+    <var class="ln">2.25</var>
+    <var class="ln">2.26</var>
+    <var class="ln">2.27</var>
+    <var class="ln">2.28</var>
+    <var class="ln">2.29</var>
+    <var class="ln">2.30</var>
+    <var class="ln">2.31</var>
+    <var class="ln">2.32</var>
+    <var class="ln">2.33</var>
+    <var class="ln">2.34</var>
+    <var class="ln">3.1</var>
+    <var class="ln">3.2</var>
+    <var class="ln">3.3</var>
+    <var class="ln">3.4</var>
+    <var class="ln">3.5</var>
+    <var class="ln">3.6</var>
+    <var class="ln">3.7</var>
+    <var class="ln">3.8</var>
+    <var class="ln">3.9</var>
+    <var class="ln">3.10</var>
+    <var class="ln">3.11</var>
+    <var class="ln">3.12</var>
+    <var class="ln">3.13</var>
+    <var class="ln">3.14</var>
+    <var class="ln">3.15</var>
+    <var class="ln">3.16</var>
+    <var class="ln">3.17</var>
+    <var class="ln">3.18</var>
+    <var class="ln">3.19</var>
+    <var class="ln">3.20</var>
+    <var class="ln">3.21</var>
+    <var class="ln">3.22</var>
+    <var class="ln">3.23</var>
+    <var class="ln">3.24</var>
+    <var class="ln">3.25</var>
+    <var class="ln">3.26</var>
+    <var class="ln">3.27</var>
+    <var class="ln">3.28</var>
+    <var class="ln">3.29</var>
+    <var class="ln">3.30</var>
+    <var class="ln">3.31</var>
+    <var class="ln">3.32</var>
+    <var class="ln">3.33</var>
+    <var class="ln">3.34</var>
+    <var class="ln">3.35</var>
+    <var class="ln">4.1</var>
+    <var class="ln">4.2</var>
+    <var class="ln">4.3</var>
+    <var class="ln">4.4</var>
+    <var class="ln">4.5</var>
+    <var class="ln">4.6</var>
+    <var class="ln">4.7</var>
+    <var class="ln">4.8</var>
+    <var class="ln">4.9</var>
+    <var class="ln">4.10</var>
+    <var class="ln">4.11</var>
+    <var class="ln">4.12</var>
+    <var class="ln">4.13</var>
+    <var class="ln">4.14</var>
+    <var class="ln">4.15</var>
+    <var class="ln">4.16</var>
+    <var class="ln">4.17</var>
+    <var class="ln">4.18</var>
+    <var class="ln">4.19</var>
+    <var class="ln">4.20</var>
+    <var class="ln">4.21</var>
+    <var class="ln">4.22</var>
+    <var class="ln">4.23</var>
+    <var class="ln">4.24</var>
+    <var class="ln">4.25</var>
+    <var class="ln">4.26</var>
+    <var class="ln">4.27</var>
+    <var class="ln">4.28</var>
+    <var class="ln">4.29</var>
+    <var class="ln">4.30</var>
+    <var class="ln">4.31</var>
+    <var class="ln">4.32</var>
+    <var class="ln">4.33</var>
+    <var class="ln">4.34</var>
+    <var class="ln">4.35</var>
+    <var class="ln">5.1</var>
+    <var class="ln">5.2</var>
+    <var class="ln">5.3</var>
+    <var class="ln">5.4</var>
+    <var class="ln">5.5</var>
+    <var class="ln">5.6</var>
+    <var class="ln">5.7</var>
+    <var class="ln">5.8</var>
+    <var class="ln">5.9</var>
+    <var class="ln">5.10</var>
+    <var class="ln">5.11</var>
+    <var class="ln">5.12</var>
+    <var class="ln">5.13</var>
+    <var class="ln">5.14</var>
+    <var class="ln">5.15</var>
+    <var class="ln">5.16</var>
+    <var class="ln">5.17</var>
+    <var class="ln">5.18</var>
+    <var class="ln">5.19</var>
+    <var class="ln">5.20</var>
+    <var class="ln">5.21</var>
+    <var class="ln">5.22</var>
+    <var class="ln">5.23</var>
+    <var class="ln">5.24</var>
+    <var class="ln">5.25</var>
+    <var class="ln">5.26</var>
+    <var class="ln">5.27</var>
+    <var class="ln">5.28</var>
+    <var class="ln">5.29</var>
+    <var class="ln">5.30</var>
+    <var class="ln">5.31</var>
+    <var class="ln">5.32</var>
+    <var class="ln">5.33</var>
+    <var class="ln">5.34</var>
+    <var class="ln">5.35</var>
+    <var class="ln">6.1</var>
+    <var class="ln">6.2</var>
+    <var class="ln">6.3</var>
+    <var class="ln">6.4</var>
+    <var class="ln">6.5</var>
+    <var class="ln">6.6</var>
+    <var class="ln">6.7</var>
+    <var class="ln">6.8</var>
+    <var class="ln">6.9</var>
+    <var class="ln">6.10</var>
+    <var class="ln">6.11</var>
+    <var class="ln">6.12</var>
+    <var class="ln">6.13</var>
+    <var class="ln">6.14</var>
+    <var class="ln">6.15</var>
+    <var class="ln">6.16</var>
+    <var class="ln">6.17</var>
+    <var class="ln">6.18</var>
+    <var class="ln">6.19</var>
+    <var class="ln">6.20</var>
+    <var class="ln">6.21</var>
+    <var class="ln">6.22</var>
+    <var class="ln">6.23</var>
+    <var class="ln">6.24</var>
+    <var class="ln">6.25</var>
+    <var class="ln">6.26</var>
+    <var class="ln">6.27</var>
+    <var class="ln">6.28</var>
+    <var class="ln">6.29</var>
+    <var class="ln">6.30</var>
+    <var class="ln">6.31</var>
+    <var class="ln">6.32</var>
+    <var class="ln">6.33</var>
+    <var class="ln">6.34</var>
+    <var class="ln">7.1</var>
+    <var class="ln">7.2</var>
+    <var class="ln">7.3</var>
+    <var class="ln">7.4</var>
+    <var class="ln">7.5</var>
+    <var class="ln">7.6</var>
+    <var class="ln">7.7</var>
+    <var class="ln">7.8</var>
+    <var class="ln">7.9</var>
+    <var class="ln">7.10</var>
+    <var class="ln">7.11</var>
+    <var class="ln">7.12</var>
+    <var class="ln">7.13</var>
+    <var class="ln">7.14</var>
+    <var class="ln">7.15</var>
+    <var class="ln">7.16</var>
+    <var class="ln">7.17</var>
+    <var class="ln">7.18</var>
+    <var class="ln">7.19</var>
+    <var class="ln">7.20</var>
+    <var class="ln">7.21</var>
+    <var class="ln">7.22</var>
+    <var class="ln">7.23</var>
+    <var class="ln">7.24</var>
+    <var class="ln">7.25</var>
+    <var class="ln">7.26</var>
+    <var class="ln">7.27</var>
+    <var class="ln">7.28</var>
+    <var class="ln">7.29</var>
+    <var class="ln">7.30</var>
+    <var class="ln">7.31</var>
+    <var class="ln">7.32</var>
+    <var class="ln">7.33</var>
+    <var class="ln">8.1</var>
+    <var class="ln">8.2</var>
+    <var class="ln">8.3</var>
+    <var class="ln">8.4</var>
+    <var class="ln">8.5</var>
+    <var class="ln">8.6</var>
+    <var class="ln">8.7</var>
+    <var class="ln">8.8</var>
+    <br/>
+    <var class="ln">8.9</var>
+    <var class="ln">8.10</var>
+    <var class="ln">8.11</var>
+    <var class="ln">8.12</var>
+    <var class="ln">8.13</var>
+    <var class="ln">8.14</var>
+    <var class="ln">8.15</var>
+    <var class="ln">8.16</var>
+    <var class="ln">8.17</var>
+    <var class="ln">8.18</var>
+    <var class="ln">8.19</var>
+    <var class="ln">8.20</var>
+    <var class="ln">8.21</var>
+    <var class="ln">8.22</var>
+    <var class="ln">8.23</var>
+    <var class="ln">8.24</var>
+    <var class="ln">8.25</var>
+    <var class="ln">8.26</var>
+    <var class="ln">8.27</var>
+    <var class="ln">8.28</var>
+    <var class="ln">8.29</var>
+    <var class="ln">8.30</var>
+    <var class="ln">8.31</var>
+    <var class="ln">8.32</var>
+    <var class="ln">8.33</var>
+    <var class="ln">8.34</var>
+    <var class="ln">9.1</var>
+    <var class="ln">9.2</var>
+    <var class="ln">9.3</var>
+    <var class="ln">9.4</var>
+    <var class="ln">9.5</var>
+    <var class="ln">9.6</var>
+    <var class="ln">9.7</var>
+    <var class="ln">9.8</var>
+    <var class="ln">9.9</var>
+    <var class="ln">9.10</var>
+    <var class="ln">9.11</var>
+    <var class="ln">9.12</var>
+    <var class="ln">9.13</var>
+    <var class="ln">9.14</var>
+    <var class="ln">9.15</var>
+    <var class="ln">9.16</var>
+    <var class="ln">9.17</var>
+    <var class="ln">9.18</var>
+    <var class="ln">9.19</var>
+    <var class="ln">9.20</var>
+    <var class="ln">9.21</var>
+    <var class="ln">9.22</var>
+    <var class="ln">9.23</var>
+    <var class="ln">9.24</var>
+    <var class="ln">9.25</var>
+    <var class="ln">9.26</var>
+    <var class="ln">9.27</var>
+    <var class="ln">9.28</var>
+    <var class="ln">9.29</var>
+    <var class="ln">9.30</var>
+    <var class="ln">9.31</var>
+    <var class="ln">9.32</var>
+    <var class="ln">10.1</var>
+    <var class="ln">10.2</var>
+    <var class="ln">10.3</var>
+    <var class="ln">10.4</var>
+    <var class="ln">10.5</var>
+    <var class="ln">10.6</var>
+    <var class="ln">10.7</var>
+    <var class="ln">10.8</var>
+    <var class="ln">10.9</var>
+    <var class="ln">10.10</var>
+    <var class="ln">10.11</var>
+    <var class="ln">10.12</var>
+    <var class="ln">10.13</var>
+    <var class="ln">10.14</var>
+    <var class="ln">10.15</var>
+    <var class="ln">10.16</var>
+    <var class="ln">10.17</var>
+    <var class="ln">10.18</var>
+    <var class="ln">10.19</var>
+    <var class="ln">10.20</var>
+    <br/>
+    <var class="ln">10.21</var>
+    <var class="ln">10.22</var>
+    <var class="ln">10.23</var>
+    <var class="ln">10.24</var>
+    <var class="ln">10.25</var>
+    <var class="ln">10.26</var>
+    <var class="ln">10.27</var>
+    <var class="ln">10.28</var>
+  </div>
+  <div id="document" class="col">
+    <div class="bill_title">
+      <p><span class="btitle_prolog"><span id="pl.1.1" class="pl"> </span>A bill for an act<br/></span><span id="pl.1.2" class="pl"> </span>relating to child abuse; creating Heaven's Law; directing the commissioner of <br/><span id="pl.1.3" class="pl"> </span>human services to report to the legislature on information sharing in interstate <br/><span id="pl.1.4" class="pl"> </span>child protection investigations; requiring an investigation into a future interstate <br/><span id="pl.1.5" class="pl"> </span>compact on child protection data; requiring that certain information be requested <br/><span id="pl.1.6" class="pl"> </span>as part of an assessment or investigation; requiring consideration of past <br/><span id="pl.1.7" class="pl"> </span>maltreatment to determine investigations; amending Minnesota Statutes 2018, <br/><span id="pl.1.8" class="pl"> </span>section 626.556, subdivisions 10, 10e.<br/></p>
+    </div>
+    <p style="text-indent: 0em; margin: 0em 0em 0px 0em"><span id="pl.1.9" class="pl"> </span>BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:<br/></p>
+    <div class="bill_section uncoded" id="bill.0.1.0">
+      <h2 class="section_number"><span id="pl.1.10" class="pl"> </span>Section 1. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">TITLE.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.1.11" class="pl"> </span>This act shall be known as "Heaven's Law."<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.2.0">
+      <h2 class="section_number"><span id="pl.1.12" class="pl"> </span>Sec. 2. </h2>
+      <p class="first">Minnesota Statutes 2018, section 626.556, subdivision 10, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.2.1">
+        <h2 class="subd_no"><span id="pl.1.13" class="pl"> </span>Subd. 10.</h2>
+        <h3 class="headnote">Duties of local welfare agency and local law enforcement agency upon <br/><span id="pl.1.14" class="pl"> </span>receipt of report; mandatory notification between police or sheriff and agency.</h3>
+        <p class="in">(a) The <br/><span id="pl.1.15" class="pl"> </span>police department or the county sheriff shall immediately notify the local welfare agency <br/><span id="pl.1.16" class="pl"> </span>or agency responsible for child protection reports under this section orally and in writing <br/><span id="pl.1.17" class="pl"> </span>when a report is received. The local welfare agency or agency responsible for child protection <br/><span id="pl.1.18" class="pl"> </span>reports shall immediately notify the local police department or the county sheriff orally and <br/><span id="pl.1.19" class="pl"> </span>in writing when a report is received. The county sheriff and the head of every local welfare <br/><span id="pl.1.20" class="pl"> </span>agency, agency responsible for child protection reports, and police department shall each <br/><span id="pl.1.21" class="pl"> </span>designate a person within their agency, department, or office who is responsible for ensuring <br/><span id="pl.1.22" class="pl"> </span>that the notification duties of this paragraph are carried out. When the alleged maltreatment <br/><span id="pl.1.23" class="pl"> </span>occurred on tribal land, the local welfare agency or agency responsible for child protection <br/><span id="pl.1.24" class="pl"> </span>reports and the local police department or the county sheriff shall immediately notify the <br/><span id="pl.2.1" class="pl"> </span>tribe's social services agency and tribal law enforcement orally and in writing when a report <br/><span id="pl.2.2" class="pl"> </span>is received.<br/></p>
+        <p class="in"><span id="pl.2.3" class="pl"> </span>(b) Upon receipt of a report, the local welfare agency shall determine whether to conduct <br/><span id="pl.2.4" class="pl"> </span>a family assessment or an investigation as appropriate to prevent or provide a remedy for <br/><span id="pl.2.5" class="pl"> </span>child maltreatment. The local welfare agency:<br/></p>
+        <p class="in"><span id="pl.2.6" class="pl"> </span>(1) shall conduct an investigation on reports involving sexual abuse or substantial child <br/><span id="pl.2.7" class="pl"> </span>endangerment;<br/></p>
+        <p class="in"><span id="pl.2.8" class="pl"> </span>(2) shall begin an immediate investigation if, at any time when it is using a family <br/><span id="pl.2.9" class="pl"> </span>assessment response, it determines that there is reason to believe that sexual abuse or <br/><span id="pl.2.10" class="pl"> </span>substantial child endangerment or a serious threat to the child's safety exists;<br/></p>
+        <p class="in"><span id="pl.2.11" class="pl"> </span>(3) may conduct a family assessment for reports that do not allege sexual abuse or <br/><span id="pl.2.12" class="pl"> </span>substantial child endangerment. In determining that a family assessment is appropriate, the <br/><span id="pl.2.13" class="pl"> </span>local welfare agency may consider issues of child safety, parental cooperation, and the need <br/><span id="pl.2.14" class="pl"> </span>for an immediate response;<br/></p>
+        <p class="in"><span id="pl.2.15" class="pl"> </span>(4) may conduct a family assessment on a report that was initially screened and assigned <br/><span id="pl.2.16" class="pl"> </span>for an investigation. In determining that a complete investigation is not required, the local <br/><span id="pl.2.17" class="pl"> </span>welfare agency must document the reason for terminating the investigation and notify the <br/><span id="pl.2.18" class="pl"> </span>local law enforcement agency if the local law enforcement agency is conducting a joint <br/><span id="pl.2.19" class="pl"> </span>investigation; and<br/></p>
+        <p class="in"><span id="pl.2.20" class="pl"> </span>(5) shall provide immediate notice, according to section <a href="/statutes/cite/260.761#stat.260.761.2">260.761, subdivision 2</a>, to an <br/><span id="pl.2.21" class="pl"> </span>Indian child's tribe when the agency has reason to believe the family assessment or <br/><span id="pl.2.22" class="pl"> </span>investigation may involve an Indian child. For purposes of this clause, "immediate notice" <br/><span id="pl.2.23" class="pl"> </span>means notice provided within 24 hours.<br/></p>
+        <p class="in"><span id="pl.2.24" class="pl"> </span>If the report alleges neglect, physical abuse, or sexual abuse by a parent, guardian, or <br/><span id="pl.2.25" class="pl"> </span>individual functioning within the family unit as a person responsible for the child's care, or <br/><span id="pl.2.26" class="pl"> </span>sexual abuse by a person with a significant relationship to the child when that person resides <br/><span id="pl.2.27" class="pl"> </span>in the child's household or by a sibling, the local welfare agency shall immediately conduct <br/><span id="pl.2.28" class="pl"> </span>a family assessment or investigation as identified in clauses (1) to (4). In conducting a family <br/><span id="pl.2.29" class="pl"> </span>assessment or investigation, the local welfare agency shall gather information on the existence <br/><span id="pl.2.30" class="pl"> </span>of substance abuse and domestic violence and offer services for purposes of preventing <br/><span id="pl.2.31" class="pl"> </span>future child maltreatment, safeguarding and enhancing the welfare of the abused or neglected <br/><span id="pl.2.32" class="pl"> </span>minor, and supporting and preserving family life whenever possible. If the report alleges a <br/><span id="pl.2.33" class="pl"> </span>violation of a criminal statute involving sexual abuse, physical abuse, or neglect or <br/><span id="pl.2.34" class="pl"> </span>endangerment, under section <a href="/statutes/cite/609.378">609.378</a>, the local law enforcement agency and local welfare <br/><span id="pl.3.1" class="pl"> </span>agency shall coordinate the planning and execution of their respective investigation and <br/><span id="pl.3.2" class="pl"> </span>assessment efforts to avoid a duplication of fact-finding efforts and multiple interviews. <br/><span id="pl.3.3" class="pl"> </span>Each agency shall prepare a separate report of the results of its investigation or assessment. <br/><span id="pl.3.4" class="pl"> </span>In cases of alleged child maltreatment resulting in death, the local agency may rely on the <br/><span id="pl.3.5" class="pl"> </span>fact-finding efforts of a law enforcement investigation to make a determination of whether <br/><span id="pl.3.6" class="pl"> </span>or not maltreatment occurred. When necessary the local welfare agency shall seek authority <br/><span id="pl.3.7" class="pl"> </span>to remove the child from the custody of a parent, guardian, or adult with whom the child is <br/><span id="pl.3.8" class="pl"> </span>living. In performing any of these duties, the local welfare agency shall maintain appropriate <br/><span id="pl.3.9" class="pl"> </span>records.<br/></p>
+        <p class="in"><span id="pl.3.10" class="pl"> </span>If the family assessment or investigation indicates there is a potential for abuse of alcohol <br/><span id="pl.3.11" class="pl"> </span>or other drugs by the parent, guardian, or person responsible for the child's care, the local <br/><span id="pl.3.12" class="pl"> </span>welfare agency shall conduct a chemical use assessment pursuant to Minnesota Rules, part <br/><a href="/rules/?id=9530.6615"><span id="pl.3.13" class="pl"> </span>9530.6615</a>.<br/></p>
+        <p class="in"><span id="pl.3.14" class="pl"> </span>(c) When a local agency receives a report or otherwise has information indicating that <br/><span id="pl.3.15" class="pl"> </span>a child who is a client, as defined in section <a href="/statutes/cite/245.91">245.91</a>, has been the subject of physical abuse, <br/><span id="pl.3.16" class="pl"> </span>sexual abuse, or neglect at an agency, facility, or program as defined in section <a href="/statutes/cite/245.91">245.91</a>, it <br/><span id="pl.3.17" class="pl"> </span>shall, in addition to its other duties under this section, immediately inform the ombudsman <br/><span id="pl.3.18" class="pl"> </span>established under sections <a href="/statutes/cite/245.91">245.91</a> to <a href="/statutes/cite/245.97">245.97</a>. The commissioner of education shall inform <br/><span id="pl.3.19" class="pl"> </span>the ombudsman established under sections <a href="/statutes/cite/245.91">245.91</a> to <a href="/statutes/cite/245.97">245.97</a> of reports regarding a child <br/><span id="pl.3.20" class="pl"> </span>defined as a client in section <a href="/statutes/cite/245.91">245.91</a> that maltreatment occurred at a school as defined in <br/><span id="pl.3.21" class="pl"> </span>section <a href="/statutes/cite/120A.05#stat.120A.05.9, 11, a 13">120A.05, subdivisions 9, 11, and 13</a>, and chapter 124E.<br/></p>
+        <p class="in"><span id="pl.3.22" class="pl"> </span>(d) Authority of the local welfare agency responsible for assessing or investigating the <br/><span id="pl.3.23" class="pl"> </span>child abuse or neglect report, the agency responsible for assessing or investigating the report, <br/><span id="pl.3.24" class="pl"> </span>and of the local law enforcement agency for investigating the alleged abuse or neglect <br/><span id="pl.3.25" class="pl"> </span>includes, but is not limited to, authority to interview, without parental consent, the alleged <br/><span id="pl.3.26" class="pl"> </span>victim and any other minors who currently reside with or who have resided with the alleged <br/><span id="pl.3.27" class="pl"> </span>offender. The interview may take place at school or at any facility or other place where the <br/><span id="pl.3.28" class="pl"> </span>alleged victim or other minors might be found or the child may be transported to, and the <br/><span id="pl.3.29" class="pl"> </span>interview conducted at, a place appropriate for the interview of a child designated by the <br/><span id="pl.3.30" class="pl"> </span>local welfare agency or law enforcement agency. The interview may take place outside the <br/><span id="pl.3.31" class="pl"> </span>presence of the alleged offender or parent, legal custodian, guardian, or school official. For <br/><span id="pl.3.32" class="pl"> </span>family assessments, it is the preferred practice to request a parent or guardian's permission <br/><span id="pl.3.33" class="pl"> </span>to interview the child prior to conducting the child interview, unless doing so would <br/><span id="pl.3.34" class="pl"> </span>compromise the safety assessment. Except as provided in this paragraph, the parent, legal <br/><span id="pl.3.35" class="pl"> </span>custodian, or guardian shall be notified by the responsible local welfare or law enforcement <br/><span id="pl.4.1" class="pl"> </span>agency no later than the conclusion of the investigation or assessment that this interview <br/><span id="pl.4.2" class="pl"> </span>has occurred. Notwithstanding rule 32 of the Minnesota Rules of Procedure for Juvenile <br/><span id="pl.4.3" class="pl"> </span>Courts, the juvenile court may, after hearing on an ex parte motion by the local welfare <br/><span id="pl.4.4" class="pl"> </span>agency, order that, where reasonable cause exists, the agency withhold notification of this <br/><span id="pl.4.5" class="pl"> </span>interview from the parent, legal custodian, or guardian. If the interview took place or is to <br/><span id="pl.4.6" class="pl"> </span>take place on school property, the order shall specify that school officials may not disclose <br/><span id="pl.4.7" class="pl"> </span>to the parent, legal custodian, or guardian the contents of the notification of intent to interview <br/><span id="pl.4.8" class="pl"> </span>the child on school property, as provided under this paragraph, and any other related <br/><span id="pl.4.9" class="pl"> </span>information regarding the interview that may be a part of the child's school record. A copy <br/><span id="pl.4.10" class="pl"> </span>of the order shall be sent by the local welfare or law enforcement agency to the appropriate <br/><span id="pl.4.11" class="pl"> </span>school official.<br/></p>
+        <p class="in"><span id="pl.4.12" class="pl"> </span>(e) When the local welfare, local law enforcement agency, or the agency responsible <br/><span id="pl.4.13" class="pl"> </span>for assessing or investigating a report of maltreatment determines that an interview should <br/><span id="pl.4.14" class="pl"> </span>take place on school property, written notification of intent to interview the child on school <br/><span id="pl.4.15" class="pl"> </span>property must be received by school officials prior to the interview. The notification shall <br/><span id="pl.4.16" class="pl"> </span>include the name of the child to be interviewed, the purpose of the interview, and a reference <br/><span id="pl.4.17" class="pl"> </span>to the statutory authority to conduct an interview on school property. For interviews <br/><span id="pl.4.18" class="pl"> </span>conducted by the local welfare agency, the notification shall be signed by the chair of the <br/><span id="pl.4.19" class="pl"> </span>local social services agency or the chair's designee. The notification shall be private data <br/><span id="pl.4.20" class="pl"> </span>on individuals subject to the provisions of this paragraph. School officials may not disclose <br/><span id="pl.4.21" class="pl"> </span>to the parent, legal custodian, or guardian the contents of the notification or any other related <br/><span id="pl.4.22" class="pl"> </span>information regarding the interview until notified in writing by the local welfare or law <br/><span id="pl.4.23" class="pl"> </span>enforcement agency that the investigation or assessment has been concluded, unless a school <br/><span id="pl.4.24" class="pl"> </span>employee or agent is alleged to have maltreated the child. Until that time, the local welfare <br/><span id="pl.4.25" class="pl"> </span>or law enforcement agency or the agency responsible for assessing or investigating a report <br/><span id="pl.4.26" class="pl"> </span>of maltreatment shall be solely responsible for any disclosures regarding the nature of the <br/><span id="pl.4.27" class="pl"> </span>assessment or investigation.<br/></p>
+        <p class="in"><span id="pl.4.28" class="pl"> </span>Except where the alleged offender is believed to be a school official or employee, the <br/><span id="pl.4.29" class="pl"> </span>time and place, and manner of the interview on school premises shall be within the discretion <br/><span id="pl.4.30" class="pl"> </span>of school officials, but the local welfare or law enforcement agency shall have the exclusive <br/><span id="pl.4.31" class="pl"> </span>authority to determine who may attend the interview. The conditions as to time, place, and <br/><span id="pl.4.32" class="pl"> </span>manner of the interview set by the school officials shall be reasonable and the interview <br/><span id="pl.4.33" class="pl"> </span>shall be conducted not more than 24 hours after the receipt of the notification unless another <br/><span id="pl.4.34" class="pl"> </span>time is considered necessary by agreement between the school officials and the local welfare <br/><span id="pl.4.35" class="pl"> </span>or law enforcement agency. Where the school fails to comply with the provisions of this <br/><span id="pl.5.1" class="pl"> </span>paragraph, the juvenile court may order the school to comply. Every effort must be made <br/><span id="pl.5.2" class="pl"> </span>to reduce the disruption of the educational program of the child, other students, or school <br/><span id="pl.5.3" class="pl"> </span>staff when an interview is conducted on school premises.<br/></p>
+        <p class="in"><span id="pl.5.4" class="pl"> </span>(f) Where the alleged offender or a person responsible for the care of the alleged victim <br/><span id="pl.5.5" class="pl"> </span>or other minor prevents access to the victim or other minor by the local welfare agency, the <br/><span id="pl.5.6" class="pl"> </span>juvenile court may order the parents, legal custodian, or guardian to produce the alleged <br/><span id="pl.5.7" class="pl"> </span>victim or other minor for questioning by the local welfare agency or the local law <br/><span id="pl.5.8" class="pl"> </span>enforcement agency outside the presence of the alleged offender or any person responsible <br/><span id="pl.5.9" class="pl"> </span>for the child's care at reasonable places and times as specified by court order.<br/></p>
+        <p class="in"><span id="pl.5.10" class="pl"> </span>(g) Before making an order under paragraph (f), the court shall issue an order to show <br/><span id="pl.5.11" class="pl"> </span>cause, either upon its own motion or upon a verified petition, specifying the basis for the <br/><span id="pl.5.12" class="pl"> </span>requested interviews and fixing the time and place of the hearing. The order to show cause <br/><span id="pl.5.13" class="pl"> </span>shall be served personally and shall be heard in the same manner as provided in other cases <br/><span id="pl.5.14" class="pl"> </span>in the juvenile court. The court shall consider the need for appointment of a guardian ad <br/><span id="pl.5.15" class="pl"> </span>litem to protect the best interests of the child. If appointed, the guardian ad litem shall be <br/><span id="pl.5.16" class="pl"> </span>present at the hearing on the order to show cause.<br/></p>
+        <p class="in"><span id="pl.5.17" class="pl"> </span>(h) The commissioner of human services, the ombudsman for mental health and <br/><span id="pl.5.18" class="pl"> </span>developmental disabilities, the local welfare agencies responsible for investigating reports, <br/><span id="pl.5.19" class="pl"> </span>the commissioner of education, and the local law enforcement agencies have the right to <br/><span id="pl.5.20" class="pl"> </span>enter facilities as defined in subdivision 2 and to inspect and copy the facility's records, <br/><span id="pl.5.21" class="pl"> </span>including medical records, as part of the investigation. Notwithstanding the provisions of <br/><span id="pl.5.22" class="pl"> </span>chapter 13, they also have the right to inform the facility under investigation that they are <br/><span id="pl.5.23" class="pl"> </span>conducting an investigation, to disclose to the facility the names of the individuals under <br/><span id="pl.5.24" class="pl"> </span>investigation for abusing or neglecting a child, and to provide the facility with a copy of <br/><span id="pl.5.25" class="pl"> </span>the report and the investigative findings.<br/></p>
+        <p class="in"><span id="pl.5.26" class="pl"> </span>(i) The local welfare agency responsible for conducting a family assessment or <br/><span id="pl.5.27" class="pl"> </span>investigation shall collect available and relevant information to determine child safety, risk <br/><span id="pl.5.28" class="pl"> </span>of subsequent child maltreatment, and family strengths and needs and share not public <br/><span id="pl.5.29" class="pl"> </span>information with an Indian's tribal social services agency without violating any law of the <br/><span id="pl.5.30" class="pl"> </span>state that may otherwise impose duties of confidentiality on the local welfare agency in <br/><span id="pl.5.31" class="pl"> </span>order to implement the tribal state agreement. The local welfare agency or the agency <br/><span id="pl.5.32" class="pl"> </span>responsible for investigating the report shall collect available and relevant information to <br/><span id="pl.5.33" class="pl"> </span>ascertain whether maltreatment occurred and whether protective services are needed. <br/><span id="pl.5.34" class="pl"> </span>Information collected includes, when relevant, information with regard to the person reporting <br/><span id="pl.5.35" class="pl"> </span>the alleged maltreatment, including the nature of the reporter's relationship to the child and <br/><span id="pl.6.1" class="pl"> </span>to the alleged offender, and the basis of the reporter's knowledge for the report; the child <br/><span id="pl.6.2" class="pl"> </span>allegedly being maltreated; the alleged offender; the child's caretaker; and other collateral <br/><span id="pl.6.3" class="pl"> </span>sources having relevant information related to the alleged maltreatment. The local welfare <br/><span id="pl.6.4" class="pl"> </span>agency or the agency responsible for investigating the report may make a determination of <br/><span id="pl.6.5" class="pl"> </span>no maltreatment early in an investigation, and close the case and retain immunity, if the <br/><span id="pl.6.6" class="pl"> </span>collected information shows no basis for a full investigation.<br/></p>
+        <p class="in"><span class="sr-only">new text begin</span><ins style="text-decoration: underline"><span id="pl.6.7" class="pl"> </span>The local welfare agency or the agency responsible for conducting the assessment or <br/><span id="pl.6.8" class="pl"> </span>investigation must ask for </ins><span class="sr-only">new text end</span>information relevant to the assessment or investigation <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">must be <br/><span id="pl.6.9" class="pl"> </span>asked for, and</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline">, including a search of the central child abuse and neglect registry or equivalent <br/><span id="pl.6.10" class="pl"> </span>registry maintained by each state where the alleged offender has resided in the preceding <br/><span id="pl.6.11" class="pl"> </span>five years, to the extent information is available. This information</ins><span class="sr-only">new text end</span> may include:<br/></p>
+        <p class="in"><span id="pl.6.12" class="pl"> </span>(1) the child's sex and age; prior reports of maltreatment, including any maltreatment <br/><span id="pl.6.13" class="pl"> </span>reports that were screened out and not accepted for assessment or investigation; information <br/><span id="pl.6.14" class="pl"> </span>relating to developmental functioning; credibility of the child's statement; and whether the <br/><span id="pl.6.15" class="pl"> </span>information provided under this clause is consistent with other information collected during <br/><span id="pl.6.16" class="pl"> </span>the course of the assessment or investigation;<br/></p>
+        <p class="in"><span id="pl.6.17" class="pl"> </span>(2) the alleged offender's age<span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">,</span><span class="sr-only">deleted text end</span><span class="sr-only">new text begin</span><ins style="text-decoration: underline"> and</ins><span class="sr-only">new text end</span> a record check for prior <span class="sr-only">deleted text begin</span><span style="text-decoration: line-through" class="del">reports of maltreatment, and</span><span class="sr-only">deleted text end</span> <br/><span id="pl.6.18" class="pl"> </span>criminal charges and convictions. The local welfare agency or the agency responsible for <br/><span id="pl.6.19" class="pl"> </span>assessing or investigating the report must provide the alleged offender with an opportunity <br/><span id="pl.6.20" class="pl"> </span>to make a statement. The alleged offender may submit supporting documentation relevant <br/><span id="pl.6.21" class="pl"> </span>to the assessment or investigation;<br/></p>
+        <p class="in"><span id="pl.6.22" class="pl"> </span>(3) collateral source information regarding the alleged maltreatment and care of the <br/><span id="pl.6.23" class="pl"> </span>child. Collateral information includes, when relevant: (i) a medical examination of the child; <br/><span id="pl.6.24" class="pl"> </span>(ii) prior medical records relating to the alleged maltreatment or the care of the child <br/><span id="pl.6.25" class="pl"> </span>maintained by any facility, clinic, or health care professional and an interview with the <br/><span id="pl.6.26" class="pl"> </span>treating professionals; and (iii) interviews with the child's caretakers, including the child's <br/><span id="pl.6.27" class="pl"> </span>parent, guardian, foster parent, child care provider, teachers, counselors, family members, <br/><span id="pl.6.28" class="pl"> </span>relatives, and other persons who may have knowledge regarding the alleged maltreatment <br/><span id="pl.6.29" class="pl"> </span>and the care of the child; and<br/></p>
+        <p class="in"><span id="pl.6.30" class="pl"> </span>(4) information on the existence of domestic abuse and violence in the home of the child, <br/><span id="pl.6.31" class="pl"> </span>and substance abuse.<br/></p>
+        <p class="in"><span id="pl.6.32" class="pl"> </span>Nothing in this paragraph precludes the local welfare agency, the local law enforcement <br/><span id="pl.6.33" class="pl"> </span>agency, or the agency responsible for assessing or investigating the report from collecting <br/><span id="pl.6.34" class="pl"> </span>other relevant information necessary to conduct the assessment or investigation. <br/><span id="pl.7.1" class="pl"> </span>Notwithstanding sections <a href="/statutes/cite/13.384">13.384</a> or <a href="/statutes/cite/144.291">144.291</a> to 144.298, the local welfare agency has access <br/><span id="pl.7.2" class="pl"> </span>to medical data and records for purposes of clause (3). Notwithstanding the data's <br/><span id="pl.7.3" class="pl"> </span>classification in the possession of any other agency, data acquired by the local welfare <br/><span id="pl.7.4" class="pl"> </span>agency or the agency responsible for assessing or investigating the report during the course <br/><span id="pl.7.5" class="pl"> </span>of the assessment or investigation are private data on individuals and must be maintained <br/><span id="pl.7.6" class="pl"> </span>in accordance with subdivision 11. Data of the commissioner of education collected or <br/><span id="pl.7.7" class="pl"> </span>maintained during and for the purpose of an investigation of alleged maltreatment in a school <br/><span id="pl.7.8" class="pl"> </span>are governed by this section, notwithstanding the data's classification as educational, <br/><span id="pl.7.9" class="pl"> </span>licensing, or personnel data under chapter 13.<br/></p>
+        <p class="in"><span id="pl.7.10" class="pl"> </span>In conducting an assessment or investigation involving a school facility as defined in <br/><span id="pl.7.11" class="pl"> </span>subdivision 2, paragraph (c), the commissioner of education shall collect investigative <br/><span id="pl.7.12" class="pl"> </span>reports and data that are relevant to a report of maltreatment and are from local law <br/><span id="pl.7.13" class="pl"> </span>enforcement and the school facility.<br/></p>
+        <p class="in"><span id="pl.7.14" class="pl"> </span>(j) Upon receipt of a report, the local welfare agency shall conduct a face-to-face contact <br/><span id="pl.7.15" class="pl"> </span>with the child reported to be maltreated and with the child's primary caregiver sufficient to <br/><span id="pl.7.16" class="pl"> </span>complete a safety assessment and ensure the immediate safety of the child. The face-to-face <br/><span id="pl.7.17" class="pl"> </span>contact with the child and primary caregiver shall occur immediately if sexual abuse or <br/><span id="pl.7.18" class="pl"> </span>substantial child endangerment is alleged and within five calendar days for all other reports. <br/><span id="pl.7.19" class="pl"> </span>If the alleged offender was not already interviewed as the primary caregiver, the local welfare <br/><span id="pl.7.20" class="pl"> </span>agency shall also conduct a face-to-face interview with the alleged offender in the early <br/><span id="pl.7.21" class="pl"> </span>stages of the assessment or investigation. At the initial contact, the local child welfare agency <br/><span id="pl.7.22" class="pl"> </span>or the agency responsible for assessing or investigating the report must inform the alleged <br/><span id="pl.7.23" class="pl"> </span>offender of the complaints or allegations made against the individual in a manner consistent <br/><span id="pl.7.24" class="pl"> </span>with laws protecting the rights of the person who made the report. The interview with the <br/><span id="pl.7.25" class="pl"> </span>alleged offender may be postponed if it would jeopardize an active law enforcement <br/><span id="pl.7.26" class="pl"> </span>investigation.<br/></p>
+        <p class="in"><span id="pl.7.27" class="pl"> </span>(k) When conducting an investigation, the local welfare agency shall use a question and <br/><span id="pl.7.28" class="pl"> </span>answer interviewing format with questioning as nondirective as possible to elicit spontaneous <br/><span id="pl.7.29" class="pl"> </span>responses. For investigations only, the following interviewing methods and procedures must <br/><span id="pl.7.30" class="pl"> </span>be used whenever possible when collecting information:<br/></p>
+        <p class="in"><span id="pl.7.31" class="pl"> </span>(1) audio recordings of all interviews with witnesses and collateral sources; and<br/></p>
+        <p class="in"><span id="pl.7.32" class="pl"> </span>(2) in cases of alleged sexual abuse, audio-video recordings of each interview with the <br/><span id="pl.7.33" class="pl"> </span>alleged victim and child witnesses.<br/></p>
+        <p class="in"><span id="pl.8.1" class="pl"> </span>(l) In conducting an assessment or investigation involving a school facility as defined <br/><span id="pl.8.2" class="pl"> </span>in subdivision 2, paragraph (c), the commissioner of education shall collect available and <br/><span id="pl.8.3" class="pl"> </span>relevant information and use the procedures in paragraphs (j) and (k), and subdivision 3d, <br/><span id="pl.8.4" class="pl"> </span>except that the requirement for face-to-face observation of the child and face-to-face interview <br/><span id="pl.8.5" class="pl"> </span>of the alleged offender is to occur in the initial stages of the assessment or investigation <br/><span id="pl.8.6" class="pl"> </span>provided that the commissioner may also base the assessment or investigation on investigative <br/><span id="pl.8.7" class="pl"> </span>reports and data received from the school facility and local law enforcement, to the extent <br/><span id="pl.8.8" class="pl"> </span>those investigations satisfy the requirements of paragraphs (j) and (k), and subdivision 3d.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section am_subd" id="bill.0.3.0">
+      <h2 class="section_number"><span id="pl.8.9" class="pl"> </span>Sec. 3. </h2>
+      <p class="first">Minnesota Statutes 2018, section 626.556, subdivision 10e, is amended to read:<br/></p>
+      <br/>
+      <div class="subd" id="bill.0.3.1">
+        <h2 class="subd_no"><span id="pl.8.10" class="pl"> </span>Subd. 10e.</h2>
+        <h3 class="headnote">Determinations.</h3>
+        <p class="in">(a) The local welfare agency shall conclude the family <br/><span id="pl.8.11" class="pl"> </span>assessment or the investigation within 45 days of the receipt of a report. The conclusion of <br/><span id="pl.8.12" class="pl"> </span>the assessment or investigation may be extended to permit the completion of a criminal <br/><span id="pl.8.13" class="pl"> </span>investigation or the receipt of expert information requested within 45 days of the receipt of <br/><span id="pl.8.14" class="pl"> </span>the report.<br/></p>
+        <p class="in"><span id="pl.8.15" class="pl"> </span>(b) After conducting a family assessment, the local welfare agency shall determine <br/><span id="pl.8.16" class="pl"> </span>whether services are needed to address the safety of the child and other family members <br/><span id="pl.8.17" class="pl"> </span>and the risk of subsequent maltreatment.<br/></p>
+        <p class="in"><span id="pl.8.18" class="pl"> </span>(c) After conducting an investigation, the local welfare agency shall make two <br/><span id="pl.8.19" class="pl"> </span>determinations: first, whether maltreatment has occurred; and second, whether child <br/><span id="pl.8.20" class="pl"> </span>protective services are needed. No determination of maltreatment shall be made when the <br/><span id="pl.8.21" class="pl"> </span>alleged perpetrator is a child under the age of ten.<br/></p>
+        <p class="in"><span id="pl.8.22" class="pl"> </span>(d) If the commissioner of education conducts an assessment or investigation, the <br/><span id="pl.8.23" class="pl"> </span>commissioner shall determine whether maltreatment occurred and what corrective or <br/><span id="pl.8.24" class="pl"> </span>protective action was taken by the school facility. If a determination is made that <br/><span id="pl.8.25" class="pl"> </span>maltreatment has occurred, the commissioner shall report to the employer, the school board, <br/><span id="pl.8.26" class="pl"> </span>and any appropriate licensing entity the determination that maltreatment occurred and what <br/><span id="pl.8.27" class="pl"> </span>corrective or protective action was taken by the school facility. In all other cases, the <br/><span id="pl.8.28" class="pl"> </span>commissioner shall inform the school board or employer that a report was received, the <br/><span id="pl.8.29" class="pl"> </span>subject of the report, the date of the initial report, the category of maltreatment alleged as <br/><span id="pl.8.30" class="pl"> </span>defined in paragraph (f), the fact that maltreatment was not determined, and a summary of <br/><span id="pl.8.31" class="pl"> </span>the specific reasons for the determination.<br/></p>
+        <p class="in"><span id="pl.8.32" class="pl"> </span>(e) When maltreatment is determined in an investigation involving a facility, the <br/><span id="pl.8.33" class="pl"> </span>investigating agency shall also determine whether the facility or individual was responsible, <br/><span id="pl.8.34" class="pl"> </span>or whether both the facility and the individual were responsible for the maltreatment using <br/><span id="pl.9.1" class="pl"> </span>the mitigating factors in paragraph (i). Determinations under this subdivision must be made <br/><span id="pl.9.2" class="pl"> </span>based on a preponderance of the evidence and are private data on individuals or nonpublic <br/><span id="pl.9.3" class="pl"> </span>data as maintained by the commissioner of education.<br/></p>
+        <p class="in"><span id="pl.9.4" class="pl"> </span>(f) For the purposes of this subdivision, "maltreatment" means any of the following acts <br/><span id="pl.9.5" class="pl"> </span>or omissions:<br/></p>
+        <p class="in"><span id="pl.9.6" class="pl"> </span>(1) physical abuse as defined in subdivision 2, paragraph (k);<br/></p>
+        <p class="in"><span id="pl.9.7" class="pl"> </span>(2) neglect as defined in subdivision 2, paragraph (g);<br/></p>
+        <p class="in"><span id="pl.9.8" class="pl"> </span>(3) sexual abuse as defined in subdivision 2, paragraph (n);<br/></p>
+        <p class="in"><span id="pl.9.9" class="pl"> </span>(4) mental injury as defined in subdivision 2, paragraph (f); or<br/></p>
+        <p class="in"><span id="pl.9.10" class="pl"> </span>(5) maltreatment of a child in a facility as defined in subdivision 2, paragraph (c).<br/></p>
+        <p class="in"><span id="pl.9.11" class="pl"> </span>(g) For the purposes of this subdivision, a determination that child protective services <br/><span id="pl.9.12" class="pl"> </span>are needed means that the local welfare agency has documented conditions during the <br/><span id="pl.9.13" class="pl"> </span>assessment or investigation sufficient to cause a child protection worker, as defined in <br/><span id="pl.9.14" class="pl"> </span>section <a href="/statutes/cite/626.559#stat.626.559.1">626.559, subdivision 1</a>, to conclude that a child is at significant risk of maltreatment <br/><span id="pl.9.15" class="pl"> </span>if protective intervention is not provided and that the individuals responsible for the child's <br/><span id="pl.9.16" class="pl"> </span>care have not taken or are not likely to take actions to protect the child from maltreatment <br/><span id="pl.9.17" class="pl"> </span>or risk of maltreatment<span class="sr-only">new text begin</span><ins style="text-decoration: underline">, including careful consideration of past maltreatment and information <br/><span id="pl.9.18" class="pl"> </span>obtained from any central child abuse and neglect registry, regardless of where the past <br/><span id="pl.9.19" class="pl"> </span>events occurred</ins><span class="sr-only">new text end</span>.<br/></p>
+        <p class="in"><span id="pl.9.20" class="pl"> </span>(h) This subdivision does not mean that maltreatment has occurred solely because the <br/><span id="pl.9.21" class="pl"> </span>child's parent, guardian, or other person responsible for the child's care in good faith selects <br/><span id="pl.9.22" class="pl"> </span>and depends upon spiritual means or prayer for treatment or care of disease or remedial care <br/><span id="pl.9.23" class="pl"> </span>of the child, in lieu of medical care. However, if lack of medical care may result in serious <br/><span id="pl.9.24" class="pl"> </span>danger to the child's health, the local welfare agency may ensure that necessary medical <br/><span id="pl.9.25" class="pl"> </span>services are provided to the child.<br/></p>
+        <p class="in"><span id="pl.9.26" class="pl"> </span>(i) When determining whether the facility or individual is the responsible party, or <br/><span id="pl.9.27" class="pl"> </span>whether both the facility and the individual are responsible for determined maltreatment in <br/><span id="pl.9.28" class="pl"> </span>a facility, the investigating agency shall consider at least the following mitigating factors:<br/></p>
+        <p class="in"><span id="pl.9.29" class="pl"> </span>(1) whether the actions of the facility or the individual caregivers were according to, <br/><span id="pl.9.30" class="pl"> </span>and followed the terms of, an erroneous physician order, prescription, individual care plan, <br/><span id="pl.9.31" class="pl"> </span>or directive; however, this is not a mitigating factor when the facility or caregiver was <br/><span id="pl.9.32" class="pl"> </span>responsible for the issuance of the erroneous order, prescription, individual care plan, or <br/><span id="pl.10.1" class="pl"> </span>directive or knew or should have known of the errors and took no reasonable measures to <br/><span id="pl.10.2" class="pl"> </span>correct the defect before administering care;<br/></p>
+        <p class="in"><span id="pl.10.3" class="pl"> </span>(2) comparative responsibility between the facility, other caregivers, and requirements <br/><span id="pl.10.4" class="pl"> </span>placed upon an employee, including the facility's compliance with related regulatory standards <br/><span id="pl.10.5" class="pl"> </span>and the adequacy of facility policies and procedures, facility training, an individual's <br/><span id="pl.10.6" class="pl"> </span>participation in the training, the caregiver's supervision, and facility staffing levels and the <br/><span id="pl.10.7" class="pl"> </span>scope of the individual employee's authority and discretion; and<br/></p>
+        <p class="in"><span id="pl.10.8" class="pl"> </span>(3) whether the facility or individual followed professional standards in exercising <br/><span id="pl.10.9" class="pl"> </span>professional judgment.<br/></p>
+        <p class="bl"><span id="pl.10.10" class="pl"> </span>The evaluation of the facility's responsibility under clause (2) must not be based on the <br/><span id="pl.10.11" class="pl"> </span>completeness of the risk assessment or risk reduction plan required under section <a href="/statutes/cite/245A.66">245A.66</a>, <br/><span id="pl.10.12" class="pl"> </span>but must be based on the facility's compliance with the regulatory standards for policies <br/><span id="pl.10.13" class="pl"> </span>and procedures, training, and supervision as cited in Minnesota Statutes and Minnesota <br/><span id="pl.10.14" class="pl"> </span>Rules.<br/></p>
+        <p class="in"><span id="pl.10.15" class="pl"> </span>(j) Notwithstanding paragraph (i), when maltreatment is determined to have been <br/><span id="pl.10.16" class="pl"> </span>committed by an individual who is also the facility license or certification holder, both the <br/><span id="pl.10.17" class="pl"> </span>individual and the facility must be determined responsible for the maltreatment, and both <br/><span id="pl.10.18" class="pl"> </span>the background study disqualification standards under section <a href="/statutes/cite/245C.15#stat.245C.15.4">245C.15, subdivision 4</a>, and <br/><span id="pl.10.19" class="pl"> </span>the licensing or certification actions under section <a href="/statutes/cite/245A.06">245A.06</a>, <a href="/statutes/cite/245A.07">245A.07</a>, <a href="/statutes/cite/245H.06">245H.06</a>, or <a href="/statutes/cite/245H.07">245H.07</a> <br/><span id="pl.10.20" class="pl"> </span>apply.<br/></p>
+      </div>
+    </div>
+    <div class="bill_section uncoded" id="bill.0.4.0">
+      <h2 class="section_number"><span id="pl.10.21" class="pl"> </span>Sec. 4. <span class="headnote"><span class="sr-only">new text begin</span><ins style="text-decoration: underline">INTERSTATE TRANSFER OF CHILD PROTECTION DATA.<br/></ins><span class="sr-only">new text end</span></span></h2>
+      <p>
+        <span class="sr-only">new text begin</span>
+        <ins style="text-decoration: underline"><span id="pl.10.22" class="pl"> </span>The commissioner of human services is directed to investigate and report to the legislature <br/><span id="pl.10.23" class="pl"> </span>on potential improvements and advancements in the sharing of child maltreatment data <br/><span id="pl.10.24" class="pl"> </span>between states, including consideration for interstate compacts or interstate agreements to <br/><span id="pl.10.25" class="pl"> </span>improve access to child maltreatment investigative and determination data to protect the <br/><span id="pl.10.26" class="pl"> </span>welfare of children in Minnesota and throughout the country. The commissioner shall report <br/><span id="pl.10.27" class="pl"> </span>to the legislature on challenges and solutions to the sharing of data on child maltreatment <br/><span id="pl.10.28" class="pl"> </span>between states no later than February 1, 2020.<br/></ins>
+        <span class="sr-only">new text end</span>
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+<script>
+$('#document').on('mousedown', function(event){
+    $('#document span.sr-only').remove();
+});
+
+remove_brs();
+</script>
+
+            
+            </div>
+          </div>
+      </div>
+
+      <div id="legFooter" class="leg-footer d-print-none">
+      <footer class="footer bg-light">
+        <div class="container" style="">
+          <div class="row pt-3">
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">About the Legislature</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li>
+                  <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                </li>
+
+                <li>
+                  <a href="https://www.leg.state.mn.us/leg/faq/faqtoc?subject=19">Special Needs Access</a>
+                </li>
+                <li>
+                  <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">Contact Your Legislator</h5>
+              <ul  class="list-unstyled clear-margins">
+                <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Senators</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget text-left">General Contact</h5>
+              <ul class="list-unstyled clear-margins">
+                <li class="mt-2">Contact a legislative librarian:</li>
+                <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h5 class="title-widget">Get Connected</h5>
+              <ul class="list-unstyled clear-margins">
+                <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div class="row">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+          </div>
+        </div>
+      </div>
+</div> <!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>		

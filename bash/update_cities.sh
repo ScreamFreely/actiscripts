@@ -7,6 +7,7 @@ pupa update Minneapolis events
 pupa update StPaul events
 pupa update InverGroveHeights
 pupa update Wayzata
+pupa update Duluth
 
 deactivate
 
