@@ -4,8 +4,8 @@
 
 source /var/www/mn.actibase/bin/activate
 
-cd /var/www/mn.actibase/actibase/scripts/state
-pupa update Minnesota house senate comms
+cd /var/www/mn.actibase/actiscripts/state
+pupa update Minnesota events
 
 
 deactivate

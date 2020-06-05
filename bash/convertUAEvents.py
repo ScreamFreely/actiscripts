@@ -5,7 +5,7 @@ from pprint import pprint as ppr
 
 
 sys.path.append('/var/www/mnactivist.org/actibase/')
-os.environ['DJANGO_SETTINGS_MODULE'] = 'Actibase.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'server.settings'
 django.setup()
 
 from lxml import html
