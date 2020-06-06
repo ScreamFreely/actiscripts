@@ -82,12 +82,12 @@ class OaklandEventScraper(Scraper):
         for c in EVENTS:
             dt = tz.localize(c['datetime'])
             try:
-                e = Event(name=c['name'],
+                e = Event(name=c['title'],
                           start_date=dt,
                           location_name=c['location'],
                           classification='govt')
-                e.add_committee(c['name'])
-                e.add_source(c['link'])
+                # e.add_committee(c['name'])
+                # e.add_source(c['link'])
                 # e.add_media_link(note="Calendar Invite",
                 #                  url=c['cal_invite'],
                 #                  media_type="link")
