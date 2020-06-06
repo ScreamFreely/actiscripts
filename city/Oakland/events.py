@@ -21,6 +21,7 @@ import pytz
 
 
 EVENTS = []
+TIME_FORMAT = '%m/%d/%Y %I:%M %p'
 
 tz = pytz.timezone("US/Central")
 
@@ -78,5 +79,18 @@ EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]]
 class OaklandEventScraper(Scraper):
 
     def scrape(self):
-        # needs to be implemented
-        pass
+        for c in EVENTS:
+            dt = tz.localize(c['date_time'])
+            try:
+                e = Event(name=c['name'],
+                          start_date=dt,
+                          location_name=c['location'],
+                          classification='govt')
+                e.add_committee(c['name'])
+                e.add_source(c['link'])
+                # e.add_media_link(note="Calendar Invite",
+                #                  url=c['cal_invite'],
+                #                  media_type="link")
+                yield e
+            except Exception as e:
+                print(e)
