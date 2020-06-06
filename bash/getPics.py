@@ -17,15 +17,13 @@ import facebook, twitter
 
 from xvfbwrapper import Xvfb
 
-sys.path.insert(0, '/var/www/mn.actibase')
+sys.path.insert(0, '/var/www/ACTIBASE/ca.actibase')
 #sys.path.insert(0, '/home/nkfx/ScreamFreely/MnActivist/server')
 import siteauth as KF
 
 LINKS = [
-    {'cal': 'https://mnactivist.org/p/Minnesota', 'vidlink': None, 'callink': 'http://www.leg.state.mn.us/calendarday.aspx?jday=all'},
-    {'cal': 'https://mnactivist.org/p/Minneapolis', 'vidlink': 'http://minneapolismn.gov/tv/citycounciltv', 'callink': 'https://lims.minneapolismn.gov/Calendar/citycouncil/upcoming'},
-    {'cal': 'https://mnactivist.org/p/Saint-Paul', 'vidlink': None, 'callink': 'https://www.wayzata.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml'},
-    {'cal': 'https://mnactivist.org/p/Duluth', 'vidlink': None, 'callink': 'https://duluthmn.gov/event-calendar/'},
+    {'cal': 'https://caactivist.org/p/SanFrancisco', 'vidlink': 'www.sfgovtv.org', 'callink': 'https://sfgov.legistar.com/Calendar.aspx'},
+    {'cal': 'https://caactivist.org/p/Oakland', 'vidlink': None, 'callink': 'https://oakland.legistar.com/calendar.aspx'},
 ]
 
 mnact = {'access_token': KF.fb_token, 'id': KF.fb_id}
