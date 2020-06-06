@@ -56,7 +56,7 @@ def processRows(rows):
 		d['location'] = cells[4].text.replace('\n', '')
 		date = cells[1].text
 		time = cells[3].find_element_by_xpath('.//span').text
-		d['datetime'] = date + ' ' + time
+		d['datetime'] = datetime.strptime(date + ' ' + time, TIME_FORMAT)
 		d['details'] = cells[5].find_element_by_xpath('.//a').text
 		d['agenda'] = cells[5].find_element_by_xpath('.//a').text
 		d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
@@ -80,7 +80,7 @@ class OaklandEventScraper(Scraper):
 
     def scrape(self):
         for c in EVENTS:
-            dt = tz.localize(c['date_time'])
+            dt = tz.localize(c['datetime'])
             try:
                 e = Event(name=c['name'],
                           start_date=dt,
