@@ -13,9 +13,9 @@ class Sanfrancisco(Jurisdiction):
     url = "https://sfgov.org/"
     scrapers = {
         "events": SanfranciscoEventScraper,
-        "people": SanfranciscoPersonScraper,
-        "bills": SanfranciscoBillScraper,
-        "vote_events": SanfranciscoVoteEventScraper,
+       # "people": SanfranciscoPersonScraper,
+       # "bills": SanfranciscoBillScraper,
+       # "vote_events": SanfranciscoVoteEventScraper,
     }
 
     def get_organizations(self):
