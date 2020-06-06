@@ -1,14 +1,14 @@
 #!/bin/bash
 
-bash /var/www/mn.actibase/actiscripts/bash/update_cities.sh
+bash /var/www/ACTIBASES/ca.actibase/actiscripts/bash/update_cities.sh
 
 killall Xvfb
 
-source /var/www//mn.actibase/bin/activate
+source /var/www//ACTIBASES/ca.actibase/bin/activate
 
-python /var/www/mn.actibase/actiscripts/bash/getPics.py
+python /var/www/ACTIBASES/ca.actibase/actiscripts/bash/getPics.py
 
-cd /var/www/mn.actibase/actiscripts/bash
+cd /var/www/ACTIBASES/ca.actibase/actiscripts/bash
 
 rm -rf *png
 

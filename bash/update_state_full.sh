@@ -2,10 +2,10 @@
 
 #killall Xvfb
 
-source /var/www/mn.actibase/bin/activate
+source /var/www/ACTIBASES/ca.actibase/bin/activate
 
-cd /var/www/mn.actibase/actibase/scripts/state
-pupa update Minnesota events bills
+cd /var/www/ACTIBASES/ca.actibase/actibase/scripts/state
+pupa update California events bills
 
 
 deactivate

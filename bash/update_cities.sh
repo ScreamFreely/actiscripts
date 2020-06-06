@@ -1,15 +1,14 @@
 #!/bin/bash
 
-source /var/www/mn.actibase/bin/activate
+source /var/www/ACTIBASES/ca.actibase/bin/activate
 
-cd /var/www/mn.actibase/actiscripts/city/
+cd /var/www/ACTIBASES/ca.actibase/actiscripts/city/
 
-pupa update Minneapolis events
-pupa update StPaul events
-pupa update Duluth events
+pupa update SanFrancisco events
+pupa update Oakland events
 
-cd /var/www/mn.actibase/actiscripts/state
-pupa update Minnesota events
+# cd /var/www/ACTIBASES/ca.actibase/actiscripts/state
+# pupa update California events
 
 deactivate
 

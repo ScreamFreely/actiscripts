@@ -4,7 +4,7 @@ import django
 from pprint import pprint as ppr
 
 
-sys.path.append('/var/www/mnactivist.org/actibase/')
+sys.path.append('/var/www/ACTIBASES/ca.actibase/actibase/')
 os.environ['DJANGO_SETTINGS_MODULE'] = 'server.settings'
 django.setup()
 
