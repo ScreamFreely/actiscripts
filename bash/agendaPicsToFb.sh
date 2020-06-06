@@ -2,9 +2,9 @@
 
 killall Xvfb
 
-source /var/www//mn.actibase/bin/activate
+source /var/www/ACTIBASES/il.actibase/bin/activate
 
-python /var/www/mn.actibase/actibase/scripts/bash/getPics.py
+python /var/www/ACTIBASES/il.actibase/actibase/scripts/bash/getPics.py
 
 deactivate
 

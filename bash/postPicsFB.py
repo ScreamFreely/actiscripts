@@ -22,7 +22,7 @@ sys.path.insert(0, '/var/www/mn.actibase')
 import mnauth as KF
 
 LINKS = [
-    'https://mnactivist.org/p/Minneapolis',
+    'https://ilactivist.org/p/Minneapolis',
 #    'https://mnactivist.org/p/Saint-Paul',
 #    'https://mnactivist.org/p/Hennepin-County',
 #   'https://mnactivist.org/p/Minnesota',

@@ -17,17 +17,12 @@ import facebook, twitter
 
 from xvfbwrapper import Xvfb
 
-sys.path.insert(0, '/var/www/mn.actibase')
+sys.path.insert(0, '/var/www/ACTIBASES/il.actibase')
 #sys.path.insert(0, '/home/nkfx/ScreamFreely/MnActivist/server')
 import siteauth as KF
 
 LINKS = [
-    'https://mnactivist.org/p/Minneapolis',
-    'https://mnactivist.org/p/Saint-Paul',
-    'https://mnactivist.org/p/Inver-Grove-Heights',
-    'https://mnactivist.org/p/Wayzata',
-#    'https://mnactivist.org/p/Hennepin-County',
-#   'https://mnactivist.org/p/Minnesota',
+    'https://ilactivist.org/p/Minneapolis',
 ]
 
 mnact = {'access_token': KF.fb_token, 'id': KF.fb_id}

@@ -1,8 +1,8 @@
 from pupa.scrape import Scraper
-from pupa.scrape import Person
+from pupa.scrape import VoteEvent
 
 
-class WayzataPersonScraper(Scraper):
+class AuroraVoteEventScraper(Scraper):
 
     def scrape(self):
         # needs to be implemented

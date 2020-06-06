@@ -2,10 +2,10 @@
 
 #killall Xvfb
 
-source /var/www/mn.actibase/bin/activate
+source /var/www/ACTIBASES/il.actibase/bin/activate
 
-cd /var/www/mn.actibase/actibase/scripts/state
-pupa update Minnesota house senate comms
+cd /var/www/ACTIBASES/il.actibase/actibase/scripts/state
+pupa update Illinois
 
 
 deactivate
