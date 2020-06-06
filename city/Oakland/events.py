@@ -58,9 +58,9 @@ def processRows(rows):
 		time = cells[3].find_element_by_xpath('.//span').text
 		d['datetime'] = datetime.strptime(date + ' ' + time, TIME_FORMAT)
 		d['details'] = cells[5].find_element_by_xpath('.//a').text
-		d['agenda'] = cells[5].find_element_by_xpath('.//a').text
+		d['agenda'] = cells[6].find_element_by_xpath('.//a').text
 		d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
-		d['agendaLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
+		d['agendaLink'] = cells[6].find_element_by_xpath('.//a').get_attribute('href')
 		EVENTS.append(d)
 
 rows = getRows(br)
