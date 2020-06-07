@@ -21,7 +21,7 @@ import pytz
 
 
 EVENTS = []
-TIME_FORMAT = '%m/%d/%Y %I:%M %p'
+TIME_FORMAT = '%B %d, %Y %I:%M %p'
 
 tz = pytz.timezone("US/Eastern")
 
@@ -55,7 +55,8 @@ def getEvents(s):
 		d['title'] = e.xpath('.//*/div[@class="n-li-t"]/a/text()')[0]
 		d['titleLink'] = base_url + e.xpath('.//*/div[@class="n-li-t"]/a/@href')[0]
 		info = e.xpath('.//*/li[@class="dl-i"]')
-		d['when'] = info[0].xpath('.//span[@class="dl-d"]/text()')[0].strip()
+		when = info[0].xpath('.//span[@class="dl-d"]/text()')[0].strip()
+		d['when'] = datetime.strptime(when, TIME_FORMAT)
 		d['where'] = []
 		d['locality'] = ''
 		where = [info[1].xpath('.//*/div[@class="name-block"]/text()')[0].strip(), 
@@ -97,7 +98,7 @@ class BostonEventScraper(Scraper):
 
     def scrape(self):
         for c in EVENTS:
-            dt = tz.localize(c['datetime'])
+            dt = tz.localize(c['when'])
             try:
                 e = Event(name=c['title'],
                           start_date=dt,
