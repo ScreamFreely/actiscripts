@@ -2,7 +2,7 @@ from pupa.scrape import Scraper
 from pupa.scrape import VoteEvent
 
 
-class AuroraVoteEventScraper(Scraper):
+class BostonVoteEventScraper(Scraper):
 
     def scrape(self):
         # needs to be implemented

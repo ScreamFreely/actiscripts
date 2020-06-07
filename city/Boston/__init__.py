@@ -1,28 +1,28 @@
 # encoding=utf-8
 from pupa.scrape import Jurisdiction, Organization
-from .events import ChicagoEventScraper
-from .people import ChicagoPersonScraper
-from .bills import ChicagoBillScraper
-from .vote_events import ChicagoVoteEventScraper
+from .events import BostonEventScraper
+from .people import BostonPersonScraper
+from .bills import BostonBillScraper
+from .vote_events import BostonVoteEventScraper
 
 
-class Chicago(Jurisdiction):
-    division_id = "ocd-division/country:us/state:il/place:chicago"
+class Aurora(Jurisdiction):
+    division_id = "ocd-division/country:us/state:ma/place:boston"
     classification = "government"
-    name = "Chicago"
-    url = "https://www.chicago.gov"
+    name = "Aurora"
+    url = "https://www.boston.gov/"
     scrapers = {
-        "events": ChicagoEventScraper,
-        # "people": ChicagoPersonScraper,
-        # "bills": ChicagoBillScraper,
-        # "vote_events": ChicagoVoteEventScraper,
+        "events": BostonEventScraper,
+        # "people": BostonPersonScraper,
+        # "bills": BostonBillScraper,
+        # "vote_events": BostonVoteEventScraper,
     }
 
     def get_organizations(self):
         #REQUIRED: define an organization using this format
         #where org_name is something like Seattle City Council
         #and classification is described here:
-        city = Organization(name="City of Chicago", classification="executive")
+        city = Organization(name="City of Boston", classification="executive")
         yield city
         
         # OPTIONAL: add posts to your organizaion using this format,
