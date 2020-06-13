@@ -44,7 +44,7 @@ br = wd.Chrome()
 # br = wd.Firefox()
 
 EVENTS = []
-TIME_FORMAT = '%b %d, %I:%M %p'
+TIME_FORMAT = '%Y %b %d, %I:%M %p'
 
 
 def getEvents(cu):
@@ -57,6 +57,7 @@ def getEvents(cu):
 			d = {}
 			d['title'] = e.find_element_by_class_name('event-panel-title').text
 			dt = e.find_element_by_class_name('event-panel-datetime').text
+			dt = '2020 ' + dt
 			d['datetime'] = datetime.strptime(dt, TIME_FORMAT)
 			e.click()
 			sleep(3)
