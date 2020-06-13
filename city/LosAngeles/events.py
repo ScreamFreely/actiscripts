@@ -47,7 +47,7 @@ EVENTS = []
 TIME_FORMAT = '%b %d, %I:%M %p'
 
 def getEvents(cu):
-	br.get(calendar_url)
+	br.get(cu)
 	sleep(10)
 	bases = br.find_elements_by_class_name('calendar-button')
 
@@ -79,7 +79,7 @@ class LosangelesEventScraper(Scraper):
 
     def scrape(self):
         for c in EVENTS:
-            dt = tz.localize(c['dt'])
+            dt = tz.localize(c['datetime'])
             try:
                 e = Event(name=c['title'],
                           start_date=dt,
