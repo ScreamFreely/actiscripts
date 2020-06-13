@@ -2,7 +2,7 @@ import re, os
 from datetime import datetime
 
 from pprint import pprint as ppr
-
+import json
 from time import sleep
 from pprint import pprint as ppr
 from selenium import webdriver as wd
@@ -46,6 +46,7 @@ br = wd.Chrome()
 EVENTS = []
 TIME_FORMAT = '%b %d, %I:%M %p'
 
+
 def getEvents(cu):
 	br.get(cu)
 	sleep(10)
@@ -72,8 +73,10 @@ for cal in calendar_url:
 	getEvents(cal)
 
 
-EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]] 
+# EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]] 
 
+
+ppr(EVENTS)
 
 class LosangelesEventScraper(Scraper):
 
