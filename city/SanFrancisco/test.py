@@ -23,7 +23,13 @@ import pytz
 tz = pytz.timezone("US/Central")
 
 # Set initial variables for City, etc
-calendar_url = 'https://sfgov.legistar.com/Calendar.aspx'
+calendar_url = ['https://www.lacity.org/government/meeting-calendars/city-council-meetingsagendas',
+ 				'https://www.lacity.org/government/meeting-calendars/city-council-committee-meetingsagendas',
+ 				'https://www.lacity.org/government/meeting-calendars/board-meetings',
+ 				'https://www.lacity.org/government/meeting-calendars/neighborhood-council-meetings']
+
+nope_calendar_url = 'https://www.lacity.org/government/meeting-calendars/council-and-committee-meetings'
+
 
 start_cmd = "Xvfb :91 && export DISPLAY=:91 &"
 xvfb = Xvfb()
@@ -37,31 +43,32 @@ print("started Xvfb")
 # br = wd.Chrome()
 br = wd.Firefox()
 
-br.get(calendar_url)
-sleep(10)
+EVENTS = []
 
-table = br.find_element_by_class_name('rgMasterTable')
-rows = table.find_elements_by_xpath('.//tbody/tr')
+def getEvents(cu):
+	br.get(calendar_url)
+	sleep(10)
+	bases = br.find_elements_by_class_name('calendar-button')
 
-for row in rows:
-	cells = row.find_elements_by_xpath('.//td')
-	d= {}
-	d['title'] = cells[0].text
-	d['location'] = cells[4].text.replace('\n', '')
-	date = cells[1].text
-	time = cells[3].find_element_by_xpath('.//span').text
-	d['datetime'] = date + ' ' + time
-	d['details'] = cells[5].find_element_by_xpath('.//a').text
-	d['agend'] = cells[5].find_element_by_xpath('.//a').text
-	d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
-	d['agendaLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
-	ppr(d)
+	for e in bases:
+		try:
+			d = {}
+			d['title'] = e.find_element_by_class_name('event-panel-title').text
+			d['dt'] = e.find_element_by_class_name('event-panel-datetime').text
+			print(d)
+			e.click()
+			sleep(3)
+			br.switch_to.window(br.window_handles[1])
+			d['link'] = br.current_url
+			br.close()
+			br.switch_to.window(br.window_handles[0])
+			EVENTS.append(d)
+		except Exception as e:
+			pass
 
-next_week = br.find_element_by_id('ctl00_ContentPlaceHolder1_lstYears_Input')
-next_week.send_keys('N')
-next_week.submit()
 
-br.find_element_by_id('ctl00_ContentPlaceHolder1_btnSearch').click()
+for cal in calendar_url:
+	getEvents(cal)
 
 
 EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]] 
