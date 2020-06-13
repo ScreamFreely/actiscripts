@@ -72,9 +72,16 @@ def getEvents(cu):
 for cal in calendar_url:
 	getEvents(cal)
 
-
+def remove_dupe_dicts(l):
+  return [
+    dict(t) 
+    for t in {
+      tuple(d.items())
+      for d in l
+    }
+  ]
 # EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]] 
-
+EVENTS = remove_dupe_dicts(EVENTS)
 
 ppr(EVENTS)
 
