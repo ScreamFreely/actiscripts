@@ -75,6 +75,9 @@ processRows(rows)
 
 EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]]
 
+ppr(EVENTS)
+
+
 class SanfranciscoEventScraper(Scraper):
 
     def scrape(self):
@@ -86,7 +89,7 @@ class SanfranciscoEventScraper(Scraper):
                           location_name=c['location'],
                           classification='govt')
                 # e.add_committee(c['name'])
-                # e.add_source(c['link'])
+                e.add_source('https://sfgov.legistar.com/Calendar.aspx')
                 # e.add_media_link(note="Calendar Invite",
                 #                  url=c['cal_invite'],
                 #                  media_type="link")

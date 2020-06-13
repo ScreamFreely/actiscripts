@@ -58,9 +58,9 @@ def processRows(rows):
 		time = cells[3].find_element_by_xpath('.//span').text
 		d['datetime'] = datetime.strptime(date + ' ' + time, TIME_FORMAT)
 		d['details'] = cells[5].find_element_by_xpath('.//a').text
-		d['agenda'] = cells[5].find_element_by_xpath('.//a').text
+		d['agenda'] = cells[6].find_element_by_xpath('.//a').text
 		d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
-		d['agendaLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
+		d['agendaLink'] = cells[6].find_element_by_xpath('.//a').get_attribute('href')
 		EVENTS.append(d)
 
 rows = getRows(br)
@@ -87,7 +87,7 @@ class OaklandEventScraper(Scraper):
                           location_name=c['location'],
                           classification='govt')
                 # e.add_committee(c['name'])
-                # e.add_source(c['link'])
+                e.add_source('https://oakland.legistar.com/calendar.aspx')
                 # e.add_media_link(note="Calendar Invite",
                 #                  url=c['cal_invite'],
                 #                  media_type="link")
