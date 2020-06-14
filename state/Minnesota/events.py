@@ -17,7 +17,7 @@ from lxml.etree import tostring
 
 import pytz
 
-tz = pytz.timezone("US/Central")
+tz = pytz.timezone("US/Eastern")
 
 #from html2text import html2text
 

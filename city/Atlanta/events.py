@@ -20,7 +20,7 @@ from pupa.scrape import Event
 import pytz
 
 
-tz = pytz.timezone("US/Central")
+tz = pytz.timezone("US/Eastern")
 
 TIME_FORMAT = '%b %d, %Y %I:%M %p'
 
@@ -61,7 +61,8 @@ def getEvents(url):
             time = event.find_element_by_class_name('calendar_eventtime').text
             d['title'] = event.find_element_by_class_name('calendar_eventlink').get_attribute('title')
             d['link'] = event.find_element_by_class_name('calendar_eventlink').get_attribute('href')
-            d['dateTime'] = '{0} {1}'.format(date, time)
+            dateTime = '{0} {1}'.format(date, time)
+            d['datetime'] = datetime.strptime(dateTime, TIME_FORMAT)
             EVENTS.append(d)
 
 
