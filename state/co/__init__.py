@@ -4,7 +4,7 @@ from utils.lxmlize import url_xpath
 from pupa.scrape import Jurisdiction, Organization
 from .people import COLegislatorScraper
 # from .committees import COCommitteeScraper
-from .bills import COBillScraper
+# from .bills import COBillScraper
 from .events import COEventScraper
 
 
@@ -16,7 +16,7 @@ class Colorado(Jurisdiction):
     scrapers = {
         'people': COLegislatorScraper,
         # 'committees': COCommitteeScraper,
-        'bills': COBillScraper,
+        # 'bills': COBillScraper,
         'events': COEventScraper,
     }
     legislative_sessions = [
@@ -122,6 +122,11 @@ class Colorado(Jurisdiction):
     ]
 
     def get_organizations(self):
+        dfl = Organization('Republican', classification='party')
+        repub = Organization('Democratic', classification='party')
+        yield dfl
+        yield repub
+
         legislature_name = "Colorado General Assembly"
 
         legislature = Organization(name=legislature_name,
