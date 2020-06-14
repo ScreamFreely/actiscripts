@@ -40,8 +40,8 @@ xvfb.start()
 print("started Xvfb")
 
 # Initiate and start the Browser
-# br = wd.Chrome()
-br = wd.Firefox()
+br = wd.Chrome()
+# br = wd.Firefox()
 
 EVENTS = []
 NEXTLINK = ''
