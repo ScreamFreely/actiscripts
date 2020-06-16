@@ -32,6 +32,7 @@ def get_list(url):
     # br = wd.Firefox()
     br.get('http://www.leg.state.mn.us/calendarday.aspx?jday=all')
     sleep(15)
+    br.find_element_by_id('show_quick_date').click()
     base = html.fromstring(br.page_source)
     xvfb.stop()
     os.system("pkill Xvfb")
