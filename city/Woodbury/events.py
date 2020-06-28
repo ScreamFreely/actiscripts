@@ -36,8 +36,8 @@ xvfb.start()
 print("started Xvfb")
 
 # Initiate and start the Browser
-# br = wd.Chrome()
-br = wd.Firefox()
+br = wd.Chrome()
+# br = wd.Firefox()
 
 EVENTS = []
 
@@ -54,7 +54,7 @@ def getEvents(br):
             time = day.find_element_by_class_name('meridiem').text
             d['title'] = day.find_element_by_class_name('foreignEventName').text.split(time)[1]
             dateTime = '{0} {1}, {2} {3}'.format(month, dateNumber, year, time)
-            d['datetime'] = datetime.strptime(dateTime, TIME_FORMAT)
+            d['dateTime'] = datetime.strptime(dateTime, TIME_FORMAT)
             link = day.find_element_by_class_name('foreignEventName')
             link.click()
             sleep(3)

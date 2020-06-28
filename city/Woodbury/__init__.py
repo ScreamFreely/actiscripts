@@ -13,16 +13,16 @@ class Woodbury(Jurisdiction):
     url = "https://www.woodburymn.gov/"
     scrapers = {
         "events": WoodburyEventScraper,
-        "people": WoodburyPersonScraper,
-        "bills": WoodburyBillScraper,
-        "vote_events": WoodburyVoteEventScraper,
+#        "people": WoodburyPersonScraper,
+#        "bills": WoodburyBillScraper,
+#        "vote_events": WoodburyVoteEventScraper,
     }
 
     def get_organizations(self):
         #REQUIRED: define an organization using this format
         #where org_name is something like Seattle City Council
         #and classification is described here:
-        city = Organization(name="Woodbury", classification="legislature")
+        city = Organization(name="Woodbury", classification="executive")
         yield city
         
         # OPTIONAL: add posts to your organizaion using this format,

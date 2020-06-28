@@ -24,8 +24,9 @@ import siteauth as KF
 LINKS = [
     {'cal': 'https://mnactivist.org/p/Minnesota', 'vidlink': None, 'callink': 'http://www.leg.state.mn.us/calendarday.aspx?jday=all'},
     {'cal': 'https://mnactivist.org/p/Minneapolis', 'vidlink': 'http://minneapolismn.gov/tv/citycounciltv', 'callink': 'https://lims.minneapolismn.gov/Calendar/citycouncil/upcoming'},
-    {'cal': 'https://mnactivist.org/p/Saint-Paul', 'vidlink': None, 'callink': 'https://www.wayzata.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml'},
+    {'cal': 'https://mnactivist.org/p/Saint-Paul', 'vidlink': None, 'callink': 'https://www.stpaul.gov/calendar/'},
     {'cal': 'https://mnactivist.org/p/Duluth', 'vidlink': None, 'callink': 'https://duluthmn.gov/event-calendar/'},
+    {'cal': 'https://mnactivist.org/p/Woodbury', 'vidlink': None, 'callink': 'https://www.woodburymn.gov/calendar.php'},
 ]
 
 mnact = {'access_token': KF.fb_token, 'id': KF.fb_id}
