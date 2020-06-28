@@ -29,6 +29,17 @@ LINKS = [
     {'cal': 'https://mnactivist.org/p/Woodbury', 'vidlink': None, 'callink': 'https://www.woodburymn.gov/calendar.php'},
 ]
 
+PROMO_LINKS = [
+    {'text': "If you'd like to support the work ...", 'link': 'https://teespring.com/otro-sf-cu'},
+    {'text': "Got another shirt/sweater/onsie style with the MnActivist logo too :)", 'link': 'https://teespring.com/otro-mnactivist-big-logo-cu'},
+    {'text': "Here's a song written and sung by me - a song for you.", 'link': 'https://soundcloud.com/cultureclap/one-sun-one-love'},
+    {'text': "And if you'd like to a lil' background on who the captain of this ol' ship is ...", 'link': 'https://blog.cultureclap.com/2020/06/14/activist-project-about/'},
+    {'text': "Lastly, you can find all of the code here", 'link': 'https://www.github.com/screamfreely'},
+    {'text': "Actually, one last thing, if you'd like to learn how to code, there's some intro material here:", 'link': 'https://www.rebelcoding.com'},
+]
+
+
+
 mnact = {'access_token': KF.fb_token, 'id': KF.fb_id}
 
 #os.system('killall Xvfb')
@@ -81,6 +92,13 @@ for link in LINKS:
         tweet = api.PostUpdate(msg, media=image)
     lastTweetID = tweet.id
     time.sleep(wait)
+
+for pl in PROMO_LINKS:
+    msg = "{0} \n\n {1}".format(pl['text'], pl['link'])
+    tweet = api.PostUpdate(msg, in_reply_to_status_id=int(lastTweetID))
+    lastTweetID = tweet.id
+    time.sleep(wait)
+
 
 
 
