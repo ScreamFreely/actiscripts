@@ -20,6 +20,8 @@ from pupa.scrape import Event
 import pytz
 
 
+os.system("pkill Xvfb")
+
 tz = pytz.timezone("US/Central")
 
 TIME_FORMAT = '%B %d, %Y %I:%M %p'
@@ -67,9 +69,12 @@ def getEvents(br):
 br.get(calendar_url)
 sleep(5)
 getEvents(br)
-br.find_element_by_class_name('nextPrevMonth').click()
+print('get Next Month')
+br.find_element_by_id('nextMonth').click()
 sleep(3)
 getEvents(br)
+
+os.system("pkill Xvfb")
 
 EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]] 
 
