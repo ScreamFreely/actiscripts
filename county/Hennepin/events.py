@@ -32,7 +32,7 @@ calendar_url = 'https://boardmeetingmaterials.hennepin.us/#meetings'
 
 def getDate(date):
     date_formatted = datetime.strptime(date, DATE_FORMAT)
-    dow = date_formated.weekday()
+    dow = date_formatted.weekday()
     if dow == 1:
         date = datetime.strptime(date + ' 1:30pm', DATE_FORMAT_2)
     elif dow == 3:
