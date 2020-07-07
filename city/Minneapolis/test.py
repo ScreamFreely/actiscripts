@@ -25,7 +25,7 @@ tz = pytz.timezone("US/Central")
 # Set initial variables for City, etc
 city_url = 'http://www.duluthmn.gov'
 council_url = 'http://www.duluthmn.gov/city-council/city-councilors'
-calendar_url = 'https://lims.minneapolismn.gov/Calendar/citycouncil/upcoming'
+calendar_url = 'https://boardmeetingmaterials.hennepin.us/'
 
 
 def convert_date(date):
