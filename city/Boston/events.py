@@ -48,6 +48,14 @@ def getSite(url):
 	s = html.fromstring(root)
 	return s 
 
+def getDate(dt):
+	try:
+		new_date = datetime.strptime(dt, TIME_FORMAT)
+	except Exception as e:
+		date_no_end_time = dt.split('-')[0].strip()
+		new_date = datetime.strptime(date_no_end_time, TIME_FORMAT)
+	return new_date
+
 def getEvents(s):
 	events = s.xpath('.//*/div[@class="g g--m0 n-li"]')
 	for e in events:
@@ -56,7 +64,7 @@ def getEvents(s):
 		d['titleLink'] = base_url + e.xpath('.//*/div[@class="n-li-t"]/a/@href')[0]
 		info = e.xpath('.//*/li[@class="dl-i"]')
 		when = info[0].xpath('.//span[@class="dl-d"]/text()')[0].strip()
-		d['when'] = datetime.strptime(when, TIME_FORMAT)
+		d['when'] = getDate(when)
 		d['where'] = []
 		d['locality'] = ''
 		where = [info[1].xpath('.//*/div[@class="name-block"]/text()')[0].strip(), 
