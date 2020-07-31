@@ -2,6 +2,11 @@
 
 source /var/www/mn.actibase/bin/activate
 
+cd /var/www/mn.actibase/actiscripts/county/
+
+pupa update Hennepin events
+pkill Xvfb
+
 cd /var/www/mn.actibase/actiscripts/city/
 
 pupa update Minneapolis events
