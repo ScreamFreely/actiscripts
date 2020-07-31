@@ -28,9 +28,20 @@ tz = pytz.timezone("US/Central")
 city_url = 'https://www.plymouthmn.gov/'
 calendar_url = 'https://www.plymouthmn.gov/what-s-new/calendar-of-events'
 
+os.system('pkill Xvfb')
+
+# Initiate virtual display
+start_cmd = "Xvfb :91 && export DISPLAY=:91 &"
+xvfb = Xvfb()
+
+# Start the virtual display
+os.system(start_cmd)
+xvfb.start()
+print("started Xvfb")
+
 # Initiate and start the Browser
-# br = wd.Chrome()
-br = wd.Firefox()
+br = wd.Chrome()
+#br = wd.Firefox()
 
 br.get(calendar_url)
 sleep(5)
