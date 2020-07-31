@@ -13,6 +13,7 @@ pupa update Minneapolis events
 pupa update StPaul events
 pupa update Duluth events
 pupa update Woodbury events
+pupa update Plymouth events
 
 cd /var/www/mn.actibase/actiscripts/state
 pupa update Minnesota events
