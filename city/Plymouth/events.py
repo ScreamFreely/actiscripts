@@ -46,31 +46,37 @@ br = wd.Chrome()
 br.get(calendar_url)
 sleep(5)
 
+def get_events(br):
+	global EVENTS
+	ntable = br.find_elements_by_id('events_widget_294_92_34')
+	cal_info = ntable[0]
+	month, year = cal_info.find_element_by_class_name('calendar_title_content').text.split(' ')
+	p_source = html.fromstring(br.page_source)
+	events = p_source.xpath('.//*[@class="calendar_day calendar_day_with_items"]')
+
+	for e in events:
+		cal_day = e.xpath('.//text()')[0].strip()
+		edivs = e.xpath('.//*[@class="calendar_item"]')
+		for ed in edivs:
+			d = {}
+			try:
+				time = ed.xpath('.//span/text()')[0]
+				date_time = '{0} {1}, {2} {3}'.format(month, cal_day, year, time)
+				d['date_time'] = datetime.strptime(date_time, DATE_FORMAT)
+			except:
+				date_time = '{0} {1}, {2}'.format(month, cal_day, year)
+				d['date_time'] = datetime.strptime(date_time, DATE_FORMAT2)
+			d['link'] = city_url + ed.xpath('.//*[@class="calendar_eventlink"]/@href')[0]
+			d['name'] = ed.xpath('.//*[@class="calendar_eventlink"]/@title')[0]
+			EVENTS.append(d)
+
+
+get_events(br)
 ntable = br.find_elements_by_id('events_widget_294_92_34')
 cal_info = ntable[0]
-month, year = cal_info.find_element_by_class_name('calendar_title_content').text.split(' ')
-next_month = cal_info.find_element_by_xpath('.//*[@class="next"]').get_attribute('href')
-
-p_source = html.fromstring(br.page_source)
-
-events = p_source.xpath('.//*[@class="calendar_day calendar_day_with_items"]')
-
-for e in events:
-	cal_day = e.xpath('.//text()')[0].strip()
-	edivs = e.xpath('.//*[@class="calendar_item"]')
-	for ed in edivs:
-		d = {}
-		try:
-			time = ed.xpath('.//span/text()')[0]
-			date_time = '{0} {1}, {2} {3}'.format(month, cal_day, year, time)
-			d['date_time'] = datetime.strptime(date_time, DATE_FORMAT)
-		except:
-			date_time = '{0} {1}, {2}'.format(month, cal_day, year)
-			d['date_time'] = datetime.strptime(date_time, DATE_FORMAT2)
-		d['link'] = city_url + ed.xpath('.//*[@class="calendar_eventlink"]/@href')[0]
-		d['name'] = ed.xpath('.//*[@class="calendar_eventlink"]/@title')[0]
-		EVENTS.append(d)
-
+cal_info.find_element_by_xpath('.//*[@class="next"]').click()
+sleep(5)
+get_events(br)
 
 class PlymouthEventScraper(Scraper):
 
