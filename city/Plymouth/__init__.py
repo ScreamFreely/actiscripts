@@ -13,22 +13,22 @@ class Plymouth(Jurisdiction):
     url = "https://www.plymouthmn.gov/"
     scrapers = {
         "events": PlymouthEventScraper,
-        "people": PlymouthPersonScraper,
-        "bills": PlymouthBillScraper,
-        "vote_events": PlymouthVoteEventScraper,
+        # "people": PlymouthPersonScraper,
+        # "bills": PlymouthBillScraper,
+        # "vote_events": PlymouthVoteEventScraper,
     }
 
     def get_organizations(self):
-        #REQUIRED: define an organization using this format
-        #where org_name is something like Seattle City Council
-        #and classification is described here:
-        org = Organization(name="org_name", classification="legislature")
+        city = Organization('City of Plymouth', classification='executive')
+        city.add_post('Mayor', 'Mayor', division_id='ocd-division/country:us/state:mn/place:plymouth')
+        city.add_post('City Clerk', 'City Clerk', division_id='ocd-division/country:us/state:mn/place:plymouth')        
+        yield city
 
-        # OPTIONAL: add posts to your organizaion using this format,
-        # where label is a human-readable description of the post (eg "Ward 8 councilmember")
-        # and role is the position type (eg councilmember, alderman, mayor...)
-        # skip entirely if you're not writing a people scraper.
-        org.add_post(label="position_description", role="position_type")
-
-        #REQUIRED: yield the organization
-        yield org
+        council = Organization(name="Minneapolis City Council", classification="legislature", parent_id=city)
+        for x in range(1, 5):
+            council.add_post(
+                "Ward {}".format(x),
+                "Councilmember",
+                division_id='ocd-division/country:us/state:mn/place:plymouth/ward:{}'.format(x))
+            
+        yield council

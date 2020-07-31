@@ -37,7 +37,7 @@ class Minneapolis(Jurisdiction):
                 "Ward {}".format(x),
                 "Councilmember",
                 division_id='ocd-division/country:us/state:mn/place:minneapolis/ward:{}'.format(x))
-
+            
         yield council
 
 

@@ -19,13 +19,14 @@ from pupa.scrape import Event
 
 import pytz
 
-
+DATE_FORMAT = '%A, %b %d, %Y'
+TIME_FORMAT = '%Y-%m-%d %I:%M %p'
 tz = pytz.timezone("US/Central")
 
 # Set initial variables for City, etc
-city_url = 'http://www.duluthmn.gov'
-council_url = 'http://www.duluthmn.gov/city-council/city-councilors'
-calendar_url = 'https://boardmeetingmaterials.hennepin.us/'
+city_url = 'https://www.plymouthmn.gov/'
+# council_url = 'http://www.duluthmn.gov/city-council/city-councilors'
+calendar_url = 'https://www.plymouthmn.gov/what-s-new/calendar-of-events'
 
 
 def convert_date(date):
@@ -54,26 +55,81 @@ def get_base(site):
 print("started Xvfb")
 
 # Initiate and start the Browser
+# br = wd.Chrome()
 br = wd.Firefox()
 
 br.get(calendar_url)
-sleep(10)
+sleep(5)
+
+p_source = html.fromstring(br.page_source)
+
+events = p_source.xpath('.//*[@class="calendar_day calendar_day_with_items"]')
+
+
+for e in events:
+    cal_day = e.xpath('.//text()')[0].strip()
+    print(cal_day)
+    edivs = e.xpath('.//*[@class="calendar_item"]')
+    for ed in edivs:
+        d = {}
+        try:
+            d['time'] = ed.xpath('.//span/text()')[0]
+        except:
+            d['time'] = 'n/a'
+        d['link'] = city_url + ed.xpath('.//*[@class="calendar_eventlink"]/@href')[0]
+        d['name'] = ed.xpath('.//*[@class="calendar_eventlink"]/@title')[0]
+        ppr(d)
+        print('\n\n++\n\n')
+
+ntable = br.find_elements_by_id('events_widget_294_92_34')
+
+cal_info = ntable[0]
+# cal_events = ntable[1].find_elements_by_xpath('.//tbody/tr/td')
+cal_event_days = br.find_elements_by_class_name('calendar_day_with_items')
+
+
+for ced in cal_event_days:
+    cal_day = ced.text
+    events = ced.find_elements_by_class_name('calendar_item')
+    for event in events:
+        d = {}
+        # d['time'] = event.find_element_by_class_name('calendar_eventtime')
+        d['time'] = event.find_element_by_xpath('.//span')
+        d['link'] = city_url + event.find_element_by_class_name('calendar_eventlink').get_attribute('href')
+        d['name'] = event.find_element_by_class_name('calendar_eventlink').get_attribute('title')
+        ppr(d)
+
+
+
+for ced in cal_event_days:
+    cal_day = ced.text
+    events = html.fromstring(ced.page_source)
+    for event in events:
+        d = {}
+        # d['time'] = event.find_element_by_class_name('calendar_eventtime')
+        d['time'] = event.xpath('.//span/text()')
+        # d['link'] = event.find_element_by_class_name('calendar_eventlink').get_attribute('href')
+        # d['name'] = event.find_element_by_class_name('calendar_eventlink').get_attribute('title')
+        ppr(d)
+
+
+
+month, year = cal_info.find_element_by_class_name('calendar_title_content').text.split(' ')
+next_month = cal_info.find_element_by_xpath('.//*[@class="next"]').get_attribute('href')
+
 
 br.find_element_by_class_name('fc-btn_allCalendars-button').click()
 
-all_entries = Select(br.find_element_by_id('showEnites'))
-all_entries.select_by_value('100')
+# all_entries = Select(br.find_element_by_id('showEnites'))
+# all_entries.select_by_value('100')
 
-sleep(5)
+# sleep(5)
 
-cal = br.find_element_by_xpath('//*[@class="col-md-12 form-group"]')
+# cal = br.find_element_by_xpath('//*[@class="col-md-12 form-group"]')
 
-dates = cal.find_elements_by_class_name('ng-scope')
+# dates = cal.find_elements_by_class_name('ng-scope')
 
-DATE_FORMAT = '%A, %b %d, %Y'
-TIME_FORMAT = '%Y-%m-%d %I:%M %p'
-
-realDates = []
+eventDates = []
 
 for date in dates:
     date.find_elements_by_xpath('//div/div/span[@class="ng-binding"]')[0]
@@ -87,50 +143,3 @@ for date in dates:
     except:
         continue
 
-def processSpan(div):
-    links = div.find_elements_by_tag_name('a')
-    spans = div.find_elements_by_tag_name('span')
-    deets = {}
-    if len(links) == 1:
-        name = div.find_elements_by_tag_name('span')[0].text
-        deets['xport'] = links[0].get_attribute('href')
-        deets['href'] = None
-    else:
-        deets['href'] = links[0].get_attribute('href')
-        deets['xport'] = links[1].get_attribute('href')
-        name = links[0].text 
-    deets['name'] = name.replace('This link open a new window', '').replace('\n', '')
-    return deets
-
-
-
-
-for item in realDates[:5]:
-    nds = str(item['datestamp']).split(' ')[0]
-    date = item['date']
-    events = date.find_elements_by_class_name('row')
-    for event in events[:3]:
-        divs = event.find_elements_by_tag_name('div')
-        time = divs[0].text
-        try:
-            e = {}
-            ndt = nds + ' ' + time
-            e['date_time'] = datetime.strptime(ndt, TIME_FORMAT)
-            print(ndt)
-            deets = processSpan(divs[2])
-            e['link'] = deets['href']
-            e['cal_invite'] = deets['xport']
-            names = deets['name'].split(',')
-            if len(names) == 3:
-                e['name'] = names[0]
-                e['room'] = names[1].strip()
-                e['location'] = names[2].strip()
-            elif len(names) == 2:
-                e['name'] = names[0]
-                e['location'] = names[1].strip()
-                e['room'] = 'n/a'
-            ppr(e)
-            print('\n ^^^ new event ^^^ \n\n')
-        except:
-            continue
-    print('\n\n Change Date \n\n')
