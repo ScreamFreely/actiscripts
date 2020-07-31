@@ -58,7 +58,7 @@ for e in events:
 			d['date_time'] = datetime.strptime(date_time, DATE_FORMAT2)
 		d['link'] = city_url + ed.xpath('.//*[@class="calendar_eventlink"]/@href')[0]
 		d['name'] = ed.xpath('.//*[@class="calendar_eventlink"]/@title')[0]
-        EVENTS.append(d)
+		EVENTS.append(d)
 
 
 class PlymouthEventScraper(Scraper):
