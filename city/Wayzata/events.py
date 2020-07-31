@@ -1,42 +1,61 @@
-from pupa.scrape import Scraper
-from pupa.scrape import Event
+import re, os
+from datetime import datetime
 
-from datetime import datetime, timedelta
+from pprint import pprint as ppr
+
+from time import sleep
+from pprint import pprint as ppr
+from selenium import webdriver as wd
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import Select
+
+from xvfbwrapper import Xvfb
+
 import requests
 from lxml import html
 
+from pupa.scrape import Scraper
+from pupa.scrape import Event
+
 import pytz
 
+DATE_FORMAT = '%B %d, %Y'
+DATE_FORMAT2 = '%B %d, %Y'
+EVENTS = []
 tz = pytz.timezone("US/Central")
 
-DATE_FORMAT = '%B %d, %Y %I:%M %p'
+# Set initial variables for City, etc
+city_url = 'https://www.wayzata.org'
+calendar_url = 'https://www.wayzata.org/calendar.aspx'
 
-site = requests.get('https://www.wayzata.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml')
-base = html.fromstring(site.text)
-events = base.xpath('.//*/item')
+os.system('pkill Xvfb')
 
-EVENTS = []
+# # Initiate virtual display
+# start_cmd = "Xvfb :91 && export DISPLAY=:91 &"
+# xvfb = Xvfb()
 
-for e in events:
+# # Start the virtual display
+# os.system(start_cmd)
+# xvfb.start()
+# print("started Xvfb")
+
+# Initiate and start the Browser
+br = wd.Chrome()
+#br = wd.Firefox()
+
+br.get(calendar_url)
+sleep(5)
+
+page_source = html.fromstring(br.page_source)
+
+events = ps.xpath('.//*[@class="section featured"]/ol/li')
+
+for event in events:
     d = {}
-    d['title'] = e.xpath('.//title/text()')[0]
-    d['link'] = e.xpath('.//guid/text()')[0]
-    eventDates = e.xpath('.//eventdates/text()')[0].strip()
-    eventTimes = e.xpath('.//eventtimes/text()')[0].split('-')[0].strip()
-    dateTime = eventDates + ' ' + eventTimes
-    d['dateTime'] = datetime.strptime(dateTime, DATE_FORMAT)
-    d['location'] = e.xpath('.//location/text()')[0].replace('<br>', ' ')
-    
-    desc = e.xpath('.//description/text()')[0]
-    newBase = html.fromstring(desc)
-    bolded = newBase.xpath('.//strong/text()')
-    if 'Description:' in bolded:
-        nText = newBase.xpath('.//text()')
-        print(nText)
-        try:
-            d['description'] = nText[9]
-        except:
-            d['description'] = nText[8]
+    d['link'] = city_url + event.xpath('.//a/@href')[0]
+    d['name'] = event.xpath('.//h4/text()')[0]
+    date_time = event.xpath('.//p/text()')[0].strip().replace('\xa0', ' ')
+    d['date_time'] = datetime.strptime(date_time, DATE_FORMAT)
     EVENTS.append(d)
 
 
@@ -44,13 +63,13 @@ class WayzataEventScraper(Scraper):
 
     def scrape(self):
         for c in EVENTS:
-            dt = tz.localize(c['dateTime'])
-            e = Event(name=c['title'],
+            dt = tz.localize(c['date_time'])
+            e = Event(name=c['name'],
                       start_date=dt,
-                      location_name=c['location'],
+                      location_name='see link',
                       classification='govt')
             # e.add_committee(c['CommitteeName'])
-            e.add_source('https://www.wayzata.org/RSSFeed.aspx?ModID=58&CID=All-calendar.xml')
+            e.add_source(c['link'])
             # e.add_media_link(note="Event link",
             #                  url=c['link'],
             #                  media_type="link")
