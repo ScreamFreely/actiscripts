@@ -27,6 +27,7 @@ LINKS = [
     {'cal': 'https://mnactivist.org/p/Saint-Paul', 'vidlink': None, 'callink': 'https://www.stpaul.gov/calendar/'},
     {'cal': 'https://mnactivist.org/p/Duluth', 'vidlink': None, 'callink': 'https://duluthmn.gov/event-calendar/'},
     {'cal': 'https://mnactivist.org/p/Woodbury', 'vidlink': None, 'callink': 'https://www.woodburymn.gov/calendar.php'},
+    {'cal': 'https://mnactivist.org/p/Plymouth', 'vidlink': None, 'callink': 'https://www.plymouthmn.gov/what-s-new/calendar-of-events'},
 ]
 
 PROMO_LINKS = [
