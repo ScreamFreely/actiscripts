@@ -53,11 +53,13 @@ def processRows(rows):
 		cells = row.find_elements_by_xpath('.//td')
 		d= {}
 		d['title'] = cells[0].text
-		d['location'] = cells[4].text.replace('\n', '')
+		# d['location'] = cells[4].text.replace('\n', '')
+		d['locations'] = "See Details"
 		date = cells[1].text
 		time = cells[3].find_element_by_xpath('.//span').text
 		d['datetime'] = datetime.strptime(date + ' ' + time, TIME_FORMAT)
 		d['details'] = cells[5].find_element_by_xpath('.//a').text
+		d['details'] = d['details'] + cells[4].text.replace('\n', '').replace("Chicago, Illinois", "")
 		d['agenda'] = cells[7].find_element_by_xpath('.//a').text
 		d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
 		d['agendaLink'] = cells[7].find_element_by_xpath('.//a').get_attribute('href')
@@ -87,7 +89,10 @@ class ChicagoEventScraper(Scraper):
                           location_name=c['location'],
                           classification='govt')
                 # e.add_committee(c['name'])
-                e.add_source('https://chicago.legistar.com/Calendar.aspx')
+                if not c['detailsLink'] == None:
+                	e.add_source(c['detailsLink'])
+                else:
+                	e.add_source('https://chicago.legistar.com/Calendar.aspx')
                 # e.add_media_link(note="Calendar Invite",
                 #                  url=c['cal_invite'],
                 #                  media_type="link")
