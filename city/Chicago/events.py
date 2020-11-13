@@ -66,12 +66,12 @@ def processRows(rows):
 rows = getRows(br)
 processRows(rows)
 
-next_week = br.find_element_by_id('ctl00_ContentPlaceHolder1_lstYears_Input')
-next_week.send_keys('N')
-next_week.submit()
+#next_week = br.find_element_by_id('ctl00_ContentPlaceHolder1_lstYears_Input')
+#next_week.send_keys('N')
+#next_week.submit()
 
-rows = getRows(br)
-processRows(rows)
+#rows = getRows(br)
+#processRows(rows)
 
 EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]]
 
@@ -80,6 +80,7 @@ class ChicagoEventScraper(Scraper):
     def scrape(self):
         for c in EVENTS:
             dt = tz.localize(c['datetime'])
+            ppr(c)
             try:
                 e = Event(name=c['title'],
                           start_date=dt,
