@@ -77,12 +77,13 @@ processRows(rows)
 
 EVENTS = [i for n, i in enumerate(EVENTS) if i not in EVENTS[n + 1:]]
 
+len(EVENTS)
+
 class ChicagoEventScraper(Scraper):
 
     def scrape(self):
         for c in EVENTS:
             dt = tz.localize(c['datetime'])
-            ppr(c)
             try:
                 e = Event(name=c['title'],
                           start_date=dt,
@@ -98,4 +99,5 @@ class ChicagoEventScraper(Scraper):
                 #                  media_type="link")
                 yield e
             except Exception as e:
+            	print('Something happened')
                 print(e)
