@@ -63,6 +63,7 @@ def processRows(rows):
 		d['agenda'] = cells[7].find_element_by_xpath('.//a').text
 		d['detailsLink'] = cells[5].find_element_by_xpath('.//a').get_attribute('href')
 		d['agendaLink'] = cells[7].find_element_by_xpath('.//a').get_attribute('href')
+		ppr(d)
 		EVENTS.append(d)
 
 rows = getRows(br)
@@ -100,4 +101,4 @@ class ChicagoEventScraper(Scraper):
                 yield e
             except Exception as e:
             	print('Something happened')
-                print(e)
+            	print(e)
